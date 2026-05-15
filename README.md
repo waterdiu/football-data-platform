@@ -43,6 +43,7 @@ Pages 首页：
 
 - [2026-05-15-worldcup-2026-integration-handoff.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-15-worldcup-2026-integration-handoff.md)
 - [2026-05-15-worldcup-2026-runtime-api.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-15-worldcup-2026-runtime-api.md)
+- [2026-05-15-world-cup-predictor-integration-design.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-15-world-cup-predictor-integration-design.md)
 
 ## Current Runtime Contract
 
@@ -126,12 +127,18 @@ python3 scripts/publish_all_world_cup_data.py
 - model runtime datasets
 - coverage
 - qualifier public datasets
-- runtime API / source health / runtime health
+- runtime API / predictor API / source health / runtime health
 
 如果需要从旧的 `worldcup/2026` 仓库回灌兼容数据镜像，再单独运行：
 
 ```bash
 node scripts/import_worldcup_site_local_data.mjs
+```
+
+如果需要先把 predictor 已下载的世界杯数据迁到平台 master，再单独运行：
+
+```bash
+python3 scripts/import_world_cup_predictor_local_data.py
 ```
 
 带上下文采集的世界杯发布：
@@ -218,6 +225,21 @@ python3 scripts/build_automation_readiness_report.py
 当前定时重建 workflow：
 
 - `.github/workflows/rebuild-worldcup-data.yml`
+
+## Predictor Integration Layer
+
+平台现在还提供 predictor 专用接口目录：
+
+- `data/public/api/worldcup/2026/predictor/manifest.json`
+- `data/public/api/worldcup/2026/predictor/bundle.json`
+
+它同时提供：
+
+- predictor 旧格式兼容数据
+- platform 标准数据
+- model runtime datasets
+
+用于让 `world-cup-predictor` 按阶段切换，而不是一次性硬切。
 ## Repository Layout
 
 ```text

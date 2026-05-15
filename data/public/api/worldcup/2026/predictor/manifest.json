@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "competition_id": "fifa_world_cup",
+  "season_id": "2026",
+  "contract_version": "2026-05-15.world-cup-predictor.v1",
+  "recommended_migration_order": [
+    "shared-fixtures.json",
+    "feature-inputs.json",
+    "fixtures.json",
+    "results.json",
+    "data-coverage.json",
+    "predictions.json",
+    "prematch-context.json",
+    "odds-snapshots.json"
+  ],
+  "bundle_url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/bundle.json",
+  "datasets": {
+    "shared_fixtures": {
+      "path": "api/worldcup/2026/predictor/shared-fixtures.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/shared-fixtures.json"
+    },
+    "feature_inputs": {
+      "path": "api/worldcup/2026/predictor/feature-inputs.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/feature-inputs.json"
+    },
+    "predictions_source": {
+      "path": "api/worldcup/2026/predictor/predictions-source.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/predictions-source.json"
+    },
+    "odds_source": {
+      "path": "api/worldcup/2026/predictor/odds-source.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/odds-source.json"
+    },
+    "context_source": {
+      "path": "api/worldcup/2026/predictor/context-source.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/context-source.json"
+    },
+    "canonical_teams": {
+      "path": "api/worldcup/2026/predictor/canonical-teams.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/canonical-teams.json"
+    },
+    "teams": {
+      "path": "api/worldcup/2026/predictor/teams.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/teams.json"
+    },
+    "fixtures": {
+      "path": "api/worldcup/2026/predictor/fixtures.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/fixtures.json"
+    },
+    "results": {
+      "path": "api/worldcup/2026/predictor/results.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/results.json"
+    },
+    "standings": {
+      "path": "api/worldcup/2026/predictor/standings.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/standings.json"
+    },
+    "predictions": {
+      "path": "api/worldcup/2026/predictor/predictions.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/predictions.json"
+    },
+    "data_coverage": {
+      "path": "api/worldcup/2026/predictor/data-coverage.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/data-coverage.json"
+    },
+    "odds_snapshots": {
+      "path": "api/worldcup/2026/predictor/odds-snapshots.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/odds-snapshots.json"
+    },
+    "lineups": {
+      "path": "api/worldcup/2026/predictor/lineups.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/lineups.json"
+    },
+    "injuries": {
+      "path": "api/worldcup/2026/predictor/injuries.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/injuries.json"
+    },
+    "prematch_context": {
+      "path": "api/worldcup/2026/predictor/prematch-context.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/prematch-context.json"
+    },
+    "weather": {
+      "path": "api/worldcup/2026/predictor/weather.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/weather.json"
+    }
+  },
+  "notes": [
+    "predictor 兼容层优先提供旧格式 shared_fixtures / feature_inputs / predictions_source，降低首轮切换风险。",
+    "platform 标准层仍以 fixtures / results / standings / predictions / data_coverage 为长期契约。"
+  ]
+}

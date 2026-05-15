@@ -1,0 +1,942 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/fixtures.json",
+  "fixtures": [
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537327",
+      "date": "2026-06-11",
+      "home_team": "Mexico",
+      "away_team": "South Africa",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": false
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537328",
+      "date": "2026-06-12",
+      "home_team": "South Korea",
+      "away_team": "Czech Republic",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537329",
+      "date": "2026-06-18",
+      "home_team": "Czech Republic",
+      "away_team": "South Africa",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537330",
+      "date": "2026-06-19",
+      "home_team": "Mexico",
+      "away_team": "South Korea",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": false
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537331",
+      "date": "2026-06-25",
+      "home_team": "Czech Republic",
+      "away_team": "Mexico",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537332",
+      "date": "2026-06-25",
+      "home_team": "South Africa",
+      "away_team": "South Korea",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537333",
+      "date": "2026-06-12",
+      "home_team": "Canada",
+      "away_team": "Bosnia and Herzegovina",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": false
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537334",
+      "date": "2026-06-13",
+      "home_team": "Qatar",
+      "away_team": "Switzerland",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537335",
+      "date": "2026-06-18",
+      "home_team": "Switzerland",
+      "away_team": "Bosnia and Herzegovina",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537336",
+      "date": "2026-06-18",
+      "home_team": "Canada",
+      "away_team": "Qatar",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": false
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537337",
+      "date": "2026-06-24",
+      "home_team": "Switzerland",
+      "away_team": "Canada",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537338",
+      "date": "2026-06-24",
+      "home_team": "Bosnia and Herzegovina",
+      "away_team": "Qatar",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537339",
+      "date": "2026-06-13",
+      "home_team": "Brazil",
+      "away_team": "Morocco",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537340",
+      "date": "2026-06-14",
+      "home_team": "Haiti",
+      "away_team": "Scotland",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537341",
+      "date": "2026-06-20",
+      "home_team": "Brazil",
+      "away_team": "Haiti",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537342",
+      "date": "2026-06-19",
+      "home_team": "Scotland",
+      "away_team": "Morocco",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537343",
+      "date": "2026-06-24",
+      "home_team": "Scotland",
+      "away_team": "Brazil",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537344",
+      "date": "2026-06-24",
+      "home_team": "Morocco",
+      "away_team": "Haiti",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537345",
+      "date": "2026-06-13",
+      "home_team": "United States",
+      "away_team": "Paraguay",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": false
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537346",
+      "date": "2026-06-14",
+      "home_team": "Australia",
+      "away_team": "Turkey",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537347",
+      "date": "2026-06-20",
+      "home_team": "Turkey",
+      "away_team": "Paraguay",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537348",
+      "date": "2026-06-19",
+      "home_team": "United States",
+      "away_team": "Australia",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": false
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537349",
+      "date": "2026-06-26",
+      "home_team": "Turkey",
+      "away_team": "United States",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537350",
+      "date": "2026-06-26",
+      "home_team": "Paraguay",
+      "away_team": "Australia",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537351",
+      "date": "2026-06-14",
+      "home_team": "Germany",
+      "away_team": "Curacao",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537352",
+      "date": "2026-06-14",
+      "home_team": "Ivory Coast",
+      "away_team": "Ecuador",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537353",
+      "date": "2026-06-20",
+      "home_team": "Germany",
+      "away_team": "Ivory Coast",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537354",
+      "date": "2026-06-21",
+      "home_team": "Ecuador",
+      "away_team": "Curacao",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537355",
+      "date": "2026-06-25",
+      "home_team": "Ecuador",
+      "away_team": "Germany",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537356",
+      "date": "2026-06-25",
+      "home_team": "Curacao",
+      "away_team": "Ivory Coast",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537357",
+      "date": "2026-06-14",
+      "home_team": "Netherlands",
+      "away_team": "Japan",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537358",
+      "date": "2026-06-15",
+      "home_team": "Sweden",
+      "away_team": "Tunisia",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537359",
+      "date": "2026-06-20",
+      "home_team": "Netherlands",
+      "away_team": "Sweden",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537360",
+      "date": "2026-06-21",
+      "home_team": "Tunisia",
+      "away_team": "Japan",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537361",
+      "date": "2026-06-25",
+      "home_team": "Tunisia",
+      "away_team": "Netherlands",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537362",
+      "date": "2026-06-25",
+      "home_team": "Japan",
+      "away_team": "Sweden",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537363",
+      "date": "2026-06-15",
+      "home_team": "Belgium",
+      "away_team": "Egypt",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537364",
+      "date": "2026-06-16",
+      "home_team": "Iran",
+      "away_team": "New Zealand",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537365",
+      "date": "2026-06-21",
+      "home_team": "Belgium",
+      "away_team": "Iran",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537366",
+      "date": "2026-06-22",
+      "home_team": "New Zealand",
+      "away_team": "Egypt",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537367",
+      "date": "2026-06-27",
+      "home_team": "New Zealand",
+      "away_team": "Belgium",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537368",
+      "date": "2026-06-27",
+      "home_team": "Egypt",
+      "away_team": "Iran",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537369",
+      "date": "2026-06-15",
+      "home_team": "Spain",
+      "away_team": "Cape Verde",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537370",
+      "date": "2026-06-15",
+      "home_team": "Saudi Arabia",
+      "away_team": "Uruguay",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537371",
+      "date": "2026-06-21",
+      "home_team": "Spain",
+      "away_team": "Saudi Arabia",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537372",
+      "date": "2026-06-21",
+      "home_team": "Uruguay",
+      "away_team": "Cape Verde",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537373",
+      "date": "2026-06-27",
+      "home_team": "Uruguay",
+      "away_team": "Spain",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537374",
+      "date": "2026-06-27",
+      "home_team": "Cape Verde",
+      "away_team": "Saudi Arabia",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537375",
+      "date": "2026-07-04",
+      "home_team": "Winner of Match 74",
+      "away_team": "Winner of Match 77",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537376",
+      "date": "2026-07-04",
+      "home_team": "Winner of Match 73",
+      "away_team": "Winner of Match 75",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537377",
+      "date": "2026-07-05",
+      "home_team": "Winner of Match 76",
+      "away_team": "Winner of Match 78",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537378",
+      "date": "2026-07-06",
+      "home_team": "Winner of Match 79",
+      "away_team": "Winner of Match 80",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537379",
+      "date": "2026-07-06",
+      "home_team": "Winner of Match 83",
+      "away_team": "Winner of Match 84",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537380",
+      "date": "2026-07-07",
+      "home_team": "Winner of Match 81",
+      "away_team": "Winner of Match 82",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537381",
+      "date": "2026-07-07",
+      "home_team": "Winner of Match 86",
+      "away_team": "Winner of Match 88",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537382",
+      "date": "2026-07-07",
+      "home_team": "Winner of Match 85",
+      "away_team": "Winner of Match 87",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537383",
+      "date": "2026-07-09",
+      "home_team": "Winner of Match 89",
+      "away_team": "Winner of Match 90",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537384",
+      "date": "2026-07-10",
+      "home_team": "Winner of Match 93",
+      "away_team": "Winner of Match 94",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537385",
+      "date": "2026-07-11",
+      "home_team": "Winner of Match 91",
+      "away_team": "Winner of Match 92",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537386",
+      "date": "2026-07-12",
+      "home_team": "Winner of Match 95",
+      "away_team": "Winner of Match 96",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537387",
+      "date": "2026-07-14",
+      "home_team": "Winner of Match 97",
+      "away_team": "Winner of Match 98",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537388",
+      "date": "2026-07-15",
+      "home_team": "Winner of Match 99",
+      "away_team": "Winner of Match 100",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537389",
+      "date": "2026-07-18",
+      "home_team": "Loser of Match 101",
+      "away_team": "Loser of Match 102",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537390",
+      "date": "2026-07-19",
+      "home_team": "Winner of Match 101",
+      "away_team": "Winner of Match 102",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537391",
+      "date": "2026-06-16",
+      "home_team": "France",
+      "away_team": "Senegal",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537392",
+      "date": "2026-06-16",
+      "home_team": "Iraq",
+      "away_team": "Norway",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537393",
+      "date": "2026-06-22",
+      "home_team": "France",
+      "away_team": "Iraq",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537394",
+      "date": "2026-06-23",
+      "home_team": "Norway",
+      "away_team": "Senegal",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537395",
+      "date": "2026-06-26",
+      "home_team": "Norway",
+      "away_team": "France",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537396",
+      "date": "2026-06-26",
+      "home_team": "Senegal",
+      "away_team": "Iraq",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537397",
+      "date": "2026-06-17",
+      "home_team": "Argentina",
+      "away_team": "Algeria",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537398",
+      "date": "2026-06-17",
+      "home_team": "Austria",
+      "away_team": "Jordan",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537399",
+      "date": "2026-06-22",
+      "home_team": "Argentina",
+      "away_team": "Austria",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537400",
+      "date": "2026-06-23",
+      "home_team": "Jordan",
+      "away_team": "Algeria",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537401",
+      "date": "2026-06-28",
+      "home_team": "Jordan",
+      "away_team": "Argentina",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537402",
+      "date": "2026-06-28",
+      "home_team": "Algeria",
+      "away_team": "Austria",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537403",
+      "date": "2026-06-17",
+      "home_team": "Portugal",
+      "away_team": "DR Congo",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537404",
+      "date": "2026-06-18",
+      "home_team": "Uzbekistan",
+      "away_team": "Colombia",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537405",
+      "date": "2026-06-23",
+      "home_team": "Portugal",
+      "away_team": "Uzbekistan",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537406",
+      "date": "2026-06-24",
+      "home_team": "Colombia",
+      "away_team": "DR Congo",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537407",
+      "date": "2026-06-27",
+      "home_team": "Colombia",
+      "away_team": "Portugal",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537408",
+      "date": "2026-06-27",
+      "home_team": "DR Congo",
+      "away_team": "Uzbekistan",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537409",
+      "date": "2026-06-17",
+      "home_team": "England",
+      "away_team": "Croatia",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537410",
+      "date": "2026-06-17",
+      "home_team": "Ghana",
+      "away_team": "Panama",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537411",
+      "date": "2026-06-23",
+      "home_team": "England",
+      "away_team": "Ghana",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537412",
+      "date": "2026-06-23",
+      "home_team": "Panama",
+      "away_team": "Croatia",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537413",
+      "date": "2026-06-27",
+      "home_team": "Panama",
+      "away_team": "England",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537414",
+      "date": "2026-06-27",
+      "home_team": "Croatia",
+      "away_team": "Ghana",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537415",
+      "date": "2026-06-29",
+      "home_team": "Group E Winner",
+      "away_team": "Best Third-Place Team from A/B/C/D/F",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537416",
+      "date": "2026-06-30",
+      "home_team": "Group I Winner",
+      "away_team": "Best Third-Place Team from C/D/F/G/H",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537417",
+      "date": "2026-06-28",
+      "home_team": "Group A Runner-up",
+      "away_team": "Group B Runner-up",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537418",
+      "date": "2026-06-30",
+      "home_team": "Group F Winner",
+      "away_team": "Group C Runner-up",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537419",
+      "date": "2026-07-02",
+      "home_team": "Group K Runner-up",
+      "away_team": "Group L Runner-up",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537420",
+      "date": "2026-07-02",
+      "home_team": "Group H Winner",
+      "away_team": "Group J Runner-up",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537421",
+      "date": "2026-07-02",
+      "home_team": "Group D Winner",
+      "away_team": "Best Third-Place Team from B/E/F/I/J",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537422",
+      "date": "2026-07-01",
+      "home_team": "Group G Winner",
+      "away_team": "Best Third-Place Team from A/E/H/I/J",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537423",
+      "date": "2026-06-29",
+      "home_team": "Group C Winner",
+      "away_team": "Group F Runner-up",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537424",
+      "date": "2026-06-30",
+      "home_team": "Group E Runner-up",
+      "away_team": "Group I Runner-up",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537425",
+      "date": "2026-07-01",
+      "home_team": "Group A Winner",
+      "away_team": "Best Third-Place Team from C/E/F/H/I",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537426",
+      "date": "2026-07-01",
+      "home_team": "Group L Winner",
+      "away_team": "Best Third-Place Team from E/H/I/J/K",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537427",
+      "date": "2026-07-03",
+      "home_team": "Group J Winner",
+      "away_team": "Group H Runner-up",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537428",
+      "date": "2026-07-03",
+      "home_team": "Group D Runner-up",
+      "away_team": "Group G Runner-up",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537429",
+      "date": "2026-07-03",
+      "home_team": "Group B Winner",
+      "away_team": "Best Third-Place Team from E/F/G/I/J",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    },
+    {
+      "match_id": "fifa_world_cup:2026:fdorg:537430",
+      "date": "2026-07-04",
+      "home_team": "Group K Winner",
+      "away_team": "Best Third-Place Team from D/E/I/J/L",
+      "competition_group": "world_cup",
+      "competition_weight": 1.0,
+      "neutral": true
+    }
+  ]
+}

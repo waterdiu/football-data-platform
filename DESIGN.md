@@ -519,6 +519,7 @@ football-data-platform/
 7. `data_coverage`
 8. `qualifier public datasets`
 9. `runtime API / health reports`
+10. `predictor compatibility API`
 
 对于世界杯正赛基础层，当前默认原则是：
 
@@ -549,6 +550,13 @@ football-data-platform/
 - 平台对外发布：`data/model/*.json`
 - `scripts/build_world_cup_model_datasets.py` 当前仅保留为 predictor 兼容回灌工具
 - `scripts/build_world_cup_model_runtime_datasets.py` 是主发布流水线默认入口
+
+predictor 兼容数据当前边界：
+
+- 平台内部主维护源：`data/normalized/world_cup_2026_predictor_*_master.json`
+- 平台对外发布：`data/public/api/worldcup/2026/predictor/*`
+- `scripts/import_world_cup_predictor_local_data.py` 当前是 predictor 已下载世界杯数据的手动迁移入口
+- `scripts/publish_world_cup_predictor_api.py` 负责发布 predictor 专用 compatibility API
 
 当需要赛前上下文时，该入口还可以先执行：
 

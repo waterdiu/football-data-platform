@@ -59,6 +59,16 @@
   - 输出：`data/model/predictions.json`
   - 同时发布：`data/public/predictions.json`
   - 并生成未匹配报告：`reports/world_cup_predictions_import_report.json`
+- `import_world_cup_predictor_local_data.py`
+  - 输入：预测项目已经落盘的世界杯数据文件
+  - 输出：
+    - `data/normalized/world_cup_2026_predictor_shared_fixtures_master.json`
+    - `data/normalized/world_cup_2026_predictor_feature_inputs_master.json`
+    - `data/normalized/world_cup_2026_predictor_predictions_source_master.json`
+    - `data/normalized/world_cup_2026_predictor_odds_source_master.json`
+    - `data/normalized/world_cup_2026_predictor_context_source_master.json`
+  - 并生成：`reports/world_cup_predictor_local_import_report.json`
+  - 当前定位：predictor 已下载世界杯数据的手动迁移入口，不是默认主发布步骤
 - `export_world_cup_fixtures_for_predictor.py`
   - 输入：共享层 `data/public/fixtures.json`
   - 输出：预测项目 `backend/data/raw/world_cup_2026_shared_fixtures.json`
@@ -85,6 +95,13 @@
     - `core/bundle.json`
   - 用于让 `worldcup/2026` 运行时直接读取静态 JSON API
   - `manifest.json` 会同时写入相对路径和 GitHub Pages 绝对 URL
+- `publish_world_cup_predictor_api.py`
+  - 输入：platform-owned predictor masters、`public/*.json`、`model/*.json`
+  - 输出：`data/public/api/worldcup/2026/predictor/**`
+  - 同时生成：
+    - `manifest.json`
+    - `bundle.json`
+  - 用于让 `world-cup-predictor` 低风险切到平台兼容层和标准层
 - `build_worldcup_2026_runtime_health.py`
   - 输入：`reports/source-health.json` 与 `data/public/api/worldcup/2026/manifest.json`
   - 输出：`data/public/api/worldcup/2026/health.json`
@@ -131,7 +148,7 @@
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
   - 先发布平台 own 的 `worldcup/2026` 兼容数据镜像
-  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`model datasets`、`coverage`、`qualifier public datasets`
+  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`model datasets`、`coverage`、`qualifier public datasets`、`runtime APIs`
   - 可选 `--capture-context`，先触发预测项目的世界杯 context capture，再继续发布
 - `build_source_health_report.py`
   - 聚合 `public/*`、`model/*` 和各类 report，输出统一的 `reports/source-health.json`

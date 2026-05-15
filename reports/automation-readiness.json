@@ -58,6 +58,11 @@
       "external_repos": []
     },
     {
+      "script": "publish_world_cup_predictor_api.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
       "script": "build_source_health_report.py",
       "self_contained": true,
       "external_repos": []
@@ -143,6 +148,13 @@
       "external_repos": [],
       "self_contained": true,
       "reason": "Publishes runtime API from platform-owned public datasets."
+    },
+    {
+      "script": "publish_world_cup_predictor_api.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Publishes predictor-facing compatibility and standard datasets from platform-owned masters."
     },
     {
       "script": "build_source_health_report.py",
