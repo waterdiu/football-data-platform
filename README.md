@@ -326,6 +326,18 @@ python3 scripts/sync_predictor_runtime_inbox.py --skip-capture
 
 `publish_predictor_inbox.py` 会区分 `missing` 和 `empty`。空数组或空 JSONL 不会覆盖平台正式数据，避免“采集任务运行了但没有源数据”被误判成 runtime enrichment 完成。
 
+平台自有运行期采集入口：
+
+```bash
+python3 scripts/collect_world_cup_runtime_data.py
+```
+
+当前已从模型侧迁出的第一块是 OpenWeather 天气采集。配置在 `configs/venues/world_cup_2026.json`，有 `OPENWEATHER_API_KEY` 时会写入 `data/normalized/world_cup_2026_model_weather_master.json`；没有 key 时只写 `reports/world_cup_runtime_collection_report.json`，不会覆盖现有数据。可在同步闭环中一并运行：
+
+```bash
+python3 scripts/sync_predictor_runtime_inbox.py --skip-capture --collect-platform-runtime
+```
+
 ## Repository Layout
 
 ```text

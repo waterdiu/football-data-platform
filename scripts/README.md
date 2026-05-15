@@ -129,7 +129,13 @@
   - 默认只跑 runtime 数据：odds + context，不跑 evaluation，predictions 需显式 `--include-predictions`
   - 采集后会串行刷新：predictor inbox、标准世界杯 predictions、`data/model/*`、coverage、worldcup runtime API、predictor API、source health、runtime health、migration status
   - 可用 `--skip-capture` 只发布已有 inbox，适合模型项目已经单独写入产物后的平台发布
+  - 可用 `--collect-platform-runtime` 同时运行平台自有运行期 collector，逐步替代对模型侧采集的依赖
   - 该脚本依赖本地 sibling checkout，不能直接放到 GitHub Actions 的标准 runner 中运行
+- `collect_world_cup_runtime_data.py`
+  - 平台自有运行期采集入口
+  - 当前已迁移：OpenWeather 天气采集，输出 `data/normalized/world_cup_2026_model_weather_master.json`
+  - 当前报告 pending：odds、lineups、injuries、prematch_context 的平台 adapter 尚未迁移
+  - 无 API key 或无匹配源时只写 `reports/world_cup_runtime_collection_report.json`，不会覆盖现有 model master
 - `build_migration_status.py`
   - 输入：source health、predictor health、predictor inbox report、data assets summary
   - 输出：`data/public/api/migration-status.json`

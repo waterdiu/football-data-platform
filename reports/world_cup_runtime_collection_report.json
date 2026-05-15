@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-05-15T15:37:52.383089+00:00",
+  "dry_run": false,
+  "fixtures_total": 104,
+  "fixtures_selected": 2,
+  "window_hours": null,
+  "limit": 2,
+  "datasets": [
+    {
+      "dataset": "weather",
+      "status": "missing_auth",
+      "auth_env": "OPENWEATHER_API_KEY",
+      "fixtures_considered": 2,
+      "rows_collected": 0
+    },
+    {
+      "dataset": "odds",
+      "status": "pending_adapter",
+      "rows_existing": 0,
+      "reason": "platform odds adapter not migrated yet",
+      "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_odds_master.json",
+      "auth_env": "THE_ODDS_API_KEY"
+    },
+    {
+      "dataset": "lineups",
+      "status": "pending_adapter",
+      "rows_existing": 0,
+      "reason": "platform lineup adapter not migrated yet",
+      "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_lineups_master.json",
+      "auth_env": "API_FOOTBALL_KEY"
+    },
+    {
+      "dataset": "injuries",
+      "status": "pending_adapter",
+      "rows_existing": 0,
+      "reason": "platform injury adapter not migrated yet",
+      "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_injuries_master.json",
+      "auth_env": "API_FOOTBALL_KEY"
+    },
+    {
+      "dataset": "prematch_context",
+      "status": "pending_adapter",
+      "rows_existing": 104,
+      "reason": "platform news/context adapter not migrated yet",
+      "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_prematch_context_master.json"
+    }
+  ]
+}

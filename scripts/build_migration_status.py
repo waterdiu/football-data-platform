@@ -11,6 +11,7 @@ REPORTS_DIR = ROOT / "reports"
 SOURCE_HEALTH_PATH = REPORTS_DIR / "source-health.json"
 PREDICTOR_HEALTH_PATH = PUBLIC_API_DIR / "worldcup" / "2026" / "predictor" / "health.json"
 PREDICTOR_INBOX_REPORT_PATH = REPORTS_DIR / "predictor_inbox_publish_report.json"
+RUNTIME_COLLECTION_REPORT_PATH = REPORTS_DIR / "world_cup_runtime_collection_report.json"
 ASSET_SUMMARY_PATH = PUBLIC_API_DIR / "predictor" / "data-assets" / "summary.json"
 OUTPUT_PATH = PUBLIC_API_DIR / "migration-status.json"
 
@@ -32,6 +33,12 @@ EXPECTED_INBOX_OUTPUTS = [
 
 def load_json(path: Path) -> object:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_optional_json(path: Path) -> object:
+    if not path.exists():
+        return {}
+    return load_json(path)
 
 
 def write_json(path: Path, payload: object) -> None:
@@ -58,6 +65,7 @@ def main() -> None:
     source_health = load_json(SOURCE_HEALTH_PATH)
     predictor_health = load_json(PREDICTOR_HEALTH_PATH)
     inbox_report = load_json(PREDICTOR_INBOX_REPORT_PATH)
+    runtime_collection_report = load_optional_json(RUNTIME_COLLECTION_REPORT_PATH)
     asset_summary = load_json(ASSET_SUMMARY_PATH)
 
     public_datasets = source_health.get("public_datasets", {}) if isinstance(source_health, dict) else {}
@@ -135,7 +143,12 @@ def main() -> None:
             "world_cup_lineups_rows": model_datasets.get("lineups"),
             "world_cup_injuries_rows": model_datasets.get("injuries"),
             "world_cup_weather_rows": model_datasets.get("weather"),
-            "note": "These remain pending until predictor odds/context jobs produce inbox files.",
+            "note": "These remain pending until platform collectors or predictor inbox files produce rows.",
+        },
+        "platform_runtime_collectors": {
+            "status": "available" if runtime_collection_report else "not_run",
+            "report_path": "reports/world_cup_runtime_collection_report.json",
+            "datasets": runtime_collection_report.get("datasets", []) if isinstance(runtime_collection_report, dict) else [],
         },
     }
 

@@ -72,6 +72,13 @@ def main() -> None:
     parser.add_argument("--skip-odds", action="store_true", help="skip predictor odds capture")
     parser.add_argument("--skip-context", action="store_true", help="skip predictor context capture")
     parser.add_argument(
+        "--collect-platform-runtime",
+        action="store_true",
+        help="also run platform-owned runtime collectors before publishing model datasets",
+    )
+    parser.add_argument("--platform-window-hours", type=int, default=None)
+    parser.add_argument("--platform-limit", type=int, default=None)
+    parser.add_argument(
         "--include-predictions",
         action="store_true",
         help="also let predictor regenerate Premier League predictions during maintenance",
@@ -84,6 +91,14 @@ def main() -> None:
 
     run_platform_script("publish_predictor_inbox.py")
     import_world_cup_predictions_from_inbox()
+    if args.collect_platform_runtime:
+        command = [sys.executable, str(SCRIPTS_DIR / "collect_world_cup_runtime_data.py")]
+        if args.platform_window_hours is not None:
+            command.extend(["--window-hours", str(args.platform_window_hours)])
+        if args.platform_limit is not None:
+            command.extend(["--limit", str(args.platform_limit)])
+        print("[platform] collect_world_cup_runtime_data.py")
+        run_command(command, cwd=ROOT)
     for script_name in [
         "build_world_cup_model_runtime_datasets.py",
         "build_world_cup_coverage.py",

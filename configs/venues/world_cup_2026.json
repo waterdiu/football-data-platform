@@ -1,0 +1,114 @@
+{
+  "arrowhead-stadium": {
+    "venue_id": "arrowhead-stadium",
+    "name": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "latitude": 39.0489,
+    "longitude": -94.4839
+  },
+  "at-and-t-stadium": {
+    "venue_id": "at-and-t-stadium",
+    "name": "AT&T Stadium",
+    "city": "Dallas",
+    "latitude": 32.7473,
+    "longitude": -97.0945
+  },
+  "bc-place": {
+    "venue_id": "bc-place",
+    "name": "BC Place",
+    "city": "Vancouver",
+    "latitude": 49.2768,
+    "longitude": -123.1119
+  },
+  "bmo-field": {
+    "venue_id": "bmo-field",
+    "name": "BMO Field",
+    "city": "Toronto",
+    "latitude": 43.6332,
+    "longitude": -79.4186
+  },
+  "estadio-akron": {
+    "venue_id": "estadio-akron",
+    "name": "Estadio Akron",
+    "city": "Guadalajara",
+    "latitude": 20.6817,
+    "longitude": -103.4626
+  },
+  "estadio-azteca": {
+    "venue_id": "estadio-azteca",
+    "name": "Estadio Azteca",
+    "city": "Mexico City",
+    "latitude": 19.3029,
+    "longitude": -99.1504
+  },
+  "estadio-bbva": {
+    "venue_id": "estadio-bbva",
+    "name": "Estadio BBVA",
+    "city": "Monterrey",
+    "latitude": 25.6682,
+    "longitude": -100.2447
+  },
+  "gillette-stadium": {
+    "venue_id": "gillette-stadium",
+    "name": "Gillette Stadium",
+    "city": "Boston",
+    "latitude": 42.0909,
+    "longitude": -71.2643
+  },
+  "hard-rock-stadium": {
+    "venue_id": "hard-rock-stadium",
+    "name": "Hard Rock Stadium",
+    "city": "Miami",
+    "latitude": 25.958,
+    "longitude": -80.2389
+  },
+  "levis-stadium": {
+    "venue_id": "levis-stadium",
+    "name": "Levi's Stadium",
+    "city": "San Francisco Bay Area",
+    "latitude": 37.403,
+    "longitude": -121.97
+  },
+  "lincoln-financial-field": {
+    "venue_id": "lincoln-financial-field",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "latitude": 39.9008,
+    "longitude": -75.1675
+  },
+  "lumen-field": {
+    "venue_id": "lumen-field",
+    "name": "Lumen Field",
+    "city": "Seattle",
+    "latitude": 47.5952,
+    "longitude": -122.3316
+  },
+  "mercedes-benz-stadium": {
+    "venue_id": "mercedes-benz-stadium",
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "latitude": 33.7554,
+    "longitude": -84.4008
+  },
+  "metlife-stadium": {
+    "venue_id": "metlife-stadium",
+    "name": "MetLife Stadium",
+    "city": "New York/New Jersey",
+    "latitude": 40.8135,
+    "longitude": -74.0745
+  },
+  "nrg-stadium": {
+    "venue_id": "nrg-stadium",
+    "name": "NRG Stadium",
+    "city": "Houston",
+    "latitude": 29.6847,
+    "longitude": -95.4107
+  },
+  "sofi-stadium": {
+    "venue_id": "sofi-stadium",
+    "name": "SoFi Stadium",
+    "city": "Los Angeles",
+    "latitude": 33.9535,
+    "longitude": -118.3392
+  }
+}

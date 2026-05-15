@@ -84,6 +84,50 @@
     "world_cup_lineups_rows": 0,
     "world_cup_injuries_rows": 0,
     "world_cup_weather_rows": 0,
-    "note": "These remain pending until predictor odds/context jobs produce inbox files."
+    "note": "These remain pending until platform collectors or predictor inbox files produce rows."
+  },
+  "platform_runtime_collectors": {
+    "status": "available",
+    "report_path": "reports/world_cup_runtime_collection_report.json",
+    "datasets": [
+      {
+        "dataset": "weather",
+        "status": "missing_auth",
+        "auth_env": "OPENWEATHER_API_KEY",
+        "fixtures_considered": 2,
+        "rows_collected": 0
+      },
+      {
+        "dataset": "odds",
+        "status": "pending_adapter",
+        "rows_existing": 0,
+        "reason": "platform odds adapter not migrated yet",
+        "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_odds_master.json",
+        "auth_env": "THE_ODDS_API_KEY"
+      },
+      {
+        "dataset": "lineups",
+        "status": "pending_adapter",
+        "rows_existing": 0,
+        "reason": "platform lineup adapter not migrated yet",
+        "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_lineups_master.json",
+        "auth_env": "API_FOOTBALL_KEY"
+      },
+      {
+        "dataset": "injuries",
+        "status": "pending_adapter",
+        "rows_existing": 0,
+        "reason": "platform injury adapter not migrated yet",
+        "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_injuries_master.json",
+        "auth_env": "API_FOOTBALL_KEY"
+      },
+      {
+        "dataset": "prematch_context",
+        "status": "pending_adapter",
+        "rows_existing": 104,
+        "reason": "platform news/context adapter not migrated yet",
+        "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_prematch_context_master.json"
+      }
+    ]
   }
 }

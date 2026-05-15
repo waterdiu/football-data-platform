@@ -685,6 +685,26 @@ predictor 全量数据资产当前边界：
 它负责调用预测项目的 `run_scheduled_maintenance.py`，只执行世界杯 context capture，
 然后再由平台自己的兼容回灌工具或平台 own model master 流程消费这些 snapshots。
 
+为逐步去掉对模型项目采集器的依赖，平台新增自有运行期采集入口：
+
+- `scripts/collect_world_cup_runtime_data.py`
+
+当前迁移边界：
+
+- 已迁移：OpenWeather 天气采集，直接写 `data/normalized/world_cup_2026_model_weather_master.json`
+- 已配置：`configs/venues/world_cup_2026.json` 保存 16 个 2026 世界杯球场坐标
+- 尚未迁移：odds、lineups、injuries、prematch_context，仅在 `reports/world_cup_runtime_collection_report.json` 中暴露 pending 状态
+- 无 API key 或无可采集数据时，collector 只写 report，不覆盖现有 model master
+
+运行期发布闭环入口：
+
+- `scripts/sync_predictor_runtime_inbox.py`
+
+该入口支持：
+
+- `--skip-capture`：只发布已有 predictor inbox
+- `--collect-platform-runtime`：同时运行平台自有 collector，逐步替代模型侧 runtime 采集
+
 写入权限必须明确：
 
 - `data/raw/`：只由 fetch / source adapter 写入
