@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "category": "processed.world_cup",
+  "file_count": 1,
+  "total_bytes": 700596,
+  "files": [
+    {
+      "relative_path": "processed/world_cup_2026_fixtures.json",
+      "category": "processed.world_cup",
+      "extension": ".json",
+      "bytes": 700596,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/world_cup_2026_fixtures.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/processed/world_cup_2026_fixtures.json",
+      "platform_relative_path": "data/predictor-assets/files/processed/world_cup_2026_fixtures.json",
+      "is_public_payload": false
+    }
+  ]
+}

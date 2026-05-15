@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "category": "raw.premier_league_history",
+  "file_count": 11,
+  "total_bytes": 1652751,
+  "files": [
+    {
+      "relative_path": "raw/premier_league/1516_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 100656,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/1516_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/1516_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/1516_E0.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league/1617_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 99990,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/1617_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/1617_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/1617_E0.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league/1718_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 100734,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/1718_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/1718_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/1718_E0.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league/1819_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 96144,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/1819_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/1819_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/1819_E0.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league/1920_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 175475,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/1920_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/1920_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/1920_E0.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league/2021_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 175815,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/2021_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/2021_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/2021_E0.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league/2122_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 175363,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/2122_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/2122_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/2122_E0.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league/2223_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 176180,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/2223_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/2223_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/2223_E0.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league/2324_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 172196,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/2324_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/2324_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/2324_E0.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league/2425_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 197110,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/2425_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/2425_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/2425_E0.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league/2526_E0.csv",
+      "category": "raw.premier_league_history",
+      "extension": ".csv",
+      "bytes": 183088,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league/2526_E0.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league/2526_E0.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league/2526_E0.csv",
+      "is_public_payload": false
+    }
+  ]
+}

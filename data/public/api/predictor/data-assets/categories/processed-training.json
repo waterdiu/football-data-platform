@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "category": "processed.training",
+  "file_count": 5,
+  "total_bytes": 23283323,
+  "files": [
+    {
+      "relative_path": "processed/normalized_matches.csv",
+      "category": "processed.training",
+      "extension": ".csv",
+      "bytes": 2143699,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/normalized_matches.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/processed/normalized_matches.csv",
+      "platform_relative_path": "data/predictor-assets/files/processed/normalized_matches.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "processed/player_ability.csv",
+      "category": "processed.training",
+      "extension": ".csv",
+      "bytes": 2900015,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/player_ability.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/processed/player_ability.csv",
+      "platform_relative_path": "data/predictor-assets/files/processed/player_ability.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "processed/predictions.json",
+      "category": "processed.training",
+      "extension": ".json",
+      "bytes": 748649,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/predictions.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/processed/predictions.json",
+      "platform_relative_path": "data/predictor-assets/files/processed/predictions.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "processed/training_features.csv",
+      "category": "processed.training",
+      "extension": ".csv",
+      "bytes": 17475763,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/training_features.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/processed/training_features.csv",
+      "platform_relative_path": "data/predictor-assets/files/processed/training_features.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "processed/xg_matches.csv",
+      "category": "processed.training",
+      "extension": ".csv",
+      "bytes": 15197,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/xg_matches.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/processed/xg_matches.csv",
+      "platform_relative_path": "data/predictor-assets/files/processed/xg_matches.csv",
+      "is_public_payload": false
+    }
+  ]
+}

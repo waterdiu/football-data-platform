@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "category": "raw",
+  "file_count": 12,
+  "total_bytes": 6543617,
+  "files": [
+    {
+      "relative_path": "raw/fbref_premier_league_player_stats.csv",
+      "category": "raw",
+      "extension": ".csv",
+      "bytes": 34167,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/fbref_premier_league_player_stats.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/fbref_premier_league_player_stats.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/fbref_premier_league_player_stats.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/fbref_premier_league_team_match_stats.csv",
+      "category": "raw",
+      "extension": ".csv",
+      "bytes": 44116,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/fbref_premier_league_team_match_stats.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/fbref_premier_league_team_match_stats.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/fbref_premier_league_team_match_stats.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/fifa_2026_schedule.html",
+      "category": "raw",
+      "extension": ".html",
+      "bytes": 4982,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/fifa_2026_schedule.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/fifa_2026_schedule.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/fifa_2026_schedule.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/international_matches.csv",
+      "category": "raw",
+      "extension": ".csv",
+      "bytes": 3714198,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/international_matches.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/international_matches.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/international_matches.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league_2025_2026_official_fixtures.html",
+      "category": "raw",
+      "extension": ".html",
+      "bytes": 112767,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league_2025_2026_official_fixtures.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league_2025_2026_official_fixtures.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league_2025_2026_official_fixtures.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league_historical_player_availability.csv",
+      "category": "raw",
+      "extension": ".csv",
+      "bytes": 9570,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league_historical_player_availability.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league_historical_player_availability.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league_historical_player_availability.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league_historical_player_availability.example.csv",
+      "category": "raw",
+      "extension": ".csv",
+      "bytes": 204,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league_historical_player_availability.example.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league_historical_player_availability.example.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league_historical_player_availability.example.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/premier_league_xg.csv",
+      "category": "raw",
+      "extension": ".csv",
+      "bytes": 256362,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/premier_league_xg.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/premier_league_xg.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/premier_league_xg.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/statsbomb_matches.json",
+      "category": "raw",
+      "extension": ".json",
+      "bytes": 632909,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/statsbomb_matches.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/statsbomb_matches.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/statsbomb_matches.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/transfermarkt_player_values.csv",
+      "category": "raw",
+      "extension": ".csv",
+      "bytes": 1704517,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/transfermarkt_player_values.csv",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/transfermarkt_player_values.csv",
+      "platform_relative_path": "data/predictor-assets/files/raw/transfermarkt_player_values.csv",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/world_cup_2026_first12_fixtures.json",
+      "category": "raw",
+      "extension": ".json",
+      "bytes": 2719,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/world_cup_2026_first12_fixtures.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/world_cup_2026_first12_fixtures.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/world_cup_2026_first12_fixtures.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/world_cup_2026_shared_fixtures.json",
+      "category": "raw",
+      "extension": ".json",
+      "bytes": 27106,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/world_cup_2026_shared_fixtures.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/world_cup_2026_shared_fixtures.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/world_cup_2026_shared_fixtures.json",
+      "is_public_payload": false
+    }
+  ]
+}

@@ -106,6 +106,14 @@
   - 输入：predictor manifest、source health、predictor import/publish reports
   - 输出：`data/public/api/worldcup/2026/predictor/health.json`
   - 提供 predictor 对接层的运行时健康摘要，供模型项目和监控 workflow 使用
+- `import_predictor_data_assets.py`
+  - 输入：`world-cup-predictor/backend/data`
+  - 输出：`data/predictor-assets/files/**` 与 `data/normalized/predictor_data_assets_manifest.json`
+  - 用于把模型项目里已经下载的全部数据资产迁移为平台本地镜像
+- `publish_predictor_data_assets_api.py`
+  - 输入：`data/normalized/predictor_data_assets_manifest.json`
+  - 输出：`data/public/api/predictor/data-assets/**`
+  - 只发布 manifest、summary 和 category indexes；大型原始文件保留在本地镜像
 - `build_worldcup_2026_runtime_health.py`
   - 输入：`reports/source-health.json` 与 `data/public/api/worldcup/2026/manifest.json`
   - 输出：`data/public/api/worldcup/2026/health.json`

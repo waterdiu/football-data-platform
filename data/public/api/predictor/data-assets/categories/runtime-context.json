@@ -1,0 +1,148 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "category": "runtime.context",
+  "file_count": 14,
+  "total_bytes": 33407802,
+  "files": [
+    {
+      "relative_path": "runtime/context/epl_context_probe_after_xg_source_work.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 28844,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/epl_context_probe_after_xg_source_work.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/epl_context_probe_after_xg_source_work.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/epl_context_probe_after_xg_source_work.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/oddspapi_ah_probe.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 4586076,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/oddspapi_ah_probe.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/oddspapi_ah_probe.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/oddspapi_ah_probe.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/player_ability_fbref_probe.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 34937,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/player_ability_fbref_probe.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/player_ability_fbref_probe.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/player_ability_fbref_probe.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/player_ability_real_tm_probe.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 30429,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/player_ability_real_tm_probe.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/player_ability_real_tm_probe.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/player_ability_real_tm_probe.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/player_ability_real_tm_probe_after_alias.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 34142,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/player_ability_real_tm_probe_after_alias.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/player_ability_real_tm_probe_after_alias.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/player_ability_real_tm_probe_after_alias.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/premier_injuries_probe.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 1493,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/premier_injuries_probe.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/premier_injuries_probe.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/premier_injuries_probe.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/premier_injuries_proxy_reprobe.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 739,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/premier_injuries_proxy_reprobe.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/premier_injuries_proxy_reprobe.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/premier_injuries_proxy_reprobe.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/premier_injuries_reprobe.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 739,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/premier_injuries_reprobe.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/premier_injuries_reprobe.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/premier_injuries_reprobe.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/premier_league_context_snapshots.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 28662341,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/premier_league_context_snapshots.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/premier_league_context_snapshots.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/premier_league_context_snapshots.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/premierleague_official_probe.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 11777,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/premierleague_official_probe.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/premierleague_official_probe.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/premierleague_official_probe.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/premierleague_official_probe_optimized.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 11773,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/premierleague_official_probe_optimized.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/premierleague_official_probe_optimized.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/premierleague_official_probe_optimized.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/sofascore_probe.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 1504,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/sofascore_probe.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/sofascore_probe.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/sofascore_probe.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/sofascore_proxy_reprobe.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 1504,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/sofascore_proxy_reprobe.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/sofascore_proxy_reprobe.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/sofascore_proxy_reprobe.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/context/sofascore_reprobe.jsonl",
+      "category": "runtime.context",
+      "extension": ".jsonl",
+      "bytes": 1504,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/sofascore_reprobe.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/context/sofascore_reprobe.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/context/sofascore_reprobe.jsonl",
+      "is_public_payload": false
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "category": "raw.understat",
+  "file_count": 22,
+  "total_bytes": 10584083,
+  "files": [
+    {
+      "relative_path": "raw/understat/epl_2015.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2015.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2015.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2015.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2015.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 954659,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2015.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2015.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2015.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2016.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2016.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2016.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2016.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2016.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 943061,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2016.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2016.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2016.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2017.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2017.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2017.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2017.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2017.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 938660,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2017.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2017.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2017.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2018.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2018.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2018.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2018.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2018.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 933544,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2018.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2018.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2018.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2019.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2019.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2019.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2019.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2019.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 939442,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2019.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2019.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2019.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2020.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2020.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2020.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2020.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2020.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 943995,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2020.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2020.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2020.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2021.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2021.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2021.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2021.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2021.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 949588,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2021.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2021.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2021.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2022.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2022.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2022.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2022.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2022.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 958083,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2022.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2022.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2022.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2023.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2023.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2023.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2023.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2023.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 966034,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2023.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2023.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2023.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2024.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2024.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2024.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2024.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2024.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 962944,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2024.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2024.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2024.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2025.html",
+      "category": "raw.understat",
+      "extension": ".html",
+      "bytes": 18643,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2025.html",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2025.html",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2025.html",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/understat/epl_2025.json",
+      "category": "raw.understat",
+      "extension": ".json",
+      "bytes": 889000,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/understat/epl_2025.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/understat/epl_2025.json",
+      "platform_relative_path": "data/predictor-assets/files/raw/understat/epl_2025.json",
+      "is_public_payload": false
+    }
+  ]
+}

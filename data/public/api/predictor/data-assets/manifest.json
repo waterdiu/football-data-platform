@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "source_repository": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor",
+  "source_data_dir": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data",
+  "platform_asset_root": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files",
+  "file_count": 404,
+  "total_bytes": 1146108149,
+  "categories": {
+    "processed.premier_league": {
+      "file_count": 5,
+      "bytes": 9270007
+    },
+    "processed.training": {
+      "file_count": 5,
+      "bytes": 23283323
+    },
+    "processed.world_cup": {
+      "file_count": 1,
+      "bytes": 700596
+    },
+    "raw": {
+      "file_count": 12,
+      "bytes": 6543617
+    },
+    "raw.premier_league_history": {
+      "file_count": 11,
+      "bytes": 1652751
+    },
+    "raw.statsbomb_events": {
+      "file_count": 314,
+      "bytes": 1055689463
+    },
+    "raw.transfermarkt_dcaribou": {
+      "file_count": 2,
+      "bytes": 4070249
+    },
+    "raw.understat": {
+      "file_count": 22,
+      "bytes": 10584083
+    },
+    "runtime": {
+      "file_count": 4,
+      "bytes": 5917
+    },
+    "runtime.context": {
+      "file_count": 14,
+      "bytes": 33407802
+    },
+    "runtime.odds": {
+      "file_count": 14,
+      "bytes": 900341
+    }
+  },
+  "publication_policy": {
+    "full_file_payloads": "local_only",
+    "reason": "Predictor backend/data is large and includes raw provider archives; GitHub Pages publishes only manifests and small compatibility bundles."
+  },
+  "contract_version": "2026-05-15.predictor-data-assets.v1",
+  "summary_url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/summary.json",
+  "category_indexes": {
+    "processed.premier_league": {
+      "path": "api/predictor/data-assets/categories/processed-premier_league.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/processed-premier_league.json",
+      "file_count": 5,
+      "total_bytes": 9270007
+    },
+    "processed.training": {
+      "path": "api/predictor/data-assets/categories/processed-training.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/processed-training.json",
+      "file_count": 5,
+      "total_bytes": 23283323
+    },
+    "processed.world_cup": {
+      "path": "api/predictor/data-assets/categories/processed-world_cup.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/processed-world_cup.json",
+      "file_count": 1,
+      "total_bytes": 700596
+    },
+    "raw": {
+      "path": "api/predictor/data-assets/categories/raw.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/raw.json",
+      "file_count": 12,
+      "total_bytes": 6543617
+    },
+    "raw.premier_league_history": {
+      "path": "api/predictor/data-assets/categories/raw-premier_league_history.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/raw-premier_league_history.json",
+      "file_count": 11,
+      "total_bytes": 1652751
+    },
+    "raw.statsbomb_events": {
+      "path": "api/predictor/data-assets/categories/raw-statsbomb_events.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/raw-statsbomb_events.json",
+      "file_count": 314,
+      "total_bytes": 1055689463
+    },
+    "raw.transfermarkt_dcaribou": {
+      "path": "api/predictor/data-assets/categories/raw-transfermarkt_dcaribou.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/raw-transfermarkt_dcaribou.json",
+      "file_count": 2,
+      "total_bytes": 4070249
+    },
+    "raw.understat": {
+      "path": "api/predictor/data-assets/categories/raw-understat.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/raw-understat.json",
+      "file_count": 22,
+      "total_bytes": 10584083
+    },
+    "runtime": {
+      "path": "api/predictor/data-assets/categories/runtime.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/runtime.json",
+      "file_count": 4,
+      "total_bytes": 5917
+    },
+    "runtime.context": {
+      "path": "api/predictor/data-assets/categories/runtime-context.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/runtime-context.json",
+      "file_count": 14,
+      "total_bytes": 33407802
+    },
+    "runtime.odds": {
+      "path": "api/predictor/data-assets/categories/runtime-odds.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/categories/runtime-odds.json",
+      "file_count": 14,
+      "total_bytes": 900341
+    }
+  },
+  "notes": [
+    "This API publishes asset manifests only. Large raw files remain local under platform_asset_root.",
+    "Predictor should use these manifests to resolve platform-local asset paths during local runs.",
+    "World Cup runtime compatibility data remains under /api/worldcup/2026/predictor/."
+  ]
+}

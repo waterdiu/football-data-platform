@@ -1,0 +1,148 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "category": "runtime.odds",
+  "file_count": 14,
+  "total_bytes": 900341,
+  "files": [
+    {
+      "relative_path": "runtime/odds_capture_runs.jsonl",
+      "category": "runtime.odds",
+      "extension": ".jsonl",
+      "bytes": 9107,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/odds_capture_runs.jsonl",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/odds_capture_runs.jsonl",
+      "platform_relative_path": "data/predictor-assets/files/runtime/odds_capture_runs.jsonl",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/odds_snapshots.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 784616,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/odds_snapshots.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/odds_snapshots.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/odds_snapshots.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddsharvester_epl_combined.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 17175,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddsharvester_epl_combined.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddsharvester_epl_combined.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddsharvester_epl_combined.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddsharvester_epl_combined_20260509.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 5417,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddsharvester_epl_combined_20260509.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddsharvester_epl_combined_20260509.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddsharvester_epl_combined_20260509.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddsharvester_epl_combined_20260510.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 6785,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddsharvester_epl_combined_20260510.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddsharvester_epl_combined_20260510.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddsharvester_epl_combined_20260510.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddsharvester_epl_combined_20260517.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 6956,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddsharvester_epl_combined_20260517.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddsharvester_epl_combined_20260517.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddsharvester_epl_combined_20260517.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddsharvester_epl_combined_20260518.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 1161,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddsharvester_epl_combined_20260518.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddsharvester_epl_combined_20260518.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddsharvester_epl_combined_20260518.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddsharvester_epl_combined_20260519.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 952,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddsharvester_epl_combined_20260519.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddsharvester_epl_combined_20260519.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddsharvester_epl_combined_20260519.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddsharvester_epl_probe.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 36930,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddsharvester_epl_probe.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddsharvester_epl_probe.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddsharvester_epl_probe.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddsharvester_epl_probe_eu.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 7338,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddsharvester_epl_probe_eu.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddsharvester_epl_probe_eu.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddsharvester_epl_probe_eu.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddsharvester_world_cup_match_probe.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 10912,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddsharvester_world_cup_match_probe.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddsharvester_world_cup_match_probe.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddsharvester_world_cup_match_probe.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddspapi_cooldown.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 453,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddspapi_cooldown.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddspapi_cooldown.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddspapi_cooldown.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/oddsportal_world_cup_2026_links.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 12028,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/oddsportal_world_cup_2026_links.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/oddsportal_world_cup_2026_links.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/oddsportal_world_cup_2026_links.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/the_odds_api_cooldown.json",
+      "category": "runtime.odds",
+      "extension": ".json",
+      "bytes": 511,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/the_odds_api_cooldown.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/the_odds_api_cooldown.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/the_odds_api_cooldown.json",
+      "is_public_payload": false
+    }
+  ]
+}

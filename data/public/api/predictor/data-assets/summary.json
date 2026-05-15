@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "source_repository": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor",
+  "source_data_dir": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data",
+  "platform_asset_root": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files",
+  "file_count": 404,
+  "total_bytes": 1146108149,
+  "categories": {
+    "processed.premier_league": {
+      "file_count": 5,
+      "bytes": 9270007
+    },
+    "processed.training": {
+      "file_count": 5,
+      "bytes": 23283323
+    },
+    "processed.world_cup": {
+      "file_count": 1,
+      "bytes": 700596
+    },
+    "raw": {
+      "file_count": 12,
+      "bytes": 6543617
+    },
+    "raw.premier_league_history": {
+      "file_count": 11,
+      "bytes": 1652751
+    },
+    "raw.statsbomb_events": {
+      "file_count": 314,
+      "bytes": 1055689463
+    },
+    "raw.transfermarkt_dcaribou": {
+      "file_count": 2,
+      "bytes": 4070249
+    },
+    "raw.understat": {
+      "file_count": 22,
+      "bytes": 10584083
+    },
+    "runtime": {
+      "file_count": 4,
+      "bytes": 5917
+    },
+    "runtime.context": {
+      "file_count": 14,
+      "bytes": 33407802
+    },
+    "runtime.odds": {
+      "file_count": 14,
+      "bytes": 900341
+    }
+  },
+  "publication_policy": {
+    "full_file_payloads": "local_only",
+    "reason": "Predictor backend/data is large and includes raw provider archives; GitHub Pages publishes only manifests and small compatibility bundles."
+  }
+}

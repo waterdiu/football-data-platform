@@ -559,6 +559,21 @@ predictor 兼容数据当前边界：
 - `scripts/publish_world_cup_predictor_api.py` 负责发布 predictor 专用 compatibility API
 - `scripts/build_world_cup_predictor_runtime_health.py` 负责发布 predictor 对接层的健康快照
 
+predictor 全量数据资产当前边界：
+
+- 平台本地镜像：`data/predictor-assets/files/**`
+- 平台规范化清单：`data/normalized/predictor_data_assets_manifest.json`
+- 平台对外清单 API：`data/public/api/predictor/data-assets/*`
+- `scripts/import_predictor_data_assets.py` 负责把 `world-cup-predictor/backend/data` 的已下载文件完整镜像到平台本地资产区
+- `scripts/publish_predictor_data_assets_api.py` 负责发布轻量 manifest、summary 和 category indexes
+- 大型原始文件不进入 GitHub Pages runtime bundle，只通过 manifest 暴露平台本地路径
+
+当前迁移规模：
+
+- 文件数：`404`
+- 总大小：`1146108149` bytes
+- 主要大类：`raw.statsbomb_events`，`314` 个文件，约 `1055689463` bytes
+
 当需要赛前上下文时，该入口还可以先执行：
 
 - `--capture-context`

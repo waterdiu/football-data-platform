@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "category": "runtime",
+  "file_count": 4,
+  "total_bytes": 5917,
+  "files": [
+    {
+      "relative_path": "runtime/api_football_fixture_map.json",
+      "category": "runtime",
+      "extension": ".json",
+      "bytes": 3,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/api_football_fixture_map.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/api_football_fixture_map.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/api_football_fixture_map.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/api_football_historical_availability_state.json",
+      "category": "runtime",
+      "extension": ".json",
+      "bytes": 74,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/api_football_historical_availability_state.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/api_football_historical_availability_state.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/api_football_historical_availability_state.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/automation_schedule.json",
+      "category": "runtime",
+      "extension": ".json",
+      "bytes": 5445,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/automation_schedule.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/automation_schedule.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/automation_schedule.json",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "runtime/betting_lab_state.json",
+      "category": "runtime",
+      "extension": ".json",
+      "bytes": 395,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/betting_lab_state.json",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/runtime/betting_lab_state.json",
+      "platform_relative_path": "data/predictor-assets/files/runtime/betting_lab_state.json",
+      "is_public_payload": false
+    }
+  ]
+}

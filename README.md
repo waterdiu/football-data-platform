@@ -242,6 +242,35 @@ python3 scripts/build_automation_readiness_report.py
 - predictor 对接层健康摘要
 
 用于让 `world-cup-predictor` 按阶段切换，而不是一次性硬切。
+
+## Predictor Full Data Assets
+
+`world-cup-predictor/backend/data` 里已经下载过的全部数据资产，也已经可以镜像到平台本地资产区：
+
+- 本地镜像根目录：`data/predictor-assets/files/`
+- 规范化资产清单：`data/normalized/predictor_data_assets_manifest.json`
+- 公开清单 API：`data/public/api/predictor/data-assets/manifest.json`
+- 公开摘要 API：`data/public/api/predictor/data-assets/summary.json`
+
+当前迁移规模：
+
+- 文件数：`404`
+- 总大小：`1146108149` bytes
+- 最大类别：`raw.statsbomb_events`，`314` 个文件
+
+完整原始文件只保存在平台本地镜像中，不发布到 GitHub Pages。Pages 只发布 manifest、summary 和 category index，用于让模型项目解析平台本地路径。
+
+迁移命令：
+
+```bash
+python3 scripts/import_predictor_data_assets.py
+python3 scripts/publish_predictor_data_assets_api.py
+```
+
+对接说明：
+
+- `docs/2026-05-15-world-cup-predictor-full-data-handoff.md`
+
 ## Repository Layout
 
 ```text
@@ -252,6 +281,7 @@ football-data-platform/
 ├── schemas/
 ├── data/
 │   ├── normalized/
+│   ├── predictor-assets/
 │   ├── public/
 │   └── model/
 ├── reports/

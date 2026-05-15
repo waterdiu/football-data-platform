@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "category": "raw.transfermarkt_dcaribou",
+  "file_count": 2,
+  "total_bytes": 4070249,
+  "files": [
+    {
+      "relative_path": "raw/dcaribou_transfermarkt/clubs.csv.gz",
+      "category": "raw.transfermarkt_dcaribou",
+      "extension": ".gz",
+      "bytes": 46856,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/dcaribou_transfermarkt/clubs.csv.gz",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/dcaribou_transfermarkt/clubs.csv.gz",
+      "platform_relative_path": "data/predictor-assets/files/raw/dcaribou_transfermarkt/clubs.csv.gz",
+      "is_public_payload": false
+    },
+    {
+      "relative_path": "raw/dcaribou_transfermarkt/players.csv.gz",
+      "category": "raw.transfermarkt_dcaribou",
+      "extension": ".gz",
+      "bytes": 4023393,
+      "source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/dcaribou_transfermarkt/players.csv.gz",
+      "platform_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz",
+      "platform_relative_path": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz",
+      "is_public_payload": false
+    }
+  ]
+}
