@@ -337,8 +337,9 @@ python3 scripts/collect_world_cup_runtime_data.py
 - The Odds API 赔率采集：有 `THE_ODDS_API_KEY` 时写入 `data/normalized/world_cup_2026_model_odds_master.json`
 - API-FOOTBALL 阵容和伤停采集：有 `API_FOOTBALL_KEY` 时自动发现 fixture id，写入 `data/normalized/world_cup_2026_model_lineups_master.json` 和 `data/normalized/world_cup_2026_model_injuries_master.json`
 - OpenWeather 天气采集：配置在 `configs/venues/world_cup_2026.json`，有 `OPENWEATHER_API_KEY` 时写入 `data/normalized/world_cup_2026_model_weather_master.json`
+- 公开新闻页赛前上下文采集：抓取 FIFA、BBC、Sky、ESPN 和已配置国家队官方新闻页，写入 `data/normalized/world_cup_2026_model_prematch_context_master.json`
 
-没有 key 时只写 `reports/world_cup_runtime_collection_report.json`，不会覆盖现有数据。可在同步闭环中一并运行：
+没有 key、公开新闻页不可达或没有匹配信号时只写 `reports/world_cup_runtime_collection_report.json`，不会覆盖现有数据。可在同步闭环中一并运行：
 
 ```bash
 python3 scripts/sync_predictor_runtime_inbox.py --skip-capture --collect-platform-runtime

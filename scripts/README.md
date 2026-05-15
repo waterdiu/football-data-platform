@@ -136,9 +136,9 @@
   - 当前已迁移：The Odds API 赔率采集，输出 `data/normalized/world_cup_2026_model_odds_master.json`
   - 当前已迁移：API-FOOTBALL 阵容和伤停采集，输出 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
   - 当前已迁移：OpenWeather 天气采集，输出 `data/normalized/world_cup_2026_model_weather_master.json`
+  - 当前已迁移：公开新闻页赛前上下文采集，输出 `data/normalized/world_cup_2026_model_prematch_context_master.json`
   - API-FOOTBALL fixture id map 会缓存到 `data/runtime/api_football_fixture_map.json`，该目录不入 Git
-  - 当前报告 pending：prematch_context 的平台 adapter 尚未迁移
-  - 无 API key 或无匹配源时只写 `reports/world_cup_runtime_collection_report.json`，不会覆盖现有 model master
+  - 无 API key、公开新闻页不可达或无匹配源时只写 `reports/world_cup_runtime_collection_report.json`，不会覆盖现有 model master
 - `build_migration_status.py`
   - 输入：source health、predictor health、predictor inbox report、data assets summary
   - 输出：`data/public/api/migration-status.json`

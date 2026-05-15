@@ -148,6 +148,8 @@ def main() -> None:
         "platform_runtime_collectors": {
             "status": "available" if runtime_collection_report else "not_run",
             "report_path": "reports/world_cup_runtime_collection_report.json",
+            "generated_at": runtime_collection_report.get("generated_at") if isinstance(runtime_collection_report, dict) else None,
+            "dry_run": runtime_collection_report.get("dry_run") if isinstance(runtime_collection_report, dict) else None,
             "datasets": runtime_collection_report.get("datasets", []) if isinstance(runtime_collection_report, dict) else [],
         },
     }

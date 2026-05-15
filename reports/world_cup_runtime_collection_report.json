@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T15:55:53.495867+00:00",
+  "generated_at": "2026-05-15T16:09:03.572555+00:00",
   "dry_run": true,
   "fixtures_total": 104,
   "fixtures_selected": 2,
@@ -49,9 +49,14 @@
     },
     {
       "dataset": "prematch_context",
-      "status": "pending_adapter",
+      "status": "collected",
+      "fixtures_considered": 2,
+      "rows_collected": 2,
       "rows_existing": 104,
-      "reason": "platform news/context adapter not migrated yet",
+      "attempted_sources": 6,
+      "successful_pages": 7,
+      "failed_sources": [],
+      "errors": [],
       "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_prematch_context_master.json"
     }
   ]

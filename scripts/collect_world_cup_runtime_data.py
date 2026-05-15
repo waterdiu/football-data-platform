@@ -12,6 +12,7 @@ sys.path.append(str(ROOT))
 
 from sources.openweather import fetch_openweather_payload, normalize_openweather_snapshot
 from sources.api_football import collect_api_football_context
+from sources.prematch_news import collect_prematch_context
 from sources.the_odds_api import fetch_odds_events, normalize_odds_events
 
 FIXTURES_PATH = ROOT / "data" / "public" / "fixtures.json"
@@ -228,6 +229,41 @@ def collect_api_football(*, fixtures: list[dict], teams: list[dict], fetched_at:
     ]
 
 
+def collect_prematch_news_context(*, fixtures: list[dict], teams: list[dict], fetched_at: str, dry_run: bool) -> dict:
+    existing = load_existing_list(PREMATCH_CONTEXT_MASTER_PATH)
+    try:
+        rows, provider_report = collect_prematch_context(
+            fixtures=fixtures,
+            teams=teams,
+            existing_context_rows=existing,
+            fetched_at=fetched_at,
+        )
+    except Exception as exc:  # noqa: BLE001 - collection reports provider failures without breaking other datasets.
+        return {
+            "dataset": "prematch_context",
+            "status": "provider_error",
+            "fixtures_considered": len(fixtures),
+            "rows_collected": 0,
+            "rows_existing": len(existing),
+            "error": str(exc),
+            "output": str(PREMATCH_CONTEXT_MASTER_PATH),
+        }
+    if rows and not dry_run:
+        write_json(PREMATCH_CONTEXT_MASTER_PATH, merge_by_match_id(existing, rows))
+    return {
+        "dataset": "prematch_context",
+        "status": provider_report.get("status", "no_rows"),
+        "fixtures_considered": len(fixtures),
+        "rows_collected": len(rows),
+        "rows_existing": len(existing),
+        "attempted_sources": provider_report.get("attempted_sources"),
+        "successful_pages": provider_report.get("successful_pages"),
+        "failed_sources": provider_report.get("failed_sources", []),
+        "errors": provider_report.get("errors", []),
+        "output": str(PREMATCH_CONTEXT_MASTER_PATH) if rows else None,
+    }
+
+
 def pending_dataset(name: str, path: Path, reason: str, auth_env: str | None = None) -> dict:
     payload = {
         "dataset": name,
@@ -265,7 +301,7 @@ def main() -> None:
         collect_odds(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run),
         collect_weather(fixtures=selected, venues=venues, fetched_at=fetched_at, dry_run=args.dry_run),
         *api_football_datasets,
-        pending_dataset("prematch_context", PREMATCH_CONTEXT_MASTER_PATH, "platform news/context adapter not migrated yet"),
+        collect_prematch_news_context(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run),
     ]
     report = {
         "generated_at": fetched_at,
