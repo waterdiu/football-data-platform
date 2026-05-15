@@ -118,6 +118,10 @@
   - 输入：`world-cup-predictor/backend/data` 与平台现有 predictor masters
   - 输出：全量资产镜像、资产清单 API、世界杯 predictor API、predictor health
   - 这是模型项目数据更新后的推荐平台侧同步入口
+- `publish_predictor_inbox.py`
+  - 输入：`data/inbox/predictor/**`
+  - 输出：对应的 `data/normalized/*`、`data/model/*` 和部分 `data/public/*`
+  - 用于 predictor phase 2，把模型输出和 runtime snapshots 从 inbox 发布到平台正式数据集
 - `build_worldcup_2026_runtime_health.py`
   - 输入：`reports/source-health.json` 与 `data/public/api/worldcup/2026/manifest.json`
   - 输出：`data/public/api/worldcup/2026/health.json`

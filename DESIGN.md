@@ -568,6 +568,14 @@ predictor 兼容数据当前边界：
 - 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
 - 暂不迁移输出文件写入、runtime snapshots、赔率、伤停和天气写入逻辑
 
+predictor phase 2 写回边界：
+
+- 平台接收目录：`data/inbox/predictor/**`
+- 平台发布脚本：`scripts/publish_predictor_inbox.py`
+- 契约文档：`docs/2026-05-15-predictor-phase-2-writeback-contract.md`
+- 模型项目后续不应直接写 `data/public`、`data/model` 或 `data/normalized`
+- 第一轮写回采用“双写”：保留模型项目本地输出，同时写一份到平台 inbox
+
 predictor 全量数据资产当前边界：
 
 - 平台本地镜像：`data/predictor-assets/files/**`

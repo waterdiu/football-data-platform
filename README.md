@@ -294,6 +294,15 @@ python3 scripts/sync_predictor_data_assets.py
 
 - `docs/2026-05-15-world-cup-predictor-code-change-instructions.md`
 - `docs/2026-05-15-world-cup-predictor-full-data-handoff.md`
+- `docs/2026-05-15-predictor-phase-2-writeback-contract.md`
+
+下一阶段写回入口：
+
+```bash
+python3 scripts/publish_predictor_inbox.py
+```
+
+模型项目后续应把输出副本写入 `data/inbox/predictor/**`，再由平台发布到 `data/normalized`、`data/model` 和 `data/public`。
 
 ## Repository Layout
 
