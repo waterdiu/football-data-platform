@@ -145,7 +145,6 @@ python3 scripts/build_source_health_report.py
 ```bash
 python3 scripts/build_worldcup_2026_runtime_health.py
 ```
-
 ## Publish Model
 
 当前线上部署通过 GitHub Pages 完成：
@@ -172,7 +171,6 @@ python3 scripts/build_worldcup_2026_runtime_health.py
 - `health.json`
 
 并校验关键数据集数量没有明显异常。
-
 ## Repository Layout
 
 ```text
