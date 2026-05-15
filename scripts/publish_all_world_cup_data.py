@@ -23,6 +23,7 @@ PIPELINE = [
     "build_source_health_report.py",
     "build_worldcup_2026_runtime_health.py",
     "build_world_cup_predictor_runtime_health.py",
+    "build_migration_status.py",
 ]
 CONTEXT_CAPTURE_SCRIPT = "capture_world_cup_context_from_predictor.py"
 

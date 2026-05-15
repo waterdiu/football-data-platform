@@ -25,6 +25,10 @@ Pages 首页：
 
 - [https://waterdiu.github.io/football-data-platform/](https://waterdiu.github.io/football-data-platform/)
 
+迁移状态：
+
+- [https://waterdiu.github.io/football-data-platform/api/migration-status.json](https://waterdiu.github.io/football-data-platform/api/migration-status.json)
+
 ## What The 2026 Site Should Read
 
 推荐顺序：
@@ -254,6 +258,7 @@ python3 scripts/build_automation_readiness_report.py
 - 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
 - 世界杯预测和英超预测已经通过 `data/inbox/predictor/**` 发布到平台
 - runtime odds、lineups、injuries、weather 和 context snapshots 的 inbox 文件当前仍缺失，等采样/上下文任务实际产出后自动进入同一发布流程
+- 当前切换状态以 `data/public/api/migration-status.json` 为准
 
 ## Predictor Full Data Assets
 

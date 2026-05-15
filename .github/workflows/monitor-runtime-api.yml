@@ -22,6 +22,7 @@ jobs:
           PREDICTOR_BUNDLE_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/bundle.json
           PREDICTOR_HEALTH_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/health.json
           PREDICTOR_ASSETS_MANIFEST_URL: https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/manifest.json
+          MIGRATION_STATUS_URL: https://waterdiu.github.io/football-data-platform/api/migration-status.json
         run: |
           python - <<'PY'
           import json
@@ -37,6 +38,7 @@ jobs:
               "predictor_bundle": os.environ["PREDICTOR_BUNDLE_URL"],
               "predictor_health": os.environ["PREDICTOR_HEALTH_URL"],
               "predictor_assets_manifest": os.environ["PREDICTOR_ASSETS_MANIFEST_URL"],
+              "migration_status": os.environ["MIGRATION_STATUS_URL"],
           }
 
           payloads = {}
@@ -54,6 +56,7 @@ jobs:
           predictor_bundle = payloads["predictor_bundle"]
           predictor_health = payloads["predictor_health"]
           predictor_assets_manifest = payloads["predictor_assets_manifest"]
+          migration_status = payloads["migration_status"]
 
           if manifest.get("runtime_contract", {}).get("preferred_site_url") != urls["site_bundle"]:
               raise SystemExit("manifest preferred_site_url mismatch")
@@ -73,6 +76,8 @@ jobs:
               raise SystemExit("predictor asset manifest file_count unexpectedly small")
           if predictor_assets_manifest.get("total_bytes", 0) < 1_000_000_000:
               raise SystemExit("predictor asset manifest total_bytes unexpectedly small")
+          if migration_status.get("overall_status") != "phase_2_complete_with_runtime_gaps":
+              raise SystemExit("migration status does not match expected phase 2 state")
 
           summary = [
               "## Runtime API Health",
@@ -86,6 +91,7 @@ jobs:
               f"- predictor_health_warnings: {len(predictor_health.get('warnings', []))}",
               f"- predictor_asset_files: {predictor_assets_manifest.get('file_count')}",
               f"- predictor_asset_bytes: {predictor_assets_manifest.get('total_bytes')}",
+              f"- migration_status: {migration_status.get('overall_status')}",
           ]
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
               fh.write("\n".join(summary) + "\n")

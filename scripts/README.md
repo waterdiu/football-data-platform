@@ -122,6 +122,10 @@
   - 输入：`data/inbox/predictor/**`
   - 输出：对应的 `data/normalized/*`、`data/model/*` 和部分 `data/public/*`
   - 用于 predictor phase 2，把模型输出和 runtime snapshots 从 inbox 发布到平台正式数据集
+- `build_migration_status.py`
+  - 输入：source health、predictor health、predictor inbox report、data assets summary
+  - 输出：`data/public/api/migration-status.json`
+  - 用于公开说明当前迁移完成度和 runtime 缺口
 - `build_worldcup_2026_runtime_health.py`
   - 输入：`reports/source-health.json` 与 `data/public/api/worldcup/2026/manifest.json`
   - 输出：`data/public/api/worldcup/2026/health.json`

@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "overall_status": "phase_2_complete_with_runtime_gaps",
+  "summary": {
+    "site_runtime_api": "complete",
+    "predictor_platform_read": "complete",
+    "predictor_data_assets": "complete",
+    "predictor_inbox_writeback": "partial",
+    "runtime_enrichment": "pending_source_data"
+  },
+  "worldcup_2026_site": {
+    "status": "complete",
+    "public_api": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/manifest.json",
+    "datasets": {
+      "fixtures": 104,
+      "results": 104,
+      "standings": 48,
+      "predictions": 104,
+      "qualifier_matches": 467
+    }
+  },
+  "world_cup_predictor": {
+    "phase_1_platform_read": {
+      "status": "complete",
+      "mode": "platform_first_with_local_fallback"
+    },
+    "phase_2_inbox_writeback": {
+      "status": "partial",
+      "published_count": 2,
+      "missing_count": 7,
+      "published_outputs": [
+        "worldcup-2026/predictions.json",
+        "premier-league/predictions.json"
+      ],
+      "pending_outputs": [
+        "worldcup-2026/odds-snapshots.json",
+        "worldcup-2026/lineups.json",
+        "worldcup-2026/injuries.json",
+        "worldcup-2026/prematch-context.json",
+        "worldcup-2026/weather.json",
+        "premier-league/odds-snapshots.json",
+        "premier-league/context-snapshots.jsonl"
+      ]
+    },
+    "runtime_api": {
+      "status": "degraded",
+      "health_url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/health.json",
+      "warnings": [
+        "predictor odds_source has no World Cup rows",
+        "predictor world_cup_context_snapshots.jsonl does not exist"
+      ],
+      "counts": {
+        "shared_fixtures": 104,
+        "feature_inputs_rows": 104,
+        "predictions": 104,
+        "odds_source": 0,
+        "context_source": 0,
+        "prematch_context": 104
+      }
+    },
+    "data_assets": {
+      "status": "complete",
+      "manifest_url": "https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/manifest.json",
+      "file_count": 404,
+      "total_bytes": 1146108149
+    }
+  },
+  "runtime_enrichment_gaps": {
+    "world_cup_odds_rows": 0,
+    "world_cup_lineups_rows": 0,
+    "world_cup_injuries_rows": 0,
+    "world_cup_weather_rows": 0,
+    "note": "These remain pending until predictor odds/context jobs produce inbox files."
+  }
+}

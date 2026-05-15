@@ -576,6 +576,7 @@ predictor phase 2 写回边界：
 - 契约文档：`docs/2026-05-15-predictor-phase-2-writeback-contract.md`
 - 模型项目后续不应直接写 `data/public`、`data/model` 或 `data/normalized`
 - 第一轮写回采用“双写”：保留模型项目本地输出，同时写一份到平台 inbox
+- 切换状态由 `scripts/build_migration_status.py` 生成到 `data/public/api/migration-status.json`
 
 predictor 全量数据资产当前边界：
 
