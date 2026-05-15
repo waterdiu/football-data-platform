@@ -6,9 +6,9 @@
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor/worldcup-2026/predictions.json",
       "status": "published",
       "bytes": 748650,
+      "rows": 104,
       "destinations": {
-        "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_predictions_source_master.json",
-        "public": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/predictions.json"
+        "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_predictions_source_master.json"
       }
     },
     {
@@ -57,6 +57,7 @@
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor/premier-league/predictions.json",
       "status": "published",
       "bytes": 410005,
+      "rows": 40,
       "destinations": {
         "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/premier_league_predictor_predictions_master.json"
       }
@@ -77,5 +78,6 @@
     }
   ],
   "published_count": 2,
+  "empty_count": 0,
   "missing_count": 7
 }

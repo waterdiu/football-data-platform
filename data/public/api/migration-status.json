@@ -29,6 +29,7 @@
     "phase_2_inbox_writeback": {
       "status": "partial",
       "published_count": 2,
+      "empty_count": 0,
       "missing_count": 7,
       "published_outputs": [
         "worldcup-2026/predictions.json",
@@ -42,7 +43,18 @@
         "worldcup-2026/weather.json",
         "premier-league/odds-snapshots.json",
         "premier-league/context-snapshots.jsonl"
-      ]
+      ],
+      "output_statuses": {
+        "worldcup-2026/predictions.json": "published",
+        "worldcup-2026/odds-snapshots.json": "missing",
+        "worldcup-2026/lineups.json": "missing",
+        "worldcup-2026/injuries.json": "missing",
+        "worldcup-2026/prematch-context.json": "missing",
+        "worldcup-2026/weather.json": "missing",
+        "premier-league/predictions.json": "published",
+        "premier-league/odds-snapshots.json": "missing",
+        "premier-league/context-snapshots.jsonl": "missing"
+      }
     },
     "runtime_api": {
       "status": "degraded",

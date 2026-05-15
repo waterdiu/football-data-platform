@@ -312,6 +312,20 @@ python3 scripts/publish_predictor_inbox.py
 
 模型项目后续应把输出副本写入 `data/inbox/predictor/**`，再由平台发布到 `data/normalized`、`data/model` 和 `data/public`。
 
+运行期数据闭环入口：
+
+```bash
+python3 scripts/sync_predictor_runtime_inbox.py
+```
+
+该入口会在本地先调用兄弟仓库 `world-cup-predictor` 的 scheduled maintenance 生成 odds/context inbox，再发布平台数据、刷新 runtime API 和 `migration-status.json`。如果模型项目已经单独生成了 inbox 文件，可用：
+
+```bash
+python3 scripts/sync_predictor_runtime_inbox.py --skip-capture
+```
+
+`publish_predictor_inbox.py` 会区分 `missing` 和 `empty`。空数组或空 JSONL 不会覆盖平台正式数据，避免“采集任务运行了但没有源数据”被误判成 runtime enrichment 完成。
+
 ## Repository Layout
 
 ```text

@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-05-15T00:00:00Z",
-  "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/predictions.json",
+  "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor/worldcup-2026/predictions.json",
   "source_generated_at": "2026-05-15T00:00:00Z",
   "source_model_name": "xgboost",
   "source_fixture_count": 104,

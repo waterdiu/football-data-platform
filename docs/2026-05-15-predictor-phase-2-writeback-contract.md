@@ -118,6 +118,25 @@ For reads, the model project is now platform-strict by default. Local `backend/d
 
 Once the inbox publish path is verified across runtime odds/context jobs, later phases can remove the duplicate local writes.
 
+Publishing rule:
+
+- `missing`: source file does not exist and remains pending.
+- `empty`: source file exists but has zero rows; the platform records the status but does not overwrite normalized/model/public outputs.
+- `published`: source file exists and has at least one row; the platform copies it to the configured destinations.
+- World Cup prediction inbox keeps the predictor legacy object format. It is published to the predictor source master first, then `scripts/import_world_cup_predictions.py` converts it into the standard list format used by `data/public/predictions.json`.
+
+Local end-to-end entrypoint:
+
+```bash
+python3 scripts/sync_predictor_runtime_inbox.py
+```
+
+If `world-cup-predictor` has already written inbox files, run only the platform publish and health refresh:
+
+```bash
+python3 scripts/sync_predictor_runtime_inbox.py --skip-capture
+```
+
 ## Acceptance Criteria
 
 Phase 2 is complete when:

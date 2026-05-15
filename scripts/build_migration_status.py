@@ -17,6 +17,19 @@ OUTPUT_PATH = PUBLIC_API_DIR / "migration-status.json"
 UPDATED_AT = "2026-05-15T00:00:00Z"
 
 
+EXPECTED_INBOX_OUTPUTS = [
+    "worldcup-2026/predictions.json",
+    "worldcup-2026/odds-snapshots.json",
+    "worldcup-2026/lineups.json",
+    "worldcup-2026/injuries.json",
+    "worldcup-2026/prematch-context.json",
+    "worldcup-2026/weather.json",
+    "premier-league/predictions.json",
+    "premier-league/odds-snapshots.json",
+    "premier-league/context-snapshots.jsonl",
+]
+
+
 def load_json(path: Path) -> object:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -24,6 +37,17 @@ def load_json(path: Path) -> object:
 def write_json(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def inbox_statuses(inbox_report: dict) -> dict[str, str]:
+    statuses: dict[str, str] = {}
+    for section in ("world_cup", "premier_league"):
+        for item in inbox_report.get(section, []):
+            source = str(item.get("source") or "")
+            for expected in EXPECTED_INBOX_OUTPUTS:
+                if source.endswith(expected):
+                    statuses[expected] = str(item.get("status") or "unknown")
+    return statuses
 
 
 def main() -> None:
@@ -41,6 +65,13 @@ def main() -> None:
     predictor_counts = (
         predictor_health.get("predictor_dataset_counts", {}) if isinstance(predictor_health, dict) else {}
     )
+    inbox_by_output = inbox_statuses(inbox_report if isinstance(inbox_report, dict) else {})
+    published_outputs = [
+        output for output in EXPECTED_INBOX_OUTPUTS if inbox_by_output.get(output) == "published"
+    ]
+    pending_outputs = [
+        output for output in EXPECTED_INBOX_OUTPUTS if inbox_by_output.get(output) != "published"
+    ]
 
     payload = {
         "generated_at": UPDATED_AT,
@@ -71,22 +102,13 @@ def main() -> None:
                 "fallback_override_env": "FOOTBALL_DATA_PLATFORM_ALLOW_LOCAL_FALLBACK=1",
             },
             "phase_2_inbox_writeback": {
-                "status": "partial",
+                "status": "complete" if not pending_outputs else "partial",
                 "published_count": inbox_report.get("published_count"),
+                "empty_count": inbox_report.get("empty_count", 0),
                 "missing_count": inbox_report.get("missing_count"),
-                "published_outputs": [
-                    "worldcup-2026/predictions.json",
-                    "premier-league/predictions.json",
-                ],
-                "pending_outputs": [
-                    "worldcup-2026/odds-snapshots.json",
-                    "worldcup-2026/lineups.json",
-                    "worldcup-2026/injuries.json",
-                    "worldcup-2026/prematch-context.json",
-                    "worldcup-2026/weather.json",
-                    "premier-league/odds-snapshots.json",
-                    "premier-league/context-snapshots.jsonl",
-                ],
+                "published_outputs": published_outputs,
+                "pending_outputs": pending_outputs,
+                "output_statuses": inbox_by_output,
             },
             "runtime_api": {
                 "status": predictor_health.get("status"),

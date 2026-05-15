@@ -122,6 +122,14 @@
   - 输入：`data/inbox/predictor/**`
   - 输出：对应的 `data/normalized/*`、`data/model/*` 和部分 `data/public/*`
   - 用于 predictor phase 2，把模型输出和 runtime snapshots 从 inbox 发布到平台正式数据集
+  - 世界杯预测 inbox 保留 predictor 旧格式，只发布到 `world_cup_2026_predictor_predictions_source_master.json`；公共 `data/public/predictions.json` 必须通过 `import_world_cup_predictions.py` 转换成标准列表格式
+  - 现在会区分 `missing` 和 `empty`：空数组/空 JSONL 不会覆盖平台已有正式数据，避免无数据采集误判为已发布
+- `sync_predictor_runtime_inbox.py`
+  - 本地入口，先调用兄弟仓库 `world-cup-predictor/backend/scripts/run_scheduled_maintenance.py` 采集 odds/context，再发布 predictor inbox
+  - 默认只跑 runtime 数据：odds + context，不跑 evaluation，predictions 需显式 `--include-predictions`
+  - 采集后会串行刷新：predictor inbox、标准世界杯 predictions、`data/model/*`、coverage、worldcup runtime API、predictor API、source health、runtime health、migration status
+  - 可用 `--skip-capture` 只发布已有 inbox，适合模型项目已经单独写入产物后的平台发布
+  - 该脚本依赖本地 sibling checkout，不能直接放到 GitHub Actions 的标准 runner 中运行
 - `build_migration_status.py`
   - 输入：source health、predictor health、predictor inbox report、data assets summary
   - 输出：`data/public/api/migration-status.json`

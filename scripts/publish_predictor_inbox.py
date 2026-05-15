@@ -17,7 +17,6 @@ UPDATED_AT = "2026-05-15T00:00:00Z"
 WORLD_CUP_INBOX_FILES = {
     "worldcup-2026/predictions.json": {
         "normalized": "world_cup_2026_predictor_predictions_source_master.json",
-        "public": "predictions.json",
     },
     "worldcup-2026/odds-snapshots.json": {
         "normalized": "world_cup_2026_model_odds_master.json",
@@ -54,8 +53,25 @@ PREMIER_LEAGUE_INBOX_FILES = {
 }
 
 
-def ensure_json(path: Path) -> None:
-    json.loads(path.read_text(encoding="utf-8"))
+def load_json(path: Path) -> object:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def payload_row_count(path: Path) -> int:
+    if path.suffix == ".jsonl":
+        return sum(1 for line in path.read_text(encoding="utf-8").splitlines() if line.strip())
+    payload = load_json(path)
+    if isinstance(payload, list):
+        return len(payload)
+    if isinstance(payload, dict):
+        fixtures = payload.get("fixtures")
+        if isinstance(fixtures, list):
+            return len(fixtures)
+        rows = payload.get("rows")
+        if isinstance(rows, list):
+            return len(rows)
+        return 1 if payload else 0
+    return 0
 
 
 def copy_file(source: Path, target: Path) -> None:
@@ -77,8 +93,18 @@ def publish_mapping(mapping: dict[str, dict[str, str]]) -> list[dict[str, object
             )
             continue
 
-        if source.suffix == ".json":
-            ensure_json(source)
+        rows = payload_row_count(source)
+        if rows == 0:
+            published.append(
+                {
+                    "source": str(source),
+                    "status": "empty",
+                    "bytes": source.stat().st_size,
+                    "rows": rows,
+                    "destinations": destinations,
+                }
+            )
+            continue
 
         copied_to: dict[str, str] = {}
         normalized_name = destinations.get("normalized")
@@ -104,6 +130,7 @@ def publish_mapping(mapping: dict[str, dict[str, str]]) -> list[dict[str, object
                 "source": str(source),
                 "status": "published",
                 "bytes": source.stat().st_size,
+                "rows": rows,
                 "destinations": copied_to,
             }
         )
@@ -131,6 +158,11 @@ def main() -> None:
             1
             for item in [*world_cup_results, *premier_league_results]
             if item.get("status") == "published"
+        ),
+        "empty_count": sum(
+            1
+            for item in [*world_cup_results, *premier_league_results]
+            if item.get("status") == "empty"
         ),
         "missing_count": sum(
             1
