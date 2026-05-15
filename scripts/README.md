@@ -79,6 +79,10 @@
     - `core/bundle.json`
   - 用于让 `worldcup/2026` 运行时直接读取静态 JSON API
   - `manifest.json` 会同时写入相对路径和 GitHub Pages 绝对 URL
+- `build_worldcup_2026_runtime_health.py`
+  - 输入：`reports/source-health.json` 与 `data/public/api/worldcup/2026/manifest.json`
+  - 输出：`data/public/api/worldcup/2026/health.json`
+  - 提供线上运行时健康摘要，供页面和监控 workflow 使用
 - `extract_qualifier_detail_datasets.py`
   - 输入：`data/public/qualifier-matches.json`
   - 输出：
