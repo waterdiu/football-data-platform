@@ -692,9 +692,11 @@ predictor 全量数据资产当前边界：
 当前迁移边界：
 
 - 已迁移：The Odds API 赔率采集，直接写 `data/normalized/world_cup_2026_model_odds_master.json`
+- 已迁移：API-FOOTBALL 阵容和伤停采集，直接写 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
 - 已迁移：OpenWeather 天气采集，直接写 `data/normalized/world_cup_2026_model_weather_master.json`
 - 已配置：`configs/venues/world_cup_2026.json` 保存 16 个 2026 世界杯球场坐标
-- 尚未迁移：lineups、injuries、prematch_context，仅在 `reports/world_cup_runtime_collection_report.json` 中暴露 pending 状态
+- API-FOOTBALL fixture id map 缓存在 `data/runtime/api_football_fixture_map.json`，该目录不入 Git
+- 尚未迁移：prematch_context，仅在 `reports/world_cup_runtime_collection_report.json` 中暴露 pending 状态
 - 无 API key 或无可采集数据时，collector 只写 report，不覆盖现有 model master
 
 运行期发布闭环入口：

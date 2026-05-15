@@ -6,3 +6,4 @@ __pycache__/
 venv/
 .env
 data/predictor-assets/files/
+data/runtime/

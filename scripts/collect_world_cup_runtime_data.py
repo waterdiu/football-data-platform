@@ -11,12 +11,14 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
 from sources.openweather import fetch_openweather_payload, normalize_openweather_snapshot
+from sources.api_football import collect_api_football_context
 from sources.the_odds_api import fetch_odds_events, normalize_odds_events
 
 FIXTURES_PATH = ROOT / "data" / "public" / "fixtures.json"
 TEAMS_PATH = ROOT / "data" / "public" / "teams.json"
 VENUES_PATH = ROOT / "configs" / "venues" / "world_cup_2026.json"
 NORMALIZED_DIR = ROOT / "data" / "normalized"
+RUNTIME_DIR = ROOT / "data" / "runtime"
 REPORT_PATH = ROOT / "reports" / "world_cup_runtime_collection_report.json"
 
 WEATHER_MASTER_PATH = NORMALIZED_DIR / "world_cup_2026_model_weather_master.json"
@@ -182,6 +184,50 @@ def collect_odds(*, fixtures: list[dict], teams: list[dict], fetched_at: str, dr
     }
 
 
+def collect_api_football(*, fixtures: list[dict], teams: list[dict], fetched_at: str, dry_run: bool) -> list[dict]:
+    fixture_map_path = RUNTIME_DIR / "api_football_fixture_map.json"
+    injuries_rows, lineups_rows, report = collect_api_football_context(
+        fixtures=fixtures,
+        teams=teams,
+        fetched_at=fetched_at,
+        fixture_map_path=fixture_map_path,
+    )
+    if injuries_rows and not dry_run:
+        existing = load_existing_list(INJURIES_MASTER_PATH)
+        write_json(INJURIES_MASTER_PATH, merge_by_match_id(existing, injuries_rows))
+    if lineups_rows and not dry_run:
+        existing = load_existing_list(LINEUPS_MASTER_PATH)
+        write_json(LINEUPS_MASTER_PATH, merge_by_match_id(existing, lineups_rows))
+    return [
+        {
+            "dataset": "injuries",
+            "status": report["status"] if injuries_rows else report["status"],
+            "auth_env": report.get("auth_env"),
+            "league_id": report.get("league_id"),
+            "season": report.get("season"),
+            "fixtures_considered": report.get("fixtures_considered", len(fixtures)),
+            "fixture_ids_discovered": report.get("fixture_ids_discovered", 0),
+            "rows_collected": len(injuries_rows),
+            "output": str(INJURIES_MASTER_PATH) if injuries_rows else None,
+            "skipped": report.get("skipped", []),
+            "errors": report.get("errors", []),
+        },
+        {
+            "dataset": "lineups",
+            "status": report["status"] if lineups_rows else report["status"],
+            "auth_env": report.get("auth_env"),
+            "league_id": report.get("league_id"),
+            "season": report.get("season"),
+            "fixtures_considered": report.get("fixtures_considered", len(fixtures)),
+            "fixture_ids_discovered": report.get("fixture_ids_discovered", 0),
+            "rows_collected": len(lineups_rows),
+            "output": str(LINEUPS_MASTER_PATH) if lineups_rows else None,
+            "skipped": report.get("skipped", []),
+            "errors": report.get("errors", []),
+        },
+    ]
+
+
 def pending_dataset(name: str, path: Path, reason: str, auth_env: str | None = None) -> dict:
     payload = {
         "dataset": name,
@@ -214,11 +260,11 @@ def main() -> None:
 
     selected = selected_fixtures(fixtures, window_hours=args.window_hours, limit=args.limit)
     fetched_at = now_utc().isoformat()
+    api_football_datasets = collect_api_football(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run)
     datasets = [
         collect_odds(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run),
         collect_weather(fixtures=selected, venues=venues, fetched_at=fetched_at, dry_run=args.dry_run),
-        pending_dataset("lineups", LINEUPS_MASTER_PATH, "platform lineup adapter not migrated yet", "API_FOOTBALL_KEY"),
-        pending_dataset("injuries", INJURIES_MASTER_PATH, "platform injury adapter not migrated yet", "API_FOOTBALL_KEY"),
+        *api_football_datasets,
         pending_dataset("prematch_context", PREMATCH_CONTEXT_MASTER_PATH, "platform news/context adapter not migrated yet"),
     ]
     report = {

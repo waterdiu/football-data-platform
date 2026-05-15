@@ -106,20 +106,30 @@
         "rows_collected": 0
       },
       {
-        "dataset": "lineups",
-        "status": "pending_adapter",
-        "rows_existing": 0,
-        "reason": "platform lineup adapter not migrated yet",
-        "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_lineups_master.json",
-        "auth_env": "API_FOOTBALL_KEY"
+        "dataset": "injuries",
+        "status": "missing_auth",
+        "auth_env": "API_FOOTBALL_KEY",
+        "league_id": "1",
+        "season": "2026",
+        "fixtures_considered": 2,
+        "fixture_ids_discovered": 0,
+        "rows_collected": 0,
+        "output": null,
+        "skipped": [],
+        "errors": []
       },
       {
-        "dataset": "injuries",
-        "status": "pending_adapter",
-        "rows_existing": 0,
-        "reason": "platform injury adapter not migrated yet",
-        "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_injuries_master.json",
-        "auth_env": "API_FOOTBALL_KEY"
+        "dataset": "lineups",
+        "status": "missing_auth",
+        "auth_env": "API_FOOTBALL_KEY",
+        "league_id": "1",
+        "season": "2026",
+        "fixtures_considered": 2,
+        "fixture_ids_discovered": 0,
+        "rows_collected": 0,
+        "output": null,
+        "skipped": [],
+        "errors": []
       },
       {
         "dataset": "prematch_context",

@@ -335,6 +335,7 @@ python3 scripts/collect_world_cup_runtime_data.py
 当前已从模型侧迁出的采集器：
 
 - The Odds API 赔率采集：有 `THE_ODDS_API_KEY` 时写入 `data/normalized/world_cup_2026_model_odds_master.json`
+- API-FOOTBALL 阵容和伤停采集：有 `API_FOOTBALL_KEY` 时自动发现 fixture id，写入 `data/normalized/world_cup_2026_model_lineups_master.json` 和 `data/normalized/world_cup_2026_model_injuries_master.json`
 - OpenWeather 天气采集：配置在 `configs/venues/world_cup_2026.json`，有 `OPENWEATHER_API_KEY` 时写入 `data/normalized/world_cup_2026_model_weather_master.json`
 
 没有 key 时只写 `reports/world_cup_runtime_collection_report.json`，不会覆盖现有数据。可在同步闭环中一并运行：
