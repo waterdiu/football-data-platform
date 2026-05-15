@@ -284,6 +284,7 @@ python3 scripts/sync_predictor_data_assets.py
 
 对接说明：
 
+- `docs/2026-05-15-world-cup-predictor-code-change-instructions.md`
 - `docs/2026-05-15-world-cup-predictor-full-data-handoff.md`
 
 ## Repository Layout

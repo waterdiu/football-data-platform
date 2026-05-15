@@ -28,7 +28,12 @@
 
 ## 3. Scope
 
-本次平台侧只覆盖“世界杯对接层需要的已下载数据”，不迁移整个 predictor 仓库的全部训练资产。
+本设计最初只覆盖“世界杯对接层需要的已下载数据”。截至 2026-05-15，平台侧已经扩展为两层：
+
+- World Cup predictor runtime compatibility layer
+- Full predictor data asset manifest layer
+
+全量资产层已经把 `world-cup-predictor/backend/data` 的现有文件镜像到平台本地资产区，并通过 manifest 发布索引。
 
 纳入范围：
 
@@ -38,12 +43,15 @@
 - `backend/data/runtime/odds_snapshots.json` 中的世界杯条目
 - `backend/data/runtime/context/world_cup_context_snapshots.jsonl`，如果存在
 
-不纳入本次范围：
+已纳入全量资产镜像：
 
 - Premier League 训练资产
 - StatsBomb 全量历史原始文件
 - 通用模型训练 CSV
 - 非世界杯 context probe 调试文件
+- runtime odds / context / cooldown / probe 文件
+
+大型原始文件只保存在平台本地镜像，不发布到 GitHub Pages runtime bundle。
 
 ## 4. Platform-Owned Masters
 
@@ -118,6 +126,16 @@
 - `prematch-context.json`
 - `weather.json`
 
+平台还提供 predictor 全量数据资产清单接口：
+
+- `data/public/api/predictor/data-assets/manifest.json`
+- `data/public/api/predictor/data-assets/summary.json`
+- `data/public/api/predictor/data-assets/categories/*.json`
+
+全量文件本体位于：
+
+- `data/predictor-assets/files/**`
+
 ## 7. Recommended Migration Path
 
 推荐顺序：
@@ -153,3 +171,16 @@
 - 世界杯 context snapshots 已经迁完
 
 这些缺口需要等 predictor 后续实际生成对应快照，再回灌到平台。
+
+## 9. Full Asset Layer Current Reality
+
+截至 2026-05-15：
+
+- 已迁移文件数：`404`
+- 已迁移总大小：`1146108149` bytes
+- 最大类别：`raw.statsbomb_events`，`314` 个文件
+- 平台本地镜像：`data/predictor-assets/files`
+- 公开清单：`https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/manifest.json`
+- 公开摘要：`https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/summary.json`
+
+模型项目后续应该通过一个统一 loader 解析平台 manifest，再读取 `platform_path` 指向的本地文件；旧的 `backend/data/<relative_path>` 只作为迁移期 fallback。
