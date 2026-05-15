@@ -510,13 +510,15 @@ football-data-platform/
 
 它按顺序重建：
 
-1. `worldcup/2026` 本地数据镜像导入
+1. 平台 own 的 `worldcup/2026` 兼容数据镜像发布
 2. `fixtures`
 3. `results`
 4. `standings`
 5. `finals detail datasets`
 6. `model datasets`
 7. `data_coverage`
+8. `qualifier public datasets`
+9. `runtime API / health reports`
 
 对于世界杯正赛基础层，当前默认原则是：
 
@@ -534,6 +536,19 @@ football-data-platform/
 1. 优先直接更新平台内 master 文件
 2. 运行 `scripts/publish_qualifier_data.py`
 3. 如需从旧站点回灌，再运行 `scripts/import_qualifier_matches.mjs` 刷新 master 后重新 publish
+
+`worldcup/2026` 兼容数据当前边界：
+
+- 平台内部主维护源：`data/normalized/world_cup_2026_site_*_master.json`
+- 平台对外发布：`data/public/worldcup-site-*.json`
+- `scripts/import_worldcup_site_local_data.mjs` 当前仅保留为兼容回灌工具
+
+模型运行时数据当前边界：
+
+- 平台内部主维护源：`data/normalized/world_cup_2026_model_*_master.json`
+- 平台对外发布：`data/model/*.json`
+- `scripts/build_world_cup_model_datasets.py` 当前仅保留为 predictor 兼容回灌工具
+- `scripts/build_world_cup_model_runtime_datasets.py` 是主发布流水线默认入口
 
 当需要赛前上下文时，该入口还可以先执行：
 
@@ -577,6 +592,29 @@ football-data-platform/
 
 并由 GitHub Actions 的定时 workflow 主动拉取验证。
 
+自动化策略当前分两层：
+
+- 运行时层：已经可以完全托管在 GitHub 上
+  - GitHub Pages 部署
+  - 线上接口健康检查
+- 数据重建层：主流水线已经内收到平台 own master 文件
+  - `worldcup/2026` 和 `world-cup-predictor` 仍保留少量兼容/增强脚本
+  - 但它们不再是默认世界杯发布流程的阻塞项
+  - 可以由定时 workflow 直接执行完整重建与提交发布产物
+
+平台会通过：
+
+- `reports/automation-readiness.json`
+
+明确记录：
+
+- 哪些脚本已 self-contained
+- 哪些脚本仍依赖兄弟仓库
+- 世界杯完整发布流水线距离 fully automated 还差哪些环节
+
+当前自动重建入口：
+
+- `.github/workflows/rebuild-worldcup-data.yml`
 当前推荐的线上发布方式是 GitHub Pages：
 
 - 仓库直接发布 `data/public/`
@@ -597,7 +635,7 @@ football-data-platform/
 - `scripts/capture_world_cup_context_from_predictor.py`
 
 它负责调用预测项目的 `run_scheduled_maintenance.py`，只执行世界杯 context capture，
-然后再由平台自己的 `build_world_cup_model_datasets.py` 消费生成的 snapshots。
+然后再由平台自己的兼容回灌工具或平台 own model master 流程消费这些 snapshots。
 
 写入权限必须明确：
 

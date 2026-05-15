@@ -10,12 +10,14 @@ SCRIPTS_DIR = ROOT / "scripts"
 
 LOCAL_IMPORT_SCRIPT = "import_worldcup_site_local_data.mjs"
 PIPELINE = [
+    "build_worldcup_site_runtime_datasets.py",
     "build_world_cup_fixtures.py",
     "build_world_cup_results.py",
     "build_world_cup_standings.py",
     "build_world_cup_detail_datasets.py",
-    "build_world_cup_model_datasets.py",
+    "build_world_cup_model_runtime_datasets.py",
     "build_world_cup_coverage.py",
+    "publish_qualifier_data.py",
     "publish_worldcup_2026_api.py",
     "build_source_health_report.py",
     "build_worldcup_2026_runtime_health.py",
@@ -57,9 +59,6 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    print(f"[pipeline] {LOCAL_IMPORT_SCRIPT}")
-    run_script(LOCAL_IMPORT_SCRIPT)
-
     if args.capture_context:
         print(f"[pipeline] {CONTEXT_CAPTURE_SCRIPT}")
         extra_args = []
@@ -80,7 +79,7 @@ def main() -> None:
                 print(result.stderr.strip(), file=sys.stderr)
             raise SystemExit(result.returncode)
 
-    pipeline = [step for step in PIPELINE if not (args.skip_model and step == "build_world_cup_model_datasets.py")]
+    pipeline = [step for step in PIPELINE if not (args.skip_model and step == "build_world_cup_model_runtime_datasets.py")]
     for step in pipeline:
         print(f"[pipeline] {step}")
         run_script(step)

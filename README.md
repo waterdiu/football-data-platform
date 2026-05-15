@@ -93,6 +93,9 @@ Pages 首页：
 
 它们会优先基于 `worldcup/2026` 已经落地的本地数据镜像重建，而不是重复请求外部接口。
 
+与 `worldcup/2026` 兼容的页面数据镜像也已经进一步内收为平台 own 的 master 文件，
+主发布流水线默认不再依赖 `worldcup/2026` 仓库本身。
+
 ### World Cup qualifiers
 
 预选赛当前已经有平台内主维护源：
@@ -114,6 +117,21 @@ Pages 首页：
 
 ```bash
 python3 scripts/publish_all_world_cup_data.py
+```
+
+它会串行重建：
+
+- worldcup site 兼容镜像
+- finals fixtures/results/standings/detail datasets
+- model runtime datasets
+- coverage
+- qualifier public datasets
+- runtime API / source health / runtime health
+
+如果需要从旧的 `worldcup/2026` 仓库回灌兼容数据镜像，再单独运行：
+
+```bash
+node scripts/import_worldcup_site_local_data.mjs
 ```
 
 带上下文采集的世界杯发布：
@@ -145,6 +163,11 @@ python3 scripts/build_source_health_report.py
 ```bash
 python3 scripts/build_worldcup_2026_runtime_health.py
 ```
+自动化可运行性报告：
+
+```bash
+python3 scripts/build_automation_readiness_report.py
+```
 ## Publish Model
 
 当前线上部署通过 GitHub Pages 完成：
@@ -171,6 +194,30 @@ python3 scripts/build_worldcup_2026_runtime_health.py
 - `health.json`
 
 并校验关键数据集数量没有明显异常。
+
+## Automation Readiness
+
+当前已经分成两层：
+
+- 已经适合放到 GitHub Actions 的：
+  - Pages 部署
+  - 线上接口活性监控
+  - 世界杯完整数据重建
+
+历史上阻塞自动化的兄弟仓库依赖已经从主发布流水线移除：
+
+- `worldcup/2026` 现在只保留为兼容回灌来源
+- `world-cup-predictor` 现在只保留为模型上下文和预测数据的可选回灌来源
+
+`worldcup/2026` 兼容站点数据这一层，已经不再是主发布流水线阻塞项；它现在只保留为手动回灌来源。
+
+当前机器可读报告：
+
+- `reports/automation-readiness.json`
+
+当前定时重建 workflow：
+
+- `.github/workflows/rebuild-worldcup-data.yml`
 ## Repository Layout
 
 ```text

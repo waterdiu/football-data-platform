@@ -16,8 +16,14 @@
 
 - `import_worldcup_site_local_data.mjs`
   - 输入：`worldcup/2026/src/data/*`
-  - 输出：`data/public/worldcup-site-*.json`
+  - 输出：平台可回灌的 `worldcup-site-*` 数据镜像源
   - 并生成：`reports/worldcup_site_local_import_report.json`
+  - 当前定位：兼容导入 / 手动回灌，不再是主发布流水线默认步骤
+- `build_worldcup_site_runtime_datasets.py`
+  - 输入：`data/normalized/world_cup_2026_site_*_master.json`
+  - 输出：`data/public/worldcup-site-*.json`
+  - 并生成：`reports/worldcup_site_runtime_publish_report.json`
+  - 当前定位：主发布流水线默认入口，用平台 own 的 site master 文件生成兼容数据镜像
 - `bootstrap_world_cup_2026.py`
   - 输入：世界杯站的 `104 场 CSV` 与预测项目的球队翻译表
   - 输出：`data/public/teams.json` 和 `data/public/fixtures.json`
@@ -83,6 +89,10 @@
   - 输入：`reports/source-health.json` 与 `data/public/api/worldcup/2026/manifest.json`
   - 输出：`data/public/api/worldcup/2026/health.json`
   - 提供线上运行时健康摘要，供页面和监控 workflow 使用
+- `build_automation_readiness_report.py`
+  - 输入：平台脚本依赖清单
+  - 输出：`reports/automation-readiness.json`
+  - 用于明确哪些流程已经适合 GitHub Actions，哪些仍被兄弟仓库依赖阻塞
 - `extract_qualifier_detail_datasets.py`
   - 输入：`data/public/qualifier-matches.json`
   - 输出：
@@ -107,10 +117,21 @@
     - `data/model/prematch_context.json`
     - `data/model/weather.json`
   - 并生成：`reports/world_cup_model_dataset_report.json`
+  - 当前定位：predictor 兼容回灌工具，不再是主发布流水线默认步骤
+- `build_world_cup_model_runtime_datasets.py`
+  - 输入：`data/normalized/world_cup_2026_model_*_master.json`
+  - 输出：
+    - `data/model/odds_snapshots.json`
+    - `data/model/lineups.json`
+    - `data/model/injuries.json`
+    - `data/model/prematch_context.json`
+    - `data/model/weather.json`
+  - 并生成：`reports/world_cup_model_dataset_report.json`
+  - 当前定位：主发布流水线默认入口，用平台 own 的 model master 文件生成运行时模型数据
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
-  - 先导入 `worldcup/2026` 已有本地数据镜像
-  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`model datasets`、`coverage`
+  - 先发布平台 own 的 `worldcup/2026` 兼容数据镜像
+  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`model datasets`、`coverage`、`qualifier public datasets`
   - 可选 `--capture-context`，先触发预测项目的世界杯 context capture，再继续发布
 - `build_source_health_report.py`
   - 聚合 `public/*`、`model/*` 和各类 report，输出统一的 `reports/source-health.json`

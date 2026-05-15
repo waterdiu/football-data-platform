@@ -1,0 +1,201 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "repository": "waterdiu/football-data-platform",
+  "automation_readiness": {
+    "pages_runtime_monitoring_ready": true,
+    "github_actions_full_rebuild_ready": true,
+    "blocking_script_count": 0
+  },
+  "blocking_repositories": [],
+  "optional_external_repositories": [
+    "world-cup-predictor",
+    "worldcup/2026"
+  ],
+  "world_cup_pipeline": [
+    {
+      "script": "build_worldcup_site_runtime_datasets.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
+      "script": "build_world_cup_fixtures.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
+      "script": "build_world_cup_results.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
+      "script": "build_world_cup_standings.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
+      "script": "build_world_cup_detail_datasets.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
+      "script": "build_world_cup_model_runtime_datasets.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
+      "script": "build_world_cup_coverage.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
+      "script": "publish_qualifier_data.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
+      "script": "publish_worldcup_2026_api.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
+      "script": "build_source_health_report.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
+      "script": "build_worldcup_2026_runtime_health.py",
+      "self_contained": true,
+      "external_repos": []
+    }
+  ],
+  "pipeline_blockers": [],
+  "script_inventory": [
+    {
+      "script": "import_worldcup_site_local_data.mjs",
+      "exists": true,
+      "external_repos": [
+        "worldcup/2026"
+      ],
+      "self_contained": false,
+      "reason": "Imports local TypeScript data modules from the worldcup site repository."
+    },
+    {
+      "script": "build_worldcup_site_runtime_datasets.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Publishes worldcup/2026-compatible site datasets from platform-owned master files."
+    },
+    {
+      "script": "build_world_cup_fixtures.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Rebuilds fixtures from platform-owned public mirrors and teams."
+    },
+    {
+      "script": "build_world_cup_results.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Builds results from platform-owned local mirrors and normalized fixtures."
+    },
+    {
+      "script": "build_world_cup_standings.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Builds standings from platform-owned fixtures and results."
+    },
+    {
+      "script": "build_world_cup_detail_datasets.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Extracts finals detail datasets from platform-owned migrated finals results."
+    },
+    {
+      "script": "build_world_cup_model_datasets.py",
+      "exists": true,
+      "external_repos": [
+        "world-cup-predictor"
+      ],
+      "self_contained": false,
+      "reason": "Reads predictor outputs and context snapshots from the predictor repository."
+    },
+    {
+      "script": "build_world_cup_model_runtime_datasets.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Publishes model runtime datasets from platform-owned model master files."
+    },
+    {
+      "script": "build_world_cup_coverage.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Builds coverage from platform-owned public and model datasets."
+    },
+    {
+      "script": "publish_worldcup_2026_api.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Publishes runtime API from platform-owned public datasets."
+    },
+    {
+      "script": "build_source_health_report.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Aggregates platform-owned reports and datasets into a health report."
+    },
+    {
+      "script": "build_worldcup_2026_runtime_health.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Builds runtime health from platform-owned manifest and source health report."
+    },
+    {
+      "script": "publish_qualifier_data.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Publishes qualifier public datasets from the platform-owned master source."
+    },
+    {
+      "script": "capture_world_cup_context_from_predictor.py",
+      "exists": true,
+      "external_repos": [
+        "world-cup-predictor"
+      ],
+      "self_contained": false,
+      "reason": "Triggers context capture inside the predictor repository."
+    },
+    {
+      "script": "import_qualifier_matches.mjs",
+      "exists": true,
+      "external_repos": [
+        "worldcup/2026"
+      ],
+      "self_contained": false,
+      "reason": "Imports qualifier source data from the worldcup site repository."
+    },
+    {
+      "script": "import_world_cup_predictions.py",
+      "exists": true,
+      "external_repos": [
+        "world-cup-predictor"
+      ],
+      "self_contained": false,
+      "reason": "Imports processed predictions from the predictor repository."
+    }
+  ],
+  "recommended_next_steps": [
+    "Enable or monitor the scheduled rebuild workflow now that the default World Cup pipeline is self-contained.",
+    "Keep import_worldcup_site_local_data.mjs and build_world_cup_model_datasets.py only as optional manual backfill tools.",
+    "If future datasets add sibling-repo dependencies again, update this report and keep them out of the default publish pipeline."
+  ]
+}

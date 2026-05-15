@@ -1,0 +1,283 @@
+[
+  {
+    "round": "Round of 32",
+    "matches": [
+      {
+        "id": "73",
+        "dateLabel": "Sun 28 Jun 2026",
+        "homeLabel": "Group A runners-up",
+        "awayLabel": "Group B runners-up",
+        "venue": "Los Angeles Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "74",
+        "dateLabel": "Mon 29 Jun 2026",
+        "homeLabel": "Group E winners",
+        "awayLabel": "Best third from A/B/C/D/F",
+        "venue": "Boston Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "75",
+        "dateLabel": "Mon 29 Jun 2026",
+        "homeLabel": "Group F winners",
+        "awayLabel": "Group C runners-up",
+        "venue": "Estadio Monterrey",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "76",
+        "dateLabel": "Mon 29 Jun 2026",
+        "homeLabel": "Group C winners",
+        "awayLabel": "Group F runners-up",
+        "venue": "Houston Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "77",
+        "dateLabel": "Tue 30 Jun 2026",
+        "homeLabel": "Group I winners",
+        "awayLabel": "Best third from C/D/F/G/H",
+        "venue": "New York New Jersey Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "78",
+        "dateLabel": "Tue 30 Jun 2026",
+        "homeLabel": "Group E runners-up",
+        "awayLabel": "Group I runners-up",
+        "venue": "Dallas Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "79",
+        "dateLabel": "Tue 30 Jun 2026",
+        "homeLabel": "Group A winners",
+        "awayLabel": "Best third from C/E/F/H/I",
+        "venue": "Mexico City Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "80",
+        "dateLabel": "Wed 1 Jul 2026",
+        "homeLabel": "Group L winners",
+        "awayLabel": "Best third from E/H/I/J/K",
+        "venue": "Atlanta Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "81",
+        "dateLabel": "Wed 1 Jul 2026",
+        "homeLabel": "Group D winners",
+        "awayLabel": "Best third from B/E/F/I/J",
+        "venue": "San Francisco Bay Area Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "82",
+        "dateLabel": "Wed 1 Jul 2026",
+        "homeLabel": "Group G winners",
+        "awayLabel": "Best third from A/E/H/I/J",
+        "venue": "Seattle Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "83",
+        "dateLabel": "Thu 2 Jul 2026",
+        "homeLabel": "Group K runners-up",
+        "awayLabel": "Group L runners-up",
+        "venue": "Toronto Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "84",
+        "dateLabel": "Thu 2 Jul 2026",
+        "homeLabel": "Group H winners",
+        "awayLabel": "Group J runners-up",
+        "venue": "Los Angeles Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "85",
+        "dateLabel": "Thu 2 Jul 2026",
+        "homeLabel": "Group B winners",
+        "awayLabel": "Best third from E/F/G/I/J",
+        "venue": "BC Place Vancouver",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "86",
+        "dateLabel": "Fri 3 Jul 2026",
+        "homeLabel": "Group J winners",
+        "awayLabel": "Group H runners-up",
+        "venue": "Miami Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "87",
+        "dateLabel": "Fri 3 Jul 2026",
+        "homeLabel": "Group K winners",
+        "awayLabel": "Best third from D/E/I/J/L",
+        "venue": "Kansas City Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "88",
+        "dateLabel": "Fri 3 Jul 2026",
+        "homeLabel": "Group D runners-up",
+        "awayLabel": "Group G runners-up",
+        "venue": "Dallas Stadium",
+        "predictionStatus": "Model-ready display"
+      }
+    ]
+  },
+  {
+    "round": "Round of 16",
+    "matches": [
+      {
+        "id": "89",
+        "dateLabel": "Sat 4 Jul 2026",
+        "homeLabel": "Winner Match 74",
+        "awayLabel": "Winner Match 77",
+        "venue": "Philadelphia Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "90",
+        "dateLabel": "Sat 4 Jul 2026",
+        "homeLabel": "Winner Match 73",
+        "awayLabel": "Winner Match 75",
+        "venue": "Houston Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "91",
+        "dateLabel": "Sun 5 Jul 2026",
+        "homeLabel": "Winner Match 76",
+        "awayLabel": "Winner Match 78",
+        "venue": "New York New Jersey Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "92",
+        "dateLabel": "Sun 5 Jul 2026",
+        "homeLabel": "Winner Match 79",
+        "awayLabel": "Winner Match 80",
+        "venue": "Mexico City Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "93",
+        "dateLabel": "Mon 6 Jul 2026",
+        "homeLabel": "Winner Match 83",
+        "awayLabel": "Winner Match 84",
+        "venue": "Dallas Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "94",
+        "dateLabel": "Mon 6 Jul 2026",
+        "homeLabel": "Winner Match 81",
+        "awayLabel": "Winner Match 82",
+        "venue": "Seattle Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "95",
+        "dateLabel": "Tue 7 Jul 2026",
+        "homeLabel": "Winner Match 86",
+        "awayLabel": "Winner Match 88",
+        "venue": "Atlanta Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "96",
+        "dateLabel": "Tue 7 Jul 2026",
+        "homeLabel": "Winner Match 85",
+        "awayLabel": "Winner Match 87",
+        "venue": "BC Place Vancouver",
+        "predictionStatus": "Model-ready display"
+      }
+    ]
+  },
+  {
+    "round": "Quarter-finals",
+    "matches": [
+      {
+        "id": "97",
+        "dateLabel": "Thu 9 Jul 2026",
+        "homeLabel": "Winner Match 89",
+        "awayLabel": "Winner Match 90",
+        "venue": "Boston Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "98",
+        "dateLabel": "Fri 10 Jul 2026",
+        "homeLabel": "Winner Match 93",
+        "awayLabel": "Winner Match 94",
+        "venue": "Los Angeles Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "99",
+        "dateLabel": "Sat 11 Jul 2026",
+        "homeLabel": "Winner Match 91",
+        "awayLabel": "Winner Match 92",
+        "venue": "Miami Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "100",
+        "dateLabel": "Sat 11 Jul 2026",
+        "homeLabel": "Winner Match 95",
+        "awayLabel": "Winner Match 96",
+        "venue": "Kansas City Stadium",
+        "predictionStatus": "Model-ready display"
+      }
+    ]
+  },
+  {
+    "round": "Semi-finals",
+    "matches": [
+      {
+        "id": "101",
+        "dateLabel": "Tue 14 Jul 2026",
+        "homeLabel": "Winner Match 97",
+        "awayLabel": "Winner Match 98",
+        "venue": "Dallas Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "102",
+        "dateLabel": "Wed 15 Jul 2026",
+        "homeLabel": "Winner Match 99",
+        "awayLabel": "Winner Match 100",
+        "venue": "Atlanta Stadium",
+        "predictionStatus": "Model-ready display"
+      }
+    ]
+  },
+  {
+    "round": "Bronze & Final",
+    "matches": [
+      {
+        "id": "103",
+        "dateLabel": "Sat 18 Jul 2026",
+        "homeLabel": "Runner-up Match 101",
+        "awayLabel": "Runner-up Match 102",
+        "venue": "Miami Stadium",
+        "predictionStatus": "Model-ready display"
+      },
+      {
+        "id": "104",
+        "dateLabel": "Sun 19 Jul 2026",
+        "homeLabel": "Winner Match 101",
+        "awayLabel": "Winner Match 102",
+        "venue": "New York New Jersey Stadium",
+        "predictionStatus": "Model-ready display"
+      }
+    ]
+  }
+]
