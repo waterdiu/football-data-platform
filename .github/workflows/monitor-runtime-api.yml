@@ -1,0 +1,65 @@
+name: Monitor Runtime API
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate live endpoints
+        env:
+          MANIFEST_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/manifest.json
+          SITE_BUNDLE_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/bundle.json
+          CORE_BUNDLE_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/bundle.json
+          HEALTH_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/health.json
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          urls = {
+              "manifest": os.environ["MANIFEST_URL"],
+              "site_bundle": os.environ["SITE_BUNDLE_URL"],
+              "core_bundle": os.environ["CORE_BUNDLE_URL"],
+              "health": os.environ["HEALTH_URL"],
+          }
+
+          payloads = {}
+          for name, url in urls.items():
+              with urllib.request.urlopen(url, timeout=30) as response:
+                  if response.status != 200:
+                      raise SystemExit(f"{name} returned status {response.status}")
+                  payloads[name] = json.loads(response.read().decode("utf-8"))
+
+          manifest = payloads["manifest"]
+          site_bundle = payloads["site_bundle"]
+          core_bundle = payloads["core_bundle"]
+          health = payloads["health"]
+
+          if manifest.get("runtime_contract", {}).get("preferred_site_url") != urls["site_bundle"]:
+              raise SystemExit("manifest preferred_site_url mismatch")
+          if len(site_bundle.get("datasets", {}).get("full_schedule", [])) < 100:
+              raise SystemExit("site full_schedule dataset unexpectedly small")
+          if len(core_bundle.get("datasets", {}).get("fixtures", [])) < 100:
+              raise SystemExit("core fixtures dataset unexpectedly small")
+          if health.get("status") not in {"ok", "degraded"}:
+              raise SystemExit("health status missing")
+
+          summary = [
+              "## Runtime API Health",
+              f"- manifest: {urls['manifest']}",
+              f"- site_bundle_count: {len(site_bundle.get('datasets', {}).get('full_schedule', []))}",
+              f"- core_fixtures_count: {len(core_bundle.get('datasets', {}).get('fixtures', []))}",
+              f"- health_status: {health.get('status')}",
+              f"- health_warnings: {len(health.get('warnings', []))}",
+          ]
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
+              fh.write("\n".join(summary) + "\n")
+          PY
