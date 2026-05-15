@@ -1,0 +1,1361 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "provider": "football_data_org",
+  "mapped_matches": 104,
+  "unmatched_provider_matches": [],
+  "unmatched_bootstrap_fixtures": [],
+  "mappings": [
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:001",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537327",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "1",
+        "football_data_org": "537327"
+      },
+      "match_key": {
+        "date_utc": "2026-06-11T19:00:00Z",
+        "home_team_id": "mexico",
+        "away_team_id": "south-africa"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:002",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537328",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "2",
+        "football_data_org": "537328"
+      },
+      "match_key": {
+        "date_utc": "2026-06-12T02:00:00Z",
+        "home_team_id": "korea-republic",
+        "away_team_id": "czechia"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:003",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537329",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "3",
+        "football_data_org": "537329"
+      },
+      "match_key": {
+        "date_utc": "2026-06-18T16:00:00Z",
+        "home_team_id": "czechia",
+        "away_team_id": "south-africa"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:004",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537330",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "4",
+        "football_data_org": "537330"
+      },
+      "match_key": {
+        "date_utc": "2026-06-19T01:00:00Z",
+        "home_team_id": "mexico",
+        "away_team_id": "korea-republic"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:005",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537331",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "5",
+        "football_data_org": "537331"
+      },
+      "match_key": {
+        "date_utc": "2026-06-25T01:00:00Z",
+        "home_team_id": "czechia",
+        "away_team_id": "mexico"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:006",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537332",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "6",
+        "football_data_org": "537332"
+      },
+      "match_key": {
+        "date_utc": "2026-06-25T01:00:00Z",
+        "home_team_id": "south-africa",
+        "away_team_id": "korea-republic"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:007",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537333",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "7",
+        "football_data_org": "537333"
+      },
+      "match_key": {
+        "date_utc": "2026-06-12T19:00:00Z",
+        "home_team_id": "canada",
+        "away_team_id": "bosnia-and-herzegovina"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:008",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537334",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "8",
+        "football_data_org": "537334"
+      },
+      "match_key": {
+        "date_utc": "2026-06-13T19:00:00Z",
+        "home_team_id": "qatar",
+        "away_team_id": "switzerland"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:009",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537335",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "9",
+        "football_data_org": "537335"
+      },
+      "match_key": {
+        "date_utc": "2026-06-18T19:00:00Z",
+        "home_team_id": "switzerland",
+        "away_team_id": "bosnia-and-herzegovina"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:010",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537336",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "10",
+        "football_data_org": "537336"
+      },
+      "match_key": {
+        "date_utc": "2026-06-18T22:00:00Z",
+        "home_team_id": "canada",
+        "away_team_id": "qatar"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:011",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537337",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "11",
+        "football_data_org": "537337"
+      },
+      "match_key": {
+        "date_utc": "2026-06-24T19:00:00Z",
+        "home_team_id": "switzerland",
+        "away_team_id": "canada"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:012",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537338",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "12",
+        "football_data_org": "537338"
+      },
+      "match_key": {
+        "date_utc": "2026-06-24T19:00:00Z",
+        "home_team_id": "bosnia-and-herzegovina",
+        "away_team_id": "qatar"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:013",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537339",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "13",
+        "football_data_org": "537339"
+      },
+      "match_key": {
+        "date_utc": "2026-06-13T22:00:00Z",
+        "home_team_id": "brazil",
+        "away_team_id": "morocco"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:014",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537340",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "14",
+        "football_data_org": "537340"
+      },
+      "match_key": {
+        "date_utc": "2026-06-14T01:00:00Z",
+        "home_team_id": "haiti",
+        "away_team_id": "scotland"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:015",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537342",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "15",
+        "football_data_org": "537342"
+      },
+      "match_key": {
+        "date_utc": "2026-06-19T22:00:00Z",
+        "home_team_id": "scotland",
+        "away_team_id": "morocco"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:016",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537341",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "16",
+        "football_data_org": "537341"
+      },
+      "match_key": {
+        "date_utc": "2026-06-20T00:30:00Z",
+        "home_team_id": "brazil",
+        "away_team_id": "haiti"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:017",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537343",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "17",
+        "football_data_org": "537343"
+      },
+      "match_key": {
+        "date_utc": "2026-06-24T22:00:00Z",
+        "home_team_id": "scotland",
+        "away_team_id": "brazil"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:018",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537344",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "18",
+        "football_data_org": "537344"
+      },
+      "match_key": {
+        "date_utc": "2026-06-24T22:00:00Z",
+        "home_team_id": "morocco",
+        "away_team_id": "haiti"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:019",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537345",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "19",
+        "football_data_org": "537345"
+      },
+      "match_key": {
+        "date_utc": "2026-06-13T01:00:00Z",
+        "home_team_id": "united-states",
+        "away_team_id": "paraguay"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:020",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537346",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "20",
+        "football_data_org": "537346"
+      },
+      "match_key": {
+        "date_utc": "2026-06-14T04:00:00Z",
+        "home_team_id": "australia",
+        "away_team_id": "turkiye"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:021",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537348",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "21",
+        "football_data_org": "537348"
+      },
+      "match_key": {
+        "date_utc": "2026-06-19T19:00:00Z",
+        "home_team_id": "united-states",
+        "away_team_id": "australia"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:022",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537347",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "22",
+        "football_data_org": "537347"
+      },
+      "match_key": {
+        "date_utc": "2026-06-20T03:00:00Z",
+        "home_team_id": "turkiye",
+        "away_team_id": "paraguay"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:023",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537349",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "23",
+        "football_data_org": "537349"
+      },
+      "match_key": {
+        "date_utc": "2026-06-26T02:00:00Z",
+        "home_team_id": "turkiye",
+        "away_team_id": "united-states"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:024",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537350",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "24",
+        "football_data_org": "537350"
+      },
+      "match_key": {
+        "date_utc": "2026-06-26T02:00:00Z",
+        "home_team_id": "paraguay",
+        "away_team_id": "australia"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:025",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537351",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "25",
+        "football_data_org": "537351"
+      },
+      "match_key": {
+        "date_utc": "2026-06-14T17:00:00Z",
+        "home_team_id": "germany",
+        "away_team_id": "curacao"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:026",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537352",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "26",
+        "football_data_org": "537352"
+      },
+      "match_key": {
+        "date_utc": "2026-06-14T23:00:00Z",
+        "home_team_id": "cote-divoire",
+        "away_team_id": "ecuador"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:027",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537353",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "27",
+        "football_data_org": "537353"
+      },
+      "match_key": {
+        "date_utc": "2026-06-20T20:00:00Z",
+        "home_team_id": "germany",
+        "away_team_id": "cote-divoire"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:028",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537354",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "28",
+        "football_data_org": "537354"
+      },
+      "match_key": {
+        "date_utc": "2026-06-21T00:00:00Z",
+        "home_team_id": "ecuador",
+        "away_team_id": "curacao"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:029",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537356",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "29",
+        "football_data_org": "537356"
+      },
+      "match_key": {
+        "date_utc": "2026-06-25T20:00:00Z",
+        "home_team_id": "curacao",
+        "away_team_id": "cote-divoire"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:030",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537355",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "30",
+        "football_data_org": "537355"
+      },
+      "match_key": {
+        "date_utc": "2026-06-25T20:00:00Z",
+        "home_team_id": "ecuador",
+        "away_team_id": "germany"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:031",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537357",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "31",
+        "football_data_org": "537357"
+      },
+      "match_key": {
+        "date_utc": "2026-06-14T20:00:00Z",
+        "home_team_id": "netherlands",
+        "away_team_id": "japan"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:032",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537358",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "32",
+        "football_data_org": "537358"
+      },
+      "match_key": {
+        "date_utc": "2026-06-15T02:00:00Z",
+        "home_team_id": "sweden",
+        "away_team_id": "tunisia"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:033",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537359",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "33",
+        "football_data_org": "537359"
+      },
+      "match_key": {
+        "date_utc": "2026-06-20T17:00:00Z",
+        "home_team_id": "netherlands",
+        "away_team_id": "sweden"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:034",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537360",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "34",
+        "football_data_org": "537360"
+      },
+      "match_key": {
+        "date_utc": "2026-06-21T04:00:00Z",
+        "home_team_id": "tunisia",
+        "away_team_id": "japan"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:035",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537362",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "35",
+        "football_data_org": "537362"
+      },
+      "match_key": {
+        "date_utc": "2026-06-25T23:00:00Z",
+        "home_team_id": "japan",
+        "away_team_id": "sweden"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:036",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537361",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "36",
+        "football_data_org": "537361"
+      },
+      "match_key": {
+        "date_utc": "2026-06-25T23:00:00Z",
+        "home_team_id": "tunisia",
+        "away_team_id": "netherlands"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:037",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537363",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "37",
+        "football_data_org": "537363"
+      },
+      "match_key": {
+        "date_utc": "2026-06-15T19:00:00Z",
+        "home_team_id": "belgium",
+        "away_team_id": "egypt"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:038",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537364",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "38",
+        "football_data_org": "537364"
+      },
+      "match_key": {
+        "date_utc": "2026-06-16T01:00:00Z",
+        "home_team_id": "ir-iran",
+        "away_team_id": "new-zealand"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:039",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537365",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "39",
+        "football_data_org": "537365"
+      },
+      "match_key": {
+        "date_utc": "2026-06-21T19:00:00Z",
+        "home_team_id": "belgium",
+        "away_team_id": "ir-iran"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:040",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537366",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "40",
+        "football_data_org": "537366"
+      },
+      "match_key": {
+        "date_utc": "2026-06-22T01:00:00Z",
+        "home_team_id": "new-zealand",
+        "away_team_id": "egypt"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:041",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537368",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "41",
+        "football_data_org": "537368"
+      },
+      "match_key": {
+        "date_utc": "2026-06-27T03:00:00Z",
+        "home_team_id": "egypt",
+        "away_team_id": "ir-iran"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:042",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537367",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "42",
+        "football_data_org": "537367"
+      },
+      "match_key": {
+        "date_utc": "2026-06-27T03:00:00Z",
+        "home_team_id": "new-zealand",
+        "away_team_id": "belgium"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:043",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537369",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "43",
+        "football_data_org": "537369"
+      },
+      "match_key": {
+        "date_utc": "2026-06-15T16:00:00Z",
+        "home_team_id": "spain",
+        "away_team_id": "cabo-verde"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:044",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537370",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "44",
+        "football_data_org": "537370"
+      },
+      "match_key": {
+        "date_utc": "2026-06-15T22:00:00Z",
+        "home_team_id": "saudi-arabia",
+        "away_team_id": "uruguay"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:045",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537371",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "45",
+        "football_data_org": "537371"
+      },
+      "match_key": {
+        "date_utc": "2026-06-21T16:00:00Z",
+        "home_team_id": "spain",
+        "away_team_id": "saudi-arabia"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:046",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537372",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "46",
+        "football_data_org": "537372"
+      },
+      "match_key": {
+        "date_utc": "2026-06-21T22:00:00Z",
+        "home_team_id": "uruguay",
+        "away_team_id": "cabo-verde"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:047",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537374",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "47",
+        "football_data_org": "537374"
+      },
+      "match_key": {
+        "date_utc": "2026-06-27T00:00:00Z",
+        "home_team_id": "cabo-verde",
+        "away_team_id": "saudi-arabia"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:048",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537373",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "48",
+        "football_data_org": "537373"
+      },
+      "match_key": {
+        "date_utc": "2026-06-27T00:00:00Z",
+        "home_team_id": "uruguay",
+        "away_team_id": "spain"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:049",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537391",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "49",
+        "football_data_org": "537391"
+      },
+      "match_key": {
+        "date_utc": "2026-06-16T19:00:00Z",
+        "home_team_id": "france",
+        "away_team_id": "senegal"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:050",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537392",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "50",
+        "football_data_org": "537392"
+      },
+      "match_key": {
+        "date_utc": "2026-06-16T22:00:00Z",
+        "home_team_id": "iraq",
+        "away_team_id": "norway"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:051",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537393",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "51",
+        "football_data_org": "537393"
+      },
+      "match_key": {
+        "date_utc": "2026-06-22T21:00:00Z",
+        "home_team_id": "france",
+        "away_team_id": "iraq"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:052",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537394",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "52",
+        "football_data_org": "537394"
+      },
+      "match_key": {
+        "date_utc": "2026-06-23T00:00:00Z",
+        "home_team_id": "norway",
+        "away_team_id": "senegal"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:053",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537395",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "53",
+        "football_data_org": "537395"
+      },
+      "match_key": {
+        "date_utc": "2026-06-26T19:00:00Z",
+        "home_team_id": "norway",
+        "away_team_id": "france"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:054",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537396",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "54",
+        "football_data_org": "537396"
+      },
+      "match_key": {
+        "date_utc": "2026-06-26T19:00:00Z",
+        "home_team_id": "senegal",
+        "away_team_id": "iraq"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:055",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537397",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "55",
+        "football_data_org": "537397"
+      },
+      "match_key": {
+        "date_utc": "2026-06-17T01:00:00Z",
+        "home_team_id": "argentina",
+        "away_team_id": "algeria"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:056",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537398",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "56",
+        "football_data_org": "537398"
+      },
+      "match_key": {
+        "date_utc": "2026-06-17T04:00:00Z",
+        "home_team_id": "austria",
+        "away_team_id": "jordan"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:057",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537399",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "57",
+        "football_data_org": "537399"
+      },
+      "match_key": {
+        "date_utc": "2026-06-22T17:00:00Z",
+        "home_team_id": "argentina",
+        "away_team_id": "austria"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:058",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537400",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "58",
+        "football_data_org": "537400"
+      },
+      "match_key": {
+        "date_utc": "2026-06-23T03:00:00Z",
+        "home_team_id": "jordan",
+        "away_team_id": "algeria"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:059",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537402",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "59",
+        "football_data_org": "537402"
+      },
+      "match_key": {
+        "date_utc": "2026-06-28T02:00:00Z",
+        "home_team_id": "algeria",
+        "away_team_id": "austria"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:060",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537401",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "60",
+        "football_data_org": "537401"
+      },
+      "match_key": {
+        "date_utc": "2026-06-28T02:00:00Z",
+        "home_team_id": "jordan",
+        "away_team_id": "argentina"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:061",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537403",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "61",
+        "football_data_org": "537403"
+      },
+      "match_key": {
+        "date_utc": "2026-06-17T17:00:00Z",
+        "home_team_id": "portugal",
+        "away_team_id": "congo-dr"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:062",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537404",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "62",
+        "football_data_org": "537404"
+      },
+      "match_key": {
+        "date_utc": "2026-06-18T02:00:00Z",
+        "home_team_id": "uzbekistan",
+        "away_team_id": "colombia"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:063",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537405",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "63",
+        "football_data_org": "537405"
+      },
+      "match_key": {
+        "date_utc": "2026-06-23T17:00:00Z",
+        "home_team_id": "portugal",
+        "away_team_id": "uzbekistan"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:064",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537406",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "64",
+        "football_data_org": "537406"
+      },
+      "match_key": {
+        "date_utc": "2026-06-24T02:00:00Z",
+        "home_team_id": "colombia",
+        "away_team_id": "congo-dr"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:065",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537407",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "65",
+        "football_data_org": "537407"
+      },
+      "match_key": {
+        "date_utc": "2026-06-27T23:30:00Z",
+        "home_team_id": "colombia",
+        "away_team_id": "portugal"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:066",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537408",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "66",
+        "football_data_org": "537408"
+      },
+      "match_key": {
+        "date_utc": "2026-06-27T23:30:00Z",
+        "home_team_id": "congo-dr",
+        "away_team_id": "uzbekistan"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:067",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537409",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "67",
+        "football_data_org": "537409"
+      },
+      "match_key": {
+        "date_utc": "2026-06-17T20:00:00Z",
+        "home_team_id": "england",
+        "away_team_id": "croatia"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:068",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537410",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "68",
+        "football_data_org": "537410"
+      },
+      "match_key": {
+        "date_utc": "2026-06-17T23:00:00Z",
+        "home_team_id": "ghana",
+        "away_team_id": "panama"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:069",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537411",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "69",
+        "football_data_org": "537411"
+      },
+      "match_key": {
+        "date_utc": "2026-06-23T20:00:00Z",
+        "home_team_id": "england",
+        "away_team_id": "ghana"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:070",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537412",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "70",
+        "football_data_org": "537412"
+      },
+      "match_key": {
+        "date_utc": "2026-06-23T23:00:00Z",
+        "home_team_id": "panama",
+        "away_team_id": "croatia"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:071",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537413",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "71",
+        "football_data_org": "537413"
+      },
+      "match_key": {
+        "date_utc": "2026-06-27T21:00:00Z",
+        "home_team_id": "panama",
+        "away_team_id": "england"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:072",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537414",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "72",
+        "football_data_org": "537414"
+      },
+      "match_key": {
+        "date_utc": "2026-06-27T21:00:00Z",
+        "home_team_id": "croatia",
+        "away_team_id": "ghana"
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:073",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537417",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "73",
+        "football_data_org": "537417"
+      },
+      "match_key": {
+        "date_utc": "2026-06-28T19:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:074",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537415",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "74",
+        "football_data_org": "537415"
+      },
+      "match_key": {
+        "date_utc": "2026-06-29T20:30:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:075",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537418",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "75",
+        "football_data_org": "537418"
+      },
+      "match_key": {
+        "date_utc": "2026-06-30T01:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:076",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537423",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "76",
+        "football_data_org": "537423"
+      },
+      "match_key": {
+        "date_utc": "2026-06-29T17:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:077",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537416",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "77",
+        "football_data_org": "537416"
+      },
+      "match_key": {
+        "date_utc": "2026-06-30T21:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:078",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537424",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "78",
+        "football_data_org": "537424"
+      },
+      "match_key": {
+        "date_utc": "2026-06-30T17:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:079",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537425",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "79",
+        "football_data_org": "537425"
+      },
+      "match_key": {
+        "date_utc": "2026-07-01T01:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:080",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537426",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "80",
+        "football_data_org": "537426"
+      },
+      "match_key": {
+        "date_utc": "2026-07-01T16:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:081",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537421",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "81",
+        "football_data_org": "537421"
+      },
+      "match_key": {
+        "date_utc": "2026-07-02T00:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:082",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537422",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "82",
+        "football_data_org": "537422"
+      },
+      "match_key": {
+        "date_utc": "2026-07-01T20:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:083",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537419",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "83",
+        "football_data_org": "537419"
+      },
+      "match_key": {
+        "date_utc": "2026-07-02T23:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:084",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537420",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "84",
+        "football_data_org": "537420"
+      },
+      "match_key": {
+        "date_utc": "2026-07-02T19:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:085",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537429",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "85",
+        "football_data_org": "537429"
+      },
+      "match_key": {
+        "date_utc": "2026-07-03T03:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:086",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537427",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "86",
+        "football_data_org": "537427"
+      },
+      "match_key": {
+        "date_utc": "2026-07-03T22:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:087",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537430",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "87",
+        "football_data_org": "537430"
+      },
+      "match_key": {
+        "date_utc": "2026-07-04T01:30:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:088",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537428",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "88",
+        "football_data_org": "537428"
+      },
+      "match_key": {
+        "date_utc": "2026-07-03T18:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:089",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537375",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "89",
+        "football_data_org": "537375"
+      },
+      "match_key": {
+        "date_utc": "2026-07-04T21:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:090",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537376",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "90",
+        "football_data_org": "537376"
+      },
+      "match_key": {
+        "date_utc": "2026-07-04T17:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:091",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537377",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "91",
+        "football_data_org": "537377"
+      },
+      "match_key": {
+        "date_utc": "2026-07-05T20:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:092",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537378",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "92",
+        "football_data_org": "537378"
+      },
+      "match_key": {
+        "date_utc": "2026-07-06T00:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:093",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537379",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "93",
+        "football_data_org": "537379"
+      },
+      "match_key": {
+        "date_utc": "2026-07-06T19:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:094",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537380",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "94",
+        "football_data_org": "537380"
+      },
+      "match_key": {
+        "date_utc": "2026-07-07T00:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:095",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537381",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "95",
+        "football_data_org": "537381"
+      },
+      "match_key": {
+        "date_utc": "2026-07-07T16:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:096",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537382",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "96",
+        "football_data_org": "537382"
+      },
+      "match_key": {
+        "date_utc": "2026-07-07T20:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:097",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537383",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "97",
+        "football_data_org": "537383"
+      },
+      "match_key": {
+        "date_utc": "2026-07-09T20:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:098",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537384",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "98",
+        "football_data_org": "537384"
+      },
+      "match_key": {
+        "date_utc": "2026-07-10T19:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:099",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537385",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "99",
+        "football_data_org": "537385"
+      },
+      "match_key": {
+        "date_utc": "2026-07-11T21:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:100",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537386",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "100",
+        "football_data_org": "537386"
+      },
+      "match_key": {
+        "date_utc": "2026-07-12T01:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:101",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537387",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "101",
+        "football_data_org": "537387"
+      },
+      "match_key": {
+        "date_utc": "2026-07-14T19:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:102",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537388",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "102",
+        "football_data_org": "537388"
+      },
+      "match_key": {
+        "date_utc": "2026-07-15T19:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:103",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537389",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "103",
+        "football_data_org": "537389"
+      },
+      "match_key": {
+        "date_utc": "2026-07-18T21:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    },
+    {
+      "temporary_match_id": "fifa_world_cup:2026:schedule_csv:104",
+      "authoritative_match_id": "fifa_world_cup:2026:fdorg:537390",
+      "source_refs": {
+        "worldcup_2026_schedule_csv": "104",
+        "football_data_org": "537390"
+      },
+      "match_key": {
+        "date_utc": "2026-07-19T19:00:00Z",
+        "home_team_id": null,
+        "away_team_id": null
+      }
+    }
+  ]
+}

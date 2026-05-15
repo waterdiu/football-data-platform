@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Result",
+  "type": "object",
+  "required": ["match_id", "status", "score", "provider", "updated_at"],
+  "properties": {
+    "match_id": { "type": "string" },
+    "status": { "type": "string" },
+    "score": { "type": "object" },
+    "winner": { "type": "string" },
+    "result_type": { "type": "string" },
+    "provider": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

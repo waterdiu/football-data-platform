@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "source_dir": "/Users/chamcham/Documents/AI/CODEX/soccer/worldcup/2026/src/data",
+  "datasets": {
+    "worldcup-site-groups.json": 12,
+    "worldcup-site-group-fixtures.json": 24,
+    "worldcup-site-group-stage-matches.json": 72,
+    "worldcup-site-bracket.json": 5,
+    "worldcup-site-full-schedule.json": 104,
+    "worldcup-site-finals-results.json": 104,
+    "worldcup-site-finals-coverage.json": 1,
+    "worldcup-site-qualifier-matches.json": 467,
+    "worldcup-site-qualifier-missing-data.json": 467,
+    "worldcup-site-qualifier-source-reports.json": 1
+  }
+}

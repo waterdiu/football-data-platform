@@ -1,0 +1,1978 @@
+[
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537327",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537327",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537328",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537328",
+    "updated_at": "2026-04-01T00:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537329",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537329",
+    "updated_at": "2026-04-01T00:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537330",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537330",
+    "updated_at": "2026-03-30T20:21:10Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537331",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537331",
+    "updated_at": "2026-04-01T00:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537332",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537332",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537333",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537333",
+    "updated_at": "2026-04-01T00:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537334",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537334",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537335",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537335",
+    "updated_at": "2026-04-01T00:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537336",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537336",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537337",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537337",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537338",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537338",
+    "updated_at": "2026-04-01T00:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537339",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537339",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537340",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537340",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537341",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537341",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537342",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537342",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537343",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537343",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537344",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537344",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537345",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537345",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537346",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537346",
+    "updated_at": "2026-04-02T15:21:05Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537347",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537347",
+    "updated_at": "2026-04-01T15:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537348",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537348",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537349",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537349",
+    "updated_at": "2026-04-01T00:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537350",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537350",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537351",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537351",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537352",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537352",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537353",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537353",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537354",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537354",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537355",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537355",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537356",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537356",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537357",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537357",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537358",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537358",
+    "updated_at": "2026-04-01T00:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537359",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537359",
+    "updated_at": "2026-04-01T00:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537360",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537360",
+    "updated_at": "2026-03-30T20:21:10Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537361",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537361",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537362",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537362",
+    "updated_at": "2026-04-01T00:21:07Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537363",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537363",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537364",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537364",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537365",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537365",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537366",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537366",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537367",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537367",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537368",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537368",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537369",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537369",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537370",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537370",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537371",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537371",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537372",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537372",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537373",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537373",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537374",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537374",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537375",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537375",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537376",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537376",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537377",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537377",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537378",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537378",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537379",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537379",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537380",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537380",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537381",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537381",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537382",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537382",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537383",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537383",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537384",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537384",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537385",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537385",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537386",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537386",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537387",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537387",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537388",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537388",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537389",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537389",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537390",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537390",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537391",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537391",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537392",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537392",
+    "updated_at": "2026-04-01T10:21:10Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537393",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537393",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537394",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537394",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537395",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537395",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537396",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537396",
+    "updated_at": "2026-04-01T10:21:10Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537397",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537397",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537398",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537398",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537399",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537399",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537400",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537400",
+    "updated_at": "2026-03-30T20:21:10Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537401",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537401",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537402",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537402",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537403",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537403",
+    "updated_at": "2026-04-01T10:21:10Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537404",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537404",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537405",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537405",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537406",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537406",
+    "updated_at": "2026-04-01T10:21:10Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537407",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537407",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537408",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537408",
+    "updated_at": "2026-04-01T10:21:10Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537409",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537409",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537410",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537410",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537411",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537411",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537412",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537412",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537413",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537413",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537414",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537414",
+    "updated_at": "2025-12-06T20:20:44Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537415",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537415",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537416",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537416",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537417",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537417",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537418",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537418",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537419",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537419",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537420",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537420",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537421",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537421",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537422",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537422",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537423",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537423",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537424",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537424",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537425",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537425",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537426",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537426",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537427",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537427",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537428",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537428",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537429",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537429",
+    "updated_at": "2026-05-14T00:20:58Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537430",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null,
+      "half_time_home": null,
+      "half_time_away": null,
+      "extra_time_home": null,
+      "extra_time_away": null,
+      "penalties_home": null,
+      "penalties_away": null
+    },
+    "winner": null,
+    "result_type": "regular",
+    "provider": "football_data_org",
+    "provider_match_id": "537430",
+    "updated_at": "2026-05-14T00:20:58Z"
+  }
+]

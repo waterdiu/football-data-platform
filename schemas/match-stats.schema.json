@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MatchStats",
+  "type": "object",
+  "required": ["match_id"],
+  "properties": {
+    "match_id": { "type": "string" },
+    "provider": { "type": ["string", "null"] },
+    "home": { "type": ["object", "null"] },
+    "away": { "type": ["object", "null"] },
+    "captured_at": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

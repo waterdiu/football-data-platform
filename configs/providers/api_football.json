@@ -1,0 +1,7 @@
+{
+  "provider": "api_football",
+  "type": "api",
+  "datasets": ["fixtures", "results", "events", "lineups", "match_stats", "injuries"],
+  "auth_env": "API_FOOTBALL_KEY",
+  "notes": "Primary enrichment source for qualifiers, events, lineups, and match statistics."
+}

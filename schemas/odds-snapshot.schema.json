@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OddsSnapshot",
+  "type": "object",
+  "required": ["match_id", "bookmaker_count", "has_sharp"],
+  "properties": {
+    "match_id": { "type": "string" },
+    "sport_key": { "type": ["string", "null"] },
+    "date": { "type": ["string", "null"] },
+    "home_team": { "type": ["string", "null"] },
+    "away_team": { "type": ["string", "null"] },
+    "commence_time": { "type": ["string", "null"] },
+    "captured_at": { "type": ["string", "null"] },
+    "snapshot_kind": { "type": ["string", "null"] },
+    "bookmakers": { "type": "array" },
+    "bookmaker_count": { "type": "integer", "minimum": 0 },
+    "has_sharp": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

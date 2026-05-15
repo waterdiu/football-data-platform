@@ -1,0 +1,7 @@
+{
+  "provider": "the_odds_api",
+  "type": "api",
+  "datasets": ["odds_snapshots"],
+  "auth_env": "THE_ODDS_API_KEY",
+  "notes": "Primary odds source for model and market comparison workflows."
+}

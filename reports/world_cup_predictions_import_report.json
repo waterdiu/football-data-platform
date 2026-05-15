@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/predictions.json",
+  "source_generated_at": "2026-05-15T00:00:00Z",
+  "source_model_name": "xgboost",
+  "source_fixture_count": 104,
+  "imported_prediction_count": 104,
+  "unmatched_prediction_count": 0,
+  "unmatched_predictions": []
+}

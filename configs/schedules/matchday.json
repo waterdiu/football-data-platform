@@ -1,0 +1,15 @@
+{
+  "name": "matchday",
+  "description": "Higher-frequency polling window for active matchdays.",
+  "continue_on_extra_time": true,
+  "continue_on_penalties": true,
+  "concurrent_match_handling": "parallel_by_active_match",
+  "tasks": [
+    "results",
+    "events",
+    "lineups",
+    "match_stats",
+    "odds_snapshots",
+    "predictions"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Coverage",
+  "type": "object",
+  "required": ["match_id", "last_checked_at"],
+  "definitions": {
+    "coverage_item": {
+      "oneOf": [
+        { "type": "string" },
+        {
+          "type": "object",
+          "required": ["status"],
+          "properties": {
+            "status": { "type": "string" },
+            "confidence": { "type": "string" },
+            "source": { "type": "string" },
+            "bookmaker_count": { "type": "integer" },
+            "has_sharp": { "type": "boolean" }
+          },
+          "additionalProperties": true
+        }
+      ]
+    }
+  },
+  "properties": {
+    "match_id": { "type": "string" },
+    "fixture": { "$ref": "#/definitions/coverage_item" },
+    "result": { "$ref": "#/definitions/coverage_item" },
+    "events": { "$ref": "#/definitions/coverage_item" },
+    "lineups": { "$ref": "#/definitions/coverage_item" },
+    "match_stats": { "$ref": "#/definitions/coverage_item" },
+    "odds": { "$ref": "#/definitions/coverage_item" },
+    "injuries": { "$ref": "#/definitions/coverage_item" },
+    "weather": { "$ref": "#/definitions/coverage_item" },
+    "prediction": { "$ref": "#/definitions/coverage_item" },
+    "last_checked_at": { "type": "string" }
+  }
+}

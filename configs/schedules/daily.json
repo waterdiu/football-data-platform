@@ -1,0 +1,10 @@
+{
+  "name": "daily",
+  "description": "Low-frequency collection for stable datasets.",
+  "tasks": [
+    "fixtures",
+    "teams",
+    "standings",
+    "data_coverage"
+  ]
+}

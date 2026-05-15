@@ -1,0 +1,7 @@
+{
+  "provider": "football_data_org",
+  "type": "api",
+  "datasets": ["fixtures", "results", "standings", "scorers"],
+  "auth_env": "FOOTBALL_DATA_API_KEY",
+  "notes": "Free tier is suitable for base fixtures and scores, but delayed and limited for deep detail."
+}

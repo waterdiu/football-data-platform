@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/raw/football-data-org/world_cup_2026_matches.json",
+  "fixture_count": 104,
+  "provider_match_count": 104,
+  "events_count": 0,
+  "lineups_count": 0,
+  "stats_count": 0,
+  "matches_with_events": 0,
+  "matches_with_lineups": 0,
+  "matches_with_stats": 0,
+  "note": "Current football-data.org World Cup payload provides fixtures and results, but no finals events, lineups, or match stats yet."
+}

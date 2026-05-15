@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InjurySummary",
+  "type": "object",
+  "required": ["match_id", "source", "confidence", "source_status"],
+  "properties": {
+    "match_id": { "type": "string" },
+    "source": { "type": "string" },
+    "confidence": { "type": "string" },
+    "source_status": { "type": "string" },
+    "injury_summary": { "type": ["object", "null"] },
+    "absence_evidence_summary": { "type": ["object", "null"] }
+  },
+  "additionalProperties": true
+}

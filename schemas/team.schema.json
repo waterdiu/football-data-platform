@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Team",
+  "type": "object",
+  "required": ["team_id", "name", "aliases", "updated_at"],
+  "properties": {
+    "team_id": { "type": "string" },
+    "name": { "type": "string" },
+    "short_name": { "type": "string" },
+    "localized_name": { "type": "object" },
+    "flag_emoji": { "type": "string" },
+    "fifa_rank": { "type": "integer" },
+    "country_code": { "type": "string" },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "updated_at": { "type": "string" }
+  }
+}

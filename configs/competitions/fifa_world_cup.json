@@ -1,0 +1,33 @@
+{
+  "competition_id": "fifa_world_cup",
+  "name": "FIFA World Cup",
+  "type": "international_cup",
+  "season_format": "year",
+  "current_season": "2026",
+  "supported_datasets": [
+    "teams",
+    "fixtures",
+    "results",
+    "standings",
+    "events",
+    "lineups",
+    "match_stats",
+    "predictions",
+    "data_coverage"
+  ],
+  "provider_priority": {
+    "fixtures": ["football_data_org", "openfootball", "api_football"],
+    "results": ["football_data_org", "api_football", "openfootball"],
+    "events": ["api_football", "openfootball"],
+    "lineups": ["api_football"],
+    "match_stats": ["api_football"],
+    "predictions": ["world_cup_predictor"]
+  },
+  "polling_schedule": {
+    "fixtures": "daily",
+    "results": "matchday_1_5_min",
+    "events": "matchday_5_10_min",
+    "lineups": "t90_t60_t30",
+    "predictions": "on_input_change"
+  }
+}

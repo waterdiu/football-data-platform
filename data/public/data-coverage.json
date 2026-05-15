@@ -1,0 +1,4682 @@
+[
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537327",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537328",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537329",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537330",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537331",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537332",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537333",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537334",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537335",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537336",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537337",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537338",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537339",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537340",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537341",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537342",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537343",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537344",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537345",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537346",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537347",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537348",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537349",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537350",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537351",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537352",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537353",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537354",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537355",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537356",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537357",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537358",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537359",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537360",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537361",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537362",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537363",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537364",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537365",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537366",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537367",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537368",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537369",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537370",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537371",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537372",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537373",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537374",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537375",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537376",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537377",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537378",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537379",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537380",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537381",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537382",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537383",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537384",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537385",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537386",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537387",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537388",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537389",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537390",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537391",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537392",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537393",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537394",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537395",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537396",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537397",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537398",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537399",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537400",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537401",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537402",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537403",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537404",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537405",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537406",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537407",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537408",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537409",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537410",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537411",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537412",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537413",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537414",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537415",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537416",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537417",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537418",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537419",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537420",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537421",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537422",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537423",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537424",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537425",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537426",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537427",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537428",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537429",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537430",
+    "fixture": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "result": {
+      "status": "available",
+      "confidence": "high",
+      "source": "football_data_org"
+    },
+    "events": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "lineups": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "match_stats": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "odds": {
+      "status": "missing",
+      "confidence": "low",
+      "bookmaker_count": 0,
+      "has_sharp": false
+    },
+    "injuries": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "weather": {
+      "status": "missing",
+      "confidence": "low"
+    },
+    "prediction": {
+      "status": "available",
+      "confidence": "medium",
+      "source": "xgboost"
+    },
+    "last_checked_at": "2026-05-15T00:00:00Z"
+  }
+]

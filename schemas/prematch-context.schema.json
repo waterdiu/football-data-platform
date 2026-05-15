@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PrematchContext",
+  "type": "object",
+  "required": ["match_id", "source_statuses", "readiness"],
+  "properties": {
+    "match_id": { "type": "string" },
+    "date": { "type": ["string", "null"] },
+    "home_team": { "type": ["string", "null"] },
+    "away_team": { "type": ["string", "null"] },
+    "source_statuses": { "type": "object" },
+    "readiness": { "type": "object" },
+    "injury_summary": { "type": ["object", "null"] },
+    "prematch_news_summary": { "type": ["object", "null"] },
+    "predicted_lineup_risk_summary": { "type": ["object", "null"] },
+    "absence_evidence_summary": { "type": ["object", "null"] },
+    "squad_strength_summary": { "type": ["object", "null"] },
+    "lineup_summary": { "type": ["object", "null"] },
+    "lineup_strength_summary": { "type": ["object", "null"] },
+    "latest_snapshots_count": { "type": "integer", "minimum": 0 }
+  },
+  "additionalProperties": true
+}

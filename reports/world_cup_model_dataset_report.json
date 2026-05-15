@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "fixtures_total": 104,
+  "predictor_odds_source_exists": true,
+  "predictor_odds_source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/odds_snapshots.json",
+  "predictor_odds_source_rows": 45,
+  "predictor_context_source_exists": false,
+  "predictor_context_source_path": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/world_cup_context_snapshots.jsonl",
+  "predictor_context_source_health": {},
+  "world_cup_odds_rows": 0,
+  "world_cup_lineups_rows": 0,
+  "world_cup_injuries_rows": 0,
+  "world_cup_prematch_context_rows": 104,
+  "world_cup_weather_rows": 0,
+  "note": "当前共享层会优先读取预测项目的 processed predictions 和 world_cup context snapshots。如果还没有世界杯专项快照，prematch_context 仍会产出 readiness/source_statuses，但 injuries、weather、live lineups、world_cup odds 可能为空。"
+}

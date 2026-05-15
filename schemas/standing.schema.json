@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Standing",
+  "type": "object",
+  "required": [
+    "competition_id",
+    "season_id",
+    "stage",
+    "group",
+    "rank",
+    "team_id",
+    "team_name",
+    "played",
+    "won",
+    "drawn",
+    "lost",
+    "goals_for",
+    "goals_against",
+    "goal_difference",
+    "points"
+  ],
+  "properties": {
+    "competition_id": { "type": "string" },
+    "season_id": { "type": "string" },
+    "stage": { "type": "string" },
+    "group": { "type": "string" },
+    "rank": { "type": "integer", "minimum": 1 },
+    "team_id": { "type": "string" },
+    "team_name": { "type": "string" },
+    "played": { "type": "integer", "minimum": 0 },
+    "won": { "type": "integer", "minimum": 0 },
+    "drawn": { "type": "integer", "minimum": 0 },
+    "lost": { "type": "integer", "minimum": 0 },
+    "goals_for": { "type": "integer", "minimum": 0 },
+    "goals_against": { "type": "integer", "minimum": 0 },
+    "goal_difference": { "type": "integer" },
+    "points": { "type": "integer", "minimum": 0 }
+  },
+  "additionalProperties": true
+}

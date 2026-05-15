@@ -1,0 +1,37 @@
+{
+  "competition_id": "premier_league",
+  "name": "Premier League",
+  "type": "domestic_league",
+  "season_format": "split_year",
+  "current_season": "2025-2026",
+  "supported_datasets": [
+    "teams",
+    "fixtures",
+    "results",
+    "standings",
+    "events",
+    "lineups",
+    "match_stats",
+    "odds_snapshots",
+    "injuries",
+    "prematch_context",
+    "predictions",
+    "data_coverage"
+  ],
+  "provider_priority": {
+    "fixtures": ["football_data_org", "premierleague_official"],
+    "results": ["football_data_org", "football_data_co_uk"],
+    "events": ["api_football"],
+    "lineups": ["api_football", "match_centre"],
+    "match_stats": ["football_data_co_uk", "api_football"],
+    "odds_snapshots": ["the_odds_api", "oddsharvester", "oddspapi"],
+    "predictions": ["world_cup_predictor"]
+  },
+  "polling_schedule": {
+    "fixtures": "daily",
+    "results": "matchday_1_5_min",
+    "lineups": "t90_t60_t30",
+    "odds_snapshots": "t72h_hourly_t6h_15min",
+    "predictions": "on_input_change"
+  }
+}

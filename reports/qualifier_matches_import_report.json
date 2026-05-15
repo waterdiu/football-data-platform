@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "source_files": [
+    "/Users/chamcham/Documents/AI/CODEX/soccer/worldcup/2026/src/data/apiFootballQualifierMatches.ts",
+    "/Users/chamcham/Documents/AI/CODEX/soccer/worldcup/2026/src/data/qualifierMatches.ts"
+  ],
+  "imported_api_football_matches": 460,
+  "imported_manual_matches": 11,
+  "merged_match_count": 467
+}
