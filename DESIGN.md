@@ -12,6 +12,12 @@
 
 `football-data-platform` 对话负责维护这两份共享文档，并在跨项目任务中决定数据层、展示站、预测模型之间的责任边界。
 
+截至 2026-05-16：
+
+- `world-cup-predictor` 已在 README/DESIGN 中接入全局协调规则，并确认不再承担生产共享数据采集责任
+- `worldcup/2026` 对话已读取全局协调文件，并确认只处理站点 UI、页面、前端 API client、runtime fetch/fallback、构建部署和视觉 QA
+- 后续跨项目 schema、API、数据同步问题均回到本对话作为协调入口
+
 ## 1. Purpose
 
 `football-data-platform` 是一个独立的足球公共数据层，服务多个消费项目，包括：
