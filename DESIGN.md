@@ -564,6 +564,19 @@ football-data-platform/
 - `site/*` 用于低风险替换 `worldcup/2026` 现有页面数据入口
 - `core/*` 用于后续彻底切换到平台标准契约
 
+为了支持生产期监控，平台还发布：
+
+- `data/public/api/worldcup/2026/health.json`
+
+它聚合：
+
+- `source-health.json` 的公开数据计数
+- manifest 的发布时间
+- 运行时入口 URL
+- 当前降级或缺失告警
+
+并由 GitHub Actions 的定时 workflow 主动拉取验证。
+
 当前推荐的线上发布方式是 GitHub Pages：
 
 - 仓库直接发布 `data/public/`
