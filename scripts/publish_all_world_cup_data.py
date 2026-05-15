@@ -10,11 +10,13 @@ SCRIPTS_DIR = ROOT / "scripts"
 
 LOCAL_IMPORT_SCRIPT = "import_worldcup_site_local_data.mjs"
 PIPELINE = [
+    "build_world_cup_fixtures.py",
     "build_world_cup_results.py",
     "build_world_cup_standings.py",
     "build_world_cup_detail_datasets.py",
     "build_world_cup_model_datasets.py",
     "build_world_cup_coverage.py",
+    "publish_worldcup_2026_api.py",
 ]
 CONTEXT_CAPTURE_SCRIPT = "capture_world_cup_context_from_predictor.py"
 

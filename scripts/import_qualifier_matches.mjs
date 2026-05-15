@@ -9,7 +9,7 @@ const worldCupSiteRoot = path.resolve(rootDir, '..', 'worldcup', '2026');
 
 const apiFootballMatchesPath = path.join(worldCupSiteRoot, 'src', 'data', 'apiFootballQualifierMatches.ts');
 const qualifierMatchesPath = path.join(worldCupSiteRoot, 'src', 'data', 'qualifierMatches.ts');
-const outputPath = path.join(rootDir, 'data', 'public', 'qualifier-matches.json');
+const outputPath = path.join(rootDir, 'data', 'normalized', 'world_cup_2026_qualifier_matches_master.json');
 const reportPath = path.join(rootDir, 'reports', 'qualifier_matches_import_report.json');
 
 function extractArrayLiteral(source, declarationPrefix) {
@@ -121,7 +121,7 @@ async function main() {
   await writeJson(outputPath, qualifierMatches);
   await writeJson(reportPath, report);
 
-  console.log(`Published ${qualifierMatches.length} qualifier matches to ${outputPath}`);
+  console.log(`Refreshed ${qualifierMatches.length} qualifier source rows at ${outputPath}`);
   console.log(`Wrote qualifier import report to ${reportPath}`);
 }
 

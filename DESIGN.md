@@ -427,7 +427,7 @@ football-data-platform/
 | Dataset | Primary | Secondary |
 | --- | --- | --- |
 | local 2026 site datasets | `worldcup/2026/src/data/*` | shared snapshots | local-only |
-| fixtures/results | football-data.org | openfootball / API-FOOTBALL |
+| fixtures/results | `worldcup/2026` 本地迁移镜像 | football-data.org / openfootball / API-FOOTBALL |
 | qualifiers | API-FOOTBALL | official confederation pages |
 | events/lineups/stats | API-FOOTBALL | official pages / paid enrichments |
 | historical data | football-data.co.uk / openfootball | local CSV |
@@ -511,11 +511,29 @@ football-data-platform/
 它按顺序重建：
 
 1. `worldcup/2026` 本地数据镜像导入
-2. `results`
-3. `standings`
-4. `finals detail datasets`
-5. `model datasets`
-6. `data_coverage`
+2. `fixtures`
+3. `results`
+4. `standings`
+5. `finals detail datasets`
+6. `model datasets`
+7. `data_coverage`
+
+对于世界杯正赛基础层，当前默认原则是：
+
+- 已经从 `worldcup/2026` 本地迁移过来的数据，优先直接使用本地迁移镜像
+- 不再把 `fixtures`、`results` 和 `finals detail datasets` 的日常发布建立在外部接口抓取上
+
+预选赛当前边界：
+
+- 平台内部主维护源：`data/normalized/world_cup_2026_qualifier_matches_master.json`
+- 平台对外发布：`qualifier-matches / qualifier-events / qualifier-lineups / qualifier-match-stats`
+- `worldcup/2026` 的 `apiFootballQualifierMatches.ts / qualifierMatches.ts` 当前仅保留为兼容导入源
+
+预选赛推荐更新顺序：
+
+1. 优先直接更新平台内 master 文件
+2. 运行 `scripts/publish_qualifier_data.py`
+3. 如需从旧站点回灌，再运行 `scripts/import_qualifier_matches.mjs` 刷新 master 后重新 publish
 
 当需要赛前上下文时，该入口还可以先执行：
 
@@ -530,6 +548,29 @@ football-data-platform/
 此外，平台提供统一健康报告入口：
 
 - `scripts/build_source_health_report.py`
+
+平台还提供一个面向 `worldcup/2026` 的运行时静态接口发布入口：
+
+- `scripts/publish_worldcup_2026_api.py`
+
+它会把当前共享层产物发布到：
+
+- `data/public/api/worldcup/2026/manifest.json`
+- `data/public/api/worldcup/2026/site/*`
+- `data/public/api/worldcup/2026/core/*`
+
+其中：
+
+- `site/*` 用于低风险替换 `worldcup/2026` 现有页面数据入口
+- `core/*` 用于后续彻底切换到平台标准契约
+
+当前推荐的线上发布方式是 GitHub Pages：
+
+- 仓库直接发布 `data/public/`
+- 运行时主入口 URL：
+  - `https://waterdiu.github.io/football-data-platform/api/worldcup/2026/manifest.json`
+
+这样 `worldcup/2026` 可以在页面运行时直接 fetch 平台 JSON，而不需要等待重新 build。
 
 它聚合：
 

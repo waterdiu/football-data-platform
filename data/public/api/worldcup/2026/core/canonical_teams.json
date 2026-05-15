@@ -1,0 +1,1927 @@
+[
+  {
+    "team_id": "algeria",
+    "name": "Algeria",
+    "aliases": [
+      "Algeria",
+      "阿尔及利亚"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "阿尔及利亚"
+    },
+    "short_name": "ALG"
+  },
+  {
+    "team_id": "argentina",
+    "name": "Argentina",
+    "aliases": [
+      "Argentina",
+      "阿根廷"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "阿根廷"
+    },
+    "short_name": "ARG"
+  },
+  {
+    "team_id": "australia",
+    "name": "Australia",
+    "aliases": [
+      "Australia",
+      "澳大利亚"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "澳大利亚"
+    },
+    "short_name": "AUS"
+  },
+  {
+    "team_id": "austria",
+    "name": "Austria",
+    "aliases": [
+      "Austria",
+      "奥地利"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "奥地利"
+    },
+    "short_name": "AUT"
+  },
+  {
+    "team_id": "belgium",
+    "name": "Belgium",
+    "aliases": [
+      "Belgium",
+      "比利时"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "比利时"
+    },
+    "short_name": "BEL"
+  },
+  {
+    "team_id": "bosnia-and-herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "aliases": [
+      "Bosnia and Herzegovina",
+      "Bosnia-Herzegovina",
+      "波斯尼亚和黑塞哥维那"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "波斯尼亚和黑塞哥维那"
+    },
+    "short_name": "BIH"
+  },
+  {
+    "team_id": "brazil",
+    "name": "Brazil",
+    "aliases": [
+      "Brazil",
+      "巴西"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "巴西"
+    },
+    "short_name": "BRA"
+  },
+  {
+    "team_id": "cabo-verde",
+    "name": "Cabo Verde",
+    "aliases": [
+      "Cabo Verde",
+      "Cape Verde",
+      "Cape Verde Islands",
+      "佛得角"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "佛得角"
+    },
+    "short_name": "CPV"
+  },
+  {
+    "team_id": "canada",
+    "name": "Canada",
+    "aliases": [
+      "Canada",
+      "加拿大"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "加拿大"
+    },
+    "short_name": "CAN"
+  },
+  {
+    "team_id": "colombia",
+    "name": "Colombia",
+    "aliases": [
+      "Colombia",
+      "哥伦比亚"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "哥伦比亚"
+    },
+    "short_name": "COL"
+  },
+  {
+    "team_id": "congo-dr",
+    "name": "Congo DR",
+    "aliases": [
+      "Congo DR",
+      "DR Congo",
+      "Democratic Republic of the Congo",
+      "刚果民主共和国"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "刚果民主共和国"
+    },
+    "short_name": "COD"
+  },
+  {
+    "team_id": "cote-divoire",
+    "name": "Cote d'Ivoire",
+    "aliases": [
+      "Cote d'Ivoire",
+      "Ivory Coast",
+      "科特迪瓦"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "科特迪瓦"
+    },
+    "short_name": "CIV"
+  },
+  {
+    "team_id": "croatia",
+    "name": "Croatia",
+    "aliases": [
+      "Croatia",
+      "克罗地亚"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "克罗地亚"
+    },
+    "short_name": "CRO"
+  },
+  {
+    "team_id": "curacao",
+    "name": "Curacao",
+    "aliases": [
+      "Curacao",
+      "Curaçao",
+      "库拉索"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "库拉索"
+    },
+    "short_name": "CUW"
+  },
+  {
+    "team_id": "czechia",
+    "name": "Czechia",
+    "aliases": [
+      "Czech Republic",
+      "Czechia",
+      "捷克",
+      "捷克共和国"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "捷克共和国"
+    },
+    "short_name": "CZE"
+  },
+  {
+    "team_id": "ecuador",
+    "name": "Ecuador",
+    "aliases": [
+      "Ecuador",
+      "厄瓜多尔"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "厄瓜多尔"
+    },
+    "short_name": "ECU"
+  },
+  {
+    "team_id": "egypt",
+    "name": "Egypt",
+    "aliases": [
+      "Egypt",
+      "埃及"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "埃及"
+    },
+    "short_name": "EGY"
+  },
+  {
+    "team_id": "england",
+    "name": "England",
+    "aliases": [
+      "England",
+      "英格兰"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "英格兰"
+    },
+    "short_name": "ENG"
+  },
+  {
+    "team_id": "france",
+    "name": "France",
+    "aliases": [
+      "France",
+      "法国"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "法国"
+    },
+    "short_name": "FRA"
+  },
+  {
+    "team_id": "germany",
+    "name": "Germany",
+    "aliases": [
+      "Germany",
+      "德国"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "德国"
+    },
+    "short_name": "GER"
+  },
+  {
+    "team_id": "ghana",
+    "name": "Ghana",
+    "aliases": [
+      "Ghana",
+      "加纳"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "加纳"
+    },
+    "short_name": "GHA"
+  },
+  {
+    "team_id": "haiti",
+    "name": "Haiti",
+    "aliases": [
+      "Haiti",
+      "海地"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "海地"
+    },
+    "short_name": "HAI"
+  },
+  {
+    "team_id": "ir-iran",
+    "name": "IR Iran",
+    "aliases": [
+      "IR Iran",
+      "Iran",
+      "伊朗"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "伊朗"
+    },
+    "short_name": "IRN"
+  },
+  {
+    "team_id": "iraq",
+    "name": "Iraq",
+    "aliases": [
+      "Iraq",
+      "伊拉克"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "伊拉克"
+    },
+    "short_name": "IRQ"
+  },
+  {
+    "team_id": "japan",
+    "name": "Japan",
+    "aliases": [
+      "Japan",
+      "日本"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "日本"
+    },
+    "short_name": "JPN"
+  },
+  {
+    "team_id": "jordan",
+    "name": "Jordan",
+    "aliases": [
+      "Jordan",
+      "约旦"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "约旦"
+    },
+    "short_name": "JOR"
+  },
+  {
+    "team_id": "korea-republic",
+    "name": "Korea Republic",
+    "aliases": [
+      "Korea",
+      "Korea Republic",
+      "South Korea",
+      "韩国"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "韩国"
+    },
+    "flag_emoji": "🇰🇷",
+    "fifa_rank": 25,
+    "short_name": "KOR"
+  },
+  {
+    "team_id": "mexico",
+    "name": "Mexico",
+    "aliases": [
+      "Mexico",
+      "墨西哥"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "墨西哥"
+    },
+    "short_name": "MEX"
+  },
+  {
+    "team_id": "morocco",
+    "name": "Morocco",
+    "aliases": [
+      "Morocco",
+      "摩洛哥"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "摩洛哥"
+    },
+    "short_name": "MAR"
+  },
+  {
+    "team_id": "netherlands",
+    "name": "Netherlands",
+    "aliases": [
+      "Netherlands",
+      "荷兰"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "荷兰"
+    },
+    "short_name": "NED"
+  },
+  {
+    "team_id": "new-zealand",
+    "name": "New Zealand",
+    "aliases": [
+      "New Zealand",
+      "新西兰"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "新西兰"
+    },
+    "short_name": "NZL"
+  },
+  {
+    "team_id": "norway",
+    "name": "Norway",
+    "aliases": [
+      "Norway",
+      "挪威"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "挪威"
+    },
+    "short_name": "NOR"
+  },
+  {
+    "team_id": "panama",
+    "name": "Panama",
+    "aliases": [
+      "Panama",
+      "巴拿马"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "巴拿马"
+    },
+    "short_name": "PAN"
+  },
+  {
+    "team_id": "paraguay",
+    "name": "Paraguay",
+    "aliases": [
+      "Paraguay",
+      "巴拉圭"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "巴拉圭"
+    },
+    "short_name": "PAR"
+  },
+  {
+    "team_id": "portugal",
+    "name": "Portugal",
+    "aliases": [
+      "Portugal",
+      "葡萄牙"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "葡萄牙"
+    },
+    "short_name": "POR"
+  },
+  {
+    "team_id": "qatar",
+    "name": "Qatar",
+    "aliases": [
+      "Qatar",
+      "卡塔尔"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "卡塔尔"
+    },
+    "short_name": "QAT"
+  },
+  {
+    "team_id": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "aliases": [
+      "Saudi Arabia",
+      "沙特阿拉伯"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "沙特阿拉伯"
+    },
+    "short_name": "KSA"
+  },
+  {
+    "team_id": "scotland",
+    "name": "Scotland",
+    "aliases": [
+      "Scotland",
+      "苏格兰"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "苏格兰"
+    },
+    "short_name": "SCO"
+  },
+  {
+    "team_id": "senegal",
+    "name": "Senegal",
+    "aliases": [
+      "Senegal",
+      "塞内加尔"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "塞内加尔"
+    },
+    "short_name": "SEN"
+  },
+  {
+    "team_id": "slot-best-third-a-b-c-d-f",
+    "name": "Best Third-Place Team from A/B/C/D/F",
+    "short_name": "3RD",
+    "localized_name": {
+      "zh-CN": "A/B/C/D/F组第三名"
+    },
+    "aliases": [
+      "A/B/C/D/F组第三名",
+      "Best Third-Place Team from A/B/C/D/F"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-best-third-a-e-h-i-j",
+    "name": "Best Third-Place Team from A/E/H/I/J",
+    "short_name": "3RD",
+    "localized_name": {
+      "zh-CN": "A/E/H/I/J组第三名"
+    },
+    "aliases": [
+      "A/E/H/I/J组第三名",
+      "Best Third-Place Team from A/E/H/I/J"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-best-third-b-e-f-i-j",
+    "name": "Best Third-Place Team from B/E/F/I/J",
+    "short_name": "3RD",
+    "localized_name": {
+      "zh-CN": "B/E/F/I/J组第三名"
+    },
+    "aliases": [
+      "B/E/F/I/J组第三名",
+      "Best Third-Place Team from B/E/F/I/J"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-best-third-c-d-f-g-h",
+    "name": "Best Third-Place Team from C/D/F/G/H",
+    "short_name": "3RD",
+    "localized_name": {
+      "zh-CN": "C/D/F/G/H组第三名"
+    },
+    "aliases": [
+      "C/D/F/G/H组第三名",
+      "Best Third-Place Team from C/D/F/G/H"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-best-third-c-e-f-h-i",
+    "name": "Best Third-Place Team from C/E/F/H/I",
+    "short_name": "3RD",
+    "localized_name": {
+      "zh-CN": "C/E/F/H/I组第三名"
+    },
+    "aliases": [
+      "C/E/F/H/I组第三名",
+      "Best Third-Place Team from C/E/F/H/I"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-best-third-d-e-i-j-l",
+    "name": "Best Third-Place Team from D/E/I/J/L",
+    "short_name": "3RD",
+    "localized_name": {
+      "zh-CN": "D/E/I/J/L组第三名"
+    },
+    "aliases": [
+      "D/E/I/J/L组第三名",
+      "Best Third-Place Team from D/E/I/J/L"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-best-third-e-f-g-i-j",
+    "name": "Best Third-Place Team from E/F/G/I/J",
+    "short_name": "3RD",
+    "localized_name": {
+      "zh-CN": "E/F/G/I/J组第三名"
+    },
+    "aliases": [
+      "E/F/G/I/J组第三名",
+      "Best Third-Place Team from E/F/G/I/J"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-best-third-e-h-i-j-k",
+    "name": "Best Third-Place Team from E/H/I/J/K",
+    "short_name": "3RD",
+    "localized_name": {
+      "zh-CN": "E/H/I/J/K组第三名"
+    },
+    "aliases": [
+      "E/H/I/J/K组第三名",
+      "Best Third-Place Team from E/H/I/J/K"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-a-runner_up",
+    "name": "Group A Runner-up",
+    "short_name": "A2",
+    "localized_name": {
+      "zh-CN": "A组第二"
+    },
+    "aliases": [
+      "A组第二",
+      "Group A Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-a-winner",
+    "name": "Group A Winner",
+    "short_name": "A1",
+    "localized_name": {
+      "zh-CN": "A组第一"
+    },
+    "aliases": [
+      "A组第一",
+      "Group A Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-b-runner_up",
+    "name": "Group B Runner-up",
+    "short_name": "B2",
+    "localized_name": {
+      "zh-CN": "B组第二"
+    },
+    "aliases": [
+      "B组第二",
+      "Group B Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-b-winner",
+    "name": "Group B Winner",
+    "short_name": "B1",
+    "localized_name": {
+      "zh-CN": "B组第一"
+    },
+    "aliases": [
+      "B组第一",
+      "Group B Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-c-runner_up",
+    "name": "Group C Runner-up",
+    "short_name": "C2",
+    "localized_name": {
+      "zh-CN": "C组第二"
+    },
+    "aliases": [
+      "C组第二",
+      "Group C Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-c-winner",
+    "name": "Group C Winner",
+    "short_name": "C1",
+    "localized_name": {
+      "zh-CN": "C组第一"
+    },
+    "aliases": [
+      "C组第一",
+      "Group C Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-d-runner_up",
+    "name": "Group D Runner-up",
+    "short_name": "D2",
+    "localized_name": {
+      "zh-CN": "D组第二"
+    },
+    "aliases": [
+      "D组第二",
+      "Group D Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-d-winner",
+    "name": "Group D Winner",
+    "short_name": "D1",
+    "localized_name": {
+      "zh-CN": "D组第一"
+    },
+    "aliases": [
+      "D组第一",
+      "Group D Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-e-runner_up",
+    "name": "Group E Runner-up",
+    "short_name": "E2",
+    "localized_name": {
+      "zh-CN": "E组第二"
+    },
+    "aliases": [
+      "E组第二",
+      "Group E Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-e-winner",
+    "name": "Group E Winner",
+    "short_name": "E1",
+    "localized_name": {
+      "zh-CN": "E组第一"
+    },
+    "aliases": [
+      "E组第一",
+      "Group E Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-f-runner_up",
+    "name": "Group F Runner-up",
+    "short_name": "F2",
+    "localized_name": {
+      "zh-CN": "F组第二"
+    },
+    "aliases": [
+      "F组第二",
+      "Group F Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-f-winner",
+    "name": "Group F Winner",
+    "short_name": "F1",
+    "localized_name": {
+      "zh-CN": "F组第一"
+    },
+    "aliases": [
+      "F组第一",
+      "Group F Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-g-runner_up",
+    "name": "Group G Runner-up",
+    "short_name": "G2",
+    "localized_name": {
+      "zh-CN": "G组第二"
+    },
+    "aliases": [
+      "G组第二",
+      "Group G Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-g-winner",
+    "name": "Group G Winner",
+    "short_name": "G1",
+    "localized_name": {
+      "zh-CN": "G组第一"
+    },
+    "aliases": [
+      "G组第一",
+      "Group G Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-h-runner_up",
+    "name": "Group H Runner-up",
+    "short_name": "H2",
+    "localized_name": {
+      "zh-CN": "H组第二"
+    },
+    "aliases": [
+      "H组第二",
+      "Group H Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-h-winner",
+    "name": "Group H Winner",
+    "short_name": "H1",
+    "localized_name": {
+      "zh-CN": "H组第一"
+    },
+    "aliases": [
+      "H组第一",
+      "Group H Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-i-runner_up",
+    "name": "Group I Runner-up",
+    "short_name": "I2",
+    "localized_name": {
+      "zh-CN": "I组第二"
+    },
+    "aliases": [
+      "I组第二",
+      "Group I Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-i-winner",
+    "name": "Group I Winner",
+    "short_name": "I1",
+    "localized_name": {
+      "zh-CN": "I组第一"
+    },
+    "aliases": [
+      "I组第一",
+      "Group I Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-j-runner_up",
+    "name": "Group J Runner-up",
+    "short_name": "J2",
+    "localized_name": {
+      "zh-CN": "J组第二"
+    },
+    "aliases": [
+      "J组第二",
+      "Group J Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-j-winner",
+    "name": "Group J Winner",
+    "short_name": "J1",
+    "localized_name": {
+      "zh-CN": "J组第一"
+    },
+    "aliases": [
+      "J组第一",
+      "Group J Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-k-runner_up",
+    "name": "Group K Runner-up",
+    "short_name": "K2",
+    "localized_name": {
+      "zh-CN": "K组第二"
+    },
+    "aliases": [
+      "K组第二",
+      "Group K Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-k-winner",
+    "name": "Group K Winner",
+    "short_name": "K1",
+    "localized_name": {
+      "zh-CN": "K组第一"
+    },
+    "aliases": [
+      "K组第一",
+      "Group K Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-l-runner_up",
+    "name": "Group L Runner-up",
+    "short_name": "L2",
+    "localized_name": {
+      "zh-CN": "L组第二"
+    },
+    "aliases": [
+      "L组第二",
+      "Group L Runner-up"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-group-l-winner",
+    "name": "Group L Winner",
+    "short_name": "L1",
+    "localized_name": {
+      "zh-CN": "L组第一"
+    },
+    "aliases": [
+      "L组第一",
+      "Group L Winner"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-loser-match-101",
+    "name": "Loser of Match 101",
+    "short_name": "L101",
+    "localized_name": {
+      "zh-CN": "第101场负者"
+    },
+    "aliases": [
+      "第101场负者",
+      "Loser of Match 101"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-loser-match-102",
+    "name": "Loser of Match 102",
+    "short_name": "L102",
+    "localized_name": {
+      "zh-CN": "第102场负者"
+    },
+    "aliases": [
+      "第102场负者",
+      "Loser of Match 102"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-100",
+    "name": "Winner of Match 100",
+    "short_name": "W100",
+    "localized_name": {
+      "zh-CN": "第100场胜者"
+    },
+    "aliases": [
+      "第100场胜者",
+      "Winner of Match 100"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-101",
+    "name": "Winner of Match 101",
+    "short_name": "W101",
+    "localized_name": {
+      "zh-CN": "第101场胜者"
+    },
+    "aliases": [
+      "第101场胜者",
+      "Winner of Match 101"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-102",
+    "name": "Winner of Match 102",
+    "short_name": "W102",
+    "localized_name": {
+      "zh-CN": "第102场胜者"
+    },
+    "aliases": [
+      "第102场胜者",
+      "Winner of Match 102"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-73",
+    "name": "Winner of Match 73",
+    "short_name": "W73",
+    "localized_name": {
+      "zh-CN": "第73场胜者"
+    },
+    "aliases": [
+      "第73场胜者",
+      "Winner of Match 73"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-74",
+    "name": "Winner of Match 74",
+    "short_name": "W74",
+    "localized_name": {
+      "zh-CN": "第74场胜者"
+    },
+    "aliases": [
+      "第74场胜者",
+      "Winner of Match 74"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-75",
+    "name": "Winner of Match 75",
+    "short_name": "W75",
+    "localized_name": {
+      "zh-CN": "第75场胜者"
+    },
+    "aliases": [
+      "第75场胜者",
+      "Winner of Match 75"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-76",
+    "name": "Winner of Match 76",
+    "short_name": "W76",
+    "localized_name": {
+      "zh-CN": "第76场胜者"
+    },
+    "aliases": [
+      "第76场胜者",
+      "Winner of Match 76"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-77",
+    "name": "Winner of Match 77",
+    "short_name": "W77",
+    "localized_name": {
+      "zh-CN": "第77场胜者"
+    },
+    "aliases": [
+      "第77场胜者",
+      "Winner of Match 77"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-78",
+    "name": "Winner of Match 78",
+    "short_name": "W78",
+    "localized_name": {
+      "zh-CN": "第78场胜者"
+    },
+    "aliases": [
+      "第78场胜者",
+      "Winner of Match 78"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-79",
+    "name": "Winner of Match 79",
+    "short_name": "W79",
+    "localized_name": {
+      "zh-CN": "第79场胜者"
+    },
+    "aliases": [
+      "第79场胜者",
+      "Winner of Match 79"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-80",
+    "name": "Winner of Match 80",
+    "short_name": "W80",
+    "localized_name": {
+      "zh-CN": "第80场胜者"
+    },
+    "aliases": [
+      "第80场胜者",
+      "Winner of Match 80"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-81",
+    "name": "Winner of Match 81",
+    "short_name": "W81",
+    "localized_name": {
+      "zh-CN": "第81场胜者"
+    },
+    "aliases": [
+      "第81场胜者",
+      "Winner of Match 81"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-82",
+    "name": "Winner of Match 82",
+    "short_name": "W82",
+    "localized_name": {
+      "zh-CN": "第82场胜者"
+    },
+    "aliases": [
+      "第82场胜者",
+      "Winner of Match 82"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-83",
+    "name": "Winner of Match 83",
+    "short_name": "W83",
+    "localized_name": {
+      "zh-CN": "第83场胜者"
+    },
+    "aliases": [
+      "第83场胜者",
+      "Winner of Match 83"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-84",
+    "name": "Winner of Match 84",
+    "short_name": "W84",
+    "localized_name": {
+      "zh-CN": "第84场胜者"
+    },
+    "aliases": [
+      "第84场胜者",
+      "Winner of Match 84"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-85",
+    "name": "Winner of Match 85",
+    "short_name": "W85",
+    "localized_name": {
+      "zh-CN": "第85场胜者"
+    },
+    "aliases": [
+      "第85场胜者",
+      "Winner of Match 85"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-86",
+    "name": "Winner of Match 86",
+    "short_name": "W86",
+    "localized_name": {
+      "zh-CN": "第86场胜者"
+    },
+    "aliases": [
+      "第86场胜者",
+      "Winner of Match 86"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-87",
+    "name": "Winner of Match 87",
+    "short_name": "W87",
+    "localized_name": {
+      "zh-CN": "第87场胜者"
+    },
+    "aliases": [
+      "第87场胜者",
+      "Winner of Match 87"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-88",
+    "name": "Winner of Match 88",
+    "short_name": "W88",
+    "localized_name": {
+      "zh-CN": "第88场胜者"
+    },
+    "aliases": [
+      "第88场胜者",
+      "Winner of Match 88"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-89",
+    "name": "Winner of Match 89",
+    "short_name": "W89",
+    "localized_name": {
+      "zh-CN": "第89场胜者"
+    },
+    "aliases": [
+      "第89场胜者",
+      "Winner of Match 89"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-90",
+    "name": "Winner of Match 90",
+    "short_name": "W90",
+    "localized_name": {
+      "zh-CN": "第90场胜者"
+    },
+    "aliases": [
+      "第90场胜者",
+      "Winner of Match 90"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-91",
+    "name": "Winner of Match 91",
+    "short_name": "W91",
+    "localized_name": {
+      "zh-CN": "第91场胜者"
+    },
+    "aliases": [
+      "第91场胜者",
+      "Winner of Match 91"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-92",
+    "name": "Winner of Match 92",
+    "short_name": "W92",
+    "localized_name": {
+      "zh-CN": "第92场胜者"
+    },
+    "aliases": [
+      "第92场胜者",
+      "Winner of Match 92"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-93",
+    "name": "Winner of Match 93",
+    "short_name": "W93",
+    "localized_name": {
+      "zh-CN": "第93场胜者"
+    },
+    "aliases": [
+      "第93场胜者",
+      "Winner of Match 93"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-94",
+    "name": "Winner of Match 94",
+    "short_name": "W94",
+    "localized_name": {
+      "zh-CN": "第94场胜者"
+    },
+    "aliases": [
+      "第94场胜者",
+      "Winner of Match 94"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-95",
+    "name": "Winner of Match 95",
+    "short_name": "W95",
+    "localized_name": {
+      "zh-CN": "第95场胜者"
+    },
+    "aliases": [
+      "第95场胜者",
+      "Winner of Match 95"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-96",
+    "name": "Winner of Match 96",
+    "short_name": "W96",
+    "localized_name": {
+      "zh-CN": "第96场胜者"
+    },
+    "aliases": [
+      "第96场胜者",
+      "Winner of Match 96"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-97",
+    "name": "Winner of Match 97",
+    "short_name": "W97",
+    "localized_name": {
+      "zh-CN": "第97场胜者"
+    },
+    "aliases": [
+      "第97场胜者",
+      "Winner of Match 97"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-98",
+    "name": "Winner of Match 98",
+    "short_name": "W98",
+    "localized_name": {
+      "zh-CN": "第98场胜者"
+    },
+    "aliases": [
+      "第98场胜者",
+      "Winner of Match 98"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "slot-winner-match-99",
+    "name": "Winner of Match 99",
+    "short_name": "W99",
+    "localized_name": {
+      "zh-CN": "第99场胜者"
+    },
+    "aliases": [
+      "第99场胜者",
+      "Winner of Match 99"
+    ],
+    "sources": [
+      "manual"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "is_placeholder": true
+  },
+  {
+    "team_id": "south-africa",
+    "name": "South Africa",
+    "aliases": [
+      "South Africa",
+      "南非"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "南非"
+    },
+    "flag_emoji": "🇿🇦",
+    "fifa_rank": 57,
+    "short_name": "RSA"
+  },
+  {
+    "team_id": "spain",
+    "name": "Spain",
+    "aliases": [
+      "Spain",
+      "西班牙"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "西班牙"
+    },
+    "short_name": "ESP"
+  },
+  {
+    "team_id": "sweden",
+    "name": "Sweden",
+    "aliases": [
+      "Sweden",
+      "瑞典"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "瑞典"
+    },
+    "short_name": "SWE"
+  },
+  {
+    "team_id": "switzerland",
+    "name": "Switzerland",
+    "aliases": [
+      "Switzerland",
+      "瑞士"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "瑞士"
+    },
+    "short_name": "SUI"
+  },
+  {
+    "team_id": "tunisia",
+    "name": "Tunisia",
+    "aliases": [
+      "Tunisia",
+      "突尼斯"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "突尼斯"
+    },
+    "short_name": "TUN"
+  },
+  {
+    "team_id": "turkiye",
+    "name": "Turkiye",
+    "aliases": [
+      "Turkey",
+      "Turkiye",
+      "土耳其"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "土耳其"
+    },
+    "short_name": "TUR"
+  },
+  {
+    "team_id": "united-states",
+    "name": "United States",
+    "aliases": [
+      "USA",
+      "United States",
+      "United States of America",
+      "美国"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "美国"
+    },
+    "flag_emoji": "🇺🇸",
+    "fifa_rank": 16,
+    "short_name": "USA"
+  },
+  {
+    "team_id": "uruguay",
+    "name": "Uruguay",
+    "aliases": [
+      "Uruguay",
+      "乌拉圭"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "乌拉圭"
+    },
+    "short_name": "URU"
+  },
+  {
+    "team_id": "uzbekistan",
+    "name": "Uzbekistan",
+    "aliases": [
+      "Uzbekistan",
+      "乌兹别克斯坦"
+    ],
+    "sources": [
+      "worldcup_2026_csv",
+      "world_cup_predictor"
+    ],
+    "updated_at": "2026-05-15T00:00:00Z",
+    "localized_name": {
+      "zh-CN": "乌兹别克斯坦"
+    },
+    "short_name": "UZB"
+  }
+]

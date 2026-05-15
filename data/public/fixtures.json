@@ -5,7 +5,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "A",
     "date_utc": "2026-06-11T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "mexico",
@@ -18,7 +17,8 @@
       "worldcup_2026_schedule_csv": "1",
       "football_data_org": "537327"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "A"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537328",
@@ -26,7 +26,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "A",
     "date_utc": "2026-06-12T02:00:00Z",
     "status": "scheduled",
     "home_team_id": "korea-republic",
@@ -39,7 +38,8 @@
       "worldcup_2026_schedule_csv": "2",
       "football_data_org": "537328"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "A"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537329",
@@ -47,7 +47,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "A",
     "date_utc": "2026-06-18T16:00:00Z",
     "status": "scheduled",
     "home_team_id": "czechia",
@@ -60,7 +59,8 @@
       "worldcup_2026_schedule_csv": "3",
       "football_data_org": "537329"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "A"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537330",
@@ -68,7 +68,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "A",
     "date_utc": "2026-06-19T01:00:00Z",
     "status": "scheduled",
     "home_team_id": "mexico",
@@ -81,7 +80,8 @@
       "worldcup_2026_schedule_csv": "4",
       "football_data_org": "537330"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "A"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537331",
@@ -89,7 +89,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "A",
     "date_utc": "2026-06-25T01:00:00Z",
     "status": "scheduled",
     "home_team_id": "czechia",
@@ -102,7 +101,8 @@
       "worldcup_2026_schedule_csv": "5",
       "football_data_org": "537331"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "A"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537332",
@@ -110,7 +110,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "A",
     "date_utc": "2026-06-25T01:00:00Z",
     "status": "scheduled",
     "home_team_id": "south-africa",
@@ -123,7 +122,8 @@
       "worldcup_2026_schedule_csv": "6",
       "football_data_org": "537332"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "A"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537333",
@@ -131,7 +131,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "B",
     "date_utc": "2026-06-12T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "canada",
@@ -144,7 +143,8 @@
       "worldcup_2026_schedule_csv": "7",
       "football_data_org": "537333"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "B"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537334",
@@ -152,7 +152,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "B",
     "date_utc": "2026-06-13T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "qatar",
@@ -165,7 +164,8 @@
       "worldcup_2026_schedule_csv": "8",
       "football_data_org": "537334"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "B"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537335",
@@ -173,7 +173,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "B",
     "date_utc": "2026-06-18T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "switzerland",
@@ -186,7 +185,8 @@
       "worldcup_2026_schedule_csv": "9",
       "football_data_org": "537335"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "B"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537336",
@@ -194,7 +194,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "B",
     "date_utc": "2026-06-18T22:00:00Z",
     "status": "scheduled",
     "home_team_id": "canada",
@@ -207,7 +206,8 @@
       "worldcup_2026_schedule_csv": "10",
       "football_data_org": "537336"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "B"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537337",
@@ -215,7 +215,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "B",
     "date_utc": "2026-06-24T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "switzerland",
@@ -228,7 +227,8 @@
       "worldcup_2026_schedule_csv": "11",
       "football_data_org": "537337"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "B"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537338",
@@ -236,7 +236,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "B",
     "date_utc": "2026-06-24T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "bosnia-and-herzegovina",
@@ -249,7 +248,8 @@
       "worldcup_2026_schedule_csv": "12",
       "football_data_org": "537338"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "B"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537339",
@@ -257,7 +257,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "C",
     "date_utc": "2026-06-13T22:00:00Z",
     "status": "scheduled",
     "home_team_id": "brazil",
@@ -270,7 +269,8 @@
       "worldcup_2026_schedule_csv": "13",
       "football_data_org": "537339"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "C"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537340",
@@ -278,7 +278,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "C",
     "date_utc": "2026-06-14T01:00:00Z",
     "status": "scheduled",
     "home_team_id": "haiti",
@@ -291,28 +290,8 @@
       "worldcup_2026_schedule_csv": "14",
       "football_data_org": "537340"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537341",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "group",
-    "round": "Group Stage",
-    "group": "C",
-    "date_utc": "2026-06-20T01:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "brazil",
-    "away_team_id": "haiti",
-    "venue_id": "lincoln-financial-field",
-    "venue_name": "费城球场（Lincoln Financial Field）",
-    "host_city": "费城",
-    "match_theme": "第16场·费城夜战：桑巴军团对阵加勒比蓝红风暴",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "16",
-      "football_data_org": "537341"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "C"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537342",
@@ -320,7 +299,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "C",
     "date_utc": "2026-06-19T22:00:00Z",
     "status": "scheduled",
     "home_team_id": "scotland",
@@ -333,7 +311,29 @@
       "worldcup_2026_schedule_csv": "15",
       "football_data_org": "537342"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "C"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537341",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "group",
+    "round": "Group Stage",
+    "date_utc": "2026-06-20T01:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "brazil",
+    "away_team_id": "haiti",
+    "venue_id": "lincoln-financial-field",
+    "venue_name": "费城球场（Lincoln Financial Field）",
+    "host_city": "费城",
+    "match_theme": "第16场·费城夜战：桑巴军团对阵加勒比蓝红风暴",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "16",
+      "football_data_org": "537341"
+    },
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "C"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537343",
@@ -341,7 +341,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "C",
     "date_utc": "2026-06-24T22:00:00Z",
     "status": "scheduled",
     "home_team_id": "scotland",
@@ -354,7 +353,8 @@
       "worldcup_2026_schedule_csv": "17",
       "football_data_org": "537343"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "C"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537344",
@@ -362,7 +362,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "C",
     "date_utc": "2026-06-24T22:00:00Z",
     "status": "scheduled",
     "home_team_id": "morocco",
@@ -375,7 +374,8 @@
       "worldcup_2026_schedule_csv": "18",
       "football_data_org": "537344"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "C"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537345",
@@ -383,7 +383,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "D",
     "date_utc": "2026-06-13T01:00:00Z",
     "status": "scheduled",
     "home_team_id": "united-states",
@@ -396,7 +395,8 @@
       "worldcup_2026_schedule_csv": "19",
       "football_data_org": "537345"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "D"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537346",
@@ -404,7 +404,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "D",
     "date_utc": "2026-06-14T04:00:00Z",
     "status": "scheduled",
     "home_team_id": "australia",
@@ -417,28 +416,8 @@
       "worldcup_2026_schedule_csv": "20",
       "football_data_org": "537346"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537347",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "group",
-    "round": "Group Stage",
-    "group": "D",
-    "date_utc": "2026-06-20T04:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "turkiye",
-    "away_team_id": "paraguay",
-    "venue_id": "levis-stadium",
-    "venue_name": "旧金山湾区球场（Levi's Stadium）",
-    "host_city": "旧金山湾区",
-    "match_theme": "第22场·旧金山湾区夜战：星月军团对阵南美红白军团",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "22",
-      "football_data_org": "537347"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "D"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537348",
@@ -446,7 +425,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "D",
     "date_utc": "2026-06-19T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "united-states",
@@ -459,7 +437,29 @@
       "worldcup_2026_schedule_csv": "21",
       "football_data_org": "537348"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "D"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537347",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "group",
+    "round": "Group Stage",
+    "date_utc": "2026-06-20T04:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "turkiye",
+    "away_team_id": "paraguay",
+    "venue_id": "levis-stadium",
+    "venue_name": "旧金山湾区球场（Levi's Stadium）",
+    "host_city": "旧金山湾区",
+    "match_theme": "第22场·旧金山湾区夜战：星月军团对阵南美红白军团",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "22",
+      "football_data_org": "537347"
+    },
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "D"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537349",
@@ -467,7 +467,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "D",
     "date_utc": "2026-06-26T02:00:00Z",
     "status": "scheduled",
     "home_team_id": "turkiye",
@@ -480,7 +479,8 @@
       "worldcup_2026_schedule_csv": "23",
       "football_data_org": "537349"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "D"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537350",
@@ -488,7 +488,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "D",
     "date_utc": "2026-06-26T02:00:00Z",
     "status": "scheduled",
     "home_team_id": "paraguay",
@@ -501,7 +500,8 @@
       "worldcup_2026_schedule_csv": "24",
       "football_data_org": "537350"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "D"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537351",
@@ -509,7 +509,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "E",
     "date_utc": "2026-06-14T17:00:00Z",
     "status": "scheduled",
     "home_team_id": "germany",
@@ -522,7 +521,8 @@
       "worldcup_2026_schedule_csv": "25",
       "football_data_org": "537351"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "E"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537352",
@@ -530,7 +530,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "E",
     "date_utc": "2026-06-14T23:00:00Z",
     "status": "scheduled",
     "home_team_id": "cote-divoire",
@@ -543,7 +542,8 @@
       "worldcup_2026_schedule_csv": "26",
       "football_data_org": "537352"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "E"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537353",
@@ -551,7 +551,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "E",
     "date_utc": "2026-06-20T20:00:00Z",
     "status": "scheduled",
     "home_team_id": "germany",
@@ -564,7 +563,8 @@
       "worldcup_2026_schedule_csv": "27",
       "football_data_org": "537353"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "E"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537354",
@@ -572,7 +572,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "E",
     "date_utc": "2026-06-21T00:00:00Z",
     "status": "scheduled",
     "home_team_id": "ecuador",
@@ -585,28 +584,8 @@
       "worldcup_2026_schedule_csv": "28",
       "football_data_org": "537354"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537355",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "group",
-    "round": "Group Stage",
-    "group": "E",
-    "date_utc": "2026-06-25T20:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "ecuador",
-    "away_team_id": "germany",
-    "venue_id": "metlife-stadium",
-    "venue_name": "纽约新泽西球场（MetLife Stadium）",
-    "host_city": "纽约/新泽西",
-    "match_theme": "第30场·纽约/新泽西午后战：安第斯三色对阵日耳曼战车",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "30",
-      "football_data_org": "537355"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "E"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537356",
@@ -614,7 +593,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "E",
     "date_utc": "2026-06-25T20:00:00Z",
     "status": "scheduled",
     "home_team_id": "curacao",
@@ -627,7 +605,29 @@
       "worldcup_2026_schedule_csv": "29",
       "football_data_org": "537356"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "E"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537355",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "group",
+    "round": "Group Stage",
+    "date_utc": "2026-06-25T20:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "ecuador",
+    "away_team_id": "germany",
+    "venue_id": "metlife-stadium",
+    "venue_name": "纽约新泽西球场（MetLife Stadium）",
+    "host_city": "纽约/新泽西",
+    "match_theme": "第30场·纽约/新泽西午后战：安第斯三色对阵日耳曼战车",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "30",
+      "football_data_org": "537355"
+    },
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "E"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537357",
@@ -635,7 +635,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "F",
     "date_utc": "2026-06-14T20:00:00Z",
     "status": "scheduled",
     "home_team_id": "netherlands",
@@ -648,7 +647,8 @@
       "worldcup_2026_schedule_csv": "31",
       "football_data_org": "537357"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "F"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537358",
@@ -656,7 +656,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "F",
     "date_utc": "2026-06-15T02:00:00Z",
     "status": "scheduled",
     "home_team_id": "sweden",
@@ -669,7 +668,8 @@
       "worldcup_2026_schedule_csv": "32",
       "football_data_org": "537358"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "F"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537359",
@@ -677,7 +677,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "F",
     "date_utc": "2026-06-20T17:00:00Z",
     "status": "scheduled",
     "home_team_id": "netherlands",
@@ -690,7 +689,8 @@
       "worldcup_2026_schedule_csv": "33",
       "football_data_org": "537359"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "F"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537360",
@@ -698,7 +698,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "F",
     "date_utc": "2026-06-21T04:00:00Z",
     "status": "scheduled",
     "home_team_id": "tunisia",
@@ -711,28 +710,8 @@
       "worldcup_2026_schedule_csv": "34",
       "football_data_org": "537360"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537361",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "group",
-    "round": "Group Stage",
-    "group": "F",
-    "date_utc": "2026-06-25T23:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "tunisia",
-    "away_team_id": "netherlands",
-    "venue_id": "arrowhead-stadium",
-    "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
-    "host_city": "堪萨斯城",
-    "match_theme": "第36场·堪萨斯城黄昏战：迦太基雄鹰对阵橙衣军团",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "36",
-      "football_data_org": "537361"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "F"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537362",
@@ -740,7 +719,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "F",
     "date_utc": "2026-06-25T23:00:00Z",
     "status": "scheduled",
     "home_team_id": "japan",
@@ -753,7 +731,29 @@
       "worldcup_2026_schedule_csv": "35",
       "football_data_org": "537362"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "F"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537361",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "group",
+    "round": "Group Stage",
+    "date_utc": "2026-06-25T23:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "tunisia",
+    "away_team_id": "netherlands",
+    "venue_id": "arrowhead-stadium",
+    "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+    "host_city": "堪萨斯城",
+    "match_theme": "第36场·堪萨斯城黄昏战：迦太基雄鹰对阵橙衣军团",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "36",
+      "football_data_org": "537361"
+    },
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "F"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537363",
@@ -761,7 +761,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "G",
     "date_utc": "2026-06-15T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "belgium",
@@ -774,7 +773,8 @@
       "worldcup_2026_schedule_csv": "37",
       "football_data_org": "537363"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "G"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537364",
@@ -782,7 +782,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "G",
     "date_utc": "2026-06-16T01:00:00Z",
     "status": "scheduled",
     "home_team_id": "ir-iran",
@@ -795,7 +794,8 @@
       "worldcup_2026_schedule_csv": "38",
       "football_data_org": "537364"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "G"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537365",
@@ -803,7 +803,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "G",
     "date_utc": "2026-06-21T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "belgium",
@@ -816,7 +815,8 @@
       "worldcup_2026_schedule_csv": "39",
       "football_data_org": "537365"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "G"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537366",
@@ -824,7 +824,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "G",
     "date_utc": "2026-06-22T01:00:00Z",
     "status": "scheduled",
     "home_team_id": "new-zealand",
@@ -837,28 +836,8 @@
       "worldcup_2026_schedule_csv": "40",
       "football_data_org": "537366"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537367",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "group",
-    "round": "Group Stage",
-    "group": "G",
-    "date_utc": "2026-06-27T03:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "new-zealand",
-    "away_team_id": "belgium",
-    "venue_id": "bc-place",
-    "venue_name": "BC Place 温哥华球场",
-    "host_city": "温哥华",
-    "match_theme": "第42场·温哥华夜战：全白军团对阵欧洲红魔",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "42",
-      "football_data_org": "537367"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "G"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537368",
@@ -866,7 +845,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "G",
     "date_utc": "2026-06-27T03:00:00Z",
     "status": "scheduled",
     "home_team_id": "egypt",
@@ -879,7 +857,29 @@
       "worldcup_2026_schedule_csv": "41",
       "football_data_org": "537368"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "G"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537367",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "group",
+    "round": "Group Stage",
+    "date_utc": "2026-06-27T03:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "new-zealand",
+    "away_team_id": "belgium",
+    "venue_id": "bc-place",
+    "venue_name": "BC Place 温哥华球场",
+    "host_city": "温哥华",
+    "match_theme": "第42场·温哥华夜战：全白军团对阵欧洲红魔",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "42",
+      "football_data_org": "537367"
+    },
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "G"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537369",
@@ -887,7 +887,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "H",
     "date_utc": "2026-06-15T16:00:00Z",
     "status": "scheduled",
     "home_team_id": "spain",
@@ -900,7 +899,8 @@
       "worldcup_2026_schedule_csv": "43",
       "football_data_org": "537369"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "H"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537370",
@@ -908,7 +908,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "H",
     "date_utc": "2026-06-15T22:00:00Z",
     "status": "scheduled",
     "home_team_id": "saudi-arabia",
@@ -921,7 +920,8 @@
       "worldcup_2026_schedule_csv": "44",
       "football_data_org": "537370"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "H"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537371",
@@ -929,7 +929,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "H",
     "date_utc": "2026-06-21T16:00:00Z",
     "status": "scheduled",
     "home_team_id": "spain",
@@ -942,7 +941,8 @@
       "worldcup_2026_schedule_csv": "45",
       "football_data_org": "537371"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "H"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537372",
@@ -950,7 +950,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "H",
     "date_utc": "2026-06-21T22:00:00Z",
     "status": "scheduled",
     "home_team_id": "uruguay",
@@ -963,28 +962,8 @@
       "worldcup_2026_schedule_csv": "46",
       "football_data_org": "537372"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537373",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "group",
-    "round": "Group Stage",
-    "group": "H",
-    "date_utc": "2026-06-27T00:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "uruguay",
-    "away_team_id": "spain",
-    "venue_id": "estadio-akron",
-    "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
-    "host_city": "瓜达拉哈拉",
-    "match_theme": "第48场·瓜达拉哈拉黄昏战：天蓝军团对阵斗牛士军团",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "48",
-      "football_data_org": "537373"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "H"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537374",
@@ -992,7 +971,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "H",
     "date_utc": "2026-06-27T00:00:00Z",
     "status": "scheduled",
     "home_team_id": "cabo-verde",
@@ -1005,343 +983,29 @@
       "worldcup_2026_schedule_csv": "47",
       "football_data_org": "537374"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "H"
   },
   {
-    "match_id": "fifa_world_cup:2026:fdorg:537375",
+    "match_id": "fifa_world_cup:2026:fdorg:537373",
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
-    "stage": "round_of_16",
-    "round": "Round of 16",
-    "group": null,
-    "date_utc": "2026-07-04T21:00:00Z",
+    "stage": "group",
+    "round": "Group Stage",
+    "date_utc": "2026-06-27T00:00:00Z",
     "status": "scheduled",
-    "home_team_id": "slot-winner-match-74",
-    "away_team_id": "slot-winner-match-77",
-    "venue_id": "lincoln-financial-field",
-    "venue_name": "费城球场（Lincoln Financial Field）",
-    "host_city": "费城",
-    "match_theme": "第89场·费城十六强战：八强席位争夺",
+    "home_team_id": "uruguay",
+    "away_team_id": "spain",
+    "venue_id": "estadio-akron",
+    "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+    "host_city": "瓜达拉哈拉",
+    "match_theme": "第48场·瓜达拉哈拉黄昏战：天蓝军团对阵斗牛士军团",
     "source_refs": {
-      "worldcup_2026_schedule_csv": "89",
-      "football_data_org": "537375"
+      "worldcup_2026_schedule_csv": "48",
+      "football_data_org": "537373"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537376",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_16",
-    "round": "Round of 16",
-    "group": null,
-    "date_utc": "2026-07-04T17:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-73",
-    "away_team_id": "slot-winner-match-75",
-    "venue_id": "nrg-stadium",
-    "venue_name": "休斯敦球场（NRG Stadium）",
-    "host_city": "休斯敦",
-    "match_theme": "第90场·休斯敦十六强战：八强席位争夺",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "90",
-      "football_data_org": "537376"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537377",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_16",
-    "round": "Round of 16",
-    "group": null,
-    "date_utc": "2026-07-05T20:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-76",
-    "away_team_id": "slot-winner-match-78",
-    "venue_id": "metlife-stadium",
-    "venue_name": "纽约新泽西球场（MetLife Stadium）",
-    "host_city": "纽约/新泽西",
-    "match_theme": "第91场·纽约/新泽西十六强战：八强席位争夺",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "91",
-      "football_data_org": "537377"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537378",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_16",
-    "round": "Round of 16",
-    "group": null,
-    "date_utc": "2026-07-06T00:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-79",
-    "away_team_id": "slot-winner-match-80",
-    "venue_id": "estadio-azteca",
-    "venue_name": "墨西哥城球场（Estadio Azteca）",
-    "host_city": "墨西哥城",
-    "match_theme": "第92场·墨西哥城十六强战：八强席位争夺",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "92",
-      "football_data_org": "537378"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537379",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_16",
-    "round": "Round of 16",
-    "group": null,
-    "date_utc": "2026-07-06T19:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-83",
-    "away_team_id": "slot-winner-match-84",
-    "venue_id": "at-and-t-stadium",
-    "venue_name": "达拉斯球场（AT&T Stadium）",
-    "host_city": "达拉斯",
-    "match_theme": "第93场·达拉斯十六强战：八强席位争夺",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "93",
-      "football_data_org": "537379"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537380",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_16",
-    "round": "Round of 16",
-    "group": null,
-    "date_utc": "2026-07-07T00:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-81",
-    "away_team_id": "slot-winner-match-82",
-    "venue_id": "lumen-field",
-    "venue_name": "西雅图球场（Lumen Field）",
-    "host_city": "西雅图",
-    "match_theme": "第94场·西雅图十六强战：八强席位争夺",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "94",
-      "football_data_org": "537380"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537381",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_16",
-    "round": "Round of 16",
-    "group": null,
-    "date_utc": "2026-07-07T16:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-86",
-    "away_team_id": "slot-winner-match-88",
-    "venue_id": "mercedes-benz-stadium",
-    "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
-    "host_city": "亚特兰大",
-    "match_theme": "第95场·亚特兰大十六强战：八强席位争夺",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "95",
-      "football_data_org": "537381"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537382",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_16",
-    "round": "Round of 16",
-    "group": null,
-    "date_utc": "2026-07-07T20:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-85",
-    "away_team_id": "slot-winner-match-87",
-    "venue_id": "bc-place",
-    "venue_name": "BC Place 温哥华球场",
-    "host_city": "温哥华",
-    "match_theme": "第96场·温哥华十六强战：八强席位争夺",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "96",
-      "football_data_org": "537382"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537383",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "quarterfinal",
-    "round": "Quarterfinal",
-    "group": null,
-    "date_utc": "2026-07-09T20:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-89",
-    "away_team_id": "slot-winner-match-90",
-    "venue_id": "gillette-stadium",
-    "venue_name": "波士顿球场（Gillette Stadium）",
-    "host_city": "波士顿",
-    "match_theme": "第97场·波士顿八强战：通往四强的硬仗",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "97",
-      "football_data_org": "537383"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537384",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "quarterfinal",
-    "round": "Quarterfinal",
-    "group": null,
-    "date_utc": "2026-07-10T19:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-93",
-    "away_team_id": "slot-winner-match-94",
-    "venue_id": "sofi-stadium",
-    "venue_name": "洛杉矶球场（SoFi Stadium）",
-    "host_city": "洛杉矶",
-    "match_theme": "第98场·洛杉矶八强战：通往四强的硬仗",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "98",
-      "football_data_org": "537384"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537385",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "quarterfinal",
-    "round": "Quarterfinal",
-    "group": null,
-    "date_utc": "2026-07-11T21:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-91",
-    "away_team_id": "slot-winner-match-92",
-    "venue_id": "hard-rock-stadium",
-    "venue_name": "迈阿密球场（Hard Rock Stadium）",
-    "host_city": "迈阿密",
-    "match_theme": "第99场·迈阿密八强战：通往四强的硬仗",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "99",
-      "football_data_org": "537385"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537386",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "quarterfinal",
-    "round": "Quarterfinal",
-    "group": null,
-    "date_utc": "2026-07-12T01:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-95",
-    "away_team_id": "slot-winner-match-96",
-    "venue_id": "arrowhead-stadium",
-    "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
-    "host_city": "堪萨斯城",
-    "match_theme": "第100场·堪萨斯城八强战：通往四强的硬仗",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "100",
-      "football_data_org": "537386"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537387",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "semifinal",
-    "round": "Semifinal",
-    "group": null,
-    "date_utc": "2026-07-14T19:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-97",
-    "away_team_id": "slot-winner-match-98",
-    "venue_id": "at-and-t-stadium",
-    "venue_name": "达拉斯球场（AT&T Stadium）",
-    "host_city": "达拉斯",
-    "match_theme": "第101场·达拉斯半决赛：决赛门票之夜",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "101",
-      "football_data_org": "537387"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537388",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "semifinal",
-    "round": "Semifinal",
-    "group": null,
-    "date_utc": "2026-07-15T19:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-99",
-    "away_team_id": "slot-winner-match-100",
-    "venue_id": "mercedes-benz-stadium",
-    "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
-    "host_city": "亚特兰大",
-    "match_theme": "第102场·亚特兰大半决赛：决赛门票之夜",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "102",
-      "football_data_org": "537388"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537389",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "third_place",
-    "round": "Third Place Playoff",
-    "group": null,
-    "date_utc": "2026-07-18T21:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-loser-match-101",
-    "away_team_id": "slot-loser-match-102",
-    "venue_id": "hard-rock-stadium",
-    "venue_name": "迈阿密球场（Hard Rock Stadium）",
-    "host_city": "迈阿密",
-    "match_theme": "第103场·迈阿密荣誉之战：季军归属",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "103",
-      "football_data_org": "537389"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537390",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "final",
-    "round": "Final",
-    "group": null,
-    "date_utc": "2026-07-19T19:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-winner-match-101",
-    "away_team_id": "slot-winner-match-102",
-    "venue_id": "metlife-stadium",
-    "venue_name": "纽约新泽西球场（MetLife Stadium）",
-    "host_city": "纽约/新泽西",
-    "match_theme": "第104场·纽约新泽西决赛之夜：冠军加冕",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "104",
-      "football_data_org": "537390"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "H"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537391",
@@ -1349,7 +1013,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "I",
     "date_utc": "2026-06-16T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "france",
@@ -1362,7 +1025,8 @@
       "worldcup_2026_schedule_csv": "49",
       "football_data_org": "537391"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "I"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537392",
@@ -1370,7 +1034,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "I",
     "date_utc": "2026-06-16T22:00:00Z",
     "status": "scheduled",
     "home_team_id": "iraq",
@@ -1383,7 +1046,8 @@
       "worldcup_2026_schedule_csv": "50",
       "football_data_org": "537392"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "I"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537393",
@@ -1391,7 +1055,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "I",
     "date_utc": "2026-06-22T21:00:00Z",
     "status": "scheduled",
     "home_team_id": "france",
@@ -1404,7 +1067,8 @@
       "worldcup_2026_schedule_csv": "51",
       "football_data_org": "537393"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "I"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537394",
@@ -1412,7 +1076,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "I",
     "date_utc": "2026-06-23T00:00:00Z",
     "status": "scheduled",
     "home_team_id": "norway",
@@ -1425,7 +1088,8 @@
       "worldcup_2026_schedule_csv": "52",
       "football_data_org": "537394"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "I"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537395",
@@ -1433,7 +1097,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "I",
     "date_utc": "2026-06-26T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "norway",
@@ -1446,7 +1109,8 @@
       "worldcup_2026_schedule_csv": "53",
       "football_data_org": "537395"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "I"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537396",
@@ -1454,7 +1118,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "I",
     "date_utc": "2026-06-26T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "senegal",
@@ -1467,7 +1130,8 @@
       "worldcup_2026_schedule_csv": "54",
       "football_data_org": "537396"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "I"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537397",
@@ -1475,7 +1139,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "J",
     "date_utc": "2026-06-17T01:00:00Z",
     "status": "scheduled",
     "home_team_id": "argentina",
@@ -1488,7 +1151,8 @@
       "worldcup_2026_schedule_csv": "55",
       "football_data_org": "537397"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "J"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537398",
@@ -1496,7 +1160,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "J",
     "date_utc": "2026-06-17T04:00:00Z",
     "status": "scheduled",
     "home_team_id": "austria",
@@ -1509,7 +1172,8 @@
       "worldcup_2026_schedule_csv": "56",
       "football_data_org": "537398"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "J"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537399",
@@ -1517,7 +1181,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "J",
     "date_utc": "2026-06-22T17:00:00Z",
     "status": "scheduled",
     "home_team_id": "argentina",
@@ -1530,7 +1193,8 @@
       "worldcup_2026_schedule_csv": "57",
       "football_data_org": "537399"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "J"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537400",
@@ -1538,7 +1202,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "J",
     "date_utc": "2026-06-23T03:00:00Z",
     "status": "scheduled",
     "home_team_id": "jordan",
@@ -1551,28 +1214,8 @@
       "worldcup_2026_schedule_csv": "58",
       "football_data_org": "537400"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537401",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "group",
-    "round": "Group Stage",
-    "group": "J",
-    "date_utc": "2026-06-28T02:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "jordan",
-    "away_team_id": "argentina",
-    "venue_id": "at-and-t-stadium",
-    "venue_name": "达拉斯球场（AT&T Stadium）",
-    "host_city": "达拉斯",
-    "match_theme": "第60场·达拉斯夜战：纳巴泰之星对阵潘帕斯雄鹰",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "60",
-      "football_data_org": "537401"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "J"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537402",
@@ -1580,7 +1223,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "J",
     "date_utc": "2026-06-28T02:00:00Z",
     "status": "scheduled",
     "home_team_id": "algeria",
@@ -1593,7 +1235,29 @@
       "worldcup_2026_schedule_csv": "59",
       "football_data_org": "537402"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "J"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537401",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "group",
+    "round": "Group Stage",
+    "date_utc": "2026-06-28T02:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "jordan",
+    "away_team_id": "argentina",
+    "venue_id": "at-and-t-stadium",
+    "venue_name": "达拉斯球场（AT&T Stadium）",
+    "host_city": "达拉斯",
+    "match_theme": "第60场·达拉斯夜战：纳巴泰之星对阵潘帕斯雄鹰",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "60",
+      "football_data_org": "537401"
+    },
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "J"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537403",
@@ -1601,7 +1265,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "K",
     "date_utc": "2026-06-17T17:00:00Z",
     "status": "scheduled",
     "home_team_id": "portugal",
@@ -1614,7 +1277,8 @@
       "worldcup_2026_schedule_csv": "61",
       "football_data_org": "537403"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "K"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537404",
@@ -1622,7 +1286,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "K",
     "date_utc": "2026-06-18T02:00:00Z",
     "status": "scheduled",
     "home_team_id": "uzbekistan",
@@ -1635,7 +1298,8 @@
       "worldcup_2026_schedule_csv": "62",
       "football_data_org": "537404"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "K"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537405",
@@ -1643,7 +1307,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "K",
     "date_utc": "2026-06-23T17:00:00Z",
     "status": "scheduled",
     "home_team_id": "portugal",
@@ -1656,7 +1319,8 @@
       "worldcup_2026_schedule_csv": "63",
       "football_data_org": "537405"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "K"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537406",
@@ -1664,7 +1328,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "K",
     "date_utc": "2026-06-24T02:00:00Z",
     "status": "scheduled",
     "home_team_id": "colombia",
@@ -1677,7 +1340,8 @@
       "worldcup_2026_schedule_csv": "64",
       "football_data_org": "537406"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "K"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537407",
@@ -1685,7 +1349,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "K",
     "date_utc": "2026-06-27T23:30:00Z",
     "status": "scheduled",
     "home_team_id": "colombia",
@@ -1698,7 +1361,8 @@
       "worldcup_2026_schedule_csv": "65",
       "football_data_org": "537407"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "K"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537408",
@@ -1706,7 +1370,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "K",
     "date_utc": "2026-06-27T23:30:00Z",
     "status": "scheduled",
     "home_team_id": "congo-dr",
@@ -1719,7 +1382,8 @@
       "worldcup_2026_schedule_csv": "66",
       "football_data_org": "537408"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "K"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537409",
@@ -1727,7 +1391,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "L",
     "date_utc": "2026-06-17T20:00:00Z",
     "status": "scheduled",
     "home_team_id": "england",
@@ -1740,7 +1403,8 @@
       "worldcup_2026_schedule_csv": "67",
       "football_data_org": "537409"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "L"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537410",
@@ -1748,7 +1412,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "L",
     "date_utc": "2026-06-17T23:00:00Z",
     "status": "scheduled",
     "home_team_id": "ghana",
@@ -1761,7 +1424,8 @@
       "worldcup_2026_schedule_csv": "68",
       "football_data_org": "537410"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "L"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537411",
@@ -1769,7 +1433,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "L",
     "date_utc": "2026-06-23T20:00:00Z",
     "status": "scheduled",
     "home_team_id": "england",
@@ -1782,7 +1445,8 @@
       "worldcup_2026_schedule_csv": "69",
       "football_data_org": "537411"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "L"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537412",
@@ -1790,7 +1454,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "L",
     "date_utc": "2026-06-23T23:00:00Z",
     "status": "scheduled",
     "home_team_id": "panama",
@@ -1803,7 +1466,8 @@
       "worldcup_2026_schedule_csv": "70",
       "football_data_org": "537412"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "L"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537413",
@@ -1811,7 +1475,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "L",
     "date_utc": "2026-06-27T21:00:00Z",
     "status": "scheduled",
     "home_team_id": "panama",
@@ -1824,7 +1487,8 @@
       "worldcup_2026_schedule_csv": "71",
       "football_data_org": "537413"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "L"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537414",
@@ -1832,7 +1496,6 @@
     "season_id": "2026",
     "stage": "group",
     "round": "Group Stage",
-    "group": "L",
     "date_utc": "2026-06-27T21:00:00Z",
     "status": "scheduled",
     "home_team_id": "croatia",
@@ -1845,49 +1508,8 @@
       "worldcup_2026_schedule_csv": "72",
       "football_data_org": "537414"
     },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537415",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_32",
-    "round": "Round of 32",
-    "group": null,
-    "date_utc": "2026-06-29T20:30:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-group-e-winner",
-    "away_team_id": "slot-best-third-a-b-c-d-f",
-    "venue_id": "gillette-stadium",
-    "venue_name": "波士顿球场（Gillette Stadium）",
-    "host_city": "波士顿",
-    "match_theme": "第74场·波士顿三十二强战：淘汰赛门票再洗牌",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "74",
-      "football_data_org": "537415"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537416",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_32",
-    "round": "Round of 32",
-    "group": null,
-    "date_utc": "2026-06-30T21:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-group-i-winner",
-    "away_team_id": "slot-best-third-c-d-f-g-h",
-    "venue_id": "metlife-stadium",
-    "venue_name": "纽约新泽西球场（MetLife Stadium）",
-    "host_city": "纽约/新泽西",
-    "match_theme": "第77场·纽约/新泽西三十二强战：淘汰赛门票再洗牌",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "77",
-      "football_data_org": "537416"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
+    "updated_at": "2026-05-15T00:00:00Z",
+    "group": "L"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537417",
@@ -1895,7 +1517,6 @@
     "season_id": "2026",
     "stage": "round_of_32",
     "round": "Round of 32",
-    "group": null,
     "date_utc": "2026-06-28T19:00:00Z",
     "status": "scheduled",
     "home_team_id": "slot-group-a-runner_up",
@@ -1911,12 +1532,31 @@
     "updated_at": "2026-05-15T00:00:00Z"
   },
   {
+    "match_id": "fifa_world_cup:2026:fdorg:537415",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_32",
+    "round": "Round of 32",
+    "date_utc": "2026-06-29T20:30:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-group-e-winner",
+    "away_team_id": "slot-best-third-a-b-c-d-f",
+    "venue_id": "gillette-stadium",
+    "venue_name": "波士顿球场（Gillette Stadium）",
+    "host_city": "波士顿",
+    "match_theme": "第74场·波士顿三十二强战：淘汰赛门票再洗牌",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "74",
+      "football_data_org": "537415"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
     "match_id": "fifa_world_cup:2026:fdorg:537418",
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
     "stage": "round_of_32",
     "round": "Round of 32",
-    "group": null,
     "date_utc": "2026-06-30T01:00:00Z",
     "status": "scheduled",
     "home_team_id": "slot-group-f-winner",
@@ -1932,96 +1572,11 @@
     "updated_at": "2026-05-15T00:00:00Z"
   },
   {
-    "match_id": "fifa_world_cup:2026:fdorg:537419",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_32",
-    "round": "Round of 32",
-    "group": null,
-    "date_utc": "2026-07-02T23:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-group-k-runner_up",
-    "away_team_id": "slot-group-l-runner_up",
-    "venue_id": "bmo-field",
-    "venue_name": "多伦多球场（BMO Field）",
-    "host_city": "多伦多",
-    "match_theme": "第83场·多伦多三十二强战：淘汰赛门票再洗牌",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "83",
-      "football_data_org": "537419"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537420",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_32",
-    "round": "Round of 32",
-    "group": null,
-    "date_utc": "2026-07-02T19:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-group-h-winner",
-    "away_team_id": "slot-group-j-runner_up",
-    "venue_id": "sofi-stadium",
-    "venue_name": "洛杉矶球场（SoFi Stadium）",
-    "host_city": "洛杉矶",
-    "match_theme": "第84场·洛杉矶三十二强战：淘汰赛门票再洗牌",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "84",
-      "football_data_org": "537420"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537421",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_32",
-    "round": "Round of 32",
-    "group": null,
-    "date_utc": "2026-07-02T00:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-group-d-winner",
-    "away_team_id": "slot-best-third-b-e-f-i-j",
-    "venue_id": "levis-stadium",
-    "venue_name": "旧金山湾区球场（Levi's Stadium）",
-    "host_city": "旧金山湾区",
-    "match_theme": "第81场·旧金山湾区三十二强战：淘汰赛门票再洗牌",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "81",
-      "football_data_org": "537421"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
-    "match_id": "fifa_world_cup:2026:fdorg:537422",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "stage": "round_of_32",
-    "round": "Round of 32",
-    "group": null,
-    "date_utc": "2026-07-01T20:00:00Z",
-    "status": "scheduled",
-    "home_team_id": "slot-group-g-winner",
-    "away_team_id": "slot-best-third-a-e-h-i-j",
-    "venue_id": "lumen-field",
-    "venue_name": "西雅图球场（Lumen Field）",
-    "host_city": "西雅图",
-    "match_theme": "第82场·西雅图三十二强战：淘汰赛门票再洗牌",
-    "source_refs": {
-      "worldcup_2026_schedule_csv": "82",
-      "football_data_org": "537422"
-    },
-    "updated_at": "2026-05-15T00:00:00Z"
-  },
-  {
     "match_id": "fifa_world_cup:2026:fdorg:537423",
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
     "stage": "round_of_32",
     "round": "Round of 32",
-    "group": null,
     "date_utc": "2026-06-29T17:00:00Z",
     "status": "scheduled",
     "home_team_id": "slot-group-c-winner",
@@ -2037,12 +1592,31 @@
     "updated_at": "2026-05-15T00:00:00Z"
   },
   {
+    "match_id": "fifa_world_cup:2026:fdorg:537416",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_32",
+    "round": "Round of 32",
+    "date_utc": "2026-06-30T21:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-group-i-winner",
+    "away_team_id": "slot-best-third-c-d-f-g-h",
+    "venue_id": "metlife-stadium",
+    "venue_name": "纽约新泽西球场（MetLife Stadium）",
+    "host_city": "纽约/新泽西",
+    "match_theme": "第77场·纽约/新泽西三十二强战：淘汰赛门票再洗牌",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "77",
+      "football_data_org": "537416"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
     "match_id": "fifa_world_cup:2026:fdorg:537424",
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
     "stage": "round_of_32",
     "round": "Round of 32",
-    "group": null,
     "date_utc": "2026-06-30T17:00:00Z",
     "status": "scheduled",
     "home_team_id": "slot-group-e-runner_up",
@@ -2063,7 +1637,6 @@
     "season_id": "2026",
     "stage": "round_of_32",
     "round": "Round of 32",
-    "group": null,
     "date_utc": "2026-07-01T01:00:00Z",
     "status": "scheduled",
     "home_team_id": "slot-group-a-winner",
@@ -2084,7 +1657,6 @@
     "season_id": "2026",
     "stage": "round_of_32",
     "round": "Round of 32",
-    "group": null,
     "date_utc": "2026-07-01T16:00:00Z",
     "status": "scheduled",
     "home_team_id": "slot-group-l-winner",
@@ -2100,44 +1672,82 @@
     "updated_at": "2026-05-15T00:00:00Z"
   },
   {
-    "match_id": "fifa_world_cup:2026:fdorg:537427",
+    "match_id": "fifa_world_cup:2026:fdorg:537421",
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
     "stage": "round_of_32",
     "round": "Round of 32",
-    "group": null,
-    "date_utc": "2026-07-03T22:00:00Z",
+    "date_utc": "2026-07-02T00:00:00Z",
     "status": "scheduled",
-    "home_team_id": "slot-group-j-winner",
-    "away_team_id": "slot-group-h-runner_up",
-    "venue_id": "hard-rock-stadium",
-    "venue_name": "迈阿密球场（Hard Rock Stadium）",
-    "host_city": "迈阿密",
-    "match_theme": "第86场·迈阿密三十二强战：淘汰赛门票再洗牌",
+    "home_team_id": "slot-group-d-winner",
+    "away_team_id": "slot-best-third-b-e-f-i-j",
+    "venue_id": "levis-stadium",
+    "venue_name": "旧金山湾区球场（Levi's Stadium）",
+    "host_city": "旧金山湾区",
+    "match_theme": "第81场·旧金山湾区三十二强战：淘汰赛门票再洗牌",
     "source_refs": {
-      "worldcup_2026_schedule_csv": "86",
-      "football_data_org": "537427"
+      "worldcup_2026_schedule_csv": "81",
+      "football_data_org": "537421"
     },
     "updated_at": "2026-05-15T00:00:00Z"
   },
   {
-    "match_id": "fifa_world_cup:2026:fdorg:537428",
+    "match_id": "fifa_world_cup:2026:fdorg:537422",
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
     "stage": "round_of_32",
     "round": "Round of 32",
-    "group": null,
-    "date_utc": "2026-07-03T18:00:00Z",
+    "date_utc": "2026-07-01T20:00:00Z",
     "status": "scheduled",
-    "home_team_id": "slot-group-d-runner_up",
-    "away_team_id": "slot-group-g-runner_up",
-    "venue_id": "at-and-t-stadium",
-    "venue_name": "达拉斯球场（AT&T Stadium）",
-    "host_city": "达拉斯",
-    "match_theme": "第88场·达拉斯三十二强战：淘汰赛门票再洗牌",
+    "home_team_id": "slot-group-g-winner",
+    "away_team_id": "slot-best-third-a-e-h-i-j",
+    "venue_id": "lumen-field",
+    "venue_name": "西雅图球场（Lumen Field）",
+    "host_city": "西雅图",
+    "match_theme": "第82场·西雅图三十二强战：淘汰赛门票再洗牌",
     "source_refs": {
-      "worldcup_2026_schedule_csv": "88",
-      "football_data_org": "537428"
+      "worldcup_2026_schedule_csv": "82",
+      "football_data_org": "537422"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537419",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_32",
+    "round": "Round of 32",
+    "date_utc": "2026-07-02T23:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-group-k-runner_up",
+    "away_team_id": "slot-group-l-runner_up",
+    "venue_id": "bmo-field",
+    "venue_name": "多伦多球场（BMO Field）",
+    "host_city": "多伦多",
+    "match_theme": "第83场·多伦多三十二强战：淘汰赛门票再洗牌",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "83",
+      "football_data_org": "537419"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537420",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_32",
+    "round": "Round of 32",
+    "date_utc": "2026-07-02T19:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-group-h-winner",
+    "away_team_id": "slot-group-j-runner_up",
+    "venue_id": "sofi-stadium",
+    "venue_name": "洛杉矶球场（SoFi Stadium）",
+    "host_city": "洛杉矶",
+    "match_theme": "第84场·洛杉矶三十二强战：淘汰赛门票再洗牌",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "84",
+      "football_data_org": "537420"
     },
     "updated_at": "2026-05-15T00:00:00Z"
   },
@@ -2147,7 +1757,6 @@
     "season_id": "2026",
     "stage": "round_of_32",
     "round": "Round of 32",
-    "group": null,
     "date_utc": "2026-07-03T03:00:00Z",
     "status": "scheduled",
     "home_team_id": "slot-group-b-winner",
@@ -2163,12 +1772,31 @@
     "updated_at": "2026-05-15T00:00:00Z"
   },
   {
+    "match_id": "fifa_world_cup:2026:fdorg:537427",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_32",
+    "round": "Round of 32",
+    "date_utc": "2026-07-03T22:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-group-j-winner",
+    "away_team_id": "slot-group-h-runner_up",
+    "venue_id": "hard-rock-stadium",
+    "venue_name": "迈阿密球场（Hard Rock Stadium）",
+    "host_city": "迈阿密",
+    "match_theme": "第86场·迈阿密三十二强战：淘汰赛门票再洗牌",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "86",
+      "football_data_org": "537427"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
     "match_id": "fifa_world_cup:2026:fdorg:537430",
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
     "stage": "round_of_32",
     "round": "Round of 32",
-    "group": null,
     "date_utc": "2026-07-04T01:30:00Z",
     "status": "scheduled",
     "home_team_id": "slot-group-k-winner",
@@ -2180,6 +1808,346 @@
     "source_refs": {
       "worldcup_2026_schedule_csv": "87",
       "football_data_org": "537430"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537428",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_32",
+    "round": "Round of 32",
+    "date_utc": "2026-07-03T18:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-group-d-runner_up",
+    "away_team_id": "slot-group-g-runner_up",
+    "venue_id": "at-and-t-stadium",
+    "venue_name": "达拉斯球场（AT&T Stadium）",
+    "host_city": "达拉斯",
+    "match_theme": "第88场·达拉斯三十二强战：淘汰赛门票再洗牌",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "88",
+      "football_data_org": "537428"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537375",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_16",
+    "round": "Round of 16",
+    "date_utc": "2026-07-04T21:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-74",
+    "away_team_id": "slot-winner-match-77",
+    "venue_id": "lincoln-financial-field",
+    "venue_name": "费城球场（Lincoln Financial Field）",
+    "host_city": "费城",
+    "match_theme": "第89场·费城十六强战：八强席位争夺",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "89",
+      "football_data_org": "537375"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537376",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_16",
+    "round": "Round of 16",
+    "date_utc": "2026-07-04T17:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-73",
+    "away_team_id": "slot-winner-match-75",
+    "venue_id": "nrg-stadium",
+    "venue_name": "休斯敦球场（NRG Stadium）",
+    "host_city": "休斯敦",
+    "match_theme": "第90场·休斯敦十六强战：八强席位争夺",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "90",
+      "football_data_org": "537376"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537377",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_16",
+    "round": "Round of 16",
+    "date_utc": "2026-07-05T20:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-76",
+    "away_team_id": "slot-winner-match-78",
+    "venue_id": "metlife-stadium",
+    "venue_name": "纽约新泽西球场（MetLife Stadium）",
+    "host_city": "纽约/新泽西",
+    "match_theme": "第91场·纽约/新泽西十六强战：八强席位争夺",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "91",
+      "football_data_org": "537377"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537378",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_16",
+    "round": "Round of 16",
+    "date_utc": "2026-07-06T00:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-79",
+    "away_team_id": "slot-winner-match-80",
+    "venue_id": "estadio-azteca",
+    "venue_name": "墨西哥城球场（Estadio Azteca）",
+    "host_city": "墨西哥城",
+    "match_theme": "第92场·墨西哥城十六强战：八强席位争夺",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "92",
+      "football_data_org": "537378"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537379",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_16",
+    "round": "Round of 16",
+    "date_utc": "2026-07-06T19:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-83",
+    "away_team_id": "slot-winner-match-84",
+    "venue_id": "at-and-t-stadium",
+    "venue_name": "达拉斯球场（AT&T Stadium）",
+    "host_city": "达拉斯",
+    "match_theme": "第93场·达拉斯十六强战：八强席位争夺",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "93",
+      "football_data_org": "537379"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537380",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_16",
+    "round": "Round of 16",
+    "date_utc": "2026-07-07T00:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-81",
+    "away_team_id": "slot-winner-match-82",
+    "venue_id": "lumen-field",
+    "venue_name": "西雅图球场（Lumen Field）",
+    "host_city": "西雅图",
+    "match_theme": "第94场·西雅图十六强战：八强席位争夺",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "94",
+      "football_data_org": "537380"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537381",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_16",
+    "round": "Round of 16",
+    "date_utc": "2026-07-07T16:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-86",
+    "away_team_id": "slot-winner-match-88",
+    "venue_id": "mercedes-benz-stadium",
+    "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+    "host_city": "亚特兰大",
+    "match_theme": "第95场·亚特兰大十六强战：八强席位争夺",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "95",
+      "football_data_org": "537381"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537382",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "round_of_16",
+    "round": "Round of 16",
+    "date_utc": "2026-07-07T20:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-85",
+    "away_team_id": "slot-winner-match-87",
+    "venue_id": "bc-place",
+    "venue_name": "BC Place 温哥华球场",
+    "host_city": "温哥华",
+    "match_theme": "第96场·温哥华十六强战：八强席位争夺",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "96",
+      "football_data_org": "537382"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537383",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "quarterfinal",
+    "round": "Quarter-finals",
+    "date_utc": "2026-07-09T20:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-89",
+    "away_team_id": "slot-winner-match-90",
+    "venue_id": "gillette-stadium",
+    "venue_name": "波士顿球场（Gillette Stadium）",
+    "host_city": "波士顿",
+    "match_theme": "第97场·波士顿八强战：通往四强的硬仗",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "97",
+      "football_data_org": "537383"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537384",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "quarterfinal",
+    "round": "Quarter-finals",
+    "date_utc": "2026-07-10T19:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-93",
+    "away_team_id": "slot-winner-match-94",
+    "venue_id": "sofi-stadium",
+    "venue_name": "洛杉矶球场（SoFi Stadium）",
+    "host_city": "洛杉矶",
+    "match_theme": "第98场·洛杉矶八强战：通往四强的硬仗",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "98",
+      "football_data_org": "537384"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537385",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "quarterfinal",
+    "round": "Quarter-finals",
+    "date_utc": "2026-07-11T21:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-91",
+    "away_team_id": "slot-winner-match-92",
+    "venue_id": "hard-rock-stadium",
+    "venue_name": "迈阿密球场（Hard Rock Stadium）",
+    "host_city": "迈阿密",
+    "match_theme": "第99场·迈阿密八强战：通往四强的硬仗",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "99",
+      "football_data_org": "537385"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537386",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "quarterfinal",
+    "round": "Quarter-finals",
+    "date_utc": "2026-07-12T01:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-95",
+    "away_team_id": "slot-winner-match-96",
+    "venue_id": "arrowhead-stadium",
+    "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+    "host_city": "堪萨斯城",
+    "match_theme": "第100场·堪萨斯城八强战：通往四强的硬仗",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "100",
+      "football_data_org": "537386"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537387",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "semifinal",
+    "round": "Semi-finals",
+    "date_utc": "2026-07-14T19:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-97",
+    "away_team_id": "slot-winner-match-98",
+    "venue_id": "at-and-t-stadium",
+    "venue_name": "达拉斯球场（AT&T Stadium）",
+    "host_city": "达拉斯",
+    "match_theme": "第101场·达拉斯半决赛：决赛门票之夜",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "101",
+      "football_data_org": "537387"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537388",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "semifinal",
+    "round": "Semi-finals",
+    "date_utc": "2026-07-15T19:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-99",
+    "away_team_id": "slot-winner-match-100",
+    "venue_id": "mercedes-benz-stadium",
+    "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+    "host_city": "亚特兰大",
+    "match_theme": "第102场·亚特兰大半决赛：决赛门票之夜",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "102",
+      "football_data_org": "537388"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537389",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "third_place",
+    "round": "Match for Third Place",
+    "date_utc": "2026-07-18T21:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-loser-match-101",
+    "away_team_id": "slot-loser-match-102",
+    "venue_id": "hard-rock-stadium",
+    "venue_name": "迈阿密球场（Hard Rock Stadium）",
+    "host_city": "迈阿密",
+    "match_theme": "第103场·迈阿密荣誉之战：季军归属",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "103",
+      "football_data_org": "537389"
+    },
+    "updated_at": "2026-05-15T00:00:00Z"
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537390",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "stage": "final",
+    "round": "Final",
+    "date_utc": "2026-07-19T19:00:00Z",
+    "status": "scheduled",
+    "home_team_id": "slot-winner-match-101",
+    "away_team_id": "slot-winner-match-102",
+    "venue_id": "metlife-stadium",
+    "venue_name": "纽约新泽西球场（MetLife Stadium）",
+    "host_city": "纽约/新泽西",
+    "match_theme": "第104场·纽约新泽西决赛之夜：冠军加冕",
+    "source_refs": {
+      "worldcup_2026_schedule_csv": "104",
+      "football_data_org": "537390"
     },
     "updated_at": "2026-05-15T00:00:00Z"
   }

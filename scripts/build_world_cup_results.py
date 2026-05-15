@@ -5,8 +5,8 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW_MATCHES_PATH = ROOT / "data" / "raw" / "football-data-org" / "world_cup_2026_matches.json"
 AUTHORITATIVE_FIXTURES_PATH = ROOT / "data" / "normalized" / "world_cup_2026_authoritative_fixtures.json"
+LOCAL_FINALS_RESULTS_PATH = ROOT / "data" / "public" / "worldcup-site-finals-results.json"
 NORMALIZED_RESULTS_PATH = ROOT / "data" / "normalized" / "world_cup_2026_results.json"
 PUBLIC_RESULTS_PATH = ROOT / "data" / "public" / "results.json"
 
@@ -37,64 +37,74 @@ def normalize_status(value: str) -> str:
     return mapping.get(status, status.casefold() or "unknown")
 
 
-def normalize_winner(value: str | None) -> str | None:
+def local_status(value: str) -> str:
     mapping = {
-        "HOME_TEAM": "home",
-        "AWAY_TEAM": "away",
-        "DRAW": "draw",
+        "scheduled": "scheduled",
+        "completed": "finished",
     }
-    if value is None:
+    return mapping.get(str(value or "").strip().casefold(), str(value or "").strip().casefold() or "unknown")
+
+
+def infer_winner(home_score: object, away_score: object) -> str | None:
+    if not isinstance(home_score, int) or not isinstance(away_score, int):
         return None
-    return mapping.get(str(value).strip().upper())
+    if home_score > away_score:
+        return "home"
+    if away_score > home_score:
+        return "away"
+    return "draw"
 
 
 def build_results() -> list[dict[str, object]]:
     fixtures = load_json(AUTHORITATIVE_FIXTURES_PATH)
-    payload = load_json(RAW_MATCHES_PATH)
     if not isinstance(fixtures, list):
         raise TypeError("Authoritative fixtures must be a list.")
-    if not isinstance(payload, dict):
-        raise TypeError("football-data.org raw payload must be an object.")
+    local_results = load_json(LOCAL_FINALS_RESULTS_PATH)
+    if not isinstance(local_results, list):
+        raise TypeError("worldcup-site-finals-results.json must contain a list.")
 
-    fixture_by_fdorg_id = {}
+    fixture_by_local_id = {}
     for fixture in fixtures:
         source_refs = fixture.get("source_refs") or {}
-        football_data_id = source_refs.get("football_data_org")
-        if football_data_id:
-            fixture_by_fdorg_id[str(football_data_id)] = fixture
+        local_id = source_refs.get("worldcup_2026_schedule_csv")
+        if local_id:
+            fixture_by_local_id[str(local_id)] = fixture
 
     results: list[dict[str, object]] = []
-    for match in payload.get("matches", []):
-        football_data_id = str(match.get("id", "")).strip()
-        fixture = fixture_by_fdorg_id.get(football_data_id)
+    for match in local_results:
+        if not isinstance(match, dict):
+            continue
+        local_id = str(match.get("id", "")).strip()
+        fixture = fixture_by_local_id.get(local_id)
         if not fixture:
             continue
-
-        score = match.get("score") or {}
-        full_time = score.get("fullTime") or {}
-        half_time = score.get("halfTime") or {}
-        extra_time = score.get("extraTime") or {}
-        penalties = score.get("penalties") or {}
+        home_score = match.get("homeScore")
+        away_score = match.get("awayScore")
+        status = local_status(str(match.get("status") or ""))
 
         results.append(
             {
                 "match_id": fixture["match_id"],
-                "status": normalize_status(match.get("status")),
+                "status": normalize_status(status),
                 "score": {
-                    "home": full_time.get("home"),
-                    "away": full_time.get("away"),
-                    "half_time_home": half_time.get("home"),
-                    "half_time_away": half_time.get("away"),
-                    "extra_time_home": extra_time.get("home"),
-                    "extra_time_away": extra_time.get("away"),
-                    "penalties_home": penalties.get("home"),
-                    "penalties_away": penalties.get("away"),
+                    "home": home_score if isinstance(home_score, int) else None,
+                    "away": away_score if isinstance(away_score, int) else None,
+                    "half_time_home": None,
+                    "half_time_away": None,
+                    "extra_time_home": match.get("homeScore") if bool(match.get("wentToExtraTime")) else None,
+                    "extra_time_away": match.get("awayScore") if bool(match.get("wentToExtraTime")) else None,
+                    "penalties_home": match.get("homePenaltyScore") if isinstance(match.get("homePenaltyScore"), int) else None,
+                    "penalties_away": match.get("awayPenaltyScore") if isinstance(match.get("awayPenaltyScore"), int) else None,
                 },
-                "winner": normalize_winner(score.get("winner")),
-                "result_type": str(score.get("duration") or "REGULAR").casefold(),
-                "provider": "football_data_org",
-                "provider_match_id": football_data_id,
-                "updated_at": str(match.get("lastUpdated") or fixture.get("updated_at")),
+                "winner": infer_winner(home_score, away_score),
+                "result_type": "penalties"
+                if isinstance(match.get("homePenaltyScore"), int) or isinstance(match.get("awayPenaltyScore"), int)
+                else "extra_time"
+                if bool(match.get("wentToExtraTime"))
+                else "regular",
+                "provider": "worldcup_2026_local",
+                "provider_match_id": local_id,
+                "updated_at": str(match.get("updatedAt") or fixture.get("updated_at")),
             }
         )
 
@@ -102,7 +112,7 @@ def build_results() -> list[dict[str, object]]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build normalized World Cup results from football-data.org raw payload.")
+    parser = argparse.ArgumentParser(description="Build normalized World Cup results from local World Cup site data.")
     parser.add_argument("--normalized-output", default=str(NORMALIZED_RESULTS_PATH), help="normalized results output path")
     parser.add_argument("--public-output", default=str(PUBLIC_RESULTS_PATH), help="public results output path")
     args = parser.parse_args()

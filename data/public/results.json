@@ -14,9 +14,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537327",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "1",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537328",
@@ -33,9 +33,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537328",
-    "updated_at": "2026-04-01T00:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "2",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537329",
@@ -52,9 +52,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537329",
-    "updated_at": "2026-04-01T00:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "3",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537330",
@@ -71,9 +71,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537330",
-    "updated_at": "2026-03-30T20:21:10Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "4",
+    "updated_at": "2026-03-30"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537331",
@@ -90,9 +90,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537331",
-    "updated_at": "2026-04-01T00:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "5",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537332",
@@ -109,9 +109,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537332",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "6",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537333",
@@ -128,9 +128,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537333",
-    "updated_at": "2026-04-01T00:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "7",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537334",
@@ -147,9 +147,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537334",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "8",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537335",
@@ -166,9 +166,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537335",
-    "updated_at": "2026-04-01T00:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "9",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537336",
@@ -185,9 +185,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537336",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "10",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537337",
@@ -204,9 +204,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537337",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "11",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537338",
@@ -223,9 +223,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537338",
-    "updated_at": "2026-04-01T00:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "12",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537339",
@@ -242,9 +242,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537339",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "13",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537340",
@@ -261,9 +261,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537340",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "14",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537341",
@@ -280,9 +280,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537341",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "16",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537342",
@@ -299,9 +299,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537342",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "15",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537343",
@@ -318,9 +318,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537343",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "17",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537344",
@@ -337,9 +337,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537344",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "18",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537345",
@@ -356,9 +356,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537345",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "19",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537346",
@@ -375,9 +375,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537346",
-    "updated_at": "2026-04-02T15:21:05Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "20",
+    "updated_at": "2026-04-02"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537347",
@@ -394,9 +394,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537347",
-    "updated_at": "2026-04-01T15:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "22",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537348",
@@ -413,9 +413,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537348",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "21",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537349",
@@ -432,9 +432,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537349",
-    "updated_at": "2026-04-01T00:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "23",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537350",
@@ -451,9 +451,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537350",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "24",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537351",
@@ -470,9 +470,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537351",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "25",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537352",
@@ -489,9 +489,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537352",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "26",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537353",
@@ -508,9 +508,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537353",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "27",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537354",
@@ -527,9 +527,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537354",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "28",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537355",
@@ -546,9 +546,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537355",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "30",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537356",
@@ -565,9 +565,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537356",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "29",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537357",
@@ -584,9 +584,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537357",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "31",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537358",
@@ -603,9 +603,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537358",
-    "updated_at": "2026-04-01T00:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "32",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537359",
@@ -622,9 +622,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537359",
-    "updated_at": "2026-04-01T00:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "33",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537360",
@@ -641,9 +641,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537360",
-    "updated_at": "2026-03-30T20:21:10Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "34",
+    "updated_at": "2026-03-30"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537361",
@@ -660,9 +660,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537361",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "36",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537362",
@@ -679,9 +679,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537362",
-    "updated_at": "2026-04-01T00:21:07Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "35",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537363",
@@ -698,9 +698,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537363",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "37",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537364",
@@ -717,9 +717,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537364",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "38",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537365",
@@ -736,9 +736,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537365",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "39",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537366",
@@ -755,9 +755,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537366",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "40",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537367",
@@ -774,9 +774,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537367",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "42",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537368",
@@ -793,9 +793,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537368",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "41",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537369",
@@ -812,9 +812,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537369",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "43",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537370",
@@ -831,9 +831,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537370",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "44",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537371",
@@ -850,9 +850,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537371",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "45",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537372",
@@ -869,9 +869,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537372",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "46",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537373",
@@ -888,9 +888,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537373",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "48",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537374",
@@ -907,9 +907,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537374",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "47",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537375",
@@ -926,9 +926,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537375",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "89",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537376",
@@ -945,9 +945,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537376",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "90",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537377",
@@ -964,9 +964,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537377",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "91",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537378",
@@ -983,9 +983,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537378",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "92",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537379",
@@ -1002,9 +1002,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537379",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "93",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537380",
@@ -1021,9 +1021,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537380",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "94",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537381",
@@ -1040,9 +1040,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537381",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "95",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537382",
@@ -1059,9 +1059,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537382",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "96",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537383",
@@ -1078,9 +1078,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537383",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "97",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537384",
@@ -1097,9 +1097,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537384",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "98",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537385",
@@ -1116,9 +1116,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537385",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "99",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537386",
@@ -1135,9 +1135,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537386",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "100",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537387",
@@ -1154,9 +1154,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537387",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "101",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537388",
@@ -1173,9 +1173,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537388",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "102",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537389",
@@ -1192,9 +1192,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537389",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "103",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537390",
@@ -1211,9 +1211,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537390",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "104",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537391",
@@ -1230,9 +1230,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537391",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "49",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537392",
@@ -1249,9 +1249,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537392",
-    "updated_at": "2026-04-01T10:21:10Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "50",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537393",
@@ -1268,9 +1268,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537393",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "51",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537394",
@@ -1287,9 +1287,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537394",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "52",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537395",
@@ -1306,9 +1306,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537395",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "53",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537396",
@@ -1325,9 +1325,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537396",
-    "updated_at": "2026-04-01T10:21:10Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "54",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537397",
@@ -1344,9 +1344,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537397",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "55",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537398",
@@ -1363,9 +1363,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537398",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "56",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537399",
@@ -1382,9 +1382,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537399",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "57",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537400",
@@ -1401,9 +1401,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537400",
-    "updated_at": "2026-03-30T20:21:10Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "58",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537401",
@@ -1420,9 +1420,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537401",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "60",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537402",
@@ -1439,9 +1439,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537402",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "59",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537403",
@@ -1458,9 +1458,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537403",
-    "updated_at": "2026-04-01T10:21:10Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "61",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537404",
@@ -1477,9 +1477,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537404",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "62",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537405",
@@ -1496,9 +1496,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537405",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "63",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537406",
@@ -1515,9 +1515,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537406",
-    "updated_at": "2026-04-01T10:21:10Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "64",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537407",
@@ -1534,9 +1534,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537407",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "65",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537408",
@@ -1553,9 +1553,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537408",
-    "updated_at": "2026-04-01T10:21:10Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "66",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537409",
@@ -1572,9 +1572,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537409",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "67",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537410",
@@ -1591,9 +1591,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537410",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "68",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537411",
@@ -1610,9 +1610,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537411",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "69",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537412",
@@ -1629,9 +1629,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537412",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "70",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537413",
@@ -1648,9 +1648,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537413",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "71",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537414",
@@ -1667,9 +1667,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537414",
-    "updated_at": "2025-12-06T20:20:44Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "72",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537415",
@@ -1686,9 +1686,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537415",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "74",
+    "updated_at": "2026-03-30"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537416",
@@ -1705,9 +1705,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537416",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "77",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537417",
@@ -1724,9 +1724,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537417",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "73",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537418",
@@ -1743,9 +1743,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537418",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "75",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537419",
@@ -1762,9 +1762,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537419",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "83",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537420",
@@ -1781,9 +1781,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537420",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "84",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537421",
@@ -1800,9 +1800,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537421",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "81",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537422",
@@ -1819,9 +1819,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537422",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "82",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537423",
@@ -1838,9 +1838,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537423",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "76",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537424",
@@ -1857,9 +1857,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537424",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "78",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537425",
@@ -1876,9 +1876,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537425",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "79",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537426",
@@ -1895,9 +1895,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537426",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "80",
+    "updated_at": "2026-04-01"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537427",
@@ -1914,9 +1914,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537427",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "86",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537428",
@@ -1933,9 +1933,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537428",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "88",
+    "updated_at": "2025-12-06"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537429",
@@ -1952,9 +1952,9 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537429",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "85",
+    "updated_at": "2026-05-14"
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537430",
@@ -1971,8 +1971,8 @@
     },
     "winner": null,
     "result_type": "regular",
-    "provider": "football_data_org",
-    "provider_match_id": "537430",
-    "updated_at": "2026-05-14T00:20:58Z"
+    "provider": "worldcup_2026_local",
+    "provider_match_id": "87",
+    "updated_at": "2026-05-14"
   }
 ]

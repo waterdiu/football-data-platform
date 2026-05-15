@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Football Data Platform</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f1e8;
+        --fg: #152015;
+        --muted: #5a6a5a;
+        --card: #fffdf7;
+        --line: #d6ceb8;
+        --accent: #0e6b43;
+      }
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background: linear-gradient(180deg, #f1ead7 0%, var(--bg) 45%, #efe6cf 100%);
+        color: var(--fg);
+      }
+      main {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+      h1 {
+        font-size: clamp(2.4rem, 5vw, 4.2rem);
+        line-height: 0.95;
+        margin: 0 0 12px;
+      }
+      p {
+        font-size: 1.05rem;
+        line-height: 1.6;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .grid {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        margin-top: 28px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 18px 18px 16px;
+        box-shadow: 0 8px 24px rgba(21, 32, 21, 0.06);
+      }
+      h2 {
+        margin: 0 0 10px;
+        font-size: 1.1rem;
+      }
+      ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+      li + li {
+        margin-top: 8px;
+      }
+      a {
+        color: var(--accent);
+      }
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 0.92em;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Football Data Platform</h1>
+      <p class="muted">Static JSON endpoints for the 2026 World Cup site and predictor stack.</p>
+      <div class="grid">
+        <section class="card">
+          <h2>World Cup 2026 Runtime API</h2>
+          <ul>
+            <li><a href="./api/worldcup/2026/manifest.json"><code>api/worldcup/2026/manifest.json</code></a></li>
+            <li><a href="./api/worldcup/2026/site/bundle.json"><code>api/worldcup/2026/site/bundle.json</code></a></li>
+            <li><a href="./api/worldcup/2026/core/bundle.json"><code>api/worldcup/2026/core/bundle.json</code></a></li>
+          </ul>
+        </section>
+        <section class="card">
+          <h2>Public Data</h2>
+          <ul>
+            <li><a href="./fixtures.json"><code>fixtures.json</code></a></li>
+            <li><a href="./results.json"><code>results.json</code></a></li>
+            <li><a href="./standings.json"><code>standings.json</code></a></li>
+            <li><a href="./qualifier-matches.json"><code>qualifier-matches.json</code></a></li>
+            <li><a href="./predictions.json"><code>predictions.json</code></a></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+  </html>

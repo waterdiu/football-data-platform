@@ -1,0 +1,5109 @@
+[
+  {
+    "id": "afc-uae-iraq-2025-11-13",
+    "label": "United Arab Emirates 1-1 Iraq",
+    "missingData": [
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "afc-iraq-uae-2025-11-18",
+    "label": "Iraq 2-1 United Arab Emirates",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "caf-nigeria-congo-dr-2025-11-16",
+    "label": "Nigeria 1-1 Congo DR",
+    "missingData": [
+      "完整阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "caf-cameroon-congo-dr-2025-11-13",
+    "label": "Cameroon 0-1 Congo DR",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "concacaf-curacao-jamaica-2025-11-18",
+    "label": "Curacao 0-0 Jamaica",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "concacaf-panama-el-salvador-2025-11-18",
+    "label": "Panama 3-0 El Salvador",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "conmebol-argentina-venezuela-2025-09-04",
+    "label": "Argentina 3-0 Venezuela",
+    "missingData": [
+      "完整阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "conmebol-bolivia-brazil-2025-09-09",
+    "label": "Bolivia 1-0 Brazil",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "ofc-new-zealand-new-caledonia-2025-03-24",
+    "label": "New Zealand 3-0 New Caledonia",
+    "missingData": [
+      "完整阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "uefa-scotland-denmark-2025-11-18",
+    "label": "Scotland 4-2 Denmark",
+    "missingData": [
+      "完整阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "uefa-norway-italy-2025-11-16",
+    "label": "Italy 1-4 Norway",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125854",
+    "label": "Rwanda 0-0 Zimbabwe",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125849",
+    "label": "Congo DR 2-0 Mauritania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125848",
+    "label": "Ethiopia 0-0 Sierra Leone",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125866",
+    "label": "Botswana 2-3 Mozambique",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125863",
+    "label": "Burundi 3-2 Gambia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125853",
+    "label": "Nigeria 1-1 Lesotho",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125847",
+    "label": "Egypt 6-0 Djibouti",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125861",
+    "label": "Gabon 2-1 Kenya",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125851",
+    "label": "Sudan 1-1 Togo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125865",
+    "label": "Algeria 3-1 Somalia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125855",
+    "label": "Cape Verde Islands 0-0 Angola",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125864",
+    "label": "Guinea 2-1 Uganda",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125872",
+    "label": "Comoros 4-2 Central African Republic",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125857",
+    "label": "Eswatini 0-1 Libya",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125870",
+    "label": "Ghana 1-0 Madagascar",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125858",
+    "label": "Zambia 4-2 Congo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125869",
+    "label": "Liberia 0-1 Malawi",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125868",
+    "label": "Tunisia 4-0 Sao Tome and Principe",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125871",
+    "label": "Mali 3-1 Chad",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125862",
+    "label": "Ivory Coast 9-0 Seychelles",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125846",
+    "label": "Burkina Faso 1-1 Guinea-Bissau",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125856",
+    "label": "Cameroon 3-0 Mauritius",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125852",
+    "label": "South Africa 2-1 Benin",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125860",
+    "label": "Niger 0-1 Tanzania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125850",
+    "label": "Senegal 4-0 South Sudan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125892",
+    "label": "Mozambique 0-2 Algeria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125880",
+    "label": "Zimbabwe 1-1 Nigeria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125890",
+    "label": "Burundi 1-2 Gabon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125874",
+    "label": "Sierra Leone 0-2 Egypt",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125878",
+    "label": "Sudan 1-0 Congo DR",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125873",
+    "label": "Djibouti 0-1 Guinea-Bissau",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125889",
+    "label": "Gambia 0-2 Ivory Coast",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126006",
+    "label": "Mali 1-1 Central African Republic",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125888",
+    "label": "Seychelles 0-5 Kenya",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125897",
+    "label": "Chad 0-3 Madagascar",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125895",
+    "label": "Malawi 0-1 Tunisia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125875",
+    "label": "Ethiopia 0-3 Burkina Faso",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125881",
+    "label": "Rwanda 2-0 South Africa",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125879",
+    "label": "Lesotho 0-0 Benin",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125893",
+    "label": "Botswana 1-0 Guinea",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125884",
+    "label": "Eswatini 0-2 Cape Verde Islands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125891",
+    "label": "Somalia 0-1 Uganda",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125894",
+    "label": "Sao Tome and Principe 0-2 Namibia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125876",
+    "label": "South Sudan 0-0 Mauritania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125882",
+    "label": "Mauritius 0-0 Angola",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125899",
+    "label": "Comoros 1-0 Ghana",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125883",
+    "label": "Libya 1-1 Cameroon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125877",
+    "label": "Togo 0-0 Senegal",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125886",
+    "label": "Tanzania 0-2 Morocco",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125887",
+    "label": "Niger 2-1 Zambia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125922",
+    "label": "Namibia 1-1 Liberia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125900",
+    "label": "Sierra Leone 2-1 Djibouti",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125924",
+    "label": "Central African Republic 1-0 Chad",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125903",
+    "label": "Togo 1-1 South Sudan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125923",
+    "label": "Tunisia 1-0 Equatorial Guinea",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125921",
+    "label": "Malawi 3-1 Sao Tome and Principe",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125904",
+    "label": "Mauritania 0-2 Sudan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125901",
+    "label": "Guinea-Bissau 0-0 Ethiopia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125909",
+    "label": "Libya 2-1 Mauritius",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125905",
+    "label": "Senegal 1-1 Congo DR",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125902",
+    "label": "Egypt 2-1 Burkina Faso",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125926",
+    "label": "Mali 1-2 Ghana",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125907",
+    "label": "Benin 1-0 Rwanda",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125920",
+    "label": "Algeria 1-2 Guinea",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125916",
+    "label": "Kenya 1-1 Burundi",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125918",
+    "label": "Mozambique 2-1 Somalia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125906",
+    "label": "Zimbabwe 0-2 Lesotho",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125925",
+    "label": "Madagascar 2-1 Comoros",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125919",
+    "label": "Uganda 1-0 Botswana",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125910",
+    "label": "Angola 1-0 Eswatini",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125908",
+    "label": "Nigeria 1-1 South Africa",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125914",
+    "label": "Morocco 2-1 Zambia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125917",
+    "label": "Ivory Coast 1-0 Gabon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125911",
+    "label": "Cameroon 4-1 Cape Verde Islands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125915",
+    "label": "Gambia 5-1 Seychelles",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125950",
+    "label": "Sao Tome and Principe 0-1 Liberia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125931",
+    "label": "Mauritania 0-1 Senegal",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125949",
+    "label": "Namibia 0-0 Tunisia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125930",
+    "label": "Congo DR 1-0 Togo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125929",
+    "label": "Djibouti 1-1 Ethiopia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125948",
+    "label": "Equatorial Guinea 1-0 Malawi",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125947",
+    "label": "Somalia 1-3 Botswana",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125928",
+    "label": "Guinea-Bissau 1-1 Egypt",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125934",
+    "label": "Benin 2-1 Nigeria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125946",
+    "label": "Uganda 1-2 Algeria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125927",
+    "label": "Burkina Faso 2-2 Sierra Leone",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125951",
+    "label": "Ghana 4-3 Central African Republic",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125945",
+    "label": "Guinea 0-1 Mozambique",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125952",
+    "label": "Madagascar 0-0 Mali",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125932",
+    "label": "South Sudan 0-3 Sudan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125938",
+    "label": "Mauritius 2-1 Eswatini",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125943",
+    "label": "Kenya 0-0 Ivory Coast",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125939",
+    "label": "Zambia 0-1 Tanzania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125935",
+    "label": "Lesotho 0-1 Rwanda",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125953",
+    "label": "Chad 0-2 Comoros",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125933",
+    "label": "South Africa 3-1 Zimbabwe",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125936",
+    "label": "Cape Verde Islands 1-0 Libya",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125942",
+    "label": "Gabon 3-2 Gambia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125944",
+    "label": "Seychelles 1-3 Burundi",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125940",
+    "label": "Congo 0-6 Morocco",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125937",
+    "label": "Angola 1-1 Cameroon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125977",
+    "label": "Liberia 0-1 Tunisia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125979",
+    "label": "Central African Republic 1-4 Madagascar",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125965",
+    "label": "Eswatini 0-0 Cameroon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125973",
+    "label": "Mozambique 3-1 Uganda",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125976",
+    "label": "Malawi 0-1 Namibia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125955",
+    "label": "Sierra Leone 3-1 Guinea-Bissau",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125961",
+    "label": "Zimbabwe 2-2 Benin",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125963",
+    "label": "Cape Verde Islands 1-0 Mauritius",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125970",
+    "label": "Gambia 3-3 Kenya",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125969",
+    "label": "Gabon 3-0 Seychelles",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125964",
+    "label": "Libya 1-1 Angola",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125980",
+    "label": "Comoros 0-3 Mali",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323239",
+    "label": "Cyprus 2-0 San Marino",
+    "missingData": [
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323242",
+    "label": "England 2-0 Albania",
+    "missingData": [
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323238",
+    "label": "Poland 1-0 Lithuania",
+    "missingData": [
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323240",
+    "label": "Romania 0-1 Bosnia & Herzegovina",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323241",
+    "label": "Andorra 0-1 Latvia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323237",
+    "label": "Malta 0-1 Finland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125974",
+    "label": "Botswana 1-3 Algeria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125975",
+    "label": "Equatorial Guinea 2-0 Sao Tome and Principe",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125954",
+    "label": "Burkina Faso 4-1 Djibouti",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125957",
+    "label": "Congo DR 1-0 South Sudan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125962",
+    "label": "Rwanda 0-2 Nigeria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125978",
+    "label": "Ghana 5-0 Chad",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125971",
+    "label": "Burundi 0-1 Ivory Coast",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125956",
+    "label": "Ethiopia 0-2 Egypt",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125972",
+    "label": "Guinea 0-0 Somalia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125968",
+    "label": "Niger 1-2 Morocco",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323243",
+    "label": "Liechtenstein 0-3 FYR Macedonia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323245",
+    "label": "Montenegro 3-1 Gibraltar",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323244",
+    "label": "Moldova 0-5 Norway",
+    "missingData": [
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323247",
+    "label": "Wales 3-1 Kazakhstan",
+    "missingData": [
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323248",
+    "label": "Czech Republic 2-1 Faroe Islands",
+    "missingData": [
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323246",
+    "label": "Israel 2-1 Estonia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125958",
+    "label": "Togo 2-2 Mauritania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125959",
+    "label": "Sudan 0-0 Senegal",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125996",
+    "label": "Kenya 1-2 Gabon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125992",
+    "label": "Eswatini 3-3 Mauritius",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323249",
+    "label": "Lithuania 2-2 Finland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323254",
+    "label": "England 3-0 Latvia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323250",
+    "label": "Poland 2-0 Malta",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323253",
+    "label": "Albania 3-0 Andorra",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323251",
+    "label": "Bosnia & Herzegovina 2-1 Cyprus",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323252",
+    "label": "San Marino 1-5 Romania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126002",
+    "label": "Namibia 1-1 Equatorial Guinea",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125981",
+    "label": "Guinea-Bissau 1-2 Burkina Faso",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126004",
+    "label": "Liberia 2-1 Sao Tome and Principe",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125898",
+    "label": "Central African Republic 0-0 Mali",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126005",
+    "label": "Madagascar 0-3 Ghana",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125997",
+    "label": "Ivory Coast 1-0 Gambia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126003",
+    "label": "Tunisia 2-0 Malawi",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125983",
+    "label": "Ethiopia 6-1 Djibouti",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323256",
+    "label": "Moldova 2-3 Estonia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323259",
+    "label": "Gibraltar 0-4 Czech Republic",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323258",
+    "label": "FYR Macedonia 1-1 Wales",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323257",
+    "label": "Liechtenstein 0-2 Kazakhstan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323260",
+    "label": "Montenegro 1-0 Faroe Islands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323255",
+    "label": "Israel 2-4 Norway",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125988",
+    "label": "Nigeria 1-1 Zimbabwe",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125989",
+    "label": "Rwanda 1-1 Lesotho",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125987",
+    "label": "Benin 0-2 South Africa",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125999",
+    "label": "Uganda 1-0 Guinea",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125990",
+    "label": "Angola 1-2 Cape Verde Islands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125982",
+    "label": "Egypt 1-0 Sierra Leone",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125986",
+    "label": "Sudan 1-1 South Sudan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126001",
+    "label": "Botswana 2-0 Somalia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125998",
+    "label": "Burundi 5-0 Seychelles",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125991",
+    "label": "Cameroon 3-1 Libya",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125985",
+    "label": "Senegal 2-0 Togo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125984",
+    "label": "Mauritania 0-2 Congo DR",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126007",
+    "label": "Comoros 1-0 Chad",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126000",
+    "label": "Algeria 5-1 Mozambique",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1125994",
+    "label": "Morocco 2-0 Tanzania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323263",
+    "label": "Wales 3-0 Liechtenstein",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323264",
+    "label": "Czech Republic 2-0 Montenegro",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366273",
+    "label": "Norway 3-0 Italy",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366274",
+    "label": "Gibraltar 0-7 Croatia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323261",
+    "label": "Estonia 1-3 Israel",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323262",
+    "label": "FYR Macedonia 1-1 Belgium",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323265",
+    "label": "Bosnia & Herzegovina 1-0 San Marino",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323267",
+    "label": "Andorra 0-1 England",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323266",
+    "label": "Malta 0-0 Lithuania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323268",
+    "label": "Austria 2-1 Romania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323269",
+    "label": "Albania 0-0 Serbia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366275",
+    "label": "Finland 0-2 Netherlands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323270",
+    "label": "Kazakhstan 0-1 FYR Macedonia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323272",
+    "label": "Belgium 4-3 Wales",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366277",
+    "label": "Croatia 5-1 Czech Republic",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366276",
+    "label": "Italy 2-0 Moldova",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323273",
+    "label": "Faroe Islands 2-1 Gibraltar",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323271",
+    "label": "Estonia 0-1 Norway",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323278",
+    "label": "Serbia 3-0 Andorra",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323275",
+    "label": "Romania 2-0 Cyprus",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323277",
+    "label": "Latvia 1-1 Albania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323274",
+    "label": "Finland 2-1 Poland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323276",
+    "label": "San Marino 0-4 Austria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366278",
+    "label": "Netherlands 8-0 Malta",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126024",
+    "label": "Seychelles 0-4 Gabon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323279",
+    "label": "Kazakhstan 0-1 Wales",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323282",
+    "label": "Lithuania 1-1 Malta",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323280",
+    "label": "Georgia 2-3 Türkiye",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366279",
+    "label": "Slovakia 2-0 Germany",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323281",
+    "label": "Luxembourg 1-3 Northern Ireland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366280",
+    "label": "Bulgaria 0-3 Spain",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323283",
+    "label": "Liechtenstein 0-6 Belgium",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366281",
+    "label": "Netherlands 1-1 Poland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126033",
+    "label": "Chad 1-1 Ghana",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126032",
+    "label": "Madagascar 2-0 Central African Republic",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126030",
+    "label": "Sao Tome and Principe 2-3 Equatorial Guinea",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126018",
+    "label": "Mauritius 0-2 Cape Verde Islands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126008",
+    "label": "Guinea-Bissau 1-1 Sierra Leone",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126017",
+    "label": "Angola 0-1 Libya",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126031",
+    "label": "Tunisia 3-0 Liberia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126034",
+    "label": "Mali 3-0 Comoros",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126019",
+    "label": "Cameroon 3-0 Eswatini",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126028",
+    "label": "Algeria 3-1 Botswana",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323285",
+    "label": "Switzerland 4-0 Kosovo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323287",
+    "label": "Iceland 5-0 Azerbaijan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366282",
+    "label": "Denmark 0-0 Scotland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366284",
+    "label": "Italy 5-0 Estonia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366283",
+    "label": "Ukraine 0-2 France",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323284",
+    "label": "Slovenia 2-2 Sweden",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366285",
+    "label": "Faroe Islands 0-1 Croatia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323289",
+    "label": "Montenegro 0-2 Czech Republic",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323288",
+    "label": "Moldova 0-4 Israel",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323286",
+    "label": "Greece 5-1 Belarus",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126027",
+    "label": "Somalia 0-3 Guinea",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126029",
+    "label": "Namibia 1-2 Malawi",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126012",
+    "label": "South Sudan 1-4 Congo DR",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126023",
+    "label": "Kenya 1-3 Gambia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126014",
+    "label": "Benin 1-0 Zimbabwe",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126020",
+    "label": "Congo 1-1 Tanzania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126015",
+    "label": "Lesotho 0-3 South Africa",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126026",
+    "label": "Uganda 4-0 Mozambique",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126009",
+    "label": "Djibouti 0-6 Burkina Faso",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126013",
+    "label": "Senegal 2-0 Sudan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126022",
+    "label": "Morocco 5-0 Niger",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126010",
+    "label": "Egypt 2-0 Ethiopia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126011",
+    "label": "Mauritania 2-0 Togo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126025",
+    "label": "Ivory Coast 1-0 Burundi",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323290",
+    "label": "Latvia 0-1 Serbia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323291",
+    "label": "England 2-0 Andorra",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366286",
+    "label": "Armenia 0-5 Portugal",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323293",
+    "label": "Austria 1-0 Cyprus",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323292",
+    "label": "Rep. Of Ireland 2-2 Hungary",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323294",
+    "label": "San Marino 0-6 Bosnia & Herzegovina",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126016",
+    "label": "Nigeria 1-0 Rwanda",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323295",
+    "label": "Georgia 3-0 Bulgaria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366287",
+    "label": "Lithuania 2-3 Netherlands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323296",
+    "label": "FYR Macedonia 5-0 Liechtenstein",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323299",
+    "label": "Belgium 6-0 Kazakhstan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323298",
+    "label": "Poland 3-1 Finland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366288",
+    "label": "Germany 3-1 Northern Ireland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366289",
+    "label": "Türkiye 0-6 Spain",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323297",
+    "label": "Luxembourg 0-1 Slovakia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126061",
+    "label": "Central African Republic 0-2 Comoros",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366292",
+    "label": "Croatia 4-0 Montenegro",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323301",
+    "label": "Switzerland 3-0 Slovenia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323304",
+    "label": "Gibraltar 0-1 Faroe Islands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323302",
+    "label": "Belarus 0-2 Scotland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323300",
+    "label": "Kosovo 2-0 Sweden",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366291",
+    "label": "Israel 4-5 Italy",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366290",
+    "label": "Greece 0-3 Denmark",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126047",
+    "label": "Zambia 0-2 Morocco",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126055",
+    "label": "Mozambique 2-0 Botswana",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126056",
+    "label": "Equatorial Guinea 0-1 Tunisia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126060",
+    "label": "Madagascar 3-1 Chad",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126058",
+    "label": "Malawi 2-2 Liberia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126053",
+    "label": "Guinea 0-0 Algeria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126036",
+    "label": "Guinea-Bissau 2-0 Djibouti",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126054",
+    "label": "Uganda 2-0 Somalia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126059",
+    "label": "Ghana 1-0 Mali",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126046",
+    "label": "Libya 2-0 Eswatini",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323306",
+    "label": "Armenia 2-1 Rep. Of Ireland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323305",
+    "label": "Azerbaijan 1-1 Ukraine",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366293",
+    "label": "France 2-1 Iceland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323310",
+    "label": "Serbia 0-5 England",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366294",
+    "label": "Hungary 2-3 Portugal",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323309",
+    "label": "Albania 1-0 Latvia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323303",
+    "label": "Norway 11-1 Moldova",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323308",
+    "label": "Cyprus 2-2 Romania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323307",
+    "label": "Bosnia & Herzegovina 1-2 Austria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126049",
+    "label": "Tanzania 0-1 Niger",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126057",
+    "label": "Namibia 3-0 Sao Tome and Principe",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126037",
+    "label": "Sierra Leone 2-0 Ethiopia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126051",
+    "label": "Kenya 5-0 Seychelles",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126043",
+    "label": "Zimbabwe 0-1 Rwanda",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126035",
+    "label": "Burkina Faso 0-0 Egypt",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126038",
+    "label": "Congo DR 2-3 Senegal",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126041",
+    "label": "South Africa 1-1 Nigeria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126044",
+    "label": "Cape Verde Islands 1-0 Cameroon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126040",
+    "label": "Togo 1-0 Sudan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126039",
+    "label": "Mauritania 0-0 South Sudan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126052",
+    "label": "Gambia 2-0 Burundi",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126050",
+    "label": "Gabon 0-0 Ivory Coast",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126042",
+    "label": "Benin 4-0 Lesotho",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126045",
+    "label": "Angola 3-1 Mauritius",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126071",
+    "label": "Mauritius 0-2 Cameroon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126064",
+    "label": "Ethiopia 1-0 Guinea-Bissau",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126072",
+    "label": "Libya 3-3 Cape Verde Islands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126073",
+    "label": "Eswatini 2-2 Angola",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126063",
+    "label": "Sierra Leone 0-1 Burkina Faso",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126086",
+    "label": "Chad 0-2 Mali",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126088",
+    "label": "Comoros 1-2 Madagascar",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126087",
+    "label": "Central African Republic 0-5 Ghana",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126062",
+    "label": "Djibouti 0-3 Egypt",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126075",
+    "label": "Tanzania 0-1 Zambia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126076",
+    "label": "Niger 3-1 Congo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323312",
+    "label": "Finland 2-1 Lithuania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366297",
+    "label": "Czech Republic 0-0 Croatia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323313",
+    "label": "Austria 10-0 San Marino",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323315",
+    "label": "Faroe Islands 4-0 Montenegro",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366295",
+    "label": "Belarus 0-6 Denmark",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323314",
+    "label": "Cyprus 2-2 Bosnia & Herzegovina",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323311",
+    "label": "Scotland 3-1 Greece",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366296",
+    "label": "Malta 0-4 Netherlands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126079",
+    "label": "Burundi 0-1 Kenya",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126081",
+    "label": "Mozambique 1-2 Guinea",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126082",
+    "label": "Botswana 0-1 Uganda",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126085",
+    "label": "Liberia 3-1 Namibia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126080",
+    "label": "Somalia 0-3 Algeria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323316",
+    "label": "Kazakhstan 4-0 Liechtenstein",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323321",
+    "label": "Belgium 0-0 FYR Macedonia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366299",
+    "label": "France 3-0 Azerbaijan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323319",
+    "label": "Sweden 0-2 Switzerland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323320",
+    "label": "Iceland 3-5 Ukraine",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366298",
+    "label": "Germany 4-0 Luxembourg",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323317",
+    "label": "Northern Ireland 2-0 Slovakia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323318",
+    "label": "Kosovo 0-0 Slovenia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126078",
+    "label": "Gambia 3-4 Gabon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126065",
+    "label": "South Sudan 0-5 Senegal",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126067",
+    "label": "Sudan 0-0 Mauritania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126077",
+    "label": "Seychelles 0-7 Ivory Coast",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126066",
+    "label": "Togo 0-1 Congo DR",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126083",
+    "label": "Sao Tome and Principe 0-6 Tunisia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126070",
+    "label": "Rwanda 0-1 Benin",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126068",
+    "label": "Lesotho 1-2 Nigeria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126069",
+    "label": "Zimbabwe 0-0 South Africa",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323322",
+    "label": "Latvia 2-2 Andorra",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323323",
+    "label": "Hungary 2-0 Armenia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323324",
+    "label": "Norway 5-0 Israel",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366300",
+    "label": "Spain 2-0 Georgia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323326",
+    "label": "Serbia 0-1 Albania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366301",
+    "label": "Portugal 1-0 Rep. Of Ireland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366302",
+    "label": "Estonia 1-3 Italy",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323325",
+    "label": "Bulgaria 1-6 Türkiye",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323327",
+    "label": "San Marino 0-4 Cyprus",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323329",
+    "label": "Faroe Islands 2-1 Czech Republic",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323328",
+    "label": "Scotland 2-1 Belarus",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366303",
+    "label": "Netherlands 4-0 Finland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366305",
+    "label": "Croatia 3-0 Gibraltar",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366304",
+    "label": "Denmark 3-1 Greece",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323331",
+    "label": "Romania 1-0 Austria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323330",
+    "label": "Lithuania 0-2 Poland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126101",
+    "label": "Zambia 0-1 Niger",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126114",
+    "label": "Chad 2-3 Central African Republic",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126091",
+    "label": "Egypt 1-0 Guinea-Bissau",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126115",
+    "label": "Mali 4-1 Madagascar",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126089",
+    "label": "Burkina Faso 3-1 Ethiopia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126113",
+    "label": "Ghana 1-0 Comoros",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126090",
+    "label": "Djibouti 1-2 Sierra Leone",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323334",
+    "label": "Sweden 0-1 Kosovo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366307",
+    "label": "Iceland 2-2 France",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323337",
+    "label": "Wales 2-4 Belgium",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366306",
+    "label": "Northern Ireland 0-1 Germany",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323335",
+    "label": "Ukraine 2-1 Azerbaijan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323332",
+    "label": "Slovakia 2-0 Luxembourg",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323333",
+    "label": "Slovenia 0-0 Switzerland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323336",
+    "label": "FYR Macedonia 1-1 Kazakhstan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126112",
+    "label": "Tunisia 3-0 Namibia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126111",
+    "label": "Sao Tome and Principe 1-0 Malawi",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126093",
+    "label": "South Sudan 0-0 Togo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126110",
+    "label": "Equatorial Guinea 1-1 Liberia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126099",
+    "label": "Mauritius 0-0 Libya",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126096",
+    "label": "Lesotho 1-0 Zimbabwe",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126100",
+    "label": "Cameroon 0-0 Angola",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126098",
+    "label": "Cape Verde Islands 3-0 Eswatini",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323340",
+    "label": "Estonia 1-1 Moldova",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366308",
+    "label": "Spain 4-0 Bulgaria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366309",
+    "label": "Portugal 2-2 Hungary",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366310",
+    "label": "Italy 3-0 Israel",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323339",
+    "label": "Rep. Of Ireland 1-0 Armenia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323338",
+    "label": "Türkiye 4-1 Georgia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323342",
+    "label": "Latvia 0-5 England",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323341",
+    "label": "Andorra 1-3 Serbia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126105",
+    "label": "Seychelles 0-7 Gambia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126097",
+    "label": "Nigeria 4-0 Benin",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126107",
+    "label": "Guinea 2-2 Botswana",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126095",
+    "label": "South Africa 3-0 Rwanda",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126109",
+    "label": "Algeria 2-1 Uganda",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126108",
+    "label": "Somalia 0-1 Mozambique",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126094",
+    "label": "Senegal 4-0 Mauritania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126103",
+    "label": "Morocco 1-0 Congo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126106",
+    "label": "Ivory Coast 3-0 Kenya",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126104",
+    "label": "Gabon 2-0 Burundi",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1126092",
+    "label": "Congo DR 1-0 Sudan",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323345",
+    "label": "Norway 4-1 Estonia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323344",
+    "label": "Armenia 0-1 Hungary",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323343",
+    "label": "Azerbaijan 0-2 Iceland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366311",
+    "label": "France 4-0 Ukraine",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323347",
+    "label": "England 2-0 Serbia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366312",
+    "label": "Rep. Of Ireland 2-0 Portugal",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323346",
+    "label": "Andorra 0-1 Albania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366313",
+    "label": "Moldova 0-2 Italy",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1483273",
+    "label": "Nigeria 4-1 Gabon",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323348",
+    "label": "Finland 0-1 Malta",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366316",
+    "label": "Croatia 3-1 Faroe Islands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366315",
+    "label": "Poland 1-1 Netherlands",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323349",
+    "label": "Slovakia 1-0 Northern Ireland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323350",
+    "label": "Gibraltar 1-2 Montenegro",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366314",
+    "label": "Luxembourg 0-2 Germany",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323351",
+    "label": "Kazakhstan 1-1 Belgium",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323352",
+    "label": "Türkiye 2-0 Bulgaria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366317",
+    "label": "Georgia 0-4 Spain",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323353",
+    "label": "Cyprus 0-2 Austria",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323354",
+    "label": "Liechtenstein 0-1 Wales",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323356",
+    "label": "Switzerland 4-1 Sweden",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366318",
+    "label": "Denmark 2-2 Belarus",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323355",
+    "label": "Slovenia 0-2 Kosovo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323358",
+    "label": "Bosnia & Herzegovina 3-1 Romania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323357",
+    "label": "Greece 3-2 Scotland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366319",
+    "label": "Portugal 9-1 Armenia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323359",
+    "label": "Hungary 2-3 Rep. Of Ireland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323362",
+    "label": "Serbia 2-1 Latvia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323360",
+    "label": "Ukraine 2-0 Iceland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323361",
+    "label": "Albania 0-2 England",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366320",
+    "label": "Azerbaijan 1-3 France",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323363",
+    "label": "Israel 4-1 Moldova",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366322",
+    "label": "Germany 6-0 Slovakia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323366",
+    "label": "Czech Republic 6-0 Gibraltar",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323364",
+    "label": "Northern Ireland 1-0 Luxembourg",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366324",
+    "label": "Montenegro 2-3 Croatia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323365",
+    "label": "Malta 2-3 Poland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366323",
+    "label": "Netherlands 4-0 Lithuania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323373",
+    "label": "Belgium 7-0 Liechtenstein",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323368",
+    "label": "Sweden 1-1 Slovenia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1366326",
+    "label": "Spain 2-2 Türkiye",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323374",
+    "label": "Wales 7-1 FYR Macedonia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323372",
+    "label": "Romania 7-1 San Marino",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323371",
+    "label": "Austria 1-1 Bosnia & Herzegovina",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323369",
+    "label": "Belarus 0-0 Greece",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323370",
+    "label": "Bulgaria 2-1 Georgia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1323367",
+    "label": "Kosovo 1-1 Switzerland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1487922",
+    "label": "Türkiye 1-0 Romania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1487924",
+    "label": "Denmark 4-0 FYR Macedonia",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1487926",
+    "label": "Poland 2-1 Albania",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1487929",
+    "label": "Wales 1-1 Bosnia & Herzegovina",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1487925",
+    "label": "Italy 2-0 Northern Ireland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1487923",
+    "label": "Czech Republic 2-2 Rep. Of Ireland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1487928",
+    "label": "Ukraine 1-3 Sweden",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1487927",
+    "label": "Slovakia 3-4 Kosovo",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1537581",
+    "label": "Sweden 3-2 Poland",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1537579",
+    "label": "Czech Republic 1-1 Denmark",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1537580",
+    "label": "Kosovo 0-1 Türkiye",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  },
+  {
+    "id": "api-football-1537578",
+    "label": "Bosnia & Herzegovina 1-1 Italy",
+    "missingData": [
+      "阵容",
+      "比赛统计",
+      "换人",
+      "红黄牌",
+      "球员赛后评分"
+    ]
+  }
+]

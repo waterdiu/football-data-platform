@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "competition_id": "fifa_world_cup",
+  "season_id": "2026",
+  "version": "v1",
+  "runtime_contract": {
+    "preferred_site_entrypoint": "./site/bundle.json",
+    "preferred_core_entrypoint": "./core/bundle.json",
+    "preferred_site_url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/bundle.json",
+    "preferred_core_url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/bundle.json",
+    "site": {
+      "groups": {
+        "path": "./site/groups.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/groups.json",
+        "count": 12
+      },
+      "group_fixtures": {
+        "path": "./site/group-fixtures.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/group-fixtures.json",
+        "count": 24
+      },
+      "group_stage_matches": {
+        "path": "./site/group-stage-matches.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/group-stage-matches.json",
+        "count": 72
+      },
+      "bracket": {
+        "path": "./site/bracket.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/bracket.json",
+        "count": 5
+      },
+      "full_schedule": {
+        "path": "./site/full-schedule.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/full-schedule.json",
+        "count": 104
+      },
+      "finals_results": {
+        "path": "./site/finals-results.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/finals-results.json",
+        "count": 104
+      },
+      "finals_coverage": {
+        "path": "./site/finals-coverage.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/finals-coverage.json",
+        "count": null
+      },
+      "qualifier_matches": {
+        "path": "./site/qualifier-matches.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/qualifier-matches.json",
+        "count": 467
+      },
+      "qualifier_missing_data": {
+        "path": "./site/qualifier-missing-data.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/qualifier-missing-data.json",
+        "count": 467
+      },
+      "qualifier_source_reports": {
+        "path": "./site/qualifier-source-reports.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/qualifier-source-reports.json",
+        "count": 1
+      }
+    },
+    "core": {
+      "canonical_teams": {
+        "path": "./core/canonical_teams.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/canonical_teams.json",
+        "count": 112
+      },
+      "teams": {
+        "path": "./core/teams.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/teams.json",
+        "count": 112
+      },
+      "fixtures": {
+        "path": "./core/fixtures.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/fixtures.json",
+        "count": 104
+      },
+      "results": {
+        "path": "./core/results.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/results.json",
+        "count": 104
+      },
+      "standings": {
+        "path": "./core/standings.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/standings.json",
+        "count": 48
+      },
+      "predictions": {
+        "path": "./core/predictions.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/predictions.json",
+        "count": 104
+      },
+      "data_coverage": {
+        "path": "./core/data-coverage.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/data-coverage.json",
+        "count": 104
+      },
+      "qualifier_events": {
+        "path": "./core/qualifier-events.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/qualifier-events.json",
+        "count": 124
+      },
+      "qualifier_lineups": {
+        "path": "./core/qualifier-lineups.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/qualifier-lineups.json",
+        "count": 14
+      },
+      "qualifier_match_stats": {
+        "path": "./core/qualifier-match-stats.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/qualifier-match-stats.json",
+        "count": 77
+      }
+    }
+  },
+  "integration_notes": [
+    "worldcup/2026 should fetch this static JSON API at runtime instead of syncing TS files for freshness-sensitive pages.",
+    "site endpoints preserve the shape of migrated worldcup/2026 datasets for low-risk adoption.",
+    "core endpoints expose normalized platform datasets for longer-term page and model convergence."
+  ],
+  "counts": {
+    "core": {
+      "canonical_teams": 112,
+      "teams": 112,
+      "fixtures": 104,
+      "results": 104,
+      "standings": 48,
+      "predictions": 104,
+      "data_coverage": 104,
+      "qualifier_events": 124,
+      "qualifier_lineups": 14,
+      "qualifier_match_stats": 77
+    },
+    "site": {
+      "groups": 12,
+      "group_fixtures": 24,
+      "group_stage_matches": 72,
+      "bracket": 5,
+      "full_schedule": 104,
+      "finals_results": 104,
+      "finals_coverage": null,
+      "qualifier_matches": 467,
+      "qualifier_missing_data": 467,
+      "qualifier_source_reports": 1
+    }
+  }
+}

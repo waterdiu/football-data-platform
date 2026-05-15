@@ -23,22 +23,10 @@ def write_json(path: Path, payload: object) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Extract qualifier events, lineups, and match stats from qualifier-matches.json")
-    parser.add_argument("--input", default=str(QUALIFIER_MATCHES_PATH), help="qualifier matches input path")
-    parser.add_argument("--events-output", default=str(QUALIFIER_EVENTS_PATH), help="qualifier events output path")
-    parser.add_argument("--lineups-output", default=str(QUALIFIER_LINEUPS_PATH), help="qualifier lineups output path")
-    parser.add_argument("--stats-output", default=str(QUALIFIER_STATS_PATH), help="qualifier match stats output path")
-    parser.add_argument("--report-output", default=str(REPORT_PATH), help="detail extraction report path")
-    args = parser.parse_args()
-
-    matches = load_json(Path(args.input))
-    if not isinstance(matches, list):
-        raise TypeError("qualifier-matches.json must contain a list")
-
-    events = []
-    lineups = []
-    stats = []
+def extract_details(matches: list[object]) -> tuple[list[dict[str, object]], list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
+    events: list[dict[str, object]] = []
+    lineups: list[dict[str, object]] = []
+    stats: list[dict[str, object]] = []
 
     for match in matches:
         if not isinstance(match, dict):
@@ -90,7 +78,6 @@ def main() -> None:
 
     report = {
         "generated_at": "2026-05-15T00:00:00Z",
-        "source": str(Path(args.input)),
         "match_count": len(matches),
         "events_count": len(events),
         "lineups_count": len(lineups),
@@ -99,6 +86,24 @@ def main() -> None:
         "matches_with_lineups": len({item["match_id"] for item in lineups}),
         "matches_with_stats": len({item["match_id"] for item in stats}),
     }
+    return events, lineups, stats, report
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Extract qualifier events, lineups, and match stats from qualifier-matches.json")
+    parser.add_argument("--input", default=str(QUALIFIER_MATCHES_PATH), help="qualifier matches input path")
+    parser.add_argument("--events-output", default=str(QUALIFIER_EVENTS_PATH), help="qualifier events output path")
+    parser.add_argument("--lineups-output", default=str(QUALIFIER_LINEUPS_PATH), help="qualifier lineups output path")
+    parser.add_argument("--stats-output", default=str(QUALIFIER_STATS_PATH), help="qualifier match stats output path")
+    parser.add_argument("--report-output", default=str(REPORT_PATH), help="detail extraction report path")
+    args = parser.parse_args()
+
+    matches = load_json(Path(args.input))
+    if not isinstance(matches, list):
+        raise TypeError("qualifier-matches.json must contain a list")
+
+    events, lineups, stats, report = extract_details(matches)
+    report["source"] = str(Path(args.input))
 
     write_json(Path(args.events_output), events)
     write_json(Path(args.lineups_output), lineups)

@@ -21,6 +21,11 @@
 - `bootstrap_world_cup_2026.py`
   - 输入：世界杯站的 `104 场 CSV` 与预测项目的球队翻译表
   - 输出：`data/public/teams.json` 和 `data/public/fixtures.json`
+- `build_world_cup_fixtures.py`
+  - 输入：`worldcup-site-full-schedule.json`、`teams.json`、现有 `fixtures.json`
+  - 输出：`data/normalized/world_cup_2026_authoritative_fixtures.json`
+  - 同时发布：`data/public/fixtures.json`
+  - 保留现有 `match_id` 与 `source_refs.football_data_org`，但改为以本地赛程镜像为主重建字段
 - `fetch_football_data_world_cup_matches.py`
   - 输入：本地可用的 `FOOTBALL_DATA_API_KEY`
   - 输出：`data/raw/football-data-org/world_cup_2026_matches.json`
@@ -32,7 +37,7 @@
   - 输入：标准化后的 authoritative fixtures
   - 输出：更新 `data/public/fixtures.json`
 - `build_world_cup_results.py`
-  - 输入：`football-data.org` raw matches + authoritative fixtures
+  - 输入：`worldcup-site-finals-results.json` + authoritative fixtures
   - 输出：`data/normalized/world_cup_2026_results.json`
   - 同时发布：`data/public/results.json`
 - `build_world_cup_standings.py`
@@ -53,8 +58,27 @@
   - 输出：预测项目 `backend/data/raw/world_cup_2026_shared_fixtures.json`
 - `import_qualifier_matches.mjs`
   - 输入：展示站现有 `apiFootballQualifierMatches.ts` 和 `qualifierMatches.ts`
-  - 输出：`data/public/qualifier-matches.json`
+  - 输出：`data/normalized/world_cup_2026_qualifier_matches_master.json`
   - 并生成：`reports/qualifier_matches_import_report.json`
+- `publish_qualifier_data.py`
+  - 输入：`data/normalized/world_cup_2026_qualifier_matches_master.json`
+  - 输出：
+    - `data/public/qualifier-matches.json`
+    - `data/public/qualifier-events.json`
+    - `data/public/qualifier-lineups.json`
+    - `data/public/qualifier-match-stats.json`
+  - 并生成：
+    - `reports/qualifier_publish_report.json`
+    - `reports/qualifier_detail_extract_report.json`
+- `publish_worldcup_2026_api.py`
+  - 输入：`data/public/*.json` 与 `worldcup-site-*.json`
+  - 输出：`data/public/api/worldcup/2026/**`
+  - 同时生成：
+    - `manifest.json`
+    - `site/bundle.json`
+    - `core/bundle.json`
+  - 用于让 `worldcup/2026` 运行时直接读取静态 JSON API
+  - `manifest.json` 会同时写入相对路径和 GitHub Pages 绝对 URL
 - `extract_qualifier_detail_datasets.py`
   - 输入：`data/public/qualifier-matches.json`
   - 输出：
@@ -62,8 +86,9 @@
     - `data/public/qualifier-lineups.json`
     - `data/public/qualifier-match-stats.json`
   - 并生成：`reports/qualifier_detail_extract_report.json`
+  - 该脚本现在也作为 `publish_qualifier_data.py` 的内部提取逻辑来源
 - `build_world_cup_detail_datasets.py`
-  - 输入：世界杯 `football-data.org` raw payload + `fixtures.json`
+  - 输入：`worldcup-site-finals-results.json` + `fixtures.json`
   - 输出：
     - `data/public/finals-events.json`
     - `data/public/finals-lineups.json`
@@ -81,7 +106,7 @@
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
   - 先导入 `worldcup/2026` 已有本地数据镜像
-  - 默认会重建：`results`、`standings`、`finals detail datasets`、`model datasets`、`coverage`
+  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`model datasets`、`coverage`
   - 可选 `--capture-context`，先触发预测项目的世界杯 context capture，再继续发布
 - `build_source_health_report.py`
   - 聚合 `public/*`、`model/*` 和各类 report，输出统一的 `reports/source-health.json`

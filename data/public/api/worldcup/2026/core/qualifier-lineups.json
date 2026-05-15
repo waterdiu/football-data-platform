@@ -1,0 +1,1622 @@
+[
+  {
+    "match_id": "afc-uae-iraq-2025-11-13",
+    "confederation_id": "afc",
+    "stage": "亚洲区第五阶段首回合",
+    "date_label": "2025-11-13",
+    "home_team": "United Arab Emirates",
+    "away_team": "Iraq",
+    "source_label": "FIFA match centre / public result feeds",
+    "team": "United Arab Emirates",
+    "formation": "4-2-3-1",
+    "starters": [
+      {
+        "number": 17,
+        "name": "Khalid Eisa",
+        "position": "GK"
+      },
+      {
+        "number": 11,
+        "name": "Caio Canedo",
+        "position": "FW"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 7,
+        "name": "Ali Mabkhout",
+        "position": "FW"
+      }
+    ]
+  },
+  {
+    "match_id": "afc-uae-iraq-2025-11-13",
+    "confederation_id": "afc",
+    "stage": "亚洲区第五阶段首回合",
+    "date_label": "2025-11-13",
+    "home_team": "United Arab Emirates",
+    "away_team": "Iraq",
+    "source_label": "FIFA match centre / public result feeds",
+    "team": "Iraq",
+    "formation": "4-3-3",
+    "starters": [
+      {
+        "number": 12,
+        "name": "Jalal Hassan",
+        "position": "GK"
+      },
+      {
+        "number": 18,
+        "name": "Ali Al-Hamadi",
+        "position": "FW"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 10,
+        "name": "Mohannad Ali",
+        "position": "FW"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323239",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-21",
+    "home_team": "Cyprus",
+    "away_team": "San Marino",
+    "source_label": "API-Football league 32, season 2024, fixture 1323239",
+    "team": "Cyprus",
+    "formation": "4-2-3-1",
+    "starters": [
+      {
+        "number": 1,
+        "name": "J. Mall",
+        "position": "G"
+      },
+      {
+        "number": 6,
+        "name": "G. Satsias",
+        "position": "D"
+      },
+      {
+        "number": 15,
+        "name": "C. Sielis",
+        "position": "D"
+      },
+      {
+        "number": 3,
+        "name": "N. Panagiotou",
+        "position": "D"
+      },
+      {
+        "number": 7,
+        "name": "Anderson Correia",
+        "position": "D"
+      },
+      {
+        "number": 8,
+        "name": "I. Kousoulos",
+        "position": "M"
+      },
+      {
+        "number": 20,
+        "name": "G. Kastanos",
+        "position": "M"
+      },
+      {
+        "number": 17,
+        "name": "L. Loizou",
+        "position": "M"
+      },
+      {
+        "number": 10,
+        "name": "P. Sotiriou",
+        "position": "M"
+      },
+      {
+        "number": 21,
+        "name": "M. Tzionis",
+        "position": "M"
+      },
+      {
+        "number": 9,
+        "name": "I. Pittas",
+        "position": "F"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 13,
+        "name": "D. Demetriou",
+        "position": "G"
+      },
+      {
+        "number": 22,
+        "name": "N. Michail",
+        "position": "G"
+      },
+      {
+        "number": 2,
+        "name": "C. Kyriakou",
+        "position": "M"
+      },
+      {
+        "number": 4,
+        "name": "H. Kyprianou",
+        "position": "M"
+      },
+      {
+        "number": 5,
+        "name": "C. Charalampous",
+        "position": "M"
+      },
+      {
+        "number": 11,
+        "name": "A. Kakoullis",
+        "position": "F"
+      },
+      {
+        "number": 12,
+        "name": "S. Gavriel",
+        "position": "D"
+      },
+      {
+        "number": 14,
+        "name": "G. Malekkidis",
+        "position": "D"
+      },
+      {
+        "number": 16,
+        "name": "E. Antoniou",
+        "position": "D"
+      },
+      {
+        "number": 18,
+        "name": "K. Artymatas",
+        "position": "M"
+      },
+      {
+        "number": 19,
+        "name": "A. Shikkis",
+        "position": "D"
+      },
+      {
+        "number": 23,
+        "name": "I. Kosti",
+        "position": "M"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323239",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-21",
+    "home_team": "Cyprus",
+    "away_team": "San Marino",
+    "source_label": "API-Football league 32, season 2024, fixture 1323239",
+    "team": "San Marino",
+    "formation": "4-3-3",
+    "starters": [
+      {
+        "number": 1,
+        "name": "E. Colombo",
+        "position": "G"
+      },
+      {
+        "number": 4,
+        "name": "F. Fabbri",
+        "position": "D"
+      },
+      {
+        "number": 5,
+        "name": "M. Cevoli",
+        "position": ""
+      },
+      {
+        "number": 3,
+        "name": "T. Benvenuti",
+        "position": "D"
+      },
+      {
+        "number": 12,
+        "name": "A. Tosi",
+        "position": "D"
+      },
+      {
+        "number": 17,
+        "name": "A. Golinucci",
+        "position": ""
+      },
+      {
+        "number": 8,
+        "name": "L. Capicchioni",
+        "position": "M"
+      },
+      {
+        "number": 18,
+        "name": "S. Zannoni",
+        "position": "M"
+      },
+      {
+        "number": 11,
+        "name": "A. Contadini",
+        "position": "F"
+      },
+      {
+        "number": 9,
+        "name": "N. Nanni",
+        "position": "F"
+      },
+      {
+        "number": 10,
+        "name": "F. Berardi",
+        "position": ""
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 13,
+        "name": "M. Zavoli",
+        "position": ""
+      },
+      {
+        "number": 16,
+        "name": "P. Amici",
+        "position": "G"
+      },
+      {
+        "number": 2,
+        "name": "G. Benvenuti",
+        "position": "D"
+      },
+      {
+        "number": 6,
+        "name": "D. Rossi",
+        "position": ""
+      },
+      {
+        "number": 7,
+        "name": "M. Vitaioli",
+        "position": ""
+      },
+      {
+        "number": 14,
+        "name": "G. Valentini",
+        "position": "M"
+      },
+      {
+        "number": 15,
+        "name": "M. Pasolini",
+        "position": "D"
+      },
+      {
+        "number": 19,
+        "name": "N. Giacopetti",
+        "position": "F"
+      },
+      {
+        "number": 20,
+        "name": "N. Sensoli",
+        "position": "F"
+      },
+      {
+        "number": 21,
+        "name": "A. Riccardi",
+        "position": ""
+      },
+      {
+        "number": 22,
+        "name": "M. Mularoni",
+        "position": ""
+      },
+      {
+        "number": 23,
+        "name": "M. Valli Casadei",
+        "position": "M"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323242",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-21",
+    "home_team": "England",
+    "away_team": "Albania",
+    "source_label": "API-Football league 32, season 2024, fixture 1323242",
+    "team": "England",
+    "formation": "4-2-3-1",
+    "starters": [
+      {
+        "number": 1,
+        "name": "J. Pickford",
+        "position": "G"
+      },
+      {
+        "number": 2,
+        "name": "K. Walker",
+        "position": "D"
+      },
+      {
+        "number": 5,
+        "name": "E. Konsa",
+        "position": "D"
+      },
+      {
+        "number": 12,
+        "name": "D. Burn",
+        "position": "D"
+      },
+      {
+        "number": 23,
+        "name": "M. Lewis-Skelly",
+        "position": "D"
+      },
+      {
+        "number": 17,
+        "name": "C. Jones",
+        "position": "M"
+      },
+      {
+        "number": 4,
+        "name": "D. Rice",
+        "position": "M"
+      },
+      {
+        "number": 7,
+        "name": "P. Foden",
+        "position": "M"
+      },
+      {
+        "number": 10,
+        "name": "J. Bellingham",
+        "position": "M"
+      },
+      {
+        "number": 11,
+        "name": "M. Rashford",
+        "position": "M"
+      },
+      {
+        "number": 9,
+        "name": "H. Kane",
+        "position": "F"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 13,
+        "name": "D. Henderson",
+        "position": "G"
+      },
+      {
+        "number": 22,
+        "name": "J. Trafford",
+        "position": "G"
+      },
+      {
+        "number": 3,
+        "name": "R. James",
+        "position": "D"
+      },
+      {
+        "number": 6,
+        "name": "M. Guehi",
+        "position": "D"
+      },
+      {
+        "number": 8,
+        "name": "J. Henderson",
+        "position": "M"
+      },
+      {
+        "number": 14,
+        "name": "L. Colwill",
+        "position": "D"
+      },
+      {
+        "number": 15,
+        "name": "E. Eze",
+        "position": "M"
+      },
+      {
+        "number": 16,
+        "name": "M. Rogers",
+        "position": "F"
+      },
+      {
+        "number": 18,
+        "name": "A. Gordon",
+        "position": "F"
+      },
+      {
+        "number": 19,
+        "name": "D. Solanke",
+        "position": "F"
+      },
+      {
+        "number": 20,
+        "name": "J. Bowen",
+        "position": "F"
+      },
+      {
+        "number": 21,
+        "name": "V. Livramento",
+        "position": "D"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323242",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-21",
+    "home_team": "England",
+    "away_team": "Albania",
+    "source_label": "API-Football league 32, season 2024, fixture 1323242",
+    "team": "Albania",
+    "formation": "4-1-4-1",
+    "starters": [
+      {
+        "number": 1,
+        "name": "T. Strakosha",
+        "position": "G"
+      },
+      {
+        "number": 2,
+        "name": "I. Balliu",
+        "position": "D"
+      },
+      {
+        "number": 5,
+        "name": "A. Ajeti",
+        "position": "D"
+      },
+      {
+        "number": 6,
+        "name": "B. Djimsiti",
+        "position": "D"
+      },
+      {
+        "number": 3,
+        "name": "N. Aliji",
+        "position": "D"
+      },
+      {
+        "number": 20,
+        "name": "Y. Ramadani",
+        "position": "M"
+      },
+      {
+        "number": 9,
+        "name": "J. Asani",
+        "position": "M"
+      },
+      {
+        "number": 8,
+        "name": "K. Asllani",
+        "position": "M"
+      },
+      {
+        "number": 14,
+        "name": "Q. Laci",
+        "position": "M"
+      },
+      {
+        "number": 10,
+        "name": "N. Bajrami",
+        "position": "M"
+      },
+      {
+        "number": 11,
+        "name": "M. Uzuni",
+        "position": "F"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 12,
+        "name": "E. Kastrati",
+        "position": "G"
+      },
+      {
+        "number": 23,
+        "name": "A. Sherri",
+        "position": "G"
+      },
+      {
+        "number": 4,
+        "name": "J. Shehu",
+        "position": "M"
+      },
+      {
+        "number": 7,
+        "name": "R. Manaj",
+        "position": "F"
+      },
+      {
+        "number": 13,
+        "name": "E. Mihaj",
+        "position": "D"
+      },
+      {
+        "number": 15,
+        "name": "M. Kumbulla",
+        "position": "D"
+      },
+      {
+        "number": 16,
+        "name": "M. Berisha",
+        "position": "M"
+      },
+      {
+        "number": 17,
+        "name": "E. Muci",
+        "position": "M"
+      },
+      {
+        "number": 18,
+        "name": "A. Ismajli",
+        "position": "D"
+      },
+      {
+        "number": 19,
+        "name": "A. Pajaziti",
+        "position": "M"
+      },
+      {
+        "number": 21,
+        "name": "A. Hoxha",
+        "position": "F"
+      },
+      {
+        "number": 22,
+        "name": "A. Broja",
+        "position": "F"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323238",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-21",
+    "home_team": "Poland",
+    "away_team": "Lithuania",
+    "source_label": "API-Football league 32, season 2024, fixture 1323238",
+    "team": "Poland",
+    "formation": "3-5-2",
+    "starters": [
+      {
+        "number": 1,
+        "name": "L. Skorupski",
+        "position": "G"
+      },
+      {
+        "number": 15,
+        "name": "K. Piatkowski",
+        "position": "D"
+      },
+      {
+        "number": 5,
+        "name": "J. Bednarek",
+        "position": "D"
+      },
+      {
+        "number": 14,
+        "name": "J. Kiwior",
+        "position": "D"
+      },
+      {
+        "number": 2,
+        "name": "M. Cash",
+        "position": "M"
+      },
+      {
+        "number": 10,
+        "name": "S. Szymanski",
+        "position": "M"
+      },
+      {
+        "number": 8,
+        "name": "J. Moder",
+        "position": "M"
+      },
+      {
+        "number": 6,
+        "name": "J. Piotrowski",
+        "position": "M"
+      },
+      {
+        "number": 19,
+        "name": "P. Frankowski",
+        "position": "M"
+      },
+      {
+        "number": 11,
+        "name": "K. Swiderski",
+        "position": "F"
+      },
+      {
+        "number": 9,
+        "name": "R. Lewandowski",
+        "position": "F"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 12,
+        "name": "M. Bulka",
+        "position": "G"
+      },
+      {
+        "number": 22,
+        "name": "B. Dragowski",
+        "position": "G"
+      },
+      {
+        "number": 3,
+        "name": "M. Skrzypczak",
+        "position": "D"
+      },
+      {
+        "number": 4,
+        "name": "M. Wieteska",
+        "position": "D"
+      },
+      {
+        "number": 7,
+        "name": "K. Urbanski",
+        "position": "M"
+      },
+      {
+        "number": 13,
+        "name": "J. Kaminski",
+        "position": "M"
+      },
+      {
+        "number": 16,
+        "name": "A. Buksa",
+        "position": "F"
+      },
+      {
+        "number": 17,
+        "name": "B. Slisz",
+        "position": "M"
+      },
+      {
+        "number": 18,
+        "name": "B. Bereszynski",
+        "position": "D"
+      },
+      {
+        "number": 20,
+        "name": "D. Marczuk",
+        "position": "F"
+      },
+      {
+        "number": 21,
+        "name": "M. Bogusz",
+        "position": "M"
+      },
+      {
+        "number": 23,
+        "name": "K. Piatek",
+        "position": "F"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323238",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-21",
+    "home_team": "Poland",
+    "away_team": "Lithuania",
+    "source_label": "API-Football league 32, season 2024, fixture 1323238",
+    "team": "Lithuania",
+    "formation": "3-4-2-1",
+    "starters": [
+      {
+        "number": 1,
+        "name": "E. Gertmonas",
+        "position": "G"
+      },
+      {
+        "number": 5,
+        "name": "K. Kazukolovas",
+        "position": "D"
+      },
+      {
+        "number": 3,
+        "name": "E. Utkus",
+        "position": "D"
+      },
+      {
+        "number": 2,
+        "name": "A. Tutyskinas",
+        "position": "D"
+      },
+      {
+        "number": 17,
+        "name": "P. Sirvys",
+        "position": "M"
+      },
+      {
+        "number": 6,
+        "name": "D. Antanavicius",
+        "position": "M"
+      },
+      {
+        "number": 15,
+        "name": "G. Gineitis",
+        "position": "M"
+      },
+      {
+        "number": 13,
+        "name": "J. Lasickas",
+        "position": "M"
+      },
+      {
+        "number": 22,
+        "name": "P. Golubickas",
+        "position": "F"
+      },
+      {
+        "number": 7,
+        "name": "A. Dolznikov",
+        "position": "F"
+      },
+      {
+        "number": 11,
+        "name": "A. Kucys",
+        "position": ""
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 12,
+        "name": "M. Adamonis",
+        "position": "G"
+      },
+      {
+        "number": 23,
+        "name": "M. Bertasius",
+        "position": "G"
+      },
+      {
+        "number": 4,
+        "name": "E. Girdvainis",
+        "position": "D"
+      },
+      {
+        "number": 8,
+        "name": "G. Matulevicius",
+        "position": "M"
+      },
+      {
+        "number": 9,
+        "name": "G. Paulauskas",
+        "position": "F"
+      },
+      {
+        "number": 10,
+        "name": "F. Cernych",
+        "position": "M"
+      },
+      {
+        "number": 14,
+        "name": "M. Ruzgis",
+        "position": "F"
+      },
+      {
+        "number": 16,
+        "name": "M. Remeikis",
+        "position": "M"
+      },
+      {
+        "number": 18,
+        "name": "M. Vareika",
+        "position": "M"
+      },
+      {
+        "number": 19,
+        "name": "K. Upstas",
+        "position": "D"
+      },
+      {
+        "number": 20,
+        "name": "T. Milasius",
+        "position": "M"
+      },
+      {
+        "number": 21,
+        "name": "D. Barauskas",
+        "position": "D"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323244",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-22",
+    "home_team": "Moldova",
+    "away_team": "Norway",
+    "source_label": "API-Football league 32, season 2024, fixture 1323244",
+    "team": "Moldova",
+    "formation": "5-4-1",
+    "starters": [
+      {
+        "number": 1,
+        "name": "D. Celeadnic",
+        "position": "G"
+      },
+      {
+        "number": 21,
+        "name": "I. Revenco",
+        "position": "D"
+      },
+      {
+        "number": 14,
+        "name": "A. Craciun",
+        "position": "D"
+      },
+      {
+        "number": 4,
+        "name": "V. Baboglo",
+        "position": "D"
+      },
+      {
+        "number": 15,
+        "name": "V. Mudrac",
+        "position": "D"
+      },
+      {
+        "number": 2,
+        "name": "O. Reabciuk",
+        "position": "D"
+      },
+      {
+        "number": 11,
+        "name": "M. Caimacov",
+        "position": "M"
+      },
+      {
+        "number": 8,
+        "name": "N. Motpan",
+        "position": "M"
+      },
+      {
+        "number": 22,
+        "name": "V. Rata",
+        "position": "M"
+      },
+      {
+        "number": 17,
+        "name": "V. Postolachi",
+        "position": "M"
+      },
+      {
+        "number": 9,
+        "name": "I. Nicolaescu",
+        "position": "F"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 12,
+        "name": "C. Avram",
+        "position": "G"
+      },
+      {
+        "number": 23,
+        "name": "A. Kozhukhar",
+        "position": ""
+      },
+      {
+        "number": 3,
+        "name": "D. Puscas",
+        "position": "M"
+      },
+      {
+        "number": 5,
+        "name": "V. Posmac",
+        "position": "D"
+      },
+      {
+        "number": 6,
+        "name": "A. Motoc",
+        "position": "D"
+      },
+      {
+        "number": 7,
+        "name": "S. Bodisteanu",
+        "position": "M"
+      },
+      {
+        "number": 10,
+        "name": "A. Boiciuc",
+        "position": "F"
+      },
+      {
+        "number": 13,
+        "name": "M. Cojocaru",
+        "position": "F"
+      },
+      {
+        "number": 16,
+        "name": "V. Stina",
+        "position": "M"
+      },
+      {
+        "number": 18,
+        "name": "T. Lungu",
+        "position": "M"
+      },
+      {
+        "number": 19,
+        "name": "D. Dumbravanu",
+        "position": "D"
+      },
+      {
+        "number": 20,
+        "name": "S. Platica",
+        "position": "M"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323244",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-22",
+    "home_team": "Moldova",
+    "away_team": "Norway",
+    "source_label": "API-Football league 32, season 2024, fixture 1323244",
+    "team": "Norway",
+    "formation": "4-1-3-2",
+    "starters": [
+      {
+        "number": 1,
+        "name": "O. Nyland",
+        "position": "G"
+      },
+      {
+        "number": 14,
+        "name": "J. Ryerson",
+        "position": "D"
+      },
+      {
+        "number": 3,
+        "name": "K. Ajer",
+        "position": "D"
+      },
+      {
+        "number": 4,
+        "name": "L. Ostigard",
+        "position": "D"
+      },
+      {
+        "number": 5,
+        "name": "D. M. Wolfe",
+        "position": "D"
+      },
+      {
+        "number": 8,
+        "name": "S. Berge",
+        "position": "M"
+      },
+      {
+        "number": 10,
+        "name": "M. Odegaard",
+        "position": "M"
+      },
+      {
+        "number": 18,
+        "name": "T. Aasgaard",
+        "position": "M"
+      },
+      {
+        "number": 20,
+        "name": "A. Schjelderup",
+        "position": "M"
+      },
+      {
+        "number": 7,
+        "name": "A. Sorloth",
+        "position": "F"
+      },
+      {
+        "number": 9,
+        "name": "E. Haaland",
+        "position": "F"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 12,
+        "name": "M. Dyngeland",
+        "position": "G"
+      },
+      {
+        "number": 13,
+        "name": "E. Selvik",
+        "position": "G"
+      },
+      {
+        "number": 2,
+        "name": "S. Gregersen",
+        "position": "D"
+      },
+      {
+        "number": 6,
+        "name": "P. Berg",
+        "position": "M"
+      },
+      {
+        "number": 11,
+        "name": "E. Botheim",
+        "position": "F"
+      },
+      {
+        "number": 15,
+        "name": "J. Hauge",
+        "position": "M"
+      },
+      {
+        "number": 16,
+        "name": "M. Pedersen",
+        "position": "D"
+      },
+      {
+        "number": 17,
+        "name": "T. Heggem",
+        "position": "D"
+      },
+      {
+        "number": 19,
+        "name": "A. Donnum",
+        "position": "M"
+      },
+      {
+        "number": 21,
+        "name": "A. Hanche-Olsen",
+        "position": "D"
+      },
+      {
+        "number": 22,
+        "name": "F. Myhre",
+        "position": "M"
+      },
+      {
+        "number": 23,
+        "name": "L. Johnsen",
+        "position": "M"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323247",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-22",
+    "home_team": "Wales",
+    "away_team": "Kazakhstan",
+    "source_label": "API-Football league 32, season 2024, fixture 1323247",
+    "team": "Wales",
+    "formation": "4-2-3-1",
+    "starters": [
+      {
+        "number": 1,
+        "name": "K. Darlow",
+        "position": "G"
+      },
+      {
+        "number": 14,
+        "name": "C. Roberts",
+        "position": "D"
+      },
+      {
+        "number": 6,
+        "name": "J. Rodon",
+        "position": "D"
+      },
+      {
+        "number": 4,
+        "name": "B. Davies",
+        "position": "D"
+      },
+      {
+        "number": 3,
+        "name": "N. Williams",
+        "position": "D"
+      },
+      {
+        "number": 22,
+        "name": "J. Sheehan",
+        "position": "M"
+      },
+      {
+        "number": 15,
+        "name": "L. Cullen",
+        "position": "M"
+      },
+      {
+        "number": 20,
+        "name": "D. James",
+        "position": "M"
+      },
+      {
+        "number": 10,
+        "name": "D. Brooks",
+        "position": "M"
+      },
+      {
+        "number": 19,
+        "name": "S. Thomas",
+        "position": "M"
+      },
+      {
+        "number": 11,
+        "name": "B. Johnson",
+        "position": "F"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 12,
+        "name": "D. Ward",
+        "position": "G"
+      },
+      {
+        "number": 21,
+        "name": "A. Davies",
+        "position": "G"
+      },
+      {
+        "number": 2,
+        "name": "C. Mepham",
+        "position": "D"
+      },
+      {
+        "number": 5,
+        "name": "B. Cabango",
+        "position": "D"
+      },
+      {
+        "number": 7,
+        "name": "J. Allen",
+        "position": "M"
+      },
+      {
+        "number": 8,
+        "name": "T. Lawrence",
+        "position": "F"
+      },
+      {
+        "number": 9,
+        "name": "R. Matondo",
+        "position": "F"
+      },
+      {
+        "number": 13,
+        "name": "K. Moore",
+        "position": "F"
+      },
+      {
+        "number": 16,
+        "name": "J. Dasilva",
+        "position": "D"
+      },
+      {
+        "number": 17,
+        "name": "J. James",
+        "position": "M"
+      },
+      {
+        "number": 18,
+        "name": "M. Harris",
+        "position": "F"
+      },
+      {
+        "number": 23,
+        "name": "N. Broadhead",
+        "position": "F"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323247",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-22",
+    "home_team": "Wales",
+    "away_team": "Kazakhstan",
+    "source_label": "API-Football league 32, season 2024, fixture 1323247",
+    "team": "Kazakhstan",
+    "formation": "5-4-1",
+    "starters": [
+      {
+        "number": 15,
+        "name": "A. Zarutskiy",
+        "position": "G"
+      },
+      {
+        "number": 16,
+        "name": "E. Tapalov",
+        "position": "D"
+      },
+      {
+        "number": 4,
+        "name": "M. Bystrov",
+        "position": "D"
+      },
+      {
+        "number": 22,
+        "name": "A. Marochkin",
+        "position": "D"
+      },
+      {
+        "number": 3,
+        "name": "N. Alip",
+        "position": "D"
+      },
+      {
+        "number": 11,
+        "name": "Y. Vorogovskiy",
+        "position": "D"
+      },
+      {
+        "number": 23,
+        "name": "I. Chesnokov",
+        "position": "M"
+      },
+      {
+        "number": 8,
+        "name": "A. Tagybergen",
+        "position": "M"
+      },
+      {
+        "number": 7,
+        "name": "S. Muzhikov",
+        "position": "M"
+      },
+      {
+        "number": 10,
+        "name": "M. Samorodov",
+        "position": "M"
+      },
+      {
+        "number": 19,
+        "name": "A. Zhaksylykov",
+        "position": ""
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 1,
+        "name": "S. Pokatilov",
+        "position": "G"
+      },
+      {
+        "number": 12,
+        "name": "M. Seysen",
+        "position": "G"
+      },
+      {
+        "number": 2,
+        "name": "S. Astanov",
+        "position": "D"
+      },
+      {
+        "number": 5,
+        "name": "A. Zhumakhanov",
+        "position": "D"
+      },
+      {
+        "number": 6,
+        "name": "U. Zhaksybaev",
+        "position": "D"
+      },
+      {
+        "number": 9,
+        "name": "G. Kenzhebek",
+        "position": "M"
+      },
+      {
+        "number": 13,
+        "name": "N. Zhagorov",
+        "position": "M"
+      },
+      {
+        "number": 14,
+        "name": "G. Zhukov",
+        "position": "M"
+      },
+      {
+        "number": 17,
+        "name": "A. Aymbetov",
+        "position": "F"
+      },
+      {
+        "number": 18,
+        "name": "D. Satpaev",
+        "position": "F"
+      },
+      {
+        "number": 20,
+        "name": "R. Orazov",
+        "position": "M"
+      },
+      {
+        "number": 21,
+        "name": "A. Mukhammed",
+        "position": ""
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323248",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-22",
+    "home_team": "Czech Republic",
+    "away_team": "Faroe Islands",
+    "source_label": "API-Football league 32, season 2024, fixture 1323248",
+    "team": "Czech Republic",
+    "formation": "4-4-2",
+    "starters": [
+      {
+        "number": 16,
+        "name": "M. Kovar",
+        "position": "G"
+      },
+      {
+        "number": 5,
+        "name": "V. Coufal",
+        "position": "D"
+      },
+      {
+        "number": 3,
+        "name": "T. Holes",
+        "position": "D"
+      },
+      {
+        "number": 7,
+        "name": "L. Krejci",
+        "position": "D"
+      },
+      {
+        "number": 18,
+        "name": "J. Zeleny",
+        "position": "D"
+      },
+      {
+        "number": 17,
+        "name": "V. Cerny",
+        "position": "M"
+      },
+      {
+        "number": 22,
+        "name": "T. Soucek",
+        "position": "M"
+      },
+      {
+        "number": 12,
+        "name": "L. Cerv",
+        "position": "M"
+      },
+      {
+        "number": 15,
+        "name": "P. Sulc",
+        "position": "M"
+      },
+      {
+        "number": 10,
+        "name": "P. Schick",
+        "position": "F"
+      },
+      {
+        "number": 19,
+        "name": "T. Chory",
+        "position": "F"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 1,
+        "name": "J. Stanek",
+        "position": "G"
+      },
+      {
+        "number": 23,
+        "name": "M. Jedlicka",
+        "position": "G"
+      },
+      {
+        "number": 2,
+        "name": "D. Zima",
+        "position": "D"
+      },
+      {
+        "number": 4,
+        "name": "V. Jemelka",
+        "position": "D"
+      },
+      {
+        "number": 6,
+        "name": "M. Sin",
+        "position": "M"
+      },
+      {
+        "number": 8,
+        "name": "M. Sadilek",
+        "position": "M"
+      },
+      {
+        "number": 9,
+        "name": "J. Kliment",
+        "position": "F"
+      },
+      {
+        "number": 11,
+        "name": "J. Kuchta",
+        "position": "F"
+      },
+      {
+        "number": 13,
+        "name": "D. Doudera",
+        "position": "M"
+      },
+      {
+        "number": 14,
+        "name": "L. Provod",
+        "position": "M"
+      },
+      {
+        "number": 20,
+        "name": "D. Jurasek",
+        "position": "D"
+      },
+      {
+        "number": 21,
+        "name": "A. Kral",
+        "position": "M"
+      }
+    ]
+  },
+  {
+    "match_id": "api-football-1323248",
+    "confederation_id": "uefa",
+    "stage": "Group Stage - 1",
+    "date_label": "2025-03-22",
+    "home_team": "Czech Republic",
+    "away_team": "Faroe Islands",
+    "source_label": "API-Football league 32, season 2024, fixture 1323248",
+    "team": "Faroe Islands",
+    "formation": "5-4-1",
+    "starters": [
+      {
+        "number": 23,
+        "name": "B. Reynatrod",
+        "position": ""
+      },
+      {
+        "number": 19,
+        "name": "J. Benjaminsen",
+        "position": "D"
+      },
+      {
+        "number": 15,
+        "name": "O. Faero",
+        "position": "D"
+      },
+      {
+        "number": 16,
+        "name": "G. Vatnhamar",
+        "position": "D"
+      },
+      {
+        "number": 5,
+        "name": "A. Edmundsson",
+        "position": "D"
+      },
+      {
+        "number": 3,
+        "name": "V. Davidsen",
+        "position": "D"
+      },
+      {
+        "number": 8,
+        "name": "B. Hendriksson",
+        "position": ""
+      },
+      {
+        "number": 6,
+        "name": "H. Hansson",
+        "position": "M"
+      },
+      {
+        "number": 7,
+        "name": "A. Frederiksberg",
+        "position": ""
+      },
+      {
+        "number": 20,
+        "name": "H. Sorensen",
+        "position": "M"
+      },
+      {
+        "number": 11,
+        "name": "P. Knudsen",
+        "position": "F"
+      }
+    ],
+    "substitutes": [
+      {
+        "number": 1,
+        "name": "M. Lamhauge",
+        "position": "G"
+      },
+      {
+        "number": 12,
+        "name": "A. Petersen",
+        "position": "G"
+      },
+      {
+        "number": 2,
+        "name": "J. Danielsen",
+        "position": "D"
+      },
+      {
+        "number": 4,
+        "name": "S. Chukwudi",
+        "position": "D"
+      },
+      {
+        "number": 9,
+        "name": "P. Klettskard",
+        "position": "F"
+      },
+      {
+        "number": 10,
+        "name": "M. Olsen",
+        "position": "M"
+      },
+      {
+        "number": 13,
+        "name": "A. Svensson",
+        "position": ""
+      },
+      {
+        "number": 14,
+        "name": "R. Joensen",
+        "position": "M"
+      },
+      {
+        "number": 17,
+        "name": "A. Justinussen",
+        "position": "F"
+      },
+      {
+        "number": 18,
+        "name": "G. D. Turi",
+        "position": "M"
+      },
+      {
+        "number": 21,
+        "name": "P. Kallsberg",
+        "position": "F"
+      },
+      {
+        "number": 22,
+        "name": "N. Mneney",
+        "position": "M"
+      }
+    ]
+  }
+]
