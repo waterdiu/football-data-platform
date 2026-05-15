@@ -559,6 +559,15 @@ predictor 兼容数据当前边界：
 - `scripts/publish_world_cup_predictor_api.py` 负责发布 predictor 专用 compatibility API
 - `scripts/build_world_cup_predictor_runtime_health.py` 负责发布 predictor 对接层的健康快照
 
+截至 2026-05-15，`world-cup-predictor` 第一阶段代码改造已完成：
+
+- 模型项目已实现 platform-first + local fallback
+- 已接入 `build_fixture_inputs.py`、`generate_predictions.py`、`build_features.py`、`train_models.py`、英超预测/评估脚本
+- 已接入 `storage.py` 与 `history.py`
+- 已补 `test_data_platform.py`
+- 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
+- 暂不迁移输出文件写入、runtime snapshots、赔率、伤停和天气写入逻辑
+
 predictor 全量数据资产当前边界：
 
 - 平台本地镜像：`data/predictor-assets/files/**`

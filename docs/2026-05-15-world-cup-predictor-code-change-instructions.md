@@ -6,7 +6,23 @@ Date: 2026-05-15
 
 Change `world-cup-predictor` so it uses `football-data-platform` as its data layer.
 
-The first implementation should be platform-first with old local paths as fallback. Do not delete old fallback reads until prediction parity is verified.
+Status: Phase 1 has been implemented in `world-cup-predictor`.
+
+The current implementation should remain platform-first with old local paths as fallback. Do not delete old fallback reads until prediction parity is verified across routine scheduled runs.
+
+Completed Phase 1 items reported by `world-cup-predictor`:
+
+- Added `backend/app/services/data_platform.py`.
+- Connected `build_fixture_inputs.py`, `generate_predictions.py`, `build_features.py`, `train_models.py`, Premier League prediction/evaluation scripts, `storage.py`, and `history.py`.
+- Added `test_data_platform.py`.
+- Verified smoke coverage: `normalized_matches` 19986 rows, World Cup `feature_inputs` 104 fixtures, Premier League predictions 40 fixtures.
+- Regenerated World Cup predictions successfully: 104 fixtures, current model `xgboost`.
+- Key tests passed: 5 passed.
+
+Remaining boundary:
+
+- Output files, runtime snapshots, odds, injuries, and weather still keep local write logic in the model project.
+- Those should be migrated in later phases after platform-first reads are stable.
 
 ## Platform Endpoints
 

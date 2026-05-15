@@ -245,6 +245,14 @@ python3 scripts/build_automation_readiness_report.py
 
 用于让 `world-cup-predictor` 按阶段切换，而不是一次性硬切。
 
+当前接入状态：
+
+- `world-cup-predictor` 第一阶段代码改造已完成
+- 模型项目已实现平台优先读取和本地 fallback
+- 已覆盖世界杯 fixture inputs、predictions、storage/history、训练与英超相关脚本的基础读取
+- 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
+- 输出文件、runtime snapshots、赔率、伤停、天气仍保留模型项目本地写入逻辑，后续再分阶段迁移
+
 ## Predictor Full Data Assets
 
 `world-cup-predictor/backend/data` 里已经下载过的全部数据资产，也已经可以镜像到平台本地资产区：
