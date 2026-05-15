@@ -8,6 +8,24 @@ Phase 1 made `world-cup-predictor` read platform data first and fall back to loc
 
 Phase 2 moves selected predictor outputs and runtime snapshots into `football-data-platform` through an explicit inbox. The model project should write files into the inbox, and the platform publishes them into normalized, model, and public datasets.
 
+Status: Phase 2 has been implemented for prediction outputs.
+
+Completed:
+
+- `worldcup-2026/predictions.json` is written by `world-cup-predictor` and published by the platform.
+- `premier-league/predictions.json` is written by `world-cup-predictor` and published by the platform.
+- `scripts/publish_predictor_inbox.py` has been run successfully.
+
+Pending until upstream jobs produce data:
+
+- `worldcup-2026/odds-snapshots.json`
+- `worldcup-2026/lineups.json`
+- `worldcup-2026/injuries.json`
+- `worldcup-2026/prematch-context.json`
+- `worldcup-2026/weather.json`
+- `premier-league/odds-snapshots.json`
+- `premier-league/context-snapshots.jsonl`
+
 ## Inbox Root
 
 Local inbox root:

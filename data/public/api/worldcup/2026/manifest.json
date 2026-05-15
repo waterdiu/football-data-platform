@@ -89,7 +89,7 @@
       "predictions": {
         "path": "./core/predictions.json",
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/predictions.json",
-        "count": 104
+        "count": null
       },
       "data_coverage": {
         "path": "./core/data-coverage.json",
@@ -125,7 +125,7 @@
       "fixtures": 104,
       "results": 104,
       "standings": 48,
-      "predictions": 104,
+      "predictions": null,
       "data_coverage": 104,
       "qualifier_events": 124,
       "qualifier_lineups": 14,

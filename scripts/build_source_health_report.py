@@ -32,6 +32,12 @@ def dataset_count(path: Path) -> int:
     if isinstance(payload, list):
         return len(payload)
     if isinstance(payload, dict):
+        if isinstance(payload.get("fixtures"), list):
+            return len(payload["fixtures"])
+        if isinstance(payload.get("matches"), list):
+            return len(payload["matches"])
+        if isinstance(payload.get("data"), list):
+            return len(payload["data"])
         return len(payload)
     return 0
 

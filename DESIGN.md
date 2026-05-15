@@ -566,7 +566,8 @@ predictor 兼容数据当前边界：
 - 已接入 `storage.py` 与 `history.py`
 - 已补 `test_data_platform.py`
 - 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
-- 暂不迁移输出文件写入、runtime snapshots、赔率、伤停和天气写入逻辑
+- 第二阶段 inbox 双写也已完成，世界杯预测和英超预测已通过 `data/inbox/predictor/**` 发布到平台
+- runtime odds、lineups、injuries、weather 和 context snapshots 当前仍缺失，等待模型项目对应采样/上下文任务实际产出
 
 predictor phase 2 写回边界：
 

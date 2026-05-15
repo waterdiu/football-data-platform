@@ -248,10 +248,12 @@ python3 scripts/build_automation_readiness_report.py
 当前接入状态：
 
 - `world-cup-predictor` 第一阶段代码改造已完成
+- `world-cup-predictor` 第二阶段 inbox 双写已完成
 - 模型项目已实现平台优先读取和本地 fallback
 - 已覆盖世界杯 fixture inputs、predictions、storage/history、训练与英超相关脚本的基础读取
 - 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
-- 输出文件、runtime snapshots、赔率、伤停、天气仍保留模型项目本地写入逻辑，后续再分阶段迁移
+- 世界杯预测和英超预测已经通过 `data/inbox/predictor/**` 发布到平台
+- runtime odds、lineups、injuries、weather 和 context snapshots 的 inbox 文件当前仍缺失，等采样/上下文任务实际产出后自动进入同一发布流程
 
 ## Predictor Full Data Assets
 
