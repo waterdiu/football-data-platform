@@ -568,7 +568,7 @@ predictor 兼容数据当前边界：
 - 已补 `test_data_platform.py`
 - 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
 - 第二阶段 inbox 双写也已完成，世界杯预测和英超预测已通过 `data/inbox/predictor/**` 发布到平台
-- runtime odds、lineups、injuries、weather 和 context snapshots 当前仍缺失，等待模型项目对应采样/上下文任务实际产出
+- runtime odds、lineups、injuries、weather 和 prematch context 的生产采集责任已迁到平台；模型项目只消费平台输出并按缺失情况降权
 
 predictor phase 2 写回边界：
 
@@ -581,6 +581,14 @@ predictor phase 2 写回边界：
 - 切换状态由 `scripts/build_migration_status.py` 生成到 `data/public/api/migration-status.json`
 - 世界杯预测 inbox 是 predictor 旧格式对象，只能发布到 predictor source master；公共 `data/public/predictions.json` 必须由 `scripts/import_world_cup_predictions.py` 转换成标准列表格式，不能被 inbox 原文覆盖
 - `publish_predictor_inbox.py` 必须区分 `missing`、`empty`、`published`：空数组/空 JSONL 不能覆盖平台正式数据，只能在报告和迁移状态中暴露为未完成
+
+剩余数据层任务以专题文档为准：
+
+- `docs/2026-05-16-data-platform-remaining-work.md`
+
+模型项目后续只执行严格平台消费改造：
+
+- `docs/2026-05-16-predictor-phase-3-full-cutover-instructions.md`
 
 predictor 全量数据资产当前边界：
 
