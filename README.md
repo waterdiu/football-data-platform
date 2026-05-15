@@ -140,6 +140,12 @@ python3 scripts/publish_worldcup_2026_api.py
 python3 scripts/build_source_health_report.py
 ```
 
+运行时健康快照：
+
+```bash
+python3 scripts/build_worldcup_2026_runtime_health.py
+```
+
 ## Publish Model
 
 当前线上部署通过 GitHub Pages 完成：
@@ -148,6 +154,24 @@ python3 scripts/build_source_health_report.py
 - 发布目录：`data/public/`
 
 这意味着只要 `football-data-platform` 更新并重新发布，`worldcup/2026` 页面刷新后就能拿到最新 JSON，不需要重新构建站点。
+
+## Monitoring
+
+当前已提供两个监控入口：
+
+- Pages 上的运行时健康快照：
+  - [https://waterdiu.github.io/football-data-platform/api/worldcup/2026/health.json](https://waterdiu.github.io/football-data-platform/api/worldcup/2026/health.json)
+- GitHub Actions 定时检查：
+  - `.github/workflows/monitor-runtime-api.yml`
+
+这个监控 workflow 每 30 分钟检查：
+
+- `manifest.json`
+- `site/bundle.json`
+- `core/bundle.json`
+- `health.json`
+
+并校验关键数据集数量没有明显异常。
 
 ## Repository Layout
 
