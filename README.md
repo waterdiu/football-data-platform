@@ -232,12 +232,14 @@ python3 scripts/build_automation_readiness_report.py
 
 - `data/public/api/worldcup/2026/predictor/manifest.json`
 - `data/public/api/worldcup/2026/predictor/bundle.json`
+- `data/public/api/worldcup/2026/predictor/health.json`
 
 它同时提供：
 
 - predictor 旧格式兼容数据
 - platform 标准数据
 - model runtime datasets
+- predictor 对接层健康摘要
 
 用于让 `world-cup-predictor` 按阶段切换，而不是一次性硬切。
 ## Repository Layout

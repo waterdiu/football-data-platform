@@ -18,6 +18,9 @@ jobs:
           SITE_BUNDLE_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/bundle.json
           CORE_BUNDLE_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/bundle.json
           HEALTH_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/health.json
+          PREDICTOR_MANIFEST_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/manifest.json
+          PREDICTOR_BUNDLE_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/bundle.json
+          PREDICTOR_HEALTH_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/health.json
         run: |
           python - <<'PY'
           import json
@@ -29,6 +32,9 @@ jobs:
               "site_bundle": os.environ["SITE_BUNDLE_URL"],
               "core_bundle": os.environ["CORE_BUNDLE_URL"],
               "health": os.environ["HEALTH_URL"],
+              "predictor_manifest": os.environ["PREDICTOR_MANIFEST_URL"],
+              "predictor_bundle": os.environ["PREDICTOR_BUNDLE_URL"],
+              "predictor_health": os.environ["PREDICTOR_HEALTH_URL"],
           }
 
           payloads = {}
@@ -42,6 +48,9 @@ jobs:
           site_bundle = payloads["site_bundle"]
           core_bundle = payloads["core_bundle"]
           health = payloads["health"]
+          predictor_manifest = payloads["predictor_manifest"]
+          predictor_bundle = payloads["predictor_bundle"]
+          predictor_health = payloads["predictor_health"]
 
           if manifest.get("runtime_contract", {}).get("preferred_site_url") != urls["site_bundle"]:
               raise SystemExit("manifest preferred_site_url mismatch")
@@ -51,6 +60,12 @@ jobs:
               raise SystemExit("core fixtures dataset unexpectedly small")
           if health.get("status") not in {"ok", "degraded"}:
               raise SystemExit("health status missing")
+          if predictor_manifest.get("bundle_url") != urls["predictor_bundle"]:
+              raise SystemExit("predictor manifest bundle_url mismatch")
+          if len(predictor_bundle.get("datasets", {}).get("shared_fixtures", {}).get("fixtures", [])) < 100:
+              raise SystemExit("predictor shared_fixtures dataset unexpectedly small")
+          if predictor_health.get("status") not in {"ok", "degraded"}:
+              raise SystemExit("predictor health status missing")
 
           summary = [
               "## Runtime API Health",
@@ -59,6 +74,9 @@ jobs:
               f"- core_fixtures_count: {len(core_bundle.get('datasets', {}).get('fixtures', []))}",
               f"- health_status: {health.get('status')}",
               f"- health_warnings: {len(health.get('warnings', []))}",
+              f"- predictor_shared_fixtures_count: {len(predictor_bundle.get('datasets', {}).get('shared_fixtures', {}).get('fixtures', []))}",
+              f"- predictor_health_status: {predictor_health.get('status')}",
+              f"- predictor_health_warnings: {len(predictor_health.get('warnings', []))}",
           ]
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
               fh.write("\n".join(summary) + "\n")

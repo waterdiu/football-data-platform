@@ -63,6 +63,10 @@ SCRIPT_DEPENDENCIES = {
         "external_repos": [],
         "reason": "Builds runtime health from platform-owned manifest and source health report.",
     },
+    "build_world_cup_predictor_runtime_health.py": {
+        "external_repos": [],
+        "reason": "Builds predictor runtime health from platform-owned predictor manifest and reports.",
+    },
     "publish_qualifier_data.py": {
         "external_repos": [],
         "reason": "Publishes qualifier public datasets from the platform-owned master source.",
@@ -94,6 +98,7 @@ WORLD_CUP_PIPELINE = [
     "publish_world_cup_predictor_api.py",
     "build_source_health_report.py",
     "build_worldcup_2026_runtime_health.py",
+    "build_world_cup_predictor_runtime_health.py",
 ]
 
 

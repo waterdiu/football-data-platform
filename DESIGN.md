@@ -557,6 +557,7 @@ predictor 兼容数据当前边界：
 - 平台对外发布：`data/public/api/worldcup/2026/predictor/*`
 - `scripts/import_world_cup_predictor_local_data.py` 当前是 predictor 已下载世界杯数据的手动迁移入口
 - `scripts/publish_world_cup_predictor_api.py` 负责发布 predictor 专用 compatibility API
+- `scripts/build_world_cup_predictor_runtime_health.py` 负责发布 predictor 对接层的健康快照
 
 当需要赛前上下文时，该入口还可以先执行：
 

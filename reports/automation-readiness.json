@@ -71,6 +71,11 @@
       "script": "build_worldcup_2026_runtime_health.py",
       "self_contained": true,
       "external_repos": []
+    },
+    {
+      "script": "build_world_cup_predictor_runtime_health.py",
+      "self_contained": true,
+      "external_repos": []
     }
   ],
   "pipeline_blockers": [],
@@ -169,6 +174,13 @@
       "external_repos": [],
       "self_contained": true,
       "reason": "Builds runtime health from platform-owned manifest and source health report."
+    },
+    {
+      "script": "build_world_cup_predictor_runtime_health.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Builds predictor runtime health from platform-owned predictor manifest and reports."
     },
     {
       "script": "publish_qualifier_data.py",

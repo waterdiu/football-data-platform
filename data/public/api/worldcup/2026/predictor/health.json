@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "competition_id": "fifa_world_cup",
+  "season_id": "2026",
+  "contract_version": "2026-05-15.world-cup-predictor.v1",
+  "status": "degraded",
+  "warnings": [
+    "predictor odds_source has no World Cup rows",
+    "predictor world_cup_context_snapshots.jsonl does not exist"
+  ],
+  "runtime_urls": {
+    "manifest": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/manifest.json",
+    "bundle": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/bundle.json",
+    "health": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/health.json"
+  },
+  "predictor_dataset_counts": {
+    "shared_fixtures": 104,
+    "feature_inputs_fixtures": 104,
+    "feature_inputs_rows": 104,
+    "predictions_source": 104,
+    "odds_source": 0,
+    "context_source": 0,
+    "fixtures": 104,
+    "results": 104,
+    "standings": 48,
+    "predictions": 104,
+    "prematch_context": 104
+  },
+  "imported_master_summary": {
+    "shared_fixtures": {
+      "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/world_cup_2026_shared_fixtures.json",
+      "target": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_shared_fixtures_master.json",
+      "rows": 104
+    },
+    "feature_inputs": {
+      "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/world_cup_2026_fixtures.json",
+      "target": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_feature_inputs_master.json",
+      "fixture_rows": 104,
+      "feature_rows": 104
+    },
+    "predictions_source": {
+      "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/predictions.json",
+      "target": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_predictions_source_master.json",
+      "rows": 104
+    },
+    "odds_source": {
+      "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/odds_snapshots.json",
+      "target": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_odds_source_master.json",
+      "rows": 0,
+      "note": "当前 predictor 本地 odds snapshots 中未发现 World Cup 2026 条目时会导入为空数组。"
+    },
+    "context_source": {
+      "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/context/world_cup_context_snapshots.jsonl",
+      "target": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_context_source_master.json",
+      "rows": 0,
+      "exists": false,
+      "note": "当前 predictor 若尚未生成 world_cup_context_snapshots.jsonl，则平台只记录缺失状态，不伪造上下文数据。"
+    }
+  },
+  "source_health_generated_at": "2026-05-15T00:00:00Z",
+  "manifest_generated_at": "2026-05-15T00:00:00Z"
+}

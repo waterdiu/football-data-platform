@@ -102,6 +102,10 @@
     - `manifest.json`
     - `bundle.json`
   - 用于让 `world-cup-predictor` 低风险切到平台兼容层和标准层
+- `build_world_cup_predictor_runtime_health.py`
+  - 输入：predictor manifest、source health、predictor import/publish reports
+  - 输出：`data/public/api/worldcup/2026/predictor/health.json`
+  - 提供 predictor 对接层的运行时健康摘要，供模型项目和监控 workflow 使用
 - `build_worldcup_2026_runtime_health.py`
   - 输入：`reports/source-health.json` 与 `data/public/api/worldcup/2026/manifest.json`
   - 输出：`data/public/api/worldcup/2026/health.json`
@@ -148,7 +152,7 @@
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
   - 先发布平台 own 的 `worldcup/2026` 兼容数据镜像
-  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`model datasets`、`coverage`、`qualifier public datasets`、`runtime APIs`
+  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`model datasets`、`coverage`、`qualifier public datasets`、`runtime APIs`、`predictor runtime health`
   - 可选 `--capture-context`，先触发预测项目的世界杯 context capture，再继续发布
 - `build_source_health_report.py`
   - 聚合 `public/*`、`model/*` 和各类 report，输出统一的 `reports/source-health.json`
