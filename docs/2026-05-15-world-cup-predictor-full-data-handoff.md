@@ -94,6 +94,28 @@ Recommended order for `world-cup-predictor` changes:
 6. Keep fallback paths until parity is verified.
 7. Remove direct `backend/data` reads once all callers use the loader.
 
+## Update Flow After Predictor Produces New Data
+
+When `world-cup-predictor` refreshes local data, predictions, odds, context snapshots, or processed training files, run this command from `football-data-platform`:
+
+```bash
+python3 scripts/sync_predictor_data_assets.py
+```
+
+This command refreshes:
+
+- `data/predictor-assets/files/**`
+- `data/normalized/predictor_data_assets_manifest.json`
+- `data/public/api/predictor/data-assets/**`
+- `data/public/api/worldcup/2026/predictor/**`
+- `data/public/api/worldcup/2026/predictor/health.json`
+
+For a faster manifest-only check without copying files:
+
+```bash
+python3 scripts/sync_predictor_data_assets.py --skip-full-copy
+```
+
 ## Important Boundary
 
 The full asset mirror is not a public web data API. It is a platform-local data archive with a public manifest.

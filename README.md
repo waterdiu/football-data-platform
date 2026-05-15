@@ -199,6 +199,8 @@ python3 scripts/build_automation_readiness_report.py
 - `site/bundle.json`
 - `core/bundle.json`
 - `health.json`
+- `api/worldcup/2026/predictor/*`
+- `api/predictor/data-assets/manifest.json`
 
 并校验关键数据集数量没有明显异常。
 
@@ -266,6 +268,19 @@ python3 scripts/build_automation_readiness_report.py
 python3 scripts/import_predictor_data_assets.py
 python3 scripts/publish_predictor_data_assets_api.py
 ```
+
+模型项目数据更新后的推荐同步命令：
+
+```bash
+python3 scripts/sync_predictor_data_assets.py
+```
+
+它会刷新：
+
+- 全量本地资产镜像
+- `api/predictor/data-assets/*`
+- `api/worldcup/2026/predictor/*`
+- predictor runtime health
 
 对接说明：
 

@@ -566,6 +566,7 @@ predictor 全量数据资产当前边界：
 - 平台对外清单 API：`data/public/api/predictor/data-assets/*`
 - `scripts/import_predictor_data_assets.py` 负责把 `world-cup-predictor/backend/data` 的已下载文件完整镜像到平台本地资产区
 - `scripts/publish_predictor_data_assets_api.py` 负责发布轻量 manifest、summary 和 category indexes
+- `scripts/sync_predictor_data_assets.py` 是模型项目数据更新后的推荐同步入口，会串行刷新全量资产镜像、资产清单 API、世界杯 predictor API 和 predictor health
 - 大型原始文件不进入 GitHub Pages runtime bundle，只通过 manifest 暴露平台本地路径
 
 当前迁移规模：

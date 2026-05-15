@@ -21,6 +21,7 @@ jobs:
           PREDICTOR_MANIFEST_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/manifest.json
           PREDICTOR_BUNDLE_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/bundle.json
           PREDICTOR_HEALTH_URL: https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/health.json
+          PREDICTOR_ASSETS_MANIFEST_URL: https://waterdiu.github.io/football-data-platform/api/predictor/data-assets/manifest.json
         run: |
           python - <<'PY'
           import json
@@ -35,6 +36,7 @@ jobs:
               "predictor_manifest": os.environ["PREDICTOR_MANIFEST_URL"],
               "predictor_bundle": os.environ["PREDICTOR_BUNDLE_URL"],
               "predictor_health": os.environ["PREDICTOR_HEALTH_URL"],
+              "predictor_assets_manifest": os.environ["PREDICTOR_ASSETS_MANIFEST_URL"],
           }
 
           payloads = {}
@@ -51,6 +53,7 @@ jobs:
           predictor_manifest = payloads["predictor_manifest"]
           predictor_bundle = payloads["predictor_bundle"]
           predictor_health = payloads["predictor_health"]
+          predictor_assets_manifest = payloads["predictor_assets_manifest"]
 
           if manifest.get("runtime_contract", {}).get("preferred_site_url") != urls["site_bundle"]:
               raise SystemExit("manifest preferred_site_url mismatch")
@@ -66,6 +69,10 @@ jobs:
               raise SystemExit("predictor shared_fixtures dataset unexpectedly small")
           if predictor_health.get("status") not in {"ok", "degraded"}:
               raise SystemExit("predictor health status missing")
+          if predictor_assets_manifest.get("file_count", 0) < 400:
+              raise SystemExit("predictor asset manifest file_count unexpectedly small")
+          if predictor_assets_manifest.get("total_bytes", 0) < 1_000_000_000:
+              raise SystemExit("predictor asset manifest total_bytes unexpectedly small")
 
           summary = [
               "## Runtime API Health",
@@ -77,6 +84,8 @@ jobs:
               f"- predictor_shared_fixtures_count: {len(predictor_bundle.get('datasets', {}).get('shared_fixtures', {}).get('fixtures', []))}",
               f"- predictor_health_status: {predictor_health.get('status')}",
               f"- predictor_health_warnings: {len(predictor_health.get('warnings', []))}",
+              f"- predictor_asset_files: {predictor_assets_manifest.get('file_count')}",
+              f"- predictor_asset_bytes: {predictor_assets_manifest.get('total_bytes')}",
           ]
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
               fh.write("\n".join(summary) + "\n")

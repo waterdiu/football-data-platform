@@ -114,6 +114,10 @@
   - 输入：`data/normalized/predictor_data_assets_manifest.json`
   - 输出：`data/public/api/predictor/data-assets/**`
   - 只发布 manifest、summary 和 category indexes；大型原始文件保留在本地镜像
+- `sync_predictor_data_assets.py`
+  - 输入：`world-cup-predictor/backend/data` 与平台现有 predictor masters
+  - 输出：全量资产镜像、资产清单 API、世界杯 predictor API、predictor health
+  - 这是模型项目数据更新后的推荐平台侧同步入口
 - `build_worldcup_2026_runtime_health.py`
   - 输入：`reports/source-health.json` 与 `data/public/api/worldcup/2026/manifest.json`
   - 输出：`data/public/api/worldcup/2026/health.json`
