@@ -568,7 +568,7 @@ predictor 兼容数据当前边界：
 - `scripts/publish_world_cup_predictor_api.py` 负责发布 predictor 专用 compatibility API
 - `scripts/build_world_cup_predictor_runtime_health.py` 负责发布 predictor 对接层的健康快照
 
-截至 2026-05-15，`world-cup-predictor` 第一阶段和第二阶段代码改造已完成，并已进入完全切换模式：
+截至 2026-05-16，`world-cup-predictor` Phase 3 full cutover 已完成：
 
 - 模型项目已实现 platform-first strict；平台缺失时默认失败，不再静默读取本地 `backend/data`
 - 本地 fallback 仅允许通过 `FOOTBALL_DATA_PLATFORM_ALLOW_LOCAL_FALLBACK=1` 显式开启，用于调试或应急 rollback
@@ -578,6 +578,10 @@ predictor 兼容数据当前边界：
 - 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
 - 第二阶段 inbox 双写也已完成，世界杯预测和英超预测已通过 `data/inbox/predictor/**` 发布到平台
 - runtime odds、lineups、injuries、weather 和 prematch context 的生产采集责任已迁到平台；模型项目只消费平台输出并按缺失情况降权
+- 最新模型侧回报：`generate_predictions.py` 在严格平台模式下成功生成 104 场世界杯预测并写入平台 inbox
+- 最新模型侧回报：世界杯本地赔率/上下文采集默认停用，返回 `delegated_to_platform`
+- 当前平台 runtime 缺口：`odds_snapshots`、`lineups`、`injuries`、`weather`
+- 当前模型输出 runtime confidence 约为 `0.1074`，后续提升依赖平台补齐 runtime 数据
 
 predictor phase 2 写回边界：
 
