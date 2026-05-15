@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-05-15T00:00:00Z",
-  "manifest_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/api/worldcup/2026/predictor/manifest.json",
-  "bundle_path": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/api/worldcup/2026/predictor/bundle.json",
+  "manifest_path": "/home/runner/work/football-data-platform/football-data-platform/data/public/api/worldcup/2026/predictor/manifest.json",
+  "bundle_path": "/home/runner/work/football-data-platform/football-data-platform/data/public/api/worldcup/2026/predictor/bundle.json",
   "counts": {
     "shared_fixtures": 104,
     "feature_inputs_fixtures": 104,

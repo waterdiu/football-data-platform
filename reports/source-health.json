@@ -35,7 +35,7 @@
   "world_cup_sources": {
     "detail_extract": {
       "generated_at": "2026-05-15T00:00:00Z",
-      "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/worldcup-site-finals-results.json",
+      "source": "/home/runner/work/football-data-platform/football-data-platform/data/public/worldcup-site-finals-results.json",
       "fixture_count": 104,
       "provider_match_count": 104,
       "events_count": 0,
@@ -77,7 +77,7 @@
       "matches_with_events": 14,
       "matches_with_lineups": 7,
       "matches_with_stats": 7,
-      "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_qualifier_matches_master.json"
+      "source": "/home/runner/work/football-data-platform/football-data-platform/data/normalized/world_cup_2026_qualifier_matches_master.json"
     }
   }
 }
