@@ -17,6 +17,8 @@ PIPELINE = [
     "build_world_cup_model_datasets.py",
     "build_world_cup_coverage.py",
     "publish_worldcup_2026_api.py",
+    "build_source_health_report.py",
+    "build_worldcup_2026_runtime_health.py",
 ]
 CONTEXT_CAPTURE_SCRIPT = "capture_world_cup_context_from_predictor.py"
 
