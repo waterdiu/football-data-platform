@@ -3,6 +3,15 @@
 日期：2026-05-15  
 状态：主设计基线
 
+## 0. Workspace Coordination Role
+
+`football-data-platform` 当前也是足球工作区的全局协调入口。全局规则和状态不放在单个消费项目中，而放在工作区根目录：
+
+- `/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_ORCHESTRATOR.md`
+- `/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_STATUS.md`
+
+`football-data-platform` 对话负责维护这两份共享文档，并在跨项目任务中决定数据层、展示站、预测模型之间的责任边界。
+
 ## 1. Purpose
 
 `football-data-platform` 是一个独立的足球公共数据层，服务多个消费项目，包括：

@@ -8,6 +8,17 @@
 
 这个仓库当前最重要的职责，是为 `worldcup/2026` 提供可直接运行时读取的静态 JSON API，而不是继续让站点靠“构建前同步 TS 文件”获取数据。
 
+## Workspace Coordination
+
+本项目当前同时承担足球工作区的全局协调文档维护。
+
+共享总控文档：
+
+- [WORKSPACE_ORCHESTRATOR.md](/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_ORCHESTRATOR.md)
+- [WORKSPACE_STATUS.md](/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_STATUS.md)
+
+`worldcup/2026` 和 `world-cup-predictor` 对话在处理跨项目数据契约、接口、同步、状态问题前，应先读取这两份文件。
+
 主设计文档见 [DESIGN.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/DESIGN.md)。
 
 ## Live Endpoints
