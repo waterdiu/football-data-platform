@@ -76,8 +76,8 @@ jobs:
               raise SystemExit("predictor asset manifest file_count unexpectedly small")
           if predictor_assets_manifest.get("total_bytes", 0) < 1_000_000_000:
               raise SystemExit("predictor asset manifest total_bytes unexpectedly small")
-          if migration_status.get("overall_status") != "phase_2_complete_with_runtime_gaps":
-              raise SystemExit("migration status does not match expected phase 2 state")
+          if migration_status.get("overall_status") != "platform_strict_complete_with_runtime_gaps":
+              raise SystemExit("migration status does not match expected platform strict state")
 
           summary = [
               "## Runtime API Health",

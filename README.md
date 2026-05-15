@@ -259,7 +259,7 @@ python3 scripts/build_automation_readiness_report.py
 - 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
 - 世界杯预测和英超预测已经通过 `data/inbox/predictor/**` 发布到平台
 - runtime odds、lineups、injuries、weather 和 context snapshots 的 inbox 文件当前仍缺失，等采样/上下文任务实际产出后自动进入同一发布流程
-- 当前切换状态以 `data/public/api/migration-status.json` 为准
+- 当前切换状态以 `data/public/api/migration-status.json` 为准；平台强制读取阶段的期望状态是 `platform_strict_complete_with_runtime_gaps`
 
 ## Predictor Full Data Assets
 
