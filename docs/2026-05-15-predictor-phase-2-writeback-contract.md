@@ -112,9 +112,11 @@ FOOTBALL_DATA_PLATFORM_PREDICTOR_INBOX=data/inbox/predictor
 
 ## Transition Rule
 
-During phase 2, `world-cup-predictor` may keep writing its existing local files. It should additionally write a copy into the platform inbox.
+During phase 2, `world-cup-predictor` may keep writing its existing local files as compatibility outputs. It should additionally write a copy into the platform inbox.
 
-Once the inbox publish path is verified, later phases can remove the duplicate local writes.
+For reads, the model project is now platform-strict by default. Local `backend/data` fallback must not be implicit; it is only allowed when `FOOTBALL_DATA_PLATFORM_ALLOW_LOCAL_FALLBACK=1` is explicitly set for local debugging or emergency rollback.
+
+Once the inbox publish path is verified across runtime odds/context jobs, later phases can remove the duplicate local writes.
 
 ## Acceptance Criteria
 
@@ -124,4 +126,4 @@ Phase 2 is complete when:
 - `python3 scripts/publish_predictor_inbox.py` publishes that file to platform `data/public/predictions.json`.
 - Runtime files produced by predictor appear in the corresponding inbox files.
 - Platform health reflects newly available odds/context rows when those files exist.
-- Existing local model project outputs continue to work during transition.
+- Existing local model project outputs continue to work as compatibility outputs during transition.

@@ -253,7 +253,8 @@ python3 scripts/build_automation_readiness_report.py
 
 - `world-cup-predictor` 第一阶段代码改造已完成
 - `world-cup-predictor` 第二阶段 inbox 双写已完成
-- 模型项目已实现平台优先读取和本地 fallback
+- 模型项目已进入平台强制读取模式：默认从 `football-data-platform` 读取，平台缺失时失败
+- 本地 `backend/data` fallback 仅能通过 `FOOTBALL_DATA_PLATFORM_ALLOW_LOCAL_FALLBACK=1` 显式开启，用于调试或应急 rollback
 - 已覆盖世界杯 fixture inputs、predictions、storage/history、训练与英超相关脚本的基础读取
 - 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
 - 世界杯预测和英超预测已经通过 `data/inbox/predictor/**` 发布到平台

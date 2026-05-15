@@ -559,9 +559,10 @@ predictor 兼容数据当前边界：
 - `scripts/publish_world_cup_predictor_api.py` 负责发布 predictor 专用 compatibility API
 - `scripts/build_world_cup_predictor_runtime_health.py` 负责发布 predictor 对接层的健康快照
 
-截至 2026-05-15，`world-cup-predictor` 第一阶段代码改造已完成：
+截至 2026-05-15，`world-cup-predictor` 第一阶段和第二阶段代码改造已完成，并已进入完全切换模式：
 
-- 模型项目已实现 platform-first + local fallback
+- 模型项目已实现 platform-first strict；平台缺失时默认失败，不再静默读取本地 `backend/data`
+- 本地 fallback 仅允许通过 `FOOTBALL_DATA_PLATFORM_ALLOW_LOCAL_FALLBACK=1` 显式开启，用于调试或应急 rollback
 - 已接入 `build_fixture_inputs.py`、`generate_predictions.py`、`build_features.py`、`train_models.py`、英超预测/评估脚本
 - 已接入 `storage.py` 与 `history.py`
 - 已补 `test_data_platform.py`
@@ -575,7 +576,7 @@ predictor phase 2 写回边界：
 - 平台发布脚本：`scripts/publish_predictor_inbox.py`
 - 契约文档：`docs/2026-05-15-predictor-phase-2-writeback-contract.md`
 - 模型项目后续不应直接写 `data/public`、`data/model` 或 `data/normalized`
-- 第一轮写回采用“双写”：保留模型项目本地输出，同时写一份到平台 inbox
+- 当前写回采用“双写”：保留模型项目本地输出作为兼容副本，同时写一份到平台 inbox；下游公共数据以平台发布结果为准
 - 切换状态由 `scripts/build_migration_status.py` 生成到 `data/public/api/migration-status.json`
 
 predictor 全量数据资产当前边界：

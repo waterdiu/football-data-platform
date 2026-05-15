@@ -44,7 +44,7 @@ def main() -> None:
 
     payload = {
         "generated_at": UPDATED_AT,
-        "overall_status": "phase_2_complete_with_runtime_gaps",
+        "overall_status": "platform_strict_complete_with_runtime_gaps",
         "summary": {
             "site_runtime_api": "complete",
             "predictor_platform_read": "complete",
@@ -66,7 +66,9 @@ def main() -> None:
         "world_cup_predictor": {
             "phase_1_platform_read": {
                 "status": "complete",
-                "mode": "platform_first_with_local_fallback",
+                "mode": "platform_strict",
+                "local_fallback": "disabled_by_default",
+                "fallback_override_env": "FOOTBALL_DATA_PLATFORM_ALLOW_LOCAL_FALLBACK=1",
             },
             "phase_2_inbox_writeback": {
                 "status": "partial",
