@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-05-15T00:00:00Z",
+  "competition_id": "fifa_world_cup",
+  "season_id": "2026",
+  "status": "ok",
+  "warnings": [],
+  "runtime_urls": {
+    "manifest": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/manifest.json",
+    "site_bundle": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/site/bundle.json",
+    "core_bundle": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/bundle.json",
+    "health": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/health.json"
+  },
+  "counts": {
+    "public": {
+      "teams": 112,
+      "fixtures": 104,
+      "results": 104,
+      "standings": 48,
+      "predictions": 104,
+      "finals_events": 0,
+      "finals_lineups": 0,
+      "finals_match_stats": 0,
+      "qualifier_matches": 467,
+      "qualifier_events": 124,
+      "qualifier_lineups": 14,
+      "qualifier_match_stats": 77,
+      "coverage": 104
+    },
+    "model": {
+      "odds_snapshots": 0,
+      "lineups": 0,
+      "injuries": 0,
+      "prematch_context": 104,
+      "weather": 0
+    },
+    "coverage": {
+      "matches": 104,
+      "prediction_available": 104,
+      "events_available": 0,
+      "lineups_available": 0,
+      "match_stats_available": 0,
+      "odds_available": 0,
+      "injuries_available": 0,
+      "weather_available": 0
+    }
+  },
+  "manifest_generated_at": "2026-05-15T00:00:00Z",
+  "source_health_generated_at": "2026-05-15T00:00:00Z"
+}
