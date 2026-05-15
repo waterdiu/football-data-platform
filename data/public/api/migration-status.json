@@ -91,19 +91,19 @@
     "report_path": "reports/world_cup_runtime_collection_report.json",
     "datasets": [
       {
+        "dataset": "odds",
+        "status": "missing_auth",
+        "auth_env": "THE_ODDS_API_KEY",
+        "sport_key": "soccer_fifa_world_cup",
+        "fixtures_considered": 2,
+        "rows_collected": 0
+      },
+      {
         "dataset": "weather",
         "status": "missing_auth",
         "auth_env": "OPENWEATHER_API_KEY",
         "fixtures_considered": 2,
         "rows_collected": 0
-      },
-      {
-        "dataset": "odds",
-        "status": "pending_adapter",
-        "rows_existing": 0,
-        "reason": "platform odds adapter not migrated yet",
-        "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_odds_master.json",
-        "auth_env": "THE_ODDS_API_KEY"
       },
       {
         "dataset": "lineups",

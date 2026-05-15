@@ -11,8 +11,10 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
 from sources.openweather import fetch_openweather_payload, normalize_openweather_snapshot
+from sources.the_odds_api import fetch_odds_events, normalize_odds_events
 
 FIXTURES_PATH = ROOT / "data" / "public" / "fixtures.json"
+TEAMS_PATH = ROOT / "data" / "public" / "teams.json"
 VENUES_PATH = ROOT / "configs" / "venues" / "world_cup_2026.json"
 NORMALIZED_DIR = ROOT / "data" / "normalized"
 REPORT_PATH = ROOT / "reports" / "world_cup_runtime_collection_report.json"
@@ -129,6 +131,57 @@ def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at
     }
 
 
+def collect_odds(*, fixtures: list[dict], teams: list[dict], fetched_at: str, dry_run: bool) -> dict:
+    api_key = os.environ.get("THE_ODDS_API_KEY", "").strip()
+    sport_key = os.environ.get("THE_ODDS_API_SPORT", "soccer_fifa_world_cup")
+    if not api_key:
+        return {
+            "dataset": "odds",
+            "status": "missing_auth",
+            "auth_env": "THE_ODDS_API_KEY",
+            "sport_key": sport_key,
+            "fixtures_considered": len(fixtures),
+            "rows_collected": 0,
+        }
+
+    try:
+        events = fetch_odds_events(sport_key=sport_key, api_key=api_key)
+    except Exception as exc:  # noqa: BLE001 - collection reports provider failures.
+        return {
+            "dataset": "odds",
+            "status": "provider_error",
+            "auth_env": "THE_ODDS_API_KEY",
+            "sport_key": sport_key,
+            "fixtures_considered": len(fixtures),
+            "rows_collected": 0,
+            "error": str(exc),
+        }
+
+    rows, unmatched = normalize_odds_events(
+        events=events,
+        fixtures=fixtures,
+        teams=teams,
+        sport_key=sport_key,
+        captured_at=fetched_at,
+    )
+
+    if rows and not dry_run:
+        existing = load_existing_list(ODDS_MASTER_PATH)
+        write_json(ODDS_MASTER_PATH, merge_by_match_id(existing, rows))
+
+    return {
+        "dataset": "odds",
+        "status": "collected" if rows else "no_rows",
+        "sport_key": sport_key,
+        "fixtures_considered": len(fixtures),
+        "provider_events": len(events),
+        "rows_collected": len(rows),
+        "unmatched_events_count": len(unmatched),
+        "unmatched_events": unmatched[:20],
+        "output": str(ODDS_MASTER_PATH) if rows else None,
+    }
+
+
 def pending_dataset(name: str, path: Path, reason: str, auth_env: str | None = None) -> dict:
     payload = {
         "dataset": name,
@@ -150,17 +203,20 @@ def main() -> None:
     args = parser.parse_args()
 
     fixtures = load_json(FIXTURES_PATH)
+    teams = load_json(TEAMS_PATH)
     venues = load_json(VENUES_PATH)
     if not isinstance(fixtures, list):
         raise TypeError("fixtures.json must contain a list")
+    if not isinstance(teams, list):
+        raise TypeError("teams.json must contain a list")
     if not isinstance(venues, dict):
         raise TypeError("world_cup_2026 venues config must contain an object")
 
     selected = selected_fixtures(fixtures, window_hours=args.window_hours, limit=args.limit)
     fetched_at = now_utc().isoformat()
     datasets = [
+        collect_odds(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run),
         collect_weather(fixtures=selected, venues=venues, fetched_at=fetched_at, dry_run=args.dry_run),
-        pending_dataset("odds", ODDS_MASTER_PATH, "platform odds adapter not migrated yet", "THE_ODDS_API_KEY"),
         pending_dataset("lineups", LINEUPS_MASTER_PATH, "platform lineup adapter not migrated yet", "API_FOOTBALL_KEY"),
         pending_dataset("injuries", INJURIES_MASTER_PATH, "platform injury adapter not migrated yet", "API_FOOTBALL_KEY"),
         pending_dataset("prematch_context", PREMATCH_CONTEXT_MASTER_PATH, "platform news/context adapter not migrated yet"),
