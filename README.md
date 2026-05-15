@@ -48,6 +48,7 @@ Pages 首页：
 - [2026-05-15-worldcup-2026-integration-handoff.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-15-worldcup-2026-integration-handoff.md)
 - [2026-05-15-worldcup-2026-runtime-api.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-15-worldcup-2026-runtime-api.md)
 - [2026-05-15-world-cup-predictor-integration-design.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-15-world-cup-predictor-integration-design.md)
+- [2026-05-16-predictor-phase-3-full-cutover-instructions.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-predictor-phase-3-full-cutover-instructions.md)
 
 ## Current Runtime Contract
 
@@ -303,6 +304,7 @@ python3 scripts/sync_predictor_data_assets.py
 - `docs/2026-05-15-world-cup-predictor-code-change-instructions.md`
 - `docs/2026-05-15-world-cup-predictor-full-data-handoff.md`
 - `docs/2026-05-15-predictor-phase-2-writeback-contract.md`
+- `docs/2026-05-16-predictor-phase-3-full-cutover-instructions.md`
 
 下一阶段写回入口：
 
