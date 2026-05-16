@@ -2,8 +2,14 @@ from __future__ import annotations
 
 import json
 import os
+import ssl
 from urllib.parse import urlencode
 from urllib.request import urlopen
+
+try:
+    import certifi
+except ImportError:  # pragma: no cover - fallback for minimal Python runtimes.
+    certifi = None
 
 OPENWEATHER_CURRENT_URL = "https://api.openweathermap.org/data/2.5/weather"
 
@@ -95,5 +101,6 @@ def fetch_openweather_payload(*, latitude: float, longitude: float, api_key: str
             "units": "metric",
         }
     )
-    with urlopen(f"{OPENWEATHER_CURRENT_URL}?{query}", timeout=20) as response:
+    context = ssl.create_default_context(cafile=certifi.where() if certifi else None)
+    with urlopen(f"{OPENWEATHER_CURRENT_URL}?{query}", timeout=20, context=context) as response:
         return json.loads(response.read().decode("utf-8"))
