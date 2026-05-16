@@ -2,9 +2,15 @@ from __future__ import annotations
 
 import json
 import os
+import ssl
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+
+try:
+    import certifi
+except ImportError:  # pragma: no cover - fallback for minimal Python runtimes.
+    certifi = None
 
 API_FOOTBALL_BASE_URL = "https://v3.football.api-sports.io"
 DEFAULT_LEAGUE_IDS = {
@@ -41,7 +47,8 @@ def request_api_football(endpoint: str, *, api_key: str, params: dict[str, str])
         f"{API_FOOTBALL_BASE_URL}{endpoint}?{query}",
         headers={"x-apisports-key": api_key},
     )
-    with urlopen(request, timeout=30) as response:
+    context = ssl.create_default_context(cafile=certifi.where() if certifi else None)
+    with urlopen(request, timeout=30, context=context) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -272,13 +279,18 @@ def collect_api_football_context(
 
     mapping = load_fixture_map(fixture_map_path)
     missing = [fixture for fixture in fixtures if str(fixture.get("match_id") or "") not in mapping]
-    discovered = discover_fixture_ids(
-        fixtures=missing,
-        teams=teams,
-        api_key=key,
-        league_id=resolved_league_id,
-        season=resolved_season,
-    ) if missing else {}
+    errors: list[dict[str, str]] = []
+    try:
+        discovered = discover_fixture_ids(
+            fixtures=missing,
+            teams=teams,
+            api_key=key,
+            league_id=resolved_league_id,
+            season=resolved_season,
+        ) if missing else {}
+    except Exception as exc:  # noqa: BLE001 - report fixture discovery failures without crashing all runtime collectors.
+        discovered = {}
+        errors.append({"stage": "discover_fixture_ids", "error": str(exc)})
     if discovered:
         mapping = {**mapping, **discovered}
         save_fixture_map(fixture_map_path, mapping)
@@ -286,7 +298,6 @@ def collect_api_football_context(
     injuries_rows: list[dict] = []
     lineups_rows: list[dict] = []
     skipped: list[dict[str, str]] = []
-    errors: list[dict[str, str]] = []
     for fixture in fixtures:
         match_id = str(fixture.get("match_id") or "")
         api_fixture_id = mapping.get(match_id)
