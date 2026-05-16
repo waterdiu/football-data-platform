@@ -110,23 +110,20 @@ Return report expected:
 当前仓库状态：
 
 - `world-cup-predictor` 已验证 GitHub SSH 22 和 SSH over 443 可用，remote 已切到 `git@github.com:waterdiu/world-cup-predictor.git`，后续模型仓库提交可优先走普通 SSH `git push`
-- `football-data-platform` 当前 remote 仍是 HTTPS：`https://github.com/waterdiu/football-data-platform.git`
-- `football-data-platform` 本地仍存在 API 提交造成的本地/远端 commit SHA 分叉，不能直接普通 `git push`
+- `football-data-platform` 已切到 SSH remote：`git@github.com:waterdiu/football-data-platform.git`
+- `football-data-platform` 本地 `main` 已对齐 `origin/main`
+- 旧 API 分叉本地提交已备份在 `backup/local-api-diverged-main-20260517`
 
 `football-data-platform` 当前提交优先级：
 
-1. 先用 GitHub API 检查远端状态。
-2. 如果只是发布数据层文档或数据产物，继续使用 GitHub Git Database API，直到本地分支完成远端对齐。
-3. 不允许在本地显示 `ahead` 且远端已通过 API 产生新提交链时直接 `git push`。
-4. 后续可以把 `football-data-platform` remote 切到 SSH，但必须先完成本地分支对齐。
+1. 优先使用 SSH `git fetch` / `git push`。
+2. 如果 SSH 失败，再用 GitHub API 检查远端状态。
+3. 如果 SSH 或 HTTPS Git 传输超时、HTTP2 报错或连接 GitHub 失败，停止反复重试，改用 GitHub Git Database API 发布提交。
+4. API 发布后必须用远端 tree SHA 和本地 tree SHA 校验内容。
 
 原因：当前环境多次出现 `gh api` 可用但 Git HTTPS 传输不稳定的情况。反复重试 `git push` 会浪费时间和成本。
 
-完成 `football-data-platform` 本地对齐后，提交优先级改为：
-
-1. 优先 SSH `git fetch` / `git push`
-2. SSH 失败时再走 GitHub API
-3. 禁止反复尝试不稳定的 HTTPS Git 传输
+禁止反复尝试不稳定的 HTTPS Git 传输。
 
 ## 6. GitHub API 发布判定
 
