@@ -32,24 +32,33 @@
     "official_ratings": 0,
     "person_style_profiles": 0,
     "predictions": 104,
-    "prematch_context": 104
+    "prematch_context": 104,
+    "shared_fixtures_enriched_with_kickoff_at": 104,
+    "feature_inputs_enriched_with_kickoff_at": 208,
+    "predictions_source_enriched_with_kickoff_at": 104,
+    "shared_fixtures_missing_kickoff_at": 0,
+    "feature_inputs_missing_kickoff_at": 0,
+    "predictions_source_missing_kickoff_at": 0
   },
   "imported_master_summary": {
     "shared_fixtures": {
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/raw/world_cup_2026_shared_fixtures.json",
       "target": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_shared_fixtures_master.json",
-      "rows": 104
+      "rows": 104,
+      "rows_enriched_with_kickoff_at": 104
     },
     "feature_inputs": {
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/world_cup_2026_fixtures.json",
       "target": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_feature_inputs_master.json",
       "fixture_rows": 104,
-      "feature_rows": 104
+      "feature_rows": 104,
+      "rows_enriched_with_kickoff_at": 208
     },
     "predictions_source": {
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/processed/predictions.json",
       "target": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_predictions_source_master.json",
-      "rows": 104
+      "rows": 104,
+      "rows_enriched_with_kickoff_at": 104
     },
     "odds_source": {
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/world-cup-predictor/backend/data/runtime/odds_snapshots.json",

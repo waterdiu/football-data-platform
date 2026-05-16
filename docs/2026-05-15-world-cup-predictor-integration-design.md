@@ -70,6 +70,20 @@
 - `predictions_source_master` 保留 predictor 旧的 `processed/predictions.json` 形状
 - `odds_source_master` 和 `context_source_master` 只记录实际存在的世界杯条目
 
+兼容层虽然保留旧形状，但平台必须补齐以下标准字段：
+
+- `kickoff_at`：来自平台标准 `fixtures.date_utc`，UTC ISO 8601
+- `date_utc`：与 `kickoff_at` 一致，便于旧代码和新代码并行消费
+- `venue_type`：`neutral` 或 `host_home`
+- `venue_id`、`venue_name`、`host_city`、`stage`、`round`、`group`
+
+发布前质量门槛：
+
+- `shared-fixtures.json` 的 `fixtures[]` 必须 `missing_kickoff_at=0`
+- `feature-inputs.json` 的 `fixtures[]` 必须 `missing_kickoff_at=0`
+- `predictions-source.json` 的 `fixtures[]` 必须 `missing_kickoff_at=0`
+- `bundle.json` 内部对应三组 fixture 也必须 `missing_kickoff_at=0`
+
 ## 5. Predictor Contract
 
 平台对 predictor 发布两层数据：

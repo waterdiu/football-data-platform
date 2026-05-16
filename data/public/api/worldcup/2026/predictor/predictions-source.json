@@ -313,7 +313,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-11T19:00:00Z",
+      "date_utc": "2026-06-11T19:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "host_home",
+      "neutral": false
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537328",
@@ -542,7 +552,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-12T02:00:00Z",
+      "date_utc": "2026-06-12T02:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537329",
@@ -771,7 +791,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-18T16:00:00Z",
+      "date_utc": "2026-06-18T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537330",
@@ -1000,7 +1030,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-19T01:00:00Z",
+      "date_utc": "2026-06-19T01:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "host_home",
+      "neutral": false
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537331",
@@ -1229,7 +1269,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-25T01:00:00Z",
+      "date_utc": "2026-06-25T01:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "host_home",
+      "neutral": false
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537332",
@@ -1458,7 +1508,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-25T01:00:00Z",
+      "date_utc": "2026-06-25T01:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537333",
@@ -1687,7 +1747,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-12T19:00:00Z",
+      "date_utc": "2026-06-12T19:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "host_home",
+      "neutral": false
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537334",
@@ -1916,7 +1986,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-13T19:00:00Z",
+      "date_utc": "2026-06-13T19:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537335",
@@ -2145,7 +2225,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-18T19:00:00Z",
+      "date_utc": "2026-06-18T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537336",
@@ -2374,7 +2464,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-18T22:00:00Z",
+      "date_utc": "2026-06-18T22:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "host_home",
+      "neutral": false
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537337",
@@ -2603,7 +2703,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-24T19:00:00Z",
+      "date_utc": "2026-06-24T19:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "host_home",
+      "neutral": false
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537338",
@@ -2832,7 +2942,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-24T19:00:00Z",
+      "date_utc": "2026-06-24T19:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537339",
@@ -3061,7 +3181,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-13T22:00:00Z",
+      "date_utc": "2026-06-13T22:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537340",
@@ -3298,7 +3428,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-14T01:00:00Z",
+      "date_utc": "2026-06-14T01:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537341",
@@ -3527,7 +3667,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-20T01:00:00Z",
+      "date_utc": "2026-06-20T01:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537342",
@@ -3756,7 +3906,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-19T22:00:00Z",
+      "date_utc": "2026-06-19T22:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537343",
@@ -3985,7 +4145,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-24T22:00:00Z",
+      "date_utc": "2026-06-24T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537344",
@@ -4214,7 +4384,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-24T22:00:00Z",
+      "date_utc": "2026-06-24T22:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537345",
@@ -4443,7 +4623,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-13T01:00:00Z",
+      "date_utc": "2026-06-13T01:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "host_home",
+      "neutral": false
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537346",
@@ -4672,7 +4862,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-14T04:00:00Z",
+      "date_utc": "2026-06-14T04:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537347",
@@ -4901,7 +5101,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-20T04:00:00Z",
+      "date_utc": "2026-06-20T04:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537348",
@@ -5130,7 +5340,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-19T19:00:00Z",
+      "date_utc": "2026-06-19T19:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "host_home",
+      "neutral": false
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537349",
@@ -5359,7 +5579,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-26T02:00:00Z",
+      "date_utc": "2026-06-26T02:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "host_home",
+      "neutral": false
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537350",
@@ -5588,7 +5818,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-26T02:00:00Z",
+      "date_utc": "2026-06-26T02:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537351",
@@ -5817,7 +6057,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-14T17:00:00Z",
+      "date_utc": "2026-06-14T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537352",
@@ -6046,7 +6296,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-14T23:00:00Z",
+      "date_utc": "2026-06-14T23:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537353",
@@ -6275,7 +6535,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-20T20:00:00Z",
+      "date_utc": "2026-06-20T20:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537354",
@@ -6504,7 +6774,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-21T00:00:00Z",
+      "date_utc": "2026-06-21T00:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537355",
@@ -6733,7 +7013,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-25T20:00:00Z",
+      "date_utc": "2026-06-25T20:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537356",
@@ -6970,7 +7260,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-25T20:00:00Z",
+      "date_utc": "2026-06-25T20:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537357",
@@ -7199,7 +7499,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-14T20:00:00Z",
+      "date_utc": "2026-06-14T20:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537358",
@@ -7428,7 +7738,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-15T02:00:00Z",
+      "date_utc": "2026-06-15T02:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537359",
@@ -7657,7 +7977,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-20T17:00:00Z",
+      "date_utc": "2026-06-20T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537360",
@@ -7886,7 +8216,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-21T04:00:00Z",
+      "date_utc": "2026-06-21T04:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537361",
@@ -8115,7 +8455,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-25T23:00:00Z",
+      "date_utc": "2026-06-25T23:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537362",
@@ -8344,7 +8694,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-25T23:00:00Z",
+      "date_utc": "2026-06-25T23:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537363",
@@ -8573,7 +8933,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-15T19:00:00Z",
+      "date_utc": "2026-06-15T19:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537364",
@@ -8802,7 +9172,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-16T01:00:00Z",
+      "date_utc": "2026-06-16T01:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537365",
@@ -9031,7 +9411,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-21T19:00:00Z",
+      "date_utc": "2026-06-21T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537366",
@@ -9260,7 +9650,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-22T01:00:00Z",
+      "date_utc": "2026-06-22T01:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537367",
@@ -9489,7 +9889,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-27T03:00:00Z",
+      "date_utc": "2026-06-27T03:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537368",
@@ -9718,7 +10128,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-27T03:00:00Z",
+      "date_utc": "2026-06-27T03:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537369",
@@ -9947,7 +10367,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-15T16:00:00Z",
+      "date_utc": "2026-06-15T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537370",
@@ -10176,7 +10606,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-15T22:00:00Z",
+      "date_utc": "2026-06-15T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537371",
@@ -10405,7 +10845,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-21T16:00:00Z",
+      "date_utc": "2026-06-21T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537372",
@@ -10634,7 +11084,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-21T22:00:00Z",
+      "date_utc": "2026-06-21T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537373",
@@ -10863,7 +11323,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-27T00:00:00Z",
+      "date_utc": "2026-06-27T00:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537374",
@@ -11092,7 +11562,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-27T00:00:00Z",
+      "date_utc": "2026-06-27T00:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537375",
@@ -11329,7 +11809,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-04T21:00:00Z",
+      "date_utc": "2026-07-04T21:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537376",
@@ -11566,7 +12055,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-04T17:00:00Z",
+      "date_utc": "2026-07-04T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537377",
@@ -11803,7 +12301,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-05T20:00:00Z",
+      "date_utc": "2026-07-05T20:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537378",
@@ -12040,7 +12547,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-06T00:00:00Z",
+      "date_utc": "2026-07-06T00:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537379",
@@ -12277,7 +12793,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-06T19:00:00Z",
+      "date_utc": "2026-07-06T19:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537380",
@@ -12514,7 +13039,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-07T00:00:00Z",
+      "date_utc": "2026-07-07T00:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537381",
@@ -12751,7 +13285,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-07T16:00:00Z",
+      "date_utc": "2026-07-07T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537382",
@@ -12988,7 +13531,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-07T20:00:00Z",
+      "date_utc": "2026-07-07T20:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537383",
@@ -13225,7 +13777,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-09T20:00:00Z",
+      "date_utc": "2026-07-09T20:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537384",
@@ -13462,7 +14023,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-10T19:00:00Z",
+      "date_utc": "2026-07-10T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537385",
@@ -13699,7 +14269,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-11T21:00:00Z",
+      "date_utc": "2026-07-11T21:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537386",
@@ -13936,7 +14515,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-12T01:00:00Z",
+      "date_utc": "2026-07-12T01:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537387",
@@ -14173,7 +14761,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-14T19:00:00Z",
+      "date_utc": "2026-07-14T19:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "semifinal",
+      "round": "Semi-finals",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537388",
@@ -14410,7 +15007,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-15T19:00:00Z",
+      "date_utc": "2026-07-15T19:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "semifinal",
+      "round": "Semi-finals",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537389",
@@ -14647,7 +15253,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-18T21:00:00Z",
+      "date_utc": "2026-07-18T21:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "third_place",
+      "round": "Match for Third Place",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537390",
@@ -14884,7 +15499,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-19T19:00:00Z",
+      "date_utc": "2026-07-19T19:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "final",
+      "round": "Final",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537391",
@@ -15113,7 +15737,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-16T19:00:00Z",
+      "date_utc": "2026-06-16T19:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537392",
@@ -15350,7 +15984,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-16T22:00:00Z",
+      "date_utc": "2026-06-16T22:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537393",
@@ -15579,7 +16223,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-22T21:00:00Z",
+      "date_utc": "2026-06-22T21:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537394",
@@ -15808,7 +16462,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-23T00:00:00Z",
+      "date_utc": "2026-06-23T00:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537395",
@@ -16037,7 +16701,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-26T19:00:00Z",
+      "date_utc": "2026-06-26T19:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537396",
@@ -16266,7 +16940,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-26T19:00:00Z",
+      "date_utc": "2026-06-26T19:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537397",
@@ -16495,7 +17179,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-17T01:00:00Z",
+      "date_utc": "2026-06-17T01:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537398",
@@ -16724,7 +17418,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-17T04:00:00Z",
+      "date_utc": "2026-06-17T04:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537399",
@@ -16953,7 +17657,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-22T17:00:00Z",
+      "date_utc": "2026-06-22T17:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537400",
@@ -17182,7 +17896,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-23T03:00:00Z",
+      "date_utc": "2026-06-23T03:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537401",
@@ -17411,7 +18135,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-28T02:00:00Z",
+      "date_utc": "2026-06-28T02:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537402",
@@ -17640,7 +18374,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-28T02:00:00Z",
+      "date_utc": "2026-06-28T02:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537403",
@@ -17869,7 +18613,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-17T17:00:00Z",
+      "date_utc": "2026-06-17T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537404",
@@ -18098,7 +18852,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-18T02:00:00Z",
+      "date_utc": "2026-06-18T02:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537405",
@@ -18327,7 +19091,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-23T17:00:00Z",
+      "date_utc": "2026-06-23T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537406",
@@ -18556,7 +19330,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-24T02:00:00Z",
+      "date_utc": "2026-06-24T02:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537407",
@@ -18785,7 +19569,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-27T23:30:00Z",
+      "date_utc": "2026-06-27T23:30:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537408",
@@ -19022,7 +19816,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-27T23:30:00Z",
+      "date_utc": "2026-06-27T23:30:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537409",
@@ -19251,7 +20055,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-17T20:00:00Z",
+      "date_utc": "2026-06-17T20:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537410",
@@ -19480,7 +20294,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-17T23:00:00Z",
+      "date_utc": "2026-06-17T23:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537411",
@@ -19709,7 +20533,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-23T20:00:00Z",
+      "date_utc": "2026-06-23T20:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537412",
@@ -19938,7 +20772,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-23T23:00:00Z",
+      "date_utc": "2026-06-23T23:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537413",
@@ -20167,7 +21011,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-27T21:00:00Z",
+      "date_utc": "2026-06-27T21:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537414",
@@ -20396,7 +21250,17 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-27T21:00:00Z",
+      "date_utc": "2026-06-27T21:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537415",
@@ -20633,7 +21497,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-29T20:30:00Z",
+      "date_utc": "2026-06-29T20:30:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537416",
@@ -20870,7 +21743,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-30T21:00:00Z",
+      "date_utc": "2026-06-30T21:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537417",
@@ -21107,7 +21989,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-28T19:00:00Z",
+      "date_utc": "2026-06-28T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537418",
@@ -21344,7 +22235,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-30T01:00:00Z",
+      "date_utc": "2026-06-30T01:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537419",
@@ -21581,7 +22481,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-02T23:00:00Z",
+      "date_utc": "2026-07-02T23:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537420",
@@ -21818,7 +22727,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-02T19:00:00Z",
+      "date_utc": "2026-07-02T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537421",
@@ -22055,7 +22973,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-02T00:00:00Z",
+      "date_utc": "2026-07-02T00:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537422",
@@ -22292,7 +23219,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-01T20:00:00Z",
+      "date_utc": "2026-07-01T20:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537423",
@@ -22529,7 +23465,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-29T17:00:00Z",
+      "date_utc": "2026-06-29T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537424",
@@ -22766,7 +23711,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-06-30T17:00:00Z",
+      "date_utc": "2026-06-30T17:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537425",
@@ -23003,7 +23957,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-01T01:00:00Z",
+      "date_utc": "2026-07-01T01:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537426",
@@ -23240,7 +24203,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-01T16:00:00Z",
+      "date_utc": "2026-07-01T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537427",
@@ -23477,7 +24449,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-03T22:00:00Z",
+      "date_utc": "2026-07-03T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537428",
@@ -23714,7 +24695,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-03T18:00:00Z",
+      "date_utc": "2026-07-03T18:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537429",
@@ -23951,7 +24941,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-03T03:00:00Z",
+      "date_utc": "2026-07-03T03:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537430",
@@ -24188,7 +25187,16 @@
           }
         },
         "latest_snapshots_count": 0
-      }
+      },
+      "kickoff_at": "2026-07-04T01:30:00Z",
+      "date_utc": "2026-07-04T01:30:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral",
+      "neutral": true
     }
   ]
 }

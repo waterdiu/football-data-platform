@@ -654,6 +654,10 @@ predictor 兼容数据当前边界：
 - `scripts/import_world_cup_predictor_local_data.py` 当前是 predictor 已下载世界杯数据的手动迁移入口
 - `scripts/publish_world_cup_predictor_api.py` 负责发布 predictor 专用 compatibility API
 - `scripts/build_world_cup_predictor_runtime_health.py` 负责发布 predictor 对接层的健康快照
+- predictor 兼容层必须从平台标准 `data/public/fixtures.json` 回填 `kickoff_at`、`date_utc`、`venue_id`、`venue_name`、`host_city`、`stage`、`round`、`group`、`venue_type`
+- `kickoff_at` 和 `date_utc` 必须使用 UTC ISO 8601；消费方只能在展示层做本地时区转换
+- `venue_type` 当前允许值为 `neutral`、`host_home`；世界杯普通场次为 `neutral`，东道主在本国球场比赛为 `host_home`
+- `shared-fixtures.json`、`feature-inputs.json`、`predictions-source.json` 以及 `bundle.json` 中对应 fixture 列表发布前必须满足 `missing_kickoff_at=0`
 
 截至 2026-05-16，`world-cup-predictor` Phase 3 full cutover 已完成：
 
@@ -668,6 +672,7 @@ predictor 兼容数据当前边界：
 - 最新模型侧回报：`generate_predictions.py` 在严格平台模式下成功生成 104 场世界杯预测并写入平台 inbox
 - 最新模型侧回报：世界杯本地赔率/上下文采集默认停用，返回 `delegated_to_platform`
 - 当前平台 runtime 缺口：`odds_snapshots`、`lineups`、`injuries`、`weather`
+- 截至 2026-05-17，世界杯 predictor compatibility API 已补齐 104 场 `kickoff_at`，平台发布报告显示 `shared_fixtures_missing_kickoff_at=0`、`feature_inputs_missing_kickoff_at=0`、`predictions_source_missing_kickoff_at=0`；模型侧 health-check 返回 `missing_kickoff_count=0`
 - 当前模型输出 runtime confidence 约为 `0.1074`，后续提升依赖平台补齐 runtime 数据
 
 predictor phase 2 写回边界：

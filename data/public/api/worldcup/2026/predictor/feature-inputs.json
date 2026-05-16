@@ -8,7 +8,16 @@
       "away_team": "South Africa",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": false
+      "neutral": false,
+      "kickoff_at": "2026-06-11T19:00:00Z",
+      "date_utc": "2026-06-11T19:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "host_home"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537328",
@@ -17,7 +26,16 @@
       "away_team": "Czech Republic",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-12T02:00:00Z",
+      "date_utc": "2026-06-12T02:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537329",
@@ -26,7 +44,16 @@
       "away_team": "South Africa",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-18T16:00:00Z",
+      "date_utc": "2026-06-18T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537330",
@@ -35,7 +62,16 @@
       "away_team": "South Korea",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": false
+      "neutral": false,
+      "kickoff_at": "2026-06-19T01:00:00Z",
+      "date_utc": "2026-06-19T01:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "host_home"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537331",
@@ -44,7 +80,16 @@
       "away_team": "Mexico",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-25T01:00:00Z",
+      "date_utc": "2026-06-25T01:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "host_home"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537332",
@@ -53,7 +98,16 @@
       "away_team": "South Korea",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-25T01:00:00Z",
+      "date_utc": "2026-06-25T01:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537333",
@@ -62,7 +116,16 @@
       "away_team": "Bosnia and Herzegovina",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": false
+      "neutral": false,
+      "kickoff_at": "2026-06-12T19:00:00Z",
+      "date_utc": "2026-06-12T19:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "host_home"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537334",
@@ -71,7 +134,16 @@
       "away_team": "Switzerland",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-13T19:00:00Z",
+      "date_utc": "2026-06-13T19:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537335",
@@ -80,7 +152,16 @@
       "away_team": "Bosnia and Herzegovina",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-18T19:00:00Z",
+      "date_utc": "2026-06-18T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537336",
@@ -89,7 +170,16 @@
       "away_team": "Qatar",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": false
+      "neutral": false,
+      "kickoff_at": "2026-06-18T22:00:00Z",
+      "date_utc": "2026-06-18T22:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "host_home"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537337",
@@ -98,7 +188,16 @@
       "away_team": "Canada",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-24T19:00:00Z",
+      "date_utc": "2026-06-24T19:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "host_home"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537338",
@@ -107,7 +206,16 @@
       "away_team": "Qatar",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-24T19:00:00Z",
+      "date_utc": "2026-06-24T19:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537339",
@@ -116,7 +224,16 @@
       "away_team": "Morocco",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-13T22:00:00Z",
+      "date_utc": "2026-06-13T22:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537340",
@@ -125,7 +242,16 @@
       "away_team": "Scotland",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-14T01:00:00Z",
+      "date_utc": "2026-06-14T01:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537341",
@@ -134,7 +260,16 @@
       "away_team": "Haiti",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-20T01:00:00Z",
+      "date_utc": "2026-06-20T01:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537342",
@@ -143,7 +278,16 @@
       "away_team": "Morocco",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-19T22:00:00Z",
+      "date_utc": "2026-06-19T22:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537343",
@@ -152,7 +296,16 @@
       "away_team": "Brazil",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-24T22:00:00Z",
+      "date_utc": "2026-06-24T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537344",
@@ -161,7 +314,16 @@
       "away_team": "Haiti",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-24T22:00:00Z",
+      "date_utc": "2026-06-24T22:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537345",
@@ -170,7 +332,16 @@
       "away_team": "Paraguay",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": false
+      "neutral": false,
+      "kickoff_at": "2026-06-13T01:00:00Z",
+      "date_utc": "2026-06-13T01:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "host_home"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537346",
@@ -179,7 +350,16 @@
       "away_team": "Turkey",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-14T04:00:00Z",
+      "date_utc": "2026-06-14T04:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537347",
@@ -188,7 +368,16 @@
       "away_team": "Paraguay",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-20T04:00:00Z",
+      "date_utc": "2026-06-20T04:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537348",
@@ -197,7 +386,16 @@
       "away_team": "Australia",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": false
+      "neutral": false,
+      "kickoff_at": "2026-06-19T19:00:00Z",
+      "date_utc": "2026-06-19T19:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "host_home"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537349",
@@ -206,7 +404,16 @@
       "away_team": "United States",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-26T02:00:00Z",
+      "date_utc": "2026-06-26T02:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "host_home"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537350",
@@ -215,7 +422,16 @@
       "away_team": "Australia",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-26T02:00:00Z",
+      "date_utc": "2026-06-26T02:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537351",
@@ -224,7 +440,16 @@
       "away_team": "Curacao",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-14T17:00:00Z",
+      "date_utc": "2026-06-14T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537352",
@@ -233,7 +458,16 @@
       "away_team": "Ecuador",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-14T23:00:00Z",
+      "date_utc": "2026-06-14T23:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537353",
@@ -242,7 +476,16 @@
       "away_team": "Ivory Coast",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-20T20:00:00Z",
+      "date_utc": "2026-06-20T20:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537354",
@@ -251,7 +494,16 @@
       "away_team": "Curacao",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-21T00:00:00Z",
+      "date_utc": "2026-06-21T00:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537355",
@@ -260,7 +512,16 @@
       "away_team": "Germany",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-25T20:00:00Z",
+      "date_utc": "2026-06-25T20:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537356",
@@ -269,7 +530,16 @@
       "away_team": "Ivory Coast",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-25T20:00:00Z",
+      "date_utc": "2026-06-25T20:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537357",
@@ -278,7 +548,16 @@
       "away_team": "Japan",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-14T20:00:00Z",
+      "date_utc": "2026-06-14T20:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537358",
@@ -287,7 +566,16 @@
       "away_team": "Tunisia",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-15T02:00:00Z",
+      "date_utc": "2026-06-15T02:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537359",
@@ -296,7 +584,16 @@
       "away_team": "Sweden",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-20T17:00:00Z",
+      "date_utc": "2026-06-20T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537360",
@@ -305,7 +602,16 @@
       "away_team": "Japan",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-21T04:00:00Z",
+      "date_utc": "2026-06-21T04:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537361",
@@ -314,7 +620,16 @@
       "away_team": "Netherlands",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-25T23:00:00Z",
+      "date_utc": "2026-06-25T23:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537362",
@@ -323,7 +638,16 @@
       "away_team": "Sweden",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-25T23:00:00Z",
+      "date_utc": "2026-06-25T23:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537363",
@@ -332,7 +656,16 @@
       "away_team": "Egypt",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-15T19:00:00Z",
+      "date_utc": "2026-06-15T19:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537364",
@@ -341,7 +674,16 @@
       "away_team": "New Zealand",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-16T01:00:00Z",
+      "date_utc": "2026-06-16T01:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537365",
@@ -350,7 +692,16 @@
       "away_team": "Iran",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-21T19:00:00Z",
+      "date_utc": "2026-06-21T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537366",
@@ -359,7 +710,16 @@
       "away_team": "Egypt",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-22T01:00:00Z",
+      "date_utc": "2026-06-22T01:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537367",
@@ -368,7 +728,16 @@
       "away_team": "Belgium",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-27T03:00:00Z",
+      "date_utc": "2026-06-27T03:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537368",
@@ -377,7 +746,16 @@
       "away_team": "Iran",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-27T03:00:00Z",
+      "date_utc": "2026-06-27T03:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537369",
@@ -386,7 +764,16 @@
       "away_team": "Cape Verde",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-15T16:00:00Z",
+      "date_utc": "2026-06-15T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537370",
@@ -395,7 +782,16 @@
       "away_team": "Uruguay",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-15T22:00:00Z",
+      "date_utc": "2026-06-15T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537371",
@@ -404,7 +800,16 @@
       "away_team": "Saudi Arabia",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-21T16:00:00Z",
+      "date_utc": "2026-06-21T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537372",
@@ -413,7 +818,16 @@
       "away_team": "Cape Verde",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-21T22:00:00Z",
+      "date_utc": "2026-06-21T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537373",
@@ -422,7 +836,16 @@
       "away_team": "Spain",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-27T00:00:00Z",
+      "date_utc": "2026-06-27T00:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537374",
@@ -431,7 +854,16 @@
       "away_team": "Saudi Arabia",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-27T00:00:00Z",
+      "date_utc": "2026-06-27T00:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537375",
@@ -440,7 +872,15 @@
       "away_team": "Winner of Match 77",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-04T21:00:00Z",
+      "date_utc": "2026-07-04T21:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537376",
@@ -449,7 +889,15 @@
       "away_team": "Winner of Match 75",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-04T17:00:00Z",
+      "date_utc": "2026-07-04T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537377",
@@ -458,7 +906,15 @@
       "away_team": "Winner of Match 78",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-05T20:00:00Z",
+      "date_utc": "2026-07-05T20:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537378",
@@ -467,7 +923,15 @@
       "away_team": "Winner of Match 80",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-06T00:00:00Z",
+      "date_utc": "2026-07-06T00:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537379",
@@ -476,7 +940,15 @@
       "away_team": "Winner of Match 84",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-06T19:00:00Z",
+      "date_utc": "2026-07-06T19:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537380",
@@ -485,7 +957,15 @@
       "away_team": "Winner of Match 82",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-07T00:00:00Z",
+      "date_utc": "2026-07-07T00:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537381",
@@ -494,7 +974,15 @@
       "away_team": "Winner of Match 88",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-07T16:00:00Z",
+      "date_utc": "2026-07-07T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537382",
@@ -503,7 +991,15 @@
       "away_team": "Winner of Match 87",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-07T20:00:00Z",
+      "date_utc": "2026-07-07T20:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537383",
@@ -512,7 +1008,15 @@
       "away_team": "Winner of Match 90",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-09T20:00:00Z",
+      "date_utc": "2026-07-09T20:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537384",
@@ -521,7 +1025,15 @@
       "away_team": "Winner of Match 94",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-10T19:00:00Z",
+      "date_utc": "2026-07-10T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537385",
@@ -530,7 +1042,15 @@
       "away_team": "Winner of Match 92",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-11T21:00:00Z",
+      "date_utc": "2026-07-11T21:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537386",
@@ -539,7 +1059,15 @@
       "away_team": "Winner of Match 96",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-12T01:00:00Z",
+      "date_utc": "2026-07-12T01:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537387",
@@ -548,7 +1076,15 @@
       "away_team": "Winner of Match 98",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-14T19:00:00Z",
+      "date_utc": "2026-07-14T19:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "semifinal",
+      "round": "Semi-finals",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537388",
@@ -557,7 +1093,15 @@
       "away_team": "Winner of Match 100",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-15T19:00:00Z",
+      "date_utc": "2026-07-15T19:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "semifinal",
+      "round": "Semi-finals",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537389",
@@ -566,7 +1110,15 @@
       "away_team": "Loser of Match 102",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-18T21:00:00Z",
+      "date_utc": "2026-07-18T21:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "third_place",
+      "round": "Match for Third Place",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537390",
@@ -575,7 +1127,15 @@
       "away_team": "Winner of Match 102",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-19T19:00:00Z",
+      "date_utc": "2026-07-19T19:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "final",
+      "round": "Final",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537391",
@@ -584,7 +1144,16 @@
       "away_team": "Senegal",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-16T19:00:00Z",
+      "date_utc": "2026-06-16T19:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537392",
@@ -593,7 +1162,16 @@
       "away_team": "Norway",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-16T22:00:00Z",
+      "date_utc": "2026-06-16T22:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537393",
@@ -602,7 +1180,16 @@
       "away_team": "Iraq",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-22T21:00:00Z",
+      "date_utc": "2026-06-22T21:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537394",
@@ -611,7 +1198,16 @@
       "away_team": "Senegal",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-23T00:00:00Z",
+      "date_utc": "2026-06-23T00:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537395",
@@ -620,7 +1216,16 @@
       "away_team": "France",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-26T19:00:00Z",
+      "date_utc": "2026-06-26T19:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537396",
@@ -629,7 +1234,16 @@
       "away_team": "Iraq",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-26T19:00:00Z",
+      "date_utc": "2026-06-26T19:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537397",
@@ -638,7 +1252,16 @@
       "away_team": "Algeria",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-17T01:00:00Z",
+      "date_utc": "2026-06-17T01:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537398",
@@ -647,7 +1270,16 @@
       "away_team": "Jordan",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-17T04:00:00Z",
+      "date_utc": "2026-06-17T04:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537399",
@@ -656,7 +1288,16 @@
       "away_team": "Austria",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-22T17:00:00Z",
+      "date_utc": "2026-06-22T17:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537400",
@@ -665,7 +1306,16 @@
       "away_team": "Algeria",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-23T03:00:00Z",
+      "date_utc": "2026-06-23T03:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537401",
@@ -674,7 +1324,16 @@
       "away_team": "Argentina",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-28T02:00:00Z",
+      "date_utc": "2026-06-28T02:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537402",
@@ -683,7 +1342,16 @@
       "away_team": "Austria",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-28T02:00:00Z",
+      "date_utc": "2026-06-28T02:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537403",
@@ -692,7 +1360,16 @@
       "away_team": "DR Congo",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-17T17:00:00Z",
+      "date_utc": "2026-06-17T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537404",
@@ -701,7 +1378,16 @@
       "away_team": "Colombia",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-18T02:00:00Z",
+      "date_utc": "2026-06-18T02:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537405",
@@ -710,7 +1396,16 @@
       "away_team": "Uzbekistan",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-23T17:00:00Z",
+      "date_utc": "2026-06-23T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537406",
@@ -719,7 +1414,16 @@
       "away_team": "DR Congo",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-24T02:00:00Z",
+      "date_utc": "2026-06-24T02:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537407",
@@ -728,7 +1432,16 @@
       "away_team": "Portugal",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-27T23:30:00Z",
+      "date_utc": "2026-06-27T23:30:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537408",
@@ -737,7 +1450,16 @@
       "away_team": "Uzbekistan",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-27T23:30:00Z",
+      "date_utc": "2026-06-27T23:30:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537409",
@@ -746,7 +1468,16 @@
       "away_team": "Croatia",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-17T20:00:00Z",
+      "date_utc": "2026-06-17T20:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537410",
@@ -755,7 +1486,16 @@
       "away_team": "Panama",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-17T23:00:00Z",
+      "date_utc": "2026-06-17T23:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537411",
@@ -764,7 +1504,16 @@
       "away_team": "Ghana",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-23T20:00:00Z",
+      "date_utc": "2026-06-23T20:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537412",
@@ -773,7 +1522,16 @@
       "away_team": "Croatia",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-23T23:00:00Z",
+      "date_utc": "2026-06-23T23:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537413",
@@ -782,7 +1540,16 @@
       "away_team": "England",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-27T21:00:00Z",
+      "date_utc": "2026-06-27T21:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537414",
@@ -791,7 +1558,16 @@
       "away_team": "Ghana",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-27T21:00:00Z",
+      "date_utc": "2026-06-27T21:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537415",
@@ -800,7 +1576,15 @@
       "away_team": "Best Third-Place Team from A/B/C/D/F",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-29T20:30:00Z",
+      "date_utc": "2026-06-29T20:30:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537416",
@@ -809,7 +1593,15 @@
       "away_team": "Best Third-Place Team from C/D/F/G/H",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-30T21:00:00Z",
+      "date_utc": "2026-06-30T21:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537417",
@@ -818,7 +1610,15 @@
       "away_team": "Group B Runner-up",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-28T19:00:00Z",
+      "date_utc": "2026-06-28T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537418",
@@ -827,7 +1627,15 @@
       "away_team": "Group C Runner-up",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-30T01:00:00Z",
+      "date_utc": "2026-06-30T01:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537419",
@@ -836,7 +1644,15 @@
       "away_team": "Group L Runner-up",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-02T23:00:00Z",
+      "date_utc": "2026-07-02T23:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537420",
@@ -845,7 +1661,15 @@
       "away_team": "Group J Runner-up",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-02T19:00:00Z",
+      "date_utc": "2026-07-02T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537421",
@@ -854,7 +1678,15 @@
       "away_team": "Best Third-Place Team from B/E/F/I/J",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-02T00:00:00Z",
+      "date_utc": "2026-07-02T00:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537422",
@@ -863,7 +1695,15 @@
       "away_team": "Best Third-Place Team from A/E/H/I/J",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-01T20:00:00Z",
+      "date_utc": "2026-07-01T20:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537423",
@@ -872,7 +1712,15 @@
       "away_team": "Group F Runner-up",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-29T17:00:00Z",
+      "date_utc": "2026-06-29T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537424",
@@ -881,7 +1729,15 @@
       "away_team": "Group I Runner-up",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-06-30T17:00:00Z",
+      "date_utc": "2026-06-30T17:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537425",
@@ -890,7 +1746,15 @@
       "away_team": "Best Third-Place Team from C/E/F/H/I",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-01T01:00:00Z",
+      "date_utc": "2026-07-01T01:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537426",
@@ -899,7 +1763,15 @@
       "away_team": "Best Third-Place Team from E/H/I/J/K",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-01T16:00:00Z",
+      "date_utc": "2026-07-01T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537427",
@@ -908,7 +1780,15 @@
       "away_team": "Group H Runner-up",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-03T22:00:00Z",
+      "date_utc": "2026-07-03T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537428",
@@ -917,7 +1797,15 @@
       "away_team": "Group G Runner-up",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-03T18:00:00Z",
+      "date_utc": "2026-07-03T18:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537429",
@@ -926,7 +1814,15 @@
       "away_team": "Best Third-Place Team from E/F/G/I/J",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-03T03:00:00Z",
+      "date_utc": "2026-07-03T03:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537430",
@@ -935,7 +1831,15 @@
       "away_team": "Best Third-Place Team from D/E/I/J/L",
       "competition_group": "world_cup",
       "competition_weight": 1.0,
-      "neutral": true
+      "neutral": true,
+      "kickoff_at": "2026-07-04T01:30:00Z",
+      "date_utc": "2026-07-04T01:30:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     }
   ],
   "features": [
@@ -1098,7 +2002,17 @@
       "away_home_xg_avg_20": 2.8289333333333335,
       "away_home_xga_avg_20": 2.9174333333333333,
       "away_away_xg_avg_20": 2.689575,
-      "away_away_xga_avg_20": 3.81715
+      "away_away_xga_avg_20": 3.81715,
+      "match_id": "fifa_world_cup:2026:fdorg:537327",
+      "kickoff_at": "2026-06-11T19:00:00Z",
+      "date_utc": "2026-06-11T19:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "host_home"
     },
     {
       "date": "2026-06-12",
@@ -1259,7 +2173,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537328",
+      "kickoff_at": "2026-06-12T02:00:00Z",
+      "date_utc": "2026-06-12T02:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-18",
@@ -1420,7 +2344,17 @@
       "away_home_xg_avg_20": 2.8289333333333335,
       "away_home_xga_avg_20": 2.9174333333333333,
       "away_away_xg_avg_20": 2.689575,
-      "away_away_xga_avg_20": 3.81715
+      "away_away_xga_avg_20": 3.81715,
+      "match_id": "fifa_world_cup:2026:fdorg:537329",
+      "kickoff_at": "2026-06-18T16:00:00Z",
+      "date_utc": "2026-06-18T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-19",
@@ -1581,7 +2515,17 @@
       "away_home_xg_avg_20": 1.33945,
       "away_home_xga_avg_20": 1.685225,
       "away_away_xg_avg_20": 0.4174,
-      "away_away_xga_avg_20": 1.8979333333333333
+      "away_away_xga_avg_20": 1.8979333333333333,
+      "match_id": "fifa_world_cup:2026:fdorg:537330",
+      "kickoff_at": "2026-06-19T01:00:00Z",
+      "date_utc": "2026-06-19T01:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "host_home"
     },
     {
       "date": "2026-06-25",
@@ -1742,7 +2686,17 @@
       "away_home_xg_avg_20": 1.053375,
       "away_home_xga_avg_20": 1.1851,
       "away_away_xg_avg_20": 1.39445,
-      "away_away_xga_avg_20": 1.496
+      "away_away_xga_avg_20": 1.496,
+      "match_id": "fifa_world_cup:2026:fdorg:537331",
+      "kickoff_at": "2026-06-25T01:00:00Z",
+      "date_utc": "2026-06-25T01:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "host_home"
     },
     {
       "date": "2026-06-25",
@@ -1903,7 +2857,17 @@
       "away_home_xg_avg_20": 1.33945,
       "away_home_xga_avg_20": 1.685225,
       "away_away_xg_avg_20": 0.4174,
-      "away_away_xga_avg_20": 1.8979333333333333
+      "away_away_xga_avg_20": 1.8979333333333333,
+      "match_id": "fifa_world_cup:2026:fdorg:537332",
+      "kickoff_at": "2026-06-25T01:00:00Z",
+      "date_utc": "2026-06-25T01:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "A",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-12",
@@ -2064,7 +3028,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537333",
+      "kickoff_at": "2026-06-12T19:00:00Z",
+      "date_utc": "2026-06-12T19:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "host_home"
     },
     {
       "date": "2026-06-13",
@@ -2225,7 +3199,17 @@
       "away_home_xg_avg_20": 1.3115,
       "away_home_xga_avg_20": 1.0946500000000001,
       "away_away_xg_avg_20": 1.6516714285714285,
-      "away_away_xga_avg_20": 1.8282142857142858
+      "away_away_xga_avg_20": 1.8282142857142858,
+      "match_id": "fifa_world_cup:2026:fdorg:537334",
+      "kickoff_at": "2026-06-13T19:00:00Z",
+      "date_utc": "2026-06-13T19:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-18",
@@ -2386,7 +3370,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537335",
+      "kickoff_at": "2026-06-18T19:00:00Z",
+      "date_utc": "2026-06-18T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-18",
@@ -2547,7 +3541,17 @@
       "away_home_xg_avg_20": 0.63215,
       "away_home_xga_avg_20": 1.0285,
       "away_away_xg_avg_20": 0.1437,
-      "away_away_xga_avg_20": 1.714
+      "away_away_xga_avg_20": 1.714,
+      "match_id": "fifa_world_cup:2026:fdorg:537336",
+      "kickoff_at": "2026-06-18T22:00:00Z",
+      "date_utc": "2026-06-18T22:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "host_home"
     },
     {
       "date": "2026-06-24",
@@ -2708,7 +3712,17 @@
       "away_home_xg_avg_20": 2.6668000000000003,
       "away_home_xga_avg_20": 1.8436000000000001,
       "away_away_xg_avg_20": 1.90835,
-      "away_away_xga_avg_20": 2.4623666666666666
+      "away_away_xga_avg_20": 2.4623666666666666,
+      "match_id": "fifa_world_cup:2026:fdorg:537337",
+      "kickoff_at": "2026-06-24T19:00:00Z",
+      "date_utc": "2026-06-24T19:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "host_home"
     },
     {
       "date": "2026-06-24",
@@ -2869,7 +3883,17 @@
       "away_home_xg_avg_20": 0.63215,
       "away_home_xga_avg_20": 1.0285,
       "away_away_xg_avg_20": 0.1437,
-      "away_away_xga_avg_20": 1.714
+      "away_away_xga_avg_20": 1.714,
+      "match_id": "fifa_world_cup:2026:fdorg:537338",
+      "kickoff_at": "2026-06-24T19:00:00Z",
+      "date_utc": "2026-06-24T19:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "B",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-13",
@@ -3030,7 +4054,17 @@
       "away_home_xg_avg_20": 1.6490714285714285,
       "away_home_xga_avg_20": 1.0999857142857143,
       "away_away_xg_avg_20": 1.2268285714285714,
-      "away_away_xga_avg_20": 1.2170571428571428
+      "away_away_xga_avg_20": 1.2170571428571428,
+      "match_id": "fifa_world_cup:2026:fdorg:537339",
+      "kickoff_at": "2026-06-13T22:00:00Z",
+      "date_utc": "2026-06-13T22:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-14",
@@ -3191,7 +4225,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537340",
+      "kickoff_at": "2026-06-14T01:00:00Z",
+      "date_utc": "2026-06-14T01:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-20",
@@ -3352,7 +4396,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537341",
+      "kickoff_at": "2026-06-20T01:00:00Z",
+      "date_utc": "2026-06-20T01:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-19",
@@ -3513,7 +4567,17 @@
       "away_home_xg_avg_20": 1.6490714285714285,
       "away_home_xga_avg_20": 1.0999857142857143,
       "away_away_xg_avg_20": 1.2268285714285714,
-      "away_away_xga_avg_20": 1.2170571428571428
+      "away_away_xga_avg_20": 1.2170571428571428,
+      "match_id": "fifa_world_cup:2026:fdorg:537342",
+      "kickoff_at": "2026-06-19T22:00:00Z",
+      "date_utc": "2026-06-19T22:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-24",
@@ -3674,7 +4738,17 @@
       "away_home_xg_avg_20": 2.1271,
       "away_home_xga_avg_20": 0.43947777777777774,
       "away_away_xg_avg_20": 3.26128,
-      "away_away_xga_avg_20": 2.06742
+      "away_away_xga_avg_20": 2.06742,
+      "match_id": "fifa_world_cup:2026:fdorg:537343",
+      "kickoff_at": "2026-06-24T22:00:00Z",
+      "date_utc": "2026-06-24T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-24",
@@ -3835,7 +4909,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537344",
+      "kickoff_at": "2026-06-24T22:00:00Z",
+      "date_utc": "2026-06-24T22:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "C",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-13",
@@ -3996,7 +5080,17 @@
       "away_home_xg_avg_20": 0.6917,
       "away_home_xga_avg_20": 3.7477,
       "away_away_xg_avg_20": 1.13385,
-      "away_away_xga_avg_20": 0.447
+      "away_away_xga_avg_20": 0.447,
+      "match_id": "fifa_world_cup:2026:fdorg:537345",
+      "kickoff_at": "2026-06-13T01:00:00Z",
+      "date_utc": "2026-06-13T01:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "host_home"
     },
     {
       "date": "2026-06-14",
@@ -4157,7 +5251,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 1.0324499999999999,
-      "away_away_xga_avg_20": 1.6034
+      "away_away_xga_avg_20": 1.6034,
+      "match_id": "fifa_world_cup:2026:fdorg:537346",
+      "kickoff_at": "2026-06-14T04:00:00Z",
+      "date_utc": "2026-06-14T04:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-20",
@@ -4318,7 +5422,17 @@
       "away_home_xg_avg_20": 0.6917,
       "away_home_xga_avg_20": 3.7477,
       "away_away_xg_avg_20": 1.13385,
-      "away_away_xga_avg_20": 0.447
+      "away_away_xga_avg_20": 0.447,
+      "match_id": "fifa_world_cup:2026:fdorg:537347",
+      "kickoff_at": "2026-06-20T04:00:00Z",
+      "date_utc": "2026-06-20T04:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-19",
@@ -4479,7 +5593,17 @@
       "away_home_xg_avg_20": 1.0625,
       "away_home_xga_avg_20": 0.5367999999999999,
       "away_away_xg_avg_20": 0.70012,
-      "away_away_xga_avg_20": 1.65606
+      "away_away_xga_avg_20": 1.65606,
+      "match_id": "fifa_world_cup:2026:fdorg:537348",
+      "kickoff_at": "2026-06-19T19:00:00Z",
+      "date_utc": "2026-06-19T19:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "host_home"
     },
     {
       "date": "2026-06-26",
@@ -4640,7 +5764,17 @@
       "away_home_xg_avg_20": 1.1594,
       "away_home_xga_avg_20": 0.9388333333333334,
       "away_away_xg_avg_20": 1.0626,
-      "away_away_xga_avg_20": 0.898525
+      "away_away_xga_avg_20": 0.898525,
+      "match_id": "fifa_world_cup:2026:fdorg:537349",
+      "kickoff_at": "2026-06-26T02:00:00Z",
+      "date_utc": "2026-06-26T02:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "host_home"
     },
     {
       "date": "2026-06-26",
@@ -4801,7 +5935,17 @@
       "away_home_xg_avg_20": 1.0625,
       "away_home_xga_avg_20": 0.5367999999999999,
       "away_away_xg_avg_20": 0.70012,
-      "away_away_xga_avg_20": 1.65606
+      "away_away_xga_avg_20": 1.65606,
+      "match_id": "fifa_world_cup:2026:fdorg:537350",
+      "kickoff_at": "2026-06-26T02:00:00Z",
+      "date_utc": "2026-06-26T02:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "D",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-14",
@@ -4962,7 +6106,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537351",
+      "kickoff_at": "2026-06-14T17:00:00Z",
+      "date_utc": "2026-06-14T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-14",
@@ -5123,7 +6277,17 @@
       "away_home_xg_avg_20": 1.3563,
       "away_home_xga_avg_20": 1.4090666666666667,
       "away_away_xg_avg_20": 1.90835,
-      "away_away_xga_avg_20": 1.53075
+      "away_away_xga_avg_20": 1.53075,
+      "match_id": "fifa_world_cup:2026:fdorg:537352",
+      "kickoff_at": "2026-06-14T23:00:00Z",
+      "date_utc": "2026-06-14T23:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-20",
@@ -5284,7 +6448,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537353",
+      "kickoff_at": "2026-06-20T20:00:00Z",
+      "date_utc": "2026-06-20T20:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-21",
@@ -5445,7 +6619,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537354",
+      "kickoff_at": "2026-06-21T00:00:00Z",
+      "date_utc": "2026-06-21T00:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-25",
@@ -5606,7 +6790,17 @@
       "away_home_xg_avg_20": 2.1284666666666667,
       "away_home_xga_avg_20": 1.0192666666666668,
       "away_away_xg_avg_20": 2.450275,
-      "away_away_xga_avg_20": 1.245725
+      "away_away_xga_avg_20": 1.245725,
+      "match_id": "fifa_world_cup:2026:fdorg:537355",
+      "kickoff_at": "2026-06-25T20:00:00Z",
+      "date_utc": "2026-06-25T20:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-25",
@@ -5767,7 +6961,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537356",
+      "kickoff_at": "2026-06-25T20:00:00Z",
+      "date_utc": "2026-06-25T20:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "E",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-14",
@@ -5928,7 +7132,17 @@
       "away_home_xg_avg_20": 1.60584,
       "away_home_xga_avg_20": 1.5929,
       "away_away_xg_avg_20": 1.4212666666666667,
-      "away_away_xga_avg_20": 2.1640333333333333
+      "away_away_xga_avg_20": 2.1640333333333333,
+      "match_id": "fifa_world_cup:2026:fdorg:537357",
+      "kickoff_at": "2026-06-14T20:00:00Z",
+      "date_utc": "2026-06-14T20:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-15",
@@ -6089,7 +7303,17 @@
       "away_home_xg_avg_20": 0.73938,
       "away_home_xga_avg_20": 1.18366,
       "away_away_xg_avg_20": 1.529575,
-      "away_away_xga_avg_20": 2.02855
+      "away_away_xga_avg_20": 2.02855,
+      "match_id": "fifa_world_cup:2026:fdorg:537358",
+      "kickoff_at": "2026-06-15T02:00:00Z",
+      "date_utc": "2026-06-15T02:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-20",
@@ -6250,7 +7474,17 @@
       "away_home_xg_avg_20": 1.2532999999999999,
       "away_home_xga_avg_20": 0.5685333333333333,
       "away_away_xg_avg_20": 1.80285,
-      "away_away_xga_avg_20": 1.4644
+      "away_away_xga_avg_20": 1.4644,
+      "match_id": "fifa_world_cup:2026:fdorg:537359",
+      "kickoff_at": "2026-06-20T17:00:00Z",
+      "date_utc": "2026-06-20T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-21",
@@ -6411,7 +7645,17 @@
       "away_home_xg_avg_20": 1.60584,
       "away_home_xga_avg_20": 1.5929,
       "away_away_xg_avg_20": 1.4212666666666667,
-      "away_away_xga_avg_20": 2.1640333333333333
+      "away_away_xga_avg_20": 2.1640333333333333,
+      "match_id": "fifa_world_cup:2026:fdorg:537360",
+      "kickoff_at": "2026-06-21T04:00:00Z",
+      "date_utc": "2026-06-21T04:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-25",
@@ -6572,7 +7816,17 @@
       "away_home_xg_avg_20": 1.4898142857142858,
       "away_home_xga_avg_20": 1.8281714285714286,
       "away_away_xg_avg_20": 1.8750499999999999,
-      "away_away_xga_avg_20": 0.4796
+      "away_away_xga_avg_20": 0.4796,
+      "match_id": "fifa_world_cup:2026:fdorg:537361",
+      "kickoff_at": "2026-06-25T23:00:00Z",
+      "date_utc": "2026-06-25T23:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-25",
@@ -6733,7 +7987,17 @@
       "away_home_xg_avg_20": 1.2532999999999999,
       "away_home_xga_avg_20": 0.5685333333333333,
       "away_away_xg_avg_20": 1.80285,
-      "away_away_xga_avg_20": 1.4644
+      "away_away_xga_avg_20": 1.4644,
+      "match_id": "fifa_world_cup:2026:fdorg:537362",
+      "kickoff_at": "2026-06-25T23:00:00Z",
+      "date_utc": "2026-06-25T23:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "F",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-15",
@@ -6894,7 +8158,17 @@
       "away_home_xg_avg_20": 2.9803499999999996,
       "away_home_xga_avg_20": 2.930425,
       "away_away_xg_avg_20": 1.4619,
-      "away_away_xga_avg_20": 1.3113333333333332
+      "away_away_xga_avg_20": 1.3113333333333332,
+      "match_id": "fifa_world_cup:2026:fdorg:537363",
+      "kickoff_at": "2026-06-15T19:00:00Z",
+      "date_utc": "2026-06-15T19:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-16",
@@ -7055,7 +8329,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537364",
+      "kickoff_at": "2026-06-16T01:00:00Z",
+      "date_utc": "2026-06-16T01:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-21",
@@ -7216,7 +8500,17 @@
       "away_home_xg_avg_20": 0.9747666666666667,
       "away_home_xga_avg_20": 1.6297,
       "away_away_xg_avg_20": 1.2024333333333332,
-      "away_away_xga_avg_20": 1.2206666666666668
+      "away_away_xga_avg_20": 1.2206666666666668,
+      "match_id": "fifa_world_cup:2026:fdorg:537365",
+      "kickoff_at": "2026-06-21T19:00:00Z",
+      "date_utc": "2026-06-21T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-22",
@@ -7377,7 +8671,17 @@
       "away_home_xg_avg_20": 2.9803499999999996,
       "away_home_xga_avg_20": 2.930425,
       "away_away_xg_avg_20": 1.4619,
-      "away_away_xga_avg_20": 1.3113333333333332
+      "away_away_xga_avg_20": 1.3113333333333332,
+      "match_id": "fifa_world_cup:2026:fdorg:537366",
+      "kickoff_at": "2026-06-22T01:00:00Z",
+      "date_utc": "2026-06-22T01:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-27",
@@ -7538,7 +8842,17 @@
       "away_home_xg_avg_20": 2.0166,
       "away_home_xga_avg_20": 1.2300166666666665,
       "away_away_xg_avg_20": 0.8860833333333333,
-      "away_away_xga_avg_20": 1.3596333333333332
+      "away_away_xga_avg_20": 1.3596333333333332,
+      "match_id": "fifa_world_cup:2026:fdorg:537367",
+      "kickoff_at": "2026-06-27T03:00:00Z",
+      "date_utc": "2026-06-27T03:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-27",
@@ -7699,7 +9013,17 @@
       "away_home_xg_avg_20": 0.9747666666666667,
       "away_home_xga_avg_20": 1.6297,
       "away_away_xg_avg_20": 1.2024333333333332,
-      "away_away_xga_avg_20": 1.2206666666666668
+      "away_away_xga_avg_20": 1.2206666666666668,
+      "match_id": "fifa_world_cup:2026:fdorg:537368",
+      "kickoff_at": "2026-06-27T03:00:00Z",
+      "date_utc": "2026-06-27T03:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "G",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-15",
@@ -7860,7 +9184,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537369",
+      "kickoff_at": "2026-06-15T16:00:00Z",
+      "date_utc": "2026-06-15T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-15",
@@ -8021,7 +9355,17 @@
       "away_home_xg_avg_20": 1.6511333333333333,
       "away_home_xga_avg_20": 0.8977666666666666,
       "away_away_xg_avg_20": 2.1432,
-      "away_away_xga_avg_20": 1.92944
+      "away_away_xga_avg_20": 1.92944,
+      "match_id": "fifa_world_cup:2026:fdorg:537370",
+      "kickoff_at": "2026-06-15T22:00:00Z",
+      "date_utc": "2026-06-15T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-21",
@@ -8182,7 +9526,17 @@
       "away_home_xg_avg_20": 1.81095,
       "away_home_xga_avg_20": 1.6229,
       "away_away_xg_avg_20": 0.66195,
-      "away_away_xga_avg_20": 1.82855
+      "away_away_xga_avg_20": 1.82855,
+      "match_id": "fifa_world_cup:2026:fdorg:537371",
+      "kickoff_at": "2026-06-21T16:00:00Z",
+      "date_utc": "2026-06-21T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-21",
@@ -8343,7 +9697,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537372",
+      "kickoff_at": "2026-06-21T22:00:00Z",
+      "date_utc": "2026-06-21T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-27",
@@ -8504,7 +9868,17 @@
       "away_home_xg_avg_20": 2.235775,
       "away_home_xga_avg_20": 1.259825,
       "away_away_xg_avg_20": 1.890275,
-      "away_away_xga_avg_20": 1.680825
+      "away_away_xga_avg_20": 1.680825,
+      "match_id": "fifa_world_cup:2026:fdorg:537373",
+      "kickoff_at": "2026-06-27T00:00:00Z",
+      "date_utc": "2026-06-27T00:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-27",
@@ -8665,7 +10039,17 @@
       "away_home_xg_avg_20": 1.81095,
       "away_home_xga_avg_20": 1.6229,
       "away_away_xg_avg_20": 0.66195,
-      "away_away_xga_avg_20": 1.82855
+      "away_away_xga_avg_20": 1.82855,
+      "match_id": "fifa_world_cup:2026:fdorg:537374",
+      "kickoff_at": "2026-06-27T00:00:00Z",
+      "date_utc": "2026-06-27T00:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "H",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-04",
@@ -8826,7 +10210,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537375",
+      "kickoff_at": "2026-07-04T21:00:00Z",
+      "date_utc": "2026-07-04T21:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-04",
@@ -8987,7 +10380,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537376",
+      "kickoff_at": "2026-07-04T17:00:00Z",
+      "date_utc": "2026-07-04T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-05",
@@ -9148,7 +10550,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537377",
+      "kickoff_at": "2026-07-05T20:00:00Z",
+      "date_utc": "2026-07-05T20:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-06",
@@ -9309,7 +10720,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537378",
+      "kickoff_at": "2026-07-06T00:00:00Z",
+      "date_utc": "2026-07-06T00:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-06",
@@ -9470,7 +10890,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537379",
+      "kickoff_at": "2026-07-06T19:00:00Z",
+      "date_utc": "2026-07-06T19:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-07",
@@ -9631,7 +11060,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537380",
+      "kickoff_at": "2026-07-07T00:00:00Z",
+      "date_utc": "2026-07-07T00:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-07",
@@ -9792,7 +11230,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537381",
+      "kickoff_at": "2026-07-07T16:00:00Z",
+      "date_utc": "2026-07-07T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-07",
@@ -9953,7 +11400,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537382",
+      "kickoff_at": "2026-07-07T20:00:00Z",
+      "date_utc": "2026-07-07T20:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "round_of_16",
+      "round": "Round of 16",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-09",
@@ -10114,7 +11570,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537383",
+      "kickoff_at": "2026-07-09T20:00:00Z",
+      "date_utc": "2026-07-09T20:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-10",
@@ -10275,7 +11740,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537384",
+      "kickoff_at": "2026-07-10T19:00:00Z",
+      "date_utc": "2026-07-10T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-11",
@@ -10436,7 +11910,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537385",
+      "kickoff_at": "2026-07-11T21:00:00Z",
+      "date_utc": "2026-07-11T21:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-12",
@@ -10597,7 +12080,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537386",
+      "kickoff_at": "2026-07-12T01:00:00Z",
+      "date_utc": "2026-07-12T01:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "quarterfinal",
+      "round": "Quarter-finals",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-14",
@@ -10758,7 +12250,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537387",
+      "kickoff_at": "2026-07-14T19:00:00Z",
+      "date_utc": "2026-07-14T19:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "semifinal",
+      "round": "Semi-finals",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-15",
@@ -10919,7 +12420,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537388",
+      "kickoff_at": "2026-07-15T19:00:00Z",
+      "date_utc": "2026-07-15T19:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "semifinal",
+      "round": "Semi-finals",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-18",
@@ -11080,7 +12590,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537389",
+      "kickoff_at": "2026-07-18T21:00:00Z",
+      "date_utc": "2026-07-18T21:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "third_place",
+      "round": "Match for Third Place",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-19",
@@ -11241,7 +12760,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537390",
+      "kickoff_at": "2026-07-19T19:00:00Z",
+      "date_utc": "2026-07-19T19:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "final",
+      "round": "Final",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-16",
@@ -11402,7 +12930,17 @@
       "away_home_xg_avg_20": 1.84774,
       "away_home_xga_avg_20": 1.54076,
       "away_away_xg_avg_20": 1.3054666666666668,
-      "away_away_xga_avg_20": 0.9316333333333333
+      "away_away_xga_avg_20": 0.9316333333333333,
+      "match_id": "fifa_world_cup:2026:fdorg:537391",
+      "kickoff_at": "2026-06-16T19:00:00Z",
+      "date_utc": "2026-06-16T19:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-16",
@@ -11563,7 +13101,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537392",
+      "kickoff_at": "2026-06-16T22:00:00Z",
+      "date_utc": "2026-06-16T22:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-22",
@@ -11724,7 +13272,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537393",
+      "kickoff_at": "2026-06-22T21:00:00Z",
+      "date_utc": "2026-06-22T21:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-23",
@@ -11885,7 +13443,17 @@
       "away_home_xg_avg_20": 1.84774,
       "away_home_xga_avg_20": 1.54076,
       "away_away_xg_avg_20": 1.3054666666666668,
-      "away_away_xga_avg_20": 0.9316333333333333
+      "away_away_xga_avg_20": 0.9316333333333333,
+      "match_id": "fifa_world_cup:2026:fdorg:537394",
+      "kickoff_at": "2026-06-23T00:00:00Z",
+      "date_utc": "2026-06-23T00:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-26",
@@ -12046,7 +13614,17 @@
       "away_home_xg_avg_20": 1.73376,
       "away_home_xga_avg_20": 0.94979,
       "away_away_xg_avg_20": 1.9308,
-      "away_away_xga_avg_20": 2.049914285714286
+      "away_away_xga_avg_20": 2.049914285714286,
+      "match_id": "fifa_world_cup:2026:fdorg:537395",
+      "kickoff_at": "2026-06-26T19:00:00Z",
+      "date_utc": "2026-06-26T19:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-26",
@@ -12207,7 +13785,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537396",
+      "kickoff_at": "2026-06-26T19:00:00Z",
+      "date_utc": "2026-06-26T19:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "I",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-17",
@@ -12368,7 +13956,17 @@
       "away_home_xg_avg_20": 1.34745,
       "away_home_xga_avg_20": 1.22825,
       "away_away_xg_avg_20": 1.1864,
-      "away_away_xga_avg_20": 1.3283
+      "away_away_xga_avg_20": 1.3283,
+      "match_id": "fifa_world_cup:2026:fdorg:537397",
+      "kickoff_at": "2026-06-17T01:00:00Z",
+      "date_utc": "2026-06-17T01:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-17",
@@ -12529,7 +14127,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537398",
+      "kickoff_at": "2026-06-17T04:00:00Z",
+      "date_utc": "2026-06-17T04:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-22",
@@ -12690,7 +14298,17 @@
       "away_home_xg_avg_20": 2.4879,
       "away_home_xga_avg_20": 0.8825,
       "away_away_xg_avg_20": 1.0579,
-      "away_away_xga_avg_20": 1.5102
+      "away_away_xga_avg_20": 1.5102,
+      "match_id": "fifa_world_cup:2026:fdorg:537399",
+      "kickoff_at": "2026-06-22T17:00:00Z",
+      "date_utc": "2026-06-22T17:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-23",
@@ -12851,7 +14469,17 @@
       "away_home_xg_avg_20": 1.34745,
       "away_home_xga_avg_20": 1.22825,
       "away_away_xg_avg_20": 1.1864,
-      "away_away_xga_avg_20": 1.3283
+      "away_away_xga_avg_20": 1.3283,
+      "match_id": "fifa_world_cup:2026:fdorg:537400",
+      "kickoff_at": "2026-06-23T03:00:00Z",
+      "date_utc": "2026-06-23T03:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-28",
@@ -13012,7 +14640,17 @@
       "away_home_xg_avg_20": 2.3844499999999997,
       "away_home_xga_avg_20": 1.3998583333333334,
       "away_away_xg_avg_20": 2.80294,
-      "away_away_xga_avg_20": 1.55178
+      "away_away_xga_avg_20": 1.55178,
+      "match_id": "fifa_world_cup:2026:fdorg:537401",
+      "kickoff_at": "2026-06-28T02:00:00Z",
+      "date_utc": "2026-06-28T02:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-28",
@@ -13173,7 +14811,17 @@
       "away_home_xg_avg_20": 2.4879,
       "away_home_xga_avg_20": 0.8825,
       "away_away_xg_avg_20": 1.0579,
-      "away_away_xga_avg_20": 1.5102
+      "away_away_xga_avg_20": 1.5102,
+      "match_id": "fifa_world_cup:2026:fdorg:537402",
+      "kickoff_at": "2026-06-28T02:00:00Z",
+      "date_utc": "2026-06-28T02:00:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "J",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-17",
@@ -13334,7 +14982,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537403",
+      "kickoff_at": "2026-06-17T17:00:00Z",
+      "date_utc": "2026-06-17T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-18",
@@ -13495,7 +15153,17 @@
       "away_home_xg_avg_20": 2.25192,
       "away_home_xga_avg_20": 2.01708,
       "away_away_xg_avg_20": 1.067,
-      "away_away_xga_avg_20": 0.7234400000000001
+      "away_away_xga_avg_20": 0.7234400000000001,
+      "match_id": "fifa_world_cup:2026:fdorg:537404",
+      "kickoff_at": "2026-06-18T02:00:00Z",
+      "date_utc": "2026-06-18T02:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-23",
@@ -13656,7 +15324,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537405",
+      "kickoff_at": "2026-06-23T17:00:00Z",
+      "date_utc": "2026-06-23T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-24",
@@ -13817,7 +15495,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537406",
+      "kickoff_at": "2026-06-24T02:00:00Z",
+      "date_utc": "2026-06-24T02:00:00Z",
+      "venue_id": "estadio-akron",
+      "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
+      "host_city": "瓜达拉哈拉",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-27",
@@ -13978,7 +15666,17 @@
       "away_home_xg_avg_20": 2.361285714285714,
       "away_home_xga_avg_20": 2.0622,
       "away_away_xg_avg_20": 1.06525,
-      "away_away_xga_avg_20": 1.1059999999999999
+      "away_away_xga_avg_20": 1.1059999999999999,
+      "match_id": "fifa_world_cup:2026:fdorg:537407",
+      "kickoff_at": "2026-06-27T23:30:00Z",
+      "date_utc": "2026-06-27T23:30:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-27",
@@ -14139,7 +15837,17 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537408",
+      "kickoff_at": "2026-06-27T23:30:00Z",
+      "date_utc": "2026-06-27T23:30:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "K",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-17",
@@ -14300,7 +16008,17 @@
       "away_home_xg_avg_20": 2.5492714285714286,
       "away_home_xga_avg_20": 2.0762,
       "away_away_xg_avg_20": 2.1142285714285713,
-      "away_away_xga_avg_20": 2.2667428571428574
+      "away_away_xga_avg_20": 2.2667428571428574,
+      "match_id": "fifa_world_cup:2026:fdorg:537409",
+      "kickoff_at": "2026-06-17T20:00:00Z",
+      "date_utc": "2026-06-17T20:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-17",
@@ -14461,7 +16179,17 @@
       "away_home_xg_avg_20": 0.7108,
       "away_home_xga_avg_20": 1.8834,
       "away_away_xg_avg_20": 0.83938,
-      "away_away_xga_avg_20": 1.74202
+      "away_away_xga_avg_20": 1.74202,
+      "match_id": "fifa_world_cup:2026:fdorg:537410",
+      "kickoff_at": "2026-06-17T23:00:00Z",
+      "date_utc": "2026-06-17T23:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-23",
@@ -14622,7 +16350,17 @@
       "away_home_xg_avg_20": 1.4153,
       "away_home_xga_avg_20": 2.1784,
       "away_away_xg_avg_20": 1.0574000000000001,
-      "away_away_xga_avg_20": 1.551975
+      "away_away_xga_avg_20": 1.551975,
+      "match_id": "fifa_world_cup:2026:fdorg:537411",
+      "kickoff_at": "2026-06-23T20:00:00Z",
+      "date_utc": "2026-06-23T20:00:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-23",
@@ -14783,7 +16521,17 @@
       "away_home_xg_avg_20": 2.5492714285714286,
       "away_home_xga_avg_20": 2.0762,
       "away_away_xg_avg_20": 2.1142285714285713,
-      "away_away_xga_avg_20": 2.2667428571428574
+      "away_away_xga_avg_20": 2.2667428571428574,
+      "match_id": "fifa_world_cup:2026:fdorg:537412",
+      "kickoff_at": "2026-06-23T23:00:00Z",
+      "date_utc": "2026-06-23T23:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-27",
@@ -14944,7 +16692,17 @@
       "away_home_xg_avg_20": 2.028825,
       "away_home_xga_avg_20": 1.4638375,
       "away_away_xg_avg_20": 1.9440444444444445,
-      "away_away_xga_avg_20": 1.4595333333333333
+      "away_away_xga_avg_20": 1.4595333333333333,
+      "match_id": "fifa_world_cup:2026:fdorg:537413",
+      "kickoff_at": "2026-06-27T21:00:00Z",
+      "date_utc": "2026-06-27T21:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-27",
@@ -15105,7 +16863,17 @@
       "away_home_xg_avg_20": 1.4153,
       "away_home_xga_avg_20": 2.1784,
       "away_away_xg_avg_20": 1.0574000000000001,
-      "away_away_xga_avg_20": 1.551975
+      "away_away_xga_avg_20": 1.551975,
+      "match_id": "fifa_world_cup:2026:fdorg:537414",
+      "kickoff_at": "2026-06-27T21:00:00Z",
+      "date_utc": "2026-06-27T21:00:00Z",
+      "venue_id": "lincoln-financial-field",
+      "venue_name": "费城球场（Lincoln Financial Field）",
+      "host_city": "费城",
+      "stage": "group",
+      "round": "Group Stage",
+      "group": "L",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-29",
@@ -15266,7 +17034,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537415",
+      "kickoff_at": "2026-06-29T20:30:00Z",
+      "date_utc": "2026-06-29T20:30:00Z",
+      "venue_id": "gillette-stadium",
+      "venue_name": "波士顿球场（Gillette Stadium）",
+      "host_city": "波士顿",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-30",
@@ -15427,7 +17204,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537416",
+      "kickoff_at": "2026-06-30T21:00:00Z",
+      "date_utc": "2026-06-30T21:00:00Z",
+      "venue_id": "metlife-stadium",
+      "venue_name": "纽约新泽西球场（MetLife Stadium）",
+      "host_city": "纽约/新泽西",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-28",
@@ -15588,7 +17374,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537417",
+      "kickoff_at": "2026-06-28T19:00:00Z",
+      "date_utc": "2026-06-28T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-30",
@@ -15749,7 +17544,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537418",
+      "kickoff_at": "2026-06-30T01:00:00Z",
+      "date_utc": "2026-06-30T01:00:00Z",
+      "venue_id": "estadio-bbva",
+      "venue_name": "蒙特雷球场（Estadio BBVA）",
+      "host_city": "蒙特雷",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-02",
@@ -15910,7 +17714,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537419",
+      "kickoff_at": "2026-07-02T23:00:00Z",
+      "date_utc": "2026-07-02T23:00:00Z",
+      "venue_id": "bmo-field",
+      "venue_name": "多伦多球场（BMO Field）",
+      "host_city": "多伦多",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-02",
@@ -16071,7 +17884,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537420",
+      "kickoff_at": "2026-07-02T19:00:00Z",
+      "date_utc": "2026-07-02T19:00:00Z",
+      "venue_id": "sofi-stadium",
+      "venue_name": "洛杉矶球场（SoFi Stadium）",
+      "host_city": "洛杉矶",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-02",
@@ -16232,7 +18054,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537421",
+      "kickoff_at": "2026-07-02T00:00:00Z",
+      "date_utc": "2026-07-02T00:00:00Z",
+      "venue_id": "levis-stadium",
+      "venue_name": "旧金山湾区球场（Levi's Stadium）",
+      "host_city": "旧金山湾区",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-01",
@@ -16393,7 +18224,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537422",
+      "kickoff_at": "2026-07-01T20:00:00Z",
+      "date_utc": "2026-07-01T20:00:00Z",
+      "venue_id": "lumen-field",
+      "venue_name": "西雅图球场（Lumen Field）",
+      "host_city": "西雅图",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-29",
@@ -16554,7 +18394,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537423",
+      "kickoff_at": "2026-06-29T17:00:00Z",
+      "date_utc": "2026-06-29T17:00:00Z",
+      "venue_id": "nrg-stadium",
+      "venue_name": "休斯敦球场（NRG Stadium）",
+      "host_city": "休斯敦",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-06-30",
@@ -16715,7 +18564,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537424",
+      "kickoff_at": "2026-06-30T17:00:00Z",
+      "date_utc": "2026-06-30T17:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-01",
@@ -16876,7 +18734,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537425",
+      "kickoff_at": "2026-07-01T01:00:00Z",
+      "date_utc": "2026-07-01T01:00:00Z",
+      "venue_id": "estadio-azteca",
+      "venue_name": "墨西哥城球场（Estadio Azteca）",
+      "host_city": "墨西哥城",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-01",
@@ -17037,7 +18904,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537426",
+      "kickoff_at": "2026-07-01T16:00:00Z",
+      "date_utc": "2026-07-01T16:00:00Z",
+      "venue_id": "mercedes-benz-stadium",
+      "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
+      "host_city": "亚特兰大",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-03",
@@ -17198,7 +19074,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537427",
+      "kickoff_at": "2026-07-03T22:00:00Z",
+      "date_utc": "2026-07-03T22:00:00Z",
+      "venue_id": "hard-rock-stadium",
+      "venue_name": "迈阿密球场（Hard Rock Stadium）",
+      "host_city": "迈阿密",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-03",
@@ -17359,7 +19244,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537428",
+      "kickoff_at": "2026-07-03T18:00:00Z",
+      "date_utc": "2026-07-03T18:00:00Z",
+      "venue_id": "at-and-t-stadium",
+      "venue_name": "达拉斯球场（AT&T Stadium）",
+      "host_city": "达拉斯",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-03",
@@ -17520,7 +19414,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537429",
+      "kickoff_at": "2026-07-03T03:00:00Z",
+      "date_utc": "2026-07-03T03:00:00Z",
+      "venue_id": "bc-place",
+      "venue_name": "BC Place 温哥华球场",
+      "host_city": "温哥华",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     },
     {
       "date": "2026-07-04",
@@ -17681,7 +19584,16 @@
       "away_home_xg_avg_20": 0.0,
       "away_home_xga_avg_20": 0.0,
       "away_away_xg_avg_20": 0.0,
-      "away_away_xga_avg_20": 0.0
+      "away_away_xga_avg_20": 0.0,
+      "match_id": "fifa_world_cup:2026:fdorg:537430",
+      "kickoff_at": "2026-07-04T01:30:00Z",
+      "date_utc": "2026-07-04T01:30:00Z",
+      "venue_id": "arrowhead-stadium",
+      "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
+      "host_city": "堪萨斯城",
+      "stage": "round_of_32",
+      "round": "Round of 32",
+      "venue_type": "neutral"
     }
   ]
 }

@@ -38,6 +38,123 @@ def payload_size(payload: object) -> int:
     return 0
 
 
+def team_name_by_id(teams: object) -> dict[str, str]:
+    if not isinstance(teams, list):
+        return {}
+    result: dict[str, str] = {}
+    for team in teams:
+        if not isinstance(team, dict):
+            continue
+        team_id = str(team.get("team_id") or "")
+        name = str(team.get("name") or "")
+        if team_id and name:
+            result[team_id] = name
+    return result
+
+
+VENUE_COUNTRY_BY_ID = {
+    "bc-place": "canada",
+    "bmo-field": "canada",
+    "estadio-akron": "mexico",
+    "estadio-azteca": "mexico",
+    "estadio-bbva": "mexico",
+    "arrowhead-stadium": "united-states",
+    "at-and-t-stadium": "united-states",
+    "gillette-stadium": "united-states",
+    "hard-rock-stadium": "united-states",
+    "levis-stadium": "united-states",
+    "lincoln-financial-field": "united-states",
+    "lumen-field": "united-states",
+    "mercedes-benz-stadium": "united-states",
+    "metlife-stadium": "united-states",
+    "nrg-stadium": "united-states",
+    "sofi-stadium": "united-states",
+}
+
+
+def fixture_key(date: object, home_team: object, away_team: object) -> tuple[str, str, str]:
+    return (str(date or "")[:10], str(home_team or ""), str(away_team or ""))
+
+
+def standard_fixture_indexes(fixtures: object, teams: object) -> tuple[dict[str, dict], dict[tuple[str, str, str], dict]]:
+    by_match_id: dict[str, dict] = {}
+    by_key: dict[tuple[str, str, str], dict] = {}
+    names = team_name_by_id(teams)
+    if not isinstance(fixtures, list):
+        return by_match_id, by_key
+    for fixture in fixtures:
+        if not isinstance(fixture, dict):
+            continue
+        match_id = str(fixture.get("match_id") or "")
+        if match_id:
+            by_match_id[match_id] = fixture
+        key = fixture_key(
+            fixture.get("date_utc"),
+            names.get(str(fixture.get("home_team_id") or ""), fixture.get("home_team_id")),
+            names.get(str(fixture.get("away_team_id") or ""), fixture.get("away_team_id")),
+        )
+        if all(key):
+            by_key[key] = fixture
+    return by_match_id, by_key
+
+
+def venue_type_for_fixture(standard: dict) -> str:
+    venue_country = VENUE_COUNTRY_BY_ID.get(str(standard.get("venue_id") or ""))
+    if venue_country and venue_country in {
+        str(standard.get("home_team_id") or ""),
+        str(standard.get("away_team_id") or ""),
+    }:
+        return "host_home"
+    return "neutral"
+
+
+def enrich_fixture_row(row: dict, *, by_match_id: dict[str, dict], by_key: dict[tuple[str, str, str], dict]) -> bool:
+    standard = by_match_id.get(str(row.get("match_id") or ""))
+    if standard is None:
+        standard = by_key.get(fixture_key(row.get("date"), row.get("home_team"), row.get("away_team")))
+    if standard is None:
+        return False
+
+    kickoff_at = standard.get("kickoff_at") or standard.get("date_utc")
+    if kickoff_at:
+        row.setdefault("kickoff_at", kickoff_at)
+        row.setdefault("date_utc", kickoff_at)
+    for field in ("venue_id", "venue_name", "host_city", "stage", "round", "group"):
+        if standard.get(field) is not None:
+            row.setdefault(field, standard[field])
+    row.setdefault("venue_type", venue_type_for_fixture(standard))
+    if "neutral" not in row:
+        row["neutral"] = row["venue_type"] != "host_home"
+    return bool(kickoff_at)
+
+
+def enrich_fixture_payload(payload: object, *, by_match_id: dict[str, dict], by_key: dict[tuple[str, str, str], dict]) -> int:
+    if not isinstance(payload, dict):
+        return 0
+    enriched = 0
+    fixtures = payload.get("fixtures") if isinstance(payload.get("fixtures"), list) else []
+    for row in fixtures:
+        if isinstance(row, dict) and enrich_fixture_row(row, by_match_id=by_match_id, by_key=by_key):
+            enriched += 1
+    features = payload.get("features") if isinstance(payload.get("features"), list) else []
+    for index, row in enumerate(features):
+        if not isinstance(row, dict):
+            continue
+        source_fixture = fixtures[index] if index < len(fixtures) and isinstance(fixtures[index], dict) else None
+        if source_fixture and source_fixture.get("match_id"):
+            row.setdefault("match_id", source_fixture.get("match_id"))
+        if enrich_fixture_row(row, by_match_id=by_match_id, by_key=by_key):
+            enriched += 1
+    return enriched
+
+
+def missing_kickoff_count(payload: object) -> int:
+    if not isinstance(payload, dict):
+        return 0
+    fixtures = payload.get("fixtures") if isinstance(payload.get("fixtures"), list) else []
+    return sum(1 for row in fixtures if isinstance(row, dict) and not row.get("kickoff_at"))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Publish a World Cup predictor-facing static API and bundle.")
     parser.add_argument(
@@ -68,6 +185,17 @@ def main() -> None:
     person_style_profiles = load_json(PUBLIC_DIR / "person-style-profiles.json")
     predictions = load_json(PUBLIC_DIR / "predictions.json")
     data_coverage = load_json(PUBLIC_DIR / "data-coverage.json")
+
+    standard_by_match_id, standard_by_key = standard_fixture_indexes(fixtures, teams)
+    shared_fixtures_enriched = enrich_fixture_payload(
+        shared_fixtures, by_match_id=standard_by_match_id, by_key=standard_by_key
+    )
+    feature_inputs_enriched = enrich_fixture_payload(
+        feature_inputs, by_match_id=standard_by_match_id, by_key=standard_by_key
+    )
+    predictions_source_enriched = enrich_fixture_payload(
+        predictions_source, by_match_id=standard_by_match_id, by_key=standard_by_key
+    )
 
     odds_runtime = load_json(MODEL_DIR / "odds_snapshots.json")
     lineups_runtime = load_json(MODEL_DIR / "lineups.json")
@@ -194,6 +322,12 @@ def main() -> None:
             "person_style_profiles": payload_size(person_style_profiles),
             "predictions": payload_size(predictions),
             "prematch_context": payload_size(prematch_context_runtime),
+            "shared_fixtures_enriched_with_kickoff_at": shared_fixtures_enriched,
+            "feature_inputs_enriched_with_kickoff_at": feature_inputs_enriched,
+            "predictions_source_enriched_with_kickoff_at": predictions_source_enriched,
+            "shared_fixtures_missing_kickoff_at": missing_kickoff_count(shared_fixtures),
+            "feature_inputs_missing_kickoff_at": missing_kickoff_count(feature_inputs),
+            "predictions_source_missing_kickoff_at": missing_kickoff_count(predictions_source),
         },
     }
     write_json(Path(args.report_output), report)
