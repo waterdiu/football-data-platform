@@ -43,7 +43,7 @@
 
 其中人物档案层负责球员、教练和裁判的基础档案、能力量化输入、风格标签和可解释画像。人物能力值必须由可追溯数据计算或人工官方 patch 进入，不允许无来源主观赋值。
 
-国内源、逆向接口和爬虫项目只能作为候选源进入评估流程。雷速、懂球帝、500 彩票、竞彩网、HKJC 非授权接口、Transfermarkt 非公开接口等默认不得进入生产发布链路；如果做实验，只能落在 `data/raw/experimental`，经过人工审核和交叉验证后才允许以明确的 `source_status` 进入 normalized。对于身份映射类第三方数据（如 Reep），在许可证审查之外，还必须先做世界杯名单覆盖率验证（脚本 `scripts/validate_reep_worldcup_coverage.py`，报告 `reports/reep_worldcup_coverage.json`）再决定是否进入后续接入计划。Reep 许可证已确认为 CC0-1.0，当前覆盖率验证已通过；平台只导入 `person_id_map_master` 候选映射，不覆盖 FIFA/足协官方名单事实。Reep 人物映射的人工消歧入口是 `data/patches/person_id_map.manual.json`；`scripts/import_reep_person_id_map.py` 支持可选读取 Reep `names.csv` 别名表。截至 2026-05-16，208 名已导入世界杯球员中 205 名完成唯一映射，3 名仍保留 unresolved。
+国内源、逆向接口和爬虫项目只能作为候选源进入评估流程。雷速、懂球帝、500 彩票、竞彩网、HKJC 非授权接口、Transfermarkt 非公开接口等默认不得进入生产发布链路；如果做实验，只能落在 `data/raw/experimental`，经过人工审核和交叉验证后才允许以明确的 `source_status` 进入 normalized。对于身份映射类第三方数据（如 Reep），在许可证审查之外，还必须先做世界杯名单覆盖率验证（脚本 `scripts/validate_reep_worldcup_coverage.py`，报告 `reports/reep_worldcup_coverage.json`）再决定是否进入后续接入计划。Reep 许可证已确认为 CC0-1.0，当前覆盖率验证已通过；平台只导入 `person_id_map_master` 候选映射，不覆盖 FIFA/足协官方名单事实。Reep 人物映射的人工消歧入口是 `data/patches/person_id_map.manual.json`；`scripts/import_reep_person_id_map.py` 支持可选读取 Reep `names.csv` 别名表。截至 2026-05-16，208 名已导入世界杯球员中 205 名完成唯一映射，3 名仍保留 unresolved；这些未解析人物的外部 provider 证据记录在 `data/patches/person_id_map.external_unresolved.json`，不得据此伪造 Reep ID。
 
 它不负责前端页面、不负责模型训练、不负责用户系统。
 

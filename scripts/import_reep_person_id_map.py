@@ -16,6 +16,7 @@ PLAYERS_PATH = ROOT / "data" / "public" / "players.json"
 NORMALIZED_DIR = ROOT / "data" / "normalized"
 REPORTS_DIR = ROOT / "reports"
 DEFAULT_PATCH_PATH = ROOT / "data" / "patches" / "person_id_map.manual.json"
+DEFAULT_EXTERNAL_EVIDENCE_PATH = ROOT / "data" / "patches" / "person_id_map.external_unresolved.json"
 
 TEAM_NATIONALITY_ALIASES = {
     "belgium": {"belgium"},
@@ -187,6 +188,7 @@ def build_id_map(
     generated_at: str,
     source_version: str,
     manual_overrides: dict[str, dict[str, Any]],
+    external_evidence: dict[str, dict[str, Any]],
 ) -> tuple[list[dict[str, Any]], dict[str, int], list[dict[str, Any]]]:
     rows: list[dict[str, Any]] = []
     counts = {"exact_unique": 0, "ambiguous": 0, "missing": 0}
@@ -248,6 +250,10 @@ def build_id_map(
             candidate_payload = []
             resolution_method = "manual_review"
 
+        unresolved_evidence = None
+        if match_status != "exact_unique":
+            unresolved_evidence = external_evidence.get(platform_person_id)
+
         counts[match_status] += 1
         row = (
             {
@@ -267,6 +273,7 @@ def build_id_map(
                 "provider_refs": provider_refs,
                 "candidates": candidate_payload,
                 "manual_review": manual_override or None,
+                "external_evidence": unresolved_evidence,
                 "updated_at": generated_at,
             }
         )
@@ -300,6 +307,26 @@ def load_manual_overrides(path: Path) -> dict[str, dict[str, Any]]:
     return overrides
 
 
+def load_external_evidence(path: Path) -> dict[str, dict[str, Any]]:
+    if not path.exists():
+        return {}
+    payload = load_json(path)
+    if not isinstance(payload, dict):
+        raise TypeError("external evidence patch must be an object")
+    entries = payload.get("entries")
+    if not isinstance(entries, list):
+        raise TypeError("external evidence patch must contain an entries list")
+
+    evidence: dict[str, dict[str, Any]] = {}
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        platform_person_id = str(entry.get("platform_person_id") or "").strip()
+        if platform_person_id:
+            evidence[platform_person_id] = entry
+    return evidence
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Import Reep person ID mappings for World Cup players.")
     parser.add_argument("--reep-people-csv", required=True, help="Path to Reep data/people.csv")
@@ -330,6 +357,11 @@ def main() -> None:
         default=str(DEFAULT_PATCH_PATH),
         help="manual person ID map review patch file",
     )
+    parser.add_argument(
+        "--external-evidence-patch",
+        default=str(DEFAULT_EXTERNAL_EVIDENCE_PATH),
+        help="external evidence for unresolved persons missing from Reep",
+    )
     args = parser.parse_args()
 
     generated_at = now_utc()
@@ -343,12 +375,14 @@ def main() -> None:
         Path(args.reep_names_csv) if args.reep_names_csv else None,
     )
     manual_overrides = load_manual_overrides(Path(args.manual_patch))
+    external_evidence = load_external_evidence(Path(args.external_evidence_patch))
     id_map, counts, unresolved = build_id_map(
         players=players,
         reep_index=reep_index,
         generated_at=generated_at,
         source_version=args.source_version,
         manual_overrides=manual_overrides,
+        external_evidence=external_evidence,
     )
 
     write_json(Path(args.output), id_map)
@@ -365,6 +399,8 @@ def main() -> None:
         "source_alias_rows": reep_alias_rows,
         "manual_patch": str(Path(args.manual_patch)),
         "manual_overrides_applied": len(manual_overrides),
+        "external_evidence_patch": str(Path(args.external_evidence_patch)),
+        "external_evidence_entries": len(external_evidence),
         "players_considered": len(players),
         "rows_written": len(id_map),
         "counts": counts,

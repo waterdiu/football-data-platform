@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T15:13:35Z",
+  "generated_at": "2026-05-16T15:21:07Z",
   "status": "imported",
   "source": "reep",
   "source_license": "CC0-1.0",
@@ -10,6 +10,8 @@
   "source_alias_rows": 27591,
   "manual_patch": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/patches/person_id_map.manual.json",
   "manual_overrides_applied": 11,
+  "external_evidence_patch": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/patches/person_id_map.external_unresolved.json",
+  "external_evidence_entries": 3,
   "players_considered": 208,
   "rows_written": 208,
   "counts": {

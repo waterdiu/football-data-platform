@@ -1,22 +1,13 @@
-[
-  {
-    "platform_person_id": "haiti:player:woodensky-pierre",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "haiti",
-    "name": "Woodensky Pierre",
-    "match_key": "woodensky pierre",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "external_evidence": {
+{
+  "version": "2026-05-16.person-id-map.external-unresolved.v1",
+  "purpose": "External evidence for platform persons that remain missing from Reep people.csv/names.csv.",
+  "rules": [
+    "This file does not resolve Reep mappings and must not change match_status from missing.",
+    "Use it only to preserve verified external provider clues for future Reep refreshes or second-source identity mapping.",
+    "Each entry must include platform_person_id, evidence_status, provider_refs, reviewed_by, reviewed_at, and evidence."
+  ],
+  "entries": [
+    {
       "platform_person_id": "haiti:player:woodensky-pierre",
       "evidence_status": "external_refs_found_no_reep_row",
       "provider_refs": {
@@ -33,26 +24,7 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or alias for Woodensky Pierre, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-16T15:21:07Z"
-  },
-  {
-    "platform_person_id": "tunisia:player:abdelmouhib-chamakh",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "tunisia",
-    "name": "Abdelmouhib Chamakh",
-    "match_key": "abdelmouhib chamakh",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "external_evidence": {
+    {
       "platform_person_id": "tunisia:player:abdelmouhib-chamakh",
       "evidence_status": "external_refs_found_no_reep_row",
       "provider_refs": {
@@ -68,26 +40,7 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or alias for Abdelmouhib Chamakh, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-16T15:21:07Z"
-  },
-  {
-    "platform_person_id": "tunisia:player:raed-chikhaoui",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "tunisia",
-    "name": "Raed Chikhaoui",
-    "match_key": "raed chikhaoui",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "external_evidence": {
+    {
       "platform_person_id": "tunisia:player:raed-chikhaoui",
       "evidence_status": "external_refs_found_no_reep_row",
       "provider_refs": {
@@ -102,7 +55,6 @@
         "Public provider profiles identify Raed Chikhaoui as a Tunisia defender with Transfermarkt player ID 1075790, FotMob player ID 1721242, and Sofascore player ID 2018330.",
         "Reep 2026.17 people.csv and names.csv contain no matching row or provider ID for Raed Chikhaoui, so the Reep mapping remains missing."
       ]
-    },
-    "updated_at": "2026-05-16T15:21:07Z"
-  }
-]
+    }
+  ]
+}

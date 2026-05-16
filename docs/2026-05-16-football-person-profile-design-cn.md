@@ -504,6 +504,7 @@ ID 映射需要独立保存：
 - 多候选匹配写为 `match_status=ambiguous`，必须用 DOB、俱乐部、国家队或人工 review 消歧后才能提升置信度。
 - 未匹配写为 `match_status=missing`，不得推断 provider ID。
 - 人工审查 patch：`data/patches/person_id_map.manual.json`
+- 未解析外部证据 patch：`data/patches/person_id_map.external_unresolved.json`
 - 导入脚本：`scripts/import_reep_person_id_map.py`
 - 未解决报告：`reports/person_id_map_unresolved_report.json`
 
@@ -517,7 +518,7 @@ ID 映射需要独立保存：
 - 已应用 10 条人工审查补丁；新增补丁用于处理全名省略、音译拼写和重音差异，例如 `Jacob Zetterstrom` -> `Jacob Widell Zetterström`、`Aymen Dahmene` -> `Aymen Dahmen`。
 - 别名表解析出 `Jean Michael Seri` 和 `Johny Placide`，其中 `Johny Placide` 因 Reep nationality 与国家队归属不一致，仅标记为 `confidence=medium`。
 - 新增人工审查 `Hadj Mahmoud` -> `Mohamed Belhadj Mahmoud`，依据为 Tunisia midfielder context、DOB、Transfermarkt/Sofascore/API-Football provider IDs。
-- 剩余 missing 不得自动发布为外部 ID 映射，必须等待别名表、官方 DOB/俱乐部信息或可信 provider ID 进一步确认。
+- 剩余 3 名 missing 已写入 `data/patches/person_id_map.external_unresolved.json`，状态为 `external_refs_found_no_reep_row`；它们有外部 provider 线索，但 Reep 2026.17 当前缺行，所以不得自动发布为 Reep 映射。
 
 ## 14. Confidence 设计
 
