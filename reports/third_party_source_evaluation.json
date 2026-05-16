@@ -66,11 +66,17 @@
       "category": "open_identity_mapping_dataset",
       "coverage": ["players", "coaches", "teams", "competitions", "provider_ids"],
       "stability": "medium_high",
-      "legal_risk": "medium",
+      "legal_risk": "low_medium",
       "production_allowed": false,
       "normalized_allowed": true,
       "public_api_allowed": false,
       "recommended_use": "candidate_for_person_id_map_after_license_review",
+      "license": {
+        "status": "reviewed",
+        "spdx": "CC0-1.0",
+        "source": "https://github.com/withqwerty/reep/blob/main/LICENSE",
+        "notes": "Use as-is with source/version attribution; do not overwrite official roster facts."
+      },
       "worldcup_coverage_validation": {
         "status": "passed",
         "report": "reports/reep_worldcup_coverage.json",

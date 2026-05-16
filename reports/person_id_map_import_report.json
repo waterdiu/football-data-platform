@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-05-16T14:28:33Z",
+  "status": "imported",
+  "source": "reep",
+  "source_license": "CC0-1.0",
+  "source_version": "2026.17",
+  "source_people_csv": "/Users/chamcham/Downloads/people.csv",
+  "source_rows": 444707,
+  "players_considered": 208,
+  "rows_written": 208,
+  "counts": {
+    "exact_unique": 187,
+    "ambiguous": 10,
+    "missing": 11
+  },
+  "coverage": {
+    "matched_count": 197,
+    "unambiguous_count": 187,
+    "ambiguous_count": 10,
+    "missing_count": 11,
+    "hit_rate": 0.947115,
+    "unambiguous_rate": 0.899038
+  },
+  "outputs": {
+    "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_id_map_master.json"
+  },
+  "notes": [
+    "This import writes an ID map only; it does not overwrite FIFA/FA roster facts.",
+    "Ambiguous rows require DOB, club, provider ID, or manual review before use as high-confidence mappings."
+  ]
+}

@@ -395,6 +395,7 @@ flowchart LR
 |---|---|---|---|
 | 名单 | FIFA / 足协官网 | 手动官方 patch | 只接受官方来源进 master |
 | 基础档案 | FIFA / 足协 / club | Transfermarkt | 年龄、国籍、俱乐部 |
+| 跨平台 ID 映射 | Reep | 人工审查 patch | 只写 `person_id_map`，不覆盖官方名单事实 |
 | 出场与状态 | API-FOOTBALL / football-data.org | FBref | 近期状态 |
 | 高级指标 | StatsBomb / FBref / Understat | 付费源 | xG、xA、传球推进 |
 | 伤停 | 官方公告 / API-FOOTBALL | 新闻源 | 需置信度 |
@@ -426,6 +427,7 @@ Normalized master：
 - `data/normalized/person_staff_ratings_master.json`
 - `data/normalized/person_official_ratings_master.json`
 - `data/normalized/person_style_profiles_master.json`
+- `data/normalized/person_id_map_master.json`
 
 Public API：
 
@@ -491,6 +493,14 @@ flowchart TD
 ID 映射需要独立保存：
 
 - `data/normalized/person_id_map_master.json`
+
+当前 Reep 导入规则：
+
+- Reep 只作为外部 provider ID 映射来源，不作为官方名单、国家队归属、号码或位置事实来源。
+- Reep 许可证已确认为 CC0-1.0；导入仍必须记录 `source_license`、`source_version` 和生成时间。
+- 唯一匹配写为 `match_status=exact_unique`，可作为高置信度 ID map。
+- 多候选匹配写为 `match_status=ambiguous`，必须用 DOB、俱乐部、国家队或人工 review 消歧后才能提升置信度。
+- 未匹配写为 `match_status=missing`，不得推断 provider ID。
 
 ## 14. Confidence 设计
 

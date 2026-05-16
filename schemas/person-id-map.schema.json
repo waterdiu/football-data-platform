@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Person ID Map",
+  "type": "object",
+  "required": ["platform_person_id", "person_type", "match_status", "source", "source_license"],
+  "properties": {
+    "platform_person_id": { "type": "string" },
+    "person_type": { "type": "string", "enum": ["player", "staff", "official"] },
+    "competition_id": { "type": ["string", "null"] },
+    "season_id": { "type": ["string", "null"] },
+    "team_id": { "type": ["string", "null"] },
+    "name": { "type": "string" },
+    "match_key": { "type": "string" },
+    "match_status": {
+      "type": "string",
+      "enum": ["exact_unique", "ambiguous", "missing"]
+    },
+    "confidence": { "type": "string", "enum": ["high", "medium", "low", "none"] },
+    "source": { "type": "string" },
+    "source_license": { "type": "string" },
+    "source_version": { "type": ["string", "null"] },
+    "provider_refs": { "type": "object" },
+    "candidates": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "updated_at": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}
+
