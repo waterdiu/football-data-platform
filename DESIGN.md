@@ -7,6 +7,10 @@
 
 - `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-data-platform-architecture-cn.md`
 
+数据层协调与 GitHub 发布规则：
+
+- `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-17-coordination-and-github-publish-rules.md`
+
 人物档案层专题设计：
 
 - `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-person-profile-design-cn.md`
@@ -17,18 +21,36 @@
 
 ## 0. Workspace Coordination Role
 
-`football-data-platform` 当前也是足球工作区的全局协调入口。全局规则和状态不放在单个消费项目中，而放在工作区根目录：
+`football-data-platform` 当前也是足球工作区的数据协调入口，负责统筹数据层、预测模型和 `worldcup/2026` 展示站之间的数据契约、状态和交接。
+
+执行边界：
+
+- 本对话只直接修改 `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform` 内的文件
+- 需要修改 `world-cup-predictor` 或 `worldcup/2026` 时，只输出交接说明，由用户转给对应项目对话执行
+- 数据层负责 schema、采集、标准化、发布、健康检查和数据覆盖报告
+- 模型项目负责模型、特征、训练、预测、报告、Kelly/EV 和预测输出写回
+- 展示站负责 UI、页面、前端 API client、runtime fetch/fallback、构建部署和视觉 QA
+
+全局规则和状态不放在单个消费项目中，而放在工作区根目录：
 
 - `/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_ORCHESTRATOR.md`
 - `/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_STATUS.md`
 
-`football-data-platform` 对话负责维护这两份共享文档，并在跨项目任务中决定数据层、展示站、预测模型之间的责任边界。
+`football-data-platform` 对话负责协调这两份共享文档所描述的边界；如果需要修改工作区根目录文件或消费项目文件，必须先提出交接或取得用户明确同意。
 
 截至 2026-05-16：
 
 - `world-cup-predictor` 已在 README/DESIGN 中接入全局协调规则，并确认不再承担生产共享数据采集责任
 - `worldcup/2026` 对话已读取全局协调文件，并确认只处理站点 UI、页面、前端 API client、runtime fetch/fallback、构建部署和视觉 QA
 - 后续跨项目 schema、API、数据同步问题均回到本对话作为协调入口
+
+GitHub 发布规则：
+
+- 先用 `gh api` 检查远端状态，再判断 Git HTTPS 是否可用
+- 如果 `gh api` 可用但 `git fetch` / `git push` 超时或 HTTP2/443 失败，停止反复重试 Git HTTPS，改用 GitHub Git Database API 发布
+- API 发布后以远端 tree SHA 与本地 `HEAD^{tree}` 是否一致作为内容同步标准
+- 本地 `ahead 1` 可能只是 API 发布造成的本地 `origin/main` stale，不得因此强推
+- 详细执行规则见 `docs/2026-05-17-coordination-and-github-publish-rules.md`
 
 ## 1. Purpose
 

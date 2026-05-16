@@ -19,7 +19,11 @@
 
 `worldcup/2026` 和 `world-cup-predictor` 对话在处理跨项目数据契约、接口、同步、状态问题前，应先读取这两份文件。
 
+本对话的代码修改边界只限本仓库。需要修改 `worldcup/2026` 或 `world-cup-predictor` 时，只输出交接说明，由用户转给对应项目对话执行。
+
 主设计文档见 [DESIGN.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/DESIGN.md)。
+
+数据层协调与 GitHub 发布规则见 [docs/2026-05-17-coordination-and-github-publish-rules.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-17-coordination-and-github-publish-rules.md)。
 
 详细中文架构方案见 [docs/2026-05-16-football-data-platform-architecture-cn.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-data-platform-architecture-cn.md)。
 
@@ -222,6 +226,13 @@ python3 scripts/build_automation_readiness_report.py
 - 发布目录：`data/public/`
 
 这意味着只要 `football-data-platform` 更新并重新发布，`worldcup/2026` 页面刷新后就能拿到最新 JSON，不需要重新构建站点。
+
+提交 GitHub 时先判断传输通道：
+
+- `gh api` 可用且 Git HTTPS 可用：正常 `git push`
+- `gh api` 可用但 Git HTTPS 超时、HTTP2 报错或 443 连接失败：停止重复尝试，走 GitHub Git Database API 发布
+- API 发布后用远端 tree SHA 对比本地 `HEAD^{tree}`，tree 一致即表示内容已同步
+- 本地 `ahead 1` 可能只是 API 发布导致的 `origin/main` 元数据滞后，不能直接强推
 
 ## Monitoring
 
