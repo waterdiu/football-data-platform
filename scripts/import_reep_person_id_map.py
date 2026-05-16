@@ -117,10 +117,28 @@ def team_nationality_aliases(team_id: str | None) -> set[str]:
     return TEAM_NATIONALITY_ALIASES.get(team_id, {team_id.replace("-", " ")})
 
 
-def load_reep_index(path: Path) -> tuple[dict[str, list[dict[str, Any]]], int]:
+def add_index_candidate(
+    index: dict[str, list[dict[str, Any]]],
+    match_key: str,
+    candidate: dict[str, Any],
+) -> None:
+    if not match_key:
+        return
+    existing_ids = {item.get("reep_id") for item in index[match_key]}
+    if candidate.get("reep_id") in existing_ids:
+        return
+    index[match_key].append(candidate)
+
+
+def load_reep_index(
+    people_path: Path,
+    names_path: Path | None = None,
+) -> tuple[dict[str, list[dict[str, Any]]], int, int]:
     index: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    candidates_by_id: dict[str, dict[str, Any]] = {}
     row_count = 0
-    with path.open("r", encoding="utf-8", newline="") as f:
+    alias_row_count = 0
+    with people_path.open("r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
             row_count += 1
@@ -137,9 +155,29 @@ def load_reep_index(path: Path) -> tuple[dict[str, list[dict[str, Any]]], int]:
                 "nationality": str(row.get("nationality") or "").strip() or None,
                 "position": str(row.get("position") or "").strip() or None,
                 "provider_refs": compact_provider_refs(row),
+                "match_source": "canonical_name",
             }
-            index[norm_name(name)].append(candidate)
-    return dict(index), row_count
+            candidates_by_id[candidate["reep_id"]] = candidate
+            add_index_candidate(index, norm_name(name), candidate)
+
+    if names_path and names_path.exists():
+        with names_path.open("r", encoding="utf-8", newline="") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                alias_row_count += 1
+                reep_id = str(row.get("reep_id") or "").strip()
+                base_candidate = candidates_by_id.get(reep_id)
+                if not base_candidate:
+                    continue
+                for field in ("name", "alias"):
+                    alias = str(row.get(field) or "").strip()
+                    if not alias:
+                        continue
+                    alias_candidate = dict(base_candidate)
+                    alias_candidate["matched_alias"] = alias
+                    alias_candidate["match_source"] = "alias"
+                    add_index_candidate(index, norm_name(alias), alias_candidate)
+    return dict(index), row_count, alias_row_count
 
 
 def build_id_map(
@@ -166,10 +204,15 @@ def build_id_map(
         if len(candidates) == 1:
             candidate = candidates[0]
             match_status = "exact_unique"
-            confidence = "high"
+            team_aliases = team_nationality_aliases(str(player.get("team_id") or ""))
+            nationality_matches_team = (
+                norm_name(str(candidate.get("nationality") or "")) in team_aliases
+            )
+            is_alias_match = candidate.get("match_source") == "alias"
+            confidence = "high" if not is_alias_match or nationality_matches_team else "medium"
             provider_refs = candidate["provider_refs"]
             candidate_payload: list[dict[str, Any]] = []
-            resolution_method = "name_unique"
+            resolution_method = "alias_unique" if is_alias_match else "name_unique"
         elif len(candidates) > 1:
             team_aliases = team_nationality_aliases(str(player.get("team_id") or ""))
             nationality_matches = [
@@ -260,6 +303,7 @@ def load_manual_overrides(path: Path) -> dict[str, dict[str, Any]]:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Import Reep person ID mappings for World Cup players.")
     parser.add_argument("--reep-people-csv", required=True, help="Path to Reep data/people.csv")
+    parser.add_argument("--reep-names-csv", help="Optional path to Reep data/names.csv aliases")
     parser.add_argument("--players-json", default=str(PLAYERS_PATH), help="Platform players JSON")
     parser.add_argument(
         "--source-version",
@@ -294,7 +338,10 @@ def main() -> None:
         raise TypeError("players JSON must be a list")
     players = [item for item in players_payload if isinstance(item, dict)]
 
-    reep_index, reep_rows = load_reep_index(Path(args.reep_people_csv))
+    reep_index, reep_rows, reep_alias_rows = load_reep_index(
+        Path(args.reep_people_csv),
+        Path(args.reep_names_csv) if args.reep_names_csv else None,
+    )
     manual_overrides = load_manual_overrides(Path(args.manual_patch))
     id_map, counts, unresolved = build_id_map(
         players=players,
@@ -313,7 +360,9 @@ def main() -> None:
         "source_license": "CC0-1.0",
         "source_version": args.source_version,
         "source_people_csv": str(Path(args.reep_people_csv)),
+        "source_names_csv": str(Path(args.reep_names_csv)) if args.reep_names_csv else None,
         "source_rows": reep_rows,
+        "source_alias_rows": reep_alias_rows,
         "manual_patch": str(Path(args.manual_patch)),
         "manual_overrides_applied": len(manual_overrides),
         "players_considered": len(players),

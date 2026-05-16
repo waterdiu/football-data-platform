@@ -1,27 +1,29 @@
 {
-  "generated_at": "2026-05-16T15:02:42Z",
+  "generated_at": "2026-05-16T15:07:12Z",
   "status": "imported",
   "source": "reep",
   "source_license": "CC0-1.0",
   "source_version": "2026.17",
   "source_people_csv": "/Users/chamcham/Downloads/people.csv",
+  "source_names_csv": "/Users/chamcham/Downloads/reep-names.csv",
   "source_rows": 444707,
+  "source_alias_rows": 27591,
   "manual_patch": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/patches/person_id_map.manual.json",
   "manual_overrides_applied": 10,
   "players_considered": 208,
   "rows_written": 208,
   "counts": {
-    "exact_unique": 202,
+    "exact_unique": 204,
     "ambiguous": 0,
-    "missing": 6
+    "missing": 4
   },
   "coverage": {
-    "matched_count": 202,
-    "unambiguous_count": 202,
+    "matched_count": 204,
+    "unambiguous_count": 204,
     "ambiguous_count": 0,
-    "missing_count": 6,
-    "hit_rate": 0.971154,
-    "unambiguous_rate": 0.971154
+    "missing_count": 4,
+    "hit_rate": 0.980769,
+    "unambiguous_rate": 0.980769
   },
   "outputs": {
     "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_id_map_master.json",

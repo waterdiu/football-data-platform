@@ -499,6 +499,7 @@ ID 映射需要独立保存：
 - Reep 只作为外部 provider ID 映射来源，不作为官方名单、国家队归属、号码或位置事实来源。
 - Reep 许可证已确认为 CC0-1.0；导入仍必须记录 `source_license`、`source_version` 和生成时间。
 - 唯一匹配写为 `match_status=exact_unique`，可作为高置信度 ID map。
+- 可选读取 Reep `names.csv` 别名表；别名唯一匹配写为 `resolution_method=alias_unique`，若候选国籍与国家队归属匹配则置信度 `high`，否则降为 `medium`。
 - 如果同名候选中只有一个候选的 nationality 与国家队归属匹配，可自动写为 `match_status=exact_unique`、`confidence=medium`、`resolution_method=name_plus_unique_team_nationality`。
 - 多候选匹配写为 `match_status=ambiguous`，必须用 DOB、俱乐部、国家队或人工 review 消歧后才能提升置信度。
 - 未匹配写为 `match_status=missing`，不得推断 provider ID。
@@ -509,10 +510,12 @@ ID 映射需要独立保存：
 当前导入状态（2026-05-16）：
 
 - 输入：`/Users/chamcham/Downloads/people.csv`，Reep `data_version=2026.17`，444,707 人。
+- 别名输入：`/Users/chamcham/Downloads/reep-names.csv`，27,591 行。
 - 输出：`data/normalized/person_id_map_master.json`
 - 报告：`reports/person_id_map_import_report.json`
-- 已导入 208 名世界杯球员，202 名完成唯一映射，0 名 ambiguous，6 名 missing。
+- 已导入 208 名世界杯球员，204 名完成唯一映射，0 名 ambiguous，4 名 missing。
 - 已应用 10 条人工审查补丁；新增补丁用于处理全名省略、音译拼写和重音差异，例如 `Jacob Zetterstrom` -> `Jacob Widell Zetterström`、`Aymen Dahmene` -> `Aymen Dahmen`。
+- 别名表解析出 `Jean Michael Seri` 和 `Johny Placide`，其中 `Johny Placide` 因 Reep nationality 与国家队归属不一致，仅标记为 `confidence=medium`。
 - 剩余 missing 不得自动发布为外部 ID 映射，必须等待别名表、官方 DOB/俱乐部信息或可信 provider ID 进一步确认。
 
 ## 14. Confidence 设计

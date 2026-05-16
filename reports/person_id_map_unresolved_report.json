@@ -1,43 +1,5 @@
 [
   {
-    "platform_person_id": "cote-divoire:player:jean-michael-seri",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "cote-divoire",
-    "name": "Jean Michael Seri",
-    "match_key": "jean michael seri",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "updated_at": "2026-05-16T15:02:42Z"
-  },
-  {
-    "platform_person_id": "haiti:player:johny-placide",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "haiti",
-    "name": "Johny Placide",
-    "match_key": "johny placide",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "updated_at": "2026-05-16T15:02:42Z"
-  },
-  {
     "platform_person_id": "haiti:player:woodensky-pierre",
     "person_type": "player",
     "competition_id": "fifa_world_cup",
@@ -54,7 +16,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T15:02:42Z"
+    "updated_at": "2026-05-16T15:07:12Z"
   },
   {
     "platform_person_id": "tunisia:player:abdelmouhib-chamakh",
@@ -73,7 +35,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T15:02:42Z"
+    "updated_at": "2026-05-16T15:07:12Z"
   },
   {
     "platform_person_id": "tunisia:player:hadj-mahmoud",
@@ -92,7 +54,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T15:02:42Z"
+    "updated_at": "2026-05-16T15:07:12Z"
   },
   {
     "platform_person_id": "tunisia:player:raed-chikhaoui",
@@ -111,6 +73,6 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T15:02:42Z"
+    "updated_at": "2026-05-16T15:07:12Z"
   }
 ]
