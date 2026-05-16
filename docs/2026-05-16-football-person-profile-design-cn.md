@@ -513,9 +513,10 @@ ID 映射需要独立保存：
 - 别名输入：`/Users/chamcham/Downloads/reep-names.csv`，27,591 行。
 - 输出：`data/normalized/person_id_map_master.json`
 - 报告：`reports/person_id_map_import_report.json`
-- 已导入 208 名世界杯球员，204 名完成唯一映射，0 名 ambiguous，4 名 missing。
+- 已导入 208 名世界杯球员，205 名完成唯一映射，0 名 ambiguous，3 名 missing。
 - 已应用 10 条人工审查补丁；新增补丁用于处理全名省略、音译拼写和重音差异，例如 `Jacob Zetterstrom` -> `Jacob Widell Zetterström`、`Aymen Dahmene` -> `Aymen Dahmen`。
 - 别名表解析出 `Jean Michael Seri` 和 `Johny Placide`，其中 `Johny Placide` 因 Reep nationality 与国家队归属不一致，仅标记为 `confidence=medium`。
+- 新增人工审查 `Hadj Mahmoud` -> `Mohamed Belhadj Mahmoud`，依据为 Tunisia midfielder context、DOB、Transfermarkt/Sofascore/API-Football provider IDs。
 - 剩余 missing 不得自动发布为外部 ID 映射，必须等待别名表、官方 DOB/俱乐部信息或可信 provider ID 进一步确认。
 
 ## 14. Confidence 设计

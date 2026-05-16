@@ -16,7 +16,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T15:07:12Z"
+    "updated_at": "2026-05-16T15:13:35Z"
   },
   {
     "platform_person_id": "tunisia:player:abdelmouhib-chamakh",
@@ -35,26 +35,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T15:07:12Z"
-  },
-  {
-    "platform_person_id": "tunisia:player:hadj-mahmoud",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "tunisia",
-    "name": "Hadj Mahmoud",
-    "match_key": "hadj mahmoud",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "updated_at": "2026-05-16T15:07:12Z"
+    "updated_at": "2026-05-16T15:13:35Z"
   },
   {
     "platform_person_id": "tunisia:player:raed-chikhaoui",
@@ -73,6 +54,6 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T15:07:12Z"
+    "updated_at": "2026-05-16T15:13:35Z"
   }
 ]

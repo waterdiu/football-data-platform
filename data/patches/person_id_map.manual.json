@@ -175,6 +175,23 @@
         "Selected Reep candidate is Sabri Ben Hessen, a Tunisia goalkeeper born 1996-06-13.",
         "The unmatched platform name uses the alternate spelling Ben Hassan."
       ]
+    },
+    {
+      "platform_person_id": "tunisia:player:hadj-mahmoud",
+      "provider_refs": {
+        "reep_id": "reep_p5aa06ecd",
+        "key_transfermarkt": "673513",
+        "key_sofascore": "1008597",
+        "key_api_football": "67195"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T15:30:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has Tunisia midfielder context and uses the shortened name Hadj Mahmoud.",
+        "Selected Reep candidate is Mohamed Belhadj Mahmoud, a Tunisia defensive midfielder born 2000-04-24.",
+        "Public Transfermarkt profile 673513 and other public profiles use Mohamed Belhadj Mahmoud / Hadj Mahmoud for the same Tunisia midfielder."
+      ]
     }
   ]
 }
