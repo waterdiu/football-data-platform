@@ -3,6 +3,10 @@
 日期：2026-05-15  
 状态：主设计基线
 
+详细中文架构方案：
+
+- `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-data-platform-architecture-cn.md`
+
 ## 0. Workspace Coordination Role
 
 `football-data-platform` 当前也是足球工作区的全局协调入口。全局规则和状态不放在单个消费项目中，而放在工作区根目录：
