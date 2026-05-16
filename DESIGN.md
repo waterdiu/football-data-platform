@@ -424,6 +424,15 @@ football-data-platform/
 
 后续从 FIFA、国家队官网、足协公告或人工 patch 导入名单时，只写 normalized master，再由 `scripts/build_world_cup_roster_datasets.py` 发布到 public/API。
 
+官方名单导入规则：
+
+- 官方来源配置：`configs/roster_sources/world_cup_2026.json`
+- 手动审计 patch：`data/patches/world_cup_2026_rosters.manual.json`
+- 导入脚本：`scripts/import_world_cup_rosters_from_manual_patch.py`
+- 只有 `official_fifa`、`official_fa`、`official_club_or_league_correction`、`manual_official_patch` 可以进入 master
+- `media_report`、Wikipedia、球迷站、无官方文章的社交媒体内容不能直接进入 master
+- 2026-06-02 FIFA 最终名单发布后，FIFA 最终名单应覆盖各足协提前公布的 preliminary/announced 数据
+
 推荐结构：
 
 ```json
@@ -550,12 +559,13 @@ football-data-platform/
 3. `results`
 4. `standings`
 5. `finals detail datasets`
-6. `rosters / players`
-7. `model datasets`
-8. `data_coverage`
-9. `qualifier public datasets`
-10. `runtime API / health reports`
-11. `predictor compatibility API`
+6. `audited roster manual patches`
+7. `rosters / players`
+8. `model datasets`
+9. `data_coverage`
+10. `qualifier public datasets`
+11. `runtime API / health reports`
+12. `predictor compatibility API`
 
 对于世界杯正赛基础层，当前默认原则是：
 
@@ -743,7 +753,7 @@ predictor 全量数据资产当前边界：
 - 已增强：The Odds API 标准化输出 `h2h`、`over_under`、`asian_handicap`、`has_1x2`、`has_over_under`、`has_asian_handicap`，coverage 可直接识别 1X2 / 大小球 / 亚盘覆盖
 - 已迁移：API-FOOTBALL 阵容和伤停采集，直接写 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
 - 已增强：天气采集优先使用 OpenWeather；无 key 或 OpenWeather 失败时 fallback 到无 key的 Open-Meteo 16 天预报窗口，直接写 `data/normalized/world_cup_2026_model_weather_master.json`
-- 已建立：rosters/players 契约、空 master/public 数据集、发布脚本和 coverage 字段；正式名单导入另行补充
+- 已建立：rosters/players 契约、空 master/public 数据集、官方来源配置、手动 patch 导入脚本、发布脚本和 coverage 字段；真实名单需从官方来源导入
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
 - 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`
 - 已配置：`configs/venues/world_cup_2026.json` 保存 16 个 2026 世界杯球场坐标

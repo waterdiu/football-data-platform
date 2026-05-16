@@ -265,6 +265,12 @@ football-data-platform/
 - `world_cup_2026_players_master.json`
 - `world_cup_2026_data_coverage.json`
 
+名单导入相关文件：
+
+- `configs/roster_sources/world_cup_2026.json`
+- `data/patches/world_cup_2026_rosters.manual.json`
+- `scripts/import_world_cup_rosters_from_manual_patch.py`
+
 写入规则：
 
 - 只能由平台脚本写入。
@@ -634,6 +640,7 @@ python3 scripts/publish_world_cup_predictor_api.py
 
 - 接入 Open-Meteo 作为天气主源。
 - 建立 rosters/players schema、空 master、public/API 发布链路。
+- 建立官方来源配置和手动 patch 导入脚本，只允许 FIFA/足协等官方来源进入 master。
 - 从 FIFA/各足协官网采集已公布 26 人名单。
 - 增加 roster coverage。
 - 增加手动 patch 机制。

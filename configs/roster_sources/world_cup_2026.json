@@ -1,0 +1,45 @@
+{
+  "competition_id": "fifa_world_cup",
+  "season_id": "2026",
+  "policy": {
+    "final_authority": "fifa",
+    "final_26_expected_date": "2026-06-02",
+    "accepted_source_statuses": [
+      "official_fifa",
+      "official_fa",
+      "official_club_or_league_correction",
+      "manual_official_patch"
+    ],
+    "rejected_as_master_sources": [
+      "media_report",
+      "social_media_without_official_article",
+      "wikipedia",
+      "fan_site"
+    ]
+  },
+  "sources": {
+    "fifa": {
+      "label": "FIFA official squad lists",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+      "source_status": "official_fifa",
+      "confidence": "high",
+      "notes": "FIFA says official 26-player squad lists are expected on 2026-06-02. This source overrides association-level preliminary data."
+    },
+    "england": {
+      "team_id": "england",
+      "label": "England Football official squad announcement",
+      "url": "https://www.englandfootball.com/articles/2026/May/08/england-mens-world-cup-squad-announcement-date-revealed-20260805",
+      "source_status": "official_fa",
+      "confidence": "high",
+      "notes": "Association announcement page. Import only when it includes the actual squad list."
+    },
+    "france": {
+      "team_id": "france",
+      "label": "FIFA France squad news",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/france-world-cup-squad-named",
+      "source_status": "official_fifa",
+      "confidence": "high",
+      "notes": "FIFA news page for France squad. Treat as official but still superseded by final FIFA squad-list endpoint/page when published."
+    }
+  }
+}

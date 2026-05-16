@@ -144,6 +144,7 @@ python3 scripts/publish_all_world_cup_data.py
 
 - worldcup site 兼容镜像
 - finals fixtures/results/standings/detail datasets
+- audited roster manual patches
 - rosters/players public datasets
 - model runtime datasets
 - coverage
@@ -161,6 +162,17 @@ node scripts/import_worldcup_site_local_data.mjs
 ```bash
 python3 scripts/import_world_cup_predictor_local_data.py
 ```
+
+如果需要导入已经确认的官方国家队名单，先把数据写入 `data/patches/world_cup_2026_rosters.manual.json`，每条必须带官方 `source_url` 和可接受的 `source_status`，然后运行：
+
+```bash
+python3 scripts/import_world_cup_rosters_from_manual_patch.py
+python3 scripts/build_world_cup_roster_datasets.py
+python3 scripts/publish_worldcup_2026_api.py
+python3 scripts/publish_world_cup_predictor_api.py
+```
+
+当前允许进入 master 的名单来源状态包括 `official_fifa`、`official_fa`、`official_club_or_league_correction`、`manual_official_patch`。媒体报道、Wikipedia、球迷站不能直接进入 master，只能作为线索。
 
 带上下文采集的世界杯发布：
 
