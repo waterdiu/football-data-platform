@@ -2,13 +2,241 @@
   {
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
+    "team_id": "belgium",
+    "team_name": "Belgium",
+    "roster_type": "announced_26_provisional_until_fifa_final",
+    "source_status": "official_fifa",
+    "confidence": "high",
+    "published_at": "2026-05-13",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00",
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {
+      "fifa_article": "belgium-squad-garcia-lukaku-named"
+    },
+    "players": [
+      {
+        "player_id": "belgium:player:thibaut-courtois",
+        "name": "Thibaut Courtois",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:senne-lammens",
+        "name": "Senne Lammens",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:mike-penders",
+        "name": "Mike Penders",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:timothy-castagne",
+        "name": "Timothy Castagne",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:zeno-debast",
+        "name": "Zeno Debast",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:maxim-de-cuyper",
+        "name": "Maxim De Cuyper",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:koni-de-winter",
+        "name": "Koni De Winter",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:brandon-mechele",
+        "name": "Brandon Mechele",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:thomas-meunier",
+        "name": "Thomas Meunier",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:nathan-ngoy",
+        "name": "Nathan Ngoy",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:joaquin-seys",
+        "name": "Joaquin Seys",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:arthur-theate",
+        "name": "Arthur Theate",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:kevin-de-bruyne",
+        "name": "Kevin De Bruyne",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:amadou-onana",
+        "name": "Amadou Onana",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:nicolas-raskin",
+        "name": "Nicolas Raskin",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:youri-tielemans",
+        "name": "Youri Tielemans",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:hans-vanaken",
+        "name": "Hans Vanaken",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:axel-witsel",
+        "name": "Axel Witsel",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:charles-de-ketelaere",
+        "name": "Charles De Ketelaere",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:jeremy-doku",
+        "name": "Jeremy Doku",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:matias-fernandez-pardo",
+        "name": "Matias Fernandez-Pardo",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:romelu-lukaku",
+        "name": "Romelu Lukaku",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:dodi-lukebakio",
+        "name": "Dodi Lukebakio",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:diego-moreira",
+        "name": "Diego Moreira",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:alexis-saelemaekers",
+        "name": "Alexis Saelemaekers",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "belgium:player:leandro-trossard",
+        "name": "Leandro Trossard",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      }
+    ]
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
     "team_id": "france",
     "team_name": "France",
     "roster_type": "announced_26_provisional_until_fifa_final",
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-14",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00",
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
     "sources": [
       "official_fifa"

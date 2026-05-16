@@ -3,7 +3,7 @@
   "players_master": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_players_master.json",
   "rosters_output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/rosters.json",
   "players_output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/players.json",
-  "rosters_count": 1,
-  "players_count": 26,
+  "rosters_count": 2,
+  "players_count": 52,
   "status": "published"
 }

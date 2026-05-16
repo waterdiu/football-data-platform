@@ -1,5 +1,525 @@
 [
   {
+    "player_id": "belgium:player:alexis-saelemaekers",
+    "name": "Alexis Saelemaekers",
+    "display_name": "Alexis Saelemaekers",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:amadou-onana",
+    "name": "Amadou Onana",
+    "display_name": "Amadou Onana",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:arthur-theate",
+    "name": "Arthur Theate",
+    "display_name": "Arthur Theate",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:axel-witsel",
+    "name": "Axel Witsel",
+    "display_name": "Axel Witsel",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:brandon-mechele",
+    "name": "Brandon Mechele",
+    "display_name": "Brandon Mechele",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:charles-de-ketelaere",
+    "name": "Charles De Ketelaere",
+    "display_name": "Charles De Ketelaere",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:diego-moreira",
+    "name": "Diego Moreira",
+    "display_name": "Diego Moreira",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:dodi-lukebakio",
+    "name": "Dodi Lukebakio",
+    "display_name": "Dodi Lukebakio",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:hans-vanaken",
+    "name": "Hans Vanaken",
+    "display_name": "Hans Vanaken",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:jeremy-doku",
+    "name": "Jeremy Doku",
+    "display_name": "Jeremy Doku",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:joaquin-seys",
+    "name": "Joaquin Seys",
+    "display_name": "Joaquin Seys",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:kevin-de-bruyne",
+    "name": "Kevin De Bruyne",
+    "display_name": "Kevin De Bruyne",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:koni-de-winter",
+    "name": "Koni De Winter",
+    "display_name": "Koni De Winter",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:leandro-trossard",
+    "name": "Leandro Trossard",
+    "display_name": "Leandro Trossard",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:matias-fernandez-pardo",
+    "name": "Matias Fernandez-Pardo",
+    "display_name": "Matias Fernandez-Pardo",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:maxim-de-cuyper",
+    "name": "Maxim De Cuyper",
+    "display_name": "Maxim De Cuyper",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:mike-penders",
+    "name": "Mike Penders",
+    "display_name": "Mike Penders",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "GK",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:nathan-ngoy",
+    "name": "Nathan Ngoy",
+    "display_name": "Nathan Ngoy",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:nicolas-raskin",
+    "name": "Nicolas Raskin",
+    "display_name": "Nicolas Raskin",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:romelu-lukaku",
+    "name": "Romelu Lukaku",
+    "display_name": "Romelu Lukaku",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:senne-lammens",
+    "name": "Senne Lammens",
+    "display_name": "Senne Lammens",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "GK",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:thibaut-courtois",
+    "name": "Thibaut Courtois",
+    "display_name": "Thibaut Courtois",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "GK",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:thomas-meunier",
+    "name": "Thomas Meunier",
+    "display_name": "Thomas Meunier",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:timothy-castagne",
+    "name": "Timothy Castagne",
+    "display_name": "Timothy Castagne",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:youri-tielemans",
+    "name": "Youri Tielemans",
+    "display_name": "Youri Tielemans",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
+    "player_id": "belgium:player:zeno-debast",
+    "name": "Zeno Debast",
+    "display_name": "Zeno Debast",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Belgium",
+    "team_id": "belgium",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
+  },
+  {
     "player_id": "france:player:adrien-rabiot",
     "name": "Adrien Rabiot",
     "display_name": "Adrien Rabiot",
@@ -17,7 +537,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:aurelien-tchouameni",
@@ -37,7 +557,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:bradley-barcola",
@@ -57,7 +577,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:brice-samba",
@@ -77,7 +597,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:dayot-upamecano",
@@ -97,7 +617,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:desire-doue",
@@ -117,7 +637,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:ibrahima-konate",
@@ -137,7 +657,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:jean-philippe-mateta",
@@ -157,7 +677,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:jules-kounde",
@@ -177,7 +697,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:kylian-mbappe",
@@ -197,7 +717,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:lucas-digne",
@@ -217,7 +737,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:lucas-hernandez",
@@ -237,7 +757,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:maghnes-akliouche",
@@ -257,7 +777,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:malo-gusto",
@@ -277,7 +797,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:manu-kone",
@@ -297,7 +817,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:marcus-thuram",
@@ -317,7 +837,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:maxence-lacroix",
@@ -337,7 +857,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:michael-olise",
@@ -357,7 +877,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:mike-maignan",
@@ -377,7 +897,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:n-golo-kante",
@@ -397,7 +917,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:ousmane-dembele",
@@ -417,7 +937,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:rayan-cherki",
@@ -437,7 +957,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:robin-risser",
@@ -457,7 +977,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:theo-hernandez",
@@ -477,7 +997,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:warren-zaire-emery",
@@ -497,7 +1017,7 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   },
   {
     "player_id": "france:player:william-saliba",
@@ -517,6 +1037,6 @@
     ],
     "source_refs": {},
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
-    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+    "updated_at": "2026-05-16T09:34:59.060071+00:00"
   }
 ]

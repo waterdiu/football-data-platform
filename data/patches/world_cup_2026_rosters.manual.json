@@ -43,6 +43,47 @@
         { "name": "Michael Olise", "position": "FW" },
         { "name": "Marcus Thuram", "position": "FW" }
       ]
+    },
+    {
+      "competition_id": "fifa_world_cup",
+      "season_id": "2026",
+      "team_id": "belgium",
+      "roster_type": "announced_26_provisional_until_fifa_final",
+      "source_status": "official_fifa",
+      "confidence": "high",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+      "published_at": "2026-05-13",
+      "source_refs": {
+        "fifa_article": "belgium-squad-garcia-lukaku-named"
+      },
+      "players": [
+        { "name": "Thibaut Courtois", "position": "GK" },
+        { "name": "Senne Lammens", "position": "GK" },
+        { "name": "Mike Penders", "position": "GK" },
+        { "name": "Timothy Castagne", "position": "DF" },
+        { "name": "Zeno Debast", "position": "DF" },
+        { "name": "Maxim De Cuyper", "position": "DF" },
+        { "name": "Koni De Winter", "position": "DF" },
+        { "name": "Brandon Mechele", "position": "DF" },
+        { "name": "Thomas Meunier", "position": "DF" },
+        { "name": "Nathan Ngoy", "position": "DF" },
+        { "name": "Joaquin Seys", "position": "DF" },
+        { "name": "Arthur Theate", "position": "DF" },
+        { "name": "Kevin De Bruyne", "position": "MF" },
+        { "name": "Amadou Onana", "position": "MF" },
+        { "name": "Nicolas Raskin", "position": "MF" },
+        { "name": "Youri Tielemans", "position": "MF" },
+        { "name": "Hans Vanaken", "position": "MF" },
+        { "name": "Axel Witsel", "position": "MF" },
+        { "name": "Charles De Ketelaere", "position": "FW" },
+        { "name": "Jeremy Doku", "position": "FW" },
+        { "name": "Matias Fernandez-Pardo", "position": "FW" },
+        { "name": "Romelu Lukaku", "position": "FW" },
+        { "name": "Dodi Lukebakio", "position": "FW" },
+        { "name": "Diego Moreira", "position": "FW" },
+        { "name": "Alexis Saelemaekers", "position": "FW" },
+        { "name": "Leandro Trossard", "position": "FW" }
+      ]
     }
   ]
 }
