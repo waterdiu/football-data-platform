@@ -1279,7 +1279,7 @@
       "round": "Group Stage",
       "group": "A",
       "venue_type": "host_home",
-      "neutral": false
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537332",
@@ -2713,7 +2713,7 @@
       "round": "Group Stage",
       "group": "B",
       "venue_type": "host_home",
-      "neutral": false
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537338",
@@ -5589,7 +5589,7 @@
       "round": "Group Stage",
       "group": "D",
       "venue_type": "host_home",
-      "neutral": false
+      "neutral": true
     },
     {
       "match_id": "fifa_world_cup:2026:fdorg:537350",
