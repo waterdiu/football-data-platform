@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PersonRating",
+  "type": "object",
+  "required": ["entity_id", "entity_type", "rating_type", "status", "confidence"],
+  "properties": {
+    "entity_id": { "type": "string" },
+    "entity_type": { "type": "string", "enum": ["player", "team_staff", "official"] },
+    "rating_type": { "type": "string" },
+    "status": { "type": "string" },
+    "confidence": { "type": "string" },
+    "overall_rating": { "type": ["number", "null"] },
+    "dimension_ratings": { "type": "object" },
+    "raw_metrics": { "type": "object" },
+    "sample_size": { "type": ["number", "null"] },
+    "time_window": { "type": ["string", "null"] },
+    "competition_scope": { "type": ["string", "null"] },
+    "position_scope": { "type": ["string", "null"] },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "updated_at": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

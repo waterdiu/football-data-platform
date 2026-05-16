@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Official",
+  "type": "object",
+  "required": ["official_id", "name", "roles", "source_status"],
+  "properties": {
+    "official_id": { "type": "string" },
+    "name": { "type": "string" },
+    "display_name": { "type": ["string", "null"] },
+    "country": { "type": ["string", "null"] },
+    "confederation": { "type": ["string", "null"] },
+    "roles": { "type": "array", "items": { "type": "string" } },
+    "fifa_listed_since": { "type": ["string", "null"] },
+    "source_status": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "source_refs": { "type": "object" },
+    "source_url": { "type": ["string", "null"] },
+    "updated_at": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

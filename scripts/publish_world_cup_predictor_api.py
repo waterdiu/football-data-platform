@@ -60,6 +60,12 @@ def main() -> None:
     standings = load_json(PUBLIC_DIR / "standings.json")
     players = load_json(PUBLIC_DIR / "players.json")
     rosters = load_json(PUBLIC_DIR / "rosters.json")
+    team_staff = load_json(PUBLIC_DIR / "team-staff.json")
+    officials = load_json(PUBLIC_DIR / "officials.json")
+    player_ratings = load_json(PUBLIC_DIR / "player-ratings.json")
+    staff_ratings = load_json(PUBLIC_DIR / "staff-ratings.json")
+    official_ratings = load_json(PUBLIC_DIR / "official-ratings.json")
+    person_style_profiles = load_json(PUBLIC_DIR / "person-style-profiles.json")
     predictions = load_json(PUBLIC_DIR / "predictions.json")
     data_coverage = load_json(PUBLIC_DIR / "data-coverage.json")
 
@@ -82,6 +88,12 @@ def main() -> None:
         "standings.json": standings,
         "players.json": players,
         "rosters.json": rosters,
+        "team-staff.json": team_staff,
+        "officials.json": officials,
+        "player-ratings.json": player_ratings,
+        "staff-ratings.json": staff_ratings,
+        "official-ratings.json": official_ratings,
+        "person-style-profiles.json": person_style_profiles,
         "predictions.json": predictions,
         "data-coverage.json": data_coverage,
         "odds-snapshots.json": odds_runtime,
@@ -139,6 +151,12 @@ def main() -> None:
             "standings": standings,
             "players": players,
             "rosters": rosters,
+            "team_staff": team_staff,
+            "officials": officials,
+            "player_ratings": player_ratings,
+            "staff_ratings": staff_ratings,
+            "official_ratings": official_ratings,
+            "person_style_profiles": person_style_profiles,
             "predictions": predictions,
             "data_coverage": data_coverage,
             "odds_snapshots": odds_runtime,
@@ -168,6 +186,12 @@ def main() -> None:
             "standings": payload_size(standings),
             "players": payload_size(players),
             "rosters": payload_size(rosters),
+            "team_staff": payload_size(team_staff),
+            "officials": payload_size(officials),
+            "player_ratings": payload_size(player_ratings),
+            "staff_ratings": payload_size(staff_ratings),
+            "official_ratings": payload_size(official_ratings),
+            "person_style_profiles": payload_size(person_style_profiles),
             "predictions": payload_size(predictions),
             "prematch_context": payload_size(prematch_context_runtime),
         },

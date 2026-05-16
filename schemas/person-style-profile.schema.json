@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PersonStyleProfile",
+  "type": "object",
+  "required": ["entity_id", "entity_type", "status", "style_confidence"],
+  "properties": {
+    "entity_id": { "type": "string" },
+    "entity_type": { "type": "string", "enum": ["player", "team_staff", "official"] },
+    "status": { "type": "string" },
+    "primary_style": { "type": ["string", "null"] },
+    "secondary_styles": { "type": "array", "items": { "type": "string" } },
+    "style_tags": { "type": "array", "items": { "type": "object" } },
+    "style_confidence": { "type": "string" },
+    "style_evidence": { "type": "array", "items": { "type": "object" } },
+    "style_summary": { "type": ["string", "null"] },
+    "updated_at": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

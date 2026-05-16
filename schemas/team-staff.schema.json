@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TeamStaff",
+  "type": "object",
+  "required": ["staff_id", "name", "role", "team_id", "source_status"],
+  "properties": {
+    "staff_id": { "type": "string" },
+    "name": { "type": "string" },
+    "display_name": { "type": ["string", "null"] },
+    "name_zh": { "type": ["string", "null"] },
+    "role": { "type": "string" },
+    "team_id": { "type": "string" },
+    "nationality": { "type": ["string", "null"] },
+    "date_of_birth": { "type": ["string", "null"] },
+    "appointed_at": { "type": ["string", "null"] },
+    "contract_until": { "type": ["string", "null"] },
+    "source_status": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "source_refs": { "type": "object" },
+    "source_url": { "type": ["string", "null"] },
+    "updated_at": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

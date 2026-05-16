@@ -7,6 +7,10 @@
 
 - `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-data-platform-architecture-cn.md`
 
+人物档案层专题设计：
+
+- `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-person-profile-design-cn.md`
+
 ## 0. Workspace Coordination Role
 
 `football-data-platform` 当前也是足球工作区的全局协调入口。全局规则和状态不放在单个消费项目中，而放在工作区根目录：
@@ -32,6 +36,8 @@
 - 后台报表和数据监控
 
 它负责统一接入数据源、标准化字段与 ID、缓存原始数据、输出标准数据集，并记录覆盖率与质量情况。
+
+其中人物档案层负责球员、教练和裁判的基础档案、能力量化输入、风格标签和可解释画像。人物能力值必须由可追溯数据计算或人工官方 patch 进入，不允许无来源主观赋值。
 
 它不负责前端页面、不负责模型训练、不负责用户系统。
 
@@ -407,6 +413,31 @@ football-data-platform/
 - 赛前上下文摘要对象
 
 状态字段不应只支持简单字符串。对于预测相关数据，覆盖报告需要记录可信度与来源质量。
+
+### person profile schemas
+
+人物档案层规划见专题设计文档：
+
+- `docs/2026-05-16-football-person-profile-design-cn.md`
+
+当前已落地：
+
+- `schemas/player.schema.json`
+- `schemas/roster.schema.json`
+
+规划新增：
+
+- `schemas/team-staff.schema.json`
+- `schemas/official.schema.json`
+- `schemas/person-rating.schema.json`
+- `schemas/person-style-profile.schema.json`
+
+设计原则：
+
+- 人物 master 只保存可追溯事实。
+- 能力评分必须保留 `source`、`sample_size`、`time_window`、`confidence`。
+- 风格画像必须由规则标签和 evidence 生成，不允许仅凭姓名或主观印象生成。
+- 教练和裁判画像只描述行为倾向，不做价值判断。
 
 ### roster / player schemas
 

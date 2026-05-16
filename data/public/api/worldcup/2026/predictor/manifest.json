@@ -63,6 +63,30 @@
       "path": "api/worldcup/2026/predictor/rosters.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/rosters.json"
     },
+    "team_staff": {
+      "path": "api/worldcup/2026/predictor/team-staff.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/team-staff.json"
+    },
+    "officials": {
+      "path": "api/worldcup/2026/predictor/officials.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/officials.json"
+    },
+    "player_ratings": {
+      "path": "api/worldcup/2026/predictor/player-ratings.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/player-ratings.json"
+    },
+    "staff_ratings": {
+      "path": "api/worldcup/2026/predictor/staff-ratings.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/staff-ratings.json"
+    },
+    "official_ratings": {
+      "path": "api/worldcup/2026/predictor/official-ratings.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/official-ratings.json"
+    },
+    "person_style_profiles": {
+      "path": "api/worldcup/2026/predictor/person-style-profiles.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/person-style-profiles.json"
+    },
     "predictions": {
       "path": "api/worldcup/2026/predictor/predictions.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/predictions.json"

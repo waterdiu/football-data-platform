@@ -96,6 +96,36 @@
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/rosters.json",
         "count": 8
       },
+      "team_staff": {
+        "path": "./core/team-staff.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/team-staff.json",
+        "count": 0
+      },
+      "officials": {
+        "path": "./core/officials.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/officials.json",
+        "count": 0
+      },
+      "player_ratings": {
+        "path": "./core/player-ratings.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/player-ratings.json",
+        "count": 0
+      },
+      "staff_ratings": {
+        "path": "./core/staff-ratings.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/staff-ratings.json",
+        "count": 0
+      },
+      "official_ratings": {
+        "path": "./core/official-ratings.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/official-ratings.json",
+        "count": 0
+      },
+      "person_style_profiles": {
+        "path": "./core/person-style-profiles.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/person-style-profiles.json",
+        "count": 0
+      },
       "predictions": {
         "path": "./core/predictions.json",
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/predictions.json",
@@ -137,6 +167,12 @@
       "standings": 48,
       "players": 208,
       "rosters": 8,
+      "team_staff": 0,
+      "officials": 0,
+      "player_ratings": 0,
+      "staff_ratings": 0,
+      "official_ratings": 0,
+      "person_style_profiles": 0,
       "predictions": 104,
       "data_coverage": 104,
       "qualifier_events": 124,

@@ -23,6 +23,8 @@
 
 详细中文架构方案见 [docs/2026-05-16-football-data-platform-architecture-cn.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-data-platform-architecture-cn.md)。
 
+人物档案层设计见 [docs/2026-05-16-football-person-profile-design-cn.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-person-profile-design-cn.md)。
+
 ## Live Endpoints
 
 GitHub Pages 已上线，`worldcup/2026` 可以直接请求这些地址：
@@ -59,6 +61,7 @@ Pages 首页：
 完整交接文档见：
 
 - [2026-05-16-football-data-platform-architecture-cn.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-data-platform-architecture-cn.md)
+- [2026-05-16-football-person-profile-design-cn.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-person-profile-design-cn.md)
 - [2026-05-15-worldcup-2026-integration-handoff.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-15-worldcup-2026-integration-handoff.md)
 - [2026-05-15-worldcup-2026-runtime-api.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-15-worldcup-2026-runtime-api.md)
 - [2026-05-15-world-cup-predictor-integration-design.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-15-world-cup-predictor-integration-design.md)
