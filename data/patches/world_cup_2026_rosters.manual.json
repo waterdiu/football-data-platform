@@ -2,5 +2,47 @@
   "competition_id": "fifa_world_cup",
   "season_id": "2026",
   "updated_at": "2026-05-16T00:00:00Z",
-  "entries": []
+  "entries": [
+    {
+      "competition_id": "fifa_world_cup",
+      "season_id": "2026",
+      "team_id": "france",
+      "roster_type": "announced_26_provisional_until_fifa_final",
+      "source_status": "official_fifa",
+      "confidence": "high",
+      "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+      "published_at": "2026-05-14",
+      "source_refs": {
+        "fifa_article": "france-world-cup-squad-named"
+      },
+      "players": [
+        { "name": "Mike Maignan", "position": "GK" },
+        { "name": "Robin Risser", "position": "GK" },
+        { "name": "Brice Samba", "position": "GK" },
+        { "name": "Lucas Digne", "position": "DF" },
+        { "name": "Malo Gusto", "position": "DF" },
+        { "name": "Lucas Hernandez", "position": "DF" },
+        { "name": "Theo Hernandez", "position": "DF" },
+        { "name": "Ibrahima Konate", "position": "DF" },
+        { "name": "Jules Kounde", "position": "DF" },
+        { "name": "Maxence Lacroix", "position": "DF" },
+        { "name": "William Saliba", "position": "DF" },
+        { "name": "Dayot Upamecano", "position": "DF" },
+        { "name": "N'Golo Kante", "position": "MF" },
+        { "name": "Manu Kone", "position": "MF" },
+        { "name": "Adrien Rabiot", "position": "MF" },
+        { "name": "Aurelien Tchouameni", "position": "MF" },
+        { "name": "Warren Zaire-Emery", "position": "MF" },
+        { "name": "Maghnes Akliouche", "position": "FW" },
+        { "name": "Bradley Barcola", "position": "FW" },
+        { "name": "Rayan Cherki", "position": "FW" },
+        { "name": "Ousmane Dembele", "position": "FW" },
+        { "name": "Desire Doue", "position": "FW" },
+        { "name": "Jean-Philippe Mateta", "position": "FW" },
+        { "name": "Kylian Mbappe", "position": "FW" },
+        { "name": "Michael Olise", "position": "FW" },
+        { "name": "Marcus Thuram", "position": "FW" }
+      ]
+    }
+  ]
 }

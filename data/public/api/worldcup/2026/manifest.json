@@ -89,12 +89,12 @@
       "players": {
         "path": "./core/players.json",
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/players.json",
-        "count": 0
+        "count": 26
       },
       "rosters": {
         "path": "./core/rosters.json",
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/rosters.json",
-        "count": 0
+        "count": 1
       },
       "predictions": {
         "path": "./core/predictions.json",
@@ -135,8 +135,8 @@
       "fixtures": 104,
       "results": 104,
       "standings": 48,
-      "players": 0,
-      "rosters": 0,
+      "players": 26,
+      "rosters": 1,
       "predictions": 104,
       "data_coverage": 104,
       "qualifier_events": 124,

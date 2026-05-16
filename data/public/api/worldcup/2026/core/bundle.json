@@ -8807,8 +8807,758 @@
         "points": 0
       }
     ],
-    "players": [],
-    "rosters": [],
+    "players": [
+      {
+        "player_id": "france:player:adrien-rabiot",
+        "name": "Adrien Rabiot",
+        "display_name": "Adrien Rabiot",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "MF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:aurelien-tchouameni",
+        "name": "Aurelien Tchouameni",
+        "display_name": "Aurelien Tchouameni",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "MF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:bradley-barcola",
+        "name": "Bradley Barcola",
+        "display_name": "Bradley Barcola",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "FW",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:brice-samba",
+        "name": "Brice Samba",
+        "display_name": "Brice Samba",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "GK",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:dayot-upamecano",
+        "name": "Dayot Upamecano",
+        "display_name": "Dayot Upamecano",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "DF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:desire-doue",
+        "name": "Desire Doue",
+        "display_name": "Desire Doue",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "FW",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:ibrahima-konate",
+        "name": "Ibrahima Konate",
+        "display_name": "Ibrahima Konate",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "DF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:jean-philippe-mateta",
+        "name": "Jean-Philippe Mateta",
+        "display_name": "Jean-Philippe Mateta",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "FW",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:jules-kounde",
+        "name": "Jules Kounde",
+        "display_name": "Jules Kounde",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "DF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:kylian-mbappe",
+        "name": "Kylian Mbappe",
+        "display_name": "Kylian Mbappe",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "FW",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:lucas-digne",
+        "name": "Lucas Digne",
+        "display_name": "Lucas Digne",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "DF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:lucas-hernandez",
+        "name": "Lucas Hernandez",
+        "display_name": "Lucas Hernandez",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "DF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:maghnes-akliouche",
+        "name": "Maghnes Akliouche",
+        "display_name": "Maghnes Akliouche",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "FW",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:malo-gusto",
+        "name": "Malo Gusto",
+        "display_name": "Malo Gusto",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "DF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:manu-kone",
+        "name": "Manu Kone",
+        "display_name": "Manu Kone",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "MF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:marcus-thuram",
+        "name": "Marcus Thuram",
+        "display_name": "Marcus Thuram",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "FW",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:maxence-lacroix",
+        "name": "Maxence Lacroix",
+        "display_name": "Maxence Lacroix",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "DF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:michael-olise",
+        "name": "Michael Olise",
+        "display_name": "Michael Olise",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "FW",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:mike-maignan",
+        "name": "Mike Maignan",
+        "display_name": "Mike Maignan",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "GK",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:n-golo-kante",
+        "name": "N'Golo Kante",
+        "display_name": "N'Golo Kante",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "MF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:ousmane-dembele",
+        "name": "Ousmane Dembele",
+        "display_name": "Ousmane Dembele",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "FW",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:rayan-cherki",
+        "name": "Rayan Cherki",
+        "display_name": "Rayan Cherki",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "FW",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:robin-risser",
+        "name": "Robin Risser",
+        "display_name": "Robin Risser",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "GK",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:theo-hernandez",
+        "name": "Theo Hernandez",
+        "display_name": "Theo Hernandez",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "DF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:warren-zaire-emery",
+        "name": "Warren Zaire-Emery",
+        "display_name": "Warren Zaire-Emery",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "MF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      },
+      {
+        "player_id": "france:player:william-saliba",
+        "name": "William Saliba",
+        "display_name": "William Saliba",
+        "name_zh": null,
+        "date_of_birth": null,
+        "age": null,
+        "nationality": "France",
+        "team_id": "france",
+        "club": null,
+        "position": "DF",
+        "shirt_number": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {},
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00"
+      }
+    ],
+    "rosters": [
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "france",
+        "team_name": "France",
+        "roster_type": "announced_26_provisional_until_fifa_final",
+        "source_status": "official_fifa",
+        "confidence": "high",
+        "published_at": "2026-05-14",
+        "updated_at": "2026-05-16T09:14:32.405003+00:00",
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "fifa_article": "france-world-cup-squad-named"
+        },
+        "players": [
+          {
+            "player_id": "france:player:mike-maignan",
+            "name": "Mike Maignan",
+            "position": "GK",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:robin-risser",
+            "name": "Robin Risser",
+            "position": "GK",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:brice-samba",
+            "name": "Brice Samba",
+            "position": "GK",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:lucas-digne",
+            "name": "Lucas Digne",
+            "position": "DF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:malo-gusto",
+            "name": "Malo Gusto",
+            "position": "DF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:lucas-hernandez",
+            "name": "Lucas Hernandez",
+            "position": "DF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:theo-hernandez",
+            "name": "Theo Hernandez",
+            "position": "DF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:ibrahima-konate",
+            "name": "Ibrahima Konate",
+            "position": "DF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:jules-kounde",
+            "name": "Jules Kounde",
+            "position": "DF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:maxence-lacroix",
+            "name": "Maxence Lacroix",
+            "position": "DF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:william-saliba",
+            "name": "William Saliba",
+            "position": "DF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:dayot-upamecano",
+            "name": "Dayot Upamecano",
+            "position": "DF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:n-golo-kante",
+            "name": "N'Golo Kante",
+            "position": "MF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:manu-kone",
+            "name": "Manu Kone",
+            "position": "MF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:adrien-rabiot",
+            "name": "Adrien Rabiot",
+            "position": "MF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:aurelien-tchouameni",
+            "name": "Aurelien Tchouameni",
+            "position": "MF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:warren-zaire-emery",
+            "name": "Warren Zaire-Emery",
+            "position": "MF",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:maghnes-akliouche",
+            "name": "Maghnes Akliouche",
+            "position": "FW",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:bradley-barcola",
+            "name": "Bradley Barcola",
+            "position": "FW",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:rayan-cherki",
+            "name": "Rayan Cherki",
+            "position": "FW",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:ousmane-dembele",
+            "name": "Ousmane Dembele",
+            "position": "FW",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:desire-doue",
+            "name": "Desire Doue",
+            "position": "FW",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:jean-philippe-mateta",
+            "name": "Jean-Philippe Mateta",
+            "position": "FW",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:kylian-mbappe",
+            "name": "Kylian Mbappe",
+            "position": "FW",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:michael-olise",
+            "name": "Michael Olise",
+            "position": "FW",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          },
+          {
+            "player_id": "france:player:marcus-thuram",
+            "name": "Marcus Thuram",
+            "position": "FW",
+            "shirt_number": null,
+            "club": null,
+            "status": "selected"
+          }
+        ]
+      }
+    ],
     "predictions": [
       {
         "match_id": "fifa_world_cup:2026:fdorg:537327",
@@ -10686,7 +11436,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537328",
@@ -10794,7 +11544,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537329",
@@ -10902,7 +11652,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537330",
@@ -11010,7 +11760,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537331",
@@ -11118,7 +11868,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537332",
@@ -11226,7 +11976,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537333",
@@ -11334,7 +12084,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537334",
@@ -11442,7 +12192,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537335",
@@ -11550,7 +12300,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537336",
@@ -11658,7 +12408,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537337",
@@ -11766,7 +12516,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537338",
@@ -11874,7 +12624,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537339",
@@ -11982,7 +12732,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537340",
@@ -12090,7 +12840,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537341",
@@ -12198,7 +12948,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537342",
@@ -12306,7 +13056,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537343",
@@ -12414,7 +13164,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537344",
@@ -12522,7 +13272,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537345",
@@ -12630,7 +13380,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537346",
@@ -12738,7 +13488,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537347",
@@ -12846,7 +13596,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537348",
@@ -12954,7 +13704,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537349",
@@ -13062,7 +13812,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537350",
@@ -13170,7 +13920,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537351",
@@ -13278,7 +14028,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537352",
@@ -13386,7 +14136,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537353",
@@ -13494,7 +14244,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537354",
@@ -13602,7 +14352,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537355",
@@ -13710,7 +14460,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537356",
@@ -13818,7 +14568,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537357",
@@ -13926,7 +14676,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537358",
@@ -14034,7 +14784,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537359",
@@ -14142,7 +14892,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537360",
@@ -14250,7 +15000,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537361",
@@ -14358,7 +15108,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537362",
@@ -14466,7 +15216,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537363",
@@ -14574,7 +15324,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537364",
@@ -14682,7 +15432,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537365",
@@ -14790,7 +15540,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537366",
@@ -14898,7 +15648,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537367",
@@ -15006,7 +15756,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537368",
@@ -15114,7 +15864,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537369",
@@ -15222,7 +15972,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537370",
@@ -15330,7 +16080,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537371",
@@ -15438,7 +16188,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537372",
@@ -15546,7 +16296,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537373",
@@ -15654,7 +16404,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537374",
@@ -15762,7 +16512,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537375",
@@ -15870,7 +16620,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537376",
@@ -15978,7 +16728,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537377",
@@ -16086,7 +16836,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537378",
@@ -16194,7 +16944,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537379",
@@ -16302,7 +17052,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537380",
@@ -16410,7 +17160,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537381",
@@ -16518,7 +17268,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537382",
@@ -16626,7 +17376,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537383",
@@ -16734,7 +17484,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537384",
@@ -16842,7 +17592,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537385",
@@ -16950,7 +17700,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537386",
@@ -17058,7 +17808,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537387",
@@ -17166,7 +17916,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537388",
@@ -17274,7 +18024,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537389",
@@ -17382,7 +18132,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537390",
@@ -17490,7 +18240,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537391",
@@ -17571,9 +18321,11 @@
           }
         },
         "rosters": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "team_count": 0
+          "source": "platform_rosters",
+          "last_updated": "2026-05-16T09:14:42.750819+00:00",
+          "team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -17598,7 +18350,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537392",
@@ -17706,7 +18458,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537393",
@@ -17787,9 +18539,11 @@
           }
         },
         "rosters": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "team_count": 0
+          "source": "platform_rosters",
+          "last_updated": "2026-05-16T09:14:42.750819+00:00",
+          "team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -17814,7 +18568,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537394",
@@ -17922,7 +18676,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537395",
@@ -18003,9 +18757,11 @@
           }
         },
         "rosters": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "team_count": 0
+          "source": "platform_rosters",
+          "last_updated": "2026-05-16T09:14:42.750819+00:00",
+          "team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -18030,7 +18786,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537396",
@@ -18138,7 +18894,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537397",
@@ -18246,7 +19002,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537398",
@@ -18354,7 +19110,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537399",
@@ -18462,7 +19218,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537400",
@@ -18570,7 +19326,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537401",
@@ -18678,7 +19434,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537402",
@@ -18786,7 +19542,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537403",
@@ -18894,7 +19650,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537404",
@@ -19002,7 +19758,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537405",
@@ -19110,7 +19866,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537406",
@@ -19218,7 +19974,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537407",
@@ -19326,7 +20082,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537408",
@@ -19434,7 +20190,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537409",
@@ -19542,7 +20298,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537410",
@@ -19650,7 +20406,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537411",
@@ -19758,7 +20514,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537412",
@@ -19866,7 +20622,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537413",
@@ -19974,7 +20730,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537414",
@@ -20082,7 +20838,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537415",
@@ -20190,7 +20946,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537416",
@@ -20298,7 +21054,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537417",
@@ -20406,7 +21162,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537418",
@@ -20514,7 +21270,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537419",
@@ -20622,7 +21378,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537420",
@@ -20730,7 +21486,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537421",
@@ -20838,7 +21594,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537422",
@@ -20946,7 +21702,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537423",
@@ -21054,7 +21810,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537424",
@@ -21162,7 +21918,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537425",
@@ -21270,7 +22026,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537426",
@@ -21378,7 +22134,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537427",
@@ -21486,7 +22242,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537428",
@@ -21594,7 +22350,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537429",
@@ -21702,7 +22458,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537430",
@@ -21810,7 +22566,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-16T09:06:58.627129+00:00"
+        "last_checked_at": "2026-05-16T09:14:52.284497+00:00"
       }
     ],
     "qualifier_events": [

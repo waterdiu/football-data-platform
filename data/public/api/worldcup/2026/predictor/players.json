@@ -1,1 +1,522 @@
-[]
+[
+  {
+    "player_id": "france:player:adrien-rabiot",
+    "name": "Adrien Rabiot",
+    "display_name": "Adrien Rabiot",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:aurelien-tchouameni",
+    "name": "Aurelien Tchouameni",
+    "display_name": "Aurelien Tchouameni",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:bradley-barcola",
+    "name": "Bradley Barcola",
+    "display_name": "Bradley Barcola",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:brice-samba",
+    "name": "Brice Samba",
+    "display_name": "Brice Samba",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "GK",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:dayot-upamecano",
+    "name": "Dayot Upamecano",
+    "display_name": "Dayot Upamecano",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:desire-doue",
+    "name": "Desire Doue",
+    "display_name": "Desire Doue",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:ibrahima-konate",
+    "name": "Ibrahima Konate",
+    "display_name": "Ibrahima Konate",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:jean-philippe-mateta",
+    "name": "Jean-Philippe Mateta",
+    "display_name": "Jean-Philippe Mateta",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:jules-kounde",
+    "name": "Jules Kounde",
+    "display_name": "Jules Kounde",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:kylian-mbappe",
+    "name": "Kylian Mbappe",
+    "display_name": "Kylian Mbappe",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:lucas-digne",
+    "name": "Lucas Digne",
+    "display_name": "Lucas Digne",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:lucas-hernandez",
+    "name": "Lucas Hernandez",
+    "display_name": "Lucas Hernandez",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:maghnes-akliouche",
+    "name": "Maghnes Akliouche",
+    "display_name": "Maghnes Akliouche",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:malo-gusto",
+    "name": "Malo Gusto",
+    "display_name": "Malo Gusto",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:manu-kone",
+    "name": "Manu Kone",
+    "display_name": "Manu Kone",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:marcus-thuram",
+    "name": "Marcus Thuram",
+    "display_name": "Marcus Thuram",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:maxence-lacroix",
+    "name": "Maxence Lacroix",
+    "display_name": "Maxence Lacroix",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:michael-olise",
+    "name": "Michael Olise",
+    "display_name": "Michael Olise",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:mike-maignan",
+    "name": "Mike Maignan",
+    "display_name": "Mike Maignan",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "GK",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:n-golo-kante",
+    "name": "N'Golo Kante",
+    "display_name": "N'Golo Kante",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:ousmane-dembele",
+    "name": "Ousmane Dembele",
+    "display_name": "Ousmane Dembele",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:rayan-cherki",
+    "name": "Rayan Cherki",
+    "display_name": "Rayan Cherki",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "FW",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:robin-risser",
+    "name": "Robin Risser",
+    "display_name": "Robin Risser",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "GK",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:theo-hernandez",
+    "name": "Theo Hernandez",
+    "display_name": "Theo Hernandez",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:warren-zaire-emery",
+    "name": "Warren Zaire-Emery",
+    "display_name": "Warren Zaire-Emery",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "MF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  },
+  {
+    "player_id": "france:player:william-saliba",
+    "name": "William Saliba",
+    "display_name": "William Saliba",
+    "name_zh": null,
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "France",
+    "team_id": "france",
+    "club": null,
+    "position": "DF",
+    "shirt_number": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {},
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00"
+  }
+]

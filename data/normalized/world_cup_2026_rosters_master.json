@@ -1,1 +1,230 @@
-[]
+[
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "team_id": "france",
+    "team_name": "France",
+    "roster_type": "announced_26_provisional_until_fifa_final",
+    "source_status": "official_fifa",
+    "confidence": "high",
+    "published_at": "2026-05-14",
+    "updated_at": "2026-05-16T09:14:32.405003+00:00",
+    "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {
+      "fifa_article": "france-world-cup-squad-named"
+    },
+    "players": [
+      {
+        "player_id": "france:player:mike-maignan",
+        "name": "Mike Maignan",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:robin-risser",
+        "name": "Robin Risser",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:brice-samba",
+        "name": "Brice Samba",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:lucas-digne",
+        "name": "Lucas Digne",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:malo-gusto",
+        "name": "Malo Gusto",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:lucas-hernandez",
+        "name": "Lucas Hernandez",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:theo-hernandez",
+        "name": "Theo Hernandez",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:ibrahima-konate",
+        "name": "Ibrahima Konate",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:jules-kounde",
+        "name": "Jules Kounde",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:maxence-lacroix",
+        "name": "Maxence Lacroix",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:william-saliba",
+        "name": "William Saliba",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:dayot-upamecano",
+        "name": "Dayot Upamecano",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:n-golo-kante",
+        "name": "N'Golo Kante",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:manu-kone",
+        "name": "Manu Kone",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:adrien-rabiot",
+        "name": "Adrien Rabiot",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:aurelien-tchouameni",
+        "name": "Aurelien Tchouameni",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:warren-zaire-emery",
+        "name": "Warren Zaire-Emery",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:maghnes-akliouche",
+        "name": "Maghnes Akliouche",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:bradley-barcola",
+        "name": "Bradley Barcola",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:rayan-cherki",
+        "name": "Rayan Cherki",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:ousmane-dembele",
+        "name": "Ousmane Dembele",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:desire-doue",
+        "name": "Desire Doue",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:jean-philippe-mateta",
+        "name": "Jean-Philippe Mateta",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:kylian-mbappe",
+        "name": "Kylian Mbappe",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:michael-olise",
+        "name": "Michael Olise",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "france:player:marcus-thuram",
+        "name": "Marcus Thuram",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      }
+    ]
+  }
+]
