@@ -16,7 +16,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
+    "updated_at": "2026-05-16T15:02:42Z"
   },
   {
     "platform_person_id": "haiti:player:johny-placide",
@@ -35,26 +35,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
-  },
-  {
-    "platform_person_id": "haiti:player:louicius-deedson",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "haiti",
-    "name": "Louicius Deedson",
-    "match_key": "louicius deedson",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
+    "updated_at": "2026-05-16T15:02:42Z"
   },
   {
     "platform_person_id": "haiti:player:woodensky-pierre",
@@ -73,26 +54,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
-  },
-  {
-    "platform_person_id": "sweden:player:jacob-zetterstrom",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "sweden",
-    "name": "Jacob Zetterstrom",
-    "match_key": "jacob zetterstrom",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
+    "updated_at": "2026-05-16T15:02:42Z"
   },
   {
     "platform_person_id": "tunisia:player:abdelmouhib-chamakh",
@@ -111,26 +73,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
-  },
-  {
-    "platform_person_id": "tunisia:player:aymen-dahmene",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "tunisia",
-    "name": "Aymen Dahmene",
-    "match_key": "aymen dahmene",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
+    "updated_at": "2026-05-16T15:02:42Z"
   },
   {
     "platform_person_id": "tunisia:player:hadj-mahmoud",
@@ -149,26 +92,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
-  },
-  {
-    "platform_person_id": "tunisia:player:mohamed-amine-ben-hamida",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "tunisia",
-    "name": "Mohamed Amine Ben Hamida",
-    "match_key": "mohamed amine ben hamida",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
+    "updated_at": "2026-05-16T15:02:42Z"
   },
   {
     "platform_person_id": "tunisia:player:raed-chikhaoui",
@@ -187,25 +111,6 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
-  },
-  {
-    "platform_person_id": "tunisia:player:sabri-ben-hassan",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "tunisia",
-    "name": "Sabri Ben Hassan",
-    "match_key": "sabri ben hassan",
-    "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [],
-    "manual_review": null,
-    "updated_at": "2026-05-16T14:46:59Z"
+    "updated_at": "2026-05-16T15:02:42Z"
   }
 ]

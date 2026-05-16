@@ -91,6 +91,90 @@
         "Selected Reep candidate is the active Sweden forward born 1997-05-23 with broad modern provider coverage.",
         "Alternative candidate is born 1922-10-20 and cannot be the current roster player."
       ]
+    },
+    {
+      "platform_person_id": "haiti:player:louicius-deedson",
+      "provider_refs": {
+        "reep_id": "reep_p78b50473",
+        "key_wikidata": "Q72697581",
+        "key_transfermarkt": "646108",
+        "key_api_football": "128766"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T15:15:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has Haiti forward context.",
+        "Selected Reep candidate is Louicius Don Deedson, a Haiti forward born 2001-02-11 with broad modern provider coverage.",
+        "The unmatched platform name is a shortened form that drops the middle name Don."
+      ]
+    },
+    {
+      "platform_person_id": "sweden:player:jacob-zetterstrom",
+      "provider_refs": {
+        "reep_id": "reep_p65eea51a",
+        "key_wikidata": "Q95618487",
+        "key_transfermarkt": "549440",
+        "key_api_football": "48033"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T15:15:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has Sweden goalkeeper context.",
+        "Selected Reep candidate is Jacob Widell Zetterström, a Sweden goalkeeper born 1998-07-11 with broad modern provider coverage.",
+        "The unmatched platform name omits the middle name Widell and strips the diacritic from Zetterström."
+      ]
+    },
+    {
+      "platform_person_id": "tunisia:player:aymen-dahmene",
+      "provider_refs": {
+        "reep_id": "reep_pa7e6da93",
+        "key_wikidata": "Q64520753",
+        "key_transfermarkt": "569433",
+        "key_api_football": "49424"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T15:15:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has Tunisia goalkeeper context.",
+        "Selected Reep candidate is Aymen Dahmen, a Tunisia goalkeeper born 1997-01-28 with broad modern provider coverage.",
+        "The unmatched platform name uses the common alternate transliteration Dahmene."
+      ]
+    },
+    {
+      "platform_person_id": "tunisia:player:mohamed-amine-ben-hamida",
+      "provider_refs": {
+        "reep_id": "reep_p46d4c572",
+        "key_wikidata": "Q101064617",
+        "key_transfermarkt": "454495",
+        "key_api_football": "135059"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T15:15:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has Tunisia defender context.",
+        "Selected Reep candidate is Mohamed Amine Ben Hmida, a Tunisia full-back born 1995-12-15 with broad modern provider coverage.",
+        "The unmatched platform name uses the alternate spelling Ben Hamida."
+      ]
+    },
+    {
+      "platform_person_id": "tunisia:player:sabri-ben-hassan",
+      "provider_refs": {
+        "reep_id": "reep_p50d1a909",
+        "key_wikidata": "reep_p50d1a909",
+        "key_transfermarkt": "295381"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T15:15:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has Tunisia goalkeeper context.",
+        "Selected Reep candidate is Sabri Ben Hessen, a Tunisia goalkeeper born 1996-06-13.",
+        "The unmatched platform name uses the alternate spelling Ben Hassan."
+      ]
     }
   ]
 }
