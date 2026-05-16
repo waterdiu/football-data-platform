@@ -1,11 +1,13 @@
 {
-  "generated_at": "2026-05-15T00:00:00Z",
+  "generated_at": "2026-05-16T12:50:52.929545+00:00",
+  "published_at": "2026-05-16T12:50:52.929545+00:00",
   "inbox_root": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor",
   "world_cup": [
     {
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor/worldcup-2026/predictions.json",
       "status": "published",
-      "bytes": 988446,
+      "published_at": "2026-05-16T12:50:52.929545+00:00",
+      "bytes": 1028549,
       "rows": 104,
       "destinations": {
         "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_predictor_predictions_source_master.json"
@@ -56,6 +58,7 @@
     {
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor/premier-league/predictions.json",
       "status": "published",
+      "published_at": "2026-05-16T12:50:52.929545+00:00",
       "bytes": 410005,
       "rows": 40,
       "destinations": {

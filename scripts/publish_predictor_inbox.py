@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import shutil
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,8 +12,6 @@ NORMALIZED_DIR = ROOT / "data" / "normalized"
 MODEL_DIR = ROOT / "data" / "model"
 PUBLIC_DIR = ROOT / "data" / "public"
 REPORTS_DIR = ROOT / "reports"
-
-UPDATED_AT = "2026-05-15T00:00:00Z"
 
 WORLD_CUP_INBOX_FILES = {
     "worldcup-2026/predictions.json": {
@@ -79,7 +78,11 @@ def copy_file(source: Path, target: Path) -> None:
     shutil.copy2(source, target)
 
 
-def publish_mapping(mapping: dict[str, dict[str, str]]) -> list[dict[str, object]]:
+def now_utc() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def publish_mapping(mapping: dict[str, dict[str, str]], *, published_at: str) -> list[dict[str, object]]:
     published: list[dict[str, object]] = []
     for relative_path, destinations in mapping.items():
         source = INBOX_ROOT / relative_path
@@ -129,6 +132,7 @@ def publish_mapping(mapping: dict[str, dict[str, str]]) -> list[dict[str, object
             {
                 "source": str(source),
                 "status": "published",
+                "published_at": published_at,
                 "bytes": source.stat().st_size,
                 "rows": rows,
                 "destinations": copied_to,
@@ -146,11 +150,13 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    world_cup_results = publish_mapping(WORLD_CUP_INBOX_FILES)
-    premier_league_results = publish_mapping(PREMIER_LEAGUE_INBOX_FILES)
+    published_at = now_utc()
+    world_cup_results = publish_mapping(WORLD_CUP_INBOX_FILES, published_at=published_at)
+    premier_league_results = publish_mapping(PREMIER_LEAGUE_INBOX_FILES, published_at=published_at)
 
     report = {
-        "generated_at": UPDATED_AT,
+        "generated_at": published_at,
+        "published_at": published_at,
         "inbox_root": str(INBOX_ROOT),
         "world_cup": world_cup_results,
         "premier_league": premier_league_results,

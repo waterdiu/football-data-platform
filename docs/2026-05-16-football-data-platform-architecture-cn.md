@@ -471,6 +471,9 @@ coverage 每场包含：
 - `prematch_context`
 - `prediction`
 - `runtime_summary`
+- `publish_freshness`
+
+其中 `publish_freshness.predictions_last_published_at` 用于展示站判断预测数据是否已经从模型 inbox 发布到 public API。该时间来自 `reports/predictor_inbox_publish_report.json`，不是固定构建时间。
 
 每个字段尽量包含：
 

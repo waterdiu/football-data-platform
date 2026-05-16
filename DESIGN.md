@@ -364,7 +364,16 @@ football-data-platform/
 - `injuries`
 - `weather`
 - `prediction`
+- `publish_freshness`
 - `last_checked_at`
+
+`prediction` 覆盖项必须包含发布新鲜度字段：
+
+- `published_at`
+- `publish_status`
+- `publish_rows`
+
+`publish_freshness.predictions_last_published_at` 是展示站判断预测数据是否新鲜的主字段。它来自 `reports/predictor_inbox_publish_report.json`，由 `scripts/publish_predictor_inbox.py` 在发布 predictor inbox 时写入真实 UTC 时间。
 
 ### standings.json
 

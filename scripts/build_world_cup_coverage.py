@@ -21,6 +21,7 @@ INJURIES_PATH = MODEL_DIR / "injuries.json"
 WEATHER_PATH = MODEL_DIR / "weather.json"
 PREMATCH_CONTEXT_PATH = MODEL_DIR / "prematch_context.json"
 ROSTERS_PATH = PUBLIC_DIR / "rosters.json"
+PREDICTOR_INBOX_REPORT_PATH = ROOT / "reports" / "predictor_inbox_publish_report.json"
 
 NORMALIZED_OUTPUT_PATH = NORMALIZED_DIR / "world_cup_2026_data_coverage.json"
 PUBLIC_OUTPUT_PATH = PUBLIC_DIR / "data-coverage.json"
@@ -59,6 +60,38 @@ def file_updated_at(path: Path) -> str | None:
     if not path.exists():
         return None
     return datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc).isoformat()
+
+
+def predictor_publish_metadata() -> dict[str, object]:
+    if not PREDICTOR_INBOX_REPORT_PATH.exists():
+        return {
+            "predictions_last_published_at": None,
+            "predictions_publish_status": "missing_report",
+            "predictions_publish_rows": 0,
+        }
+    payload = load_json(PREDICTOR_INBOX_REPORT_PATH)
+    if not isinstance(payload, dict):
+        return {
+            "predictions_last_published_at": None,
+            "predictions_publish_status": "invalid_report",
+            "predictions_publish_rows": 0,
+        }
+    published_at = payload.get("published_at") or payload.get("generated_at")
+    for item in payload.get("world_cup", []):
+        if not isinstance(item, dict):
+            continue
+        source = str(item.get("source") or "")
+        if source.endswith("worldcup-2026/predictions.json"):
+            return {
+                "predictions_last_published_at": item.get("published_at") or published_at,
+                "predictions_publish_status": item.get("status") or "unknown",
+                "predictions_publish_rows": item.get("rows") or 0,
+            }
+    return {
+        "predictions_last_published_at": published_at,
+        "predictions_publish_status": "not_found",
+        "predictions_publish_rows": 0,
+    }
 
 
 def confidence_score(item: dict[str, object]) -> float:
@@ -132,6 +165,7 @@ def main() -> None:
         raise TypeError("rosters.json must contain a list")
 
     updated_at = datetime.now(timezone.utc).isoformat()
+    predictor_publish = predictor_publish_metadata()
     source_updated_at = {
         "fixtures": file_updated_at(FIXTURES_PATH),
         "results": file_updated_at(RESULTS_PATH),
@@ -144,6 +178,7 @@ def main() -> None:
         "weather": file_updated_at(WEATHER_PATH),
         "prematch_context": file_updated_at(PREMATCH_CONTEXT_PATH),
         "rosters": file_updated_at(ROSTERS_PATH),
+        "predictor_inbox_report": file_updated_at(PREDICTOR_INBOX_REPORT_PATH),
     }
 
     result_by_match_id = {str(item["match_id"]): item for item in results if isinstance(item, dict) and "match_id" in item}
@@ -198,7 +233,10 @@ def main() -> None:
                 status="available",
                 confidence="medium",
                 source=str(prediction.get("model_name") or "unknown"),
-                last_updated=source_updated_at["predictions"],
+                last_updated=str(predictor_publish["predictions_last_published_at"] or source_updated_at["predictions"] or ""),
+                published_at=predictor_publish["predictions_last_published_at"],
+                publish_status=predictor_publish["predictions_publish_status"],
+                publish_rows=predictor_publish["predictions_publish_rows"],
             )
         else:
             prediction_status = coverage_item(status="missing", confidence="low")
@@ -332,6 +370,12 @@ def main() -> None:
                 "prematch_context": prematch_context_status,
                 "rosters": roster_status,
                 "prediction": prediction_status,
+                "publish_freshness": {
+                    "predictions_last_published_at": predictor_publish["predictions_last_published_at"],
+                    "predictions_publish_status": predictor_publish["predictions_publish_status"],
+                    "predictions_publish_rows": predictor_publish["predictions_publish_rows"],
+                    "coverage_generated_at": updated_at,
+                },
                 "runtime_summary": runtime_summary(runtime_fields),
                 "last_checked_at": updated_at,
             }
