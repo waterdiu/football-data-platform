@@ -26,6 +26,7 @@
 执行边界：
 
 - 本对话只直接修改 `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform` 内的文件
+- 本对话可以维护工作区共享协调文档：`/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_ORCHESTRATOR.md` 和 `/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_STATUS.md`
 - 需要修改 `world-cup-predictor` 或 `worldcup/2026` 时，只输出交接说明，由用户转给对应项目对话执行
 - 数据层负责 schema、采集、标准化、发布、健康检查和数据覆盖报告
 - 模型项目负责模型、特征、训练、预测、报告、Kelly/EV 和预测输出写回
@@ -36,7 +37,7 @@
 - `/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_ORCHESTRATOR.md`
 - `/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_STATUS.md`
 
-`football-data-platform` 对话负责协调这两份共享文档所描述的边界；如果需要修改工作区根目录文件或消费项目文件，必须先提出交接或取得用户明确同意。
+`football-data-platform` 对话负责维护这两份共享文档所描述的边界。它们是三项目交流机制，不属于模型或展示站代码。若需要修改消费项目源码、测试或项目内文档，必须先提出交接或取得用户明确同意。
 
 截至 2026-05-16：
 

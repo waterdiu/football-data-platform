@@ -15,6 +15,13 @@
 
 - `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform`
 
+共享协调文档例外：
+
+- `/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_ORCHESTRATOR.md`
+- `/Users/chamcham/Documents/AI/CODEX/soccer/WORKSPACE_STATUS.md`
+
+这两份文件是数据层、模型层和展示站之间的交流机制，可以由本对话维护。它们不是模型或展示站代码，不视为跨项目代码修改。
+
 如果发现需要修改模型项目或展示网站，不能在本对话直接改代码。必须输出交接说明，由用户转给对应项目对话执行。
 
 ## 2. 修改边界
@@ -24,6 +31,7 @@
 - 数据层 schema、配置、采集脚本、标准化脚本、发布脚本
 - 数据层 `data/normalized`、`data/public`、`data/model`、`reports`
 - 数据层设计文档、运行文档、交接文档
+- 工作区共享协调文档：`WORKSPACE_ORCHESTRATOR.md`、`WORKSPACE_STATUS.md`
 
 不允许本对话直接修改：
 
@@ -33,7 +41,53 @@
 
 例外：如果用户明确要求本对话跨目录修改，必须先说明影响范围，再执行。
 
-## 3. 跨项目交接格式
+## 3. 模型层与数据层协同机制
+
+模型层和数据层通过“平台读写契约 + inbox 写回 + 协调文档回报”协同，不通过互相改源码解决问题。
+
+数据层向模型层提供：
+
+- `data/public/api/worldcup/2026/predictor/*`
+- `data/public/api/predictor/data-assets/*`
+- `data/public/api/migration-status.json`
+- `reports/source-health.json`
+- `reports/world_cup_runtime_collection_report.json`
+
+模型层读取平台 predictor bundle、runtime datasets 和 data-assets manifest。模型层不再拥有生产共享数据采集责任。
+
+模型层向数据层写回：
+
+- `data/inbox/predictor/**`
+
+数据层再通过 publish 脚本校验、合并、发布到：
+
+- `data/normalized`
+- `data/model`
+- `data/public`
+
+模型层不得直接写 `data/public`、`data/model` 或 `data/normalized`。
+
+当模型层发现平台数据缺失、字段不够或 contract 不匹配时，应回报给协调入口。协调入口判断：
+
+- 属于数据源、schema、API、coverage、health、publish 的，留在 `football-data-platform` 修
+- 属于特征、模型、训练、评估、Kelly/EV、报告解释的，交给 `world-cup-predictor` 修
+
+模型层回报格式：
+
+```text
+Project: world-cup-predictor
+Task:
+Status:
+Completed:
+Files changed:
+Validation:
+Data/API contract impact:
+Needs data platform:
+Blockers:
+Next recommended step:
+```
+
+## 4. 跨项目交接格式
 
 需要其他项目改动时，使用以下格式：
 
@@ -51,7 +105,7 @@ Return report expected:
 
 交接说明必须足够具体，让对应项目对话可以直接执行，不需要重新推断边界。
 
-## 4. GitHub 提交策略
+## 5. GitHub 提交策略
 
 正常优先级：
 
@@ -62,7 +116,7 @@ Return report expected:
 
 原因：当前环境多次出现 `gh api` 可用但 Git HTTPS 传输不稳定的情况。反复重试 `git push` 会浪费时间和成本。
 
-## 5. GitHub API 发布判定
+## 6. GitHub API 发布判定
 
 当满足任一条件时，允许直接走 API 发布：
 
@@ -78,7 +132,7 @@ API 发布后必须验证：
 - 本地 `HEAD^{tree}` 是否与远端 tree 一致
 - GitHub Actions / Pages 部署是否成功
 
-## 6. 本地 ahead 状态解释
+## 7. 本地 ahead 状态解释
 
 如果使用 GitHub API 创建了远端等价提交，本地可能显示：
 
@@ -93,14 +147,15 @@ API 发布后必须验证：
 
 两者一致时，内容已经同步。后续等 Git HTTPS 恢复后，再用普通 `git fetch` / `git rebase` 对齐本地元数据。
 
-## 7. 禁止事项
+## 8. 禁止事项
 
 - 不因 `ahead 1` 直接强推。
 - 不用 `git reset --hard` 解决 API 推送造成的 SHA 差异，除非用户明确批准。
 - 不在数据层对话里直接修改消费项目代码。
+- 不把模型层写回的 inbox 直接当成 public 真相源，必须经过数据层 publish 校验。
 - 不把没有验证的远端状态写入协调结论。
 
-## 8. 文档维护
+## 9. 文档维护
 
 以下情况必须更新本文件或主设计文档：
 
