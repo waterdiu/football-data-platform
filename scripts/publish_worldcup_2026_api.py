@@ -16,6 +16,8 @@ CORE_DATASETS = {
     "fixtures": "fixtures.json",
     "results": "results.json",
     "standings": "standings.json",
+    "players": "players.json",
+    "rosters": "rosters.json",
     "predictions": "predictions.json",
     "data_coverage": "data-coverage.json",
     "qualifier_events": "qualifier-events.json",

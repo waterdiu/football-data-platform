@@ -20,6 +20,7 @@ ODDS_PATH = MODEL_DIR / "odds_snapshots.json"
 INJURIES_PATH = MODEL_DIR / "injuries.json"
 WEATHER_PATH = MODEL_DIR / "weather.json"
 PREMATCH_CONTEXT_PATH = MODEL_DIR / "prematch_context.json"
+ROSTERS_PATH = PUBLIC_DIR / "rosters.json"
 
 NORMALIZED_OUTPUT_PATH = NORMALIZED_DIR / "world_cup_2026_data_coverage.json"
 PUBLIC_OUTPUT_PATH = PUBLIC_DIR / "data-coverage.json"
@@ -105,6 +106,7 @@ def main() -> None:
     injuries_rows = load_json(INJURIES_PATH)
     weather_rows = load_json(WEATHER_PATH)
     prematch_context_rows = load_json(PREMATCH_CONTEXT_PATH)
+    roster_rows = load_json(ROSTERS_PATH)
 
     if not isinstance(fixtures, list):
         raise TypeError("fixtures.json must contain a list")
@@ -126,6 +128,8 @@ def main() -> None:
         raise TypeError("weather.json must contain a list")
     if not isinstance(prematch_context_rows, list):
         raise TypeError("prematch_context.json must contain a list")
+    if not isinstance(roster_rows, list):
+        raise TypeError("rosters.json must contain a list")
 
     updated_at = datetime.now(timezone.utc).isoformat()
     source_updated_at = {
@@ -139,6 +143,7 @@ def main() -> None:
         "injuries": file_updated_at(INJURIES_PATH),
         "weather": file_updated_at(WEATHER_PATH),
         "prematch_context": file_updated_at(PREMATCH_CONTEXT_PATH),
+        "rosters": file_updated_at(ROSTERS_PATH),
     }
 
     result_by_match_id = {str(item["match_id"]): item for item in results if isinstance(item, dict) and "match_id" in item}
@@ -159,6 +164,9 @@ def main() -> None:
     }
     prematch_context_by_match_id = {
         str(item["match_id"]): item for item in prematch_context_rows if isinstance(item, dict) and "match_id" in item
+    }
+    roster_by_team_id = {
+        str(item["team_id"]): item for item in roster_rows if isinstance(item, dict) and "team_id" in item
     }
 
     coverage_rows: list[dict[str, object]] = []
@@ -260,6 +268,16 @@ def main() -> None:
         else:
             prematch_context_status = coverage_item(status="missing", confidence="low")
 
+        fixture_team_ids = [str(fixture.get("home_team_id") or ""), str(fixture.get("away_team_id") or "")]
+        roster_team_count = sum(1 for team_id in fixture_team_ids if team_id and team_id in roster_by_team_id)
+        roster_status = coverage_item(
+            status="available" if roster_team_count == 2 else "partial" if roster_team_count == 1 else "missing",
+            confidence="medium" if roster_team_count == 2 else "low",
+            source="platform_rosters" if roster_team_count else None,
+            last_updated=source_updated_at["rosters"] if roster_team_count else None,
+            team_count=roster_team_count,
+        )
+
         events_status = coverage_item(
             status="available" if match_id in event_match_ids else "missing",
             confidence="medium" if match_id in event_match_ids else "low",
@@ -312,6 +330,7 @@ def main() -> None:
                 "injuries": injuries_status,
                 "weather": weather_status,
                 "prematch_context": prematch_context_status,
+                "rosters": roster_status,
                 "prediction": prediction_status,
                 "runtime_summary": runtime_summary(runtime_fields),
                 "last_checked_at": updated_at,

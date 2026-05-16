@@ -187,6 +187,8 @@ football-data-platform/
 - `injury.schema.json`
 - `weather.schema.json`
 - `prematch-context.schema.json`
+- `roster.schema.json`
+- `player.schema.json`
 
 设计原则：
 
@@ -259,6 +261,8 @@ football-data-platform/
 - `world_cup_2026_model_injuries_master.json`
 - `world_cup_2026_model_prematch_context_master.json`
 - `world_cup_2026_model_weather_master.json`
+- `world_cup_2026_rosters_master.json`
+- `world_cup_2026_players_master.json`
 - `world_cup_2026_data_coverage.json`
 
 写入规则：
@@ -482,6 +486,8 @@ coverage 每场包含：
 | standings | `data/public/standings.json` | 已发布 |
 | predictions | `data/public/predictions.json` | 104 场已发布 |
 | data coverage | `data/public/data-coverage.json` | 已增强 runtime coverage |
+| rosters | `data/public/rosters.json` | 契约已建立，当前为空，等待正式名单导入 |
+| players | `data/public/players.json` | 契约已建立，当前为空，等待正式名单导入 |
 | qualifiers | `data/public/qualifier-matches.json` | 已迁移 |
 
 ### 7.2 预测模型数据
@@ -627,7 +633,7 @@ python3 scripts/publish_world_cup_predictor_api.py
 ### 阶段 A：不依赖付费源的改进
 
 - 接入 Open-Meteo 作为天气主源。
-- 建立 rosters/players schema。
+- 建立 rosters/players schema、空 master、public/API 发布链路。
 - 从 FIFA/各足协官网采集已公布 26 人名单。
 - 增加 roster coverage。
 - 增加手动 patch 机制。

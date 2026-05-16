@@ -144,6 +144,7 @@ python3 scripts/publish_all_world_cup_data.py
 
 - worldcup site 兼容镜像
 - finals fixtures/results/standings/detail datasets
+- rosters/players public datasets
 - model runtime datasets
 - coverage
 - qualifier public datasets

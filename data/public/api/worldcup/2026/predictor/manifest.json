@@ -55,6 +55,14 @@
       "path": "api/worldcup/2026/predictor/standings.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/standings.json"
     },
+    "players": {
+      "path": "api/worldcup/2026/predictor/players.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/players.json"
+    },
+    "rosters": {
+      "path": "api/worldcup/2026/predictor/rosters.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/rosters.json"
+    },
     "predictions": {
       "path": "api/worldcup/2026/predictor/predictions.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/predictions.json"

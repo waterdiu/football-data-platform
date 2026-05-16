@@ -15,6 +15,7 @@ PIPELINE = [
     "build_world_cup_results.py",
     "build_world_cup_standings.py",
     "build_world_cup_detail_datasets.py",
+    "build_world_cup_roster_datasets.py",
     "build_world_cup_model_runtime_datasets.py",
     "build_world_cup_coverage.py",
     "publish_qualifier_data.py",

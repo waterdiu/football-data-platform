@@ -408,6 +408,22 @@ football-data-platform/
 
 状态字段不应只支持简单字符串。对于预测相关数据，覆盖报告需要记录可信度与来源质量。
 
+### roster / player schemas
+
+国家队名单与球员基础数据当前已固定独立 schema：
+
+- `schemas/roster.schema.json`
+- `schemas/player.schema.json`
+
+当前契约先行，数据主文件已建立但可以为空：
+
+- `data/normalized/world_cup_2026_rosters_master.json`
+- `data/normalized/world_cup_2026_players_master.json`
+- `data/public/rosters.json`
+- `data/public/players.json`
+
+后续从 FIFA、国家队官网、足协公告或人工 patch 导入名单时，只写 normalized master，再由 `scripts/build_world_cup_roster_datasets.py` 发布到 public/API。
+
 推荐结构：
 
 ```json
@@ -534,11 +550,12 @@ football-data-platform/
 3. `results`
 4. `standings`
 5. `finals detail datasets`
-6. `model datasets`
-7. `data_coverage`
-8. `qualifier public datasets`
-9. `runtime API / health reports`
-10. `predictor compatibility API`
+6. `rosters / players`
+7. `model datasets`
+8. `data_coverage`
+9. `qualifier public datasets`
+10. `runtime API / health reports`
+11. `predictor compatibility API`
 
 对于世界杯正赛基础层，当前默认原则是：
 
@@ -726,6 +743,7 @@ predictor 全量数据资产当前边界：
 - 已增强：The Odds API 标准化输出 `h2h`、`over_under`、`asian_handicap`、`has_1x2`、`has_over_under`、`has_asian_handicap`，coverage 可直接识别 1X2 / 大小球 / 亚盘覆盖
 - 已迁移：API-FOOTBALL 阵容和伤停采集，直接写 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
 - 已增强：天气采集优先使用 OpenWeather；无 key 或 OpenWeather 失败时 fallback 到无 key的 Open-Meteo 16 天预报窗口，直接写 `data/normalized/world_cup_2026_model_weather_master.json`
+- 已建立：rosters/players 契约、空 master/public 数据集、发布脚本和 coverage 字段；正式名单导入另行补充
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
 - 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`
 - 已配置：`configs/venues/world_cup_2026.json` 保存 16 个 2026 世界杯球场坐标

@@ -58,6 +58,8 @@ def main() -> None:
     fixtures = load_json(PUBLIC_DIR / "fixtures.json")
     results = load_json(PUBLIC_DIR / "results.json")
     standings = load_json(PUBLIC_DIR / "standings.json")
+    players = load_json(PUBLIC_DIR / "players.json")
+    rosters = load_json(PUBLIC_DIR / "rosters.json")
     predictions = load_json(PUBLIC_DIR / "predictions.json")
     data_coverage = load_json(PUBLIC_DIR / "data-coverage.json")
 
@@ -78,6 +80,8 @@ def main() -> None:
         "fixtures.json": fixtures,
         "results.json": results,
         "standings.json": standings,
+        "players.json": players,
+        "rosters.json": rosters,
         "predictions.json": predictions,
         "data-coverage.json": data_coverage,
         "odds-snapshots.json": odds_runtime,
@@ -133,6 +137,8 @@ def main() -> None:
             "fixtures": fixtures,
             "results": results,
             "standings": standings,
+            "players": players,
+            "rosters": rosters,
             "predictions": predictions,
             "data_coverage": data_coverage,
             "odds_snapshots": odds_runtime,
@@ -160,6 +166,8 @@ def main() -> None:
             "fixtures": payload_size(fixtures),
             "results": payload_size(results),
             "standings": payload_size(standings),
+            "players": payload_size(players),
+            "rosters": payload_size(rosters),
             "predictions": payload_size(predictions),
             "prematch_context": payload_size(prematch_context_runtime),
         },
