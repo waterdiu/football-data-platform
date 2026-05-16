@@ -1,8 +1,8 @@
 {
-  "rosters_master": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_rosters_master.json",
-  "players_master": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_players_master.json",
-  "rosters_output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/rosters.json",
-  "players_output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/players.json",
+  "rosters_master": "/home/runner/work/football-data-platform/football-data-platform/data/normalized/world_cup_2026_rosters_master.json",
+  "players_master": "/home/runner/work/football-data-platform/football-data-platform/data/normalized/world_cup_2026_players_master.json",
+  "rosters_output": "/home/runner/work/football-data-platform/football-data-platform/data/public/rosters.json",
+  "players_output": "/home/runner/work/football-data-platform/football-data-platform/data/public/players.json",
   "rosters_count": 0,
   "players_count": 0,
   "status": "empty_contract_ready"
