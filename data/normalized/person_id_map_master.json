@@ -9,6 +9,7 @@
     "match_key": "alexis saelemaekers",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -40,7 +41,8 @@
       "key_capology": "alexis-saelemaekers-36338"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:amadou-onana",
@@ -52,6 +54,7 @@
     "match_key": "amadou onana",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -89,7 +92,8 @@
       "key_capology": "amadou-onana-37119"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:arthur-theate",
@@ -101,6 +105,7 @@
     "match_key": "arthur theate",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -130,7 +135,8 @@
       "key_capology": "arthur-theate-36671"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:axel-witsel",
@@ -142,6 +148,7 @@
     "match_key": "axel witsel",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -172,7 +179,8 @@
       "key_capology": "axel-witsel-32520"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:brandon-mechele",
@@ -184,6 +192,7 @@
     "match_key": "brandon mechele",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -213,7 +222,8 @@
       "key_capology": "brandon-mechele-33997"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:charles-de-ketelaere",
@@ -225,6 +235,7 @@
     "match_key": "charles de ketelaere",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -256,7 +267,8 @@
       "key_capology": "charles-de-ketelaere-36960"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:diego-moreira",
@@ -268,6 +280,7 @@
     "match_key": "diego moreira",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -300,7 +313,8 @@
       "key_capology": "diego-moreira-38205"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:dodi-lukebakio",
@@ -312,6 +326,7 @@
     "match_key": "dodi lukebakio",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -347,7 +362,8 @@
       "key_capology": "dodi-lukebakio-35697"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:hans-vanaken",
@@ -359,6 +375,7 @@
     "match_key": "hans vanaken",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -389,7 +406,8 @@
       "key_capology": "hans-vanaken-33840"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:jeremy-doku",
@@ -401,6 +419,7 @@
     "match_key": "jeremy doku",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -438,7 +457,8 @@
       "key_capology": "jeremy-doku-37403"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:joaquin-seys",
@@ -450,6 +470,7 @@
     "match_key": "joaquin seys",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -475,7 +496,8 @@
       "key_capology": "joaquin-seys-38439"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:kevin-de-bruyne",
@@ -487,6 +509,7 @@
     "match_key": "kevin de bruyne",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -525,7 +548,8 @@
       "key_capology": "kevin-de-bruyne-33417"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:koni-de-winter",
@@ -537,6 +561,7 @@
     "match_key": "koni de winter",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -566,7 +591,8 @@
       "key_capology": "koni-de-winter-37419"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:leandro-trossard",
@@ -578,6 +604,7 @@
     "match_key": "leandro trossard",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -616,7 +643,8 @@
       "key_capology": "leandro-trossard-34672"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:matias-fernandez-pardo",
@@ -628,6 +656,7 @@
     "match_key": "matias fernandez pardo",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -653,7 +682,8 @@
       "key_heimspiel": "672551"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:maxim-de-cuyper",
@@ -665,6 +695,7 @@
     "match_key": "maxim de cuyper",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -696,7 +727,8 @@
       "key_capology": "maxim-de-cuyper-36882"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:mike-penders",
@@ -708,6 +740,7 @@
     "match_key": "mike penders",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -737,7 +770,8 @@
       "key_capology": "mike-penders-38564"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:nathan-ngoy",
@@ -749,6 +783,7 @@
     "match_key": "nathan ngoy",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -778,7 +813,8 @@
       "key_capology": "nathan-ngoy-37782"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:nicolas-raskin",
@@ -790,6 +826,7 @@
     "match_key": "nicolas raskin",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -817,7 +854,8 @@
       "key_capology": "nicolas-raskin-36945"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:romelu-lukaku",
@@ -829,6 +867,7 @@
     "match_key": "romelu lukaku",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -868,7 +907,8 @@
       "key_capology": "romelu-lukaku-34102"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:senne-lammens",
@@ -880,6 +920,7 @@
     "match_key": "senne lammens",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -908,7 +949,8 @@
       "key_capology": "senne-lammens-37444"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:thibaut-courtois",
@@ -920,6 +962,7 @@
     "match_key": "thibaut courtois",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -960,7 +1003,8 @@
       "key_capology": "thibaut-courtois-33735"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:thomas-meunier",
@@ -972,6 +1016,7 @@
     "match_key": "thomas meunier",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1003,7 +1048,8 @@
       "key_capology": "thomas-meunier-33493"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:timothy-castagne",
@@ -1015,6 +1061,7 @@
     "match_key": "timothy castagne",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1050,7 +1097,8 @@
       "key_capology": "timothy-castagne-35038"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:youri-tielemans",
@@ -1062,6 +1110,7 @@
     "match_key": "youri tielemans",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1100,7 +1149,8 @@
       "key_capology": "youri-tielemans-35557"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "belgium:player:zeno-debast",
@@ -1112,6 +1162,7 @@
     "match_key": "zeno debast",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1140,7 +1191,8 @@
       "key_capology": "zeno-debast-37918"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:amar-dedic",
@@ -1152,6 +1204,7 @@
     "match_key": "amar dedic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1180,7 +1233,8 @@
       "key_heimspiel": "563153"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:amar-memic",
@@ -1192,6 +1246,7 @@
     "match_key": "amar memic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1220,7 +1275,8 @@
       "key_heimspiel": "614974"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:amir-hadziahmetovic",
@@ -1232,6 +1288,7 @@
     "match_key": "amir hadziahmetovic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1260,7 +1317,8 @@
       "key_heimspiel": "360609"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:armin-gigovic",
@@ -1272,6 +1330,7 @@
     "match_key": "armin gigovic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1299,7 +1358,8 @@
       "key_heimspiel": "595366"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:benjamin-tahirovic",
@@ -1311,6 +1371,7 @@
     "match_key": "benjamin tahirovic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1339,7 +1400,8 @@
       "key_heimspiel": "727708"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:dennis-hadzikadunic",
@@ -1351,6 +1413,7 @@
     "match_key": "dennis hadzikadunic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1379,7 +1442,8 @@
       "key_heimspiel": "366982"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:dzenis-burnic",
@@ -1391,6 +1455,7 @@
     "match_key": "dzenis burnic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1417,7 +1482,8 @@
       "key_heimspiel": "313328"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:edin-dzeko",
@@ -1429,6 +1495,7 @@
     "match_key": "edin dzeko",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1465,7 +1532,8 @@
       "key_heimspiel": "28522"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:ermedin-demirovic",
@@ -1477,6 +1545,7 @@
     "match_key": "ermedin demirovic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1507,7 +1576,8 @@
       "key_heimspiel": "360829"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:ermin-mahmic",
@@ -1519,6 +1589,7 @@
     "match_key": "ermin mahmic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1538,7 +1609,8 @@
       "key_heimspiel": "612728"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:esmir-bajraktarevic",
@@ -1550,6 +1622,7 @@
     "match_key": "esmir bajraktarevic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1579,7 +1652,8 @@
       "key_heimspiel": "859758"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:haris-tabakovic",
@@ -1591,6 +1665,7 @@
     "match_key": "haris tabakovic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1617,7 +1692,8 @@
       "key_heimspiel": "294407"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:ivan-basic",
@@ -1629,6 +1705,7 @@
     "match_key": "ivan basic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1656,7 +1733,8 @@
       "key_heimspiel": "614970"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:ivan-sunjic",
@@ -1668,6 +1746,7 @@
     "match_key": "ivan sunjic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1697,7 +1776,8 @@
       "key_capology": "ivan-sunjic-35347"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:jovo-lukic",
@@ -1709,6 +1789,7 @@
     "match_key": "jovo lukic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1733,7 +1814,8 @@
       "key_heimspiel": "533007"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:kerim-alajbegovic",
@@ -1745,6 +1827,7 @@
     "match_key": "kerim alajbegovic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1770,7 +1853,8 @@
       "key_heimspiel": "697098"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:martin-zlomislic",
@@ -1782,6 +1866,7 @@
     "match_key": "martin zlomislic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1808,7 +1893,8 @@
       "key_heimspiel": "490826"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:nidal-celik",
@@ -1820,6 +1906,7 @@
     "match_key": "nidal celik",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1848,7 +1935,8 @@
       "key_heimspiel": "895196"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:nihad-mujakic",
@@ -1860,6 +1948,7 @@
     "match_key": "nihad mujakic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1886,7 +1975,8 @@
       "key_heimspiel": "458417"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:nikola-katic",
@@ -1896,60 +1986,38 @@
     "team_id": "bosnia-and-herzegovina",
     "name": "Nikola Katic",
     "match_key": "nikola katic",
-    "match_status": "ambiguous",
-    "confidence": "low",
+    "match_status": "exact_unique",
+    "confidence": "medium",
+    "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [
-      {
-        "reep_id": "reep_pecf4cc7b",
-        "name": "Nikola Katic",
-        "full_name": null,
-        "date_of_birth": "1986-06-01",
-        "nationality": "Croatia",
-        "position": "defender",
-        "provider_refs": {
-          "reep_id": "reep_pecf4cc7b",
-          "key_wikidata": "Q7035552",
-          "key_transfermarkt": "152608",
-          "key_footballdatabase_eu": "215204"
-        }
-      },
-      {
-        "reep_id": "reep_p4e466b7b",
-        "name": "Nikola Katić",
-        "full_name": null,
-        "date_of_birth": "1996-10-10",
-        "nationality": "Bosnia and Herzegovina",
-        "position": "defender",
-        "provider_refs": {
-          "reep_id": "reep_p4e466b7b",
-          "key_wikidata": "Q27957334",
-          "key_transfermarkt": "422051",
-          "key_fbref": "35bd124a",
-          "key_soccerway": "435185",
-          "key_sofascore": "831488",
-          "key_opta": "3ujlvpg5xlbtexe2h2oy5qcx5",
-          "key_espn": "220538",
-          "key_national_football_teams": "68059",
-          "key_worldfootball": "nikola-katic",
-          "key_soccerbase": "95844",
-          "key_kicker": "nikola-katic",
-          "key_uefa": "250109155",
-          "key_footballdatabase_eu": "286945",
-          "key_eu_football_info": "29841",
-          "key_api_football": "1741",
-          "key_thesportsdb": "34165450",
-          "key_skillcorner": "16337",
-          "key_wyscout": "417764",
-          "key_impect": "16795",
-          "key_heimspiel": "441548"
-        }
-      }
-    ],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "provider_refs": {
+      "reep_id": "reep_p4e466b7b",
+      "key_wikidata": "Q27957334",
+      "key_transfermarkt": "422051",
+      "key_fbref": "35bd124a",
+      "key_soccerway": "435185",
+      "key_sofascore": "831488",
+      "key_opta": "3ujlvpg5xlbtexe2h2oy5qcx5",
+      "key_espn": "220538",
+      "key_national_football_teams": "68059",
+      "key_worldfootball": "nikola-katic",
+      "key_soccerbase": "95844",
+      "key_kicker": "nikola-katic",
+      "key_uefa": "250109155",
+      "key_footballdatabase_eu": "286945",
+      "key_eu_football_info": "29841",
+      "key_api_football": "1741",
+      "key_thesportsdb": "34165450",
+      "key_skillcorner": "16337",
+      "key_wyscout": "417764",
+      "key_impect": "16795",
+      "key_heimspiel": "441548"
+    },
+    "candidates": [],
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:nikola-vasilj",
@@ -1961,6 +2029,7 @@
     "match_key": "nikola vasilj",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -1988,7 +2057,8 @@
       "key_heimspiel": "319421"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:osman-hadzikic",
@@ -2000,6 +2070,7 @@
     "match_key": "osman hadzikic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2023,7 +2094,8 @@
       "key_heimspiel": "254668"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:samed-bazdar",
@@ -2035,6 +2107,7 @@
     "match_key": "samed bazdar",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2064,7 +2137,8 @@
       "key_capology": "samed-bazdar-38017"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:sead-kolasinac",
@@ -2076,6 +2150,7 @@
     "match_key": "sead kolasinac",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2114,7 +2189,8 @@
       "key_heimspiel": "229849"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:stjepan-radeljic",
@@ -2126,6 +2202,7 @@
     "match_key": "stjepan radeljic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2151,7 +2228,8 @@
       "key_heimspiel": "406128"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:tarik-muharemovic",
@@ -2163,6 +2241,7 @@
     "match_key": "tarik muharemovic",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2192,7 +2271,8 @@
       "key_heimspiel": "628175"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:alban-lafont",
@@ -2204,6 +2284,7 @@
     "match_key": "alban lafont",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2231,7 +2312,8 @@
       "key_heimspiel": "431738"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:amad-diallo",
@@ -2243,6 +2325,7 @@
     "match_key": "amad diallo",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2276,7 +2359,8 @@
       "key_heimspiel": "566573"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:ange-yoan-bonny",
@@ -2288,6 +2372,7 @@
     "match_key": "ange yoan bonny",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2314,7 +2399,8 @@
       "key_capology": "ange-yoan-bonny-37919"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:bazoumana-toure",
@@ -2326,6 +2412,7 @@
     "match_key": "bazoumana toure",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2349,7 +2436,8 @@
       "key_heimspiel": "904642"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:christ-inao-oulai",
@@ -2361,6 +2449,7 @@
     "match_key": "christ inao oulai",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2382,7 +2471,8 @@
       "key_heimspiel": "1363883"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:clement-akpa",
@@ -2394,6 +2484,7 @@
     "match_key": "clement akpa",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2420,7 +2511,8 @@
       "key_capology": "clement-akpa-37219"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:elye-wahi",
@@ -2432,6 +2524,7 @@
     "match_key": "elye wahi",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2459,7 +2552,8 @@
       "key_heimspiel": "596237"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:emmanuel-agbadou",
@@ -2471,6 +2565,7 @@
     "match_key": "emmanuel agbadou",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2500,7 +2595,8 @@
       "key_heimspiel": "647609"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:evan-ndicka",
@@ -2512,6 +2608,7 @@
     "match_key": "evan ndicka",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2539,7 +2636,8 @@
       "key_heimspiel": "468740"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:evann-guessand",
@@ -2551,6 +2649,7 @@
     "match_key": "evann guessand",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2584,7 +2683,8 @@
       "key_heimspiel": "536977"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:franck-kessie",
@@ -2596,6 +2696,7 @@
     "match_key": "franck kessie",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2624,7 +2725,8 @@
       "key_heimspiel": "334656"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:ghislain-konan",
@@ -2636,6 +2738,7 @@
     "match_key": "ghislain konan",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2663,7 +2766,8 @@
       "key_heimspiel": "441874"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:guela-doue",
@@ -2675,6 +2779,7 @@
     "match_key": "guela doue",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2701,7 +2806,8 @@
       "key_heimspiel": "575114"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:ibrahim-sangare",
@@ -2711,74 +2817,44 @@
     "team_id": "cote-divoire",
     "name": "Ibrahim Sangare",
     "match_key": "ibrahim sangare",
-    "match_status": "ambiguous",
-    "confidence": "low",
+    "match_status": "exact_unique",
+    "confidence": "medium",
+    "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [
-      {
-        "reep_id": "reep_p8b4b21de",
-        "name": "Ibrahim Sangaré",
-        "full_name": null,
-        "date_of_birth": "1997-12-02",
-        "nationality": "Ivory Coast",
-        "position": "midfielder",
-        "provider_refs": {
-          "reep_id": "reep_p8b4b21de",
-          "key_wikidata": "Q27832634",
-          "key_transfermarkt": "375885",
-          "key_fbref": "bced0375",
-          "key_soccerway": "405071",
-          "key_opta": "1abb1gcw7arw1nkbuxnccjca1",
-          "key_premier_league": "108816",
-          "key_11v11": "262729",
-          "key_espn": "213718",
-          "key_national_football_teams": "61073",
-          "key_worldfootball": "ibrahim-sangare_3",
-          "key_soccerbase": "92918",
-          "key_kicker": "ibrahim-sangare",
-          "key_uefa": "250146652",
-          "key_lequipe": "59809",
-          "key_footballdatabase_eu": "265178",
-          "key_statmuse_pl": "7005",
-          "key_understat": "5722",
-          "key_whoscored": "328075",
-          "key_sportmonks": "96943",
-          "key_api_football": "22149",
-          "key_opta_numeric": "210462",
-          "key_thesportsdb": "34172570",
-          "key_skillcorner": "12128",
-          "key_wyscout": "375001",
-          "key_impect": "1935",
-          "key_heimspiel": "460136"
-        }
-      },
-      {
-        "reep_id": "reep_p9dc599fe",
-        "name": "Ibrahim Sangaré",
-        "full_name": null,
-        "date_of_birth": "1994-03-15",
-        "nationality": "France",
-        "position": "forward",
-        "provider_refs": {
-          "reep_id": "reep_p9dc599fe",
-          "key_wikidata": "Q30122326",
-          "key_transfermarkt": "160871",
-          "key_fbref": "46c879ca",
-          "key_soccerway": "265920",
-          "key_sofascore": "782974",
-          "key_lequipe": "50512",
-          "key_footballdatabase_eu": "181153",
-          "key_skillcorner": "39970",
-          "key_wyscout": "231172",
-          "key_impect": "57656",
-          "key_heimspiel": "435319"
-        }
-      }
-    ],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "provider_refs": {
+      "reep_id": "reep_p8b4b21de",
+      "key_wikidata": "Q27832634",
+      "key_transfermarkt": "375885",
+      "key_fbref": "bced0375",
+      "key_soccerway": "405071",
+      "key_opta": "1abb1gcw7arw1nkbuxnccjca1",
+      "key_premier_league": "108816",
+      "key_11v11": "262729",
+      "key_espn": "213718",
+      "key_national_football_teams": "61073",
+      "key_worldfootball": "ibrahim-sangare_3",
+      "key_soccerbase": "92918",
+      "key_kicker": "ibrahim-sangare",
+      "key_uefa": "250146652",
+      "key_lequipe": "59809",
+      "key_footballdatabase_eu": "265178",
+      "key_statmuse_pl": "7005",
+      "key_understat": "5722",
+      "key_whoscored": "328075",
+      "key_sportmonks": "96943",
+      "key_api_football": "22149",
+      "key_opta_numeric": "210462",
+      "key_thesportsdb": "34172570",
+      "key_skillcorner": "12128",
+      "key_wyscout": "375001",
+      "key_impect": "1935",
+      "key_heimspiel": "460136"
+    },
+    "candidates": [],
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:jean-michael-seri",
@@ -2790,12 +2866,14 @@
     "match_key": "jean michael seri",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:mohamed-kone",
@@ -2807,6 +2885,7 @@
     "match_key": "mohamed kone",
     "match_status": "ambiguous",
     "confidence": "low",
+    "resolution_method": "needs_manual_review",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2911,7 +2990,8 @@
         }
       }
     ],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:nicolas-pepe",
@@ -2923,6 +3003,7 @@
     "match_key": "nicolas pepe",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2957,7 +3038,8 @@
       "key_heimspiel": "374545"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:odilon-kossounou",
@@ -2969,6 +3051,7 @@
     "match_key": "odilon kossounou",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -2998,7 +3081,8 @@
       "key_heimspiel": "589188"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:oumar-diakite",
@@ -3010,6 +3094,7 @@
     "match_key": "oumar diakite",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3035,7 +3120,8 @@
       "key_heimspiel": "815152"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:ousmane-diomande",
@@ -3047,6 +3133,7 @@
     "match_key": "ousmane diomande",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3072,7 +3159,8 @@
       "key_heimspiel": "885504"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:parfait-guiagon",
@@ -3084,6 +3172,7 @@
     "match_key": "parfait guiagon",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3105,7 +3194,8 @@
       "key_heimspiel": "687024"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:seko-fofana",
@@ -3117,6 +3207,7 @@
     "match_key": "seko fofana",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3146,7 +3237,8 @@
       "key_heimspiel": "278827"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:simon-adingra",
@@ -3158,6 +3250,7 @@
     "match_key": "simon adingra",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3192,7 +3285,8 @@
       "key_heimspiel": "677614"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:wilfried-singo",
@@ -3204,6 +3298,7 @@
     "match_key": "wilfried singo",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3230,7 +3325,8 @@
       "key_heimspiel": "595235"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:yahia-fofana",
@@ -3242,6 +3338,7 @@
     "match_key": "yahia fofana",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3270,7 +3367,8 @@
       "key_heimspiel": "442000"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "cote-divoire:player:yan-diomande",
@@ -3282,6 +3380,7 @@
     "match_key": "yan diomande",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3306,7 +3405,8 @@
       "key_heimspiel": "1642061"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:adrien-rabiot",
@@ -3318,6 +3418,7 @@
     "match_key": "adrien rabiot",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3349,7 +3450,8 @@
       "key_capology": "adrien-rabiot-34792"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:aurelien-tchouameni",
@@ -3361,6 +3463,7 @@
     "match_key": "aurelien tchouameni",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3394,7 +3497,8 @@
       "key_capology": "aurelien-tchouameni-36552"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:bradley-barcola",
@@ -3406,6 +3510,7 @@
     "match_key": "bradley barcola",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3440,7 +3545,8 @@
       "key_capology": "bradley-barcola-37501"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:brice-samba",
@@ -3450,68 +3556,44 @@
     "team_id": "france",
     "name": "Brice Samba",
     "match_key": "brice samba",
-    "match_status": "ambiguous",
-    "confidence": "low",
+    "match_status": "exact_unique",
+    "confidence": "medium",
+    "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [
-      {
-        "reep_id": "reep_pea1e0b2e",
-        "name": "Brice Samba",
-        "full_name": null,
-        "date_of_birth": "1994-04-25",
-        "nationality": "France",
-        "position": "goalkeeper",
-        "provider_refs": {
-          "reep_id": "reep_pea1e0b2e",
-          "key_wikidata": "Q15627817",
-          "key_transfermarkt": "191056",
-          "key_fbref": "60d90c55",
-          "key_soccerway": "191560",
-          "key_sofascore": "164055",
-          "key_opta": "25cggz2egeqce47yijxadsslx",
-          "key_espn": "164126",
-          "key_national_football_teams": "91284",
-          "key_worldfootball": "brice-samba_2",
-          "key_soccerbase": "68908",
-          "key_kicker": "brice-samba",
-          "key_uefa": "250059123",
-          "key_lequipe": "10000000000000000000011883",
-          "key_fff_fr": "9387-samba-brice",
-          "key_footballdatabase_eu": "139528",
-          "key_eu_football_info": "32377",
-          "key_dongqiudi": "50122199",
-          "key_understat": "4748",
-          "key_whoscored": "105198",
-          "key_api_football": "21628",
-          "key_opta_numeric": "102836",
-          "key_thesportsdb": "34148020",
-          "key_skillcorner": "11677",
-          "key_wyscout": "26131",
-          "key_impect": "1798",
-          "key_heimspiel": "277089"
-        }
-      },
-      {
-        "reep_id": "reep_pb032cc9b",
-        "name": "Brice Samba",
-        "full_name": null,
-        "date_of_birth": "1971-03-26",
-        "nationality": "Republic of the Congo",
-        "position": "goalkeeper",
-        "provider_refs": {
-          "reep_id": "reep_pb032cc9b",
-          "key_wikidata": "Q2925110",
-          "key_transfermarkt": "759342",
-          "key_national_football_teams": "13985",
-          "key_footballdatabase_eu": "89549",
-          "key_capology": "brice-samba-34449"
-        }
-      }
-    ],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "provider_refs": {
+      "reep_id": "reep_pea1e0b2e",
+      "key_wikidata": "Q15627817",
+      "key_transfermarkt": "191056",
+      "key_fbref": "60d90c55",
+      "key_soccerway": "191560",
+      "key_sofascore": "164055",
+      "key_opta": "25cggz2egeqce47yijxadsslx",
+      "key_espn": "164126",
+      "key_national_football_teams": "91284",
+      "key_worldfootball": "brice-samba_2",
+      "key_soccerbase": "68908",
+      "key_kicker": "brice-samba",
+      "key_uefa": "250059123",
+      "key_lequipe": "10000000000000000000011883",
+      "key_fff_fr": "9387-samba-brice",
+      "key_footballdatabase_eu": "139528",
+      "key_eu_football_info": "32377",
+      "key_dongqiudi": "50122199",
+      "key_understat": "4748",
+      "key_whoscored": "105198",
+      "key_api_football": "21628",
+      "key_opta_numeric": "102836",
+      "key_thesportsdb": "34148020",
+      "key_skillcorner": "11677",
+      "key_wyscout": "26131",
+      "key_impect": "1798",
+      "key_heimspiel": "277089"
+    },
+    "candidates": [],
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:dayot-upamecano",
@@ -3523,6 +3605,7 @@
     "match_key": "dayot upamecano",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3555,7 +3638,8 @@
       "key_capology": "dayot-upamecano-36095"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:desire-doue",
@@ -3567,6 +3651,7 @@
     "match_key": "desire doue",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3597,7 +3682,8 @@
       "key_heimspiel": "792218"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:ibrahima-konate",
@@ -3609,6 +3695,7 @@
     "match_key": "ibrahima konate",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3646,7 +3733,8 @@
       "key_capology": "ibrahima-konate-36305"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:jean-philippe-mateta",
@@ -3658,6 +3746,7 @@
     "match_key": "jean philippe mateta",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3697,7 +3786,8 @@
       "key_capology": "jean-philippe-mateta-35609"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:jules-kounde",
@@ -3709,6 +3799,7 @@
     "match_key": "jules kounde",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3740,7 +3831,8 @@
       "key_capology": "jules-kounde-36111"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:kylian-mbappe",
@@ -3750,64 +3842,39 @@
     "team_id": "france",
     "name": "Kylian Mbappe",
     "match_key": "kylian mbappe",
-    "match_status": "ambiguous",
-    "confidence": "low",
+    "match_status": "exact_unique",
+    "confidence": "medium",
+    "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [
-      {
-        "reep_id": "reep_peecd514d",
-        "name": "Kylian Mbappé",
-        "full_name": null,
-        "date_of_birth": "1998-12-20",
-        "nationality": "Cameroon",
-        "position": "left winger",
-        "provider_refs": {
-          "reep_id": "reep_peecd514d",
-          "key_wikidata": "Q123410299",
-          "key_opta": "5e9ilgrz3tzg9kd1gk3yvrahh",
-          "key_skillcorner": "6028",
-          "key_wyscout": "353833",
-          "key_impect": "1553",
-          "key_heimspiel": "366468"
-        }
-      },
-      {
-        "reep_id": "reep_p4b7614c5",
-        "name": "Kylian Mbappé",
-        "full_name": null,
-        "date_of_birth": "1998-12-20",
-        "nationality": "France",
-        "position": "forward",
-        "provider_refs": {
-          "reep_id": "reep_p4b7614c5",
-          "key_wikidata": "Q21621995",
-          "key_transfermarkt": "342229",
-          "key_fbref": "42fd9c7f",
-          "key_soccerway": "377149",
-          "key_sofascore": "826643",
-          "key_espn": "231388",
-          "key_national_football_teams": "67592",
-          "key_worldfootball": "kylian-mbappe",
-          "key_soccerbase": "89380",
-          "key_kicker": "kylian-mbappe",
-          "key_uefa": "250076574",
-          "key_lequipe": "58221",
-          "key_fff_fr": "8566-mbappe-kylian",
-          "key_besoccer": "234474",
-          "key_footballdatabase_eu": "250043",
-          "key_eu_football_info": "29798",
-          "key_sofifa": "389867",
-          "key_api_football": "278",
-          "key_opta_numeric": "220160",
-          "key_thesportsdb": "34162098",
-          "key_capology": "kylian-mbappe-36149"
-        }
-      }
-    ],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "provider_refs": {
+      "reep_id": "reep_p4b7614c5",
+      "key_wikidata": "Q21621995",
+      "key_transfermarkt": "342229",
+      "key_fbref": "42fd9c7f",
+      "key_soccerway": "377149",
+      "key_sofascore": "826643",
+      "key_espn": "231388",
+      "key_national_football_teams": "67592",
+      "key_worldfootball": "kylian-mbappe",
+      "key_soccerbase": "89380",
+      "key_kicker": "kylian-mbappe",
+      "key_uefa": "250076574",
+      "key_lequipe": "58221",
+      "key_fff_fr": "8566-mbappe-kylian",
+      "key_besoccer": "234474",
+      "key_footballdatabase_eu": "250043",
+      "key_eu_football_info": "29798",
+      "key_sofifa": "389867",
+      "key_api_football": "278",
+      "key_opta_numeric": "220160",
+      "key_thesportsdb": "34162098",
+      "key_capology": "kylian-mbappe-36149"
+    },
+    "candidates": [],
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:lucas-digne",
@@ -3819,6 +3886,7 @@
     "match_key": "lucas digne",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3857,7 +3925,8 @@
       "key_capology": "lucas-digne-34170"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:lucas-hernandez",
@@ -3869,6 +3938,7 @@
     "match_key": "lucas hernandez",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3902,7 +3972,8 @@
       "key_heimspiel": "331149"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:maghnes-akliouche",
@@ -3914,6 +3985,7 @@
     "match_key": "maghnes akliouche",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3943,7 +4015,8 @@
       "key_heimspiel": "644944"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:malo-gusto",
@@ -3955,6 +4028,7 @@
     "match_key": "malo gusto",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -3993,7 +4067,8 @@
       "key_capology": "malo-gusto-37760"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:manu-kone",
@@ -4005,6 +4080,7 @@
     "match_key": "manu kone",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4036,7 +4112,8 @@
       "key_heimspiel": "573596"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:marcus-thuram",
@@ -4048,6 +4125,7 @@
     "match_key": "marcus thuram",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4080,7 +4158,8 @@
       "key_capology": "marcus-thuram-35648"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:maxence-lacroix",
@@ -4092,6 +4171,7 @@
     "match_key": "maxence lacroix",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4127,7 +4207,8 @@
       "key_capology": "maxence-lacroix-36622"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:michael-olise",
@@ -4139,6 +4220,7 @@
     "match_key": "michael olise",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4176,7 +4258,8 @@
       "key_heimspiel": "562071"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:mike-maignan",
@@ -4188,6 +4271,7 @@
     "match_key": "mike maignan",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4220,7 +4304,8 @@
       "key_capology": "mike-maignan-34883"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:n-golo-kante",
@@ -4232,6 +4317,7 @@
     "match_key": "n golo kante",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4269,7 +4355,8 @@
       "key_heimspiel": "279489"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:ousmane-dembele",
@@ -4281,6 +4368,7 @@
     "match_key": "ousmane dembele",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4316,7 +4404,8 @@
       "key_capology": "ousmane-dembele-35565"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:rayan-cherki",
@@ -4328,6 +4417,7 @@
     "match_key": "rayan cherki",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4360,7 +4450,8 @@
       "key_heimspiel": "567790"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:robin-risser",
@@ -4372,6 +4463,7 @@
     "match_key": "robin risser",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4394,7 +4486,8 @@
       "key_capology": "robin-risser-38323"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:theo-hernandez",
@@ -4406,6 +4499,7 @@
     "match_key": "theo hernandez",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4439,7 +4533,8 @@
       "key_capology": "theo-hernandez-35709"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:warren-zaire-emery",
@@ -4451,6 +4546,7 @@
     "match_key": "warren zaire emery",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4483,7 +4579,8 @@
       "key_capology": "warren-zaire-emery-38784"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "france:player:william-saliba",
@@ -4495,6 +4592,7 @@
     "match_key": "william saliba",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4531,7 +4629,8 @@
       "key_heimspiel": "497278"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:alexandre-pierre",
@@ -4543,6 +4642,7 @@
     "match_key": "alexandre pierre",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4566,7 +4666,8 @@
       "key_capology": "alexandre-pierre-36947"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:carl-fred-sainte",
@@ -4578,6 +4679,7 @@
     "match_key": "carl fred sainte",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4601,7 +4703,8 @@
       "key_capology": "carl-sainte-37477"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:carlens-arcus",
@@ -4613,6 +4716,7 @@
     "match_key": "carlens arcus",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4640,7 +4744,8 @@
       "key_capology": "carlens-arcus-35244"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:danley-jean-jacques",
@@ -4652,6 +4757,7 @@
     "match_key": "danley jean jacques",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4674,7 +4780,8 @@
       "key_capology": "danley-jean-jacques-36666"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:derrick-etienne-jr",
@@ -4686,6 +4793,7 @@
     "match_key": "derrick etienne jr",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4710,7 +4818,8 @@
       "key_heimspiel": "436844"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:dominique-simon",
@@ -4722,6 +4831,7 @@
     "match_key": "dominique simon",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4744,7 +4854,8 @@
       "key_heimspiel": "842819"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:duckens-nazon",
@@ -4756,6 +4867,7 @@
     "match_key": "duckens nazon",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4783,7 +4895,8 @@
       "key_capology": "duckens-nazon-34431"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:duke-lacroix",
@@ -4795,6 +4908,7 @@
     "match_key": "duke lacroix",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4812,7 +4926,8 @@
       "key_heimspiel": "403685"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:frantzdy-pierrot",
@@ -4824,6 +4939,7 @@
     "match_key": "frantzdy pierrot",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4851,7 +4967,8 @@
       "key_capology": "frantzdy-pierrot-34787"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:hannes-delcroix",
@@ -4863,6 +4980,7 @@
     "match_key": "hannes delcroix",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4895,7 +5013,8 @@
       "key_heimspiel": "427499"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:jean-kevin-duverne",
@@ -4907,6 +5026,7 @@
     "match_key": "jean kevin duverne",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4933,7 +5053,8 @@
       "key_heimspiel": "463623"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:jean-ricner-bellegarde",
@@ -4945,6 +5066,7 @@
     "match_key": "jean ricner bellegarde",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -4981,7 +5103,8 @@
       "key_capology": "jean-ricner-bellegarde-35973"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:johny-placide",
@@ -4993,12 +5116,14 @@
     "match_key": "johny placide",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:josue-casimir",
@@ -5010,6 +5135,7 @@
     "match_key": "josue casimir",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5034,7 +5160,8 @@
       "key_heimspiel": "714233"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:josue-duverger",
@@ -5046,6 +5173,7 @@
     "match_key": "josue duverger",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5060,7 +5188,8 @@
       "key_footballdatabase_eu": "318849"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:keeto-thermoncy",
@@ -5072,6 +5201,7 @@
     "match_key": "keeto thermoncy",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5088,7 +5218,8 @@
       "key_heimspiel": "791258"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:lenny-joseph",
@@ -5100,6 +5231,7 @@
     "match_key": "lenny joseph",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5123,7 +5255,8 @@
       "key_capology": "lenny-joseph-36811"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:leverton-pierre",
@@ -5135,6 +5268,7 @@
     "match_key": "leverton pierre",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5158,7 +5292,8 @@
       "key_capology": "leverton-pierre-35863"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:louicius-deedson",
@@ -5170,12 +5305,14 @@
     "match_key": "louicius deedson",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:martin-experience",
@@ -5187,6 +5324,7 @@
     "match_key": "martin experience",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5202,7 +5340,8 @@
       "key_capology": "martin-experience-36228"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:ricardo-ade",
@@ -5214,6 +5353,7 @@
     "match_key": "ricardo ade",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5236,7 +5376,8 @@
       "key_heimspiel": "319505"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:ruben-providence",
@@ -5248,6 +5389,7 @@
     "match_key": "ruben providence",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5274,7 +5416,8 @@
       "key_capology": "ruben-providence-37079"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:wilguens-paugain",
@@ -5286,6 +5429,7 @@
     "match_key": "wilguens paugain",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5308,7 +5452,8 @@
       "key_heimspiel": "565429"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:wilson-isidor",
@@ -5320,6 +5465,7 @@
     "match_key": "wilson isidor",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5352,7 +5498,8 @@
       "key_capology": "wilson-isidor-36765"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:woodensky-pierre",
@@ -5364,12 +5511,14 @@
     "match_key": "woodensky pierre",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "haiti:player:yassin-fortune",
@@ -5381,6 +5530,7 @@
     "match_key": "yassin fortune",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5406,7 +5556,8 @@
       "key_capology": "yassin-fortune-36190"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:ao-tanaka",
@@ -5418,6 +5569,7 @@
     "match_key": "ao tanaka",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5451,7 +5603,8 @@
       "key_capology": "ao-tanaka-36048"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:ayase-ueda",
@@ -5463,6 +5616,7 @@
     "match_key": "ayase ueda",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5493,7 +5647,8 @@
       "key_capology": "ayase-ueda-36035"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:ayumu-seko",
@@ -5505,6 +5660,7 @@
     "match_key": "ayumu seko",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5534,7 +5690,8 @@
       "key_capology": "ayumu-seko-36684"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:daichi-kamada",
@@ -5546,6 +5703,7 @@
     "match_key": "daichi kamada",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5582,7 +5740,8 @@
       "key_capology": "daichi-kamada-35282"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:daizen-maeda",
@@ -5594,6 +5753,7 @@
     "match_key": "daizen maeda",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5624,7 +5784,8 @@
       "key_capology": "daizen-maeda-35723"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:hiroki-ito",
@@ -5636,6 +5797,7 @@
     "match_key": "hiroki ito",
     "match_status": "ambiguous",
     "confidence": "low",
+    "resolution_method": "needs_manual_review",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5693,7 +5855,8 @@
         }
       }
     ],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:junnosuke-suzuki",
@@ -5705,6 +5868,7 @@
     "match_key": "junnosuke suzuki",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5729,7 +5893,8 @@
       "key_capology": "junnosuke-suzuki-37814"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:junya-ito",
@@ -5741,6 +5906,7 @@
     "match_key": "junya ito",
     "match_status": "ambiguous",
     "confidence": "low",
+    "resolution_method": "needs_manual_review",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5794,7 +5960,8 @@
         }
       }
     ],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:kaishu-sano",
@@ -5806,6 +5973,7 @@
     "match_key": "kaishu sano",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5835,7 +6003,8 @@
       "key_capology": "kaishu-sano-36890"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:keisuke-goto",
@@ -5847,6 +6016,7 @@
     "match_key": "keisuke goto",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5871,7 +6041,8 @@
       "key_capology": "keisuke-goto-38506"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:keisuke-osako",
@@ -5883,6 +6054,7 @@
     "match_key": "keisuke osako",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5909,7 +6081,8 @@
       "key_heimspiel": "442708"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:keito-nakamura",
@@ -5921,6 +6094,7 @@
     "match_key": "keito nakamura",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5952,7 +6126,8 @@
       "key_capology": "keito-nakamura-36735"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:kento-shiogai",
@@ -5964,6 +6139,7 @@
     "match_key": "kento shiogai",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -5990,7 +6166,8 @@
       "key_capology": "kento-shiogai-38437"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:ko-itakura",
@@ -6002,6 +6179,7 @@
     "match_key": "ko itakura",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6035,7 +6213,8 @@
       "key_capology": "ko-itakura-35457"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:koki-ogawa",
@@ -6047,6 +6226,7 @@
     "match_key": "koki ogawa",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6077,7 +6257,8 @@
       "key_capology": "koki-ogawa-35650"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:ritsu-doan",
@@ -6089,6 +6270,7 @@
     "match_key": "ritsu doan",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6122,7 +6304,8 @@
       "key_capology": "ritsu-doan-35962"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:shogo-taniguchi",
@@ -6134,6 +6317,7 @@
     "match_key": "shogo taniguchi",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6162,7 +6346,8 @@
       "key_capology": "shogo-taniguchi-33434"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:takefusa-kubo",
@@ -6174,6 +6359,7 @@
     "match_key": "takefusa kubo",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6207,7 +6393,8 @@
       "key_capology": "takefusa-kubo-37046"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:takehiro-tomiyasu",
@@ -6219,6 +6406,7 @@
     "match_key": "takehiro tomiyasu",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6254,7 +6442,8 @@
       "key_capology": "takehiro-tomiyasu-36104"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:tomoki-hayakawa",
@@ -6266,6 +6455,7 @@
     "match_key": "tomoki hayakawa",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6288,7 +6478,8 @@
       "key_heimspiel": "731958"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:tsuyoshi-watanabe",
@@ -6300,6 +6491,7 @@
     "match_key": "tsuyoshi watanabe",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6329,7 +6521,8 @@
       "key_capology": "tsuyoshi-watanabe-35466"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:wataru-endo",
@@ -6341,6 +6534,7 @@
     "match_key": "wataru endo",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6379,7 +6573,8 @@
       "key_capology": "wataru-endo-34009"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:yuito-suzuki",
@@ -6391,6 +6586,7 @@
     "match_key": "yuito suzuki",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6420,7 +6616,8 @@
       "key_capology": "yuito-suzuki-37189"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:yukinari-sugawara",
@@ -6432,6 +6629,7 @@
     "match_key": "yukinari sugawara",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6466,7 +6664,8 @@
       "key_capology": "yukinari-sugawara-36705"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:yuto-nagatomo",
@@ -6478,6 +6677,7 @@
     "match_key": "yuto nagatomo",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6508,7 +6708,8 @@
       "key_capology": "yuto-nagatomo-31667"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "japan:player:zion-suzuki",
@@ -6520,6 +6721,7 @@
     "match_key": "zion suzuki",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6551,7 +6753,8 @@
       "key_heimspiel": "515593"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:alexander-bernhardsson",
@@ -6563,6 +6766,7 @@
     "match_key": "alexander bernhardsson",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6588,7 +6792,8 @@
       "key_capology": "alexander-bernhardsson-36046"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:alexander-isak",
@@ -6600,6 +6805,7 @@
     "match_key": "alexander isak",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6639,7 +6845,8 @@
       "key_capology": "alexander-isak-36424"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:anthony-elanga",
@@ -6651,6 +6858,7 @@
     "match_key": "anthony elanga",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6688,7 +6896,8 @@
       "key_capology": "anthony-elanga-37373"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:benjamin-nygren",
@@ -6700,6 +6909,7 @@
     "match_key": "benjamin nygren",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6725,7 +6935,8 @@
       "key_capology": "benjamin-nygren-37080"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:besfort-zeneli",
@@ -6737,6 +6948,7 @@
     "match_key": "besfort zeneli",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6761,7 +6973,8 @@
       "key_capology": "besfort-zeneli-37581"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:carl-starfelt",
@@ -6773,6 +6986,7 @@
     "match_key": "carl starfelt",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6803,7 +7017,8 @@
       "key_capology": "carl-starfelt-34851"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:daniel-svensson",
@@ -6815,6 +7030,7 @@
     "match_key": "daniel svensson",
     "match_status": "ambiguous",
     "confidence": "low",
+    "resolution_method": "needs_manual_review",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6868,7 +7084,8 @@
         }
       }
     ],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:elliot-stroud",
@@ -6880,6 +7097,7 @@
     "match_key": "elliot stroud",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6901,7 +7119,8 @@
       "key_capology": "elliot-stroud-37429"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:emil-holm",
@@ -6913,6 +7132,7 @@
     "match_key": "emil holm",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -6942,7 +7162,8 @@
       "key_capology": "emil-holm-36659"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:eric-smith",
@@ -6952,58 +7173,35 @@
     "team_id": "sweden",
     "name": "Eric Smith",
     "match_key": "eric smith",
-    "match_status": "ambiguous",
-    "confidence": "low",
+    "match_status": "exact_unique",
+    "confidence": "medium",
+    "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [
-      {
-        "reep_id": "reep_p6b60e840",
-        "name": "Eric Smith",
-        "full_name": null,
-        "date_of_birth": "1997-01-08",
-        "nationality": "Sweden",
-        "position": "midfielder",
-        "provider_refs": {
-          "reep_id": "reep_p6b60e840",
-          "key_wikidata": "Q18145133",
-          "key_transfermarkt": "292534",
-          "key_fbref": "8817312f",
-          "key_soccerway": "332791",
-          "key_sofascore": "542038",
-          "key_opta": "8yiq2pl6mno23dgg2h7p2fcut",
-          "key_worldfootball": "eric-smith_3",
-          "key_kicker": "eric-smith",
-          "key_footballdatabase_eu": "229997",
-          "key_api_football": "8486",
-          "key_fotmob": "531327",
-          "key_thesportsdb": "34177533",
-          "key_skillcorner": "14575",
-          "key_wyscout": "301291",
-          "key_impect": "20643",
-          "key_heimspiel": "351377",
-          "key_capology": "eric-smith-35438"
-        }
-      },
-      {
-        "reep_id": "reep_p785a7e10",
-        "name": "Eric Smith",
-        "full_name": null,
-        "date_of_birth": "1934-07-29",
-        "nationality": "United Kingdom",
-        "position": "wing half",
-        "provider_refs": {
-          "reep_id": "reep_p785a7e10",
-          "key_wikidata": "Q5387542",
-          "key_footballdatabase_eu": "71968",
-          "key_eu_football_info": "19568",
-          "key_hugman": "18279"
-        }
-      }
-    ],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "provider_refs": {
+      "reep_id": "reep_p6b60e840",
+      "key_wikidata": "Q18145133",
+      "key_transfermarkt": "292534",
+      "key_fbref": "8817312f",
+      "key_soccerway": "332791",
+      "key_sofascore": "542038",
+      "key_opta": "8yiq2pl6mno23dgg2h7p2fcut",
+      "key_worldfootball": "eric-smith_3",
+      "key_kicker": "eric-smith",
+      "key_footballdatabase_eu": "229997",
+      "key_api_football": "8486",
+      "key_fotmob": "531327",
+      "key_thesportsdb": "34177533",
+      "key_skillcorner": "14575",
+      "key_wyscout": "301291",
+      "key_impect": "20643",
+      "key_heimspiel": "351377",
+      "key_capology": "eric-smith-35438"
+    },
+    "candidates": [],
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:gabriel-gudmundsson",
@@ -7015,6 +7213,7 @@
     "match_key": "gabriel gudmundsson",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7049,7 +7248,8 @@
       "key_capology": "gabriel-gudmundsson-36279"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:gustaf-lagerbielke",
@@ -7061,6 +7261,7 @@
     "match_key": "gustaf lagerbielke",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7087,7 +7288,8 @@
       "key_capology": "gustaf-lagerbielke-36626"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:gustaf-nilsson",
@@ -7099,6 +7301,7 @@
     "match_key": "gustaf nilsson",
     "match_status": "ambiguous",
     "confidence": "low",
+    "resolution_method": "needs_manual_review",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7149,7 +7352,8 @@
         }
       }
     ],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:hjalmar-ekdal",
@@ -7161,6 +7365,7 @@
     "match_key": "hjalmar ekdal",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7196,7 +7401,8 @@
       "key_capology": "hjalmar-ekdal-36089"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:isak-hien",
@@ -7208,6 +7414,7 @@
     "match_key": "isak hien",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7236,7 +7443,8 @@
       "key_capology": "isak-hien-36173"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:jacob-zetterstrom",
@@ -7248,12 +7456,14 @@
     "match_key": "jacob zetterstrom",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:jesper-karlstrom",
@@ -7265,6 +7475,7 @@
     "match_key": "jesper karlstrom",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7293,7 +7504,8 @@
       "key_capology": "jesper-karlstrom-34871"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:ken-sema",
@@ -7305,6 +7517,7 @@
     "match_key": "ken sema",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7341,7 +7554,8 @@
       "key_capology": "ken-sema-34242"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:kristoffer-nordfeldt",
@@ -7353,6 +7567,7 @@
     "match_key": "kristoffer nordfeldt",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7388,7 +7603,8 @@
       "key_capology": "kristoffer-nordfeldt-32682"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:lucas-bergvall",
@@ -7400,6 +7616,7 @@
     "match_key": "lucas bergvall",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7434,7 +7651,8 @@
       "key_capology": "lucas-bergvall-38750"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:mattias-svanberg",
@@ -7446,6 +7664,7 @@
     "match_key": "mattias svanberg",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7475,7 +7694,8 @@
       "key_capology": "mattias-svanberg-36165"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:taha-ali",
@@ -7487,6 +7707,7 @@
     "match_key": "taha ali",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7512,7 +7733,8 @@
       "key_capology": "taha-ali-35977"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:victor-lindelof",
@@ -7524,6 +7746,7 @@
     "match_key": "victor lindelof",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7563,7 +7786,8 @@
       "key_capology": "victor-lindelof-34532"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:viktor-gyokeres",
@@ -7575,6 +7799,7 @@
     "match_key": "viktor gyokeres",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7610,7 +7835,8 @@
       "key_capology": "viktor-gyokeres-35950"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:viktor-johansson",
@@ -7622,6 +7848,7 @@
     "match_key": "viktor johansson",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7647,7 +7874,8 @@
       "key_capology": "viktor-johansson-36052"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "sweden:player:yasin-ayari",
@@ -7659,6 +7887,7 @@
     "match_key": "yasin ayari",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7693,7 +7922,8 @@
       "key_capology": "yasin-ayari-37900"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:abdelmouhib-chamakh",
@@ -7705,12 +7935,14 @@
     "match_key": "abdelmouhib chamakh",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:adem-arous",
@@ -7722,6 +7954,7 @@
     "match_key": "adem arous",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7740,7 +7973,8 @@
       "key_capology": "adem-arous-38185"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:ali-abdi",
@@ -7752,6 +7986,7 @@
     "match_key": "ali abdi",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7778,7 +8013,8 @@
       "key_capology": "ali-abdi-34323"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:anis-ben-slimane",
@@ -7790,6 +8026,7 @@
     "match_key": "anis ben slimane",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7822,7 +8059,8 @@
       "key_heimspiel": "542406"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:aymen-dahmene",
@@ -7834,12 +8072,14 @@
     "match_key": "aymen dahmene",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:dylan-bronn",
@@ -7851,6 +8091,7 @@
     "match_key": "dylan bronn",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7880,7 +8121,8 @@
       "key_capology": "dylan-bronn-34869"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:elias-achouri",
@@ -7892,6 +8134,7 @@
     "match_key": "elias achouri",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7918,7 +8161,8 @@
       "key_capology": "elias-achouri-36201"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:elias-saad",
@@ -7930,6 +8174,7 @@
     "match_key": "elias saad",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7954,7 +8199,8 @@
       "key_heimspiel": "612855"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:ellyes-skhiri",
@@ -7966,6 +8212,7 @@
     "match_key": "ellyes skhiri",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -7997,7 +8244,8 @@
       "key_capology": "ellyes-skhiri-34829"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:firas-chaouat",
@@ -8009,6 +8257,7 @@
     "match_key": "firas chaouat",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8027,7 +8276,8 @@
       "key_impect": "99990"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:hadj-mahmoud",
@@ -8039,12 +8289,14 @@
     "match_key": "hadj mahmoud",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:hannibal-mejbri",
@@ -8056,6 +8308,7 @@
     "match_key": "hannibal mejbri",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8093,7 +8346,8 @@
       "key_capology": "hannibal-37642"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:hazem-mastouri",
@@ -8105,6 +8359,7 @@
     "match_key": "hazem mastouri",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8122,7 +8377,8 @@
       "key_capology": "hazem-mastouri-35599"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:ismael-gharbi",
@@ -8134,6 +8390,7 @@
     "match_key": "ismael gharbi",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8163,7 +8420,8 @@
       "key_heimspiel": "680054"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:khalil-ayari",
@@ -8175,6 +8433,7 @@
     "match_key": "khalil ayari",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8190,7 +8449,8 @@
       "key_footballdatabase_eu": "557163"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:mohamed-amine-ben-hamida",
@@ -8202,12 +8462,14 @@
     "match_key": "mohamed amine ben hamida",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:montassar-talbi",
@@ -8219,6 +8481,7 @@
     "match_key": "montassar talbi",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8246,7 +8509,8 @@
       "key_capology": "montassar-talbi-35941"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:mortadha-ben-ouanes",
@@ -8258,6 +8522,7 @@
     "match_key": "mortadha ben ouanes",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8279,7 +8544,8 @@
       "key_capology": "mortadha-ben-ouanes-34517"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:moutaz-neffati",
@@ -8291,6 +8557,7 @@
     "match_key": "moutaz neffati",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8311,7 +8578,8 @@
       "key_heimspiel": "737488"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:omar-rekik",
@@ -8323,6 +8591,7 @@
     "match_key": "omar rekik",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8351,7 +8620,8 @@
       "key_capology": "omar-rekik-37245"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:raed-chikhaoui",
@@ -8363,12 +8633,14 @@
     "match_key": "raed chikhaoui",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:rani-khedira",
@@ -8380,6 +8652,7 @@
     "match_key": "rani khedira",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8407,7 +8680,8 @@
       "key_heimspiel": "234295"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:rayan-elloumi",
@@ -8419,6 +8693,7 @@
     "match_key": "rayan elloumi",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8438,7 +8713,8 @@
       "key_capology": "rayan-elloumi-39342"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:sabri-ben-hassan",
@@ -8450,12 +8726,14 @@
     "match_key": "sabri ben hassan",
     "match_status": "missing",
     "confidence": "none",
+    "resolution_method": "not_found",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
     "provider_refs": {},
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:sebastian-tounekti",
@@ -8467,6 +8745,7 @@
     "match_key": "sebastian tounekti",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8492,7 +8771,8 @@
       "key_capology": "sebastian-tounekti-37450"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   },
   {
     "platform_person_id": "tunisia:player:yan-valery",
@@ -8504,6 +8784,7 @@
     "match_key": "yan valery",
     "match_status": "exact_unique",
     "confidence": "high",
+    "resolution_method": "name_unique",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
@@ -8537,6 +8818,7 @@
       "key_heimspiel": "431984"
     },
     "candidates": [],
-    "updated_at": "2026-05-16T14:28:33Z"
+    "manual_review": null,
+    "updated_at": "2026-05-16T14:37:23Z"
   }
 ]

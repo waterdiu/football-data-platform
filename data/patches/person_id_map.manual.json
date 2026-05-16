@@ -1,0 +1,11 @@
+{
+  "version": "2026-05-16.person-id-map.manual.v1",
+  "purpose": "Manual review overrides for unresolved Reep person ID mappings.",
+  "rules": [
+    "Only add an entry after checking DOB, club, nationality, official roster context, or a trusted provider ID.",
+    "Each entry must include platform_person_id, provider_refs.reep_id, reviewed_by, reviewed_at, and evidence.",
+    "Manual patch entries only resolve ID mapping; they must not change official roster facts."
+  ],
+  "entries": []
+}
+

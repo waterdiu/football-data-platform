@@ -499,8 +499,12 @@ ID 映射需要独立保存：
 - Reep 只作为外部 provider ID 映射来源，不作为官方名单、国家队归属、号码或位置事实来源。
 - Reep 许可证已确认为 CC0-1.0；导入仍必须记录 `source_license`、`source_version` 和生成时间。
 - 唯一匹配写为 `match_status=exact_unique`，可作为高置信度 ID map。
+- 如果同名候选中只有一个候选的 nationality 与国家队归属匹配，可自动写为 `match_status=exact_unique`、`confidence=medium`、`resolution_method=name_plus_unique_team_nationality`。
 - 多候选匹配写为 `match_status=ambiguous`，必须用 DOB、俱乐部、国家队或人工 review 消歧后才能提升置信度。
 - 未匹配写为 `match_status=missing`，不得推断 provider ID。
+- 人工审查 patch：`data/patches/person_id_map.manual.json`
+- 导入脚本：`scripts/import_reep_person_id_map.py`
+- 未解决报告：`reports/person_id_map_unresolved_report.json`
 
 ## 14. Confidence 设计
 

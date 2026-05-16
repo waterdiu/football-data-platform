@@ -15,6 +15,18 @@ ROOT = Path(__file__).resolve().parents[1]
 PLAYERS_PATH = ROOT / "data" / "public" / "players.json"
 NORMALIZED_DIR = ROOT / "data" / "normalized"
 REPORTS_DIR = ROOT / "reports"
+DEFAULT_PATCH_PATH = ROOT / "data" / "patches" / "person_id_map.manual.json"
+
+TEAM_NATIONALITY_ALIASES = {
+    "belgium": {"belgium"},
+    "bosnia-and-herzegovina": {"bosnia and herzegovina"},
+    "cote-divoire": {"ivory coast", "cote d ivoire", "côte d ivoire"},
+    "france": {"france"},
+    "haiti": {"haiti"},
+    "japan": {"japan"},
+    "sweden": {"sweden"},
+    "tunisia": {"tunisia"},
+}
 
 PROVIDER_FIELDS = [
     "reep_id",
@@ -99,6 +111,12 @@ def compact_provider_refs(row: dict[str, str]) -> dict[str, str]:
     return refs
 
 
+def team_nationality_aliases(team_id: str | None) -> set[str]:
+    if not team_id:
+        return set()
+    return TEAM_NATIONALITY_ALIASES.get(team_id, {team_id.replace("-", " ")})
+
+
 def load_reep_index(path: Path) -> tuple[dict[str, list[dict[str, Any]]], int]:
     index: dict[str, list[dict[str, Any]]] = defaultdict(list)
     row_count = 0
@@ -130,9 +148,11 @@ def build_id_map(
     reep_index: dict[str, list[dict[str, Any]]],
     generated_at: str,
     source_version: str,
-) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    manual_overrides: dict[str, dict[str, Any]],
+) -> tuple[list[dict[str, Any]], dict[str, int], list[dict[str, Any]]]:
     rows: list[dict[str, Any]] = []
     counts = {"exact_unique": 0, "ambiguous": 0, "missing": 0}
+    unresolved: list[dict[str, Any]] = []
 
     for player in players:
         platform_person_id = str(player.get("player_id") or "").strip()
@@ -142,25 +162,51 @@ def build_id_map(
 
         match_key = norm_name(name)
         candidates = reep_index.get(match_key, [])
+        resolution_method = None
         if len(candidates) == 1:
             candidate = candidates[0]
             match_status = "exact_unique"
             confidence = "high"
             provider_refs = candidate["provider_refs"]
             candidate_payload: list[dict[str, Any]] = []
+            resolution_method = "name_unique"
         elif len(candidates) > 1:
-            match_status = "ambiguous"
-            confidence = "low"
-            provider_refs = {}
-            candidate_payload = candidates
+            team_aliases = team_nationality_aliases(str(player.get("team_id") or ""))
+            nationality_matches = [
+                candidate
+                for candidate in candidates
+                if norm_name(str(candidate.get("nationality") or "")) in team_aliases
+            ]
+            if len(nationality_matches) == 1:
+                candidate = nationality_matches[0]
+                match_status = "exact_unique"
+                confidence = "medium"
+                provider_refs = candidate["provider_refs"]
+                candidate_payload = []
+                resolution_method = "name_plus_unique_team_nationality"
+            else:
+                match_status = "ambiguous"
+                confidence = "low"
+                provider_refs = {}
+                candidate_payload = candidates
+                resolution_method = "needs_manual_review"
         else:
             match_status = "missing"
             confidence = "none"
             provider_refs = {}
             candidate_payload = []
+            resolution_method = "not_found"
+
+        manual_override = manual_overrides.get(platform_person_id)
+        if manual_override:
+            match_status = "exact_unique"
+            confidence = str(manual_override.get("confidence") or "high")
+            provider_refs = dict(manual_override.get("provider_refs") or {})
+            candidate_payload = []
+            resolution_method = "manual_review"
 
         counts[match_status] += 1
-        rows.append(
+        row = (
             {
                 "platform_person_id": platform_person_id,
                 "person_type": "player",
@@ -171,15 +217,44 @@ def build_id_map(
                 "match_key": match_key,
                 "match_status": match_status,
                 "confidence": confidence,
+                "resolution_method": resolution_method,
                 "source": "reep",
                 "source_license": "CC0-1.0",
                 "source_version": source_version,
                 "provider_refs": provider_refs,
                 "candidates": candidate_payload,
+                "manual_review": manual_override or None,
                 "updated_at": generated_at,
             }
         )
-    return rows, counts
+        rows.append(row)
+        if match_status != "exact_unique":
+            unresolved.append(row)
+    return rows, counts, unresolved
+
+
+def load_manual_overrides(path: Path) -> dict[str, dict[str, Any]]:
+    if not path.exists():
+        return {}
+    payload = load_json(path)
+    if not isinstance(payload, dict):
+        raise TypeError("manual patch must be an object")
+    entries = payload.get("entries")
+    if not isinstance(entries, list):
+        raise TypeError("manual patch must contain an entries list")
+
+    overrides: dict[str, dict[str, Any]] = {}
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        platform_person_id = str(entry.get("platform_person_id") or "").strip()
+        provider_refs = entry.get("provider_refs")
+        if not platform_person_id or not isinstance(provider_refs, dict):
+            continue
+        if not str(provider_refs.get("reep_id") or "").strip():
+            continue
+        overrides[platform_person_id] = entry
+    return overrides
 
 
 def main() -> None:
@@ -201,6 +276,16 @@ def main() -> None:
         default=str(REPORTS_DIR / "person_id_map_import_report.json"),
         help="import report output",
     )
+    parser.add_argument(
+        "--unresolved-output",
+        default=str(REPORTS_DIR / "person_id_map_unresolved_report.json"),
+        help="unresolved ambiguous/missing mappings report output",
+    )
+    parser.add_argument(
+        "--manual-patch",
+        default=str(DEFAULT_PATCH_PATH),
+        help="manual person ID map review patch file",
+    )
     args = parser.parse_args()
 
     generated_at = now_utc()
@@ -210,14 +295,17 @@ def main() -> None:
     players = [item for item in players_payload if isinstance(item, dict)]
 
     reep_index, reep_rows = load_reep_index(Path(args.reep_people_csv))
-    id_map, counts = build_id_map(
+    manual_overrides = load_manual_overrides(Path(args.manual_patch))
+    id_map, counts, unresolved = build_id_map(
         players=players,
         reep_index=reep_index,
         generated_at=generated_at,
         source_version=args.source_version,
+        manual_overrides=manual_overrides,
     )
 
     write_json(Path(args.output), id_map)
+    write_json(Path(args.unresolved_output), unresolved)
     report = {
         "generated_at": generated_at,
         "status": "imported",
@@ -226,6 +314,8 @@ def main() -> None:
         "source_version": args.source_version,
         "source_people_csv": str(Path(args.reep_people_csv)),
         "source_rows": reep_rows,
+        "manual_patch": str(Path(args.manual_patch)),
+        "manual_overrides_applied": len(manual_overrides),
         "players_considered": len(players),
         "rows_written": len(id_map),
         "counts": counts,
@@ -239,6 +329,7 @@ def main() -> None:
         },
         "outputs": {
             "normalized": str(Path(args.output)),
+            "unresolved_report": str(Path(args.unresolved_output)),
         },
         "notes": [
             "This import writes an ID map only; it does not overwrite FIFA/FA roster facts.",
@@ -251,4 +342,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
