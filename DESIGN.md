@@ -11,6 +11,10 @@
 
 - `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-person-profile-design-cn.md`
 
+国内与第三方数据源评估：
+
+- `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-domestic-football-data-sources-evaluation-cn.md`
+
 ## 0. Workspace Coordination Role
 
 `football-data-platform` 当前也是足球工作区的全局协调入口。全局规则和状态不放在单个消费项目中，而放在工作区根目录：
@@ -38,6 +42,8 @@
 它负责统一接入数据源、标准化字段与 ID、缓存原始数据、输出标准数据集，并记录覆盖率与质量情况。
 
 其中人物档案层负责球员、教练和裁判的基础档案、能力量化输入、风格标签和可解释画像。人物能力值必须由可追溯数据计算或人工官方 patch 进入，不允许无来源主观赋值。
+
+国内源、逆向接口和爬虫项目只能作为候选源进入评估流程。雷速、懂球帝、500 彩票、竞彩网、HKJC 非授权接口、Transfermarkt 非公开接口等默认不得进入生产发布链路；如果做实验，只能落在 `data/raw/experimental`，经过人工审核和交叉验证后才允许以明确的 `source_status` 进入 normalized。
 
 它不负责前端页面、不负责模型训练、不负责用户系统。
 

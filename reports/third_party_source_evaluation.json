@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-05-16T00:00:00Z",
+  "policy": {
+    "experimental_sources_default_to_raw_only": true,
+    "normalized_requires_manual_review": true,
+    "public_api_requires_official_or_authorized_or_verified_status": true
+  },
+  "sources": [
+    {
+      "source_id": "leisu",
+      "category": "domestic_scraper_or_reverse_engineered_api",
+      "coverage": ["scores", "odds", "lineups", "events"],
+      "stability": "low",
+      "legal_risk": "high",
+      "production_allowed": false,
+      "normalized_allowed": false,
+      "public_api_allowed": false,
+      "recommended_use": "experimental_validation_only"
+    },
+    {
+      "source_id": "dongqiudi",
+      "category": "domestic_app_reverse_engineering",
+      "coverage": ["news", "profiles", "match_context"],
+      "stability": "low",
+      "legal_risk": "high",
+      "production_allowed": false,
+      "normalized_allowed": false,
+      "public_api_allowed": false,
+      "recommended_use": "chinese_news_and_name_signal_only"
+    },
+    {
+      "source_id": "cn_lottery_sites",
+      "category": "domestic_lottery_or_odds_pages",
+      "coverage": ["odds", "fixtures", "results"],
+      "stability": "low",
+      "legal_risk": "high",
+      "production_allowed": false,
+      "normalized_allowed": false,
+      "public_api_allowed": false,
+      "recommended_use": "odds_field_research_only"
+    },
+    {
+      "source_id": "hkjc_api",
+      "category": "third_party_hkjc_graphql_client",
+      "coverage": ["odds", "fixtures", "match_details"],
+      "stability": "medium",
+      "legal_risk": "medium_high",
+      "production_allowed": false,
+      "normalized_allowed": false,
+      "public_api_allowed": false,
+      "recommended_use": "licensed_review_required_before_any_ingestion"
+    },
+    {
+      "source_id": "reep",
+      "category": "open_identity_mapping_dataset",
+      "coverage": ["players", "coaches", "teams", "competitions", "provider_ids"],
+      "stability": "medium_high",
+      "legal_risk": "medium",
+      "production_allowed": false,
+      "normalized_allowed": true,
+      "public_api_allowed": false,
+      "recommended_use": "candidate_for_person_id_map_after_license_review"
+    },
+    {
+      "source_id": "transfermarkt_datasets",
+      "category": "offline_third_party_dataset",
+      "coverage": ["players", "clubs", "market_values", "transfers", "appearances"],
+      "stability": "medium",
+      "legal_risk": "medium",
+      "production_allowed": false,
+      "normalized_allowed": true,
+      "public_api_allowed": false,
+      "recommended_use": "offline_profile_enrichment_after_license_review"
+    },
+    {
+      "source_id": "statsbomb_open_data",
+      "category": "official_open_event_dataset",
+      "coverage": ["events", "lineups", "player_actions", "match_metadata"],
+      "stability": "high",
+      "legal_risk": "low_medium",
+      "production_allowed": false,
+      "normalized_allowed": true,
+      "public_api_allowed": true,
+      "recommended_use": "historical_style_evidence_and_model_training"
+    }
+  ]
+}
