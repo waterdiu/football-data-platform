@@ -1,25 +1,38 @@
 {
-  "generated_at": "2026-05-15T16:09:03.572555+00:00",
+  "generated_at": "2026-05-16T08:46:53.874646+00:00",
   "dry_run": true,
   "fixtures_total": 104,
-  "fixtures_selected": 2,
+  "fixtures_selected": 1,
   "window_hours": null,
-  "limit": 2,
+  "limit": 1,
   "datasets": [
     {
       "dataset": "odds",
       "status": "missing_auth",
       "auth_env": "THE_ODDS_API_KEY",
       "sport_key": "soccer_fifa_world_cup",
-      "fixtures_considered": 2,
+      "fixtures_considered": 1,
       "rows_collected": 0
     },
     {
       "dataset": "weather",
-      "status": "missing_auth",
+      "status": "no_rows",
       "auth_env": "OPENWEATHER_API_KEY",
-      "fixtures_considered": 2,
-      "rows_collected": 0
+      "fallback_provider": "open_meteo",
+      "fixtures_considered": 1,
+      "rows_collected": 0,
+      "provider_counts": {
+        "openweather": 0,
+        "open_meteo": 0
+      },
+      "skipped": [
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537327",
+          "reason": "not_in_forecast_window_or_empty_provider_payload"
+        }
+      ],
+      "errors": [],
+      "output": null
     },
     {
       "dataset": "injuries",
@@ -27,7 +40,7 @@
       "auth_env": "API_FOOTBALL_KEY",
       "league_id": "1",
       "season": "2026",
-      "fixtures_considered": 2,
+      "fixtures_considered": 1,
       "fixture_ids_discovered": 0,
       "rows_collected": 0,
       "output": null,
@@ -40,7 +53,7 @@
       "auth_env": "API_FOOTBALL_KEY",
       "league_id": "1",
       "season": "2026",
-      "fixtures_considered": 2,
+      "fixtures_considered": 1,
       "fixture_ids_discovered": 0,
       "rows_collected": 0,
       "output": null,
@@ -50,8 +63,8 @@
     {
       "dataset": "prematch_context",
       "status": "collected",
-      "fixtures_considered": 2,
-      "rows_collected": 2,
+      "fixtures_considered": 1,
+      "rows_collected": 1,
       "rows_existing": 104,
       "attempted_sources": 6,
       "successful_pages": 7,

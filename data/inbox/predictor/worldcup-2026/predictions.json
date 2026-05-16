@@ -1,6 +1,56 @@
 {
   "generated_at": "2026-05-15T00:00:00Z",
   "model_name": "xgboost",
+  "calibration": {
+    "scope": "opening_calibrated",
+    "method": "holdout_rate_multiplier",
+    "matches_count": 3998,
+    "brier_score": 0.5199,
+    "classwise_brier": {
+      "home_win": 0.1874,
+      "draw": 0.1777,
+      "away_win": 0.1548
+    },
+    "log_loss": 0.8822,
+    "draw": {
+      "matches_count": 3998,
+      "actual_draw_rate": 0.2384,
+      "average_predicted_draw_probability": 0.2216,
+      "draw_bias": -0.0168,
+      "reliability_curve": [
+        {
+          "bin": 0,
+          "lower": 0.0,
+          "upper": 0.2,
+          "count": 1427,
+          "average_predicted_probability": 0.1272,
+          "observed_rate": 0.1626
+        },
+        {
+          "bin": 1,
+          "lower": 0.2,
+          "upper": 0.4,
+          "count": 2554,
+          "average_predicted_probability": 0.2729,
+          "observed_rate": 0.2796
+        },
+        {
+          "bin": 2,
+          "lower": 0.4,
+          "upper": 0.6,
+          "count": 17,
+          "average_predicted_probability": 0.4263,
+          "observed_rate": 0.4118
+        }
+      ]
+    },
+    "quality_gate": {
+      "passed": true,
+      "blocking_flags": [],
+      "kelly_multiplier_cap": 1.0
+    },
+    "available": true
+  },
   "data_source": {
     "platform_status": {
       "status": "degraded",
@@ -23,6 +73,7 @@
         "prematch_context": 104
       }
     },
+    "calibration_scope": "opening_calibrated",
     "missing_optional_runtime_datasets": [
       "odds_snapshots",
       "lineups",
@@ -40,9 +91,9 @@
       "date": "2026-06-11",
       "home_team": "Mexico",
       "away_team": "South Africa",
-      "home_win_probability": 0.5771350860595703,
-      "draw_probability": 0.2640933394432068,
-      "away_win_probability": 0.1587716042995453,
+      "home_win_probability": 0.5504363011375122,
+      "draw_probability": 0.28540054547830657,
+      "away_win_probability": 0.16416315338418133,
       "summary": "Mexico have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-11",
@@ -203,7 +254,16 @@
         "away_home_xg_avg_20": 2.8289333333333335,
         "away_home_xga_avg_20": 2.9174333333333333,
         "away_away_xg_avg_20": 2.689575,
-        "away_away_xga_avg_20": 3.81715
+        "away_away_xga_avg_20": 3.81715,
+        "home_general_strength_score": 70.262,
+        "away_general_strength_score": 50.186,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 20.076,
+        "general_strength_tier_gap": 2.0,
+        "home_advantage_zone": 1.0,
+        "expected_handicap_zone": 3.0,
+        "expected_handicap_line": -0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -260,9 +320,9 @@
       "date": "2026-06-12",
       "home_team": "South Korea",
       "away_team": "Czech Republic",
-      "home_win_probability": 0.5613662600517273,
-      "draw_probability": 0.28632622957229614,
-      "away_win_probability": 0.15230749547481537,
+      "home_win_probability": 0.5341664010900568,
+      "draw_probability": 0.30871601214424443,
+      "away_win_probability": 0.15711758676569876,
       "summary": "South Korea have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-12",
@@ -423,7 +483,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 68.541,
+        "away_general_strength_score": 61.637,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 6.904,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -480,9 +549,9 @@
       "date": "2026-06-18",
       "home_team": "Czech Republic",
       "away_team": "South Africa",
-      "home_win_probability": 0.42373234033584595,
-      "draw_probability": 0.28641852736473083,
-      "away_win_probability": 0.28984910249710083,
+      "home_win_probability": 0.39880650984840976,
+      "draw_probability": 0.3054495535966468,
+      "away_win_probability": 0.2957439365549435,
       "summary": "Czech Republic have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-18",
@@ -643,7 +712,16 @@
         "away_home_xg_avg_20": 2.8289333333333335,
         "away_home_xga_avg_20": 2.9174333333333333,
         "away_away_xg_avg_20": 2.689575,
-        "away_away_xga_avg_20": 3.81715
+        "away_away_xga_avg_20": 3.81715,
+        "home_general_strength_score": 61.637,
+        "away_general_strength_score": 50.186,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 11.451,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -700,9 +778,9 @@
       "date": "2026-06-19",
       "home_team": "Mexico",
       "away_team": "South Korea",
-      "home_win_probability": 0.30729302763938904,
-      "draw_probability": 0.29984915256500244,
-      "away_win_probability": 0.39285778999328613,
+      "home_win_probability": 0.2863994169828476,
+      "draw_probability": 0.31665766801308565,
+      "away_win_probability": 0.3969429150040667,
       "summary": "South Korea have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-19",
@@ -863,7 +941,16 @@
         "away_home_xg_avg_20": 1.33945,
         "away_home_xga_avg_20": 1.685225,
         "away_away_xg_avg_20": 0.4174,
-        "away_away_xga_avg_20": 1.8979333333333333
+        "away_away_xga_avg_20": 1.8979333333333333,
+        "home_general_strength_score": 70.262,
+        "away_general_strength_score": 68.541,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": 1.721,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 1.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -920,9 +1007,9 @@
       "date": "2026-06-25",
       "home_team": "Czech Republic",
       "away_team": "Mexico",
-      "home_win_probability": 0.20701511204242706,
-      "draw_probability": 0.2657403349876404,
-      "away_win_probability": 0.527244508266449,
+      "home_win_probability": 0.19173106306471968,
+      "draw_probability": 0.27887890760743445,
+      "away_win_probability": 0.529390029327846,
       "summary": "Mexico have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-25",
@@ -1083,7 +1170,16 @@
         "away_home_xg_avg_20": 1.053375,
         "away_home_xga_avg_20": 1.1851,
         "away_away_xg_avg_20": 1.39445,
-        "away_away_xga_avg_20": 1.496
+        "away_away_xga_avg_20": 1.496,
+        "home_general_strength_score": 61.637,
+        "away_general_strength_score": 70.262,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": -8.625,
+        "general_strength_tier_gap": -1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -1.0,
+        "expected_handicap_line": 0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -1140,9 +1236,9 @@
       "date": "2026-06-25",
       "home_team": "South Africa",
       "away_team": "South Korea",
-      "home_win_probability": 0.14983689785003662,
-      "draw_probability": 0.226674884557724,
-      "away_win_probability": 0.6234882473945618,
+      "home_win_probability": 0.13840318477657573,
+      "draw_probability": 0.23724576794960475,
+      "away_win_probability": 0.6243510472738196,
       "summary": "South Korea have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-25",
@@ -1303,7 +1399,16 @@
         "away_home_xg_avg_20": 1.33945,
         "away_home_xga_avg_20": 1.685225,
         "away_away_xg_avg_20": 0.4174,
-        "away_away_xga_avg_20": 1.8979333333333333
+        "away_away_xga_avg_20": 1.8979333333333333,
+        "home_general_strength_score": 50.186,
+        "away_general_strength_score": 68.541,
+        "home_general_strength_tier": 5.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": -18.355,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -1360,9 +1465,9 @@
       "date": "2026-06-12",
       "home_team": "Canada",
       "away_team": "Bosnia and Herzegovina",
-      "home_win_probability": 0.6107870936393738,
-      "draw_probability": 0.25798657536506653,
-      "away_win_probability": 0.1312263458967209,
+      "home_win_probability": 0.5842755192034462,
+      "draw_probability": 0.2796357585365458,
+      "away_win_probability": 0.13608872226000807,
       "summary": "Canada have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-12",
@@ -1523,7 +1628,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 65.349,
+        "away_general_strength_score": 56.935,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 8.414,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 1.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -1580,9 +1694,9 @@
       "date": "2026-06-13",
       "home_team": "Qatar",
       "away_team": "Switzerland",
-      "home_win_probability": 0.14255952835083008,
-      "draw_probability": 0.24308885633945465,
-      "away_win_probability": 0.6143516302108765,
+      "home_win_probability": 0.13150910518049524,
+      "draw_probability": 0.25409281431777453,
+      "away_win_probability": 0.6143980805017303,
       "summary": "Switzerland have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-13",
@@ -1743,7 +1857,16 @@
         "away_home_xg_avg_20": 1.3115,
         "away_home_xga_avg_20": 1.0946500000000001,
         "away_away_xg_avg_20": 1.6516714285714285,
-        "away_away_xga_avg_20": 1.8282142857142858
+        "away_away_xga_avg_20": 1.8282142857142858,
+        "home_general_strength_score": 49.731,
+        "away_general_strength_score": 75.05,
+        "home_general_strength_tier": 5.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": -25.319,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -1800,9 +1923,9 @@
       "date": "2026-06-18",
       "home_team": "Switzerland",
       "away_team": "Bosnia and Herzegovina",
-      "home_win_probability": 0.7523449659347534,
-      "draw_probability": 0.15955185890197754,
-      "away_win_probability": 0.08810314536094666,
+      "home_win_probability": 0.7313931420950215,
+      "draw_probability": 0.1757533019779902,
+      "away_win_probability": 0.09285355592698841,
       "summary": "Switzerland have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-18",
@@ -1963,7 +2086,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 75.05,
+        "away_general_strength_score": 56.935,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 18.115,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -2020,9 +2152,9 @@
       "date": "2026-06-18",
       "home_team": "Canada",
       "away_team": "Qatar",
-      "home_win_probability": 0.5360662341117859,
-      "draw_probability": 0.2717493176460266,
-      "away_win_probability": 0.1921844184398651,
+      "home_win_probability": 0.5094069057663619,
+      "draw_probability": 0.29260557604544485,
+      "away_win_probability": 0.1979875181881932,
       "summary": "Canada have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-18",
@@ -2183,7 +2315,16 @@
         "away_home_xg_avg_20": 0.63215,
         "away_home_xga_avg_20": 1.0285,
         "away_away_xg_avg_20": 0.1437,
-        "away_away_xga_avg_20": 1.714
+        "away_away_xga_avg_20": 1.714,
+        "home_general_strength_score": 65.349,
+        "away_general_strength_score": 49.731,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 15.618,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 1.0,
+        "expected_handicap_zone": 2.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -2240,9 +2381,9 @@
       "date": "2026-06-24",
       "home_team": "Switzerland",
       "away_team": "Canada",
-      "home_win_probability": 0.4881778955459595,
-      "draw_probability": 0.26921960711479187,
-      "away_win_probability": 0.24260251224040985,
+      "home_win_probability": 0.46218548431888096,
+      "draw_probability": 0.28881027302046497,
+      "away_win_probability": 0.24900424266065405,
       "summary": "Switzerland have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-24",
@@ -2403,7 +2544,16 @@
         "away_home_xg_avg_20": 2.6668000000000003,
         "away_home_xga_avg_20": 1.8436000000000001,
         "away_away_xg_avg_20": 1.90835,
-        "away_away_xga_avg_20": 2.4623666666666666
+        "away_away_xga_avg_20": 2.4623666666666666,
+        "home_general_strength_score": 75.05,
+        "away_general_strength_score": 65.349,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 9.701,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -2460,9 +2610,9 @@
       "date": "2026-06-24",
       "home_team": "Bosnia and Herzegovina",
       "away_team": "Qatar",
-      "home_win_probability": 0.32345834374427795,
-      "draw_probability": 0.2697005569934845,
-      "away_win_probability": 0.40684109926223755,
+      "home_win_probability": 0.30226471411685163,
+      "draw_probability": 0.2855740208908978,
+      "away_win_probability": 0.4121612649922507,
       "summary": "Qatar have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-24",
@@ -2623,7 +2773,16 @@
         "away_home_xg_avg_20": 0.63215,
         "away_home_xga_avg_20": 1.0285,
         "away_away_xg_avg_20": 0.1437,
-        "away_away_xga_avg_20": 1.714
+        "away_away_xga_avg_20": 1.714,
+        "home_general_strength_score": 56.935,
+        "away_general_strength_score": 49.731,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 7.204,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -2680,9 +2839,9 @@
       "date": "2026-06-13",
       "home_team": "Brazil",
       "away_team": "Morocco",
-      "home_win_probability": 0.4151521623134613,
-      "draw_probability": 0.26417258381843567,
-      "away_win_probability": 0.32067522406578064,
+      "home_win_probability": 0.3908664813153462,
+      "draw_probability": 0.2818231268115404,
+      "away_win_probability": 0.32731039187311334,
       "summary": "Brazil have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-13",
@@ -2843,7 +3002,16 @@
         "away_home_xg_avg_20": 1.6490714285714285,
         "away_home_xga_avg_20": 1.0999857142857143,
         "away_away_xg_avg_20": 1.2268285714285714,
-        "away_away_xga_avg_20": 1.2170571428571428
+        "away_away_xga_avg_20": 1.2170571428571428,
+        "home_general_strength_score": 81.6,
+        "away_general_strength_score": 89.198,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 9.0,
+        "broad_strength_gap": -7.598,
+        "general_strength_tier_gap": -1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -1.0,
+        "expected_handicap_line": 0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -2900,9 +3068,9 @@
       "date": "2026-06-14",
       "home_team": "Haiti",
       "away_team": "Scotland",
-      "home_win_probability": 0.16789570450782776,
-      "draw_probability": 0.25861117243766785,
-      "away_win_probability": 0.5734931230545044,
+      "home_win_probability": 0.15507743714602557,
+      "draw_probability": 0.2706599974322194,
+      "away_win_probability": 0.5742625654217551,
       "summary": "Scotland have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-14",
@@ -3063,7 +3231,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 48.137,
+        "away_general_strength_score": 60.149,
+        "home_general_strength_tier": 5.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": -12.012,
+        "general_strength_tier_gap": -1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -1.0,
+        "expected_handicap_line": 0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -3128,9 +3305,9 @@
       "date": "2026-06-20",
       "home_team": "Brazil",
       "away_team": "Haiti",
-      "home_win_probability": 0.8033496737480164,
-      "draw_probability": 0.13679195940494537,
-      "away_win_probability": 0.05985836312174797,
+      "home_win_probability": 0.7851027024222899,
+      "draw_probability": 0.15147821584652504,
+      "away_win_probability": 0.06341908173118514,
       "summary": "Brazil have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-20",
@@ -3291,7 +3468,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 81.6,
+        "away_general_strength_score": 48.137,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 33.463,
+        "general_strength_tier_gap": 3.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 3.0,
+        "expected_handicap_line": -0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -3348,9 +3534,9 @@
       "date": "2026-06-19",
       "home_team": "Scotland",
       "away_team": "Morocco",
-      "home_win_probability": 0.11233469843864441,
-      "draw_probability": 0.20541533827781677,
-      "away_win_probability": 0.6822499632835388,
+      "home_win_probability": 0.10356058781223963,
+      "draw_probability": 0.21457603317618262,
+      "away_win_probability": 0.6818633790115778,
       "summary": "Morocco have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-19",
@@ -3511,7 +3697,16 @@
         "away_home_xg_avg_20": 1.6490714285714285,
         "away_home_xga_avg_20": 1.0999857142857143,
         "away_away_xg_avg_20": 1.2268285714285714,
-        "away_away_xga_avg_20": 1.2170571428571428
+        "away_away_xga_avg_20": 1.2170571428571428,
+        "home_general_strength_score": 60.149,
+        "away_general_strength_score": 89.198,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 9.0,
+        "broad_strength_gap": -29.049,
+        "general_strength_tier_gap": -3.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -3.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -3568,9 +3763,9 @@
       "date": "2026-06-24",
       "home_team": "Scotland",
       "away_team": "Brazil",
-      "home_win_probability": 0.15556597709655762,
-      "draw_probability": 0.19593171775341034,
-      "away_win_probability": 0.6485022902488708,
+      "home_win_probability": 0.14395944325239235,
+      "draw_probability": 0.20544616721247788,
+      "away_win_probability": 0.6505943895351297,
       "summary": "Brazil have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-24",
@@ -3731,7 +3926,16 @@
         "away_home_xg_avg_20": 2.1271,
         "away_home_xga_avg_20": 0.43947777777777774,
         "away_away_xg_avg_20": 3.26128,
-        "away_away_xga_avg_20": 2.06742
+        "away_away_xga_avg_20": 2.06742,
+        "home_general_strength_score": 60.149,
+        "away_general_strength_score": 81.6,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -21.451,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -3788,9 +3992,9 @@
       "date": "2026-06-24",
       "home_team": "Morocco",
       "away_team": "Haiti",
-      "home_win_probability": 0.804668664932251,
-      "draw_probability": 0.13446350395679474,
-      "away_win_probability": 0.06086784228682518,
+      "home_win_probability": 0.7865646860842779,
+      "draw_probability": 0.1489325203988135,
+      "away_win_probability": 0.06450279351690864,
       "summary": "Morocco have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-24",
@@ -3951,7 +4155,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 89.198,
+        "away_general_strength_score": 48.137,
+        "home_general_strength_tier": 9.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 41.061,
+        "general_strength_tier_gap": 4.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 4.0,
+        "expected_handicap_line": -0.75
       },
       "runtime_context": {
         "source_statuses": {
@@ -4008,9 +4221,9 @@
       "date": "2026-06-13",
       "home_team": "United States",
       "away_team": "Paraguay",
-      "home_win_probability": 0.3821587562561035,
-      "draw_probability": 0.29603567719459534,
-      "away_win_probability": 0.32180559635162354,
+      "home_win_probability": 0.35834023686238237,
+      "draw_probability": 0.3145310868623575,
+      "away_win_probability": 0.32712867627526027,
       "summary": "United States have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-13",
@@ -4171,7 +4384,16 @@
         "away_home_xg_avg_20": 0.6917,
         "away_home_xga_avg_20": 3.7477,
         "away_away_xg_avg_20": 1.13385,
-        "away_away_xga_avg_20": 0.447
+        "away_away_xga_avg_20": 0.447,
+        "home_general_strength_score": 62.351,
+        "away_general_strength_score": 58.487,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 3.864,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 1.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -4228,9 +4450,9 @@
       "date": "2026-06-14",
       "home_team": "Australia",
       "away_team": "Turkey",
-      "home_win_probability": 0.2507241368293762,
-      "draw_probability": 0.35340598225593567,
-      "away_win_probability": 0.3958698511123657,
+      "home_win_probability": 0.23208012169796297,
+      "draw_probability": 0.3706666010282755,
+      "away_win_probability": 0.39725327727376164,
       "summary": "Turkey have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-14",
@@ -4391,7 +4613,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 1.0324499999999999,
-        "away_away_xga_avg_20": 1.6034
+        "away_away_xga_avg_20": 1.6034,
+        "home_general_strength_score": 63.529,
+        "away_general_strength_score": 75.67,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": -12.141,
+        "general_strength_tier_gap": -1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -1.0,
+        "expected_handicap_line": 0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -4448,9 +4679,9 @@
       "date": "2026-06-20",
       "home_team": "Turkey",
       "away_team": "Paraguay",
-      "home_win_probability": 0.4845826327800751,
-      "draw_probability": 0.2674497067928314,
-      "away_win_probability": 0.2479677051305771,
+      "home_win_probability": 0.4586879654385605,
+      "draw_probability": 0.2868529938230427,
+      "away_win_probability": 0.2544590407383967,
       "summary": "Turkey have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-20",
@@ -4611,7 +4842,16 @@
         "away_home_xg_avg_20": 0.6917,
         "away_home_xga_avg_20": 3.7477,
         "away_away_xg_avg_20": 1.13385,
-        "away_away_xga_avg_20": 0.447
+        "away_away_xga_avg_20": 0.447,
+        "home_general_strength_score": 75.67,
+        "away_general_strength_score": 58.487,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 17.183,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -4668,9 +4908,9 @@
       "date": "2026-06-19",
       "home_team": "United States",
       "away_team": "Australia",
-      "home_win_probability": 0.30608171224594116,
-      "draw_probability": 0.2883944511413574,
-      "away_win_probability": 0.40552380681037903,
+      "home_win_probability": 0.28539262239794316,
+      "draw_probability": 0.30469127645420874,
+      "away_win_probability": 0.409916101147848,
       "summary": "Australia have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-19",
@@ -4831,7 +5071,16 @@
         "away_home_xg_avg_20": 1.0625,
         "away_home_xga_avg_20": 0.5367999999999999,
         "away_away_xg_avg_20": 0.70012,
-        "away_away_xga_avg_20": 1.65606
+        "away_away_xga_avg_20": 1.65606,
+        "home_general_strength_score": 62.351,
+        "away_general_strength_score": 63.529,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": -1.178,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 1.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -4888,9 +5137,9 @@
       "date": "2026-06-26",
       "home_team": "Turkey",
       "away_team": "United States",
-      "home_win_probability": 0.4786757230758667,
-      "draw_probability": 0.2613799273967743,
-      "away_win_probability": 0.2599443197250366,
+      "home_win_probability": 0.4530112019063639,
+      "draw_probability": 0.2802899540926199,
+      "away_win_probability": 0.2666988440010161,
       "summary": "Turkey have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-26",
@@ -5051,7 +5300,16 @@
         "away_home_xg_avg_20": 1.1594,
         "away_home_xga_avg_20": 0.9388333333333334,
         "away_away_xg_avg_20": 1.0626,
-        "away_away_xga_avg_20": 0.898525
+        "away_away_xga_avg_20": 0.898525,
+        "home_general_strength_score": 75.67,
+        "away_general_strength_score": 62.351,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 13.319,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -5108,9 +5366,9 @@
       "date": "2026-06-26",
       "home_team": "Paraguay",
       "away_team": "Australia",
-      "home_win_probability": 0.2972288429737091,
-      "draw_probability": 0.3717903792858124,
-      "away_win_probability": 0.33098074793815613,
+      "home_win_probability": 0.2758956216401551,
+      "draw_probability": 0.3910387223150382,
+      "away_win_probability": 0.3330656560448067,
       "summary": "The matchup looks balanced with a relatively high draw chance.",
       "feature_snapshot": {
         "date": "2026-06-26",
@@ -5271,7 +5529,16 @@
         "away_home_xg_avg_20": 1.0625,
         "away_home_xga_avg_20": 0.5367999999999999,
         "away_away_xg_avg_20": 0.70012,
-        "away_away_xga_avg_20": 1.65606
+        "away_away_xga_avg_20": 1.65606,
+        "home_general_strength_score": 58.487,
+        "away_general_strength_score": 63.529,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": -5.042,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -5328,9 +5595,9 @@
       "date": "2026-06-14",
       "home_team": "Germany",
       "away_team": "Curacao",
-      "home_win_probability": 0.9012594819068909,
-      "draw_probability": 0.062305301427841187,
-      "away_win_probability": 0.03643517196178436,
+      "home_win_probability": 0.8911385828268419,
+      "draw_probability": 0.06980526210659614,
+      "away_win_probability": 0.03905615506656197,
       "summary": "Germany have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-14",
@@ -5491,7 +5758,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 90.821,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 9.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 57.071,
+        "general_strength_tier_gap": 5.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 5.0,
+        "expected_handicap_line": -1.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -5548,9 +5824,9 @@
       "date": "2026-06-14",
       "home_team": "Ivory Coast",
       "away_team": "Ecuador",
-      "home_win_probability": 0.2906903028488159,
-      "draw_probability": 0.22945426404476166,
-      "away_win_probability": 0.479855477809906,
+      "home_win_probability": 0.2714446950988678,
+      "draw_probability": 0.24278100629964414,
+      "away_win_probability": 0.485774298601488,
       "summary": "Ecuador have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-14",
@@ -5711,7 +5987,16 @@
         "away_home_xg_avg_20": 1.3563,
         "away_home_xga_avg_20": 1.4090666666666667,
         "away_away_xg_avg_20": 1.90835,
-        "away_away_xga_avg_20": 1.53075
+        "away_away_xga_avg_20": 1.53075,
+        "home_general_strength_score": 76.12,
+        "away_general_strength_score": 68.572,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": 7.548,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -5768,9 +6053,9 @@
       "date": "2026-06-20",
       "home_team": "Germany",
       "away_team": "Ivory Coast",
-      "home_win_probability": 0.5974372625350952,
-      "draw_probability": 0.21266847848892212,
-      "away_win_probability": 0.18989421427249908,
+      "home_win_probability": 0.5721056682220219,
+      "draw_probability": 0.23075697039242557,
+      "away_win_probability": 0.1971373613855525,
       "summary": "Germany have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-20",
@@ -5931,7 +6216,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 90.821,
+        "away_general_strength_score": 76.12,
+        "home_general_strength_tier": 9.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": 14.701,
+        "general_strength_tier_gap": 2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 2.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -5988,9 +6282,9 @@
       "date": "2026-06-21",
       "home_team": "Ecuador",
       "away_team": "Curacao",
-      "home_win_probability": 0.8490700125694275,
-      "draw_probability": 0.10564954578876495,
-      "away_win_probability": 0.04528040438890457,
+      "home_win_probability": 0.8341632565727413,
+      "draw_probability": 0.1176096473457471,
+      "away_win_probability": 0.04822709608151168,
       "summary": "Ecuador have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-21",
@@ -6151,7 +6445,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 68.572,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 34.822,
+        "general_strength_tier_gap": 3.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 3.0,
+        "expected_handicap_line": -0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -6208,9 +6511,9 @@
       "date": "2026-06-25",
       "home_team": "Ecuador",
       "away_team": "Germany",
-      "home_win_probability": 0.28923970460891724,
-      "draw_probability": 0.4137522578239441,
-      "away_win_probability": 0.2970080077648163,
+      "home_win_probability": 0.2678018563123496,
+      "draw_probability": 0.4340740372242251,
+      "away_win_probability": 0.29812410646342535,
       "summary": "The matchup looks balanced with a relatively high draw chance.",
       "feature_snapshot": {
         "date": "2026-06-25",
@@ -6371,7 +6674,16 @@
         "away_home_xg_avg_20": 2.1284666666666667,
         "away_home_xga_avg_20": 1.0192666666666668,
         "away_away_xg_avg_20": 2.450275,
-        "away_away_xga_avg_20": 1.245725
+        "away_away_xga_avg_20": 1.245725,
+        "home_general_strength_score": 68.572,
+        "away_general_strength_score": 90.821,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 9.0,
+        "broad_strength_gap": -22.249,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -6428,9 +6740,9 @@
       "date": "2026-06-25",
       "home_team": "Curacao",
       "away_team": "Ivory Coast",
-      "home_win_probability": 0.10115902870893478,
-      "draw_probability": 0.2299448847770691,
-      "away_win_probability": 0.6688960790634155,
+      "home_win_probability": 0.09307405152447874,
+      "draw_probability": 0.23972618915404686,
+      "away_win_probability": 0.6671997593214744,
       "summary": "Ivory Coast have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-25",
@@ -6591,7 +6903,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 76.12,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": -42.37,
+        "general_strength_tier_gap": -3.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -3.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -6656,9 +6977,9 @@
       "date": "2026-06-14",
       "home_team": "Netherlands",
       "away_team": "Japan",
-      "home_win_probability": 0.39388883113861084,
-      "draw_probability": 0.2626059055328369,
-      "away_win_probability": 0.343505322933197,
+      "home_win_probability": 0.37025029914948054,
+      "draw_probability": 0.27970098786982256,
+      "away_win_probability": 0.35004871298069695,
       "summary": "Netherlands have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-14",
@@ -6819,7 +7140,16 @@
         "away_home_xg_avg_20": 1.60584,
         "away_home_xga_avg_20": 1.5929,
         "away_away_xg_avg_20": 1.4212666666666667,
-        "away_away_xga_avg_20": 2.1640333333333333
+        "away_away_xga_avg_20": 2.1640333333333333,
+        "home_general_strength_score": 87.85,
+        "away_general_strength_score": 78.987,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": 8.863,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -6876,10 +7206,10 @@
       "date": "2026-06-15",
       "home_team": "Sweden",
       "away_team": "Tunisia",
-      "home_win_probability": 0.39802780747413635,
-      "draw_probability": 0.234322190284729,
-      "away_win_probability": 0.36765000224113464,
-      "summary": "Sweden have the stronger pre-match profile.",
+      "home_win_probability": 0.3747516274044167,
+      "draw_probability": 0.24998346965713353,
+      "away_win_probability": 0.37526490293844966,
+      "summary": "Tunisia have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-15",
         "home_team": "Sweden",
@@ -7039,7 +7369,16 @@
         "away_home_xg_avg_20": 0.73938,
         "away_home_xga_avg_20": 1.18366,
         "away_away_xg_avg_20": 1.529575,
-        "away_away_xga_avg_20": 2.02855
+        "away_away_xga_avg_20": 2.02855,
+        "home_general_strength_score": 58.894,
+        "away_general_strength_score": 60.921,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": -2.027,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -7096,9 +7435,9 @@
       "date": "2026-06-20",
       "home_team": "Netherlands",
       "away_team": "Sweden",
-      "home_win_probability": 0.6147088408470154,
-      "draw_probability": 0.23416395485401154,
-      "away_win_probability": 0.1511271744966507,
+      "home_win_probability": 0.5888702883813762,
+      "draw_probability": 0.2541780173406492,
+      "away_win_probability": 0.1569516942779746,
       "summary": "Netherlands have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-20",
@@ -7259,7 +7598,16 @@
         "away_home_xg_avg_20": 1.2532999999999999,
         "away_home_xga_avg_20": 0.5685333333333333,
         "away_away_xg_avg_20": 1.80285,
-        "away_away_xga_avg_20": 1.4644
+        "away_away_xga_avg_20": 1.4644,
+        "home_general_strength_score": 87.85,
+        "away_general_strength_score": 58.894,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 28.956,
+        "general_strength_tier_gap": 2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 2.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -7316,9 +7664,9 @@
       "date": "2026-06-21",
       "home_team": "Tunisia",
       "away_team": "Japan",
-      "home_win_probability": 0.13638007640838623,
-      "draw_probability": 0.23848450183868408,
-      "away_win_probability": 0.6251354217529297,
+      "home_win_probability": 0.12577451850074142,
+      "draw_probability": 0.2492124044703298,
+      "away_win_probability": 0.6250130770289287,
       "summary": "Japan have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-21",
@@ -7479,7 +7827,16 @@
         "away_home_xg_avg_20": 1.60584,
         "away_home_xga_avg_20": 1.5929,
         "away_away_xg_avg_20": 1.4212666666666667,
-        "away_away_xga_avg_20": 2.1640333333333333
+        "away_away_xga_avg_20": 2.1640333333333333,
+        "home_general_strength_score": 60.921,
+        "away_general_strength_score": 78.987,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -18.066,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -7536,9 +7893,9 @@
       "date": "2026-06-25",
       "home_team": "Tunisia",
       "away_team": "Netherlands",
-      "home_win_probability": 0.17224325239658356,
-      "draw_probability": 0.2702067196369171,
-      "away_win_probability": 0.5575500130653381,
+      "home_win_probability": 0.15906333294920916,
+      "draw_probability": 0.28274293771546993,
+      "away_win_probability": 0.5581937293353209,
       "summary": "Netherlands have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-25",
@@ -7699,7 +8056,16 @@
         "away_home_xg_avg_20": 1.4898142857142858,
         "away_home_xga_avg_20": 1.8281714285714286,
         "away_away_xg_avg_20": 1.8750499999999999,
-        "away_away_xga_avg_20": 0.4796
+        "away_away_xga_avg_20": 0.4796,
+        "home_general_strength_score": 60.921,
+        "away_general_strength_score": 87.85,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -26.929,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -7756,9 +8122,9 @@
       "date": "2026-06-25",
       "home_team": "Japan",
       "away_team": "Sweden",
-      "home_win_probability": 0.5563443899154663,
-      "draw_probability": 0.2866860032081604,
-      "away_win_probability": 0.1569695919752121,
+      "home_win_probability": 0.5291662970181799,
+      "draw_probability": 0.3089745533109977,
+      "away_win_probability": 0.1618591496708224,
       "summary": "Japan have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-25",
@@ -7919,7 +8285,16 @@
         "away_home_xg_avg_20": 1.2532999999999999,
         "away_home_xga_avg_20": 0.5685333333333333,
         "away_away_xg_avg_20": 1.80285,
-        "away_away_xga_avg_20": 1.4644
+        "away_away_xga_avg_20": 1.4644,
+        "home_general_strength_score": 78.987,
+        "away_general_strength_score": 58.894,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 20.093,
+        "general_strength_tier_gap": 2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 2.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -7976,10 +8351,10 @@
       "date": "2026-06-15",
       "home_team": "Belgium",
       "away_team": "Egypt",
-      "home_win_probability": 0.3686906397342682,
-      "draw_probability": 0.2680433988571167,
-      "away_win_probability": 0.3632659614086151,
-      "summary": "Belgium have the stronger pre-match profile.",
+      "home_win_probability": 0.3457888825471304,
+      "draw_probability": 0.2848536513054457,
+      "away_win_probability": 0.369357466147424,
+      "summary": "Egypt have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-15",
         "home_team": "Belgium",
@@ -8139,7 +8514,16 @@
         "away_home_xg_avg_20": 2.9803499999999996,
         "away_home_xga_avg_20": 2.930425,
         "away_away_xg_avg_20": 1.4619,
-        "away_away_xga_avg_20": 1.3113333333333332
+        "away_away_xga_avg_20": 1.3113333333333332,
+        "home_general_strength_score": 80.076,
+        "away_general_strength_score": 72.403,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": 7.673,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -8196,9 +8580,9 @@
       "date": "2026-06-16",
       "home_team": "Iran",
       "away_team": "New Zealand",
-      "home_win_probability": 0.6151702404022217,
-      "draw_probability": 0.2339331954717636,
-      "away_win_probability": 0.1508965790271759,
+      "home_win_probability": 0.5893405583407081,
+      "draw_probability": 0.25393971383897135,
+      "away_win_probability": 0.1567197278203206,
       "summary": "Iran have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-16",
@@ -8359,7 +8743,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 74.252,
+        "away_general_strength_score": 61.192,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 13.06,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -8416,9 +8809,9 @@
       "date": "2026-06-21",
       "home_team": "Belgium",
       "away_team": "Iran",
-      "home_win_probability": 0.3357038199901581,
-      "draw_probability": 0.2552085816860199,
-      "away_win_probability": 0.409087598323822,
+      "home_win_probability": 0.31421873358202795,
+      "draw_probability": 0.2706691910352995,
+      "away_win_probability": 0.41511207538267253,
       "summary": "Iran have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-21",
@@ -8579,7 +8972,16 @@
         "away_home_xg_avg_20": 0.9747666666666667,
         "away_home_xga_avg_20": 1.6297,
         "away_away_xg_avg_20": 1.2024333333333332,
-        "away_away_xga_avg_20": 1.2206666666666668
+        "away_away_xga_avg_20": 1.2206666666666668,
+        "home_general_strength_score": 80.076,
+        "away_general_strength_score": 74.252,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": 5.824,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -8636,9 +9038,9 @@
       "date": "2026-06-22",
       "home_team": "New Zealand",
       "away_team": "Egypt",
-      "home_win_probability": 0.2276647686958313,
-      "draw_probability": 0.19151568412780762,
-      "away_win_probability": 0.5808195471763611,
+      "home_win_probability": 0.2119106719212812,
+      "draw_probability": 0.2019896452928974,
+      "away_win_probability": 0.5860996827858215,
       "summary": "Egypt have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-22",
@@ -8799,7 +9201,16 @@
         "away_home_xg_avg_20": 2.9803499999999996,
         "away_home_xga_avg_20": 2.930425,
         "away_away_xg_avg_20": 1.4619,
-        "away_away_xga_avg_20": 1.3113333333333332
+        "away_away_xga_avg_20": 1.3113333333333332,
+        "home_general_strength_score": 61.192,
+        "away_general_strength_score": 72.403,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": -11.211,
+        "general_strength_tier_gap": -1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -1.0,
+        "expected_handicap_line": 0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -8856,9 +9267,9 @@
       "date": "2026-06-27",
       "home_team": "New Zealand",
       "away_team": "Belgium",
-      "home_win_probability": 0.2525593638420105,
-      "draw_probability": 0.1654817909002304,
-      "away_win_probability": 0.5819588899612427,
+      "home_win_probability": 0.23582214677779154,
+      "draw_probability": 0.17508102728569472,
+      "away_win_probability": 0.5890968259365137,
       "summary": "Belgium have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-27",
@@ -9019,7 +9430,16 @@
         "away_home_xg_avg_20": 2.0166,
         "away_home_xga_avg_20": 1.2300166666666665,
         "away_away_xg_avg_20": 0.8860833333333333,
-        "away_away_xga_avg_20": 1.3596333333333332
+        "away_away_xga_avg_20": 1.3596333333333332,
+        "home_general_strength_score": 61.192,
+        "away_general_strength_score": 80.076,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -18.884,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -9076,10 +9496,10 @@
       "date": "2026-06-27",
       "home_team": "Egypt",
       "away_team": "Iran",
-      "home_win_probability": 0.3733431398868561,
-      "draw_probability": 0.2804248034954071,
-      "away_win_probability": 0.34623199701309204,
-      "summary": "Egypt have the stronger pre-match profile.",
+      "home_win_probability": 0.35008173885420923,
+      "draw_probability": 0.2979514245757996,
+      "away_win_probability": 0.3519668365699913,
+      "summary": "Iran have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-27",
         "home_team": "Egypt",
@@ -9239,7 +9659,16 @@
         "away_home_xg_avg_20": 0.9747666666666667,
         "away_home_xga_avg_20": 1.6297,
         "away_away_xg_avg_20": 1.2024333333333332,
-        "away_away_xga_avg_20": 1.2206666666666668
+        "away_away_xga_avg_20": 1.2206666666666668,
+        "home_general_strength_score": 72.403,
+        "away_general_strength_score": 74.252,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": -1.849,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -9296,9 +9725,9 @@
       "date": "2026-06-15",
       "home_team": "Spain",
       "away_team": "Cape Verde",
-      "home_win_probability": 0.699558436870575,
-      "draw_probability": 0.22926005721092224,
-      "away_win_probability": 0.07118155062198639,
+      "home_win_probability": 0.6749228510043503,
+      "draw_probability": 0.25062609669939484,
+      "away_win_probability": 0.0744510522962548,
       "summary": "Spain have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-15",
@@ -9459,7 +9888,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 89.406,
+        "away_general_strength_score": 63.54,
+        "home_general_strength_tier": 9.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 25.866,
+        "general_strength_tier_gap": 3.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 3.0,
+        "expected_handicap_line": -0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -9516,9 +9954,9 @@
       "date": "2026-06-15",
       "home_team": "Saudi Arabia",
       "away_team": "Uruguay",
-      "home_win_probability": 0.21241922676563263,
-      "draw_probability": 0.2748364806175232,
-      "away_win_probability": 0.5127443075180054,
+      "home_win_probability": 0.19673780381796274,
+      "draw_probability": 0.28842714708120465,
+      "away_win_probability": 0.5148350491008326,
       "summary": "Uruguay have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-15",
@@ -9679,7 +10117,16 @@
         "away_home_xg_avg_20": 1.6511333333333333,
         "away_home_xga_avg_20": 0.8977666666666666,
         "away_away_xg_avg_20": 2.1432,
-        "away_away_xga_avg_20": 1.92944
+        "away_away_xga_avg_20": 1.92944,
+        "home_general_strength_score": 50.845,
+        "away_general_strength_score": 67.903,
+        "home_general_strength_tier": 5.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": -17.058,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -9736,9 +10183,9 @@
       "date": "2026-06-21",
       "home_team": "Spain",
       "away_team": "Saudi Arabia",
-      "home_win_probability": 0.7153726816177368,
-      "draw_probability": 0.18619048595428467,
-      "away_win_probability": 0.09843684732913971,
+      "home_win_probability": 0.6924784860671334,
+      "draw_probability": 0.20422042678788443,
+      "away_win_probability": 0.10330108714498218,
       "summary": "Spain have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-21",
@@ -9899,7 +10346,16 @@
         "away_home_xg_avg_20": 1.81095,
         "away_home_xga_avg_20": 1.6229,
         "away_away_xg_avg_20": 0.66195,
-        "away_away_xga_avg_20": 1.82855
+        "away_away_xga_avg_20": 1.82855,
+        "home_general_strength_score": 89.406,
+        "away_general_strength_score": 50.845,
+        "home_general_strength_tier": 9.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 38.561,
+        "general_strength_tier_gap": 4.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 4.0,
+        "expected_handicap_line": -0.75
       },
       "runtime_context": {
         "source_statuses": {
@@ -9956,9 +10412,9 @@
       "date": "2026-06-21",
       "home_team": "Uruguay",
       "away_team": "Cape Verde",
-      "home_win_probability": 0.6967051029205322,
-      "draw_probability": 0.21301448345184326,
-      "away_win_probability": 0.0902804508805275,
+      "home_win_probability": 0.6725306734827139,
+      "draw_probability": 0.23299145792740988,
+      "away_win_probability": 0.09447786858987622,
       "summary": "Uruguay have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-21",
@@ -10119,7 +10575,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 67.903,
+        "away_general_strength_score": 63.54,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 4.363,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -10176,9 +10641,9 @@
       "date": "2026-06-27",
       "home_team": "Uruguay",
       "away_team": "Spain",
-      "home_win_probability": 0.1378481388092041,
-      "draw_probability": 0.2440333068370819,
-      "away_win_probability": 0.6181185245513916,
+      "home_win_probability": 0.12711103050030162,
+      "draw_probability": 0.2549759379430624,
+      "away_win_probability": 0.617913031556636,
       "summary": "Spain have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-27",
@@ -10339,7 +10804,16 @@
         "away_home_xg_avg_20": 2.235775,
         "away_home_xga_avg_20": 1.259825,
         "away_away_xg_avg_20": 1.890275,
-        "away_away_xga_avg_20": 1.680825
+        "away_away_xga_avg_20": 1.680825,
+        "home_general_strength_score": 67.903,
+        "away_general_strength_score": 89.406,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 9.0,
+        "broad_strength_gap": -21.503,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -10396,9 +10870,9 @@
       "date": "2026-06-27",
       "home_team": "Cape Verde",
       "away_team": "Saudi Arabia",
-      "home_win_probability": 0.2869596779346466,
-      "draw_probability": 0.2667410373687744,
-      "away_win_probability": 0.4462992548942566,
+      "home_win_probability": 0.26742657337203385,
+      "draw_probability": 0.28167044466963015,
+      "away_win_probability": 0.45090298195833606,
       "summary": "Saudi Arabia have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-27",
@@ -10559,7 +11033,16 @@
         "away_home_xg_avg_20": 1.81095,
         "away_home_xga_avg_20": 1.6229,
         "away_away_xg_avg_20": 0.66195,
-        "away_away_xga_avg_20": 1.82855
+        "away_away_xga_avg_20": 1.82855,
+        "home_general_strength_score": 63.54,
+        "away_general_strength_score": 50.845,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 12.695,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -10616,9 +11099,9 @@
       "date": "2026-07-04",
       "home_team": "Winner of Match 74",
       "away_team": "Winner of Match 77",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 74 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-04",
@@ -10779,7 +11262,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -10844,9 +11336,9 @@
       "date": "2026-07-04",
       "home_team": "Winner of Match 73",
       "away_team": "Winner of Match 75",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 73 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-04",
@@ -11007,7 +11499,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -11072,9 +11573,9 @@
       "date": "2026-07-05",
       "home_team": "Winner of Match 76",
       "away_team": "Winner of Match 78",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 76 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-05",
@@ -11235,7 +11736,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -11300,9 +11810,9 @@
       "date": "2026-07-06",
       "home_team": "Winner of Match 79",
       "away_team": "Winner of Match 80",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 79 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-06",
@@ -11463,7 +11973,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -11528,9 +12047,9 @@
       "date": "2026-07-06",
       "home_team": "Winner of Match 83",
       "away_team": "Winner of Match 84",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 83 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-06",
@@ -11691,7 +12210,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -11756,9 +12284,9 @@
       "date": "2026-07-07",
       "home_team": "Winner of Match 81",
       "away_team": "Winner of Match 82",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 81 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-07",
@@ -11919,7 +12447,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -11984,9 +12521,9 @@
       "date": "2026-07-07",
       "home_team": "Winner of Match 86",
       "away_team": "Winner of Match 88",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 86 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-07",
@@ -12147,7 +12684,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -12212,9 +12758,9 @@
       "date": "2026-07-07",
       "home_team": "Winner of Match 85",
       "away_team": "Winner of Match 87",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 85 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-07",
@@ -12375,7 +12921,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -12440,9 +12995,9 @@
       "date": "2026-07-09",
       "home_team": "Winner of Match 89",
       "away_team": "Winner of Match 90",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 89 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-09",
@@ -12603,7 +13158,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -12668,9 +13232,9 @@
       "date": "2026-07-10",
       "home_team": "Winner of Match 93",
       "away_team": "Winner of Match 94",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 93 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-10",
@@ -12831,7 +13395,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -12896,9 +13469,9 @@
       "date": "2026-07-11",
       "home_team": "Winner of Match 91",
       "away_team": "Winner of Match 92",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 91 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-11",
@@ -13059,7 +13632,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -13124,9 +13706,9 @@
       "date": "2026-07-12",
       "home_team": "Winner of Match 95",
       "away_team": "Winner of Match 96",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 95 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-12",
@@ -13287,7 +13869,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -13352,9 +13943,9 @@
       "date": "2026-07-14",
       "home_team": "Winner of Match 97",
       "away_team": "Winner of Match 98",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 97 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-14",
@@ -13515,7 +14106,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -13580,9 +14180,9 @@
       "date": "2026-07-15",
       "home_team": "Winner of Match 99",
       "away_team": "Winner of Match 100",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 99 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-15",
@@ -13743,7 +14343,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -13808,9 +14417,9 @@
       "date": "2026-07-18",
       "home_team": "Loser of Match 101",
       "away_team": "Loser of Match 102",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Loser of Match 101 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-18",
@@ -13971,7 +14580,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -14036,9 +14654,9 @@
       "date": "2026-07-19",
       "home_team": "Winner of Match 101",
       "away_team": "Winner of Match 102",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Winner of Match 101 have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-19",
@@ -14199,7 +14817,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -14264,9 +14891,9 @@
       "date": "2026-06-16",
       "home_team": "France",
       "away_team": "Senegal",
-      "home_win_probability": 0.5507604479789734,
-      "draw_probability": 0.19156552851200104,
-      "away_win_probability": 0.2576740086078644,
+      "home_win_probability": 0.5259513132078277,
+      "draw_probability": 0.20728502183453387,
+      "away_win_probability": 0.26676366495763837,
       "summary": "France have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-16",
@@ -14427,7 +15054,16 @@
         "away_home_xg_avg_20": 1.84774,
         "away_home_xga_avg_20": 1.54076,
         "away_away_xg_avg_20": 1.3054666666666668,
-        "away_away_xga_avg_20": 0.9316333333333333
+        "away_away_xga_avg_20": 0.9316333333333333,
+        "home_general_strength_score": 89.761,
+        "away_general_strength_score": 88.019,
+        "home_general_strength_tier": 9.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": 1.742,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -14484,9 +15120,9 @@
       "date": "2026-06-16",
       "home_team": "Iraq",
       "away_team": "Norway",
-      "home_win_probability": 0.3017411231994629,
-      "draw_probability": 0.30680301785469055,
-      "away_win_probability": 0.39145591855049133,
+      "home_win_probability": 0.2810134505949354,
+      "draw_probability": 0.323757615311749,
+      "away_win_probability": 0.39522893409331555,
       "summary": "Norway have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-16",
@@ -14647,7 +15283,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 66.543,
+        "away_general_strength_score": 76.604,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": -10.061,
+        "general_strength_tier_gap": -1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -1.0,
+        "expected_handicap_line": 0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -14712,9 +15357,9 @@
       "date": "2026-06-22",
       "home_team": "France",
       "away_team": "Iraq",
-      "home_win_probability": 0.6855847239494324,
-      "draw_probability": 0.20689988136291504,
-      "away_win_probability": 0.107515349984169,
+      "home_win_probability": 0.6613902975479846,
+      "draw_probability": 0.22616463152461996,
+      "away_win_probability": 0.11244507092739545,
       "summary": "France have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-22",
@@ -14875,7 +15520,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 89.761,
+        "away_general_strength_score": 66.543,
+        "home_general_strength_tier": 9.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 23.218,
+        "general_strength_tier_gap": 3.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 3.0,
+        "expected_handicap_line": -0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -14932,9 +15586,9 @@
       "date": "2026-06-23",
       "home_team": "Norway",
       "away_team": "Senegal",
-      "home_win_probability": 0.30176374316215515,
-      "draw_probability": 0.1984812468290329,
-      "away_win_probability": 0.49975502490997314,
+      "home_win_probability": 0.2824308155747188,
+      "draw_probability": 0.21049038457445626,
+      "away_win_probability": 0.5070787998508249,
       "summary": "Senegal have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-23",
@@ -15095,7 +15749,16 @@
         "away_home_xg_avg_20": 1.84774,
         "away_home_xga_avg_20": 1.54076,
         "away_away_xg_avg_20": 1.3054666666666668,
-        "away_away_xga_avg_20": 0.9316333333333333
+        "away_away_xga_avg_20": 0.9316333333333333,
+        "home_general_strength_score": 76.604,
+        "away_general_strength_score": 88.019,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -11.415,
+        "general_strength_tier_gap": -1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -1.0,
+        "expected_handicap_line": 0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -15152,9 +15815,9 @@
       "date": "2026-06-26",
       "home_team": "Norway",
       "away_team": "France",
-      "home_win_probability": 0.19933320581912994,
-      "draw_probability": 0.15218870341777802,
-      "away_win_probability": 0.6484781503677368,
+      "home_win_probability": 0.1854608216274689,
+      "draw_probability": 0.16044371350462347,
+      "away_win_probability": 0.6540954648679076,
       "summary": "France have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-26",
@@ -15315,7 +15978,16 @@
         "away_home_xg_avg_20": 1.73376,
         "away_home_xga_avg_20": 0.94979,
         "away_away_xg_avg_20": 1.9308,
-        "away_away_xga_avg_20": 2.049914285714286
+        "away_away_xga_avg_20": 2.049914285714286,
+        "home_general_strength_score": 76.604,
+        "away_general_strength_score": 89.761,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 9.0,
+        "broad_strength_gap": -13.157,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -15372,9 +16044,9 @@
       "date": "2026-06-26",
       "home_team": "Senegal",
       "away_team": "Iraq",
-      "home_win_probability": 0.6397437453269958,
-      "draw_probability": 0.1736297309398651,
-      "away_win_probability": 0.18662646412849426,
+      "home_win_probability": 0.6158446904336904,
+      "draw_probability": 0.18938998313374245,
+      "away_win_probability": 0.1947653264325672,
       "summary": "Senegal have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-26",
@@ -15535,7 +16207,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 88.019,
+        "away_general_strength_score": 66.543,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 21.476,
+        "general_strength_tier_gap": 2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 2.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -15592,9 +16273,9 @@
       "date": "2026-06-17",
       "home_team": "Argentina",
       "away_team": "Algeria",
-      "home_win_probability": 0.6319279670715332,
-      "draw_probability": 0.26059699058532715,
-      "away_win_probability": 0.10747506469488144,
+      "home_win_probability": 0.6054545516071507,
+      "draw_probability": 0.28291184339523423,
+      "away_win_probability": 0.11163360499761518,
       "summary": "Argentina have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-17",
@@ -15755,7 +16436,16 @@
         "away_home_xg_avg_20": 1.34745,
         "away_home_xga_avg_20": 1.22825,
         "away_away_xg_avg_20": 1.1864,
-        "away_away_xga_avg_20": 1.3283
+        "away_away_xga_avg_20": 1.3283,
+        "home_general_strength_score": 95.945,
+        "away_general_strength_score": 78.953,
+        "home_general_strength_tier": 9.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": 16.992,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -15812,9 +16502,9 @@
       "date": "2026-06-17",
       "home_team": "Austria",
       "away_team": "Jordan",
-      "home_win_probability": 0.6006036400794983,
-      "draw_probability": 0.19099731743335724,
-      "away_win_probability": 0.20839905738830566,
+      "home_win_probability": 0.5758700679684595,
+      "draw_probability": 0.20750643708988462,
+      "away_win_probability": 0.21662349494165586,
       "summary": "Austria have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-17",
@@ -15975,7 +16665,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 79.995,
+        "away_general_strength_score": 47.453,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 32.542,
+        "general_strength_tier_gap": 3.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 3.0,
+        "expected_handicap_line": -0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -16032,9 +16731,9 @@
       "date": "2026-06-22",
       "home_team": "Argentina",
       "away_team": "Austria",
-      "home_win_probability": 0.5895969271659851,
-      "draw_probability": 0.3054324984550476,
-      "away_win_probability": 0.1049705520272255,
+      "home_win_probability": 0.5617981912872934,
+      "draw_probability": 0.3297677113448896,
+      "away_win_probability": 0.10843409736781709,
       "summary": "Argentina have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-22",
@@ -16195,7 +16894,16 @@
         "away_home_xg_avg_20": 2.4879,
         "away_home_xga_avg_20": 0.8825,
         "away_away_xg_avg_20": 1.0579,
-        "away_away_xga_avg_20": 1.5102
+        "away_away_xga_avg_20": 1.5102,
+        "home_general_strength_score": 95.945,
+        "away_general_strength_score": 79.995,
+        "home_general_strength_tier": 9.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": 15.95,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -16252,9 +16960,9 @@
       "date": "2026-06-23",
       "home_team": "Jordan",
       "away_team": "Algeria",
-      "home_win_probability": 0.17641602456569672,
-      "draw_probability": 0.22945818305015564,
-      "away_win_probability": 0.5941258072853088,
+      "home_win_probability": 0.1632707075560872,
+      "draw_probability": 0.24062544725735754,
+      "away_win_probability": 0.5961038451865552,
       "summary": "Algeria have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-23",
@@ -16415,7 +17123,16 @@
         "away_home_xg_avg_20": 1.34745,
         "away_home_xga_avg_20": 1.22825,
         "away_away_xg_avg_20": 1.1864,
-        "away_away_xga_avg_20": 1.3283
+        "away_away_xga_avg_20": 1.3283,
+        "home_general_strength_score": 47.453,
+        "away_general_strength_score": 78.953,
+        "home_general_strength_tier": 5.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -31.5,
+        "general_strength_tier_gap": -3.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -3.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -16472,9 +17189,9 @@
       "date": "2026-06-28",
       "home_team": "Jordan",
       "away_team": "Argentina",
-      "home_win_probability": 0.06383603066205978,
-      "draw_probability": 0.15992656350135803,
-      "away_win_probability": 0.7762373685836792,
+      "home_win_probability": 0.05874976166661045,
+      "draw_probability": 0.16677409779146135,
+      "away_win_probability": 0.7744761405419281,
       "summary": "Argentina have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-28",
@@ -16635,7 +17352,16 @@
         "away_home_xg_avg_20": 2.3844499999999997,
         "away_home_xga_avg_20": 1.3998583333333334,
         "away_away_xg_avg_20": 2.80294,
-        "away_away_xga_avg_20": 1.55178
+        "away_away_xga_avg_20": 1.55178,
+        "home_general_strength_score": 47.453,
+        "away_general_strength_score": 95.945,
+        "home_general_strength_tier": 5.0,
+        "away_general_strength_tier": 9.0,
+        "broad_strength_gap": -48.492,
+        "general_strength_tier_gap": -4.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -4.0,
+        "expected_handicap_line": 0.75
       },
       "runtime_context": {
         "source_statuses": {
@@ -16692,9 +17418,9 @@
       "date": "2026-06-28",
       "home_team": "Algeria",
       "away_team": "Austria",
-      "home_win_probability": 0.45151564478874207,
-      "draw_probability": 0.2623257040977478,
-      "away_win_probability": 0.28615859150886536,
+      "home_win_probability": 0.4263668644186088,
+      "draw_probability": 0.28068502960382363,
+      "away_win_probability": 0.2929481059775675,
       "summary": "Algeria have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-28",
@@ -16855,7 +17581,16 @@
         "away_home_xg_avg_20": 2.4879,
         "away_home_xga_avg_20": 0.8825,
         "away_away_xg_avg_20": 1.0579,
-        "away_away_xga_avg_20": 1.5102
+        "away_away_xga_avg_20": 1.5102,
+        "home_general_strength_score": 78.953,
+        "away_general_strength_score": 79.995,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -1.042,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -16912,9 +17647,9 @@
       "date": "2026-06-17",
       "home_team": "Portugal",
       "away_team": "DR Congo",
-      "home_win_probability": 0.6369635462760925,
-      "draw_probability": 0.26668354868888855,
-      "away_win_probability": 0.09635290503501892,
+      "home_win_probability": 0.6103525016374763,
+      "draw_probability": 0.2895543785057009,
+      "away_win_probability": 0.10009311985682273,
       "summary": "Portugal have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-17",
@@ -17075,7 +17810,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 82.754,
+        "away_general_strength_score": 67.532,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": 15.222,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -17132,9 +17876,9 @@
       "date": "2026-06-18",
       "home_team": "Uzbekistan",
       "away_team": "Colombia",
-      "home_win_probability": 0.2083113193511963,
-      "draw_probability": 0.22317790985107422,
-      "away_win_probability": 0.5685107707977295,
+      "home_win_probability": 0.1933244204334781,
+      "draw_probability": 0.23468904269013485,
+      "away_win_probability": 0.5719865368763871,
       "summary": "Colombia have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-18",
@@ -17295,7 +18039,16 @@
         "away_home_xg_avg_20": 2.25192,
         "away_home_xga_avg_20": 2.01708,
         "away_away_xg_avg_20": 1.067,
-        "away_away_xga_avg_20": 0.7234400000000001
+        "away_away_xga_avg_20": 0.7234400000000001,
+        "home_general_strength_score": 65.398,
+        "away_general_strength_score": 80.38,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -14.982,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -17352,9 +18105,9 @@
       "date": "2026-06-23",
       "home_team": "Portugal",
       "away_team": "Uzbekistan",
-      "home_win_probability": 0.5731440782546997,
-      "draw_probability": 0.25478395819664,
-      "away_win_probability": 0.1720719039440155,
+      "home_win_probability": 0.5466927348386826,
+      "draw_probability": 0.27537171754221074,
+      "away_win_probability": 0.17793554761910663,
       "summary": "Portugal have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-23",
@@ -17515,7 +18268,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 82.754,
+        "away_general_strength_score": 65.398,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 17.356,
+        "general_strength_tier_gap": 2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 2.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -17572,9 +18334,9 @@
       "date": "2026-06-24",
       "home_team": "Colombia",
       "away_team": "DR Congo",
-      "home_win_probability": 0.6162216663360596,
-      "draw_probability": 0.271411269903183,
-      "away_win_probability": 0.11236704885959625,
+      "home_win_probability": 0.5893611469495371,
+      "draw_probability": 0.29413057723594876,
+      "away_win_probability": 0.11650827581451415,
       "summary": "Colombia have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-24",
@@ -17735,7 +18497,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 80.38,
+        "away_general_strength_score": 67.532,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 7.0,
+        "broad_strength_gap": 12.848,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -17792,9 +18563,9 @@
       "date": "2026-06-27",
       "home_team": "Colombia",
       "away_team": "Portugal",
-      "home_win_probability": 0.2995380461215973,
-      "draw_probability": 0.322601854801178,
-      "away_win_probability": 0.37786003947257996,
+      "home_win_probability": 0.2787127497015472,
+      "draw_probability": 0.34012571176669293,
+      "away_win_probability": 0.3811615385317598,
       "summary": "Portugal have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-27",
@@ -17955,7 +18726,16 @@
         "away_home_xg_avg_20": 2.361285714285714,
         "away_home_xga_avg_20": 2.0622,
         "away_away_xg_avg_20": 1.06525,
-        "away_away_xga_avg_20": 1.1059999999999999
+        "away_away_xga_avg_20": 1.1059999999999999,
+        "home_general_strength_score": 80.38,
+        "away_general_strength_score": 82.754,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -2.374,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -18012,9 +18792,9 @@
       "date": "2026-06-27",
       "home_team": "DR Congo",
       "away_team": "Uzbekistan",
-      "home_win_probability": 0.28681111335754395,
-      "draw_probability": 0.3089739680290222,
-      "away_win_probability": 0.40421488881111145,
+      "home_win_probability": 0.26677065005962575,
+      "draw_probability": 0.3256354833061917,
+      "away_win_probability": 0.4075938666341826,
       "summary": "Uzbekistan have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-27",
@@ -18175,7 +18955,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 67.532,
+        "away_general_strength_score": 65.398,
+        "home_general_strength_tier": 7.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": 2.134,
+        "general_strength_tier_gap": 1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 1.0,
+        "expected_handicap_line": -0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -18240,9 +19029,9 @@
       "date": "2026-06-17",
       "home_team": "England",
       "away_team": "Croatia",
-      "home_win_probability": 0.5790107250213623,
-      "draw_probability": 0.19260388612747192,
-      "away_win_probability": 0.22838540375232697,
+      "home_win_probability": 0.554159552214678,
+      "draw_probability": 0.20887238281911014,
+      "away_win_probability": 0.23696806496621184,
       "summary": "England have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-17",
@@ -18403,7 +19192,16 @@
         "away_home_xg_avg_20": 2.5492714285714286,
         "away_home_xga_avg_20": 2.0762,
         "away_away_xg_avg_20": 2.1142285714285713,
-        "away_away_xga_avg_20": 2.2667428571428574
+        "away_away_xga_avg_20": 2.2667428571428574,
+        "home_general_strength_score": 85.207,
+        "away_general_strength_score": 83.581,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": 1.626,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -18460,9 +19258,9 @@
       "date": "2026-06-17",
       "home_team": "Ghana",
       "away_team": "Panama",
-      "home_win_probability": 0.26710984110832214,
-      "draw_probability": 0.30719488859176636,
-      "away_win_probability": 0.4256953299045563,
+      "home_win_probability": 0.2480836934565233,
+      "draw_probability": 0.32328836545333434,
+      "away_win_probability": 0.4286279410901424,
       "summary": "Panama have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-17",
@@ -18623,7 +19421,16 @@
         "away_home_xg_avg_20": 0.7108,
         "away_home_xga_avg_20": 1.8834,
         "away_away_xg_avg_20": 0.83938,
-        "away_away_xga_avg_20": 1.74202
+        "away_away_xga_avg_20": 1.74202,
+        "home_general_strength_score": 52.692,
+        "away_general_strength_score": 57.761,
+        "home_general_strength_tier": 5.0,
+        "away_general_strength_tier": 6.0,
+        "broad_strength_gap": -5.069,
+        "general_strength_tier_gap": -1.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -1.0,
+        "expected_handicap_line": 0.25
       },
       "runtime_context": {
         "source_statuses": {
@@ -18680,9 +19487,9 @@
       "date": "2026-06-23",
       "home_team": "England",
       "away_team": "Ghana",
-      "home_win_probability": 0.7025629878044128,
-      "draw_probability": 0.20037490129470825,
-      "away_win_probability": 0.09706206619739532,
+      "home_win_probability": 0.678914053391334,
+      "draw_probability": 0.21940201584535837,
+      "away_win_probability": 0.1016839307633076,
       "summary": "England have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-23",
@@ -18843,7 +19650,16 @@
         "away_home_xg_avg_20": 1.4153,
         "away_home_xga_avg_20": 2.1784,
         "away_away_xg_avg_20": 1.0574000000000001,
-        "away_away_xga_avg_20": 1.551975
+        "away_away_xga_avg_20": 1.551975,
+        "home_general_strength_score": 85.207,
+        "away_general_strength_score": 52.692,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 32.515,
+        "general_strength_tier_gap": 3.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 3.0,
+        "expected_handicap_line": -0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -18900,9 +19716,9 @@
       "date": "2026-06-23",
       "home_team": "Panama",
       "away_team": "Croatia",
-      "home_win_probability": 0.15631109476089478,
-      "draw_probability": 0.3056674301624298,
-      "away_win_probability": 0.5380215048789978,
+      "home_win_probability": 0.1439412377859621,
+      "draw_probability": 0.3189424706608172,
+      "away_win_probability": 0.5371162915532206,
       "summary": "Croatia have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-23",
@@ -19063,7 +19879,16 @@
         "away_home_xg_avg_20": 2.5492714285714286,
         "away_home_xga_avg_20": 2.0762,
         "away_away_xg_avg_20": 2.1142285714285713,
-        "away_away_xga_avg_20": 2.2667428571428574
+        "away_away_xga_avg_20": 2.2667428571428574,
+        "home_general_strength_score": 57.761,
+        "away_general_strength_score": 83.581,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -25.82,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -19120,9 +19945,9 @@
       "date": "2026-06-27",
       "home_team": "Panama",
       "away_team": "England",
-      "home_win_probability": 0.14707311987876892,
-      "draw_probability": 0.29438552260398865,
-      "away_win_probability": 0.5585413575172424,
+      "home_win_probability": 0.13540635460136052,
+      "draw_probability": 0.30710716537979643,
+      "away_win_probability": 0.5574864800188429,
       "summary": "England have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-27",
@@ -19283,7 +20108,16 @@
         "away_home_xg_avg_20": 2.028825,
         "away_home_xga_avg_20": 1.4638375,
         "away_away_xg_avg_20": 1.9440444444444445,
-        "away_away_xga_avg_20": 1.4595333333333333
+        "away_away_xga_avg_20": 1.4595333333333333,
+        "home_general_strength_score": 57.761,
+        "away_general_strength_score": 85.207,
+        "home_general_strength_tier": 6.0,
+        "away_general_strength_tier": 8.0,
+        "broad_strength_gap": -27.446,
+        "general_strength_tier_gap": -2.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": -2.0,
+        "expected_handicap_line": 0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -19340,9 +20174,9 @@
       "date": "2026-06-27",
       "home_team": "Croatia",
       "away_team": "Ghana",
-      "home_win_probability": 0.7112793326377869,
-      "draw_probability": 0.17793987691402435,
-      "away_win_probability": 0.11078078299760818,
+      "home_win_probability": 0.6885560767147304,
+      "draw_probability": 0.19518218329724904,
+      "away_win_probability": 0.11626173998802058,
       "summary": "Croatia have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-27",
@@ -19503,7 +20337,16 @@
         "away_home_xg_avg_20": 1.4153,
         "away_home_xga_avg_20": 2.1784,
         "away_away_xg_avg_20": 1.0574000000000001,
-        "away_away_xga_avg_20": 1.551975
+        "away_away_xga_avg_20": 1.551975,
+        "home_general_strength_score": 83.581,
+        "away_general_strength_score": 52.692,
+        "home_general_strength_tier": 8.0,
+        "away_general_strength_tier": 5.0,
+        "broad_strength_gap": 30.889,
+        "general_strength_tier_gap": 3.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 3.0,
+        "expected_handicap_line": -0.5
       },
       "runtime_context": {
         "source_statuses": {
@@ -19560,9 +20403,9 @@
       "date": "2026-06-29",
       "home_team": "Group E Winner",
       "away_team": "Best Third-Place Team from A/B/C/D/F",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group E Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-29",
@@ -19723,7 +20566,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -19788,9 +20640,9 @@
       "date": "2026-06-30",
       "home_team": "Group I Winner",
       "away_team": "Best Third-Place Team from C/D/F/G/H",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group I Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-30",
@@ -19951,7 +20803,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -20016,9 +20877,9 @@
       "date": "2026-06-28",
       "home_team": "Group A Runner-up",
       "away_team": "Group B Runner-up",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group A Runner-up have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-28",
@@ -20179,7 +21040,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -20244,9 +21114,9 @@
       "date": "2026-06-30",
       "home_team": "Group F Winner",
       "away_team": "Group C Runner-up",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group F Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-30",
@@ -20407,7 +21277,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -20472,9 +21351,9 @@
       "date": "2026-07-02",
       "home_team": "Group K Runner-up",
       "away_team": "Group L Runner-up",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group K Runner-up have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-02",
@@ -20635,7 +21514,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -20700,9 +21588,9 @@
       "date": "2026-07-02",
       "home_team": "Group H Winner",
       "away_team": "Group J Runner-up",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group H Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-02",
@@ -20863,7 +21751,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -20928,9 +21825,9 @@
       "date": "2026-07-02",
       "home_team": "Group D Winner",
       "away_team": "Best Third-Place Team from B/E/F/I/J",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group D Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-02",
@@ -21091,7 +21988,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -21156,9 +22062,9 @@
       "date": "2026-07-01",
       "home_team": "Group G Winner",
       "away_team": "Best Third-Place Team from A/E/H/I/J",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group G Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-01",
@@ -21319,7 +22225,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -21384,9 +22299,9 @@
       "date": "2026-06-29",
       "home_team": "Group C Winner",
       "away_team": "Group F Runner-up",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group C Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-29",
@@ -21547,7 +22462,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -21612,9 +22536,9 @@
       "date": "2026-06-30",
       "home_team": "Group E Runner-up",
       "away_team": "Group I Runner-up",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group E Runner-up have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-06-30",
@@ -21775,7 +22699,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -21840,9 +22773,9 @@
       "date": "2026-07-01",
       "home_team": "Group A Winner",
       "away_team": "Best Third-Place Team from C/E/F/H/I",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group A Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-01",
@@ -22003,7 +22936,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -22068,9 +23010,9 @@
       "date": "2026-07-01",
       "home_team": "Group L Winner",
       "away_team": "Best Third-Place Team from E/H/I/J/K",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group L Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-01",
@@ -22231,7 +23173,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -22296,9 +23247,9 @@
       "date": "2026-07-03",
       "home_team": "Group J Winner",
       "away_team": "Group H Runner-up",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group J Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-03",
@@ -22459,7 +23410,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -22524,9 +23484,9 @@
       "date": "2026-07-03",
       "home_team": "Group D Runner-up",
       "away_team": "Group G Runner-up",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group D Runner-up have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-03",
@@ -22687,7 +23647,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -22752,9 +23721,9 @@
       "date": "2026-07-03",
       "home_team": "Group B Winner",
       "away_team": "Best Third-Place Team from E/F/G/I/J",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group B Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-03",
@@ -22915,7 +23884,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
@@ -22980,9 +23958,9 @@
       "date": "2026-07-04",
       "home_team": "Group K Winner",
       "away_team": "Best Third-Place Team from D/E/I/J/L",
-      "home_win_probability": 0.5936805009841919,
-      "draw_probability": 0.19905777275562286,
-      "away_win_probability": 0.20726171135902405,
+      "home_win_probability": 0.5686992149430693,
+      "draw_probability": 0.21606118035632657,
+      "away_win_probability": 0.21523960470060416,
       "summary": "Group K Winner have the stronger pre-match profile.",
       "feature_snapshot": {
         "date": "2026-07-04",
@@ -23143,7 +24121,16 @@
         "away_home_xg_avg_20": 0.0,
         "away_home_xga_avg_20": 0.0,
         "away_away_xg_avg_20": 0.0,
-        "away_away_xga_avg_20": 0.0
+        "away_away_xga_avg_20": 0.0,
+        "home_general_strength_score": 33.75,
+        "away_general_strength_score": 33.75,
+        "home_general_strength_tier": 4.0,
+        "away_general_strength_tier": 4.0,
+        "broad_strength_gap": 0.0,
+        "general_strength_tier_gap": 0.0,
+        "home_advantage_zone": 0.0,
+        "expected_handicap_zone": 0.0,
+        "expected_handicap_line": 0.0
       },
       "runtime_context": {
         "source_statuses": {
