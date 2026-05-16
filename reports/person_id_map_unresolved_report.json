@@ -8,12 +8,18 @@
     "name": "Woodensky Pierre",
     "match_key": "woodensky pierre",
     "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
+    "identity_status": "platform_identity_with_external_refs",
+    "confidence": "medium",
+    "resolution_method": "platform_external_refs_no_reep_row",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
+    "provider_refs": {
+      "key_transfermarkt": "1017735",
+      "key_espn": "359946",
+      "key_sofascore": "1384367",
+      "key_national_football_teams": "104090"
+    },
     "candidates": [],
     "manual_review": null,
     "external_evidence": {
@@ -33,7 +39,7 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or alias for Woodensky Pierre, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:abdelmouhib-chamakh",
@@ -44,12 +50,17 @@
     "name": "Abdelmouhib Chamakh",
     "match_key": "abdelmouhib chamakh",
     "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
+    "identity_status": "platform_identity_with_external_refs",
+    "confidence": "medium",
+    "resolution_method": "platform_external_refs_no_reep_row",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
+    "provider_refs": {
+      "key_transfermarkt": "584250",
+      "key_espn": "420888",
+      "key_sofascore": "2018130"
+    },
     "candidates": [],
     "manual_review": null,
     "external_evidence": {
@@ -68,7 +79,7 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or alias for Abdelmouhib Chamakh, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:raed-chikhaoui",
@@ -79,12 +90,17 @@
     "name": "Raed Chikhaoui",
     "match_key": "raed chikhaoui",
     "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
+    "identity_status": "platform_identity_with_external_refs",
+    "confidence": "medium",
+    "resolution_method": "platform_external_refs_no_reep_row",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
+    "provider_refs": {
+      "key_transfermarkt": "1075790",
+      "key_fotmob": "1721242",
+      "key_sofascore": "2018330"
+    },
     "candidates": [],
     "manual_review": null,
     "external_evidence": {
@@ -103,6 +119,6 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or provider ID for Raed Chikhaoui, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   }
 ]

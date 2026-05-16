@@ -15,6 +15,10 @@
       "type": "string",
       "enum": ["exact_unique", "ambiguous", "missing"]
     },
+    "identity_status": {
+      "type": "string",
+      "enum": ["mapped_to_reep", "platform_identity_with_external_refs", "unresolved"]
+    },
     "confidence": { "type": "string", "enum": ["high", "medium", "low", "none"] },
     "source": { "type": "string" },
     "source_license": { "type": "string" },
@@ -24,8 +28,9 @@
       "type": "array",
       "items": { "type": "object" }
     },
+    "manual_review": { "type": ["object", "null"] },
+    "external_evidence": { "type": ["object", "null"] },
     "updated_at": { "type": ["string", "null"] }
   },
   "additionalProperties": true
 }
-

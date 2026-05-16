@@ -225,7 +225,7 @@
 - 许可证状态：已确认 CC0-1.0；当前允许作为 `person_id_map_master` 候选导入源，但不得覆盖官方 roster/player master。
 - 导入脚本：`scripts/import_reep_person_id_map.py`
 - 导入报告：`reports/person_id_map_import_report.json`
-- 当前导入结果：208 条映射，205 条已唯一解析，0 条 ambiguous，3 条 missing；11 条同名/拼写差异已通过 `data/patches/person_id_map.manual.json` 人工审查消歧，2 条通过 Reep `names.csv` 别名表解析。剩余 3 条 missing 已在 `data/patches/person_id_map.external_unresolved.json` 保存外部 provider 证据，但因 Reep 缺行仍不发布为 Reep 映射；未解决清单见 `reports/person_id_map_unresolved_report.json`。
+- 当前导入结果：208 条映射，205 条已唯一解析到 Reep，0 条 ambiguous，3 条 Reep missing；11 条同名/拼写差异已通过 `data/patches/person_id_map.manual.json` 人工审查消歧，2 条通过 Reep `names.csv` 别名表解析。剩余 3 条 missing 已在 `data/patches/person_id_map.external_unresolved.json` 保存外部 provider 证据，并以 `identity_status=platform_identity_with_external_refs` 作为平台自有身份供后续消费；因 Reep 缺行，仍不发布为 Reep 映射。未解决清单见 `reports/person_id_map_unresolved_report.json`。
 
 ### 4.2 StatsBomb Open Data
 

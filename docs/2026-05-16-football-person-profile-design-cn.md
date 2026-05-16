@@ -503,6 +503,8 @@ ID 映射需要独立保存：
 - 如果同名候选中只有一个候选的 nationality 与国家队归属匹配，可自动写为 `match_status=exact_unique`、`confidence=medium`、`resolution_method=name_plus_unique_team_nationality`。
 - 多候选匹配写为 `match_status=ambiguous`，必须用 DOB、俱乐部、国家队或人工 review 消歧后才能提升置信度。
 - 未匹配写为 `match_status=missing`，不得推断 provider ID。
+- `identity_status=mapped_to_reep` 表示已有 Reep ID；`identity_status=platform_identity_with_external_refs` 表示 Reep 缺行，但平台已用 `platform_person_id` 和外部 provider refs 建立可消费身份；`identity_status=unresolved` 表示仍无足够证据。
+- 对 `platform_identity_with_external_refs`，`match_status` 仍保持 `missing`，表示缺的是 Reep 映射，不表示平台身份不可用。
 - 人工审查 patch：`data/patches/person_id_map.manual.json`
 - 未解析外部证据 patch：`data/patches/person_id_map.external_unresolved.json`
 - 导入脚本：`scripts/import_reep_person_id_map.py`
@@ -514,11 +516,12 @@ ID 映射需要独立保存：
 - 别名输入：`/Users/chamcham/Downloads/reep-names.csv`，27,591 行。
 - 输出：`data/normalized/person_id_map_master.json`
 - 报告：`reports/person_id_map_import_report.json`
-- 已导入 208 名世界杯球员，205 名完成唯一映射，0 名 ambiguous，3 名 missing。
+- 已导入 208 名世界杯球员，205 名完成 Reep 唯一映射，0 名 ambiguous，3 名 Reep missing。
+- `identity_status` 当前为：205 名 `mapped_to_reep`，3 名 `platform_identity_with_external_refs`，0 名 `unresolved`。
 - 已应用 10 条人工审查补丁；新增补丁用于处理全名省略、音译拼写和重音差异，例如 `Jacob Zetterstrom` -> `Jacob Widell Zetterström`、`Aymen Dahmene` -> `Aymen Dahmen`。
 - 别名表解析出 `Jean Michael Seri` 和 `Johny Placide`，其中 `Johny Placide` 因 Reep nationality 与国家队归属不一致，仅标记为 `confidence=medium`。
 - 新增人工审查 `Hadj Mahmoud` -> `Mohamed Belhadj Mahmoud`，依据为 Tunisia midfielder context、DOB、Transfermarkt/Sofascore/API-Football provider IDs。
-- 剩余 3 名 missing 已写入 `data/patches/person_id_map.external_unresolved.json`，状态为 `external_refs_found_no_reep_row`；它们有外部 provider 线索，但 Reep 2026.17 当前缺行，所以不得自动发布为 Reep 映射。
+- 剩余 3 名 Reep missing 已写入 `data/patches/person_id_map.external_unresolved.json`，状态为 `external_refs_found_no_reep_row`；它们有外部 provider 线索，可以通过平台自有身份被消费，但 Reep 2026.17 当前缺行，所以不得自动发布为 Reep 映射。
 
 ## 14. Confidence 设计
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T15:21:07Z",
+  "generated_at": "2026-05-16T15:51:26Z",
   "status": "imported",
   "source": "reep",
   "source_license": "CC0-1.0",
@@ -18,6 +18,11 @@
     "exact_unique": 205,
     "ambiguous": 0,
     "missing": 3
+  },
+  "identity_status_counts": {
+    "mapped_to_reep": 205,
+    "platform_identity_with_external_refs": 3,
+    "unresolved": 0
   },
   "coverage": {
     "matched_count": 205,

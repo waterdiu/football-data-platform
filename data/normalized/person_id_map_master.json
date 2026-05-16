@@ -8,6 +8,7 @@
     "name": "Alexis Saelemaekers",
     "match_key": "alexis saelemaekers",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -43,7 +44,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:amadou-onana",
@@ -54,6 +55,7 @@
     "name": "Amadou Onana",
     "match_key": "amadou onana",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -95,7 +97,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:arthur-theate",
@@ -106,6 +108,7 @@
     "name": "Arthur Theate",
     "match_key": "arthur theate",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -139,7 +142,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:axel-witsel",
@@ -150,6 +153,7 @@
     "name": "Axel Witsel",
     "match_key": "axel witsel",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -184,7 +188,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:brandon-mechele",
@@ -195,6 +199,7 @@
     "name": "Brandon Mechele",
     "match_key": "brandon mechele",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -228,7 +233,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:charles-de-ketelaere",
@@ -239,6 +244,7 @@
     "name": "Charles De Ketelaere",
     "match_key": "charles de ketelaere",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -274,7 +280,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:diego-moreira",
@@ -285,6 +291,7 @@
     "name": "Diego Moreira",
     "match_key": "diego moreira",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -321,7 +328,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:dodi-lukebakio",
@@ -332,6 +339,7 @@
     "name": "Dodi Lukebakio",
     "match_key": "dodi lukebakio",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -371,7 +379,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:hans-vanaken",
@@ -382,6 +390,7 @@
     "name": "Hans Vanaken",
     "match_key": "hans vanaken",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -416,7 +425,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:jeremy-doku",
@@ -427,6 +436,7 @@
     "name": "Jeremy Doku",
     "match_key": "jeremy doku",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -468,7 +478,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:joaquin-seys",
@@ -479,6 +489,7 @@
     "name": "Joaquin Seys",
     "match_key": "joaquin seys",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -508,7 +519,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:kevin-de-bruyne",
@@ -519,6 +530,7 @@
     "name": "Kevin De Bruyne",
     "match_key": "kevin de bruyne",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -561,7 +573,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:koni-de-winter",
@@ -572,6 +584,7 @@
     "name": "Koni De Winter",
     "match_key": "koni de winter",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -605,7 +618,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:leandro-trossard",
@@ -616,6 +629,7 @@
     "name": "Leandro Trossard",
     "match_key": "leandro trossard",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -658,7 +672,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:matias-fernandez-pardo",
@@ -669,6 +683,7 @@
     "name": "Matias Fernandez-Pardo",
     "match_key": "matias fernandez pardo",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -698,7 +713,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:maxim-de-cuyper",
@@ -709,6 +724,7 @@
     "name": "Maxim De Cuyper",
     "match_key": "maxim de cuyper",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -744,7 +760,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:mike-penders",
@@ -755,6 +771,7 @@
     "name": "Mike Penders",
     "match_key": "mike penders",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -788,7 +805,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:nathan-ngoy",
@@ -799,6 +816,7 @@
     "name": "Nathan Ngoy",
     "match_key": "nathan ngoy",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -832,7 +850,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:nicolas-raskin",
@@ -843,6 +861,7 @@
     "name": "Nicolas Raskin",
     "match_key": "nicolas raskin",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -874,7 +893,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:romelu-lukaku",
@@ -885,6 +904,7 @@
     "name": "Romelu Lukaku",
     "match_key": "romelu lukaku",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -928,7 +948,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:senne-lammens",
@@ -939,6 +959,7 @@
     "name": "Senne Lammens",
     "match_key": "senne lammens",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -971,7 +992,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:thibaut-courtois",
@@ -982,6 +1003,7 @@
     "name": "Thibaut Courtois",
     "match_key": "thibaut courtois",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1026,7 +1048,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:thomas-meunier",
@@ -1037,6 +1059,7 @@
     "name": "Thomas Meunier",
     "match_key": "thomas meunier",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1072,7 +1095,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:timothy-castagne",
@@ -1083,6 +1106,7 @@
     "name": "Timothy Castagne",
     "match_key": "timothy castagne",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1122,7 +1146,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:youri-tielemans",
@@ -1133,6 +1157,7 @@
     "name": "Youri Tielemans",
     "match_key": "youri tielemans",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1175,7 +1200,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "belgium:player:zeno-debast",
@@ -1186,6 +1211,7 @@
     "name": "Zeno Debast",
     "match_key": "zeno debast",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1218,7 +1244,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:amar-dedic",
@@ -1229,6 +1255,7 @@
     "name": "Amar Dedic",
     "match_key": "amar dedic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1261,7 +1288,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:amar-memic",
@@ -1272,6 +1299,7 @@
     "name": "Amar Memic",
     "match_key": "amar memic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1304,7 +1332,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:amir-hadziahmetovic",
@@ -1315,6 +1343,7 @@
     "name": "Amir Hadziahmetovic",
     "match_key": "amir hadziahmetovic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1347,7 +1376,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:armin-gigovic",
@@ -1358,6 +1387,7 @@
     "name": "Armin Gigovic",
     "match_key": "armin gigovic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1389,7 +1419,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:benjamin-tahirovic",
@@ -1400,6 +1430,7 @@
     "name": "Benjamin Tahirovic",
     "match_key": "benjamin tahirovic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1432,7 +1463,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:dennis-hadzikadunic",
@@ -1443,6 +1474,7 @@
     "name": "Dennis Hadzikadunic",
     "match_key": "dennis hadzikadunic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1475,7 +1507,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:dzenis-burnic",
@@ -1486,6 +1518,7 @@
     "name": "Dzenis Burnic",
     "match_key": "dzenis burnic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1516,7 +1549,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:edin-dzeko",
@@ -1527,6 +1560,7 @@
     "name": "Edin Dzeko",
     "match_key": "edin dzeko",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1567,7 +1601,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:ermedin-demirovic",
@@ -1578,6 +1612,7 @@
     "name": "Ermedin Demirovic",
     "match_key": "ermedin demirovic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1612,7 +1647,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:ermin-mahmic",
@@ -1623,6 +1658,7 @@
     "name": "Ermin Mahmic",
     "match_key": "ermin mahmic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1646,7 +1682,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:esmir-bajraktarevic",
@@ -1657,6 +1693,7 @@
     "name": "Esmir Bajraktarevic",
     "match_key": "esmir bajraktarevic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1690,7 +1727,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:haris-tabakovic",
@@ -1701,6 +1738,7 @@
     "name": "Haris Tabakovic",
     "match_key": "haris tabakovic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1731,7 +1769,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:ivan-basic",
@@ -1742,6 +1780,7 @@
     "name": "Ivan Basic",
     "match_key": "ivan basic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1773,7 +1812,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:ivan-sunjic",
@@ -1784,6 +1823,7 @@
     "name": "Ivan Sunjic",
     "match_key": "ivan sunjic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1817,7 +1857,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:jovo-lukic",
@@ -1828,6 +1868,7 @@
     "name": "Jovo Lukic",
     "match_key": "jovo lukic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1856,7 +1897,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:kerim-alajbegovic",
@@ -1867,6 +1908,7 @@
     "name": "Kerim Alajbegovic",
     "match_key": "kerim alajbegovic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1896,7 +1938,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:martin-zlomislic",
@@ -1907,6 +1949,7 @@
     "name": "Martin Zlomislic",
     "match_key": "martin zlomislic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1937,7 +1980,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:nidal-celik",
@@ -1948,6 +1991,7 @@
     "name": "Nidal Celik",
     "match_key": "nidal celik",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -1980,7 +2024,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:nihad-mujakic",
@@ -1991,6 +2035,7 @@
     "name": "Nihad Mujakic",
     "match_key": "nihad mujakic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2021,7 +2066,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:nikola-katic",
@@ -2032,6 +2077,7 @@
     "name": "Nikola Katic",
     "match_key": "nikola katic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "medium",
     "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
@@ -2063,7 +2109,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:nikola-vasilj",
@@ -2074,6 +2120,7 @@
     "name": "Nikola Vasilj",
     "match_key": "nikola vasilj",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2105,7 +2152,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:osman-hadzikic",
@@ -2116,6 +2163,7 @@
     "name": "Osman Hadzikic",
     "match_key": "osman hadzikic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2143,7 +2191,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:samed-bazdar",
@@ -2154,6 +2202,7 @@
     "name": "Samed Bazdar",
     "match_key": "samed bazdar",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2187,7 +2236,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:sead-kolasinac",
@@ -2198,6 +2247,7 @@
     "name": "Sead Kolasinac",
     "match_key": "sead kolasinac",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2240,7 +2290,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:stjepan-radeljic",
@@ -2251,6 +2301,7 @@
     "name": "Stjepan Radeljic",
     "match_key": "stjepan radeljic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2280,7 +2331,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "bosnia-and-herzegovina:player:tarik-muharemovic",
@@ -2291,6 +2342,7 @@
     "name": "Tarik Muharemovic",
     "match_key": "tarik muharemovic",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2324,7 +2376,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:alban-lafont",
@@ -2335,6 +2387,7 @@
     "name": "Alban Lafont",
     "match_key": "alban lafont",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2366,7 +2419,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:amad-diallo",
@@ -2377,6 +2430,7 @@
     "name": "Amad Diallo",
     "match_key": "amad diallo",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2414,7 +2468,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:ange-yoan-bonny",
@@ -2425,6 +2479,7 @@
     "name": "Ange-Yoan Bonny",
     "match_key": "ange yoan bonny",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2455,7 +2510,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:bazoumana-toure",
@@ -2466,6 +2521,7 @@
     "name": "Bazoumana Toure",
     "match_key": "bazoumana toure",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2493,7 +2549,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:christ-inao-oulai",
@@ -2504,6 +2560,7 @@
     "name": "Christ Inao Oulai",
     "match_key": "christ inao oulai",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2529,7 +2586,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:clement-akpa",
@@ -2540,6 +2597,7 @@
     "name": "Clement Akpa",
     "match_key": "clement akpa",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2570,7 +2628,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:elye-wahi",
@@ -2581,6 +2639,7 @@
     "name": "Elye Wahi",
     "match_key": "elye wahi",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2612,7 +2671,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:emmanuel-agbadou",
@@ -2623,6 +2682,7 @@
     "name": "Emmanuel Agbadou",
     "match_key": "emmanuel agbadou",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2656,7 +2716,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:evan-ndicka",
@@ -2667,6 +2727,7 @@
     "name": "Evan Ndicka",
     "match_key": "evan ndicka",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2698,7 +2759,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:evann-guessand",
@@ -2709,6 +2770,7 @@
     "name": "Evann Guessand",
     "match_key": "evann guessand",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2746,7 +2808,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:franck-kessie",
@@ -2757,6 +2819,7 @@
     "name": "Franck Kessie",
     "match_key": "franck kessie",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2789,7 +2852,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:ghislain-konan",
@@ -2800,6 +2863,7 @@
     "name": "Ghislain Konan",
     "match_key": "ghislain konan",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2831,7 +2895,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:guela-doue",
@@ -2842,6 +2906,7 @@
     "name": "Guela Doue",
     "match_key": "guela doue",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -2872,7 +2937,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:ibrahim-sangare",
@@ -2883,6 +2948,7 @@
     "name": "Ibrahim Sangare",
     "match_key": "ibrahim sangare",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "medium",
     "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
@@ -2920,7 +2986,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:jean-michael-seri",
@@ -2931,6 +2997,7 @@
     "name": "Jean Michael Seri",
     "match_key": "jean michael seri",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "alias_unique",
     "source": "reep",
@@ -2968,7 +3035,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:mohamed-kone",
@@ -2979,6 +3046,7 @@
     "name": "Mohamed Kone",
     "match_key": "mohamed kone",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -3009,7 +3077,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:nicolas-pepe",
@@ -3020,6 +3088,7 @@
     "name": "Nicolas Pepe",
     "match_key": "nicolas pepe",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3058,7 +3127,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:odilon-kossounou",
@@ -3069,6 +3138,7 @@
     "name": "Odilon Kossounou",
     "match_key": "odilon kossounou",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3102,7 +3172,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:oumar-diakite",
@@ -3113,6 +3183,7 @@
     "name": "Oumar Diakite",
     "match_key": "oumar diakite",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3142,7 +3213,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:ousmane-diomande",
@@ -3153,6 +3224,7 @@
     "name": "Ousmane Diomande",
     "match_key": "ousmane diomande",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3182,7 +3254,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:parfait-guiagon",
@@ -3193,6 +3265,7 @@
     "name": "Parfait Guiagon",
     "match_key": "parfait guiagon",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3218,7 +3291,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:seko-fofana",
@@ -3229,6 +3302,7 @@
     "name": "Seko Fofana",
     "match_key": "seko fofana",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3262,7 +3336,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:simon-adingra",
@@ -3273,6 +3347,7 @@
     "name": "Simon Adingra",
     "match_key": "simon adingra",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3311,7 +3386,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:wilfried-singo",
@@ -3322,6 +3397,7 @@
     "name": "Wilfried Singo",
     "match_key": "wilfried singo",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3352,7 +3428,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:yahia-fofana",
@@ -3363,6 +3439,7 @@
     "name": "Yahia Fofana",
     "match_key": "yahia fofana",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3395,7 +3472,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "cote-divoire:player:yan-diomande",
@@ -3406,6 +3483,7 @@
     "name": "Yan Diomande",
     "match_key": "yan diomande",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3434,7 +3512,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:adrien-rabiot",
@@ -3445,6 +3523,7 @@
     "name": "Adrien Rabiot",
     "match_key": "adrien rabiot",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3480,7 +3559,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:aurelien-tchouameni",
@@ -3491,6 +3570,7 @@
     "name": "Aurelien Tchouameni",
     "match_key": "aurelien tchouameni",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3528,7 +3608,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:bradley-barcola",
@@ -3539,6 +3619,7 @@
     "name": "Bradley Barcola",
     "match_key": "bradley barcola",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3577,7 +3658,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:brice-samba",
@@ -3588,6 +3669,7 @@
     "name": "Brice Samba",
     "match_key": "brice samba",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "medium",
     "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
@@ -3625,7 +3707,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:dayot-upamecano",
@@ -3636,6 +3718,7 @@
     "name": "Dayot Upamecano",
     "match_key": "dayot upamecano",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3672,7 +3755,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:desire-doue",
@@ -3683,6 +3766,7 @@
     "name": "Desire Doue",
     "match_key": "desire doue",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3717,7 +3801,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:ibrahima-konate",
@@ -3728,6 +3812,7 @@
     "name": "Ibrahima Konate",
     "match_key": "ibrahima konate",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3769,7 +3854,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:jean-philippe-mateta",
@@ -3780,6 +3865,7 @@
     "name": "Jean-Philippe Mateta",
     "match_key": "jean philippe mateta",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3823,7 +3909,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:jules-kounde",
@@ -3834,6 +3920,7 @@
     "name": "Jules Kounde",
     "match_key": "jules kounde",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3869,7 +3956,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:kylian-mbappe",
@@ -3880,6 +3967,7 @@
     "name": "Kylian Mbappe",
     "match_key": "kylian mbappe",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "medium",
     "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
@@ -3912,7 +4000,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:lucas-digne",
@@ -3923,6 +4011,7 @@
     "name": "Lucas Digne",
     "match_key": "lucas digne",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -3965,7 +4054,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:lucas-hernandez",
@@ -3976,6 +4065,7 @@
     "name": "Lucas Hernandez",
     "match_key": "lucas hernandez",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "medium",
     "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
@@ -4013,7 +4103,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:maghnes-akliouche",
@@ -4024,6 +4114,7 @@
     "name": "Maghnes Akliouche",
     "match_key": "maghnes akliouche",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4057,7 +4148,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:malo-gusto",
@@ -4068,6 +4159,7 @@
     "name": "Malo Gusto",
     "match_key": "malo gusto",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4110,7 +4202,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:manu-kone",
@@ -4121,6 +4213,7 @@
     "name": "Manu Kone",
     "match_key": "manu kone",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4156,7 +4249,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:marcus-thuram",
@@ -4167,6 +4260,7 @@
     "name": "Marcus Thuram",
     "match_key": "marcus thuram",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4203,7 +4297,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:maxence-lacroix",
@@ -4214,6 +4308,7 @@
     "name": "Maxence Lacroix",
     "match_key": "maxence lacroix",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4253,7 +4348,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:michael-olise",
@@ -4264,6 +4359,7 @@
     "name": "Michael Olise",
     "match_key": "michael olise",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4305,7 +4401,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:mike-maignan",
@@ -4316,6 +4412,7 @@
     "name": "Mike Maignan",
     "match_key": "mike maignan",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4352,7 +4449,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:n-golo-kante",
@@ -4363,6 +4460,7 @@
     "name": "N'Golo Kante",
     "match_key": "n golo kante",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4404,7 +4502,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:ousmane-dembele",
@@ -4415,6 +4513,7 @@
     "name": "Ousmane Dembele",
     "match_key": "ousmane dembele",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4454,7 +4553,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:rayan-cherki",
@@ -4465,6 +4564,7 @@
     "name": "Rayan Cherki",
     "match_key": "rayan cherki",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4501,7 +4601,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:robin-risser",
@@ -4512,6 +4612,7 @@
     "name": "Robin Risser",
     "match_key": "robin risser",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4538,7 +4639,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:theo-hernandez",
@@ -4549,6 +4650,7 @@
     "name": "Theo Hernandez",
     "match_key": "theo hernandez",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4586,7 +4688,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:warren-zaire-emery",
@@ -4597,6 +4699,7 @@
     "name": "Warren Zaire-Emery",
     "match_key": "warren zaire emery",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4633,7 +4736,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "france:player:william-saliba",
@@ -4644,6 +4747,7 @@
     "name": "William Saliba",
     "match_key": "william saliba",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4684,7 +4788,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:alexandre-pierre",
@@ -4695,6 +4799,7 @@
     "name": "Alexandre Pierre",
     "match_key": "alexandre pierre",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4722,7 +4827,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:carl-fred-sainte",
@@ -4733,6 +4838,7 @@
     "name": "Carl Fred Sainte",
     "match_key": "carl fred sainte",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4760,7 +4866,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:carlens-arcus",
@@ -4771,6 +4877,7 @@
     "name": "Carlens Arcus",
     "match_key": "carlens arcus",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4802,7 +4909,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:danley-jean-jacques",
@@ -4813,6 +4920,7 @@
     "name": "Danley Jean Jacques",
     "match_key": "danley jean jacques",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4839,7 +4947,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:derrick-etienne-jr",
@@ -4850,6 +4958,7 @@
     "name": "Derrick Etienne Jr.",
     "match_key": "derrick etienne jr",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4878,7 +4987,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:dominique-simon",
@@ -4889,6 +4998,7 @@
     "name": "Dominique Simon",
     "match_key": "dominique simon",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4915,7 +5025,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:duckens-nazon",
@@ -4926,6 +5036,7 @@
     "name": "Duckens Nazon",
     "match_key": "duckens nazon",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4957,7 +5068,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:duke-lacroix",
@@ -4968,6 +5079,7 @@
     "name": "Duke Lacroix",
     "match_key": "duke lacroix",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -4989,7 +5101,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:frantzdy-pierrot",
@@ -5000,6 +5112,7 @@
     "name": "Frantzdy Pierrot",
     "match_key": "frantzdy pierrot",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5031,7 +5144,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:hannes-delcroix",
@@ -5042,6 +5155,7 @@
     "name": "Hannes Delcroix",
     "match_key": "hannes delcroix",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5078,7 +5192,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:jean-kevin-duverne",
@@ -5089,6 +5203,7 @@
     "name": "Jean-Kevin Duverne",
     "match_key": "jean kevin duverne",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5119,7 +5234,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:jean-ricner-bellegarde",
@@ -5130,6 +5245,7 @@
     "name": "Jean-Ricner Bellegarde",
     "match_key": "jean ricner bellegarde",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5170,7 +5286,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:johny-placide",
@@ -5181,6 +5297,7 @@
     "name": "Johny Placide",
     "match_key": "johny placide",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "medium",
     "resolution_method": "alias_unique",
     "source": "reep",
@@ -5213,7 +5330,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:josue-casimir",
@@ -5224,6 +5341,7 @@
     "name": "Josue Casimir",
     "match_key": "josue casimir",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5252,7 +5370,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:josue-duverger",
@@ -5263,6 +5381,7 @@
     "name": "Josue Duverger",
     "match_key": "josue duverger",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5281,7 +5400,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:keeto-thermoncy",
@@ -5292,6 +5411,7 @@
     "name": "Keeto Thermoncy",
     "match_key": "keeto thermoncy",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5312,7 +5432,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:lenny-joseph",
@@ -5323,6 +5443,7 @@
     "name": "Lenny Joseph",
     "match_key": "lenny joseph",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5350,7 +5471,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:leverton-pierre",
@@ -5361,6 +5482,7 @@
     "name": "Leverton Pierre",
     "match_key": "leverton pierre",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5388,7 +5510,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:louicius-deedson",
@@ -5399,6 +5521,7 @@
     "name": "Louicius Deedson",
     "match_key": "louicius deedson",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -5429,7 +5552,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:martin-experience",
@@ -5440,6 +5563,7 @@
     "name": "Martin Experience",
     "match_key": "martin experience",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5459,7 +5583,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:ricardo-ade",
@@ -5470,6 +5594,7 @@
     "name": "Ricardo Ade",
     "match_key": "ricardo ade",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5496,7 +5621,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:ruben-providence",
@@ -5507,6 +5632,7 @@
     "name": "Ruben Providence",
     "match_key": "ruben providence",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5537,7 +5663,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:wilguens-paugain",
@@ -5548,6 +5674,7 @@
     "name": "Wilguens Paugain",
     "match_key": "wilguens paugain",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5574,7 +5701,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:wilson-isidor",
@@ -5585,6 +5712,7 @@
     "name": "Wilson Isidor",
     "match_key": "wilson isidor",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5621,7 +5749,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:woodensky-pierre",
@@ -5632,12 +5760,18 @@
     "name": "Woodensky Pierre",
     "match_key": "woodensky pierre",
     "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
+    "identity_status": "platform_identity_with_external_refs",
+    "confidence": "medium",
+    "resolution_method": "platform_external_refs_no_reep_row",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
+    "provider_refs": {
+      "key_transfermarkt": "1017735",
+      "key_espn": "359946",
+      "key_sofascore": "1384367",
+      "key_national_football_teams": "104090"
+    },
     "candidates": [],
     "manual_review": null,
     "external_evidence": {
@@ -5657,7 +5791,7 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or alias for Woodensky Pierre, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "haiti:player:yassin-fortune",
@@ -5668,6 +5802,7 @@
     "name": "Yassin Fortune",
     "match_key": "yassin fortune",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5697,7 +5832,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:ao-tanaka",
@@ -5708,6 +5843,7 @@
     "name": "Ao Tanaka",
     "match_key": "ao tanaka",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5745,7 +5881,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:ayase-ueda",
@@ -5756,6 +5892,7 @@
     "name": "Ayase Ueda",
     "match_key": "ayase ueda",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5790,7 +5927,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:ayumu-seko",
@@ -5801,6 +5938,7 @@
     "name": "Ayumu Seko",
     "match_key": "ayumu seko",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5834,7 +5972,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:daichi-kamada",
@@ -5845,6 +5983,7 @@
     "name": "Daichi Kamada",
     "match_key": "daichi kamada",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5885,7 +6024,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:daizen-maeda",
@@ -5896,6 +6035,7 @@
     "name": "Daizen Maeda",
     "match_key": "daizen maeda",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -5930,7 +6070,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:hiroki-ito",
@@ -5941,6 +6081,7 @@
     "name": "Hiroki Ito",
     "match_key": "hiroki ito",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -5971,7 +6112,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:junnosuke-suzuki",
@@ -5982,6 +6123,7 @@
     "name": "Junnosuke Suzuki",
     "match_key": "junnosuke suzuki",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6010,7 +6152,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:junya-ito",
@@ -6021,6 +6163,7 @@
     "name": "Junya Ito",
     "match_key": "junya ito",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -6051,7 +6194,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:kaishu-sano",
@@ -6062,6 +6205,7 @@
     "name": "Kaishu Sano",
     "match_key": "kaishu sano",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6095,7 +6239,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:keisuke-goto",
@@ -6106,6 +6250,7 @@
     "name": "Keisuke Goto",
     "match_key": "keisuke goto",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6134,7 +6279,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:keisuke-osako",
@@ -6145,6 +6290,7 @@
     "name": "Keisuke Osako",
     "match_key": "keisuke osako",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6175,7 +6321,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:keito-nakamura",
@@ -6186,6 +6332,7 @@
     "name": "Keito Nakamura",
     "match_key": "keito nakamura",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6221,7 +6368,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:kento-shiogai",
@@ -6232,6 +6379,7 @@
     "name": "Kento Shiogai",
     "match_key": "kento shiogai",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6262,7 +6410,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:ko-itakura",
@@ -6273,6 +6421,7 @@
     "name": "Ko Itakura",
     "match_key": "ko itakura",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6310,7 +6459,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:koki-ogawa",
@@ -6321,6 +6470,7 @@
     "name": "Koki Ogawa",
     "match_key": "koki ogawa",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6355,7 +6505,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:ritsu-doan",
@@ -6366,6 +6516,7 @@
     "name": "Ritsu Doan",
     "match_key": "ritsu doan",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6403,7 +6554,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:shogo-taniguchi",
@@ -6414,6 +6565,7 @@
     "name": "Shogo Taniguchi",
     "match_key": "shogo taniguchi",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6446,7 +6598,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:takefusa-kubo",
@@ -6457,6 +6609,7 @@
     "name": "Takefusa Kubo",
     "match_key": "takefusa kubo",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6494,7 +6647,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:takehiro-tomiyasu",
@@ -6505,6 +6658,7 @@
     "name": "Takehiro Tomiyasu",
     "match_key": "takehiro tomiyasu",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6544,7 +6698,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:tomoki-hayakawa",
@@ -6555,6 +6709,7 @@
     "name": "Tomoki Hayakawa",
     "match_key": "tomoki hayakawa",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6581,7 +6736,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:tsuyoshi-watanabe",
@@ -6592,6 +6747,7 @@
     "name": "Tsuyoshi Watanabe",
     "match_key": "tsuyoshi watanabe",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6625,7 +6781,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:wataru-endo",
@@ -6636,6 +6792,7 @@
     "name": "Wataru Endo",
     "match_key": "wataru endo",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6678,7 +6835,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:yuito-suzuki",
@@ -6689,6 +6846,7 @@
     "name": "Yuito Suzuki",
     "match_key": "yuito suzuki",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6722,7 +6880,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:yukinari-sugawara",
@@ -6733,6 +6891,7 @@
     "name": "Yukinari Sugawara",
     "match_key": "yukinari sugawara",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6771,7 +6930,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:yuto-nagatomo",
@@ -6782,6 +6941,7 @@
     "name": "Yuto Nagatomo",
     "match_key": "yuto nagatomo",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6816,7 +6976,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "japan:player:zion-suzuki",
@@ -6827,6 +6987,7 @@
     "name": "Zion Suzuki",
     "match_key": "zion suzuki",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6862,7 +7023,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:alexander-bernhardsson",
@@ -6873,6 +7034,7 @@
     "name": "Alexander Bernhardsson",
     "match_key": "alexander bernhardsson",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6902,7 +7064,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:alexander-isak",
@@ -6913,6 +7075,7 @@
     "name": "Alexander Isak",
     "match_key": "alexander isak",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -6956,7 +7119,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:anthony-elanga",
@@ -6967,6 +7130,7 @@
     "name": "Anthony Elanga",
     "match_key": "anthony elanga",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7008,7 +7172,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:benjamin-nygren",
@@ -7019,6 +7183,7 @@
     "name": "Benjamin Nygren",
     "match_key": "benjamin nygren",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7048,7 +7213,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:besfort-zeneli",
@@ -7059,6 +7224,7 @@
     "name": "Besfort Zeneli",
     "match_key": "besfort zeneli",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7087,7 +7253,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:carl-starfelt",
@@ -7098,6 +7264,7 @@
     "name": "Carl Starfelt",
     "match_key": "carl starfelt",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7132,7 +7299,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:daniel-svensson",
@@ -7143,6 +7310,7 @@
     "name": "Daniel Svensson",
     "match_key": "daniel svensson",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -7173,7 +7341,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:elliot-stroud",
@@ -7184,6 +7352,7 @@
     "name": "Elliot Stroud",
     "match_key": "elliot stroud",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7209,7 +7378,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:emil-holm",
@@ -7220,6 +7389,7 @@
     "name": "Emil Holm",
     "match_key": "emil holm",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7253,7 +7423,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:eric-smith",
@@ -7264,6 +7434,7 @@
     "name": "Eric Smith",
     "match_key": "eric smith",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "medium",
     "resolution_method": "name_plus_unique_team_nationality",
     "source": "reep",
@@ -7292,7 +7463,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:gabriel-gudmundsson",
@@ -7303,6 +7474,7 @@
     "name": "Gabriel Gudmundsson",
     "match_key": "gabriel gudmundsson",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7341,7 +7513,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:gustaf-lagerbielke",
@@ -7352,6 +7524,7 @@
     "name": "Gustaf Lagerbielke",
     "match_key": "gustaf lagerbielke",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7382,7 +7555,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:gustaf-nilsson",
@@ -7393,6 +7566,7 @@
     "name": "Gustaf Nilsson",
     "match_key": "gustaf nilsson",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -7423,7 +7597,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:hjalmar-ekdal",
@@ -7434,6 +7608,7 @@
     "name": "Hjalmar Ekdal",
     "match_key": "hjalmar ekdal",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7473,7 +7648,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:isak-hien",
@@ -7484,6 +7659,7 @@
     "name": "Isak Hien",
     "match_key": "isak hien",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7516,7 +7692,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:jacob-zetterstrom",
@@ -7527,6 +7703,7 @@
     "name": "Jacob Zetterstrom",
     "match_key": "jacob zetterstrom",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -7557,7 +7734,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:jesper-karlstrom",
@@ -7568,6 +7745,7 @@
     "name": "Jesper Karlstrom",
     "match_key": "jesper karlstrom",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7600,7 +7778,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:ken-sema",
@@ -7611,6 +7789,7 @@
     "name": "Ken Sema",
     "match_key": "ken sema",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7651,7 +7830,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:kristoffer-nordfeldt",
@@ -7662,6 +7841,7 @@
     "name": "Kristoffer Nordfeldt",
     "match_key": "kristoffer nordfeldt",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7701,7 +7881,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:lucas-bergvall",
@@ -7712,6 +7892,7 @@
     "name": "Lucas Bergvall",
     "match_key": "lucas bergvall",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7750,7 +7931,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:mattias-svanberg",
@@ -7761,6 +7942,7 @@
     "name": "Mattias Svanberg",
     "match_key": "mattias svanberg",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7794,7 +7976,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:taha-ali",
@@ -7805,6 +7987,7 @@
     "name": "Taha Ali",
     "match_key": "taha ali",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7834,7 +8017,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:victor-lindelof",
@@ -7845,6 +8028,7 @@
     "name": "Victor Lindelof",
     "match_key": "victor lindelof",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7888,7 +8072,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:viktor-gyokeres",
@@ -7899,6 +8083,7 @@
     "name": "Viktor Gyokeres",
     "match_key": "viktor gyokeres",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7938,7 +8123,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:viktor-johansson",
@@ -7949,6 +8134,7 @@
     "name": "Viktor Johansson",
     "match_key": "viktor johansson",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -7978,7 +8164,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "sweden:player:yasin-ayari",
@@ -7989,6 +8175,7 @@
     "name": "Yasin Ayari",
     "match_key": "yasin ayari",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8027,7 +8214,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:abdelmouhib-chamakh",
@@ -8038,12 +8225,17 @@
     "name": "Abdelmouhib Chamakh",
     "match_key": "abdelmouhib chamakh",
     "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
+    "identity_status": "platform_identity_with_external_refs",
+    "confidence": "medium",
+    "resolution_method": "platform_external_refs_no_reep_row",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
+    "provider_refs": {
+      "key_transfermarkt": "584250",
+      "key_espn": "420888",
+      "key_sofascore": "2018130"
+    },
     "candidates": [],
     "manual_review": null,
     "external_evidence": {
@@ -8062,7 +8254,7 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or alias for Abdelmouhib Chamakh, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:adem-arous",
@@ -8073,6 +8265,7 @@
     "name": "Adem Arous",
     "match_key": "adem arous",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8095,7 +8288,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:ali-abdi",
@@ -8106,6 +8299,7 @@
     "name": "Ali Abdi",
     "match_key": "ali abdi",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8136,7 +8330,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:anis-ben-slimane",
@@ -8147,6 +8341,7 @@
     "name": "Anis Ben Slimane",
     "match_key": "anis ben slimane",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8183,7 +8378,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:aymen-dahmene",
@@ -8194,6 +8389,7 @@
     "name": "Aymen Dahmene",
     "match_key": "aymen dahmene",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -8224,7 +8420,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:dylan-bronn",
@@ -8235,6 +8431,7 @@
     "name": "Dylan Bronn",
     "match_key": "dylan bronn",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8268,7 +8465,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:elias-achouri",
@@ -8279,6 +8476,7 @@
     "name": "Elias Achouri",
     "match_key": "elias achouri",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8309,7 +8507,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:elias-saad",
@@ -8320,6 +8518,7 @@
     "name": "Elias Saad",
     "match_key": "elias saad",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8348,7 +8547,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:ellyes-skhiri",
@@ -8359,6 +8558,7 @@
     "name": "Ellyes Skhiri",
     "match_key": "ellyes skhiri",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8394,7 +8594,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:firas-chaouat",
@@ -8405,6 +8605,7 @@
     "name": "Firas Chaouat",
     "match_key": "firas chaouat",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8427,7 +8628,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:hadj-mahmoud",
@@ -8438,6 +8639,7 @@
     "name": "Hadj Mahmoud",
     "match_key": "hadj mahmoud",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -8468,7 +8670,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:hannibal-mejbri",
@@ -8479,6 +8681,7 @@
     "name": "Hannibal Mejbri",
     "match_key": "hannibal mejbri",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8520,7 +8723,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:hazem-mastouri",
@@ -8531,6 +8734,7 @@
     "name": "Hazem Mastouri",
     "match_key": "hazem mastouri",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8552,7 +8756,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:ismael-gharbi",
@@ -8563,6 +8767,7 @@
     "name": "Ismael Gharbi",
     "match_key": "ismael gharbi",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8596,7 +8801,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:khalil-ayari",
@@ -8607,6 +8812,7 @@
     "name": "Khalil Ayari",
     "match_key": "khalil ayari",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8626,7 +8832,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:mohamed-amine-ben-hamida",
@@ -8637,6 +8843,7 @@
     "name": "Mohamed Amine Ben Hamida",
     "match_key": "mohamed amine ben hamida",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -8667,7 +8874,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:montassar-talbi",
@@ -8678,6 +8885,7 @@
     "name": "Montassar Talbi",
     "match_key": "montassar talbi",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8709,7 +8917,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:mortadha-ben-ouanes",
@@ -8720,6 +8928,7 @@
     "name": "Mortadha Ben Ouanes",
     "match_key": "mortadha ben ouanes",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8745,7 +8954,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:moutaz-neffati",
@@ -8756,6 +8965,7 @@
     "name": "Moutaz Neffati",
     "match_key": "moutaz neffati",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8780,7 +8990,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:omar-rekik",
@@ -8791,6 +9001,7 @@
     "name": "Omar Rekik",
     "match_key": "omar rekik",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8823,7 +9034,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:raed-chikhaoui",
@@ -8834,12 +9045,17 @@
     "name": "Raed Chikhaoui",
     "match_key": "raed chikhaoui",
     "match_status": "missing",
-    "confidence": "none",
-    "resolution_method": "not_found",
+    "identity_status": "platform_identity_with_external_refs",
+    "confidence": "medium",
+    "resolution_method": "platform_external_refs_no_reep_row",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
+    "provider_refs": {
+      "key_transfermarkt": "1075790",
+      "key_fotmob": "1721242",
+      "key_sofascore": "2018330"
+    },
     "candidates": [],
     "manual_review": null,
     "external_evidence": {
@@ -8858,7 +9074,7 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or provider ID for Raed Chikhaoui, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:rani-khedira",
@@ -8869,6 +9085,7 @@
     "name": "Rani Khedira",
     "match_key": "rani khedira",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8900,7 +9117,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:rayan-elloumi",
@@ -8911,6 +9128,7 @@
     "name": "Rayan Elloumi",
     "match_key": "rayan elloumi",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -8934,7 +9152,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:sabri-ben-hassan",
@@ -8945,6 +9163,7 @@
     "name": "Sabri Ben Hassan",
     "match_key": "sabri ben hassan",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "manual_review",
     "source": "reep",
@@ -8973,7 +9192,7 @@
       ]
     },
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:sebastian-tounekti",
@@ -8984,6 +9203,7 @@
     "name": "Sebastian Tounekti",
     "match_key": "sebastian tounekti",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -9013,7 +9233,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   },
   {
     "platform_person_id": "tunisia:player:yan-valery",
@@ -9024,6 +9244,7 @@
     "name": "Yan Valery",
     "match_key": "yan valery",
     "match_status": "exact_unique",
+    "identity_status": "mapped_to_reep",
     "confidence": "high",
     "resolution_method": "name_unique",
     "source": "reep",
@@ -9061,6 +9282,6 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-16T15:21:07Z"
+    "updated_at": "2026-05-16T15:51:26Z"
   }
 ]

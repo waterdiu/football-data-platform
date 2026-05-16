@@ -250,9 +250,15 @@ def build_id_map(
             candidate_payload = []
             resolution_method = "manual_review"
 
+        identity_status = "mapped_to_reep" if match_status == "exact_unique" else "unresolved"
         unresolved_evidence = None
         if match_status != "exact_unique":
             unresolved_evidence = external_evidence.get(platform_person_id)
+            if unresolved_evidence:
+                identity_status = "platform_identity_with_external_refs"
+                provider_refs = dict(unresolved_evidence.get("provider_refs") or {})
+                confidence = "medium"
+                resolution_method = "platform_external_refs_no_reep_row"
 
         counts[match_status] += 1
         row = (
@@ -265,6 +271,7 @@ def build_id_map(
                 "name": name,
                 "match_key": match_key,
                 "match_status": match_status,
+                "identity_status": identity_status,
                 "confidence": confidence,
                 "resolution_method": resolution_method,
                 "source": "reep",
@@ -404,6 +411,17 @@ def main() -> None:
         "players_considered": len(players),
         "rows_written": len(id_map),
         "counts": counts,
+        "identity_status_counts": {
+            "mapped_to_reep": sum(
+                1 for row in id_map if row.get("identity_status") == "mapped_to_reep"
+            ),
+            "platform_identity_with_external_refs": sum(
+                1
+                for row in id_map
+                if row.get("identity_status") == "platform_identity_with_external_refs"
+            ),
+            "unresolved": sum(1 for row in id_map if row.get("identity_status") == "unresolved"),
+        },
         "coverage": {
             "matched_count": counts["exact_unique"] + counts["ambiguous"],
             "unambiguous_count": counts["exact_unique"],
