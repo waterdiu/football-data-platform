@@ -199,7 +199,7 @@
 
 - 足球实体身份映射库。
 - 覆盖球员、教练、球队、赛事、赛季。
-- `people.csv` 约 48.8 万人。
+- `people.csv` 当前版本 444,707 人（Reep `meta.json` data_version `2026.17`）。
 - 支持 Transfermarkt、FBref、UEFA、Sofascore 等多 provider ID 映射。
 
 适配判断：
@@ -220,7 +220,7 @@
 - 接入前必须先做世界杯名单覆盖率验证，命中率低于 70% 则不作为世界杯人物映射主选。
 - 覆盖率验证脚本：`scripts/validate_reep_worldcup_coverage.py`
 - 覆盖率报告：`reports/reep_worldcup_coverage.json`
-- 当前状态：等待完整 `people.csv`；半截下载结果不得作为接入决策依据。
+- 当前状态：覆盖率验证已通过。基于当前 208 名已导入世界杯球员，命中 197 人，命中率 94.7115%，高于 70% 门槛；仍必须完成许可证审查和歧义匹配处理后才能进入正式 ID map。
 
 ### 4.2 StatsBomb Open Data
 

@@ -77,7 +77,7 @@ def load_reep_people_index(people_csv: Path, *, max_rows: Optional[int]) -> Reep
             raw_name = (row.get("name") or row.get("full_name") or row.get("display_name") or "").strip()
             if not raw_name:
                 continue
-            pid = (row.get("id") or row.get("person_id") or "").strip() or f"row:{row_count}"
+            pid = (row.get("reep_id") or row.get("id") or row.get("person_id") or "").strip() or f"row:{row_count}"
             key = norm_name(raw_name)
             by_norm_name.setdefault(key, set()).add(pid)
     return ReepPersonIndex(by_norm_name=by_norm_name, row_count=row_count if max_rows is None else min(row_count, max_rows))
@@ -156,9 +156,19 @@ def build_report(
                 f"Reep people.csv appears incomplete: indexed_rows={reep_index.row_count} "
                 f"expected_people_count={expected_people_count} fraction={fraction:.3f} (< {expected_min_fraction:.2f})."
             )
+    recommended_min_hit_rate = 0.70
+    coverage_passed = hit_rate >= recommended_min_hit_rate and not warnings
+    decision_status = "passed_coverage_gate" if coverage_passed else "blocked"
+    status = "coverage_validated" if coverage_passed else "coverage_not_validated"
+    reason = (
+        f"Complete Reep people.csv is available and name-only matching covers {matched} of {total} current World Cup roster players."
+        if coverage_passed
+        else "Reep people.csv coverage validation did not pass; see warnings and summary."
+    )
 
     return {
         "generated_at_utc": None,  # set by caller
+        "status": status,
         "input": {
             "players_dataset": "data/public/players.json",
             "reep_people_csv_path": str(reep_people_csv),
@@ -174,13 +184,19 @@ def build_report(
             "ambiguous_matched_count": ambiguous,
             "ambiguous_rate_within_matched": round(ambiguous_rate, 6),
         },
+        "validation_gate": {
+            "recommended_min_hit_rate": recommended_min_hit_rate,
+            "decision_status": decision_status,
+            "license_review_required": True,
+            "reason": reason,
+        },
         "examples": {
             "misses": misses,
             "ambiguous_matches": ambiguous_examples,
         },
         "warnings": warnings,
         "interpretation": {
-            "recommended_min_hit_rate": 0.70,
+            "recommended_min_hit_rate": recommended_min_hit_rate,
             "notes": [
                 "This is name-only matching; false negatives are expected when a player uses diacritics, alternate spellings, or different tokenization.",
                 "Ambiguous matches indicate that name-only matching is insufficient; we should prefer provider IDs, DOB, or club to disambiguate where possible.",

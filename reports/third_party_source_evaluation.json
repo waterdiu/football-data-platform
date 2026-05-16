@@ -70,7 +70,16 @@
       "production_allowed": false,
       "normalized_allowed": true,
       "public_api_allowed": false,
-      "recommended_use": "candidate_for_person_id_map_after_license_review_and_worldcup_coverage_validation"
+      "recommended_use": "candidate_for_person_id_map_after_license_review",
+      "worldcup_coverage_validation": {
+        "status": "passed",
+        "report": "reports/reep_worldcup_coverage.json",
+        "worldcup_player_count": 208,
+        "matched_count": 197,
+        "hit_rate": 0.947115,
+        "ambiguous_matched_count": 10,
+        "license_review_required": true
+      }
     },
     {
       "source_id": "transfermarkt_datasets",
