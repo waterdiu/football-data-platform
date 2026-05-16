@@ -684,7 +684,7 @@ predictor phase 2 写回边界：
 - 模型项目后续不应直接写 `data/public`、`data/model` 或 `data/normalized`
 - 当前写回采用“双写”：保留模型项目本地输出作为兼容副本，同时写一份到平台 inbox；下游公共数据以平台发布结果为准
 - 切换状态由 `scripts/build_migration_status.py` 生成到 `data/public/api/migration-status.json`
-- 世界杯预测 inbox 是 predictor 旧格式对象，只能发布到 predictor source master；公共 `data/public/predictions.json` 必须由 `scripts/import_world_cup_predictions.py` 转换成标准列表格式，不能被 inbox 原文覆盖
+- 世界杯预测 inbox 是 predictor 旧格式对象，只能发布到 predictor source master；发布时 `scripts/publish_predictor_inbox.py` 必须用 `world_cup_2026_predictor_shared_fixtures_master.json` 回填 `kickoff_at/date_utc/venue/stage/neutral` 等赛程字段，避免旧格式 inbox 覆盖已补齐的 compatibility 字段；公共 `data/public/predictions.json` 必须由 `scripts/import_world_cup_predictions.py` 转换成标准列表格式，不能被 inbox 原文覆盖
 - `publish_predictor_inbox.py` 必须区分 `missing`、`empty`、`published`：空数组/空 JSONL 不能覆盖平台正式数据，只能在报告和迁移状态中暴露为未完成
 
 剩余数据层任务以专题文档为准：

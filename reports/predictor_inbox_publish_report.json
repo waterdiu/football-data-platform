@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-16T16:34:42.387200+00:00",
-  "published_at": "2026-05-16T16:34:42.387200+00:00",
+  "generated_at": "2026-05-16T17:07:18.579802+00:00",
+  "published_at": "2026-05-16T17:07:18.579802+00:00",
   "inbox_root": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor",
   "world_cup": [
     {
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor/worldcup-2026/predictions.json",
       "status": "published",
-      "published_at": "2026-05-16T16:34:42.387200+00:00",
+      "published_at": "2026-05-16T17:07:18.579802+00:00",
       "bytes": 1028549,
       "rows": 104,
       "destinations": {
@@ -58,7 +58,7 @@
     {
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor/premier-league/predictions.json",
       "status": "published",
-      "published_at": "2026-05-16T16:34:42.387200+00:00",
+      "published_at": "2026-05-16T17:07:18.579802+00:00",
       "bytes": 425088,
       "rows": 40,
       "destinations": {
@@ -68,7 +68,7 @@
     {
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor/premier-league/odds-snapshots.json",
       "status": "published",
-      "published_at": "2026-05-16T16:34:42.387200+00:00",
+      "published_at": "2026-05-16T17:07:18.579802+00:00",
       "bytes": 949883,
       "rows": 54,
       "destinations": {
@@ -78,9 +78,9 @@
     {
       "source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/inbox/predictor/premier-league/context-snapshots.jsonl",
       "status": "published",
-      "published_at": "2026-05-16T16:34:42.387200+00:00",
-      "bytes": 35819344,
-      "rows": 2180,
+      "published_at": "2026-05-16T17:07:18.579802+00:00",
+      "bytes": 37444875,
+      "rows": 2332,
       "destinations": {
         "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/premier_league_predictor_context_snapshots_master.jsonl"
       }

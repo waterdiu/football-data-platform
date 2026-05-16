@@ -78,6 +78,58 @@ def copy_file(source: Path, target: Path) -> None:
     shutil.copy2(source, target)
 
 
+def write_json(target: Path, payload: object) -> None:
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def enrich_world_cup_predictions_source(payload: object) -> object:
+    if not isinstance(payload, dict) or not isinstance(payload.get("fixtures"), list):
+        return payload
+    shared_path = NORMALIZED_DIR / "world_cup_2026_predictor_shared_fixtures_master.json"
+    if not shared_path.exists():
+        return payload
+    shared_payload = load_json(shared_path)
+    shared_fixtures = (
+        shared_payload.get("fixtures")
+        if isinstance(shared_payload, dict)
+        else shared_payload
+        if isinstance(shared_payload, list)
+        else []
+    )
+    if not isinstance(shared_fixtures, list):
+        return payload
+
+    supplemental_keys = (
+        "kickoff_at",
+        "date_utc",
+        "venue_id",
+        "venue_name",
+        "host_city",
+        "stage",
+        "round",
+        "group",
+        "venue_type",
+        "neutral",
+    )
+    supplemental_by_match_id = {
+        str(row.get("match_id") or ""): {
+            key: row[key]
+            for key in supplemental_keys
+            if key in row and row.get(key) is not None
+        }
+        for row in shared_fixtures
+        if isinstance(row, dict) and row.get("match_id")
+    }
+    for fixture in payload["fixtures"]:
+        if not isinstance(fixture, dict):
+            continue
+        supplemental = supplemental_by_match_id.get(str(fixture.get("match_id") or ""))
+        if supplemental:
+            fixture.update({key: value for key, value in supplemental.items() if key not in fixture})
+    return payload
+
+
 def now_utc() -> str:
     return datetime.now(timezone.utc).isoformat()
 
@@ -113,7 +165,10 @@ def publish_mapping(mapping: dict[str, dict[str, str]], *, published_at: str) ->
         normalized_name = destinations.get("normalized")
         if normalized_name:
             target = NORMALIZED_DIR / normalized_name
-            copy_file(source, target)
+            if relative_path == "worldcup-2026/predictions.json":
+                write_json(target, enrich_world_cup_predictions_source(load_json(source)))
+            else:
+                copy_file(source, target)
             copied_to["normalized"] = str(target)
 
         model_name = destinations.get("model")
