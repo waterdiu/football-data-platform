@@ -722,6 +722,7 @@ predictor 全量数据资产当前边界：
 - 已迁移：API-FOOTBALL 阵容和伤停采集，直接写 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
 - 已迁移：OpenWeather 天气采集，直接写 `data/normalized/world_cup_2026_model_weather_master.json`
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
+- 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`
 - 已配置：`configs/venues/world_cup_2026.json` 保存 16 个 2026 世界杯球场坐标
 - API-FOOTBALL fixture id map 缓存在 `data/runtime/api_football_fixture_map.json`，该目录不入 Git
 - 无 API key、公开新闻页不可达或无可采集数据时，collector 只写 report，不覆盖现有 model master

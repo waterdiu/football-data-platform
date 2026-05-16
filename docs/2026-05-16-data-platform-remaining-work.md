@@ -205,6 +205,12 @@ Owner:
 
 - `football-data-platform`
 
+Status:
+
+- First implementation completed in `scripts/build_world_cup_coverage.py`.
+- Current output includes per-match `runtime_summary` and field-level status/confidence/source/last_updated metadata where available.
+- Remaining work is to improve confidence scoring as real provider rows arrive and to add richer technical-stat/xG/player-rating sources if subscribed.
+
 Goal:
 
 - Maintain one per-match coverage table usable by site pages and predictor confidence logic.
@@ -241,8 +247,8 @@ Each field should include:
 
 Acceptance criteria:
 
-- Predictor can use coverage to downgrade runtime confidence.
-- Site can show missing-data states without hardcoding provider logic.
+- Predictor can use coverage to downgrade runtime confidence. Initial support is available through `runtime_summary`.
+- Site can show missing-data states without hardcoding provider logic. Initial support is available through field-level coverage objects.
 - Coverage is rebuilt after every collection/publish cycle.
 
 ### 6. World Cup Results And Match Stats Runtime Updates
