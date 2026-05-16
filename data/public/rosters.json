@@ -8,7 +8,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-13",
-    "updated_at": "2026-05-16T09:43:53.584068+00:00",
+    "updated_at": "2026-05-16T09:48:04.537202+00:00",
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
     "sources": [
       "official_fifa"
@@ -230,13 +230,241 @@
   {
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
+    "team_id": "bosnia-and-herzegovina",
+    "team_name": "Bosnia and Herzegovina",
+    "roster_type": "announced_26_provisional_until_fifa_final",
+    "source_status": "official_fifa",
+    "confidence": "high",
+    "published_at": "2026-05-10",
+    "updated_at": "2026-05-16T09:48:04.537202+00:00",
+    "source_url": "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {
+      "fifa_article": "bosnia-and-herzegovina-sergej-barbarez-names-squad"
+    },
+    "players": [
+      {
+        "player_id": "bosnia-and-herzegovina:player:osman-hadzikic",
+        "name": "Osman Hadzikic",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:nikola-vasilj",
+        "name": "Nikola Vasilj",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:martin-zlomislic",
+        "name": "Martin Zlomislic",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:nidal-celik",
+        "name": "Nidal Celik",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:amar-dedic",
+        "name": "Amar Dedic",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:dennis-hadzikadunic",
+        "name": "Dennis Hadzikadunic",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:nikola-katic",
+        "name": "Nikola Katic",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:sead-kolasinac",
+        "name": "Sead Kolasinac",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:tarik-muharemovic",
+        "name": "Tarik Muharemovic",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:nihad-mujakic",
+        "name": "Nihad Mujakic",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:stjepan-radeljic",
+        "name": "Stjepan Radeljic",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:kerim-alajbegovic",
+        "name": "Kerim Alajbegovic",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:esmir-bajraktarevic",
+        "name": "Esmir Bajraktarevic",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:ivan-basic",
+        "name": "Ivan Basic",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:dzenis-burnic",
+        "name": "Dzenis Burnic",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:armin-gigovic",
+        "name": "Armin Gigovic",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:amir-hadziahmetovic",
+        "name": "Amir Hadziahmetovic",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:ermin-mahmic",
+        "name": "Ermin Mahmic",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:amar-memic",
+        "name": "Amar Memic",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:ivan-sunjic",
+        "name": "Ivan Sunjic",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:benjamin-tahirovic",
+        "name": "Benjamin Tahirovic",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:samed-bazdar",
+        "name": "Samed Bazdar",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:ermedin-demirovic",
+        "name": "Ermedin Demirovic",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:edin-dzeko",
+        "name": "Edin Dzeko",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:jovo-lukic",
+        "name": "Jovo Lukic",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "bosnia-and-herzegovina:player:haris-tabakovic",
+        "name": "Haris Tabakovic",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      }
+    ]
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
     "team_id": "cote-divoire",
     "team_name": "Cote d'Ivoire",
     "roster_type": "announced_26_provisional_until_fifa_final",
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-15",
-    "updated_at": "2026-05-16T09:43:53.584068+00:00",
+    "updated_at": "2026-05-16T09:48:04.537202+00:00",
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae",
     "sources": [
       "official_fifa"
@@ -464,7 +692,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-14",
-    "updated_at": "2026-05-16T09:43:53.584068+00:00",
+    "updated_at": "2026-05-16T09:48:04.537202+00:00",
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
     "sources": [
       "official_fifa"
@@ -692,7 +920,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-15",
-    "updated_at": "2026-05-16T09:43:53.584068+00:00",
+    "updated_at": "2026-05-16T09:48:04.537202+00:00",
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne",
     "sources": [
       "official_fifa"
@@ -904,6 +1132,234 @@
       {
         "player_id": "haiti:player:ruben-providence",
         "name": "Ruben Providence",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      }
+    ]
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "team_id": "tunisia",
+    "team_name": "Tunisia",
+    "roster_type": "announced_26_provisional_until_fifa_final",
+    "source_status": "official_fifa",
+    "confidence": "high",
+    "published_at": "2026-05-15",
+    "updated_at": "2026-05-16T09:48:04.537202+00:00",
+    "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {
+      "fifa_article": "tunisia-squad-named-sabri-lamouchi"
+    },
+    "players": [
+      {
+        "player_id": "tunisia:player:sabri-ben-hassan",
+        "name": "Sabri Ben Hassan",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:abdelmouhib-chamakh",
+        "name": "Abdelmouhib Chamakh",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:aymen-dahmene",
+        "name": "Aymen Dahmene",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:ali-abdi",
+        "name": "Ali Abdi",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:mohamed-amine-ben-hamida",
+        "name": "Mohamed Amine Ben Hamida",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:adem-arous",
+        "name": "Adem Arous",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:dylan-bronn",
+        "name": "Dylan Bronn",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:raed-chikhaoui",
+        "name": "Raed Chikhaoui",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:moutaz-neffati",
+        "name": "Moutaz Neffati",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:omar-rekik",
+        "name": "Omar Rekik",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:montassar-talbi",
+        "name": "Montassar Talbi",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:yan-valery",
+        "name": "Yan Valery",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:mortadha-ben-ouanes",
+        "name": "Mortadha Ben Ouanes",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:anis-ben-slimane",
+        "name": "Anis Ben Slimane",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:ismael-gharbi",
+        "name": "Ismael Gharbi",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:rani-khedira",
+        "name": "Rani Khedira",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:hadj-mahmoud",
+        "name": "Hadj Mahmoud",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:hannibal-mejbri",
+        "name": "Hannibal Mejbri",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:ellyes-skhiri",
+        "name": "Ellyes Skhiri",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:elias-achouri",
+        "name": "Elias Achouri",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:khalil-ayari",
+        "name": "Khalil Ayari",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:firas-chaouat",
+        "name": "Firas Chaouat",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:rayan-elloumi",
+        "name": "Rayan Elloumi",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:hazem-mastouri",
+        "name": "Hazem Mastouri",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:elias-saad",
+        "name": "Elias Saad",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "tunisia:player:sebastian-tounekti",
+        "name": "Sebastian Tounekti",
         "position": "FW",
         "shirt_number": null,
         "club": null,

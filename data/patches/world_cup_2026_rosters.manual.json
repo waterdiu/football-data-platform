@@ -47,6 +47,47 @@
     {
       "competition_id": "fifa_world_cup",
       "season_id": "2026",
+      "team_id": "bosnia-and-herzegovina",
+      "roster_type": "announced_26_provisional_until_fifa_final",
+      "source_status": "official_fifa",
+      "confidence": "high",
+      "source_url": "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad",
+      "published_at": "2026-05-10",
+      "source_refs": {
+        "fifa_article": "bosnia-and-herzegovina-sergej-barbarez-names-squad"
+      },
+      "players": [
+        { "name": "Osman Hadzikic", "position": "GK" },
+        { "name": "Nikola Vasilj", "position": "GK" },
+        { "name": "Martin Zlomislic", "position": "GK" },
+        { "name": "Nidal Celik", "position": "DF" },
+        { "name": "Amar Dedic", "position": "DF" },
+        { "name": "Dennis Hadzikadunic", "position": "DF" },
+        { "name": "Nikola Katic", "position": "DF" },
+        { "name": "Sead Kolasinac", "position": "DF" },
+        { "name": "Tarik Muharemovic", "position": "DF" },
+        { "name": "Nihad Mujakic", "position": "DF" },
+        { "name": "Stjepan Radeljic", "position": "DF" },
+        { "name": "Kerim Alajbegovic", "position": "MF" },
+        { "name": "Esmir Bajraktarevic", "position": "MF" },
+        { "name": "Ivan Basic", "position": "MF" },
+        { "name": "Dzenis Burnic", "position": "MF" },
+        { "name": "Armin Gigovic", "position": "MF" },
+        { "name": "Amir Hadziahmetovic", "position": "MF" },
+        { "name": "Ermin Mahmic", "position": "MF" },
+        { "name": "Amar Memic", "position": "MF" },
+        { "name": "Ivan Sunjic", "position": "MF" },
+        { "name": "Benjamin Tahirovic", "position": "MF" },
+        { "name": "Samed Bazdar", "position": "FW" },
+        { "name": "Ermedin Demirovic", "position": "FW" },
+        { "name": "Edin Dzeko", "position": "FW" },
+        { "name": "Jovo Lukic", "position": "FW" },
+        { "name": "Haris Tabakovic", "position": "FW" }
+      ]
+    },
+    {
+      "competition_id": "fifa_world_cup",
+      "season_id": "2026",
       "team_id": "haiti",
       "roster_type": "announced_26_provisional_until_fifa_final",
       "source_status": "official_fifa",
@@ -165,6 +206,47 @@
         { "name": "Diego Moreira", "position": "FW" },
         { "name": "Alexis Saelemaekers", "position": "FW" },
         { "name": "Leandro Trossard", "position": "FW" }
+      ]
+    },
+    {
+      "competition_id": "fifa_world_cup",
+      "season_id": "2026",
+      "team_id": "tunisia",
+      "roster_type": "announced_26_provisional_until_fifa_final",
+      "source_status": "official_fifa",
+      "confidence": "high",
+      "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi",
+      "published_at": "2026-05-15",
+      "source_refs": {
+        "fifa_article": "tunisia-squad-named-sabri-lamouchi"
+      },
+      "players": [
+        { "name": "Sabri Ben Hassan", "position": "GK" },
+        { "name": "Abdelmouhib Chamakh", "position": "GK" },
+        { "name": "Aymen Dahmene", "position": "GK" },
+        { "name": "Ali Abdi", "position": "DF" },
+        { "name": "Mohamed Amine Ben Hamida", "position": "DF" },
+        { "name": "Adem Arous", "position": "DF" },
+        { "name": "Dylan Bronn", "position": "DF" },
+        { "name": "Raed Chikhaoui", "position": "DF" },
+        { "name": "Moutaz Neffati", "position": "DF" },
+        { "name": "Omar Rekik", "position": "DF" },
+        { "name": "Montassar Talbi", "position": "DF" },
+        { "name": "Yan Valery", "position": "DF" },
+        { "name": "Mortadha Ben Ouanes", "position": "MF" },
+        { "name": "Anis Ben Slimane", "position": "MF" },
+        { "name": "Ismael Gharbi", "position": "MF" },
+        { "name": "Rani Khedira", "position": "MF" },
+        { "name": "Hadj Mahmoud", "position": "MF" },
+        { "name": "Hannibal Mejbri", "position": "MF" },
+        { "name": "Ellyes Skhiri", "position": "MF" },
+        { "name": "Elias Achouri", "position": "FW" },
+        { "name": "Khalil Ayari", "position": "FW" },
+        { "name": "Firas Chaouat", "position": "FW" },
+        { "name": "Rayan Elloumi", "position": "FW" },
+        { "name": "Hazem Mastouri", "position": "FW" },
+        { "name": "Elias Saad", "position": "FW" },
+        { "name": "Sebastian Tounekti", "position": "FW" }
       ]
     }
   ]
