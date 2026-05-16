@@ -593,6 +593,20 @@ api/worldcup/2026/predictor/bundle.json
 api/predictor/data-assets/manifest.json
 ```
 
+### 9.5 时间字段
+
+平台是比赛时间和采集时间的事实源。所有时间字段统一使用 UTC ISO 8601 格式存储，例如：
+
+- `kickoff_at`
+- `date_utc`
+- `captured_at`
+- `generated_at`
+- `updated_at`
+- `published_at`
+- `last_checked_at`
+
+消费项目负责在展示层转换为用户本地时区。数据层和模型层不得把本地时区时间写入 master/public API。
+
 ## 10. 发布和运行方式
 
 ### 10.1 只发布已有模型 inbox
@@ -631,7 +645,7 @@ python3 scripts/publish_world_cup_predictor_api.py
 | 问题 | 影响 | 当前处理 |
 |---|---|---|
 | The Odds API Starter 额度已用完 | 无法验证 2026 odds coverage | 等额度恢复或升级 |
-| OpenWeather key 401 | weather 仍为 missing | 建议接 Open-Meteo |
+| OpenWeather key 401 | weather 仍为 missing | 已接 Open-Meteo fallback；关闭条件：Open-Meteo adapter 完成、weather 字段从 missing 变 partial/available、至少验证 3 场比赛天气数据与球场/开球时间匹配 |
 | API-FOOTBALL free plan 不支持 2026 season | lineups/injuries 仍为 missing | 需要付费或替代源 |
 | 2026 世界杯正赛尚未开赛 | lineups/events/stats 天然不可用 | coverage 标记 missing/partial |
 | `soccer/` 根目录不是 git 仓库 | 全局状态文件不随平台 repo 提交 | 本机共享文档维护 |

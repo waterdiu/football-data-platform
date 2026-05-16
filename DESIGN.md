@@ -47,6 +47,8 @@
 
 它不负责前端页面、不负责模型训练、不负责用户系统。
 
+平台统一使用 UTC ISO 8601 时间格式。所有 `kickoff_at`、`date_utc`、`captured_at`、`generated_at`、`updated_at`、`published_at`、`last_checked_at` 均按 UTC 存储；消费项目负责在展示层转换为用户本地时区。
+
 ## 2. Goals
 
 核心目标：
