@@ -43,7 +43,7 @@
 
 其中人物档案层负责球员、教练和裁判的基础档案、能力量化输入、风格标签和可解释画像。人物能力值必须由可追溯数据计算或人工官方 patch 进入，不允许无来源主观赋值。
 
-国内源、逆向接口和爬虫项目只能作为候选源进入评估流程。雷速、懂球帝、500 彩票、竞彩网、HKJC 非授权接口、Transfermarkt 非公开接口等默认不得进入生产发布链路；如果做实验，只能落在 `data/raw/experimental`，经过人工审核和交叉验证后才允许以明确的 `source_status` 进入 normalized。
+国内源、逆向接口和爬虫项目只能作为候选源进入评估流程。雷速、懂球帝、500 彩票、竞彩网、HKJC 非授权接口、Transfermarkt 非公开接口等默认不得进入生产发布链路；如果做实验，只能落在 `data/raw/experimental`，经过人工审核和交叉验证后才允许以明确的 `source_status` 进入 normalized。对于身份映射类第三方数据（如 Reep），在许可证审查之外，还必须先做世界杯名单覆盖率验证（脚本 `scripts/validate_reep_worldcup_coverage.py`，报告 `reports/reep_worldcup_coverage.json`）再决定是否进入后续接入计划。
 
 它不负责前端页面、不负责模型训练、不负责用户系统。
 

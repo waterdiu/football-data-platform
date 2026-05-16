@@ -109,6 +109,19 @@
 - 如需验证，只放 `data/raw/experimental/leisu`。
 - 转入 normalized 前必须人工确认，并标记 `source_status=experimental_third_party_verified`。
 
+### 3.2.1 雪缘园（OKOOO）补充评估（重要）
+
+定位：雪缘园（`okooo.com`）相对“资讯平台”更偏竞彩聚合与历史数据展示，潜在价值不在于实时抓取，而在于：
+
+- 历史赛果/赔率的离线校验与回测补充（尤其是国内联赛、杯赛、竞彩口径的历史赔率走势）。
+- 作为“历史一致性验证补源”，用于检测主源的缺失或异常（不用于实时生产采集）。
+
+平台策略：
+
+- 默认不进入生产采集流水线。
+- 允许以“离线一次性导入 + 人工抽样校验”的方式落 `data/raw/experimental/okooo`。
+- 只有在明确授权/条款允许、并且与至少一个官方/授权源交叉验证通过后，才允许以 `verified_third_party` 状态进入 `data/normalized`（且默认不发布 public API）。
+
 ### 3.3 500 彩票 / 中国竞彩网相关
 
 检索结论：
@@ -149,16 +162,30 @@
 |---|---|
 | 数据覆盖 | 足球比赛、赔率 |
 | 稳定性 | 中 |
-| 合规风险 | 中到高，需确认使用条款 |
+| 合规风险 | 中到高，必须优先确认使用条款 |
 | 上手成本 | 低到中 |
-| 是否进生产 | 暂不进 |
-| 推荐用途 | 赔率字段结构研究、香港盘口校验 |
+| 是否进生产 | 条款确认前不进；条款允许后可作为“硬书商基准”候选 |
+| 推荐用途 | 合规优先验证；若允许，作为 sharp bookmaker 赔率补源/校验源 |
 
 平台策略：
 
-- 可列入 `experimental_licensed_review_required`。
-- 需要先确认 HKJC 条款和接口使用限制。
-- 不直接发布 public API。
+- 将 HKJC 从“字段结构实验”提升为“优先合规验证”事项（先看条款，再谈接入）。
+- 条款确认前，依然只允许落 `data/raw/experimental/hkjc`（且低频抓取）。
+- 若条款允许进入数据分析/研究用途，再评估是否进入 `data/normalized` 的 `odds` 校验链路（仍默认不发布 public API）。
+
+### 3.5 国内授权商业数据 API（调研占位）
+
+现状：本阶段尚未选定“明确授权、可稳定使用”的国内商业足球数据 API 供应商。
+
+为什么要单列这一类：
+
+- 合规风险显著低于逆向/抓包。
+- 稳定性和可维护性更适合进入生产采集链路。
+
+平台策略：
+
+- 后续若引入，必须把授权证明/条款摘要写入 `docs/` 并在 `DESIGN.md` 的数据源表中登记。
+- 未完成条款确认前，不得进入 `data/normalized` 和 public API。
 
 ## 4. 非国内但高价值 GitHub 项目
 
@@ -190,6 +217,10 @@
 - 优先作为 `person_id_map_master` 的候选源。
 - 不覆盖 FIFA 官方名单。
 - 用于解决同名球员、不同平台 ID 映射问题。
+- 接入前必须先做世界杯名单覆盖率验证，命中率低于 70% 则不作为世界杯人物映射主选。
+- 覆盖率验证脚本：`scripts/validate_reep_worldcup_coverage.py`
+- 覆盖率报告：`reports/reep_worldcup_coverage.json`
+- 当前状态：等待完整 `people.csv`；半截下载结果不得作为接入决策依据。
 
 ### 4.2 StatsBomb Open Data
 
@@ -234,7 +265,7 @@
 | Reep | 人物 ID 映射 | 解决球员/教练跨平台 ID |
 | dcaribou transfermarkt-datasets | 人物基础档案补充 | 离线数据比爬虫稳 |
 | StatsBomb Open Data | 风格蒸馏样本 | 事件级数据权威 |
-| HKJC API | 赔率结构实验 | Node 包清晰，但需合规确认 |
+| HKJC API | 优先合规验证 | 若条款允许，可作为硬书商赔率基准候选 |
 
 ### 只做实验，不进生产
 
@@ -297,7 +328,16 @@ data/raw/experimental/
 4. 采集方式低频、可复现。
 5. `source_status` 明确标记为 `experimental_third_party_verified`。
 
-## 7. 对人物档案层的影响
+## 7. 30 天窗口内行动时间轴（建议）
+
+当前日期：2026-05-16；世界杯开赛：2026-06-11。
+
+- 本周：用 `scripts/validate_reep_worldcup_coverage.py` 验证 Reep 对已导入世界杯官方名单的覆盖率，决定是否继续推进 Reep 作为世界杯 ID 映射候选。
+- 本周：对 HKJC 做“条款与合规可用性”优先验证，结论写入本文件并同步更新 `reports/third_party_source_evaluation.json`。
+- 下周：接入 `dcaribou/transfermarkt-datasets` 的离线导入流程，用于补齐人物基础事实字段（不影响世界杯前主链路）。
+- 5 月底前：随着 FIFA/足协名单逐步公布，持续用 manual patch 流水线导入世界杯 rosters（见 roster 专题文档与脚本）。
+
+## 8. 对人物档案层的影响
 
 人物档案数据源优先级调整：
 
@@ -319,7 +359,7 @@ data/raw/experimental/
 - 正式赔率源仍优先可授权 API。
 - 雷速/HKJC/竞彩网等必须先做合规审查。
 
-## 8. 当前结论
+## 9. 当前结论
 
 国内源值得研究，但不是生产主链路的答案。
 

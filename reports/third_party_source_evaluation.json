@@ -18,6 +18,17 @@
       "recommended_use": "experimental_validation_only"
     },
     {
+      "source_id": "okooo",
+      "category": "domestic_historical_odds_and_results_pages",
+      "coverage": ["odds", "results", "fixtures"],
+      "stability": "low_medium",
+      "legal_risk": "high",
+      "production_allowed": false,
+      "normalized_allowed": false,
+      "public_api_allowed": false,
+      "recommended_use": "offline_experimental_import_for_historical_validation_only"
+    },
+    {
       "source_id": "dongqiudi",
       "category": "domestic_app_reverse_engineering",
       "coverage": ["news", "profiles", "match_context"],
@@ -48,7 +59,7 @@
       "production_allowed": false,
       "normalized_allowed": false,
       "public_api_allowed": false,
-      "recommended_use": "licensed_review_required_before_any_ingestion"
+      "recommended_use": "priority_compliance_verification_then_consider_as_sharp_baseline_candidate"
     },
     {
       "source_id": "reep",
@@ -59,7 +70,7 @@
       "production_allowed": false,
       "normalized_allowed": true,
       "public_api_allowed": false,
-      "recommended_use": "candidate_for_person_id_map_after_license_review"
+      "recommended_use": "candidate_for_person_id_map_after_license_review_and_worldcup_coverage_validation"
     },
     {
       "source_id": "transfermarkt_datasets",
@@ -82,6 +93,17 @@
       "normalized_allowed": true,
       "public_api_allowed": true,
       "recommended_use": "historical_style_evidence_and_model_training"
+    },
+    {
+      "source_id": "cn_authorized_commercial_api",
+      "category": "domestic_authorized_commercial_data_api",
+      "coverage": ["fixtures", "results", "odds", "lineups", "events", "stats"],
+      "stability": "unknown",
+      "legal_risk": "low_if_authorized",
+      "production_allowed": false,
+      "normalized_allowed": false,
+      "public_api_allowed": false,
+      "recommended_use": "research_and_vendor_due_diligence_placeholder"
     }
   ]
 }

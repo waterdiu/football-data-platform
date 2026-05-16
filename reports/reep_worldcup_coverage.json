@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": null,
+  "status": "waiting_for_complete_dataset",
+  "input": {
+    "players_dataset": "data/public/players.json",
+    "required_reep_file": "people.csv",
+    "expected_people_count": 444707,
+    "expected_file_size_bytes": 66058367
+  },
+  "summary": {
+    "worldcup_player_count": 208,
+    "matched_count": null,
+    "hit_rate": null,
+    "ambiguous_matched_count": null,
+    "ambiguous_rate_within_matched": null
+  },
+  "validation_gate": {
+    "recommended_min_hit_rate": 0.7,
+    "decision_status": "blocked",
+    "reason": "Complete Reep people.csv is not available locally yet. Previous partial-download results were discarded because they are not valid evidence."
+  },
+  "how_to_run": {
+    "command_example": "python3 scripts/validate_reep_worldcup_coverage.py --reep-people-csv /abs/path/to/reep/people.csv --expected-people-count 444707",
+    "script": "scripts/validate_reep_worldcup_coverage.py",
+    "output": "reports/reep_worldcup_coverage.json"
+  },
+  "notes": [
+    "Do not adopt Reep as the World Cup person ID mapping source until this report is regenerated with a complete people.csv.",
+    "The validation script warns when indexed rows are materially lower than the expected people count."
+  ]
+}
+
