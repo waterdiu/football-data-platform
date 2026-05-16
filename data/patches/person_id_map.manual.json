@@ -6,6 +6,91 @@
     "Each entry must include platform_person_id, provider_refs.reep_id, reviewed_by, reviewed_at, and evidence.",
     "Manual patch entries only resolve ID mapping; they must not change official roster facts."
   ],
-  "entries": []
+  "entries": [
+    {
+      "platform_person_id": "cote-divoire:player:mohamed-kone",
+      "provider_refs": {
+        "reep_id": "reep_p2814b17e",
+        "key_wikidata": "Q126365092",
+        "key_transfermarkt": "911985",
+        "key_api_football": "277046"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T14:50:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has position GK.",
+        "Selected Reep candidate is the only goalkeeper among same-name candidates and is a modern active player born 2002-03-07.",
+        "Other candidates are defender/forward/unknown or implausible for the current goalkeeper slot."
+      ]
+    },
+    {
+      "platform_person_id": "japan:player:hiroki-ito",
+      "provider_refs": {
+        "reep_id": "reep_pb37d26d2",
+        "key_wikidata": "Q30933054",
+        "key_transfermarkt": "353892",
+        "key_api_football": "32893"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T14:50:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has Japan defender context.",
+        "Selected Reep candidate is the active Japan defender born 1999-05-12 with broad modern provider coverage.",
+        "Alternative candidate is born 1978-07-27 and is implausible for the current roster."
+      ]
+    },
+    {
+      "platform_person_id": "japan:player:junya-ito",
+      "provider_refs": {
+        "reep_id": "reep_p020a0898",
+        "key_wikidata": "Q21913126",
+        "key_transfermarkt": "348791",
+        "key_api_football": "1942"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T14:50:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has Japan midfield/wing role context.",
+        "Selected Reep candidate is the established Japan winger born 1993-03-09 with national-team and API provider refs.",
+        "Alternative 1998 candidate has sparse provider coverage and does not match the established senior international profile."
+      ]
+    },
+    {
+      "platform_person_id": "sweden:player:daniel-svensson",
+      "provider_refs": {
+        "reep_id": "reep_p0e48554a",
+        "key_wikidata": "Q106967174",
+        "key_transfermarkt": "579287",
+        "key_api_football": "198654"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T14:50:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has Sweden defender context.",
+        "Selected Reep candidate is a Sweden defender born 2002-02-12 with national-team and API provider refs.",
+        "Alternative candidate is a Sweden midfielder born 1983-01-04 and is implausible for the current defender roster slot."
+      ]
+    },
+    {
+      "platform_person_id": "sweden:player:gustaf-nilsson",
+      "provider_refs": {
+        "reep_id": "reep_p35ce830e",
+        "key_wikidata": "Q18011169",
+        "key_transfermarkt": "320440",
+        "key_api_football": "15683"
+      },
+      "confidence": "high",
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-16T14:50:00Z",
+      "evidence": [
+        "Platform official FIFA roster row has Sweden forward context.",
+        "Selected Reep candidate is the active Sweden forward born 1997-05-23 with broad modern provider coverage.",
+        "Alternative candidate is born 1922-10-20 and cannot be the current roster player."
+      ]
+    }
+  ]
 }
-

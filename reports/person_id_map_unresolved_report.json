@@ -16,125 +16,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
-  },
-  {
-    "platform_person_id": "cote-divoire:player:mohamed-kone",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "cote-divoire",
-    "name": "Mohamed Kone",
-    "match_key": "mohamed kone",
-    "match_status": "ambiguous",
-    "confidence": "low",
-    "resolution_method": "needs_manual_review",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [
-      {
-        "reep_id": "reep_p6d054d82",
-        "name": "Mohamed Kone",
-        "full_name": null,
-        "date_of_birth": "1993-12-12",
-        "nationality": "Ivory Coast",
-        "position": "defender",
-        "provider_refs": {
-          "reep_id": "reep_p6d054d82",
-          "key_wikidata": "Q26776681",
-          "key_transfermarkt": "352807",
-          "key_fbref": "2ceffff0",
-          "key_soccerway": "399785",
-          "key_opta": "4hystxrwl043l28k1m55fmtbd",
-          "key_kicker": "mohamed-kone",
-          "key_footballdatabase_eu": "163553"
-        }
-      },
-      {
-        "reep_id": "reep_p02f0fcfb",
-        "name": "Mohamed Koné",
-        "full_name": null,
-        "date_of_birth": "2003-08-21",
-        "nationality": "Ivory Coast",
-        "position": null,
-        "provider_refs": {
-          "reep_id": "reep_p02f0fcfb",
-          "key_wikidata": "Q109418528",
-          "key_transfermarkt": "929686",
-          "key_sofascore": "1155395",
-          "key_opta": "42l9qquly4z8pcmjhln9x2784",
-          "key_worldfootball": "mohamed-kone_5",
-          "key_kicker": "mohamed-kone-2",
-          "key_footballdatabase_eu": "470381",
-          "key_api_football": "343483",
-          "key_thesportsdb": "34232853",
-          "key_skillcorner": "507858",
-          "key_wyscout": "789325",
-          "key_impect": "116070",
-          "key_heimspiel": "813936"
-        }
-      },
-      {
-        "reep_id": "reep_p2814b17e",
-        "name": "Mohamed Koné",
-        "full_name": null,
-        "date_of_birth": "2002-03-07",
-        "nationality": "Ivory Coast",
-        "position": "goalkeeper",
-        "provider_refs": {
-          "reep_id": "reep_p2814b17e",
-          "key_wikidata": "Q126365092",
-          "key_transfermarkt": "911985",
-          "key_soccerway": "668475",
-          "key_sofascore": "1131009",
-          "key_opta": "aii8591dg0iyw94cpenppgzro",
-          "key_espn": "323997",
-          "key_worldfootball": "mohamed-kone_3",
-          "key_kicker": "mohamed-kone-3",
-          "key_uefa": "250171302",
-          "key_api_football": "277046",
-          "key_thesportsdb": "34231198",
-          "key_skillcorner": "59958",
-          "key_wyscout": "756414",
-          "key_impect": "103168",
-          "key_heimspiel": "782581"
-        }
-      },
-      {
-        "reep_id": "reep_p024d4d98",
-        "name": "Mohamed Koné",
-        "full_name": null,
-        "date_of_birth": "1984-02-28",
-        "nationality": "Ivory Coast",
-        "position": "forward",
-        "provider_refs": {
-          "reep_id": "reep_p024d4d98",
-          "key_wikidata": "Q444557",
-          "key_transfermarkt": "173649",
-          "key_soccerway": "113795",
-          "key_sofascore": "871957",
-          "key_worldfootball": "mohamed-kone",
-          "key_footballdatabase_eu": "134003"
-        }
-      },
-      {
-        "reep_id": "reep_pcac83549",
-        "name": "Mohamed Koné",
-        "full_name": null,
-        "date_of_birth": "2007-07-03",
-        "nationality": null,
-        "position": null,
-        "provider_refs": {
-          "reep_id": "reep_pcac83549",
-          "key_wikidata": "reep_pcac83549",
-          "key_opta": "7xmgwixb017qg8et1d6gioowk"
-        }
-      }
-    ],
-    "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   },
   {
     "platform_person_id": "haiti:player:johny-placide",
@@ -153,7 +35,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   },
   {
     "platform_person_id": "haiti:player:louicius-deedson",
@@ -172,7 +54,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   },
   {
     "platform_person_id": "haiti:player:woodensky-pierre",
@@ -191,276 +73,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
-  },
-  {
-    "platform_person_id": "japan:player:hiroki-ito",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "japan",
-    "name": "Hiroki Ito",
-    "match_key": "hiroki ito",
-    "match_status": "ambiguous",
-    "confidence": "low",
-    "resolution_method": "needs_manual_review",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [
-      {
-        "reep_id": "reep_p63d0a10b",
-        "name": "Hiroki Ito",
-        "full_name": null,
-        "date_of_birth": "1978-07-27",
-        "nationality": "Japan",
-        "position": "defender",
-        "provider_refs": {
-          "reep_id": "reep_p63d0a10b",
-          "key_wikidata": "Q275827",
-          "key_transfermarkt": "79471",
-          "key_fbref": "ff31bc93",
-          "key_soccerway": "5445",
-          "key_sofascore": "19327",
-          "key_worldfootball": "hiroki-ito",
-          "key_footballdatabase_eu": "53265"
-        }
-      },
-      {
-        "reep_id": "reep_pb37d26d2",
-        "name": "Hiroki Itō",
-        "full_name": null,
-        "date_of_birth": "1999-05-12",
-        "nationality": "Japan",
-        "position": "defender",
-        "provider_refs": {
-          "reep_id": "reep_pb37d26d2",
-          "key_wikidata": "Q30933054",
-          "key_transfermarkt": "353892",
-          "key_fbref": "204dded0",
-          "key_soccerway": "475679",
-          "key_sofascore": "873106",
-          "key_opta": "8p2yagsx6ujdbmeonkd3u4c89",
-          "key_11v11": "270276",
-          "key_espn": "97111",
-          "key_national_football_teams": "87658",
-          "key_worldfootball": "hiroki-ito_2",
-          "key_soccerbase": "140240",
-          "key_kicker": "hiroki-ito",
-          "key_uefa": "250181455",
-          "key_besoccer": "379334",
-          "key_footballdatabase_eu": "322911",
-          "key_api_football": "32893",
-          "key_fotmob": "851626",
-          "key_thesportsdb": "34193542",
-          "key_skillcorner": "61973",
-          "key_wyscout": "494348",
-          "key_impect": "50078",
-          "key_heimspiel": "485355"
-        }
-      }
-    ],
-    "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
-  },
-  {
-    "platform_person_id": "japan:player:junya-ito",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "japan",
-    "name": "Junya Ito",
-    "match_key": "junya ito",
-    "match_status": "ambiguous",
-    "confidence": "low",
-    "resolution_method": "needs_manual_review",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [
-      {
-        "reep_id": "reep_p1f5d1c10",
-        "name": "Junya Ito",
-        "full_name": null,
-        "date_of_birth": "1998-04-12",
-        "nationality": "Japan",
-        "position": "midfielder",
-        "provider_refs": {
-          "reep_id": "reep_p1f5d1c10",
-          "key_wikidata": "Q27968731",
-          "key_transfermarkt": "444096",
-          "key_soccerway": "909535"
-        }
-      },
-      {
-        "reep_id": "reep_p020a0898",
-        "name": "Junya Itō",
-        "full_name": null,
-        "date_of_birth": "1993-03-09",
-        "nationality": "Japan",
-        "position": "winger",
-        "provider_refs": {
-          "reep_id": "reep_p020a0898",
-          "key_wikidata": "Q21913126",
-          "key_transfermarkt": "348791",
-          "key_fbref": "dbd3a428",
-          "key_soccerway": "392263",
-          "key_sofascore": "783278",
-          "key_opta": "cmrdm4nnd62inlvsnc52vkicp",
-          "key_11v11": "258305",
-          "key_espn": "219350",
-          "key_national_football_teams": "69824",
-          "key_worldfootball": "junya-ito",
-          "key_soccerbase": "109604",
-          "key_kicker": "junya-ito",
-          "key_uefa": "250128246",
-          "key_lequipe": "72140",
-          "key_besoccer": "244831",
-          "key_footballdatabase_eu": "257309",
-          "key_api_football": "1942",
-          "key_thesportsdb": "34175630",
-          "key_skillcorner": "23834",
-          "key_wyscout": "365878",
-          "key_impect": "49060",
-          "key_heimspiel": "389338"
-        }
-      }
-    ],
-    "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
-  },
-  {
-    "platform_person_id": "sweden:player:daniel-svensson",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "sweden",
-    "name": "Daniel Svensson",
-    "match_key": "daniel svensson",
-    "match_status": "ambiguous",
-    "confidence": "low",
-    "resolution_method": "needs_manual_review",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [
-      {
-        "reep_id": "reep_p0e48554a",
-        "name": "Daniel Svensson",
-        "full_name": null,
-        "date_of_birth": "2002-02-12",
-        "nationality": "Sweden",
-        "position": "defender",
-        "provider_refs": {
-          "reep_id": "reep_p0e48554a",
-          "key_wikidata": "Q106967174",
-          "key_transfermarkt": "579287",
-          "key_soccerway": "645300",
-          "key_sofascore": "1021272",
-          "key_opta": "c9e54hwefvwos94ri459uylbe",
-          "key_espn": "310709",
-          "key_national_football_teams": "96032",
-          "key_worldfootball": "daniel-svensson_3",
-          "key_soccerbase": "136484",
-          "key_kicker": "daniel-svensson",
-          "key_uefa": "250156423",
-          "key_footballdatabase_eu": "401351",
-          "key_fbref_verified": "124c9382",
-          "key_api_football": "198654",
-          "key_fotmob": "1209228",
-          "key_thesportsdb": "34175869",
-          "key_skillcorner": "34657",
-          "key_wyscout": "636225",
-          "key_impect": "68842",
-          "key_heimspiel": "694397"
-        }
-      },
-      {
-        "reep_id": "reep_p3c1ac37e",
-        "name": "Daniel Svensson",
-        "full_name": null,
-        "date_of_birth": "1983-01-04",
-        "nationality": "Sweden",
-        "position": "midfielder",
-        "provider_refs": {
-          "reep_id": "reep_p3c1ac37e",
-          "key_wikidata": "Q5218874",
-          "key_transfermarkt": "35738",
-          "key_fbref": "b28d9a6f",
-          "key_sofascore": "8269",
-          "key_footballdatabase_eu": "159470"
-        }
-      }
-    ],
-    "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
-  },
-  {
-    "platform_person_id": "sweden:player:gustaf-nilsson",
-    "person_type": "player",
-    "competition_id": "fifa_world_cup",
-    "season_id": "2026",
-    "team_id": "sweden",
-    "name": "Gustaf Nilsson",
-    "match_key": "gustaf nilsson",
-    "match_status": "ambiguous",
-    "confidence": "low",
-    "resolution_method": "needs_manual_review",
-    "source": "reep",
-    "source_license": "CC0-1.0",
-    "source_version": "2026.17",
-    "provider_refs": {},
-    "candidates": [
-      {
-        "reep_id": "reep_p35ce830e",
-        "name": "Gustaf Nilsson",
-        "full_name": null,
-        "date_of_birth": "1997-05-23",
-        "nationality": "Sweden",
-        "position": "forward",
-        "provider_refs": {
-          "reep_id": "reep_p35ce830e",
-          "key_wikidata": "Q18011169",
-          "key_transfermarkt": "320440",
-          "key_fbref": "a7d48b00",
-          "key_soccerway": "347913",
-          "key_sofascore": "572286",
-          "key_opta": "15odj8wui8136996wi2d5t7md",
-          "key_espn": "238183",
-          "key_national_football_teams": "69891",
-          "key_worldfootball": "gustaf-nilsson_2",
-          "key_kicker": "gustaf-nilsson",
-          "key_uefa": "250090719",
-          "key_footballdatabase_eu": "237813",
-          "key_eu_football_info": "30100",
-          "key_api_football": "15683",
-          "key_thesportsdb": "34220607",
-          "key_skillcorner": "28110",
-          "key_wyscout": "332860",
-          "key_impect": "13653",
-          "key_heimspiel": "357628"
-        }
-      },
-      {
-        "reep_id": "reep_pc8dd1ebb",
-        "name": "Gustaf Nilsson",
-        "full_name": null,
-        "date_of_birth": "1922-10-20",
-        "nationality": "Sweden",
-        "position": "forward",
-        "provider_refs": {
-          "reep_id": "reep_pc8dd1ebb",
-          "key_wikidata": "Q5621004",
-          "key_national_football_teams": "45319",
-          "key_eu_football_info": "15160"
-        }
-      }
-    ],
-    "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   },
   {
     "platform_person_id": "sweden:player:jacob-zetterstrom",
@@ -479,7 +92,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   },
   {
     "platform_person_id": "tunisia:player:abdelmouhib-chamakh",
@@ -498,7 +111,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   },
   {
     "platform_person_id": "tunisia:player:aymen-dahmene",
@@ -517,7 +130,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   },
   {
     "platform_person_id": "tunisia:player:hadj-mahmoud",
@@ -536,7 +149,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   },
   {
     "platform_person_id": "tunisia:player:mohamed-amine-ben-hamida",
@@ -555,7 +168,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   },
   {
     "platform_person_id": "tunisia:player:raed-chikhaoui",
@@ -574,7 +187,7 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   },
   {
     "platform_person_id": "tunisia:player:sabri-ben-hassan",
@@ -593,6 +206,6 @@
     "provider_refs": {},
     "candidates": [],
     "manual_review": null,
-    "updated_at": "2026-05-16T14:37:23Z"
+    "updated_at": "2026-05-16T14:46:59Z"
   }
 ]
