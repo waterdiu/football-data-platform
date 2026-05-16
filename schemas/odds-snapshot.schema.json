@@ -12,9 +12,17 @@
     "commence_time": { "type": ["string", "null"] },
     "captured_at": { "type": ["string", "null"] },
     "snapshot_kind": { "type": ["string", "null"] },
+    "provider": { "type": ["string", "null"] },
     "bookmakers": { "type": "array" },
     "bookmaker_count": { "type": "integer", "minimum": 0 },
-    "has_sharp": { "type": "boolean" }
+    "has_sharp": { "type": "boolean" },
+    "markets": { "type": "object" },
+    "h2h": { "type": ["object", "null"] },
+    "over_under": { "type": ["object", "null"] },
+    "asian_handicap": { "type": ["object", "null"] },
+    "has_1x2": { "type": "boolean" },
+    "has_over_under": { "type": "boolean" },
+    "has_asian_handicap": { "type": "boolean" }
   },
   "additionalProperties": true
 }

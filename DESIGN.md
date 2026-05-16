@@ -719,6 +719,7 @@ predictor 全量数据资产当前边界：
 当前迁移边界：
 
 - 已迁移：The Odds API 赔率采集，直接写 `data/normalized/world_cup_2026_model_odds_master.json`
+- 已增强：The Odds API 标准化输出 `h2h`、`over_under`、`asian_handicap`、`has_1x2`、`has_over_under`、`has_asian_handicap`，coverage 可直接识别 1X2 / 大小球 / 亚盘覆盖
 - 已迁移：API-FOOTBALL 阵容和伤停采集，直接写 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
 - 已迁移：OpenWeather 天气采集，直接写 `data/normalized/world_cup_2026_model_weather_master.json`
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
@@ -734,7 +735,8 @@ predictor 全量数据资产当前边界：
 该入口支持：
 
 - `--skip-capture`：只发布已有 predictor inbox
-- `--collect-platform-runtime`：同时运行平台自有 collector，逐步替代模型侧 runtime 采集
+- `--collect-platform-runtime`：运行平台自有 collector
+- `--legacy-predictor-capture`：显式运行模型侧旧采集器，仅用于本地诊断/兼容
 
 写入权限必须明确：
 

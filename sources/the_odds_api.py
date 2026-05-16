@@ -2,14 +2,25 @@ from __future__ import annotations
 
 import json
 import os
+import ssl
 from urllib.parse import urlencode
 from urllib.request import urlopen
 
+try:
+    import certifi
+except ImportError:  # pragma: no cover - fallback for minimal Python runtimes.
+    certifi = None
+
 THE_ODDS_API_BASE_URL = "https://api.the-odds-api.com/v4/sports"
-DEFAULT_MARKETS = "h2h"
+DEFAULT_MARKETS = "h2h,spreads,totals"
 DEFAULT_REGIONS = "eu,us"
 DEFAULT_ODDS_FORMAT = "decimal"
 SHARP_BOOKMAKERS = {"pinnacle", "betfair", "matchbook"}
+MARKET_ALIASES = {
+    "h2h": "h2h",
+    "spreads": "asian_handicap",
+    "totals": "over_under",
+}
 
 
 def normalize_team_name(value: str) -> str:
@@ -36,7 +47,8 @@ def fetch_odds_events(
         }
     )
     url = f"{THE_ODDS_API_BASE_URL}/{sport_key}/odds?{query}"
-    with urlopen(url, timeout=30) as response:
+    context = ssl.create_default_context(cafile=certifi.where() if certifi else None)
+    with urlopen(url, timeout=30, context=context) as response:
         payload = json.loads(response.read().decode("utf-8"))
     return payload if isinstance(payload, list) else []
 
@@ -81,6 +93,7 @@ def normalize_odds_event(
         for bookmaker in bookmakers
         if isinstance(bookmaker, dict)
     }
+    markets = summarize_markets(bookmakers)
     return {
         "match_id": fixture["match_id"],
         "sport_key": sport_key,
@@ -94,8 +107,109 @@ def normalize_odds_event(
         "bookmakers": bookmakers,
         "bookmaker_count": len(bookmakers),
         "has_sharp": bool(bookmaker_keys & SHARP_BOOKMAKERS),
+        "markets": markets,
+        "h2h": markets.get("h2h"),
+        "over_under": markets.get("over_under"),
+        "asian_handicap": markets.get("asian_handicap"),
+        "has_1x2": bool(markets.get("h2h", {}).get("bookmaker_count")),
+        "has_over_under": bool(markets.get("over_under", {}).get("bookmaker_count")),
+        "has_asian_handicap": bool(markets.get("asian_handicap", {}).get("bookmaker_count")),
         "raw_event_id": event.get("id"),
     }
+
+
+def summarize_markets(bookmakers: list[dict]) -> dict[str, dict]:
+    summaries = {
+        "h2h": empty_market_summary("h2h"),
+        "over_under": empty_market_summary("over_under"),
+        "asian_handicap": empty_market_summary("asian_handicap"),
+    }
+    for bookmaker in bookmakers:
+        if not isinstance(bookmaker, dict):
+            continue
+        bookmaker_key = str(bookmaker.get("key") or bookmaker.get("title") or "unknown")
+        bookmaker_title = str(bookmaker.get("title") or bookmaker_key)
+        for market in bookmaker.get("markets") or []:
+            if not isinstance(market, dict):
+                continue
+            normalized_key = MARKET_ALIASES.get(str(market.get("key") or ""), str(market.get("key") or ""))
+            if normalized_key not in summaries:
+                continue
+            append_market_outcomes(
+                summaries[normalized_key],
+                bookmaker_key=bookmaker_key,
+                bookmaker_title=bookmaker_title,
+                last_update=str(market.get("last_update") or bookmaker.get("last_update") or ""),
+                outcomes=market.get("outcomes") if isinstance(market.get("outcomes"), list) else [],
+            )
+    for summary in summaries.values():
+        finalize_market_summary(summary)
+    return summaries
+
+
+def empty_market_summary(market_key: str) -> dict:
+    return {
+        "market": market_key,
+        "bookmaker_count": 0,
+        "bookmakers": [],
+        "outcomes": [],
+        "best_prices": {},
+        "last_update": None,
+    }
+
+
+def append_market_outcomes(
+    summary: dict,
+    *,
+    bookmaker_key: str,
+    bookmaker_title: str,
+    last_update: str,
+    outcomes: list[dict],
+) -> None:
+    if bookmaker_key not in summary["bookmakers"]:
+        summary["bookmakers"].append(bookmaker_key)
+    if last_update and (summary["last_update"] is None or last_update > summary["last_update"]):
+        summary["last_update"] = last_update
+    for outcome in outcomes:
+        if not isinstance(outcome, dict):
+            continue
+        normalized = {
+            "bookmaker_key": bookmaker_key,
+            "bookmaker_title": bookmaker_title,
+            "name": outcome.get("name"),
+            "price": outcome.get("price"),
+        }
+        if "point" in outcome:
+            normalized["point"] = outcome.get("point")
+        summary["outcomes"].append(normalized)
+
+
+def finalize_market_summary(summary: dict) -> None:
+    summary["bookmaker_count"] = len(summary["bookmakers"])
+    best_prices: dict[str, dict] = {}
+    for outcome in summary["outcomes"]:
+        if not isinstance(outcome, dict):
+            continue
+        name = str(outcome.get("name") or "")
+        if not name:
+            continue
+        point = outcome.get("point")
+        key = f"{name}:{point}" if point is not None else name
+        price = outcome.get("price")
+        try:
+            numeric_price = float(price)
+        except (TypeError, ValueError):
+            continue
+        existing = best_prices.get(key)
+        if existing is None or numeric_price > float(existing.get("price") or 0):
+            best_prices[key] = {
+                "name": name,
+                "point": point,
+                "price": numeric_price,
+                "bookmaker_key": outcome.get("bookmaker_key"),
+                "bookmaker_title": outcome.get("bookmaker_title"),
+            }
+    summary["best_prices"] = best_prices
 
 
 def normalize_odds_events(

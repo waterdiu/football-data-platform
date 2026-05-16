@@ -77,6 +77,13 @@ Owner:
 
 - `football-data-platform`
 
+Status:
+
+- The Odds API adapter is platform-owned.
+- It requests `h2h,spreads,totals` by default.
+- It standardizes market summaries into `h2h`, `over_under`, `asian_handicap`, `has_1x2`, `has_over_under`, and `has_asian_handicap`.
+- Remaining work requires configured provider keys and provider coverage for 2026 World Cup fixtures.
+
 Goal:
 
 - Produce reliable World Cup odds datasets for prediction and health reporting.

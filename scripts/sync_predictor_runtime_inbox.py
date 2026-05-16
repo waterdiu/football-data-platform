@@ -68,7 +68,16 @@ def main() -> None:
         description="Capture predictor runtime outputs into inbox and republish platform runtime APIs."
     )
     parser.add_argument("--competition", choices=["world_cup", "premier_league", "all"], default="all")
-    parser.add_argument("--skip-capture", action="store_true", help="only publish existing inbox files")
+    parser.add_argument(
+        "--skip-capture",
+        action="store_true",
+        help="compatibility no-op; platform no longer captures production runtime data from predictor by default",
+    )
+    parser.add_argument(
+        "--legacy-predictor-capture",
+        action="store_true",
+        help="run predictor scheduled maintenance as a legacy/manual diagnostic path",
+    )
     parser.add_argument("--skip-odds", action="store_true", help="skip predictor odds capture")
     parser.add_argument("--skip-context", action="store_true", help="skip predictor context capture")
     parser.add_argument(
@@ -86,7 +95,7 @@ def main() -> None:
     parser.add_argument("--context-limit", type=int, default=None)
     args = parser.parse_args()
 
-    if not args.skip_capture:
+    if args.legacy_predictor_capture and not args.skip_capture:
         run_predictor_maintenance(args)
 
     run_platform_script("publish_predictor_inbox.py")

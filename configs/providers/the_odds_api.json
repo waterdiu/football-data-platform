@@ -3,5 +3,7 @@
   "type": "api",
   "datasets": ["odds_snapshots"],
   "auth_env": "THE_ODDS_API_KEY",
-  "notes": "Primary odds source for model and market comparison workflows."
+  "default_markets": ["h2h", "spreads", "totals"],
+  "standardized_markets": ["h2h", "asian_handicap", "over_under"],
+  "notes": "Primary odds source for model and market comparison workflows. The platform adapter normalizes 1X2, spreads/asian_handicap, and totals/over_under when provider coverage exists."
 }

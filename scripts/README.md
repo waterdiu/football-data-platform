@@ -125,15 +125,17 @@
   - 世界杯预测 inbox 保留 predictor 旧格式，只发布到 `world_cup_2026_predictor_predictions_source_master.json`；公共 `data/public/predictions.json` 必须通过 `import_world_cup_predictions.py` 转换成标准列表格式
   - 现在会区分 `missing` 和 `empty`：空数组/空 JSONL 不会覆盖平台已有正式数据，避免无数据采集误判为已发布
 - `sync_predictor_runtime_inbox.py`
-  - 本地入口，先调用兄弟仓库 `world-cup-predictor/backend/scripts/run_scheduled_maintenance.py` 采集 odds/context，再发布 predictor inbox
-  - 默认只跑 runtime 数据：odds + context，不跑 evaluation，predictions 需显式 `--include-predictions`
+  - 本地入口，发布 predictor inbox，并可运行平台自有 runtime collector
+  - Phase 3 后默认不再调用兄弟仓库 `world-cup-predictor/backend/scripts/run_scheduled_maintenance.py`
   - 采集后会串行刷新：predictor inbox、标准世界杯 predictions、`data/model/*`、coverage、worldcup runtime API、predictor API、source health、runtime health、migration status
   - 可用 `--skip-capture` 只发布已有 inbox，适合模型项目已经单独写入产物后的平台发布
-  - 可用 `--collect-platform-runtime` 同时运行平台自有运行期 collector，逐步替代对模型侧采集的依赖
-  - 该脚本依赖本地 sibling checkout，不能直接放到 GitHub Actions 的标准 runner 中运行
+  - 可用 `--collect-platform-runtime` 运行平台自有运行期 collector
+  - 可用 `--legacy-predictor-capture` 显式运行模型侧旧采集器，仅用于本地诊断/兼容
+  - 不使用 `--legacy-predictor-capture` 时，该脚本不依赖本地 sibling checkout
 - `collect_world_cup_runtime_data.py`
   - 平台自有运行期采集入口
   - 当前已迁移：The Odds API 赔率采集，输出 `data/normalized/world_cup_2026_model_odds_master.json`
+  - The Odds API 标准化输出包含 `h2h`、`over_under`、`asian_handicap`、`has_1x2`、`has_over_under`、`has_asian_handicap`
   - 当前已迁移：API-FOOTBALL 阵容和伤停采集，输出 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
   - 当前已迁移：OpenWeather 天气采集，输出 `data/normalized/world_cup_2026_model_weather_master.json`
   - 当前已迁移：公开新闻页赛前上下文采集，输出 `data/normalized/world_cup_2026_model_prematch_context_master.json`

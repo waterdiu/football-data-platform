@@ -88,6 +88,9 @@ def normalize_odds_rows(rows: list[dict[str, object]]) -> list[dict[str, object]
         bookmakers = item.get("bookmakers")
         if not isinstance(bookmakers, list):
             bookmakers = []
+        h2h = item.get("h2h") if isinstance(item.get("h2h"), dict) else None
+        over_under = item.get("over_under") if isinstance(item.get("over_under"), dict) else None
+        asian_handicap = item.get("asian_handicap") if isinstance(item.get("asian_handicap"), dict) else None
         normalized.append(
             {
                 "match_id": item.get("match_id"),
@@ -105,6 +108,13 @@ def normalize_odds_rows(rows: list[dict[str, object]]) -> list[dict[str, object]
                     and str(bookmaker.get("key") or "").strip().casefold() in SHARP_BOOKMAKERS
                     for bookmaker in bookmakers
                 ),
+                "markets": item.get("markets") or {},
+                "h2h": h2h,
+                "over_under": over_under,
+                "asian_handicap": asian_handicap,
+                "has_1x2": bool(item.get("has_1x2") or (h2h or {}).get("bookmaker_count")),
+                "has_over_under": bool(item.get("has_over_under") or (over_under or {}).get("bookmaker_count")),
+                "has_asian_handicap": bool(item.get("has_asian_handicap") or (asian_handicap or {}).get("bookmaker_count")),
             }
         )
     return normalized

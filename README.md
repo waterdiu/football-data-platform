@@ -271,7 +271,7 @@ python3 scripts/build_automation_readiness_report.py
 - 已覆盖世界杯 fixture inputs、predictions、storage/history、训练与英超相关脚本的基础读取
 - 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
 - 世界杯预测和英超预测已经通过 `data/inbox/predictor/**` 发布到平台
-- runtime odds、lineups、injuries、weather 和 context snapshots 的 inbox 文件当前仍缺失，等采样/上下文任务实际产出后自动进入同一发布流程
+- runtime odds、lineups、injuries、weather 和 prematch context 的生产采集责任已经迁到平台；模型项目只读取平台输出并按缺失情况降权
 - 当前切换状态以 `data/public/api/migration-status.json` 为准；平台强制读取阶段的期望状态是 `platform_strict_complete_with_runtime_gaps`
 
 ## Predictor Full Data Assets
@@ -330,13 +330,21 @@ python3 scripts/publish_predictor_inbox.py
 运行期数据闭环入口：
 
 ```bash
-python3 scripts/sync_predictor_runtime_inbox.py
+python3 scripts/sync_predictor_runtime_inbox.py --collect-platform-runtime
 ```
 
-该入口会在本地先调用兄弟仓库 `world-cup-predictor` 的 scheduled maintenance 生成 odds/context inbox，再发布平台数据、刷新 runtime API 和 `migration-status.json`。如果模型项目已经单独生成了 inbox 文件，可用：
+该入口默认不再调用 `world-cup-predictor` 的 runtime 采集器。它会发布已有 predictor inbox，并可通过 `--collect-platform-runtime` 运行平台自有 runtime collector，然后刷新 runtime API 和 `migration-status.json`。
+
+如果只发布已有 inbox 文件，可用：
 
 ```bash
 python3 scripts/sync_predictor_runtime_inbox.py --skip-capture
+```
+
+如果需要诊断旧模型侧采集器，可显式使用：
+
+```bash
+python3 scripts/sync_predictor_runtime_inbox.py --legacy-predictor-capture
 ```
 
 `publish_predictor_inbox.py` 会区分 `missing` 和 `empty`。空数组或空 JSONL 不会覆盖平台正式数据，避免“采集任务运行了但没有源数据”被误判成 runtime enrichment 完成。
@@ -357,7 +365,7 @@ python3 scripts/collect_world_cup_runtime_data.py
 没有 key、公开新闻页不可达或没有匹配信号时只写 `reports/world_cup_runtime_collection_report.json`，不会覆盖现有数据。可在同步闭环中一并运行：
 
 ```bash
-python3 scripts/sync_predictor_runtime_inbox.py --skip-capture --collect-platform-runtime
+python3 scripts/sync_predictor_runtime_inbox.py --collect-platform-runtime
 ```
 
 ## Repository Layout
