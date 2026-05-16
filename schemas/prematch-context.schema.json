@@ -17,6 +17,7 @@
     "squad_strength_summary": { "type": ["object", "null"] },
     "lineup_summary": { "type": ["object", "null"] },
     "lineup_strength_summary": { "type": ["object", "null"] },
+    "source_freshness": { "type": "array" },
     "latest_snapshots_count": { "type": "integer", "minimum": 0 }
   },
   "additionalProperties": true

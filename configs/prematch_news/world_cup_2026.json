@@ -1,0 +1,111 @@
+{
+  "competition_id": "fifa_world_cup",
+  "season_id": "2026",
+  "max_article_links_per_source": 3,
+  "global_sources": [
+    {
+      "source": "fifa_news",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles",
+      "enabled": true
+    },
+    {
+      "source": "fifa_world_cup_news",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news",
+      "enabled": true
+    },
+    {
+      "source": "bbc_world_cup",
+      "url": "https://www.bbc.com/sport/football/world-cup",
+      "enabled": true
+    },
+    {
+      "source": "sky_world_cup",
+      "url": "https://www.skysports.com/world-cup-news",
+      "enabled": true
+    },
+    {
+      "source": "espn_soccer",
+      "url": "https://www.espn.com/soccer/",
+      "enabled": true
+    }
+  ],
+  "team_sources": {
+    "Argentina": [
+      {
+        "source": "argentina_fa",
+        "url": "https://www.afa.com.ar/en/",
+        "enabled": true
+      }
+    ],
+    "Brazil": [
+      {
+        "source": "brazil_cbf",
+        "url": "https://www.cbf.com.br/selecao-brasileira/noticias",
+        "enabled": true
+      }
+    ],
+    "Canada": [
+      {
+        "source": "canada_soccer",
+        "url": "https://canadasoccer.com/news/",
+        "enabled": true
+      }
+    ],
+    "England": [
+      {
+        "source": "england_fa",
+        "url": "https://www.englandfootball.com/articles",
+        "enabled": true
+      }
+    ],
+    "France": [
+      {
+        "source": "france_fff",
+        "url": "https://www.fff.fr/selection/2-equipe-de-france/index.html",
+        "enabled": true
+      }
+    ],
+    "Germany": [
+      {
+        "source": "germany_dfb",
+        "url": "https://www.dfb.de/en/news/",
+        "enabled": true
+      }
+    ],
+    "Mexico": [
+      {
+        "source": "mexico_fmf",
+        "url": "https://miseleccion.mx/noticias/",
+        "enabled": true
+      }
+    ],
+    "Netherlands": [
+      {
+        "source": "netherlands_knvb",
+        "url": "https://www.onsoranje.nl/nieuws",
+        "enabled": true
+      }
+    ],
+    "Portugal": [
+      {
+        "source": "portugal_fpf",
+        "url": "https://www.fpf.pt/News",
+        "enabled": true
+      }
+    ],
+    "Spain": [
+      {
+        "source": "spain_rfef",
+        "url": "https://rfef.es/es/noticias",
+        "enabled": true
+      }
+    ],
+    "United States": [
+      {
+        "source": "usa_soccer",
+        "url": "https://www.ussoccer.com/stories",
+        "enabled": true
+      }
+    ]
+  }
+}

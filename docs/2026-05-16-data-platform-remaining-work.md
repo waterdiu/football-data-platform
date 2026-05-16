@@ -170,9 +170,9 @@ Current adapter:
 
 Remaining work:
 
-- Add source-level freshness timestamps.
-- Add per-fixture confidence score into coverage reporting.
-- Add source allowlist/config file instead of hardcoding all news URLs.
+- Source-level freshness timestamps: completed. `reports/world_cup_runtime_collection_report.json` and collected `prematch_news_summary.source_freshness` include source `status`, `last_checked_at`, `pages_collected`, and errors.
+- Per-fixture confidence score into coverage reporting: initial support completed through `prematch_context.readiness_score` and `runtime_summary.confidence_score`; continue tuning after real provider rows arrive.
+- Source allowlist/config file instead of hardcoding all news URLs: completed through `configs/prematch_news/world_cup_2026.json`; code keeps built-in fallback if the config file is unavailable.
 - Add optional manual context patch file for important injuries or official announcements.
 
 Acceptance criteria:

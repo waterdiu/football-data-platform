@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T08:46:53.874646+00:00",
+  "generated_at": "2026-05-16T17:43:03.364718+00:00",
   "dry_run": true,
   "fixtures_total": 104,
   "fixtures_selected": 1,
@@ -69,6 +69,50 @@
       "attempted_sources": 6,
       "successful_pages": 7,
       "failed_sources": [],
+      "source_freshness": [
+        {
+          "source": "fifa_news",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles",
+          "status": "available",
+          "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+          "pages_collected": 1
+        },
+        {
+          "source": "fifa_world_cup_news",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news",
+          "status": "available",
+          "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+          "pages_collected": 1
+        },
+        {
+          "source": "bbc_world_cup",
+          "url": "https://www.bbc.com/sport/football/world-cup",
+          "status": "available",
+          "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+          "pages_collected": 1
+        },
+        {
+          "source": "sky_world_cup",
+          "url": "https://www.skysports.com/world-cup-news",
+          "status": "available",
+          "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+          "pages_collected": 2
+        },
+        {
+          "source": "espn_soccer",
+          "url": "https://www.espn.com/soccer/",
+          "status": "available",
+          "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+          "pages_collected": 1
+        },
+        {
+          "source": "mexico_fmf",
+          "url": "https://miseleccion.mx/noticias/",
+          "status": "available",
+          "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+          "pages_collected": 1
+        }
+      ],
       "errors": [],
       "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_model_prematch_context_master.json"
     }

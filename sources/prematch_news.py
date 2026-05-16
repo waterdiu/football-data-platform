@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import re
 import ssl
+import json
 from html import unescape
+from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
@@ -109,6 +111,9 @@ NON_ARTICLE_PATH_PATTERNS = (
 )
 ENTITY_STOPWORDS = {"BBC", "FIFA", "Sky Sports", "Team News", "World Cup"}
 
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_CONFIG_PATH = ROOT / "configs" / "prematch_news" / "world_cup_2026.json"
+
 
 def _plain_text(html: str) -> str:
     text = re.sub(r"(?is)<(script|style).*?>.*?</\1>", " ", html)
@@ -198,24 +203,60 @@ def _fixture_team_aliases(fixtures: list[dict], teams_by_id: dict[str, dict]) ->
     return aliases
 
 
-def _source_urls(fixtures: list[dict], teams_by_id: dict[str, dict]) -> list[tuple[str, str]]:
+def _enabled_sources(rows: object) -> list[tuple[str, str]]:
+    if not isinstance(rows, list):
+        return []
+    sources: list[tuple[str, str]] = []
+    for item in rows:
+        if not isinstance(item, dict) or item.get("enabled") is False:
+            continue
+        source_name = str(item.get("source") or "").strip()
+        url = str(item.get("url") or "").strip()
+        if source_name and url:
+            sources.append((source_name, url))
+    return sources
+
+
+def _load_source_config(config_path: str | Path | None = None) -> dict:
+    path = Path(config_path) if config_path else DEFAULT_CONFIG_PATH
+    if not path.exists():
+        return {
+            "max_article_links_per_source": 3,
+            "global_sources": [
+                {"source": source_name, "url": url, "enabled": True}
+                for source_name, url in DEFAULT_WORLD_CUP_NEWS_SOURCE_URLS
+            ],
+            "team_sources": {
+                team_name: [
+                    {"source": source_name, "url": url, "enabled": True}
+                    for source_name, url in rows
+                ]
+                for team_name, rows in WORLD_CUP_TEAM_NEWS_URLS.items()
+            },
+        }
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _source_urls(fixtures: list[dict], teams_by_id: dict[str, dict], source_config: dict | None = None) -> list[tuple[str, str]]:
     seen: set[str] = set()
     sources: list[tuple[str, str]] = []
+    config = source_config or _load_source_config()
 
     def append(source_name: str, url: str) -> None:
         if url and url not in seen:
             seen.add(url)
             sources.append((source_name, url))
 
-    for source_name, url in DEFAULT_WORLD_CUP_NEWS_SOURCE_URLS:
+    for source_name, url in _enabled_sources(config.get("global_sources")):
         append(source_name, url)
     needed = {
         _team_name(str(fixture.get(key) or ""), teams_by_id)
         for fixture in fixtures
         for key in ("home_team_id", "away_team_id")
     }
+    team_sources = config.get("team_sources") if isinstance(config.get("team_sources"), dict) else {}
     for team_name in sorted(needed):
-        for source_name, url in WORLD_CUP_TEAM_NEWS_URLS.get(team_name, ()):
+        for source_name, url in _enabled_sources(team_sources.get(team_name)):
             append(source_name, url)
     return sources
 
@@ -311,6 +352,7 @@ def _merge_context_row(existing: dict, update: dict, fetched_at: str) -> dict:
     source_statuses["pre_match_news"] = "available"
     row["source_statuses"] = source_statuses
     row["prematch_news_summary"] = update
+    row["source_freshness"] = update.get("source_freshness", [])
     row["latest_snapshots_count"] = max(int(row.get("latest_snapshots_count") or 0), 1)
     row["updated_at"] = fetched_at
     return row
@@ -323,22 +365,38 @@ def collect_prematch_context(
     existing_context_rows: list[dict],
     fetched_at: str,
     max_article_links_per_source: int = 3,
+    source_config_path: str | Path | None = None,
 ) -> tuple[list[dict], dict]:
     teams_by_id = _team_lookup(teams)
-    sources = _source_urls(fixtures, teams_by_id)
+    source_config = _load_source_config(source_config_path)
+    max_article_links_per_source = int(source_config.get("max_article_links_per_source") or max_article_links_per_source)
+    sources = _source_urls(fixtures, teams_by_id, source_config)
     pages: list[dict] = []
     failed_sources: list[str] = []
     errors: list[str] = []
+    source_freshness: list[dict[str, object]] = []
     fixture_aliases = _fixture_team_aliases(fixtures, teams_by_id)
 
     for source_name, url in sources:
+        page_count = 0
         try:
             html = _fetch_text(url)
         except (HTTPError, URLError, TimeoutError, OSError) as exc:
             failed_sources.append(source_name)
             errors.append(f"{source_name}: {exc}")
+            source_freshness.append(
+                {
+                    "source": source_name,
+                    "url": url,
+                    "status": "provider_error",
+                    "last_checked_at": fetched_at,
+                    "pages_collected": 0,
+                    "error": str(exc),
+                }
+            )
             continue
         pages.append({"source_name": source_name, "url": url, "text": _plain_text(html)})
+        page_count += 1
         for article_url in _discover_article_links(html, base_url=url, team_aliases=fixture_aliases, max_links=max_article_links_per_source):
             try:
                 article_html = _fetch_text(article_url)
@@ -347,6 +405,16 @@ def collect_prematch_context(
                 errors.append(f"{article_url}: {exc}")
                 continue
             pages.append({"source_name": f"{source_name}:article", "url": article_url, "text": _plain_text(article_html)})
+            page_count += 1
+        source_freshness.append(
+            {
+                "source": source_name,
+                "url": url,
+                "status": "available",
+                "last_checked_at": fetched_at,
+                "pages_collected": page_count,
+            }
+        )
 
     if not pages:
         return [], {
@@ -355,6 +423,7 @@ def collect_prematch_context(
             "successful_pages": 0,
             "failed_sources": failed_sources,
             "errors": errors[:20],
+            "source_freshness": source_freshness,
         }
 
     existing_by_match = {str(item.get("match_id") or ""): item for item in existing_context_rows if isinstance(item, dict)}
@@ -420,6 +489,7 @@ def collect_prematch_context(
             "fetched_at": fetched_at,
             "signals_count": signal_count,
             "sources_checked": [{"source": page["source_name"], "url": page["url"]} for page in pages],
+            "source_freshness": source_freshness,
             "home": contexts["home"],
             "away": contexts["away"],
             "summary": "; ".join(_summarize_team_context("home", contexts["home"]) + _summarize_team_context("away", contexts["away"])),
@@ -433,4 +503,5 @@ def collect_prematch_context(
         "failed_sources": failed_sources,
         "errors": errors[:20],
         "rows_collected": len(updates),
+        "source_freshness": source_freshness,
     }

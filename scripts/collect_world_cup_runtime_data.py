@@ -272,6 +272,7 @@ def collect_prematch_news_context(*, fixtures: list[dict], teams: list[dict], fe
         "attempted_sources": provider_report.get("attempted_sources"),
         "successful_pages": provider_report.get("successful_pages"),
         "failed_sources": provider_report.get("failed_sources", []),
+        "source_freshness": provider_report.get("source_freshness", []),
         "errors": provider_report.get("errors", []),
         "output": str(PREMATCH_CONTEXT_MASTER_PATH) if rows else None,
     }
