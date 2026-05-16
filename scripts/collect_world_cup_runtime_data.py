@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
+from sources.open_meteo import fetch_open_meteo_payload, normalize_open_meteo_snapshot
 from sources.openweather import fetch_openweather_payload, normalize_openweather_snapshot
 from sources.api_football import collect_api_football_context
 from sources.prematch_news import collect_prematch_context
@@ -86,18 +87,10 @@ def load_existing_list(path: Path) -> list[dict]:
 
 def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at: str, dry_run: bool) -> dict:
     api_key = os.environ.get("OPENWEATHER_API_KEY", "").strip()
-    if not api_key:
-        return {
-            "dataset": "weather",
-            "status": "missing_auth",
-            "auth_env": "OPENWEATHER_API_KEY",
-            "fixtures_considered": len(fixtures),
-            "rows_collected": 0,
-        }
-
     rows: list[dict] = []
     skipped: list[dict[str, str]] = []
     errors: list[dict[str, str]] = []
+    provider_counts = {"openweather": 0, "open_meteo": 0}
     for fixture in fixtures:
         venue_id = str(fixture.get("venue_id") or "")
         venue = venues.get(venue_id)
@@ -109,15 +102,32 @@ def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at
         if latitude is None or longitude is None:
             skipped.append({"match_id": str(fixture.get("match_id") or ""), "reason": "missing_coordinates"})
             continue
-        try:
-            payload = fetch_openweather_payload(latitude=float(latitude), longitude=float(longitude), api_key=api_key)
-        except Exception as exc:  # noqa: BLE001 - collection reports per-fixture provider failures.
-            errors.append({"match_id": str(fixture.get("match_id") or ""), "error": str(exc)})
+
+        row: dict | None = None
+        if api_key:
+            try:
+                payload = fetch_openweather_payload(latitude=float(latitude), longitude=float(longitude), api_key=api_key)
+            except Exception as exc:  # noqa: BLE001 - collection reports per-fixture provider failures.
+                errors.append({"match_id": str(fixture.get("match_id") or ""), "provider": "openweather", "error": str(exc)})
+            else:
+                if payload is not None:
+                    row = normalize_openweather_snapshot(fixture=fixture, venue=venue, payload=payload, fetched_at=fetched_at)
+                    provider_counts["openweather"] += 1
+
+        if row is None:
+            try:
+                payload = fetch_open_meteo_payload(latitude=float(latitude), longitude=float(longitude))
+                row = normalize_open_meteo_snapshot(fixture=fixture, venue=venue, payload=payload, fetched_at=fetched_at)
+            except Exception as exc:  # noqa: BLE001 - collection reports per-fixture provider failures.
+                errors.append({"match_id": str(fixture.get("match_id") or ""), "provider": "open_meteo", "error": str(exc)})
+
+        if row is None:
+            skipped.append({"match_id": str(fixture.get("match_id") or ""), "reason": "not_in_forecast_window_or_empty_provider_payload"})
             continue
-        if payload is None:
-            skipped.append({"match_id": str(fixture.get("match_id") or ""), "reason": "empty_provider_payload"})
-            continue
-        rows.append(normalize_openweather_snapshot(fixture=fixture, venue=venue, payload=payload, fetched_at=fetched_at))
+
+        rows.append(row)
+        if row.get("source") == "open_meteo":
+            provider_counts["open_meteo"] += 1
 
     if rows and not dry_run:
         existing = load_existing_list(WEATHER_MASTER_PATH)
@@ -126,8 +136,11 @@ def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at
     return {
         "dataset": "weather",
         "status": "collected" if rows else "no_rows",
+        "auth_env": "OPENWEATHER_API_KEY",
+        "fallback_provider": "open_meteo",
         "fixtures_considered": len(fixtures),
         "rows_collected": len(rows),
+        "provider_counts": provider_counts,
         "skipped": skipped,
         "errors": errors,
         "output": str(WEATHER_MASTER_PATH) if rows else None,

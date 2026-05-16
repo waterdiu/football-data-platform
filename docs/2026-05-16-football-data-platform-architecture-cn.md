@@ -497,7 +497,7 @@ coverage 每场包含：
 | odds | `data/model/odds_snapshots.json` | 0 行，等待可用 provider |
 | lineups | `data/model/lineups.json` | 0 行，等待可用 provider |
 | injuries | `data/model/injuries.json` | 0 行，等待可用 provider |
-| weather | `data/model/weather.json` | 0 行，OpenWeather key 当前 401，建议改 Open-Meteo 主源 |
+| weather | `data/model/weather.json` | 0 行；collector 已支持 OpenWeather 优先、Open-Meteo fallback；正式比赛进入 16 天预报窗口后可无 key 采集 |
 
 ## 8. 数据源设计
 
@@ -507,8 +507,8 @@ coverage 每场包含：
 | openfootball | 历史/静态兜底 | 免费 | 更新慢 | 兜底 |
 | API-FOOTBALL | 阵容/伤停/事件/统计 | 免费层 100/day，但不支持 2026 season | 2026 需付费层 | adapter 保留，等待付费或替代 |
 | The Odds API | 赔率 | Starter 500 credits/month | 当前额度用完 | adapter 已完成，等待额度/升级 |
-| OpenWeather | 天气 | 免费层 | 当前 key 401 | 保留备用 |
-| Open-Meteo | 天气 | 无 key 免费合理使用 | 尚未接入 | 建议作为天气主源 |
+| OpenWeather | 天气 | 免费层 | 当前 key 401 | 有 key 时优先使用，保留备用 |
+| Open-Meteo | 天气 | 无 key免费合理使用 | 只覆盖短期预报窗口 | 已接入 fallback，比赛进入 16 天预报窗口后可用 |
 | FIFA/足协官网/新闻源 | 赛前上下文、名单 | 免费网页 | 结构不稳定 | 平台 adapter + 手动 patch |
 | Sofascore 非官方 | 阵容/评分/事件 | 非官方 | 反爬/稳定性风险 | 只做实验性补源 |
 
