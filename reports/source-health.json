@@ -55,6 +55,69 @@
       "world_cup_prematch_context_rows": 104,
       "world_cup_weather_rows": 0,
       "note": "当前共享层主发布流水线已经从平台 own 的 model master 文件发布运行时模型数据。predictor 仓库现在只应作为可选回灌来源，而不是主发布阻塞项。"
+    },
+    "runtime_collection": {
+      "generated_at": "2026-05-16T17:43:03.364718+00:00",
+      "dry_run": true,
+      "fixtures_total": 104,
+      "fixtures_selected": 1,
+      "datasets": {
+        "odds": {
+          "status": "missing_auth",
+          "auth_env": "THE_ODDS_API_KEY",
+          "fixtures_considered": 1,
+          "rows_collected": 0,
+          "failed_sources_count": 0,
+          "errors_count": 0,
+          "source_freshness_count": 0,
+          "available_source_count": 0,
+          "provider_error_source_count": 0
+        },
+        "weather": {
+          "status": "no_rows",
+          "auth_env": "OPENWEATHER_API_KEY",
+          "fixtures_considered": 1,
+          "rows_collected": 0,
+          "failed_sources_count": 0,
+          "errors_count": 0,
+          "source_freshness_count": 0,
+          "available_source_count": 0,
+          "provider_error_source_count": 0
+        },
+        "injuries": {
+          "status": "missing_auth",
+          "auth_env": "API_FOOTBALL_KEY",
+          "fixtures_considered": 1,
+          "rows_collected": 0,
+          "failed_sources_count": 0,
+          "errors_count": 0,
+          "source_freshness_count": 0,
+          "available_source_count": 0,
+          "provider_error_source_count": 0
+        },
+        "lineups": {
+          "status": "missing_auth",
+          "auth_env": "API_FOOTBALL_KEY",
+          "fixtures_considered": 1,
+          "rows_collected": 0,
+          "failed_sources_count": 0,
+          "errors_count": 0,
+          "source_freshness_count": 0,
+          "available_source_count": 0,
+          "provider_error_source_count": 0
+        },
+        "prematch_context": {
+          "status": "collected",
+          "auth_env": null,
+          "fixtures_considered": 1,
+          "rows_collected": 1,
+          "failed_sources_count": 0,
+          "errors_count": 0,
+          "source_freshness_count": 6,
+          "available_source_count": 6,
+          "provider_error_source_count": 0
+        }
+      }
     }
   },
   "qualifier_sources": {

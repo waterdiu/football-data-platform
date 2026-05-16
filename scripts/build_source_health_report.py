@@ -14,6 +14,7 @@ QUALIFIER_REPORT_PATH = REPORTS_DIR / "qualifier_matches_import_report.json"
 QUALIFIER_DETAIL_REPORT_PATH = REPORTS_DIR / "qualifier_detail_extract_report.json"
 WORLD_CUP_DETAIL_REPORT_PATH = REPORTS_DIR / "world_cup_detail_extract_report.json"
 WORLD_CUP_MODEL_REPORT_PATH = REPORTS_DIR / "world_cup_model_dataset_report.json"
+WORLD_CUP_RUNTIME_COLLECTION_REPORT_PATH = REPORTS_DIR / "world_cup_runtime_collection_report.json"
 
 
 def load_json(path: Path) -> object:
@@ -40,6 +41,45 @@ def dataset_count(path: Path) -> int:
             return len(payload["data"])
         return len(payload)
     return 0
+
+
+def runtime_source_summary(payload: object) -> dict[str, object]:
+    if not isinstance(payload, dict):
+        return {
+            "generated_at": None,
+            "dry_run": None,
+            "datasets": {},
+        }
+    datasets: dict[str, object] = {}
+    for item in payload.get("datasets") or []:
+        if not isinstance(item, dict):
+            continue
+        dataset = str(item.get("dataset") or "")
+        if not dataset:
+            continue
+        source_freshness = item.get("source_freshness") if isinstance(item.get("source_freshness"), list) else []
+        datasets[dataset] = {
+            "status": item.get("status") or "unknown",
+            "auth_env": item.get("auth_env"),
+            "fixtures_considered": item.get("fixtures_considered"),
+            "rows_collected": item.get("rows_collected", 0),
+            "failed_sources_count": len(item.get("failed_sources") or []),
+            "errors_count": len(item.get("errors") or []),
+            "source_freshness_count": len(source_freshness),
+            "available_source_count": sum(
+                1 for row in source_freshness if isinstance(row, dict) and row.get("status") == "available"
+            ),
+            "provider_error_source_count": sum(
+                1 for row in source_freshness if isinstance(row, dict) and row.get("status") == "provider_error"
+            ),
+        }
+    return {
+        "generated_at": payload.get("generated_at"),
+        "dry_run": payload.get("dry_run"),
+        "fixtures_total": payload.get("fixtures_total"),
+        "fixtures_selected": payload.get("fixtures_selected"),
+        "datasets": datasets,
+    }
 
 
 def main() -> None:
@@ -77,6 +117,7 @@ def main() -> None:
     world_cup_model_report = load_json(WORLD_CUP_MODEL_REPORT_PATH) or {}
     qualifier_report = load_json(QUALIFIER_REPORT_PATH) or {}
     qualifier_detail_report = load_json(QUALIFIER_DETAIL_REPORT_PATH) or {}
+    runtime_collection_report = load_json(WORLD_CUP_RUNTIME_COLLECTION_REPORT_PATH) or {}
 
     report = {
         "generated_at": "2026-05-15T00:00:00Z",
@@ -115,6 +156,7 @@ def main() -> None:
         "world_cup_sources": {
             "detail_extract": world_cup_detail_report,
             "model_extract": world_cup_model_report,
+            "runtime_collection": runtime_source_summary(runtime_collection_report),
         },
         "qualifier_sources": {
             "matches_import": qualifier_report,

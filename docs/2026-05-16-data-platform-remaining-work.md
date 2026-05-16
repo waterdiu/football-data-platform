@@ -451,6 +451,7 @@ Acceptance criteria:
 
 - Health endpoints can be checked by a monitor.
 - A human can diagnose source failure without reading model code.
+- `source-health.json` includes a summarized `world_cup_sources.runtime_collection` section so humans can see runtime dataset status, auth gaps, provider errors, and source freshness counts from one report.
 
 ## Tasks That Should Not Move To The Platform
 

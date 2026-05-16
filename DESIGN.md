@@ -791,6 +791,7 @@ predictor 全量数据资产当前边界：
 - `model` 数据集数量
 - `coverage` 可用率
 - 世界杯 / 预选赛导入报告
+- `reports/world_cup_runtime_collection_report.json` 中的运行期 source 状态、鉴权缺失、错误计数、source freshness 计数
 
 为减少跨仓库人工操作，平台还提供一个跨仓库上下文采集触发器：
 
