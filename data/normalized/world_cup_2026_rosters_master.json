@@ -8,7 +8,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-13",
-    "updated_at": "2026-05-16T09:34:59.060071+00:00",
+    "updated_at": "2026-05-16T09:43:53.584068+00:00",
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
     "sources": [
       "official_fifa"
@@ -230,13 +230,241 @@
   {
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
+    "team_id": "cote-divoire",
+    "team_name": "Cote d'Ivoire",
+    "roster_type": "announced_26_provisional_until_fifa_final",
+    "source_status": "official_fifa",
+    "confidence": "high",
+    "published_at": "2026-05-15",
+    "updated_at": "2026-05-16T09:43:53.584068+00:00",
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {
+      "fifa_article": "cote-divoire-squad-announcement-emerse-fae"
+    },
+    "players": [
+      {
+        "player_id": "cote-divoire:player:yahia-fofana",
+        "name": "Yahia Fofana",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:mohamed-kone",
+        "name": "Mohamed Kone",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:alban-lafont",
+        "name": "Alban Lafont",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:emmanuel-agbadou",
+        "name": "Emmanuel Agbadou",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:clement-akpa",
+        "name": "Clement Akpa",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:ousmane-diomande",
+        "name": "Ousmane Diomande",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:guela-doue",
+        "name": "Guela Doue",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:ghislain-konan",
+        "name": "Ghislain Konan",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:odilon-kossounou",
+        "name": "Odilon Kossounou",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:wilfried-singo",
+        "name": "Wilfried Singo",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:evan-ndicka",
+        "name": "Evan Ndicka",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:seko-fofana",
+        "name": "Seko Fofana",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:parfait-guiagon",
+        "name": "Parfait Guiagon",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:christ-inao-oulai",
+        "name": "Christ Inao Oulai",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:franck-kessie",
+        "name": "Franck Kessie",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:ibrahim-sangare",
+        "name": "Ibrahim Sangare",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:jean-michael-seri",
+        "name": "Jean Michael Seri",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:simon-adingra",
+        "name": "Simon Adingra",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:ange-yoan-bonny",
+        "name": "Ange-Yoan Bonny",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:amad-diallo",
+        "name": "Amad Diallo",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:oumar-diakite",
+        "name": "Oumar Diakite",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:yan-diomande",
+        "name": "Yan Diomande",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:evann-guessand",
+        "name": "Evann Guessand",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:nicolas-pepe",
+        "name": "Nicolas Pepe",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:bazoumana-toure",
+        "name": "Bazoumana Toure",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "cote-divoire:player:elye-wahi",
+        "name": "Elye Wahi",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      }
+    ]
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
     "team_id": "france",
     "team_name": "France",
     "roster_type": "announced_26_provisional_until_fifa_final",
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-14",
-    "updated_at": "2026-05-16T09:34:59.060071+00:00",
+    "updated_at": "2026-05-16T09:43:53.584068+00:00",
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
     "sources": [
       "official_fifa"
@@ -448,6 +676,234 @@
       {
         "player_id": "france:player:marcus-thuram",
         "name": "Marcus Thuram",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      }
+    ]
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "team_id": "haiti",
+    "team_name": "Haiti",
+    "roster_type": "announced_26_provisional_until_fifa_final",
+    "source_status": "official_fifa",
+    "confidence": "high",
+    "published_at": "2026-05-15",
+    "updated_at": "2026-05-16T09:43:53.584068+00:00",
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {
+      "fifa_article": "haiti-squad-announcement-sebastien-migne"
+    },
+    "players": [
+      {
+        "player_id": "haiti:player:josue-duverger",
+        "name": "Josue Duverger",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:alexandre-pierre",
+        "name": "Alexandre Pierre",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:johny-placide",
+        "name": "Johny Placide",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:ricardo-ade",
+        "name": "Ricardo Ade",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:carlens-arcus",
+        "name": "Carlens Arcus",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:hannes-delcroix",
+        "name": "Hannes Delcroix",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:jean-kevin-duverne",
+        "name": "Jean-Kevin Duverne",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:martin-experience",
+        "name": "Martin Experience",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:duke-lacroix",
+        "name": "Duke Lacroix",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:wilguens-paugain",
+        "name": "Wilguens Paugain",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:keeto-thermoncy",
+        "name": "Keeto Thermoncy",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:carl-fred-sainte",
+        "name": "Carl Fred Sainte",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:jean-ricner-bellegarde",
+        "name": "Jean-Ricner Bellegarde",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:leverton-pierre",
+        "name": "Leverton Pierre",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:danley-jean-jacques",
+        "name": "Danley Jean Jacques",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:woodensky-pierre",
+        "name": "Woodensky Pierre",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:dominique-simon",
+        "name": "Dominique Simon",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:josue-casimir",
+        "name": "Josue Casimir",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:louicius-deedson",
+        "name": "Louicius Deedson",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:derrick-etienne-jr",
+        "name": "Derrick Etienne Jr.",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:yassin-fortune",
+        "name": "Yassin Fortune",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:wilson-isidor",
+        "name": "Wilson Isidor",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:lenny-joseph",
+        "name": "Lenny Joseph",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:duckens-nazon",
+        "name": "Duckens Nazon",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:frantzdy-pierrot",
+        "name": "Frantzdy Pierrot",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "haiti:player:ruben-providence",
+        "name": "Ruben Providence",
         "position": "FW",
         "shirt_number": null,
         "club": null,
