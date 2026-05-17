@@ -4,6 +4,8 @@ import argparse
 import json
 from pathlib import Path
 
+from json_io import write_json
+
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_DIR = ROOT / "data" / "public"
 API_ROOT = PUBLIC_DIR / "api" / "worldcup" / "2026"
@@ -50,11 +52,6 @@ SITE_DATASETS = {
 
 def load_json(path: Path) -> object:
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def write_json(path: Path, payload: object) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def copy_dataset(source_filename: str, target_path: Path) -> object:

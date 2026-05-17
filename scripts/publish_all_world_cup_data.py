@@ -21,6 +21,7 @@ PIPELINE = [
     "import_world_cup_team_staff_from_manual_patch.py",
     "build_team_history_datasets.py",
     "build_person_profile_datasets.py",
+    "build_world_cup_injury_evidence.py",
     "build_world_cup_model_runtime_datasets.py",
     "build_world_cup_coverage.py",
     "publish_qualifier_data.py",
@@ -88,7 +89,8 @@ def main() -> None:
                 print(result.stderr.strip(), file=sys.stderr)
             raise SystemExit(result.returncode)
 
-    pipeline = [step for step in PIPELINE if not (args.skip_model and step == "build_world_cup_model_runtime_datasets.py")]
+    model_steps = {"build_world_cup_injury_evidence.py", "build_world_cup_model_runtime_datasets.py"}
+    pipeline = [step for step in PIPELINE if not (args.skip_model and step in model_steps)]
     for step in pipeline:
         print(f"[pipeline] {step}")
         run_script(step)

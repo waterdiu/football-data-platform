@@ -196,8 +196,12 @@
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
   - 先发布平台 own 的 `worldcup/2026` 兼容数据镜像
-  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`model datasets`、`coverage`、`qualifier public datasets`、`runtime APIs`、`predictor runtime health`
+  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`injury evidence`、`model datasets`、`coverage`、`qualifier public datasets`、`runtime APIs`、`predictor runtime health`
   - 可选 `--capture-context`，先触发预测项目的世界杯 context capture，再继续发布
+- `json_io.py`
+  - 提供核心发布脚本使用的 JSON 原子写入工具
+  - 写入流程是临时文件 + `os.replace`，避免下游脚本或页面读取到半写 JSON
+  - 生产发布仍必须串行执行；不要并行运行多个会写 `data/model/*`、`data/public/*` 或 `reports/*` 的脚本
 - `build_source_health_report.py`
   - 聚合 `public/*`、`model/*` 和各类 report，输出统一的 `reports/source-health.json`
 - `capture_world_cup_context_from_predictor.py`

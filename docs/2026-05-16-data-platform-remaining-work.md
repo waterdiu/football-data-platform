@@ -506,6 +506,8 @@ Acceptance criteria:
 
 - A fresh clone with configured secrets can run the full platform collection/publish cycle.
 - Failures are visible in `reports/*` and public health endpoints.
+- Production publish jobs run through a single serial entrypoint. Do not run writer scripts in parallel against `data/model/*`, `data/public/*`, or `reports/*`.
+- Core runtime publish scripts use atomic JSON writes via `scripts/json_io.py`.
 - Automation does not depend on `world-cup-predictor` checkout for production runtime data.
 
 ### 10. Data Quality Alerts And Runbooks

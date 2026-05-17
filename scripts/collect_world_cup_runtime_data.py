@@ -15,6 +15,7 @@ from sources.openweather import fetch_openweather_payload, normalize_openweather
 from sources.api_football import collect_api_football_context
 from sources.prematch_news import collect_prematch_context
 from sources.the_odds_api import fetch_odds_events, normalize_odds_events
+from json_io import write_json
 
 FIXTURES_PATH = ROOT / "data" / "public" / "fixtures.json"
 TEAMS_PATH = ROOT / "data" / "public" / "teams.json"
@@ -49,11 +50,6 @@ def load_env_value(name: str) -> str:
             if key.strip() == name and value.strip():
                 return value.strip().strip('"').strip("'")
     return ""
-
-
-def write_json(path: Path, payload: object) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def rel(path: Path) -> str:

@@ -4,6 +4,8 @@ import argparse
 import json
 from pathlib import Path
 
+from json_io import write_json
+
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_API_DIR = ROOT / "data" / "public" / "api"
 REPORTS_DIR = ROOT / "reports"
@@ -39,11 +41,6 @@ def load_optional_json(path: Path) -> object:
     if not path.exists():
         return {}
     return load_json(path)
-
-
-def write_json(path: Path, payload: object) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def inbox_statuses(inbox_report: dict) -> dict[str, str]:

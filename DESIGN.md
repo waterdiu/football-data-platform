@@ -675,11 +675,17 @@ football-data-platform/
 5. `finals detail datasets`
 6. `audited roster manual patches`
 7. `rosters / players`
-8. `model datasets`
-9. `data_coverage`
-10. `qualifier public datasets`
-11. `runtime API / health reports`
-12. `predictor compatibility API`
+8. `injury evidence`
+9. `model datasets`
+10. `data_coverage`
+11. `qualifier public datasets`
+12. `runtime API / health reports`
+13. `predictor compatibility API`
+
+发布约束：
+
+- 生产发布必须走串行入口，不允许并行运行多个会写 `data/model/*`、`data/public/*` 或 `reports/*` 的脚本。
+- 核心运行期发布脚本使用 `scripts/json_io.py` 的原子写入，先写临时文件，再用 `os.replace` 替换目标文件，避免消费者或下游脚本读到半写 JSON。
 
 对于世界杯正赛基础层，当前默认原则是：
 
@@ -710,6 +716,7 @@ football-data-platform/
 - 平台对外发布：`data/model/*.json`
 - `scripts/build_world_cup_model_datasets.py` 当前仅保留为 predictor 兼容回灌工具
 - `scripts/build_world_cup_model_runtime_datasets.py` 是主发布流水线默认入口
+- `scripts/build_world_cup_injury_evidence.py` 必须在 `build_world_cup_model_runtime_datasets.py` 之前运行，用 `prematch_context` 的伤停/停赛新闻 evidence 增强 injuries master
 
 predictor 兼容数据当前边界：
 

@@ -5,6 +5,8 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from json_io import write_json
+
 ROOT = Path(__file__).resolve().parents[1]
 NORMALIZED_DIR = ROOT / "data" / "normalized"
 REPORTS_DIR = ROOT / "reports"
@@ -16,11 +18,6 @@ REPORT_PATH = REPORTS_DIR / "world_cup_injury_evidence_report.json"
 
 def load_json(path: Path) -> object:
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def write_json(path: Path, payload: object) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def evidence_items(context: dict, *, side: str) -> list[dict]:
