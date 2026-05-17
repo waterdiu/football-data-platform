@@ -24,16 +24,40 @@ manifest 契约：
 
 ## 当前覆盖
 
-已补 8 支已有官方 26 人名单球队主教练：
+已补 32 支球队主教练，其中包括 9 支已有官方 26 人名单球队。当前覆盖：
 
+- Algeria：Vladimir Petkovic
+- Argentina：Lionel Scaloni
 - Belgium：Rudi Garcia
 - Bosnia and Herzegovina：Sergej Barbarez
+- Brazil：Carlo Ancelotti
+- Canada：Jesse Marsch
+- Colombia：Nestor Lorenzo
 - Cote d'Ivoire：Emerse Fae
+- Croatia：Zlatko Dalic
+- Czechia：Miroslav Koubek
+- Ecuador：Sebastian Beccacece
+- England：Thomas Tuchel
 - France：Didier Deschamps
+- Germany：Julian Nagelsmann
 - Haiti：Sebastien Migne
+- IR Iran：Amir Ghalenoei
 - Japan：Hajime Moriyasu
+- Korea Republic：Hong Myungbo
+- Mexico：Javier Aguirre
+- Morocco：Mohamed Ouahbi
+- Netherlands：Ronald Koeman
+- New Zealand：Darren Bazeley
+- Paraguay：Gustavo Alfaro
+- Portugal：Roberto Martinez
+- Saudi Arabia：Herve Renard
+- South Africa：Hugo Broos
+- Spain：Luis de la Fuente
 - Sweden：Graham Potter
 - Tunisia：Sabri Lamouchi
+- United States：Mauricio Pochettino
+- Uruguay：Marcelo Bielsa
+- Uzbekistan：Fabio Cannavaro
 
 ## 字段
 

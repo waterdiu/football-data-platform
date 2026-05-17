@@ -196,7 +196,7 @@ python3 scripts/publish_worldcup_2026_api.py
 python3 scripts/publish_world_cup_predictor_api.py
 ```
 
-当前已补 10 支球队主教练，发布到 `api/worldcup/2026/core/team-staff.json`。其中 9 支已有官方 26 人名单并发布到 `api/worldcup/2026/core/rosters.json` / `players.json`。生日/年龄字段在未审计来源前保持 `null`。
+当前已补 32 支球队主教练，发布到 `api/worldcup/2026/core/team-staff.json`。其中 9 支已有官方 26 人名单并发布到 `api/worldcup/2026/core/rosters.json` / `players.json`。生日/年龄字段在未审计来源前保持 `null`。
 
 球队历史与近期比赛数据：
 

@@ -92,6 +92,204 @@
       "status": "active",
       "source_status": "official_fifa",
       "source_url": "https://inside.fifa.com/about-fifa/organisation/news/darren-bazeley-on-new-zealands-world-cup-qualification"
+    },
+    {
+      "team_id": "brazil",
+      "name": "Carlo Ancelotti",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/ancelotti-and-brazil-the-selecaos-first-foreign-boss-prepares-for-a-new"
+    },
+    {
+      "team_id": "uruguay",
+      "name": "Marcelo Bielsa",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/uruguay-team-profile-history"
+    },
+    {
+      "team_id": "portugal",
+      "name": "Roberto Martinez",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+    },
+    {
+      "team_id": "croatia",
+      "name": "Zlatko Dalic",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+    },
+    {
+      "team_id": "saudi-arabia",
+      "name": "Herve Renard",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+    },
+    {
+      "team_id": "united-states",
+      "name": "Mauricio Pochettino",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mauricio-pochettino-usa-interview"
+    },
+    {
+      "team_id": "morocco",
+      "name": "Mohamed Ouahbi",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mohamed-ouahbi-replaces-walid-regragui-morocco"
+    },
+    {
+      "team_id": "mexico",
+      "name": "Javier Aguirre",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/mexico-team-profile-history"
+    },
+    {
+      "team_id": "england",
+      "name": "Thomas Tuchel",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/thomas-tuchel-appointed-england-coach"
+    },
+    {
+      "team_id": "canada",
+      "name": "Jesse Marsch",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/canada-team-profile-history"
+    },
+    {
+      "team_id": "south-africa",
+      "name": "Hugo Broos",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/south-africa-team-profile-history"
+    },
+    {
+      "team_id": "czechia",
+      "name": "Miroslav Koubek",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/czechia-team-profile-history"
+    },
+    {
+      "team_id": "algeria",
+      "name": "Vladimir Petkovic",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+    },
+    {
+      "team_id": "germany",
+      "name": "Julian Nagelsmann",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+    },
+    {
+      "team_id": "argentina",
+      "name": "Lionel Scaloni",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/es/articles/seleccion-argentina-mundial-estadisticas-numeros-historia-perfil"
+    },
+    {
+      "team_id": "netherlands",
+      "name": "Ronald Koeman",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-team-profile-history"
+    },
+    {
+      "team_id": "spain",
+      "name": "Luis de la Fuente",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/luis-de-la-fuente-spain-profile"
+    },
+    {
+      "team_id": "colombia",
+      "name": "Nestor Lorenzo",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/qualified-teams-nations-march-fixtures-results"
+    },
+    {
+      "team_id": "ecuador",
+      "name": "Sebastian Beccacece",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+    },
+    {
+      "team_id": "paraguay",
+      "name": "Gustavo Alfaro",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+    },
+    {
+      "team_id": "ir-iran",
+      "name": "Amir Ghalenoei",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/amir-ghalenoei-iran-interview"
+    },
+    {
+      "team_id": "uzbekistan",
+      "name": "Fabio Cannavaro",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-who-played-tournament-deschamps-cannavaro-scaloni"
     }
   ]
 }

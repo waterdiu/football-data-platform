@@ -67843,6 +67843,60 @@
       {
         "competition_id": "fifa_world_cup",
         "season_id": "2026",
+        "team_id": "algeria",
+        "team_name": "Algeria",
+        "staff_id": "algeria:staff:vladimir-petkovic",
+        "name": "Vladimir Petkovic",
+        "display_name": "Vladimir Petkovic",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "argentina",
+        "team_name": "Argentina",
+        "staff_id": "argentina:staff:lionel-scaloni",
+        "name": "Lionel Scaloni",
+        "display_name": "Lionel Scaloni",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/es/articles/seleccion-argentina-mundial-estadisticas-numeros-historia-perfil"
+        },
+        "source_url": "https://www.fifa.com/es/articles/seleccion-argentina-mundial-estadisticas-numeros-historia-perfil",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
         "team_id": "belgium",
         "team_name": "Belgium",
         "staff_id": "belgium:staff:rudi-garcia",
@@ -67897,6 +67951,87 @@
       {
         "competition_id": "fifa_world_cup",
         "season_id": "2026",
+        "team_id": "brazil",
+        "team_name": "Brazil",
+        "staff_id": "brazil:staff:carlo-ancelotti",
+        "name": "Carlo Ancelotti",
+        "display_name": "Carlo Ancelotti",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/ancelotti-and-brazil-the-selecaos-first-foreign-boss-prepares-for-a-new"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/ancelotti-and-brazil-the-selecaos-first-foreign-boss-prepares-for-a-new",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "canada",
+        "team_name": "Canada",
+        "staff_id": "canada:staff:jesse-marsch",
+        "name": "Jesse Marsch",
+        "display_name": "Jesse Marsch",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/articles/canada-team-profile-history"
+        },
+        "source_url": "https://www.fifa.com/en/articles/canada-team-profile-history",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "colombia",
+        "team_name": "Colombia",
+        "staff_id": "colombia:staff:nestor-lorenzo",
+        "name": "Nestor Lorenzo",
+        "display_name": "Nestor Lorenzo",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/articles/qualified-teams-nations-march-fixtures-results"
+        },
+        "source_url": "https://www.fifa.com/en/articles/qualified-teams-nations-march-fixtures-results",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
         "team_id": "cote-divoire",
         "team_name": "Cote d'Ivoire",
         "staff_id": "cote-divoire:staff:emerse-fae",
@@ -67919,6 +68054,114 @@
           "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae"
         },
         "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "croatia",
+        "team_name": "Croatia",
+        "staff_id": "croatia:staff:zlatko-dalic",
+        "name": "Zlatko Dalic",
+        "display_name": "Zlatko Dalic",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "czechia",
+        "team_name": "Czechia",
+        "staff_id": "czechia:staff:miroslav-koubek",
+        "name": "Miroslav Koubek",
+        "display_name": "Miroslav Koubek",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/czechia-team-profile-history"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/czechia-team-profile-history",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "ecuador",
+        "team_name": "Ecuador",
+        "staff_id": "ecuador:staff:sebastian-beccacece",
+        "name": "Sebastian Beccacece",
+        "display_name": "Sebastian Beccacece",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+        },
+        "source_url": "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "england",
+        "team_name": "England",
+        "staff_id": "england:staff:thomas-tuchel",
+        "name": "Thomas Tuchel",
+        "display_name": "Thomas Tuchel",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/thomas-tuchel-appointed-england-coach"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/thomas-tuchel-appointed-england-coach",
         "updated_at": "2026-05-17T00:00:00Z"
       },
       {
@@ -67951,6 +68194,33 @@
       {
         "competition_id": "fifa_world_cup",
         "season_id": "2026",
+        "team_id": "germany",
+        "team_name": "Germany",
+        "staff_id": "germany:staff:julian-nagelsmann",
+        "name": "Julian Nagelsmann",
+        "display_name": "Julian Nagelsmann",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
         "team_id": "haiti",
         "team_name": "Haiti",
         "staff_id": "haiti:staff:sebastien-migne",
@@ -67973,6 +68243,33 @@
           "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne"
         },
         "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "ir-iran",
+        "team_name": "IR Iran",
+        "staff_id": "ir-iran:staff:amir-ghalenoei",
+        "name": "Amir Ghalenoei",
+        "display_name": "Amir Ghalenoei",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/amir-ghalenoei-iran-interview"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/amir-ghalenoei-iran-interview",
         "updated_at": "2026-05-17T00:00:00Z"
       },
       {
@@ -68032,6 +68329,87 @@
       {
         "competition_id": "fifa_world_cup",
         "season_id": "2026",
+        "team_id": "mexico",
+        "team_name": "Mexico",
+        "staff_id": "mexico:staff:javier-aguirre",
+        "name": "Javier Aguirre",
+        "display_name": "Javier Aguirre",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/articles/mexico-team-profile-history"
+        },
+        "source_url": "https://www.fifa.com/en/articles/mexico-team-profile-history",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "morocco",
+        "team_name": "Morocco",
+        "staff_id": "morocco:staff:mohamed-ouahbi",
+        "name": "Mohamed Ouahbi",
+        "display_name": "Mohamed Ouahbi",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mohamed-ouahbi-replaces-walid-regragui-morocco"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mohamed-ouahbi-replaces-walid-regragui-morocco",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "netherlands",
+        "team_name": "Netherlands",
+        "staff_id": "netherlands:staff:ronald-koeman",
+        "name": "Ronald Koeman",
+        "display_name": "Ronald Koeman",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-team-profile-history"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-team-profile-history",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
         "team_id": "new-zealand",
         "team_name": "New Zealand",
         "staff_id": "new-zealand:staff:darren-bazeley",
@@ -68054,6 +68432,141 @@
           "source_url": "https://inside.fifa.com/about-fifa/organisation/news/darren-bazeley-on-new-zealands-world-cup-qualification"
         },
         "source_url": "https://inside.fifa.com/about-fifa/organisation/news/darren-bazeley-on-new-zealands-world-cup-qualification",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "paraguay",
+        "team_name": "Paraguay",
+        "staff_id": "paraguay:staff:gustavo-alfaro",
+        "name": "Gustavo Alfaro",
+        "display_name": "Gustavo Alfaro",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+        },
+        "source_url": "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "portugal",
+        "team_name": "Portugal",
+        "staff_id": "portugal:staff:roberto-martinez",
+        "name": "Roberto Martinez",
+        "display_name": "Roberto Martinez",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "saudi-arabia",
+        "team_name": "Saudi Arabia",
+        "staff_id": "saudi-arabia:staff:herve-renard",
+        "name": "Herve Renard",
+        "display_name": "Herve Renard",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "south-africa",
+        "team_name": "South Africa",
+        "staff_id": "south-africa:staff:hugo-broos",
+        "name": "Hugo Broos",
+        "display_name": "Hugo Broos",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/articles/south-africa-team-profile-history"
+        },
+        "source_url": "https://www.fifa.com/en/articles/south-africa-team-profile-history",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "spain",
+        "team_name": "Spain",
+        "staff_id": "spain:staff:luis-de-la-fuente",
+        "name": "Luis de la Fuente",
+        "display_name": "Luis de la Fuente",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/luis-de-la-fuente-spain-profile"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/luis-de-la-fuente-spain-profile",
         "updated_at": "2026-05-17T00:00:00Z"
       },
       {
@@ -68108,6 +68621,87 @@
           "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi"
         },
         "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "united-states",
+        "team_name": "United States",
+        "staff_id": "united-states:staff:mauricio-pochettino",
+        "name": "Mauricio Pochettino",
+        "display_name": "Mauricio Pochettino",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mauricio-pochettino-usa-interview"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mauricio-pochettino-usa-interview",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "uruguay",
+        "team_name": "Uruguay",
+        "staff_id": "uruguay:staff:marcelo-bielsa",
+        "name": "Marcelo Bielsa",
+        "display_name": "Marcelo Bielsa",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/articles/uruguay-team-profile-history"
+        },
+        "source_url": "https://www.fifa.com/en/articles/uruguay-team-profile-history",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "uzbekistan",
+        "team_name": "Uzbekistan",
+        "staff_id": "uzbekistan:staff:fabio-cannavaro",
+        "name": "Fabio Cannavaro",
+        "display_name": "Fabio Cannavaro",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-who-played-tournament-deschamps-cannavaro-scaloni"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-who-played-tournament-deschamps-cannavaro-scaloni",
         "updated_at": "2026-05-17T00:00:00Z"
       }
     ],
@@ -69971,9 +70565,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -69988,7 +70584,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -70007,7 +70603,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537328",
@@ -70095,11 +70691,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -70114,7 +70710,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -70133,7 +70729,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537329",
@@ -70219,9 +70815,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -70236,7 +70834,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -70255,7 +70853,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537330",
@@ -70343,11 +70941,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -70362,7 +70960,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -70381,7 +70979,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537331",
@@ -70467,9 +71065,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -70484,7 +71084,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -70503,7 +71103,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537332",
@@ -70591,11 +71191,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -70610,7 +71210,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -70629,7 +71229,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537333",
@@ -70717,11 +71317,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -70736,7 +71336,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -70755,7 +71355,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537334",
@@ -70858,7 +71458,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -70877,7 +71477,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537335",
@@ -70968,7 +71568,7 @@
           "status": "partial",
           "confidence": "low",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 1
         },
         "prediction": {
@@ -70984,7 +71584,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -71003,7 +71603,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537336",
@@ -71089,9 +71689,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -71106,7 +71708,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -71125,7 +71727,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537337",
@@ -71211,9 +71813,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -71228,7 +71832,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -71247,7 +71851,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537338",
@@ -71338,7 +71942,7 @@
           "status": "partial",
           "confidence": "low",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 1
         },
         "prediction": {
@@ -71354,7 +71958,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -71373,7 +71977,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537339",
@@ -71459,9 +72063,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -71476,7 +72082,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -71495,7 +72101,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537340",
@@ -71586,7 +72192,7 @@
           "status": "partial",
           "confidence": "low",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 1
         },
         "prediction": {
@@ -71602,7 +72208,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -71621,7 +72227,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537341",
@@ -71709,11 +72315,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -71728,7 +72334,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -71747,7 +72353,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537342",
@@ -71833,9 +72439,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -71850,7 +72458,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -71869,7 +72477,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537343",
@@ -71955,9 +72563,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -71972,7 +72582,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -71991,7 +72601,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537344",
@@ -72079,11 +72689,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -72098,7 +72708,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -72117,7 +72727,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537345",
@@ -72203,9 +72813,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -72220,7 +72832,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -72239,7 +72851,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537346",
@@ -72342,7 +72954,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -72361,7 +72973,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537347",
@@ -72447,9 +73059,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -72464,7 +73078,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -72483,7 +73097,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537348",
@@ -72569,9 +73183,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -72586,7 +73202,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -72605,7 +73221,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537349",
@@ -72691,9 +73307,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -72708,7 +73326,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -72727,7 +73345,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537350",
@@ -72813,9 +73431,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -72830,7 +73450,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -72849,7 +73469,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537351",
@@ -72935,9 +73555,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -72952,7 +73574,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -72971,7 +73593,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537352",
@@ -73059,11 +73681,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -73078,7 +73700,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -73097,7 +73719,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537353",
@@ -73185,11 +73807,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -73204,7 +73826,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -73223,7 +73845,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537354",
@@ -73309,9 +73931,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -73326,7 +73950,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -73345,7 +73969,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537355",
@@ -73431,9 +74055,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -73448,7 +74074,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -73467,7 +74093,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537356",
@@ -73558,7 +74184,7 @@
           "status": "partial",
           "confidence": "low",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 1
         },
         "prediction": {
@@ -73574,7 +74200,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -73593,7 +74219,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537357",
@@ -73681,11 +74307,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -73700,7 +74326,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -73719,7 +74345,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537358",
@@ -73810,7 +74436,7 @@
           "status": "available",
           "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 2
         },
         "prediction": {
@@ -73826,7 +74452,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -73845,7 +74471,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537359",
@@ -73933,11 +74559,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -73952,7 +74578,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -73971,7 +74597,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537360",
@@ -74062,7 +74688,7 @@
           "status": "available",
           "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 2
         },
         "prediction": {
@@ -74078,7 +74704,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -74097,7 +74723,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537361",
@@ -74185,11 +74811,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -74204,7 +74830,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -74223,7 +74849,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537362",
@@ -74314,7 +74940,7 @@
           "status": "available",
           "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 2
         },
         "prediction": {
@@ -74330,7 +74956,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -74349,7 +74975,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537363",
@@ -74440,7 +75066,7 @@
           "status": "partial",
           "confidence": "low",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 1
         },
         "prediction": {
@@ -74456,7 +75082,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -74475,7 +75101,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537364",
@@ -74561,11 +75187,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -74580,7 +75206,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -74599,7 +75225,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537365",
@@ -74687,11 +75313,11 @@
           "team_count": 1
         },
         "team_staff": {
-          "status": "partial",
-          "confidence": "low",
+          "status": "available",
+          "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
-          "head_coach_team_count": 1
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -74706,7 +75332,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -74725,7 +75351,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537366",
@@ -74814,7 +75440,7 @@
           "status": "partial",
           "confidence": "low",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 1
         },
         "prediction": {
@@ -74830,7 +75456,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -74849,7 +75475,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537367",
@@ -74940,7 +75566,7 @@
           "status": "available",
           "confidence": "medium",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 2
         },
         "prediction": {
@@ -74956,7 +75582,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -74975,7 +75601,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537368",
@@ -75061,9 +75687,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -75078,7 +75706,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -75097,7 +75725,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537369",
@@ -75183,9 +75811,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -75200,7 +75830,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -75219,7 +75849,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537370",
@@ -75305,9 +75935,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -75322,7 +75954,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -75341,7 +75973,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537371",
@@ -75427,9 +76059,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -75444,7 +76078,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -75463,7 +76097,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537372",
@@ -75549,9 +76183,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -75566,7 +76202,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -75585,7 +76221,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537373",
@@ -75671,9 +76307,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -75688,7 +76326,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -75707,7 +76345,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537374",
@@ -75793,9 +76431,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -75810,7 +76450,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -75829,7 +76469,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537375",
@@ -75932,7 +76572,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -75951,7 +76591,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537376",
@@ -76054,7 +76694,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -76073,7 +76713,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537377",
@@ -76176,7 +76816,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -76195,7 +76835,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537378",
@@ -76298,7 +76938,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -76317,7 +76957,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537379",
@@ -76420,7 +77060,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -76439,7 +77079,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537380",
@@ -76542,7 +77182,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -76561,7 +77201,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537381",
@@ -76664,7 +77304,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -76683,7 +77323,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537382",
@@ -76786,7 +77426,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -76805,7 +77445,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537383",
@@ -76908,7 +77548,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -76927,7 +77567,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537384",
@@ -77030,7 +77670,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -77049,7 +77689,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537385",
@@ -77152,7 +77792,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -77171,7 +77811,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537386",
@@ -77274,7 +77914,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -77293,7 +77933,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537387",
@@ -77396,7 +78036,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -77415,7 +78055,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537388",
@@ -77518,7 +78158,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -77537,7 +78177,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537389",
@@ -77640,7 +78280,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -77659,7 +78299,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537390",
@@ -77762,7 +78402,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -77781,7 +78421,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537391",
@@ -77872,7 +78512,7 @@
           "status": "partial",
           "confidence": "low",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 1
         },
         "prediction": {
@@ -77888,7 +78528,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -77907,7 +78547,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537392",
@@ -78010,7 +78650,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -78029,7 +78669,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537393",
@@ -78120,7 +78760,7 @@
           "status": "partial",
           "confidence": "low",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 1
         },
         "prediction": {
@@ -78136,7 +78776,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -78155,7 +78795,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537394",
@@ -78258,7 +78898,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -78277,7 +78917,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537395",
@@ -78368,7 +79008,7 @@
           "status": "partial",
           "confidence": "low",
           "source": "platform_team_staff",
-          "last_updated": "2026-05-17T10:29:28.211251+00:00",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
           "head_coach_team_count": 1
         },
         "prediction": {
@@ -78384,7 +79024,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -78403,7 +79043,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537396",
@@ -78506,7 +79146,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -78525,7 +79165,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537397",
@@ -78611,9 +79251,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -78628,7 +79270,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -78647,7 +79289,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537398",
@@ -78750,7 +79392,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -78769,7 +79411,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537399",
@@ -78855,9 +79497,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -78872,7 +79516,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -78891,7 +79535,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537400",
@@ -78977,9 +79621,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -78994,7 +79640,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -79013,7 +79659,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537401",
@@ -79099,9 +79745,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -79116,7 +79764,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -79135,7 +79783,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537402",
@@ -79221,9 +79869,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -79238,7 +79888,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -79257,7 +79907,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537403",
@@ -79343,9 +79993,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -79360,7 +80012,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -79379,7 +80031,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537404",
@@ -79465,9 +80117,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -79482,7 +80136,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -79501,7 +80155,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537405",
@@ -79587,9 +80241,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -79604,7 +80260,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -79623,7 +80279,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537406",
@@ -79709,9 +80365,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -79726,7 +80384,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -79745,7 +80403,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537407",
@@ -79831,9 +80489,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -79848,7 +80508,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -79867,7 +80527,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537408",
@@ -79953,9 +80613,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -79970,7 +80632,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -79989,7 +80651,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537409",
@@ -80075,9 +80737,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
-          "confidence": "low",
-          "head_coach_team_count": 0
+          "status": "available",
+          "confidence": "medium",
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 2
         },
         "prediction": {
           "status": "available",
@@ -80092,7 +80756,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -80111,7 +80775,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537410",
@@ -80214,7 +80878,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -80233,7 +80897,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537411",
@@ -80319,9 +80983,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -80336,7 +81002,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -80355,7 +81021,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537412",
@@ -80441,9 +81107,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -80458,7 +81126,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -80477,7 +81145,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537413",
@@ -80563,9 +81231,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -80580,7 +81250,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -80599,7 +81269,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537414",
@@ -80685,9 +81355,11 @@
           "team_count": 0
         },
         "team_staff": {
-          "status": "missing",
+          "status": "partial",
           "confidence": "low",
-          "head_coach_team_count": 0
+          "source": "platform_team_staff",
+          "last_updated": "2026-05-17T11:08:11.526632+00:00",
+          "head_coach_team_count": 1
         },
         "prediction": {
           "status": "available",
@@ -80702,7 +81374,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -80721,7 +81393,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537415",
@@ -80824,7 +81496,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -80843,7 +81515,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537416",
@@ -80946,7 +81618,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -80965,7 +81637,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537417",
@@ -81068,7 +81740,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -81087,7 +81759,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537418",
@@ -81190,7 +81862,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -81209,7 +81881,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537419",
@@ -81312,7 +81984,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -81331,7 +82003,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537420",
@@ -81434,7 +82106,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -81453,7 +82125,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537421",
@@ -81556,7 +82228,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -81575,7 +82247,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537422",
@@ -81678,7 +82350,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -81697,7 +82369,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537423",
@@ -81800,7 +82472,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -81819,7 +82491,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537424",
@@ -81922,7 +82594,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -81941,7 +82613,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537425",
@@ -82044,7 +82716,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -82063,7 +82735,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537426",
@@ -82166,7 +82838,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -82185,7 +82857,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537427",
@@ -82288,7 +82960,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -82307,7 +82979,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537428",
@@ -82410,7 +83082,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -82429,7 +83101,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537429",
@@ -82532,7 +83204,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -82551,7 +83223,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       },
       {
         "match_id": "fifa_world_cup:2026:fdorg:537430",
@@ -82654,7 +83326,7 @@
           "predictions_last_published_at": "2026-05-16T17:07:18.579802+00:00",
           "predictions_publish_status": "published",
           "predictions_publish_rows": 104,
-          "coverage_generated_at": "2026-05-17T10:30:45.839849+00:00"
+          "coverage_generated_at": "2026-05-17T11:08:20.803690+00:00"
         },
         "runtime_summary": {
           "status": "partial",
@@ -82673,7 +83345,7 @@
             "weather"
           ]
         },
-        "last_checked_at": "2026-05-17T10:30:45.839849+00:00"
+        "last_checked_at": "2026-05-17T11:08:20.803690+00:00"
       }
     ],
     "qualifier_events": [
