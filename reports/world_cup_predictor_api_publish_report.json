@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-05-15T00:00:00Z",
-  "manifest_path": "/home/runner/work/football-data-platform/football-data-platform/data/public/api/worldcup/2026/predictor/manifest.json",
-  "bundle_path": "/home/runner/work/football-data-platform/football-data-platform/data/public/api/worldcup/2026/predictor/bundle.json",
+  "manifest_path": "data/public/api/worldcup/2026/predictor/manifest.json",
+  "bundle_path": "data/public/api/worldcup/2026/predictor/bundle.json",
   "counts": {
     "shared_fixtures": 104,
     "feature_inputs_fixtures": 104,
@@ -25,6 +25,7 @@
     "person_style_profiles": 0,
     "predictions": 104,
     "prematch_context": 104,
+    "runtime_summary": 104,
     "shared_fixtures_enriched_with_kickoff_at": 104,
     "feature_inputs_enriched_with_kickoff_at": 208,
     "predictions_source_enriched_with_kickoff_at": 104,

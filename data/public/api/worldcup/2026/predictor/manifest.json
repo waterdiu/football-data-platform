@@ -126,6 +126,10 @@
     "weather": {
       "path": "api/worldcup/2026/predictor/weather.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/weather.json"
+    },
+    "runtime_summary": {
+      "path": "api/worldcup/2026/predictor/runtime-summary.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/runtime-summary.json"
     }
   },
   "notes": [

@@ -24,6 +24,10 @@ def write_json(path: Path, payload: object) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def rel(path: Path) -> str:
+    return str(path.relative_to(ROOT))
+
+
 def payload_size(payload: object) -> int:
     if isinstance(payload, list):
         return len(payload)
@@ -155,6 +159,141 @@ def missing_kickoff_count(payload: object) -> int:
     return sum(1 for row in fixtures if isinstance(row, dict) and not row.get("kickoff_at"))
 
 
+def list_by_match_id(rows: object) -> dict[str, list[dict]]:
+    result: dict[str, list[dict]] = {}
+    if not isinstance(rows, list):
+        return result
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        match_id = str(row.get("match_id") or "")
+        if match_id:
+            result.setdefault(match_id, []).append(row)
+    return result
+
+
+def first_by_match_id(rows: object) -> dict[str, dict]:
+    result: dict[str, dict] = {}
+    for match_id, items in list_by_match_id(rows).items():
+        if items:
+            result[match_id] = items[0]
+    return result
+
+
+def coverage_status(coverage: dict, field: str) -> str:
+    item = coverage.get(field)
+    if isinstance(item, dict):
+        return str(item.get("status") or "missing")
+    if isinstance(item, str):
+        return item
+    return "missing"
+
+
+def split_odds_snapshots(rows: list[dict]) -> dict[str, list[dict]]:
+    output = {"ah": [], "ou": [], "one_x_two": []}
+    for row in rows:
+        market = str(row.get("market") or row.get("market_key") or "").casefold()
+        if market in {"asian_handicap", "spreads", "ah"} or row.get("asian_handicap"):
+            output["ah"].append(row)
+        elif market in {"over_under", "totals", "ou"} or row.get("over_under") or row.get("totals"):
+            output["ou"].append(row)
+        elif market in {"h2h", "1x2", "one_x_two"} or row.get("h2h"):
+            output["one_x_two"].append(row)
+    return output
+
+
+def empty_advanced_stats(team_id: str, team_name: str) -> dict:
+    return {
+        "team_id": team_id,
+        "team_name": team_name,
+        "competition": "world_cup",
+        "scope": "last_10",
+        "matches": 0,
+        "possession_pct": None,
+        "pass_accuracy_pct": None,
+        "passes_completed_per_match": None,
+        "progressive_passes_per_match": None,
+        "shots_per_match": None,
+        "shots_on_target_per_match": None,
+        "ppda": None,
+        "xg_for_per_match": None,
+        "xga_per_match": None,
+        "source": None,
+        "last_updated": None,
+        "source_status": "missing",
+    }
+
+
+def build_runtime_summary(
+    *,
+    fixtures: object,
+    teams: object,
+    lineups: object,
+    injuries: object,
+    weather: object,
+    odds: object,
+    coverage: object,
+) -> list[dict]:
+    if not isinstance(fixtures, list):
+        return []
+    names = team_name_by_id(teams)
+    lineups_by_match = list_by_match_id(lineups)
+    injuries_by_match = list_by_match_id(injuries)
+    weather_by_match = first_by_match_id(weather)
+    odds_by_match = list_by_match_id(odds)
+    coverage_by_match = first_by_match_id(coverage)
+
+    rows: list[dict] = []
+    for fixture in fixtures:
+        if not isinstance(fixture, dict):
+            continue
+        match_id = str(fixture.get("match_id") or "")
+        if not match_id:
+            continue
+        coverage_row = coverage_by_match.get(match_id, {})
+        odds_rows = odds_by_match.get(match_id, [])
+        home_team_id = str(fixture.get("home_team_id") or "")
+        away_team_id = str(fixture.get("away_team_id") or "")
+        rows.append(
+            {
+                "match_id": match_id,
+                "competition": "world_cup",
+                "kickoff_at": fixture.get("kickoff_at") or fixture.get("date_utc"),
+                "home_team_id": home_team_id,
+                "away_team_id": away_team_id,
+                "home_team": names.get(home_team_id, home_team_id),
+                "away_team": names.get(away_team_id, away_team_id),
+                "lineups": lineups_by_match.get(match_id, []),
+                "injuries": injuries_by_match.get(match_id, []),
+                "weather": weather_by_match.get(match_id) or {},
+                "referee_profile": {
+                    "status": "missing_referee_assignment",
+                    "referee_id": None,
+                    "referee_name": None,
+                    "sample_size": 0,
+                },
+                "team_advanced_stats": {
+                    "home": empty_advanced_stats(home_team_id, names.get(home_team_id, home_team_id)),
+                    "away": empty_advanced_stats(away_team_id, names.get(away_team_id, away_team_id)),
+                },
+                "odds_snapshots": split_odds_snapshots(odds_rows),
+                "data_coverage": {
+                    "lineups": coverage_status(coverage_row, "lineups"),
+                    "injuries": coverage_status(coverage_row, "injuries"),
+                    "weather": coverage_status(coverage_row, "weather"),
+                    "referee_profile": "missing",
+                    "advanced_stats": "missing",
+                    "ah_odds": coverage_status(coverage_row, "asian_handicap"),
+                    "ou_odds": coverage_status(coverage_row, "over_under"),
+                    "one_x_two_odds": coverage_status(coverage_row, "odds"),
+                    "prematch_context": coverage_status(coverage_row, "prematch_context"),
+                },
+                "coverage_detail": coverage_row,
+            }
+        )
+    return rows
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Publish a World Cup predictor-facing static API and bundle.")
     parser.add_argument(
@@ -205,6 +344,15 @@ def main() -> None:
     injuries_runtime = load_json(MODEL_DIR / "injuries.json")
     prematch_context_runtime = load_json(MODEL_DIR / "prematch_context.json")
     weather_runtime = load_json(MODEL_DIR / "weather.json")
+    runtime_summary = build_runtime_summary(
+        fixtures=fixtures,
+        teams=teams,
+        lineups=lineups_runtime,
+        injuries=injuries_runtime,
+        weather=weather_runtime,
+        odds=odds_runtime,
+        coverage=data_coverage,
+    )
 
     datasets = {
         "shared-fixtures.json": shared_fixtures,
@@ -235,6 +383,7 @@ def main() -> None:
         "injuries.json": injuries_runtime,
         "prematch-context.json": prematch_context_runtime,
         "weather.json": weather_runtime,
+        "runtime-summary.json": runtime_summary,
     }
 
     for filename, payload in datasets.items():
@@ -301,6 +450,7 @@ def main() -> None:
             "injuries": injuries_runtime,
             "prematch_context": prematch_context_runtime,
             "weather": weather_runtime,
+            "runtime_summary": runtime_summary,
         },
     }
 
@@ -309,8 +459,8 @@ def main() -> None:
 
     report = {
         "generated_at": UPDATED_AT,
-        "manifest_path": str(API_DIR / "manifest.json"),
-        "bundle_path": str(API_DIR / "bundle.json"),
+        "manifest_path": rel(API_DIR / "manifest.json"),
+        "bundle_path": rel(API_DIR / "bundle.json"),
         "counts": {
             "shared_fixtures": payload_size(shared_fixtures.get("fixtures", [])) if isinstance(shared_fixtures, dict) else payload_size(shared_fixtures),
             "feature_inputs_fixtures": payload_size(feature_inputs.get("fixtures", [])) if isinstance(feature_inputs, dict) else 0,
@@ -334,6 +484,7 @@ def main() -> None:
             "person_style_profiles": payload_size(person_style_profiles),
             "predictions": payload_size(predictions),
             "prematch_context": payload_size(prematch_context_runtime),
+            "runtime_summary": payload_size(runtime_summary),
             "shared_fixtures_enriched_with_kickoff_at": shared_fixtures_enriched,
             "feature_inputs_enriched_with_kickoff_at": feature_inputs_enriched,
             "predictions_source_enriched_with_kickoff_at": predictions_source_enriched,

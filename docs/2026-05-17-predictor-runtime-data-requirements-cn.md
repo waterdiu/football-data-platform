@@ -377,13 +377,15 @@ OU 快照：
 - `api/worldcup/2026/predictor/weather.json`
 - `api/worldcup/2026/predictor/odds-snapshots.json`
 - `api/worldcup/2026/predictor/data-coverage.json`
+- `api/worldcup/2026/predictor/runtime-summary.json`
 - `api/worldcup/2026/predictor/bundle.json`
 
 后续需要补充：
 
 - `referee-profile` 或并入 `official-ratings.json`
 - `team-advanced-stats`
-- 按 match 聚合的 predictor runtime summary
+
+`runtime-summary.json` 是模型层优先读取的按比赛聚合入口。即使底层 `lineups`、`injuries`、`weather`、`odds` 暂时为空，该文件也必须为 104 场输出稳定行，并在 `data_coverage` 里显式标记 `missing`、`partial` 或 `available`。裁判画像和高级技术统计在未完成采集前必须输出 `missing` 和 `null` 字段，不能填 `0`。
 
 ## 优先级
 

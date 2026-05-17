@@ -129,6 +129,7 @@ GitHub 发布规则：
 - `weather.json`
 - `team_advanced_stats.json`
 - `official_ratings.json`
+- `runtime_summary.json`
 
 主要回写：
 
@@ -232,6 +233,7 @@ football-data-platform/
 - `model weather`
 - `model team_advanced_stats`
 - `model official/referee profiles`
+- `model runtime_summary`
 
 后续扩展：
 
@@ -246,6 +248,7 @@ football-data-platform/
 - `weather`
 - `team_advanced_stats`
 - `referee_profiles`
+- `runtime_summary`
 
 ## 8. Canonical IDs
 
@@ -735,6 +738,7 @@ predictor 兼容数据当前边界：
 - 最新模型侧回报：世界杯本地赔率/上下文采集默认停用，返回 `delegated_to_platform`
 - 当前平台 runtime 缺口：`odds_snapshots`、`lineups`、`injuries`、`weather`、`team_advanced_stats`、`referee_profiles`
 - 模型侧运行期数据需求基线见 `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`，P0 为确认首发、AH/OU 快照、伤停/球员影响力、天气；P1 为控球率/传球成功率/PPDA 等高级技术统计和裁判画像。
+- `runtime-summary.json` 是 predictor 运行期优先入口，由 `scripts/publish_world_cup_predictor_api.py` 从 fixtures、lineups、injuries、weather、odds 和 data coverage 聚合生成。即使底层运行期数据为空，也必须对 104 场输出稳定行并标记缺失状态，避免模型层把缺失值当作 0。
 - 截至 2026-05-17，世界杯 predictor compatibility API 已补齐 104 场 `kickoff_at`，平台发布报告显示 `shared_fixtures_missing_kickoff_at=0`、`feature_inputs_missing_kickoff_at=0`、`predictions_source_missing_kickoff_at=0`；模型侧 health-check 返回 `missing_kickoff_count=0`
 - 当前模型输出 runtime confidence 约为 `0.1074`，后续提升依赖平台补齐 runtime 数据
 

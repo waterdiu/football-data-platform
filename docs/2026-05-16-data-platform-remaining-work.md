@@ -75,6 +75,12 @@ Predictor runtime requirements baseline:
 
 This document is the working contract for model-facing runtime data: confirmed lineups, AH/OU odds snapshots, injuries/player impact, weather, advanced team stats, and referee profiles.
 
+Current model-facing aggregate entrypoint:
+
+- `api/worldcup/2026/predictor/runtime-summary.json`
+- Built by `scripts/publish_world_cup_predictor_api.py`
+- Must output one row per fixture and explicitly mark missing runtime fields; it must not omit matches just because a runtime source is unavailable.
+
 ## Remaining Data-Layer Tasks
 
 ### 1. World Cup Runtime Odds Coverage

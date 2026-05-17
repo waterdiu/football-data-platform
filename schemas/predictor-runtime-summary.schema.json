@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Predictor Runtime Summary Row",
+  "type": "object",
+  "required": [
+    "match_id",
+    "competition",
+    "kickoff_at",
+    "home_team_id",
+    "away_team_id",
+    "lineups",
+    "injuries",
+    "weather",
+    "referee_profile",
+    "team_advanced_stats",
+    "odds_snapshots",
+    "data_coverage"
+  ],
+  "properties": {
+    "match_id": { "type": "string" },
+    "competition": { "type": "string" },
+    "kickoff_at": { "type": ["string", "null"] },
+    "home_team_id": { "type": "string" },
+    "away_team_id": { "type": "string" },
+    "home_team": { "type": "string" },
+    "away_team": { "type": "string" },
+    "lineups": { "type": "array" },
+    "injuries": { "type": "array" },
+    "weather": { "type": "object" },
+    "referee_profile": {
+      "type": "object",
+      "properties": {
+        "status": { "type": "string" },
+        "referee_id": { "type": ["string", "null"] },
+        "referee_name": { "type": ["string", "null"] },
+        "sample_size": { "type": "integer" }
+      },
+      "additionalProperties": true
+    },
+    "team_advanced_stats": {
+      "type": "object",
+      "required": ["home", "away"],
+      "properties": {
+        "home": { "type": "object" },
+        "away": { "type": "object" }
+      },
+      "additionalProperties": true
+    },
+    "odds_snapshots": {
+      "type": "object",
+      "required": ["ah", "ou", "one_x_two"],
+      "properties": {
+        "ah": { "type": "array" },
+        "ou": { "type": "array" },
+        "one_x_two": { "type": "array" }
+      },
+      "additionalProperties": true
+    },
+    "data_coverage": {
+      "type": "object",
+      "properties": {
+        "lineups": { "type": "string" },
+        "injuries": { "type": "string" },
+        "weather": { "type": "string" },
+        "referee_profile": { "type": "string" },
+        "advanced_stats": { "type": "string" },
+        "ah_odds": { "type": "string" },
+        "ou_odds": { "type": "string" },
+        "one_x_two_odds": { "type": "string" },
+        "prematch_context": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "coverage_detail": { "type": "object" }
+  },
+  "additionalProperties": true
+}
