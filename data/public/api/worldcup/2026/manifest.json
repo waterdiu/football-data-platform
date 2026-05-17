@@ -109,7 +109,7 @@
       "team_staff": {
         "path": "./core/team-staff.json",
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/team-staff.json",
-        "count": 32
+        "count": 48
       },
       "officials": {
         "path": "./core/officials.json",
@@ -179,7 +179,7 @@
       "rosters": 9,
       "team_world_cup_history": 48,
       "team_recent_matches": 48,
-      "team_staff": 32,
+      "team_staff": 48,
       "officials": 0,
       "player_ratings": 0,
       "staff_ratings": 0,

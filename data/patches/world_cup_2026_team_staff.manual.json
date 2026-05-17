@@ -290,6 +290,150 @@
       "status": "active",
       "source_status": "official_fifa",
       "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-who-played-tournament-deschamps-cannavaro-scaloni"
+    },
+    {
+      "team_id": "australia",
+      "name": "Tony Popovic",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/australia-team-profile-history"
+    },
+    {
+      "team_id": "austria",
+      "name": "Ralf Rangnick",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/austria-qualify"
+    },
+    {
+      "team_id": "cabo-verde",
+      "name": "Bubista",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/bubista-interview-cabo-verde"
+    },
+    {
+      "team_id": "congo-dr",
+      "name": "Sebastien Desabre",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/qualifiers/play-off-tournament/articles/sebastien-desabre-congo-dr-interview"
+    },
+    {
+      "team_id": "curacao",
+      "name": "Dick Advocaat",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/dick-advocaat-returns-curacao-coach"
+    },
+    {
+      "team_id": "egypt",
+      "name": "Hossam Hassan",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/hossam-hassan-egypt-coach-interview-qualifiers"
+    },
+    {
+      "team_id": "ghana",
+      "name": "Carlos Queiroz",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/carlos-queiroz-ghana"
+    },
+    {
+      "team_id": "iraq",
+      "name": "Graham Arnold",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/iraq-reaction-graham-arnold-merchas-doski-marko-farji-aimar-sher"
+    },
+    {
+      "team_id": "jordan",
+      "name": "Jamal Sellami",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sellami-replaces-ammouta-jordan-head-coach"
+    },
+    {
+      "team_id": "norway",
+      "name": "Stale Solbakken",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/norway-team-profile-history"
+    },
+    {
+      "team_id": "panama",
+      "name": "Thomas Christiansen",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/panama-team-profile-history"
+    },
+    {
+      "team_id": "qatar",
+      "name": "Julen Lopetegui",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/qatar-team-profile-history"
+    },
+    {
+      "team_id": "scotland",
+      "name": "Steve Clarke",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/steve-clarke-interview"
+    },
+    {
+      "team_id": "senegal",
+      "name": "Pape Thiaw",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/senegal-team-profile-history"
+    },
+    {
+      "team_id": "switzerland",
+      "name": "Murat Yakin",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/switzerland-qualify"
+    },
+    {
+      "team_id": "turkiye",
+      "name": "Vincenzo Montella",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/turkiye-team-profile-history"
     }
   ]
 }

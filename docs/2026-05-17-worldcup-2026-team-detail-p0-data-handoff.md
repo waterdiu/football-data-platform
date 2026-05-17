@@ -36,7 +36,7 @@ manifest：
 
 | 数据集 | 当前覆盖 | 说明 |
 | --- | ---: | --- |
-| `team_staff` | 32 队 | 已有 FIFA 官方文章确认的主教练，`role=head_coach` |
+| `team_staff` | 48 队 | 已有 FIFA 官方文章确认的主教练，`role=head_coach` |
 | `rosters` | 9 队 | 已有 FIFA 官方名单文章的 26 人名单 |
 | `players` | 234 人 | P0 可用字段：姓名、位置、状态、`team_id` |
 | `team_recent_matches` | 48 队 | 每队最近 10 场基础比分 |
