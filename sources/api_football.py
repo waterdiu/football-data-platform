@@ -18,6 +18,27 @@ DEFAULT_LEAGUE_IDS = {
 }
 
 
+class ApiFootballResponseError(RuntimeError):
+    def __init__(self, *, status: str, reason: str) -> None:
+        super().__init__(reason)
+        self.status = status
+        self.reason = reason
+
+
+def classify_api_football_errors(errors: object) -> tuple[str, str] | None:
+    if not errors:
+        return None
+    if isinstance(errors, dict):
+        if errors.get("plan"):
+            return "plan_restricted", str(errors["plan"])
+        if errors.get("requests"):
+            return "quota_exceeded", str(errors["requests"])
+        return "provider_error", json.dumps(errors, ensure_ascii=False, sort_keys=True)
+    if isinstance(errors, list) and errors:
+        return "provider_error", json.dumps(errors, ensure_ascii=False)
+    return None
+
+
 def canonical_name(value: str) -> str:
     return " ".join(str(value or "").strip().casefold().split())
 
@@ -95,6 +116,9 @@ def discover_fixture_ids(
         api_key=api_key,
         params={"league": league_id, "season": season},
     )
+    if classified := classify_api_football_errors(payload.get("errors")):
+        status, reason = classified
+        raise ApiFootballResponseError(status=status, reason=reason)
     api_items_by_key = {
         key: item
         for item in payload.get("response", [])
@@ -290,9 +314,12 @@ def collect_api_football_context(
             league_id=resolved_league_id,
             season=resolved_season,
         ) if missing else {}
+    except ApiFootballResponseError as exc:
+        discovered = {}
+        errors.append({"stage": "discover_fixture_ids", "status": exc.status, "error": exc.reason})
     except Exception as exc:  # noqa: BLE001 - report fixture discovery failures without crashing all runtime collectors.
         discovered = {}
-        errors.append({"stage": "discover_fixture_ids", "error": str(exc)})
+        errors.append({"stage": "discover_fixture_ids", "status": "provider_error", "error": str(exc)})
     if discovered:
         mapping = {**mapping, **discovered}
         save_fixture_map(fixture_map_path, mapping)
@@ -323,9 +350,11 @@ def collect_api_football_context(
         injuries_rows.append(injuries_row)
         lineups_rows.append(lineups_row)
 
+    provider_status = str(errors[0].get("status") or "provider_error") if errors and not (injuries_rows or lineups_rows) else "no_rows"
+    provider_reason = str(errors[0].get("error") or "") if errors and not (injuries_rows or lineups_rows) else "No API-FOOTBALL lineups or injuries rows were available for selected fixtures."
     report = {
-        "status": "collected" if injuries_rows or lineups_rows else "no_rows",
-        "status_reason": None if injuries_rows or lineups_rows else "No API-FOOTBALL lineups or injuries rows were available for selected fixtures.",
+        "status": "collected" if injuries_rows or lineups_rows else provider_status,
+        "status_reason": None if injuries_rows or lineups_rows else provider_reason,
         "provider": "api_football",
         "auth_env": "API_FOOTBALL_KEY",
         "league_id": resolved_league_id,

@@ -292,7 +292,14 @@ def main() -> None:
             injury_source_status = str(injuries.get("source_status") or "")
             if injury_source_status in {"available", "partial"}:
                 injury_field_status = injury_source_status
-            elif injury_source_status in {"unavailable", "missing_auth", "provider_error", "provider_empty"}:
+            elif injury_source_status in {
+                "unavailable",
+                "missing_auth",
+                "plan_restricted",
+                "quota_exceeded",
+                "provider_error",
+                "provider_empty",
+            }:
                 injury_field_status = "unavailable"
             else:
                 injury_field_status = "available"

@@ -1,443 +1,891 @@
 {
-  "generated_at": "2026-05-17T13:11:04.264708+00:00",
+  "generated_at": "2026-05-17T13:44:10.633062+00:00",
   "dry_run": false,
   "fixtures_total": 104,
   "fixtures_selected": 104,
   "window_hours": null,
   "limit": null,
-  "only": "weather",
+  "only": "api_football",
   "datasets": [
     {
-      "dataset": "weather",
-      "status": "collected",
-      "auth_env": "OPENWEATHER_API_KEY",
-      "fallback_provider": "open_meteo",
+      "dataset": "injuries",
+      "provider": "api_football",
+      "status": "plan_restricted",
+      "status_reason": "Free plans do not have access to this season, try from 2022 to 2024.",
+      "auth_env": "API_FOOTBALL_KEY",
+      "league_id": "1",
+      "season": "2026",
       "fixtures_considered": 104,
-      "rows_collected": 104,
-      "provider_counts": {
-        "openweather": 0,
-        "open_meteo": 0
-      },
+      "fixture_ids_discovered": 0,
+      "rows_collected": 0,
+      "rows_published": 104,
+      "placeholder_rows_published": 104,
+      "output": "data/normalized/world_cup_2026_model_injuries_master.json",
       "skipped": [
         {
           "match_id": "fifa_world_cup:2026:fdorg:537327",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537328",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537329",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537330",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537331",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537332",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537333",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537334",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537335",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537336",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537337",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537338",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537339",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537340",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537342",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537341",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537343",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537344",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537345",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537346",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537348",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537347",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537349",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537350",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537351",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537352",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537353",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537354",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537356",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537355",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537357",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537358",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537359",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537360",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537362",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537361",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537363",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537364",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537365",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537366",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537368",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537367",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537369",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537370",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537371",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537372",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537374",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537373",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537391",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537392",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537393",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537394",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537395",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537396",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537397",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537398",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537399",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537400",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537402",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537401",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537403",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537404",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537405",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537406",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537407",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537408",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537409",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537410",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537411",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537412",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537413",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537414",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537417",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537415",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537418",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537423",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537416",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537424",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537425",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537426",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537421",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537422",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537419",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537420",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537429",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537427",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537430",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537428",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537375",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537376",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537377",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537378",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537379",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537380",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537381",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537382",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537383",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537384",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537385",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537386",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537387",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537388",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537389",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         },
         {
           "match_id": "fifa_world_cup:2026:fdorg:537390",
-          "reason": "outside_forecast_window"
+          "reason": "missing_api_fixture_id"
         }
       ],
-      "errors": [],
-      "output": "data/normalized/world_cup_2026_model_weather_master.json"
+      "errors": [
+        {
+          "stage": "discover_fixture_ids",
+          "status": "plan_restricted",
+          "error": "Free plans do not have access to this season, try from 2022 to 2024."
+        }
+      ]
+    },
+    {
+      "dataset": "lineups",
+      "provider": "api_football",
+      "status": "plan_restricted",
+      "status_reason": "Free plans do not have access to this season, try from 2022 to 2024.",
+      "auth_env": "API_FOOTBALL_KEY",
+      "league_id": "1",
+      "season": "2026",
+      "fixtures_considered": 104,
+      "fixture_ids_discovered": 0,
+      "rows_collected": 0,
+      "rows_published": 104,
+      "placeholder_rows_published": 104,
+      "output": "data/normalized/world_cup_2026_model_lineups_master.json",
+      "skipped": [
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537327",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537328",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537329",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537330",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537331",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537332",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537333",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537334",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537335",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537336",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537337",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537338",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537339",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537340",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537342",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537341",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537343",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537344",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537345",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537346",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537348",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537347",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537349",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537350",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537351",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537352",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537353",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537354",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537356",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537355",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537357",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537358",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537359",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537360",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537362",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537361",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537363",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537364",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537365",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537366",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537368",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537367",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537369",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537370",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537371",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537372",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537374",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537373",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537391",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537392",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537393",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537394",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537395",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537396",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537397",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537398",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537399",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537400",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537402",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537401",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537403",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537404",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537405",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537406",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537407",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537408",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537409",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537410",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537411",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537412",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537413",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537414",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537417",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537415",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537418",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537423",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537416",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537424",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537425",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537426",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537421",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537422",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537419",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537420",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537429",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537427",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537430",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537428",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537375",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537376",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537377",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537378",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537379",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537380",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537381",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537382",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537383",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537384",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537385",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537386",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537387",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537388",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537389",
+          "reason": "missing_api_fixture_id"
+        },
+        {
+          "match_id": "fifa_world_cup:2026:fdorg:537390",
+          "reason": "missing_api_fixture_id"
+        }
+      ],
+      "errors": [
+        {
+          "stage": "discover_fixture_ids",
+          "status": "plan_restricted",
+          "error": "Free plans do not have access to this season, try from 2022 to 2024."
+        }
+      ]
     }
   ]
 }

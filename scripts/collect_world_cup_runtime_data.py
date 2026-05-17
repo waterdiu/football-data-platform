@@ -211,6 +211,10 @@ def runtime_status_from_report(report: dict, default: str) -> str:
     status = str(report.get("status") or "")
     if status == "missing_auth":
         return "missing_auth"
+    if status == "plan_restricted":
+        return "plan_restricted"
+    if status == "quota_exceeded":
+        return "quota_exceeded"
     if report.get("errors"):
         return "provider_error"
     if status == "no_rows":

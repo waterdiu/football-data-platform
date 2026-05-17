@@ -160,7 +160,7 @@ Acceptance criteria:
 
 - API-FOOTBALL fixture ID mapping is maintained in `data/runtime/api_football_fixture_map.json`.
 - Each match has source status: `available`, `partial`, `unavailable`, `missing_auth`, `missing`, or `provider_error`.
-- Current baseline is explicit status coverage rather than empty files: 104 lineup rows are published as `unavailable/outside_lineup_window`, and 104 injury rows are published as `missing_auth/missing_auth` until `API_FOOTBALL_KEY` is configured in the runtime environment or another approved source is wired.
+- Current baseline is explicit status coverage rather than empty files: 104 lineup rows are published as `unavailable/outside_lineup_window`, and injury rows expose the provider reason, such as `missing_auth`, `plan_restricted`, or `provider_error`. A local Free-plan probe confirmed API-FOOTBALL World Cup `league=1,season=2026` returns plan restriction rather than fixture rows.
 - Placeholder rows are low confidence and must not be interpreted as "no injuries" or "no lineup"; they only explain why provider-backed facts are not yet available.
 - Lineup freshness supports pre-match windows: 90/60/30 minutes before kickoff.
 - Injury status distinguishes confirmed absence, doubtful, suspension, and unknown.

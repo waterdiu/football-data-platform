@@ -32,10 +32,10 @@
     },
     "model": {
       "odds_snapshots": 0,
-      "lineups": 0,
-      "injuries": 0,
+      "lineups": 104,
+      "injuries": 104,
       "prematch_context": 104,
-      "weather": 0
+      "weather": 104
     },
     "coverage": {
       "matches": 104,
