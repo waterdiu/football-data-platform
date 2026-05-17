@@ -1,7 +1,7 @@
 {
   "status": "published",
-  "patch": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/patches/world_cup_2026_team_staff.manual.json",
-  "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_team_staff_master.json",
+  "patch": "/home/runner/work/football-data-platform/football-data-platform/data/patches/world_cup_2026_team_staff.manual.json",
+  "output": "/home/runner/work/football-data-platform/football-data-platform/data/normalized/person_team_staff_master.json",
   "rows": 48,
   "teams": [
     "algeria",
