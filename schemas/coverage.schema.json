@@ -32,6 +32,8 @@
     "odds": { "$ref": "#/definitions/coverage_item" },
     "injuries": { "$ref": "#/definitions/coverage_item" },
     "weather": { "$ref": "#/definitions/coverage_item" },
+    "rosters": { "$ref": "#/definitions/coverage_item" },
+    "team_staff": { "$ref": "#/definitions/coverage_item" },
     "prediction": { "$ref": "#/definitions/coverage_item" },
     "last_checked_at": { "type": "string" }
   }

@@ -33,7 +33,11 @@
     "match_stats_available": 0,
     "odds_available": 0,
     "injuries_available": 0,
-    "weather_available": 0
+    "weather_available": 0,
+    "rosters_available": 3,
+    "rosters_partial": 18,
+    "team_staff_available": 3,
+    "team_staff_partial": 18
   },
   "world_cup_sources": {
     "detail_extract": {

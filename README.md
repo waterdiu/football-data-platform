@@ -208,6 +208,8 @@ python3 scripts/publish_world_cup_predictor_api.py
 
 当前 `team-recent-matches.json` 从已迁移的模型侧 `normalized_matches.csv` 生成，每队最近 10 场。`team-world-cup-history.json` 先发布契约骨架，`source_status=pending_source`，后续必须从已审计的历届世界杯赛果源计算后才能作为生产事实使用。
 
+截至 2026-05-17，`team-recent-matches.json` 已补齐 48 队最近 10 场基础比分，字段包含 `match_id`、日期、赛事、主客队、比分、主客/中立和比赛地。`team-world-cup-history.json` 已从已迁移历史赛果源计算 2002-2022 FIFA World Cup 年度级汇总；有源内世界杯记录的球队标记为 `source_status=available_partial`，没有记录的球队仍为 `pending_source`。不要把该数据解释为 1930-2022 全量历史，直到接入完整审计源。
+
 带上下文采集的世界杯发布：
 
 ```bash

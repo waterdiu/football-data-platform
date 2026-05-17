@@ -21,6 +21,7 @@ INJURIES_PATH = MODEL_DIR / "injuries.json"
 WEATHER_PATH = MODEL_DIR / "weather.json"
 PREMATCH_CONTEXT_PATH = MODEL_DIR / "prematch_context.json"
 ROSTERS_PATH = PUBLIC_DIR / "rosters.json"
+TEAM_STAFF_PATH = PUBLIC_DIR / "team-staff.json"
 PREDICTOR_INBOX_REPORT_PATH = ROOT / "reports" / "predictor_inbox_publish_report.json"
 
 NORMALIZED_OUTPUT_PATH = NORMALIZED_DIR / "world_cup_2026_data_coverage.json"
@@ -140,6 +141,7 @@ def main() -> None:
     weather_rows = load_json(WEATHER_PATH)
     prematch_context_rows = load_json(PREMATCH_CONTEXT_PATH)
     roster_rows = load_json(ROSTERS_PATH)
+    team_staff_rows = load_json(TEAM_STAFF_PATH)
 
     if not isinstance(fixtures, list):
         raise TypeError("fixtures.json must contain a list")
@@ -163,6 +165,8 @@ def main() -> None:
         raise TypeError("prematch_context.json must contain a list")
     if not isinstance(roster_rows, list):
         raise TypeError("rosters.json must contain a list")
+    if not isinstance(team_staff_rows, list):
+        raise TypeError("team-staff.json must contain a list")
 
     updated_at = datetime.now(timezone.utc).isoformat()
     predictor_publish = predictor_publish_metadata()
@@ -178,6 +182,7 @@ def main() -> None:
         "weather": file_updated_at(WEATHER_PATH),
         "prematch_context": file_updated_at(PREMATCH_CONTEXT_PATH),
         "rosters": file_updated_at(ROSTERS_PATH),
+        "team_staff": file_updated_at(TEAM_STAFF_PATH),
         "predictor_inbox_report": file_updated_at(PREDICTOR_INBOX_REPORT_PATH),
     }
 
@@ -202,6 +207,11 @@ def main() -> None:
     }
     roster_by_team_id = {
         str(item["team_id"]): item for item in roster_rows if isinstance(item, dict) and "team_id" in item
+    }
+    head_coach_by_team_id = {
+        str(item["team_id"]): item
+        for item in team_staff_rows
+        if isinstance(item, dict) and item.get("team_id") and item.get("role") == "head_coach"
     }
 
     coverage_rows: list[dict[str, object]] = []
@@ -315,6 +325,14 @@ def main() -> None:
             last_updated=source_updated_at["rosters"] if roster_team_count else None,
             team_count=roster_team_count,
         )
+        head_coach_team_count = sum(1 for team_id in fixture_team_ids if team_id and team_id in head_coach_by_team_id)
+        team_staff_status = coverage_item(
+            status="available" if head_coach_team_count == 2 else "partial" if head_coach_team_count == 1 else "missing",
+            confidence="medium" if head_coach_team_count == 2 else "low",
+            source="platform_team_staff" if head_coach_team_count else None,
+            last_updated=source_updated_at["team_staff"] if head_coach_team_count else None,
+            head_coach_team_count=head_coach_team_count,
+        )
 
         events_status = coverage_item(
             status="available" if match_id in event_match_ids else "missing",
@@ -369,6 +387,7 @@ def main() -> None:
                 "weather": weather_status,
                 "prematch_context": prematch_context_status,
                 "rosters": roster_status,
+                "team_staff": team_staff_status,
                 "prediction": prediction_status,
                 "publish_freshness": {
                     "predictions_last_published_at": predictor_publish["predictions_last_published_at"],

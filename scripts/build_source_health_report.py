@@ -117,6 +117,18 @@ def main() -> None:
     available_weather = sum(
         1 for row in coverage_rows if isinstance(row, dict) and ((row.get("weather") or {}).get("status") == "available")
     )
+    available_rosters = sum(
+        1 for row in coverage_rows if isinstance(row, dict) and ((row.get("rosters") or {}).get("status") == "available")
+    )
+    partial_rosters = sum(
+        1 for row in coverage_rows if isinstance(row, dict) and ((row.get("rosters") or {}).get("status") == "partial")
+    )
+    available_team_staff = sum(
+        1 for row in coverage_rows if isinstance(row, dict) and ((row.get("team_staff") or {}).get("status") == "available")
+    )
+    partial_team_staff = sum(
+        1 for row in coverage_rows if isinstance(row, dict) and ((row.get("team_staff") or {}).get("status") == "partial")
+    )
 
     world_cup_detail_report = load_json(WORLD_CUP_DETAIL_REPORT_PATH) or {}
     world_cup_model_report = load_json(WORLD_CUP_MODEL_REPORT_PATH) or {}
@@ -160,6 +172,10 @@ def main() -> None:
             "odds_available": available_odds,
             "injuries_available": available_injuries,
             "weather_available": available_weather,
+            "rosters_available": available_rosters,
+            "rosters_partial": partial_rosters,
+            "team_staff_available": available_team_staff,
+            "team_staff_partial": partial_team_staff,
         },
         "world_cup_sources": {
             "detail_extract": world_cup_detail_report,

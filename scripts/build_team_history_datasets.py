@@ -89,6 +89,20 @@ def empty_history(team_id: str, team: dict) -> dict:
     }
 
 
+def match_id_for_row(row: dict) -> str:
+    raw = "|".join(
+        [
+            str(row.get("date") or ""),
+            str(row.get("home_team") or ""),
+            str(row.get("away_team") or ""),
+            str(row.get("tournament") or ""),
+        ]
+    )
+    slug = "".join(ch.lower() if ch.isalnum() else "-" for ch in raw)
+    slug = "-".join(part for part in slug.split("-") if part)
+    return f"historical:{slug}"
+
+
 def parse_int(value: object) -> int | None:
     try:
         return int(value)
@@ -124,18 +138,29 @@ def row_for_team(row: dict, team_id: str, team_name: str, side: str) -> dict | N
     score_for = home_score if is_home else away_score
     score_against = away_score if is_home else home_score
     opponent = row.get("away_team") if is_home else row.get("home_team")
+    city = str(row.get("city") or "")
+    country = str(row.get("country") or "")
+    venue = ", ".join(part for part in [city, country] if part)
     return {
+        "match_id": match_id_for_row(row),
         "date": str(row.get("date") or ""),
+        "team_id": team_id,
+        "team_name": team_name,
+        "home_team": str(row.get("home_team") or ""),
+        "away_team": str(row.get("away_team") or ""),
         "opponent_name": str(opponent or ""),
         "home_away": "neutral" if parse_bool(row.get("neutral")) else side,
+        "home_score": home_score,
+        "away_score": away_score,
         "score_for": score_for,
         "score_against": score_against,
         "result": result_for(score_for, score_against),
         "tournament": str(row.get("tournament") or ""),
         "competition_group": str(row.get("competition_group") or ""),
         "competition_weight": parse_float(row.get("competition_weight")),
-        "city": str(row.get("city") or ""),
-        "country": str(row.get("country") or ""),
+        "city": city,
+        "country": country,
+        "venue": venue or None,
         "neutral": parse_bool(row.get("neutral")),
     }
 
@@ -155,6 +180,91 @@ def summarize_form(matches: list[dict]) -> dict:
         "goals_against": goals_against,
         "goal_difference": goals_for - goals_against,
     }
+
+
+def build_world_cup_history(
+    *,
+    team_by_id: dict[str, dict],
+    alias_to_id: dict[str, str],
+    source_path: Path,
+) -> list[dict]:
+    stats_by_team: dict[str, dict[int, dict[str, object]]] = {team_id: {} for team_id in team_by_id}
+    if not source_path.exists():
+        return [empty_history(team_id, team) for team_id, team in sorted(team_by_id.items())]
+
+    with source_path.open(newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            if str(row.get("competition_group") or "") != "world_cup" and str(row.get("tournament") or "") != "FIFA World Cup":
+                continue
+            year = parse_int(str(row.get("date") or "")[:4])
+            if year is None:
+                continue
+            home_id = alias_to_id.get(normalize_name(str(row.get("home_team") or "")))
+            away_id = alias_to_id.get(normalize_name(str(row.get("away_team") or "")))
+            for team_id, side in ((home_id, "home"), (away_id, "away")):
+                if not team_id:
+                    continue
+                item = row_for_team(row, team_id, team_by_id[team_id].get("name") or team_id, side)
+                if not item:
+                    continue
+                edition = stats_by_team[team_id].setdefault(
+                    year,
+                    {
+                        "year": year,
+                        "matches_played": 0,
+                        "won": 0,
+                        "drawn": 0,
+                        "lost": 0,
+                        "goals_for": 0,
+                        "goals_against": 0,
+                        "goal_difference": 0,
+                        "matches": [],
+                        "stage_reached": None,
+                        "finish": None,
+                    },
+                )
+                edition["matches_played"] = int(edition["matches_played"]) + 1
+                if item["result"] == "win":
+                    edition["won"] = int(edition["won"]) + 1
+                elif item["result"] == "draw":
+                    edition["drawn"] = int(edition["drawn"]) + 1
+                else:
+                    edition["lost"] = int(edition["lost"]) + 1
+                edition["goals_for"] = int(edition["goals_for"]) + int(item["score_for"])
+                edition["goals_against"] = int(edition["goals_against"]) + int(item["score_against"])
+                edition["goal_difference"] = int(edition["goals_for"]) - int(edition["goals_against"])
+                edition["matches"].append(item)
+
+    output: list[dict] = []
+    for team_id, team in sorted(team_by_id.items()):
+        editions = sorted(stats_by_team.get(team_id, {}).values(), key=lambda item: int(item["year"]))
+        if not editions:
+            output.append(empty_history(team_id, team))
+            continue
+        summary = {
+            "appearances": len(editions),
+            "best_finish": None,
+            "matches_played": sum(int(item["matches_played"]) for item in editions),
+            "won": sum(int(item["won"]) for item in editions),
+            "drawn": sum(int(item["drawn"]) for item in editions),
+            "lost": sum(int(item["lost"]) for item in editions),
+            "goals_for": sum(int(item["goals_for"]) for item in editions),
+            "goals_against": sum(int(item["goals_against"]) for item in editions),
+        }
+        output.append(
+            {
+                "team_id": team_id,
+                "team_name": team.get("name") or team_id,
+                "competition_id": "fifa_world_cup",
+                "source_status": "available_partial",
+                "source": str(source_path),
+                "summary": summary,
+                "editions": editions,
+                "notes": "Derived from migrated historical international results. Coverage currently includes FIFA World Cup matches present in normalized_matches.csv (2002-2022); stage/finish labels are not asserted until an audited full-history source is connected.",
+                "updated_at": UPDATED_AT,
+            }
+        )
+    return output
 
 
 def build_recent_matches(
@@ -228,7 +338,7 @@ def main() -> None:
 
     selected_ids = active_team_ids(fixtures)
     team_by_id, alias_to_id = team_indexes(teams, selected_ids)
-    history = [empty_history(team_id, team) for team_id, team in sorted(team_by_id.items())]
+    history = build_world_cup_history(team_by_id=team_by_id, alias_to_id=alias_to_id, source_path=NORMALIZED_MATCHES_PATH)
     recent = build_recent_matches(
         team_by_id=team_by_id,
         alias_to_id=alias_to_id,
@@ -245,7 +355,8 @@ def main() -> None:
         "status": "published_contract_and_recent_matches",
         "teams_considered": len(team_by_id),
         "history_rows": len(history),
-        "history_source_status": "pending_source",
+        "history_source_status": "available_partial",
+        "history_available_rows": sum(1 for row in history if row.get("source_status") == "available_partial"),
         "recent_rows": len(recent),
         "recent_available_rows": sum(1 for row in recent if row.get("source_status") == "available"),
         "recent_limit": args.recent_limit,

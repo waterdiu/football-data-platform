@@ -522,9 +522,10 @@ football-data-platform/
 
 边界：
 
-- `team_recent_matches` 当前从已迁移的 `data/predictor-assets/files/processed/normalized_matches.csv` 生成，每队保留最近 10 场，覆盖比分、赛事、主客/中立、比赛地和基础状态。
-- `team_world_cup_history` 当前先发布 48 队契约骨架，`source_status=pending_source`，不得当成历史事实使用；后续需要从 audited historical World Cup results 计算参赛次数、最好成绩、世界杯总场次、胜平负和进失球。
-- 历史世界杯战绩的可接受来源优先级：FIFA 官方历史资料、openfootball 历史世界杯结果、Kaggle international/world cup results、Wikipedia/DBpedia 仅作为人工校验辅助。
+- `team_recent_matches` 当前从已迁移的 `data/predictor-assets/files/processed/normalized_matches.csv` 生成，每队保留最近 10 场，覆盖 `match_id`、日期、赛事、主客队、比分、主客/中立、比赛地和基础状态，满足 `worldcup/2026` 球队详情页 P0 展示。
+- `team_world_cup_history` 当前从同一已迁移历史赛果源计算 48 队年度级世界杯历史汇总。已覆盖源内存在的 2002-2022 FIFA World Cup 正赛，`source_status=available_partial`；源内没有世界杯正赛记录的球队继续标记 `source_status=pending_source`。由于当前源不含 1930-1998 和阶段/最终名次字段，`best_finish`、`stage_reached`、`finish` 不得臆造，保持 `null`。
+- 历史世界杯战绩全量化的可接受来源优先级：FIFA 官方历史资料、openfootball 历史世界杯结果、RSSSF、Kaggle international/world cup results；Wikipedia/DBpedia 仅作为人工校验辅助。
+- `worldcup/2026` 展示站 P0 不展示赔率，不要求比赛中实时事件；正赛事件、阵容、技术统计按赛后一次性采集和发布设计。
 
 官方名单导入规则：
 

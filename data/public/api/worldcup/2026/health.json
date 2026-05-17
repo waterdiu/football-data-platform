@@ -16,6 +16,7 @@
       "fixtures": 104,
       "results": 104,
       "standings": 48,
+      "team_staff": 8,
       "team_world_cup_history": 48,
       "team_recent_matches": 48,
       "predictions": 104,
@@ -43,7 +44,11 @@
       "match_stats_available": 0,
       "odds_available": 0,
       "injuries_available": 0,
-      "weather_available": 0
+      "weather_available": 0,
+      "rosters_available": 3,
+      "rosters_partial": 18,
+      "team_staff_available": 3,
+      "team_staff_partial": 18
     }
   },
   "manifest_generated_at": "2026-05-15T00:00:00Z",

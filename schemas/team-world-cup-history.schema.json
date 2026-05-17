@@ -8,7 +8,7 @@
     "team_name": { "type": "string" },
     "competition_id": { "type": "string" },
     "source_status": { "type": "string" },
-    "source": { "type": "string" },
+    "source": { "type": ["string", "null"] },
     "summary": {
       "type": "object",
       "properties": {
