@@ -1,1 +1,2706 @@
-[]
+[
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537327",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-11T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Mexico",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "South Africa",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537328",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-12T02:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Korea Republic",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Czechia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537329",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-18T16:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Czechia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "South Africa",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537330",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-19T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Mexico",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Korea Republic",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537331",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Czechia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Mexico",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537332",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "South Africa",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Korea Republic",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537333",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-12T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Canada",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Bosnia and Herzegovina",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537334",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-13T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Qatar",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Switzerland",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537335",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-18T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Switzerland",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Bosnia and Herzegovina",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537336",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-18T22:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Canada",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Qatar",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537337",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-24T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Switzerland",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Canada",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537338",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-24T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Bosnia and Herzegovina",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Qatar",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537339",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-13T22:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Brazil",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Morocco",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537340",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-14T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Haiti",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Scotland",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537341",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-20T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Brazil",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Haiti",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537342",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-19T22:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Scotland",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Morocco",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537343",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-24T22:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Scotland",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Brazil",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537344",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-24T22:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Morocco",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Haiti",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537345",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-13T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "United States",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Paraguay",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537346",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-14T04:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Australia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Turkiye",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537347",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-20T04:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Turkiye",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Paraguay",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537348",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-19T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "United States",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Australia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537349",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-26T02:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Turkiye",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "United States",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537350",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-26T02:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Paraguay",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Australia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537351",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-14T17:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Germany",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Curacao",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537352",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-14T23:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Cote d'Ivoire",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Ecuador",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537353",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-20T20:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Germany",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Cote d'Ivoire",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537354",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-21T00:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Ecuador",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Curacao",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537355",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T20:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Ecuador",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Germany",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537356",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T20:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Curacao",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Cote d'Ivoire",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537357",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-14T20:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Netherlands",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Japan",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537358",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-15T02:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Sweden",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Tunisia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537359",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-20T17:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Netherlands",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Sweden",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537360",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-21T04:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Tunisia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Japan",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537361",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T23:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Tunisia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Netherlands",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537362",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T23:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Japan",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Sweden",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537363",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-15T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Belgium",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Egypt",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537364",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-16T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "IR Iran",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "New Zealand",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537365",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-21T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Belgium",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "IR Iran",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537366",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-22T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "New Zealand",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Egypt",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537367",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T03:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "New Zealand",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Belgium",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537368",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T03:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Egypt",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "IR Iran",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537369",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-15T16:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Spain",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Cabo Verde",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537370",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-15T22:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Saudi Arabia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Uruguay",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537371",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-21T16:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Spain",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Saudi Arabia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537372",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-21T22:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Uruguay",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Cabo Verde",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537373",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T00:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Uruguay",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Spain",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537374",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T00:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Cabo Verde",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Saudi Arabia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537375",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-04T21:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 74",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 77",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537376",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-04T17:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 73",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 75",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537377",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-05T20:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 76",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 78",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537378",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-06T00:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 79",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 80",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537379",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-06T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 83",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 84",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537380",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-07T00:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 81",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 82",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537381",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-07T16:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 86",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 88",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537382",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-07T20:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 85",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 87",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537383",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-09T20:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 89",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 90",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537384",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-10T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 93",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 94",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537385",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-11T21:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 91",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 92",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537386",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-12T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 95",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 96",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537387",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-14T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 97",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 98",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537388",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-15T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 99",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 100",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537389",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-18T21:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Loser of Match 101",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Loser of Match 102",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537390",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-19T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Winner of Match 101",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Winner of Match 102",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537391",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-16T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "France",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Senegal",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537392",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-16T22:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Iraq",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Norway",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537393",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-22T21:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "France",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Iraq",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537394",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-23T00:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Norway",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Senegal",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537395",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-26T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Norway",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "France",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537396",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-26T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Senegal",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Iraq",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537397",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-17T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Argentina",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Algeria",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537398",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-17T04:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Austria",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Jordan",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537399",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-22T17:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Argentina",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Austria",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537400",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-23T03:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Jordan",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Algeria",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537401",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-28T02:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Jordan",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Argentina",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537402",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-28T02:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Algeria",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Austria",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537403",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-17T17:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Portugal",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Congo DR",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537404",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-18T02:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Uzbekistan",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Colombia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537405",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-23T17:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Portugal",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Uzbekistan",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537406",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-24T02:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Colombia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Congo DR",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537407",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T23:30:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Colombia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Portugal",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537408",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T23:30:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Congo DR",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Uzbekistan",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537409",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-17T20:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "England",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Croatia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537410",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-17T23:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Ghana",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Panama",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537411",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-23T20:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "England",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Ghana",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537412",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-23T23:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Panama",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Croatia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537413",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T21:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Panama",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "England",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537414",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T21:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Croatia",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Ghana",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537415",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-29T20:30:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group E Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Best Third-Place Team from A/B/C/D/F",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537416",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-30T21:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group I Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Best Third-Place Team from C/D/F/G/H",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537417",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-28T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group A Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Group B Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537418",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-30T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group F Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Group C Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537419",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-02T23:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group K Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Group L Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537420",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-02T19:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group H Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Group J Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537421",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-02T00:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group D Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Best Third-Place Team from B/E/F/I/J",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537422",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-01T20:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group G Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Best Third-Place Team from A/E/H/I/J",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537423",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-29T17:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group C Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Group F Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537424",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-30T17:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group E Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Group I Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537425",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-01T01:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group A Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Best Third-Place Team from C/E/F/H/I",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537426",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-01T16:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group L Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Best Third-Place Team from E/H/I/J/K",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537427",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-03T22:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group J Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Group H Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537428",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-03T18:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group D Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Group G Runner-up",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537429",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-03T03:00:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group B Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Best Third-Place Team from E/F/G/I/J",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537430",
+    "source": "platform_injury_availability",
+    "confidence": "low",
+    "source_status": "missing_auth",
+    "status_reason": "missing_auth",
+    "fetched_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-04T01:30:00Z",
+    "injury_summary": {
+      "home": {
+        "team_name": "Group K Winner",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "away": {
+        "team_name": "Best Third-Place Team from D/E/I/J/L",
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": []
+      },
+      "api_football_status": "missing_auth",
+      "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
+    },
+    "raw": null
+  }
+]

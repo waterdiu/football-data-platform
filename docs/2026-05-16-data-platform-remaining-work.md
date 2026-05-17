@@ -159,7 +159,9 @@ Sources:
 Acceptance criteria:
 
 - API-FOOTBALL fixture ID mapping is maintained in `data/runtime/api_football_fixture_map.json`.
-- Each match has source status: `available`, `partial`, `missing`, or `provider_error`.
+- Each match has source status: `available`, `partial`, `unavailable`, `missing_auth`, `missing`, or `provider_error`.
+- Current baseline is explicit status coverage rather than empty files: 104 lineup rows are published as `unavailable/outside_lineup_window`, and 104 injury rows are published as `missing_auth/missing_auth` until `API_FOOTBALL_KEY` is configured in the runtime environment or another approved source is wired.
+- Placeholder rows are low confidence and must not be interpreted as "no injuries" or "no lineup"; they only explain why provider-backed facts are not yet available.
 - Lineup freshness supports pre-match windows: 90/60/30 minutes before kickoff.
 - Injury status distinguishes confirmed absence, doubtful, suspension, and unknown.
 - Confirmed lineups and injury/player-impact fields must follow `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`.

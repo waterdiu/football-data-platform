@@ -876,6 +876,7 @@ predictor 全量数据资产当前边界：
 - 已迁移：The Odds API 赔率采集器，但 TheOddsAPI 免费层只覆盖 NBA/MLB，足球需要 Business 付费计划；平台默认把该源标记为 `paid_plan_required`，除非付费后显式设置 `THE_ODDS_API_SOCCER_ENABLED=1`
 - 已增强：The Odds API 标准化输出 `h2h`、`over_under`、`asian_handicap`、`has_1x2`、`has_over_under`、`has_asian_handicap`，coverage 可直接识别 1X2 / 大小球 / 亚盘覆盖
 - 已迁移：API-FOOTBALL 阵容和伤停采集，直接写 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
+- 已增强：阵容/伤停运行期数据即使未进入采集窗口或缺少 provider key，也必须对 104 场输出状态行；例如 `lineups.source_status=unavailable,status_reason=outside_lineup_window`，`injuries.source_status=missing_auth,status_reason=missing_auth`。这表示“当前不可采集/未授权”，不是“无伤停”或“无首发”。
 - 已增强：天气采集优先使用 OpenWeather；无 key 或 OpenWeather 失败时 fallback 到无 key的 Open-Meteo 16 天预报窗口，直接写 `data/normalized/world_cup_2026_model_weather_master.json`
 - 已增强：运行期采集器支持从未提交的 `.env.local` 读取 provider keys，避免把 `API_FOOTBALL_KEY`、`OPENWEATHER_API_KEY` 等敏感信息写入仓库或命令行日志
 - 已建立：rosters/players 契约、master/public 数据集、官方来源配置、手动 patch 导入脚本、发布脚本和 coverage 字段；真实名单只从官方来源导入
@@ -883,10 +884,10 @@ predictor 全量数据资产当前边界：
 - 已建立：team_world_cup_history / team_recent_matches / host_city_profiles 契约、master/public 数据集、发布脚本和 World Cup site/predictor API 输出；近期比赛、历届世界杯战绩和 16 城市资料已有第一版
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
 - 已增强：赛前新闻源列表由 `configs/prematch_news/world_cup_2026.json` 配置，`sources/prematch_news.py` 保留内置 fallback；采集结果和 `reports/world_cup_runtime_collection_report.json` 会记录 source 级 freshness（`last_checked_at`、`status`、`pages_collected`、错误信息）
-- 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`
+- 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`；coverage 会优先读取 `data/model/lineups.json` 与 `data/model/injuries.json` 的运行期状态，而不是只看赛后 `finals-lineups.json`
 - 已配置：`configs/venues/world_cup_2026.json` 保存 16 个 2026 世界杯球场坐标
 - API-FOOTBALL fixture id map 缓存在 `data/runtime/api_football_fixture_map.json`，该目录不入 Git
-- 无 API key、公开新闻页不可达或无可采集数据时，collector 只写 report，不覆盖现有 model master
+- 无 API key、公开新闻页不可达或无可采集数据时，collector 必须写清楚 `source_status` / `status_reason`。对阵容、伤停、天气这类模型 P0 输入，允许发布 `unavailable` 状态行；但不得用空数组或 0 冒充真实数据，也不得用低置信占位行覆盖已有 `available` 实据行。
 
 运行期发布闭环入口：
 

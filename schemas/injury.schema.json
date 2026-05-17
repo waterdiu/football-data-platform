@@ -8,6 +8,9 @@
     "source": { "type": "string" },
     "confidence": { "type": "string" },
     "source_status": { "type": "string" },
+    "status_reason": { "type": ["string", "null"] },
+    "fetched_at": { "type": ["string", "null"] },
+    "valid_at": { "type": ["string", "null"] },
     "injury_summary": { "type": ["object", "null"] },
     "absence_evidence_summary": { "type": ["object", "null"] }
   },

@@ -1,1 +1,2914 @@
-[]
+[
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537327",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Mexico",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "South Africa",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-11T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537328",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Korea Republic",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Czechia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-12T02:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537329",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Czechia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "South Africa",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-18T16:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537330",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Mexico",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Korea Republic",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-19T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537331",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Czechia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Mexico",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537332",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "South Africa",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Korea Republic",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537333",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Canada",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Bosnia and Herzegovina",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-12T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537334",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Qatar",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Switzerland",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-13T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537335",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Switzerland",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Bosnia and Herzegovina",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-18T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537336",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Canada",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Qatar",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-18T22:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537337",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Switzerland",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Canada",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-24T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537338",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Bosnia and Herzegovina",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Qatar",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-24T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537339",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Brazil",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Morocco",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-13T22:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537340",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Haiti",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Scotland",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-14T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537341",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Brazil",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Haiti",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-20T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537342",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Scotland",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Morocco",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-19T22:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537343",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Scotland",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Brazil",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-24T22:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537344",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Morocco",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Haiti",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-24T22:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537345",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "United States",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Paraguay",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-13T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537346",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Australia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Turkiye",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-14T04:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537347",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Turkiye",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Paraguay",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-20T04:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537348",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "United States",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Australia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-19T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537349",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Turkiye",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "United States",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-26T02:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537350",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Paraguay",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Australia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-26T02:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537351",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Germany",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Curacao",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-14T17:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537352",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Cote d'Ivoire",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Ecuador",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-14T23:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537353",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Germany",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Cote d'Ivoire",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-20T20:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537354",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Ecuador",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Curacao",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-21T00:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537355",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Ecuador",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Germany",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T20:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537356",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Curacao",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Cote d'Ivoire",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T20:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537357",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Netherlands",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Japan",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-14T20:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537358",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Sweden",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Tunisia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-15T02:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537359",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Netherlands",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Sweden",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-20T17:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537360",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Tunisia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Japan",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-21T04:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537361",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Tunisia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Netherlands",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T23:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537362",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Japan",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Sweden",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-25T23:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537363",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Belgium",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Egypt",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-15T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537364",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "IR Iran",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "New Zealand",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-16T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537365",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Belgium",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "IR Iran",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-21T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537366",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "New Zealand",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Egypt",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-22T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537367",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "New Zealand",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Belgium",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T03:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537368",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Egypt",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "IR Iran",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T03:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537369",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Spain",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Cabo Verde",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-15T16:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537370",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Saudi Arabia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Uruguay",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-15T22:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537371",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Spain",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Saudi Arabia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-21T16:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537372",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Uruguay",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Cabo Verde",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-21T22:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537373",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Uruguay",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Spain",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T00:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537374",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Cabo Verde",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Saudi Arabia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T00:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537375",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 74",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 77",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-04T21:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537376",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 73",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 75",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-04T17:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537377",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 76",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 78",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-05T20:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537378",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 79",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 80",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-06T00:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537379",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 83",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 84",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-06T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537380",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 81",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 82",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-07T00:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537381",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 86",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 88",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-07T16:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537382",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 85",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 87",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-07T20:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537383",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 89",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 90",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-09T20:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537384",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 93",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 94",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-10T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537385",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 91",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 92",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-11T21:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537386",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 95",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 96",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-12T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537387",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 97",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 98",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-14T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537388",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 99",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 100",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-15T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537389",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Loser of Match 101",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Loser of Match 102",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-18T21:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537390",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Winner of Match 101",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Winner of Match 102",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-19T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537391",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "France",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Senegal",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-16T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537392",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Iraq",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Norway",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-16T22:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537393",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "France",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Iraq",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-22T21:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537394",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Norway",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Senegal",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-23T00:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537395",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Norway",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "France",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-26T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537396",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Senegal",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Iraq",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-26T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537397",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Argentina",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Algeria",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-17T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537398",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Austria",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Jordan",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-17T04:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537399",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Argentina",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Austria",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-22T17:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537400",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Jordan",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Algeria",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-23T03:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537401",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Jordan",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Argentina",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-28T02:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537402",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Algeria",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Austria",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-28T02:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537403",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Portugal",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Congo DR",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-17T17:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537404",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Uzbekistan",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Colombia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-18T02:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537405",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Portugal",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Uzbekistan",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-23T17:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537406",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Colombia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Congo DR",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-24T02:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537407",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Colombia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Portugal",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T23:30:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537408",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Congo DR",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Uzbekistan",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T23:30:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537409",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "England",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Croatia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-17T20:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537410",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Ghana",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Panama",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-17T23:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537411",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "England",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Ghana",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-23T20:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537412",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Panama",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Croatia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-23T23:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537413",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Panama",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "England",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T21:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537414",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Croatia",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Ghana",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-27T21:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537415",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group E Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Best Third-Place Team from A/B/C/D/F",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-29T20:30:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537416",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group I Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Best Third-Place Team from C/D/F/G/H",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-30T21:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537417",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group A Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Group B Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-28T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537418",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group F Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Group C Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-30T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537419",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group K Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Group L Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-02T23:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537420",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group H Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Group J Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-02T19:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537421",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group D Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Best Third-Place Team from B/E/F/I/J",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-02T00:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537422",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group G Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Best Third-Place Team from A/E/H/I/J",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-01T20:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537423",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group C Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Group F Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-29T17:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537424",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group E Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Group I Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-06-30T17:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537425",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group A Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Best Third-Place Team from C/E/F/H/I",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-01T01:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537426",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group L Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Best Third-Place Team from E/H/I/J/K",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-01T16:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537427",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group J Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Group H Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-03T22:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537428",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group D Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Group G Runner-up",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-03T18:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537429",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group B Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Best Third-Place Team from E/F/G/I/J",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-03T03:00:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  },
+  {
+    "match_id": "fifa_world_cup:2026:fdorg:537430",
+    "provider": "platform_lineup_window",
+    "source_status": "unavailable",
+    "status_reason": "outside_lineup_window",
+    "home": {
+      "team_name": "Group K Winner",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "away": {
+      "team_name": "Best Third-Place Team from D/E/I/J/L",
+      "formation": null,
+      "start_xi_count": 0,
+      "substitute_count": 0,
+      "start_xi": [],
+      "substitutes": []
+    },
+    "captured_at": "2026-05-17T13:23:27.564647+00:00",
+    "valid_at": "2026-07-04T01:30:00Z",
+    "confidence": "low",
+    "api_football_status": "missing_auth",
+    "api_football_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+    "raw": null
+  }
+]

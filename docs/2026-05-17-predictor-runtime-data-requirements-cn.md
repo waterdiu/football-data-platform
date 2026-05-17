@@ -84,7 +84,7 @@ Date: 2026-05-17
 
 - 能按 `match_id` 输出双方首发状态。
 - 确认首发与预测首发必须用 `status` 区分。
-- 缺失时 `data_coverage.lineups=missing`，并说明原因。
+- 缺失时不得只发布空数组；必须发布 `source_status` 和 `status_reason`。例如比赛距离开球仍超过采集窗口时，输出 `source_status=unavailable`、`status_reason=outside_lineup_window`，并在 `data_coverage.lineups=unavailable` 中暴露给模型层。
 
 ### 2. AH / OU 实时赔率快照
 
@@ -387,6 +387,8 @@ OU 快照：
 - `team-advanced-stats`
 
 `runtime-summary.json` 是模型层优先读取的按比赛聚合入口。即使底层 `lineups`、`injuries`、`weather`、`odds` 暂时为空，该文件也必须为 104 场输出稳定行，并在 `data_coverage` 里显式标记 `missing`、`partial` 或 `available`。裁判画像和高级技术统计在未完成采集前必须输出 `missing` 和 `null` 字段，不能填 `0`。
+
+当前状态契约已扩展为允许 `unavailable`。含义是“平台知道这项数据当前不可采集或未授权”，不同于 `missing`。例如：赛前首发还没进入 T-24/T-1h 窗口时，`lineups` 使用 `unavailable/outside_lineup_window`；本地或部署环境没有 `API_FOOTBALL_KEY` 时，`injuries` 使用 `missing_auth/missing_auth`。模型层必须把这些状态作为降权依据，不能当成无伤停、无首发或数值 0。
 
 ## 优先级
 

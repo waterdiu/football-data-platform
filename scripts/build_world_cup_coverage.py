@@ -17,6 +17,7 @@ EVENTS_PATH = PUBLIC_DIR / "finals-events.json"
 LINEUPS_PATH = PUBLIC_DIR / "finals-lineups.json"
 MATCH_STATS_PATH = PUBLIC_DIR / "finals-match-stats.json"
 ODDS_PATH = MODEL_DIR / "odds_snapshots.json"
+MODEL_LINEUPS_PATH = MODEL_DIR / "lineups.json"
 INJURIES_PATH = MODEL_DIR / "injuries.json"
 WEATHER_PATH = MODEL_DIR / "weather.json"
 PREMATCH_CONTEXT_PATH = MODEL_DIR / "prematch_context.json"
@@ -137,6 +138,7 @@ def main() -> None:
     lineups = load_json(LINEUPS_PATH)
     match_stats = load_json(MATCH_STATS_PATH)
     odds_rows = load_json(ODDS_PATH)
+    model_lineups_rows = load_json(MODEL_LINEUPS_PATH)
     injuries_rows = load_json(INJURIES_PATH)
     weather_rows = load_json(WEATHER_PATH)
     prematch_context_rows = load_json(PREMATCH_CONTEXT_PATH)
@@ -157,6 +159,8 @@ def main() -> None:
         raise TypeError("finals-match-stats.json must contain a list")
     if not isinstance(odds_rows, list):
         raise TypeError("odds_snapshots.json must contain a list")
+    if not isinstance(model_lineups_rows, list):
+        raise TypeError("lineups.json must contain a list")
     if not isinstance(injuries_rows, list):
         raise TypeError("injuries.json must contain a list")
     if not isinstance(weather_rows, list):
@@ -178,6 +182,7 @@ def main() -> None:
         "lineups": file_updated_at(LINEUPS_PATH),
         "match_stats": file_updated_at(MATCH_STATS_PATH),
         "odds": file_updated_at(ODDS_PATH),
+        "model_lineups": file_updated_at(MODEL_LINEUPS_PATH),
         "injuries": file_updated_at(INJURIES_PATH),
         "weather": file_updated_at(WEATHER_PATH),
         "prematch_context": file_updated_at(PREMATCH_CONTEXT_PATH),
@@ -192,6 +197,9 @@ def main() -> None:
     }
     event_match_ids = {str(item["match_id"]) for item in events if isinstance(item, dict) and "match_id" in item}
     lineup_match_ids = {str(item["match_id"]) for item in lineups if isinstance(item, dict) and "match_id" in item}
+    model_lineups_by_match_id = {
+        str(item["match_id"]): item for item in model_lineups_rows if isinstance(item, dict) and "match_id" in item
+    }
     stats_match_ids = {str(item["match_id"]) for item in match_stats if isinstance(item, dict) and "match_id" in item}
     odds_by_match_id = {
         str(item["match_id"]): item for item in odds_rows if isinstance(item, dict) and "match_id" in item
@@ -223,6 +231,7 @@ def main() -> None:
         prediction = prediction_by_match_id.get(match_id)
         odds = odds_by_match_id.get(match_id)
         injuries = injuries_by_match_id.get(match_id)
+        model_lineup = model_lineups_by_match_id.get(match_id)
         weather = weather_by_match_id.get(match_id)
 
         fixture_source = "football_data_org" if "football_data_org" in (fixture.get("source_refs") or {}) else "bootstrap"
@@ -280,11 +289,20 @@ def main() -> None:
         )
 
         if injuries:
+            injury_source_status = str(injuries.get("source_status") or "")
+            if injury_source_status in {"available", "partial"}:
+                injury_field_status = injury_source_status
+            elif injury_source_status in {"unavailable", "missing_auth", "provider_error", "provider_empty"}:
+                injury_field_status = "unavailable"
+            else:
+                injury_field_status = "available"
             injuries_status = coverage_item(
-                status="available",
+                status=injury_field_status,
                 confidence=str(injuries.get("confidence") or "medium"),
                 source=str(injuries.get("source") or "predictor_runtime"),
                 last_updated=str(injuries.get("fetched_at") or injuries.get("updated_at") or source_updated_at["injuries"] or ""),
+                source_status=injury_source_status or None,
+                status_reason=injuries.get("status_reason"),
             )
         else:
             injuries_status = coverage_item(status="missing", confidence="low")
@@ -349,12 +367,29 @@ def main() -> None:
             source="football_data_org" if match_id in event_match_ids else None,
             last_updated=source_updated_at["events"] if match_id in event_match_ids else None,
         )
-        lineups_status = coverage_item(
-            status="available" if match_id in lineup_match_ids else "missing",
-            confidence="medium" if match_id in lineup_match_ids else "low",
-            source="football_data_org" if match_id in lineup_match_ids else None,
-            last_updated=source_updated_at["lineups"] if match_id in lineup_match_ids else None,
-        )
+        if model_lineup:
+            lineup_source_status = str(model_lineup.get("source_status") or "")
+            if lineup_source_status in {"available", "partial", "confirmed"}:
+                lineup_field_status = "available" if lineup_source_status == "confirmed" else lineup_source_status
+            elif lineup_source_status in {"unavailable", "missing_auth", "provider_error", "provider_empty"}:
+                lineup_field_status = "unavailable"
+            else:
+                lineup_field_status = "available"
+            lineups_status = coverage_item(
+                status=lineup_field_status,
+                confidence=str(model_lineup.get("confidence") or "medium"),
+                source=str(model_lineup.get("provider") or "predictor_runtime"),
+                last_updated=str(model_lineup.get("captured_at") or model_lineup.get("updated_at") or source_updated_at["model_lineups"] or ""),
+                source_status=lineup_source_status or None,
+                status_reason=model_lineup.get("status_reason"),
+            )
+        else:
+            lineups_status = coverage_item(
+                status="available" if match_id in lineup_match_ids else "missing",
+                confidence="medium" if match_id in lineup_match_ids else "low",
+                source="football_data_org" if match_id in lineup_match_ids else None,
+                last_updated=source_updated_at["lineups"] if match_id in lineup_match_ids else None,
+            )
         technical_stats_status = coverage_item(
             status="available" if match_id in stats_match_ids else "missing",
             confidence="medium" if match_id in stats_match_ids else "low",

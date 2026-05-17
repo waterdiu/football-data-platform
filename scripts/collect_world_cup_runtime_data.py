@@ -99,6 +99,21 @@ def merge_by_match_id(existing: list[dict], updates: list[dict]) -> list[dict]:
     return [merged[key] for key in sorted(merged)]
 
 
+def merge_runtime_rows(existing: list[dict], updates: list[dict]) -> list[dict]:
+    merged = {str(item.get("match_id") or ""): item for item in existing if isinstance(item, dict)}
+    for item in updates:
+        match_id = str(item.get("match_id") or "")
+        if not match_id:
+            continue
+        current = merged.get(match_id)
+        current_status = str((current or {}).get("source_status") or "")
+        next_status = str(item.get("source_status") or "")
+        if current_status == "available" and next_status in {"unavailable", "provider_empty"}:
+            continue
+        merged[match_id] = item
+    return [merged[key] for key in sorted(merged)]
+
+
 def load_existing_list(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -152,6 +167,129 @@ def weather_window_status(fixture: dict, fetched_at: str) -> str | None:
     if kickoff > fetched + timedelta(days=FORECAST_HORIZON_DAYS):
         return "outside_forecast_window"
     return None
+
+
+def team_name_maps(teams: list[dict]) -> dict[str, str]:
+    return {
+        str(team.get("team_id") or ""): str(team.get("name") or team.get("team_id") or "")
+        for team in teams
+        if isinstance(team, dict)
+    }
+
+
+def fixture_team_name(fixture: dict, names: dict[str, str], side: str) -> str:
+    team_id = str(fixture.get(f"{side}_team_id") or "")
+    return names.get(team_id, team_id)
+
+
+def empty_lineup_team(team_name: str) -> dict:
+    return {
+        "team_name": team_name,
+        "formation": None,
+        "start_xi_count": 0,
+        "substitute_count": 0,
+        "start_xi": [],
+        "substitutes": [],
+    }
+
+
+def lineup_window_status(fixture: dict, fetched_at: str) -> str:
+    kickoff = parse_datetime(str(fixture.get("date_utc") or ""))
+    fetched = parse_datetime(fetched_at)
+    if kickoff is None or fetched is None:
+        return "missing_kickoff_at"
+    if kickoff < fetched:
+        return "past_kickoff"
+    if kickoff > fetched + timedelta(hours=24):
+        return "outside_lineup_window"
+    if kickoff > fetched + timedelta(minutes=90):
+        return "awaiting_confirmed_lineup_window"
+    return "provider_no_rows"
+
+
+def runtime_status_from_report(report: dict, default: str) -> str:
+    status = str(report.get("status") or "")
+    if status == "missing_auth":
+        return "missing_auth"
+    if report.get("errors"):
+        return "provider_error"
+    if status == "no_rows":
+        return default
+    return status or default
+
+
+def lineup_placeholder(*, fixture: dict, teams: list[dict], fetched_at: str, report: dict) -> dict:
+    names = team_name_maps(teams)
+    reason = lineup_window_status(fixture, fetched_at)
+    source_status = "unavailable" if reason in {"outside_lineup_window", "awaiting_confirmed_lineup_window"} else runtime_status_from_report(report, "provider_no_rows")
+    return {
+        "match_id": str(fixture.get("match_id") or ""),
+        "provider": "platform_lineup_window",
+        "source_status": source_status,
+        "status_reason": reason if source_status == "unavailable" else runtime_status_from_report(report, reason),
+        "home": empty_lineup_team(fixture_team_name(fixture, names, "home")),
+        "away": empty_lineup_team(fixture_team_name(fixture, names, "away")),
+        "captured_at": fetched_at,
+        "valid_at": fixture.get("date_utc"),
+        "confidence": "low",
+        "api_football_status": report.get("status"),
+        "api_football_status_reason": report.get("status_reason"),
+        "raw": None,
+    }
+
+
+def empty_injury_team(team_name: str) -> dict:
+    return {
+        "team_name": team_name,
+        "doubtful_players": 0,
+        "unavailable_players": 0,
+        "key_absences": [],
+    }
+
+
+def injury_placeholder(*, fixture: dict, teams: list[dict], fetched_at: str, report: dict) -> dict:
+    names = team_name_maps(teams)
+    reason = runtime_status_from_report(report, "provider_no_rows")
+    return {
+        "match_id": str(fixture.get("match_id") or ""),
+        "source": "platform_injury_availability",
+        "confidence": "low",
+        "source_status": "unavailable" if reason in {"provider_no_rows", "no_rows"} else reason,
+        "status_reason": reason,
+        "fetched_at": fetched_at,
+        "valid_at": fixture.get("date_utc"),
+        "injury_summary": {
+            "home": empty_injury_team(fixture_team_name(fixture, names, "home")),
+            "away": empty_injury_team(fixture_team_name(fixture, names, "away")),
+            "api_football_status": report.get("status"),
+            "api_football_status_reason": report.get("status_reason"),
+        },
+        "raw": None,
+    }
+
+
+def runtime_placeholders_for_missing(
+    *,
+    fixtures: list[dict],
+    teams: list[dict],
+    fetched_at: str,
+    report: dict,
+    injuries_rows: list[dict],
+    lineups_rows: list[dict],
+) -> tuple[list[dict], list[dict]]:
+    injury_ids = {str(item.get("match_id") or "") for item in injuries_rows if isinstance(item, dict)}
+    lineup_ids = {str(item.get("match_id") or "") for item in lineups_rows if isinstance(item, dict)}
+    injury_updates = list(injuries_rows)
+    lineup_updates = list(lineups_rows)
+    for fixture in fixtures:
+        match_id = str(fixture.get("match_id") or "")
+        if not match_id:
+            continue
+        if match_id not in injury_ids:
+            injury_updates.append(injury_placeholder(fixture=fixture, teams=teams, fetched_at=fetched_at, report=report))
+        if match_id not in lineup_ids:
+            lineup_updates.append(lineup_placeholder(fixture=fixture, teams=teams, fetched_at=fetched_at, report=report))
+    return injury_updates, lineup_updates
 
 
 def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at: str, dry_run: bool) -> dict:
@@ -326,12 +464,20 @@ def collect_api_football(*, fixtures: list[dict], teams: list[dict], fetched_at:
         league_id=load_env_value("API_FOOTBALL_LEAGUE_ID") or None,
         season=load_env_value("API_FOOTBALL_SEASON") or None,
     )
-    if injuries_rows and not dry_run:
+    injuries_updates, lineups_updates = runtime_placeholders_for_missing(
+        fixtures=fixtures,
+        teams=teams,
+        fetched_at=fetched_at,
+        report=report,
+        injuries_rows=injuries_rows,
+        lineups_rows=lineups_rows,
+    )
+    if injuries_updates and not dry_run:
         existing = load_existing_list(INJURIES_MASTER_PATH)
-        write_json(INJURIES_MASTER_PATH, merge_by_match_id(existing, injuries_rows))
-    if lineups_rows and not dry_run:
+        write_json(INJURIES_MASTER_PATH, merge_runtime_rows(existing, injuries_updates))
+    if lineups_updates and not dry_run:
         existing = load_existing_list(LINEUPS_MASTER_PATH)
-        write_json(LINEUPS_MASTER_PATH, merge_by_match_id(existing, lineups_rows))
+        write_json(LINEUPS_MASTER_PATH, merge_runtime_rows(existing, lineups_updates))
     return [
         {
             "dataset": "injuries",
@@ -344,7 +490,9 @@ def collect_api_football(*, fixtures: list[dict], teams: list[dict], fetched_at:
             "fixtures_considered": report.get("fixtures_considered", len(fixtures)),
             "fixture_ids_discovered": report.get("fixture_ids_discovered", 0),
             "rows_collected": len(injuries_rows),
-            "output": rel(INJURIES_MASTER_PATH) if injuries_rows else None,
+            "rows_published": len(injuries_updates),
+            "placeholder_rows_published": max(0, len(injuries_updates) - len(injuries_rows)),
+            "output": rel(INJURIES_MASTER_PATH) if injuries_updates else None,
             "skipped": report.get("skipped", []),
             "errors": report.get("errors", []),
         },
@@ -359,7 +507,9 @@ def collect_api_football(*, fixtures: list[dict], teams: list[dict], fetched_at:
             "fixtures_considered": report.get("fixtures_considered", len(fixtures)),
             "fixture_ids_discovered": report.get("fixture_ids_discovered", 0),
             "rows_collected": len(lineups_rows),
-            "output": rel(LINEUPS_MASTER_PATH) if lineups_rows else None,
+            "rows_published": len(lineups_updates),
+            "placeholder_rows_published": max(0, len(lineups_updates) - len(lineups_rows)),
+            "output": rel(LINEUPS_MASTER_PATH) if lineups_updates else None,
             "skipped": report.get("skipped", []),
             "errors": report.get("errors", []),
         },
