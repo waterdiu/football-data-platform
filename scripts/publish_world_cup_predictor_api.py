@@ -175,6 +175,7 @@ def main() -> None:
     fixtures = load_json(PUBLIC_DIR / "fixtures.json")
     results = load_json(PUBLIC_DIR / "results.json")
     standings = load_json(PUBLIC_DIR / "standings.json")
+    host_city_profiles = load_json(PUBLIC_DIR / "host-city-profiles.json")
     players = load_json(PUBLIC_DIR / "players.json")
     rosters = load_json(PUBLIC_DIR / "rosters.json")
     team_world_cup_history = load_json(PUBLIC_DIR / "team-world-cup-history.json")
@@ -216,6 +217,7 @@ def main() -> None:
         "fixtures.json": fixtures,
         "results.json": results,
         "standings.json": standings,
+        "host-city-profiles.json": host_city_profiles,
         "players.json": players,
         "rosters.json": rosters,
         "team-world-cup-history.json": team_world_cup_history,
@@ -281,6 +283,7 @@ def main() -> None:
             "fixtures": fixtures,
             "results": results,
             "standings": standings,
+            "host_city_profiles": host_city_profiles,
             "players": players,
             "rosters": rosters,
             "team_world_cup_history": team_world_cup_history,
@@ -318,6 +321,7 @@ def main() -> None:
             "fixtures": payload_size(fixtures),
             "results": payload_size(results),
             "standings": payload_size(standings),
+            "host_city_profiles": payload_size(host_city_profiles),
             "players": payload_size(players),
             "rosters": payload_size(rosters),
             "team_world_cup_history": payload_size(team_world_cup_history),

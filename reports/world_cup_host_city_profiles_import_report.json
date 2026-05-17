@@ -1,0 +1,46 @@
+{
+  "status": "published",
+  "patch": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/patches/world_cup_2026_host_city_profiles.manual.json",
+  "normalized_output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_host_city_profiles_master.json",
+  "public_output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/host-city-profiles.json",
+  "rows": 16,
+  "city_ids": [
+    "atlanta",
+    "boston",
+    "dallas",
+    "guadalajara",
+    "houston",
+    "kansas-city",
+    "los-angeles",
+    "mexico-city",
+    "miami",
+    "monterrey",
+    "new-york-new-jersey",
+    "philadelphia",
+    "san-francisco-bay-area",
+    "seattle",
+    "toronto",
+    "vancouver"
+  ],
+  "site_city_keys": [
+    "Atlanta",
+    "Boston",
+    "Dallas",
+    "Guadalajara",
+    "Houston",
+    "Kansas City",
+    "Los Angeles",
+    "Mexico City",
+    "Miami",
+    "Monterrey",
+    "New York New Jersey",
+    "Philadelphia",
+    "San Francisco Bay Area",
+    "Seattle",
+    "Toronto",
+    "Vancouver"
+  ],
+  "source_statuses": [
+    "official_fifa_manual_patch"
+  ]
+}

@@ -86,6 +86,11 @@
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/standings.json",
         "count": 48
       },
+      "host_city_profiles": {
+        "path": "./core/host-city-profiles.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/host-city-profiles.json",
+        "count": 16
+      },
       "players": {
         "path": "./core/players.json",
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/players.json",
@@ -175,6 +180,7 @@
       "fixtures": 104,
       "results": 104,
       "standings": 48,
+      "host_city_profiles": 16,
       "players": 234,
       "rosters": 9,
       "team_world_cup_history": 48,

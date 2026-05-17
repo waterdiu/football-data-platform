@@ -55,6 +55,10 @@
       "path": "api/worldcup/2026/predictor/standings.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/standings.json"
     },
+    "host_city_profiles": {
+      "path": "api/worldcup/2026/predictor/host-city-profiles.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/host-city-profiles.json"
+    },
     "players": {
       "path": "api/worldcup/2026/predictor/players.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/players.json"

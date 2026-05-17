@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HostCityProfile",
+  "type": "object",
+  "required": [
+    "city_id",
+    "site_city_key",
+    "city_name_en",
+    "city_name_zh",
+    "country_en",
+    "country_zh",
+    "timezone",
+    "primary_venue_id",
+    "source_status",
+    "updated_at"
+  ],
+  "properties": {
+    "city_id": { "type": "string" },
+    "site_city_key": { "type": "string" },
+    "city_name_en": { "type": "string" },
+    "city_name_zh": { "type": "string" },
+    "country_en": { "type": "string" },
+    "country_zh": { "type": "string" },
+    "region_en": { "type": ["string", "null"] },
+    "region_zh": { "type": ["string", "null"] },
+    "timezone": { "type": "string" },
+    "population": { "type": ["integer", "null"] },
+    "city_tags": { "type": "array", "items": { "type": "string" } },
+    "climate_summary_zh": { "type": ["string", "null"] },
+    "climate_summary_en": { "type": ["string", "null"] },
+    "football_culture_zh": { "type": ["string", "null"] },
+    "football_culture_en": { "type": ["string", "null"] },
+    "transport_summary_zh": { "type": ["string", "null"] },
+    "transport_summary_en": { "type": ["string", "null"] },
+    "local_feature_zh": { "type": ["string", "null"] },
+    "local_feature_en": { "type": ["string", "null"] },
+    "primary_venue_id": { "type": "string" },
+    "source_status": { "type": "string" },
+    "source_urls": { "type": "array", "items": { "type": "string" } },
+    "updated_at": { "type": "string" }
+  },
+  "additionalProperties": true
+}

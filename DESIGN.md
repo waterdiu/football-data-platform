@@ -222,6 +222,7 @@ football-data-platform/
 - `data_coverage`
 - `team_world_cup_history`
 - `team_recent_matches`
+- `host_city_profiles`
 - `model lineups`
 - `model odds_snapshots`
 - `model injuries`
@@ -525,6 +526,7 @@ football-data-platform/
 - `team_recent_matches` 当前从已迁移的 `data/predictor-assets/files/processed/normalized_matches.csv` 生成，每队保留最近 10 场，覆盖 `match_id`、日期、赛事、主客队、比分、主客/中立、比赛地和基础状态，满足 `worldcup/2026` 球队详情页 P0 展示。
 - `team_world_cup_history` 当前从 `data/raw/openfootball/worldcup-json/{year}/worldcup.json` 计算 48 队完整已结束世界杯正赛历史，覆盖 1930-2022；2026 已晋级作为 `qualified_not_started` 计入 `summary.appearances`，但不计入总场次、胜平负、进失球。`source_status=available` 表示已有历史参赛记录，`source_status=available_no_prior_appearances` 表示历史无已结束世界杯正赛记录但 2026 已晋级。
 - 历史世界杯战绩来源优先级：openfootball 历史世界杯结果作为当前结构化主源；FIFA 官方历史资料、RSSSF、Kaggle international/world cup results 可作为后续交叉校验；Wikipedia/DBpedia 仅作为人工校验辅助。
+- `host_city_profiles` 当前由 `data/patches/world_cup_2026_host_city_profiles.manual.json` 导入，覆盖 16 个主办城市；字段包含长期 `city_id` slug、与 `worldcup/2026` 现有路由兼容的 `site_city_key`、中英文城市/区域/国家、时区、短标签、气候/足球文化/交通/城市特点摘要、主场馆 ID 和来源 URL。人口字段在未接入审计统计源前保持 `null`。
 - `worldcup/2026` 展示站 P0 不展示赔率，不要求比赛中实时事件；正赛事件、阵容、技术统计按赛后一次性采集和发布设计。
 
 官方名单导入规则：
@@ -865,7 +867,7 @@ predictor 全量数据资产当前边界：
 - 已增强：运行期采集器支持从未提交的 `.env.local` 读取 provider keys，避免把 `API_FOOTBALL_KEY`、`OPENWEATHER_API_KEY` 等敏感信息写入仓库或命令行日志
 - 已建立：rosters/players 契约、master/public 数据集、官方来源配置、手动 patch 导入脚本、发布脚本和 coverage 字段；真实名单只从官方来源导入
 - 已补齐：已有官方 26 人名单的 9 支球队 roster / 234 名球员；48 支球队主教练数据，通过 `data/patches/world_cup_2026_team_staff.manual.json` 和 `scripts/import_world_cup_team_staff_from_manual_patch.py` 进入 `person_team_staff_master.json`
-- 已建立：team_world_cup_history / team_recent_matches 契约、master/public 数据集、发布脚本和 World Cup site/predictor API 输出；近期比赛已有第一版，历届世界杯战绩仍需 audited historical source 填充
+- 已建立：team_world_cup_history / team_recent_matches / host_city_profiles 契约、master/public 数据集、发布脚本和 World Cup site/predictor API 输出；近期比赛、历届世界杯战绩和 16 城市资料已有第一版
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
 - 已增强：赛前新闻源列表由 `configs/prematch_news/world_cup_2026.json` 配置，`sources/prematch_news.py` 保留内置 fallback；采集结果和 `reports/world_cup_runtime_collection_report.json` 会记录 source 级 freshness（`last_checked_at`、`status`、`pages_collected`、错误信息）
 - 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`

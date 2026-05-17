@@ -74,6 +74,7 @@ Pages 首页：
 - [2026-05-15-world-cup-predictor-integration-design.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-15-world-cup-predictor-integration-design.md)
 - [2026-05-16-predictor-phase-3-full-cutover-instructions.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-predictor-phase-3-full-cutover-instructions.md)
 - [2026-05-16-data-platform-remaining-work.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-data-platform-remaining-work.md)
+- [2026-05-17-worldcup-2026-host-city-profiles-handoff.md](/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-17-worldcup-2026-host-city-profiles-handoff.md)
 
 ## Current Runtime Contract
 
@@ -105,6 +106,7 @@ Pages 首页：
 - `fixtures`
 - `results`
 - `standings`
+- `host_city_profiles`
 - `team_world_cup_history`
 - `team_recent_matches`
 - `team_staff`
@@ -209,6 +211,16 @@ python3 scripts/publish_world_cup_predictor_api.py
 当前 `team-recent-matches.json` 从已迁移的模型侧 `normalized_matches.csv` 生成，每队最近 10 场。
 
 截至 2026-05-17，`team-recent-matches.json` 已补齐 48 队最近 10 场基础比分，字段包含 `match_id`、日期、赛事、主客队、比分、主客/中立和比赛地。`team-world-cup-history.json` 已从 openfootball 历届世界杯 JSON 计算 1930-2022 已结束世界杯正赛历史，并把 2026 已晋级作为 `qualified_not_started` 计入参赛次数但不计入总战绩。历史从未参加过世界杯正赛的 2026 新军标记为 `source_status=available_no_prior_appearances`。
+
+主办城市资料：
+
+```bash
+python3 scripts/import_world_cup_host_city_profiles_from_manual_patch.py
+python3 scripts/publish_worldcup_2026_api.py
+python3 scripts/publish_world_cup_predictor_api.py
+```
+
+当前 `host-city-profiles.json` 覆盖 16 个 2026 世界杯主办城市，并同时提供长期 `city_id` slug 和 `worldcup/2026` 现有路由可直接匹配的 `site_city_key`。人口字段在未接入审计统计源前保持 `null`。
 
 带上下文采集的世界杯发布：
 
