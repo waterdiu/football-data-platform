@@ -73,6 +73,11 @@
       "external_repos": []
     },
     {
+      "script": "build_data_quality_report.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
       "script": "build_worldcup_2026_runtime_health.py",
       "self_contained": true,
       "external_repos": []
@@ -179,6 +184,13 @@
       "external_repos": [],
       "self_contained": true,
       "reason": "Aggregates platform-owned reports and datasets into a health report."
+    },
+    {
+      "script": "build_data_quality_report.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Summarizes World Cup data quality checks and human runbooks from platform-owned reports."
     },
     {
       "script": "build_worldcup_2026_runtime_health.py",

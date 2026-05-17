@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-05-17T00:00:00Z",
+  "scope": "worldcup_2026",
+  "summary": {
+    "checks": 9,
+    "status_counts": {
+      "attention": 2,
+      "info": 2,
+      "pass": 5
+    },
+    "severity_counts": {
+      "P0": 4,
+      "P1": 5
+    },
+    "blocking_count": 0,
+    "attention_count": 2
+  },
+  "checks": [
+    {
+      "id": "world_cup_fixture_count",
+      "status": "pass",
+      "severity": "P0",
+      "title": "World Cup fixture count",
+      "detail": "Expected 104 canonical fixtures; found 104.",
+      "evidence": {
+        "expected": 104,
+        "actual": 104
+      },
+      "runbook": "If this fails, stop publishing consumers and rebuild fixtures from the canonical platform fixture source."
+    },
+    {
+      "id": "world_cup_coverage_count",
+      "status": "pass",
+      "severity": "P0",
+      "title": "World Cup coverage row count",
+      "detail": "Coverage should have one row per fixture; found 104.",
+      "evidence": {
+        "expected": 104,
+        "actual": 104
+      },
+      "runbook": "Run scripts/build_world_cup_coverage.py after model/public datasets are published."
+    },
+    {
+      "id": "world_cup_prediction_count",
+      "status": "pass",
+      "severity": "P1",
+      "title": "Published prediction count",
+      "detail": "Published predictions should cover all fixtures; found 104.",
+      "evidence": {
+        "expected": 104,
+        "actual": 104
+      },
+      "runbook": "Ask the predictor project to regenerate predictions and write them to platform inbox, then run scripts/publish_predictor_inbox.py."
+    },
+    {
+      "id": "automation_full_rebuild_ready",
+      "status": "pass",
+      "severity": "P1",
+      "title": "Full rebuild automation readiness",
+      "detail": "Default World Cup publish pipeline must be self-contained and runnable in GitHub Actions.",
+      "evidence": {
+        "pages_runtime_monitoring_ready": true,
+        "github_actions_full_rebuild_ready": true,
+        "blocking_script_count": 0
+      },
+      "runbook": "Run scripts/build_automation_readiness_report.py and remove any default pipeline dependency on sibling repositories."
+    },
+    {
+      "id": "world_cup_runtime_odds",
+      "status": "attention",
+      "severity": "P0",
+      "title": "World Cup runtime odds snapshots",
+      "detail": "World Cup odds snapshots currently contain 0 rows.",
+      "evidence": {
+        "rows": 0
+      },
+      "runbook": "Only enable a soccer-capable paid or approved odds provider. TheOddsAPI free key is not soccer-capable."
+    },
+    {
+      "id": "world_cup_lineups",
+      "status": "info",
+      "severity": "P1",
+      "title": "World Cup lineup availability",
+      "detail": "Confirmed lineup rows are expected only inside the pre-match lineup window.",
+      "evidence": {
+        "rows": 104,
+        "source_status_counts": {
+          "unavailable": 104
+        }
+      },
+      "runbook": "If inside T-90/T-60/T-30 and still unavailable, check API-FOOTBALL plan coverage or official FIFA match centre fallback."
+    },
+    {
+      "id": "world_cup_injuries",
+      "status": "attention",
+      "severity": "P0",
+      "title": "World Cup injury source status",
+      "detail": "Injury source status is plan_restricted. Placeholder rows are not proof of no injuries.",
+      "evidence": {
+        "rows": 104,
+        "source_status_counts": {
+          "plan_restricted": 104
+        },
+        "runtime_status": "plan_restricted",
+        "runtime_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
+      },
+      "runbook": "Use official/FIFA/news manual evidence for critical absences until a provider plan with World Cup coverage is approved."
+    },
+    {
+      "id": "world_cup_weather",
+      "status": "info",
+      "severity": "P1",
+      "title": "World Cup weather forecast coverage",
+      "detail": "Weather rows before forecast windows should be explicit placeholders, not missing data.",
+      "evidence": {
+        "rows": 104,
+        "source_status_counts": {
+          "unavailable": 104
+        }
+      },
+      "runbook": "When matches enter the forecast window, run scripts/collect_world_cup_runtime_data.py with weather provider keys or Open-Meteo fallback."
+    },
+    {
+      "id": "world_cup_prematch_context",
+      "status": "pass",
+      "severity": "P1",
+      "title": "World Cup prematch context rows",
+      "detail": "Prematch context should publish one row per fixture; found 104.",
+      "evidence": {
+        "expected": 104,
+        "actual": 104
+      },
+      "runbook": "Run scripts/collect_world_cup_runtime_data.py and scripts/build_world_cup_model_runtime_datasets.py; inspect source freshness in source-health.json."
+    }
+  ]
+}

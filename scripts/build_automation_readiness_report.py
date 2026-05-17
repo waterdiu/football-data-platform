@@ -65,6 +65,10 @@ SCRIPT_DEPENDENCIES = {
         "external_repos": [],
         "reason": "Aggregates platform-owned reports and datasets into a health report.",
     },
+    "build_data_quality_report.py": {
+        "external_repos": [],
+        "reason": "Summarizes World Cup data quality checks and human runbooks from platform-owned reports.",
+    },
     "build_worldcup_2026_runtime_health.py": {
         "external_repos": [],
         "reason": "Builds runtime health from platform-owned manifest and source health report.",
@@ -104,6 +108,7 @@ WORLD_CUP_PIPELINE = [
     "publish_worldcup_2026_api.py",
     "publish_world_cup_predictor_api.py",
     "build_source_health_report.py",
+    "build_data_quality_report.py",
     "build_worldcup_2026_runtime_health.py",
     "build_world_cup_predictor_runtime_health.py",
 ]

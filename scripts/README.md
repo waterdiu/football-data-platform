@@ -196,7 +196,7 @@
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
   - 先发布平台 own 的 `worldcup/2026` 兼容数据镜像
-  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`injury evidence`、`model datasets`、`coverage`、`qualifier public datasets`、`runtime APIs`、`predictor runtime health`
+  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`injury evidence`、`model datasets`、`coverage`、`qualifier public datasets`、`runtime APIs`、`source health`、`data quality`、`predictor runtime health`
   - 可选 `--capture-context`，先触发预测项目的世界杯 context capture，再继续发布
 - `json_io.py`
   - 提供核心发布脚本使用的 JSON 原子写入工具
@@ -209,6 +209,10 @@
   - 可读取 GitHub Secrets：`API_FOOTBALL_KEY`、`OPENWEATHER_API_KEY`、`FOOTBALL_DATA_API_KEY`、`THE_ODDS_API_KEY`、`THE_ODDS_API_SOCCER_ENABLED`
 - `build_source_health_report.py`
   - 聚合 `public/*`、`model/*` 和各类 report，输出统一的 `reports/source-health.json`
+- `build_data_quality_report.py`
+  - 输入：fixtures、coverage、predictions、runtime model datasets、runtime collection report、automation readiness report
+  - 输出：`reports/data-quality.json`
+  - 当前定位：定时任务失败或运行时数据缺失时的第一排障入口，用 `pass` / `attention` / `blocked` 和 runbook 文本说明人下一步该查什么
 - `capture_world_cup_context_from_predictor.py`
   - 调用 `world-cup-predictor` 的 `run_scheduled_maintenance.py`
   - 只触发 `world_cup` 的 context capture，不跑 odds / predictions / evaluation

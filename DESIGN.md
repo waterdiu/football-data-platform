@@ -799,6 +799,9 @@ predictor 全量数据资产当前边界：
 此外，平台提供统一健康报告入口：
 
 - `scripts/build_source_health_report.py`
+- `scripts/build_data_quality_report.py`
+
+`source-health` 聚合底层数据源、行数和 provider 状态；`data-quality` 是人工排障入口，把 2026 世界杯 fixture、coverage、predictions、odds、lineups、injuries、weather、prematch context 和 automation readiness 转成 `pass` / `attention` / `blocked` 检查，并附带对应 runbook。
 
 平台还提供一个面向 `worldcup/2026` 的运行时静态接口发布入口：
 
@@ -912,7 +915,7 @@ predictor 全量数据资产当前边界：
 
 - `rebuild-worldcup-data.yml` 每 6 小时运行一次，也支持手动触发。
 - workflow 使用 `concurrency.group=worldcup-data-publish` 且 `cancel-in-progress=false`，避免两个发布任务同时写相同 JSON。
-- workflow 会先运行 `collect_world_cup_runtime_data.py`，再运行 `publish_all_world_cup_data.py` 和 `build_automation_readiness_report.py`。
+- workflow 会先运行 `collect_world_cup_runtime_data.py`，再运行 `publish_all_world_cup_data.py` 和 `build_automation_readiness_report.py`。`publish_all_world_cup_data.py` 内部会串行生成 `source-health`、`data-quality` 和 consumer runtime health。
 - 可配置 secrets：`API_FOOTBALL_KEY`、`OPENWEATHER_API_KEY`、`FOOTBALL_DATA_API_KEY`、`THE_ODDS_API_KEY`、`THE_ODDS_API_SOCCER_ENABLED`。当前 API-FOOTBALL Free 对 2026 World Cup 正赛仍会返回 `plan_restricted`，不会产生真实阵容/伤停行。
 
 写入权限必须明确：

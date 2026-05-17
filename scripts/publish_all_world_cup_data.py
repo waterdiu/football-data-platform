@@ -28,6 +28,7 @@ PIPELINE = [
     "publish_worldcup_2026_api.py",
     "publish_world_cup_predictor_api.py",
     "build_source_health_report.py",
+    "build_data_quality_report.py",
     "build_worldcup_2026_runtime_health.py",
     "build_world_cup_predictor_runtime_health.py",
     "build_migration_status.py",
