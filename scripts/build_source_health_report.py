@@ -60,7 +60,12 @@ def runtime_source_summary(payload: object) -> dict[str, object]:
         source_freshness = item.get("source_freshness") if isinstance(item.get("source_freshness"), list) else []
         datasets[dataset] = {
             "status": item.get("status") or "unknown",
+            "status_reason": item.get("status_reason"),
+            "provider": item.get("provider"),
             "auth_env": item.get("auth_env"),
+            "production_enabled_env": item.get("production_enabled_env"),
+            "required_plan": item.get("required_plan"),
+            "free_tier_available_for_soccer": item.get("free_tier_available_for_soccer"),
             "fixtures_considered": item.get("fixtures_considered"),
             "rows_collected": item.get("rows_collected", 0),
             "failed_sources_count": len(item.get("failed_sources") or []),

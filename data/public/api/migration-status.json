@@ -89,13 +89,22 @@
   "platform_runtime_collectors": {
     "status": "available",
     "report_path": "reports/world_cup_runtime_collection_report.json",
-    "generated_at": "2026-05-16T17:43:03.364718+00:00",
+    "generated_at": "2026-05-17T08:23:33.549459+00:00",
     "dry_run": true,
     "datasets": [
       {
         "dataset": "odds",
-        "status": "missing_auth",
+        "provider": "the_odds_api",
+        "status": "paid_plan_required",
+        "status_reason": "TheOddsAPI free tier covers NBA and MLB only; soccer requires a paid Business plan.",
         "auth_env": "THE_ODDS_API_KEY",
+        "production_enabled_env": "THE_ODDS_API_SOCCER_ENABLED",
+        "required_plan": "business",
+        "free_tier_available_for_soccer": false,
+        "free_tier_supported_sports": [
+          "basketball_nba",
+          "baseball_mlb"
+        ],
         "sport_key": "soccer_fifa_world_cup",
         "fixtures_considered": 1,
         "rows_collected": 0
@@ -160,42 +169,42 @@
             "source": "fifa_news",
             "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles",
             "status": "available",
-            "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+            "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
             "pages_collected": 1
           },
           {
             "source": "fifa_world_cup_news",
             "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news",
             "status": "available",
-            "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+            "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
             "pages_collected": 1
           },
           {
             "source": "bbc_world_cup",
             "url": "https://www.bbc.com/sport/football/world-cup",
             "status": "available",
-            "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+            "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
             "pages_collected": 1
           },
           {
             "source": "sky_world_cup",
             "url": "https://www.skysports.com/world-cup-news",
             "status": "available",
-            "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+            "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
             "pages_collected": 2
           },
           {
             "source": "espn_soccer",
             "url": "https://www.espn.com/soccer/",
             "status": "available",
-            "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+            "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
             "pages_collected": 1
           },
           {
             "source": "mexico_fmf",
             "url": "https://miseleccion.mx/noticias/",
             "status": "available",
-            "last_checked_at": "2026-05-16T17:43:03.364718+00:00",
+            "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
             "pages_collected": 1
           }
         ],

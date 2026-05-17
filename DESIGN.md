@@ -550,7 +550,7 @@ football-data-platform/
 | events/lineups/stats | API-FOOTBALL | official pages / paid enrichments |
 | historical data | football-data.co.uk / openfootball | local CSV |
 | xG/advanced | StatsBomb / Understat | FBref |
-| odds | The Odds API / local harvesters | other odds providers |
+| odds | API-FOOTBALL / HKJC compliance review / approved paid source | experimental local harvesters |
 | news | FIFA / BBC / official sites | manual |
 | weather | OpenWeather | Visual Crossing |
 
@@ -829,7 +829,7 @@ predictor 全量数据资产当前边界：
 
 当前迁移边界：
 
-- 已迁移：The Odds API 赔率采集，直接写 `data/normalized/world_cup_2026_model_odds_master.json`
+- 已迁移：The Odds API 赔率采集器，但 TheOddsAPI 免费层只覆盖 NBA/MLB，足球需要 Business 付费计划；平台默认把该源标记为 `paid_plan_required`，除非付费后显式设置 `THE_ODDS_API_SOCCER_ENABLED=1`
 - 已增强：The Odds API 标准化输出 `h2h`、`over_under`、`asian_handicap`、`has_1x2`、`has_over_under`、`has_asian_handicap`，coverage 可直接识别 1X2 / 大小球 / 亚盘覆盖
 - 已迁移：API-FOOTBALL 阵容和伤停采集，直接写 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
 - 已增强：天气采集优先使用 OpenWeather；无 key 或 OpenWeather 失败时 fallback 到无 key的 Open-Meteo 16 天预报窗口，直接写 `data/normalized/world_cup_2026_model_weather_master.json`

@@ -19,6 +19,7 @@ from sources.the_odds_api import fetch_odds_events, normalize_odds_events
 FIXTURES_PATH = ROOT / "data" / "public" / "fixtures.json"
 TEAMS_PATH = ROOT / "data" / "public" / "teams.json"
 VENUES_PATH = ROOT / "configs" / "venues" / "world_cup_2026.json"
+THE_ODDS_API_CONFIG_PATH = ROOT / "configs" / "providers" / "the_odds_api.json"
 NORMALIZED_DIR = ROOT / "data" / "normalized"
 RUNTIME_DIR = ROOT / "data" / "runtime"
 REPORT_PATH = ROOT / "reports" / "world_cup_runtime_collection_report.json"
@@ -148,13 +149,35 @@ def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at
 
 
 def collect_odds(*, fixtures: list[dict], teams: list[dict], fetched_at: str, dry_run: bool) -> dict:
+    provider_config = load_json(THE_ODDS_API_CONFIG_PATH)
+    provider_config = provider_config if isinstance(provider_config, dict) else {}
+    soccer_access = provider_config.get("soccer_access") if isinstance(provider_config.get("soccer_access"), dict) else {}
+    enabled_env = str(provider_config.get("production_enabled_env") or "THE_ODDS_API_SOCCER_ENABLED")
+    soccer_enabled = os.environ.get(enabled_env, "").strip().lower() in {"1", "true", "yes", "enabled"}
     api_key = os.environ.get("THE_ODDS_API_KEY", "").strip()
     sport_key = os.environ.get("THE_ODDS_API_SPORT", "soccer_fifa_world_cup")
+    if not soccer_enabled:
+        return {
+            "dataset": "odds",
+            "provider": "the_odds_api",
+            "status": "paid_plan_required",
+            "status_reason": "TheOddsAPI free tier covers NBA and MLB only; soccer requires a paid Business plan.",
+            "auth_env": "THE_ODDS_API_KEY",
+            "production_enabled_env": enabled_env,
+            "required_plan": soccer_access.get("required_plan") or "business",
+            "free_tier_available_for_soccer": bool(soccer_access.get("free_tier_available")),
+            "free_tier_supported_sports": soccer_access.get("free_tier_supported_sports") or [],
+            "sport_key": sport_key,
+            "fixtures_considered": len(fixtures),
+            "rows_collected": 0,
+        }
     if not api_key:
         return {
             "dataset": "odds",
+            "provider": "the_odds_api",
             "status": "missing_auth",
             "auth_env": "THE_ODDS_API_KEY",
+            "production_enabled_env": enabled_env,
             "sport_key": sport_key,
             "fixtures_considered": len(fixtures),
             "rows_collected": 0,
@@ -165,8 +188,10 @@ def collect_odds(*, fixtures: list[dict], teams: list[dict], fetched_at: str, dr
     except Exception as exc:  # noqa: BLE001 - collection reports provider failures.
         return {
             "dataset": "odds",
+            "provider": "the_odds_api",
             "status": "provider_error",
             "auth_env": "THE_ODDS_API_KEY",
+            "production_enabled_env": enabled_env,
             "sport_key": sport_key,
             "fixtures_considered": len(fixtures),
             "rows_collected": 0,
@@ -187,6 +212,7 @@ def collect_odds(*, fixtures: list[dict], teams: list[dict], fetched_at: str, dr
 
     return {
         "dataset": "odds",
+        "provider": "the_odds_api",
         "status": "collected" if rows else "no_rows",
         "sport_key": sport_key,
         "fixtures_considered": len(fixtures),

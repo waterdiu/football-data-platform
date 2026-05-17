@@ -108,9 +108,10 @@ Later markets:
 
 Sources:
 
-- The Odds API
+- TheOddsAPI is not a free soccer source. Its free tier covers NBA/MLB only; football requires Business. Keep it disabled for soccer unless `THE_ODDS_API_SOCCER_ENABLED=1` is explicitly set after a paid plan is active.
+- API-FOOTBALL odds coverage, HKJC compliance validation, or another approved paid source
 - OddsHarvester/OddsPortal where legally and operationally safe
-- OddsPapi or other paid source if The Odds API coverage is insufficient
+- OddsPapi or other paid source if approved source coverage is insufficient
 
 Acceptance criteria:
 

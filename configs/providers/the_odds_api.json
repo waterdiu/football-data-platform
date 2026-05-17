@@ -3,7 +3,14 @@
   "type": "api",
   "datasets": ["odds_snapshots"],
   "auth_env": "THE_ODDS_API_KEY",
+  "production_enabled_env": "THE_ODDS_API_SOCCER_ENABLED",
+  "soccer_access": {
+    "free_tier_available": false,
+    "required_plan": "business",
+    "free_tier_supported_sports": ["basketball_nba", "baseball_mlb"],
+    "status": "paid_plan_required"
+  },
   "default_markets": ["h2h", "spreads", "totals"],
   "standardized_markets": ["h2h", "asian_handicap", "over_under"],
-  "notes": "Primary odds source for model and market comparison workflows. The platform adapter normalizes 1X2, spreads/asian_handicap, and totals/over_under when provider coverage exists."
+  "notes": "The free tier only covers NBA and MLB. Soccer requires the Business plan, so the football collector must remain disabled unless THE_ODDS_API_SOCCER_ENABLED=1 is explicitly set after a paid soccer plan is active."
 }
