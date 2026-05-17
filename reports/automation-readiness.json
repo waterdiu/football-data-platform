@@ -38,6 +38,11 @@
       "external_repos": []
     },
     {
+      "script": "build_world_cup_injury_evidence.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
       "script": "build_world_cup_model_runtime_datasets.py",
       "self_contained": true,
       "external_repos": []
@@ -141,6 +146,13 @@
       "reason": "Publishes model runtime datasets from platform-owned model master files."
     },
     {
+      "script": "build_world_cup_injury_evidence.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Derives low-confidence injury/suspension evidence from platform-owned prematch context rows."
+    },
+    {
       "script": "build_world_cup_coverage.py",
       "exists": true,
       "external_repos": [],
@@ -218,7 +230,9 @@
     }
   ],
   "recommended_next_steps": [
-    "Enable or monitor the scheduled rebuild workflow now that the default World Cup pipeline is self-contained.",
+    "Use .github/workflows/rebuild-worldcup-data.yml as the serial scheduled rebuild workflow.",
+    "Keep its concurrency group enabled so overlapping publish jobs cannot write the same JSON outputs concurrently.",
+    "Configure provider secrets when paid or useful sources are available: API_FOOTBALL_KEY, OPENWEATHER_API_KEY, FOOTBALL_DATA_API_KEY, THE_ODDS_API_KEY, THE_ODDS_API_SOCCER_ENABLED.",
     "Keep import_worldcup_site_local_data.mjs and build_world_cup_model_datasets.py only as optional manual backfill tools.",
     "If future datasets add sibling-repo dependencies again, update this report and keep them out of the default publish pipeline."
   ]

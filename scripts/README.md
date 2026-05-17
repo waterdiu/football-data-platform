@@ -202,6 +202,11 @@
   - 提供核心发布脚本使用的 JSON 原子写入工具
   - 写入流程是临时文件 + `os.replace`，避免下游脚本或页面读取到半写 JSON
   - 生产发布仍必须串行执行；不要并行运行多个会写 `data/model/*`、`data/public/*` 或 `reports/*` 的脚本
+- `.github/workflows/rebuild-worldcup-data.yml`
+  - 每 6 小时运行一次，也支持手动触发
+  - 使用 `worldcup-data-publish` concurrency group，禁止两个发布任务同时写数据
+  - 自动化顺序：平台 runtime collector -> `publish_all_world_cup_data.py` -> `build_automation_readiness_report.py` -> 如有变化则提交
+  - 可读取 GitHub Secrets：`API_FOOTBALL_KEY`、`OPENWEATHER_API_KEY`、`FOOTBALL_DATA_API_KEY`、`THE_ODDS_API_KEY`、`THE_ODDS_API_SOCCER_ENABLED`
 - `build_source_health_report.py`
   - 聚合 `public/*`、`model/*` 和各类 report，输出统一的 `reports/source-health.json`
 - `capture_world_cup_context_from_predictor.py`

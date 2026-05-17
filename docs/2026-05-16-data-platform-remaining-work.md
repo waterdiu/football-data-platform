@@ -508,6 +508,8 @@ Acceptance criteria:
 - Failures are visible in `reports/*` and public health endpoints.
 - Production publish jobs run through a single serial entrypoint. Do not run writer scripts in parallel against `data/model/*`, `data/public/*`, or `reports/*`.
 - Core runtime publish scripts use atomic JSON writes via `scripts/json_io.py`.
+- `.github/workflows/rebuild-worldcup-data.yml` runs the serial collection/publish flow every 6 hours and has a `worldcup-data-publish` concurrency group.
+- Workflow secrets are documented and optional by source: `API_FOOTBALL_KEY`, `OPENWEATHER_API_KEY`, `FOOTBALL_DATA_API_KEY`, `THE_ODDS_API_KEY`, `THE_ODDS_API_SOCCER_ENABLED`.
 - Automation does not depend on `world-cup-predictor` checkout for production runtime data.
 
 ### 10. Data Quality Alerts And Runbooks

@@ -3,6 +3,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from json_io import write_json
+
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS_DIR = ROOT / "scripts"
 REPORTS_DIR = ROOT / "reports"
@@ -42,6 +44,10 @@ SCRIPT_DEPENDENCIES = {
     "build_world_cup_model_runtime_datasets.py": {
         "external_repos": [],
         "reason": "Publishes model runtime datasets from platform-owned model master files.",
+    },
+    "build_world_cup_injury_evidence.py": {
+        "external_repos": [],
+        "reason": "Derives low-confidence injury/suspension evidence from platform-owned prematch context rows.",
     },
     "build_world_cup_coverage.py": {
         "external_repos": [],
@@ -91,6 +97,7 @@ WORLD_CUP_PIPELINE = [
     "build_world_cup_results.py",
     "build_world_cup_standings.py",
     "build_world_cup_detail_datasets.py",
+    "build_world_cup_injury_evidence.py",
     "build_world_cup_model_runtime_datasets.py",
     "build_world_cup_coverage.py",
     "publish_qualifier_data.py",
@@ -100,11 +107,6 @@ WORLD_CUP_PIPELINE = [
     "build_worldcup_2026_runtime_health.py",
     "build_world_cup_predictor_runtime_health.py",
 ]
-
-
-def write_json(path: Path, payload: object) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def main() -> None:
@@ -165,7 +167,9 @@ def main() -> None:
         "pipeline_blockers": pipeline_blockers,
         "script_inventory": script_rows,
         "recommended_next_steps": [
-            "Enable or monitor the scheduled rebuild workflow now that the default World Cup pipeline is self-contained.",
+            "Use .github/workflows/rebuild-worldcup-data.yml as the serial scheduled rebuild workflow.",
+            "Keep its concurrency group enabled so overlapping publish jobs cannot write the same JSON outputs concurrently.",
+            "Configure provider secrets when paid or useful sources are available: API_FOOTBALL_KEY, OPENWEATHER_API_KEY, FOOTBALL_DATA_API_KEY, THE_ODDS_API_KEY, THE_ODDS_API_SOCCER_ENABLED.",
             "Keep import_worldcup_site_local_data.mjs and build_world_cup_model_datasets.py only as optional manual backfill tools.",
             "If future datasets add sibling-repo dependencies again, update this report and keep them out of the default publish pipeline.",
         ],

@@ -2,11 +2,24 @@ name: Rebuild World Cup Data
 
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
+    inputs:
+      collect_runtime:
+        description: "Run platform-owned runtime collectors before publishing"
+        required: false
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
 
 permissions:
   contents: write
+
+concurrency:
+  group: worldcup-data-publish
+  cancel-in-progress: false
 
 jobs:
   rebuild:
@@ -21,6 +34,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Collect platform runtime data
+        if: ${{ github.event_name == 'schedule' || inputs.collect_runtime == 'true' }}
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+          THE_ODDS_API_SOCCER_ENABLED: ${{ secrets.THE_ODDS_API_SOCCER_ENABLED }}
+        run: |
+          python3 scripts/collect_world_cup_runtime_data.py
 
       - name: Rebuild World Cup shared data
         run: |

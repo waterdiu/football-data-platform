@@ -900,12 +900,20 @@ predictor 全量数据资产当前边界：
 运行期发布闭环入口：
 
 - `scripts/sync_predictor_runtime_inbox.py`
+- `.github/workflows/rebuild-worldcup-data.yml`
 
 该入口支持：
 
 - `--skip-capture`：只发布已有 predictor inbox
 - `--collect-platform-runtime`：运行平台自有 collector
 - `--legacy-predictor-capture`：显式运行模型侧旧采集器，仅用于本地诊断/兼容
+
+自动化调度：
+
+- `rebuild-worldcup-data.yml` 每 6 小时运行一次，也支持手动触发。
+- workflow 使用 `concurrency.group=worldcup-data-publish` 且 `cancel-in-progress=false`，避免两个发布任务同时写相同 JSON。
+- workflow 会先运行 `collect_world_cup_runtime_data.py`，再运行 `publish_all_world_cup_data.py` 和 `build_automation_readiness_report.py`。
+- 可配置 secrets：`API_FOOTBALL_KEY`、`OPENWEATHER_API_KEY`、`FOOTBALL_DATA_API_KEY`、`THE_ODDS_API_KEY`、`THE_ODDS_API_SOCCER_ENABLED`。当前 API-FOOTBALL Free 对 2026 World Cup 正赛仍会返回 `plan_restricted`，不会产生真实阵容/伤停行。
 
 写入权限必须明确：
 
