@@ -177,6 +177,8 @@ def main() -> None:
     standings = load_json(PUBLIC_DIR / "standings.json")
     players = load_json(PUBLIC_DIR / "players.json")
     rosters = load_json(PUBLIC_DIR / "rosters.json")
+    team_world_cup_history = load_json(PUBLIC_DIR / "team-world-cup-history.json")
+    team_recent_matches = load_json(PUBLIC_DIR / "team-recent-matches.json")
     team_staff = load_json(PUBLIC_DIR / "team-staff.json")
     officials = load_json(PUBLIC_DIR / "officials.json")
     player_ratings = load_json(PUBLIC_DIR / "player-ratings.json")
@@ -216,6 +218,8 @@ def main() -> None:
         "standings.json": standings,
         "players.json": players,
         "rosters.json": rosters,
+        "team-world-cup-history.json": team_world_cup_history,
+        "team-recent-matches.json": team_recent_matches,
         "team-staff.json": team_staff,
         "officials.json": officials,
         "player-ratings.json": player_ratings,
@@ -279,6 +283,8 @@ def main() -> None:
             "standings": standings,
             "players": players,
             "rosters": rosters,
+            "team_world_cup_history": team_world_cup_history,
+            "team_recent_matches": team_recent_matches,
             "team_staff": team_staff,
             "officials": officials,
             "player_ratings": player_ratings,
@@ -314,6 +320,8 @@ def main() -> None:
             "standings": payload_size(standings),
             "players": payload_size(players),
             "rosters": payload_size(rosters),
+            "team_world_cup_history": payload_size(team_world_cup_history),
+            "team_recent_matches": payload_size(team_recent_matches),
             "team_staff": payload_size(team_staff),
             "officials": payload_size(officials),
             "player_ratings": payload_size(player_ratings),

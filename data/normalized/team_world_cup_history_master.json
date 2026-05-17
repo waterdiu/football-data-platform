@@ -1,0 +1,962 @@
+[
+  {
+    "team_id": "algeria",
+    "team_name": "Algeria",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "argentina",
+    "team_name": "Argentina",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "australia",
+    "team_name": "Australia",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "austria",
+    "team_name": "Austria",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "belgium",
+    "team_name": "Belgium",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "bosnia-and-herzegovina",
+    "team_name": "Bosnia and Herzegovina",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "brazil",
+    "team_name": "Brazil",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "cabo-verde",
+    "team_name": "Cabo Verde",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "canada",
+    "team_name": "Canada",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "colombia",
+    "team_name": "Colombia",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "congo-dr",
+    "team_name": "Congo DR",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "cote-divoire",
+    "team_name": "Cote d'Ivoire",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "croatia",
+    "team_name": "Croatia",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "curacao",
+    "team_name": "Curacao",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "czechia",
+    "team_name": "Czechia",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "ecuador",
+    "team_name": "Ecuador",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "egypt",
+    "team_name": "Egypt",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "england",
+    "team_name": "England",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "france",
+    "team_name": "France",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "germany",
+    "team_name": "Germany",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "ghana",
+    "team_name": "Ghana",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "haiti",
+    "team_name": "Haiti",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "ir-iran",
+    "team_name": "IR Iran",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "iraq",
+    "team_name": "Iraq",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "japan",
+    "team_name": "Japan",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "jordan",
+    "team_name": "Jordan",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "korea-republic",
+    "team_name": "Korea Republic",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "mexico",
+    "team_name": "Mexico",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "morocco",
+    "team_name": "Morocco",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "netherlands",
+    "team_name": "Netherlands",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "new-zealand",
+    "team_name": "New Zealand",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "norway",
+    "team_name": "Norway",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "panama",
+    "team_name": "Panama",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "paraguay",
+    "team_name": "Paraguay",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "portugal",
+    "team_name": "Portugal",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "qatar",
+    "team_name": "Qatar",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "saudi-arabia",
+    "team_name": "Saudi Arabia",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "scotland",
+    "team_name": "Scotland",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "senegal",
+    "team_name": "Senegal",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "south-africa",
+    "team_name": "South Africa",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "spain",
+    "team_name": "Spain",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "sweden",
+    "team_name": "Sweden",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "switzerland",
+    "team_name": "Switzerland",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "tunisia",
+    "team_name": "Tunisia",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "turkiye",
+    "team_name": "Turkiye",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "united-states",
+    "team_name": "United States",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "uruguay",
+    "team_name": "Uruguay",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "team_id": "uzbekistan",
+    "team_name": "Uzbekistan",
+    "competition_id": "fifa_world_cup",
+    "source_status": "pending_source",
+    "source": null,
+    "summary": {
+      "appearances": 0,
+      "best_finish": null,
+      "matches_played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0
+    },
+    "editions": [],
+    "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+    "updated_at": "2026-05-17T00:00:00Z"
+  }
+]

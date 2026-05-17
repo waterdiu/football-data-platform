@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TeamRecentMatches",
+  "type": "object",
+  "required": ["team_id", "team_name", "source_status", "matches", "updated_at"],
+  "properties": {
+    "team_id": { "type": "string" },
+    "team_name": { "type": "string" },
+    "source": { "type": "string" },
+    "source_status": { "type": "string" },
+    "match_count": { "type": "integer" },
+    "latest_match_date": { "type": ["string", "null"] },
+    "form_summary": {
+      "type": "object",
+      "properties": {
+        "played": { "type": "integer" },
+        "won": { "type": "integer" },
+        "drawn": { "type": "integer" },
+        "lost": { "type": "integer" },
+        "goals_for": { "type": "integer" },
+        "goals_against": { "type": "integer" },
+        "goal_difference": { "type": "integer" }
+      }
+    },
+    "matches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "opponent_name", "home_away", "score_for", "score_against", "result"],
+        "properties": {
+          "date": { "type": "string" },
+          "opponent_name": { "type": "string" },
+          "home_away": { "type": "string" },
+          "score_for": { "type": "integer" },
+          "score_against": { "type": "integer" },
+          "result": { "type": "string" },
+          "tournament": { "type": "string" },
+          "competition_group": { "type": "string" },
+          "competition_weight": { "type": ["number", "null"] },
+          "city": { "type": "string" },
+          "country": { "type": "string" },
+          "neutral": { "type": "boolean" }
+        }
+      }
+    },
+    "updated_at": { "type": "string" }
+  }
+}

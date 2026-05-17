@@ -18,6 +18,8 @@ CORE_DATASETS = {
     "standings": "standings.json",
     "players": "players.json",
     "rosters": "rosters.json",
+    "team_world_cup_history": "team-world-cup-history.json",
+    "team_recent_matches": "team-recent-matches.json",
     "team_staff": "team-staff.json",
     "officials": "officials.json",
     "player_ratings": "player-ratings.json",

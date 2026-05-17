@@ -347,6 +347,37 @@ Acceptance criteria:
 - Predictor no longer maintains separate production player/team mappings.
 - Roster updates are versioned by source and timestamp.
 
+### 7.1 Team World Cup History And Recent Matches
+
+Owner:
+
+- `football-data-platform`
+
+Status:
+
+- `team_recent_matches` first version is published from migrated predictor `normalized_matches.csv`.
+- `team_world_cup_history` contract is published with `source_status=pending_source`.
+
+Required datasets:
+
+- `data/normalized/team_world_cup_history_master.json`
+- `data/normalized/team_recent_matches_master.json`
+- `data/public/team-world-cup-history.json`
+- `data/public/team-recent-matches.json`
+
+Remaining work:
+
+- Fill historical World Cup appearances, best finish, W/D/L, goals for/against from audited historical World Cup results.
+- Cross-check historical facts against FIFA/openfootball/Kaggle sources before marking rows available.
+- Expose confidence/source metadata so the site can distinguish computed facts from pending placeholders.
+
+Acceptance criteria:
+
+- `team_world_cup_history` no longer contains `pending_source` for teams with sufficient audited history.
+- `team_recent_matches` includes last 10 international matches for every actual 2026 team.
+- World Cup site can show team history cards without maintaining local historical data.
+- Predictor can consume recent-form data from platform instead of local CSV assumptions.
+
 ### 8. Premier League Public API Standardization
 
 Owner:

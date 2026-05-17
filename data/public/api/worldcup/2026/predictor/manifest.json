@@ -63,6 +63,14 @@
       "path": "api/worldcup/2026/predictor/rosters.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/rosters.json"
     },
+    "team_world_cup_history": {
+      "path": "api/worldcup/2026/predictor/team-world-cup-history.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/team-world-cup-history.json"
+    },
+    "team_recent_matches": {
+      "path": "api/worldcup/2026/predictor/team-recent-matches.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/team-recent-matches.json"
+    },
     "team_staff": {
       "path": "api/worldcup/2026/predictor/team-staff.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/team-staff.json"

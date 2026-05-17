@@ -105,6 +105,8 @@ Pages 首页：
 - `fixtures`
 - `results`
 - `standings`
+- `team_world_cup_history`
+- `team_recent_matches`
 - `predictions`
 - `data_coverage`
 - `qualifier_events`
@@ -183,6 +185,16 @@ python3 scripts/publish_world_cup_predictor_api.py
 ```
 
 当前允许进入 master 的名单来源状态包括 `official_fifa`、`official_fa`、`official_club_or_league_correction`、`manual_official_patch`。媒体报道、Wikipedia、球迷站不能直接进入 master，只能作为线索。
+
+球队历史与近期比赛数据：
+
+```bash
+python3 scripts/build_team_history_datasets.py
+python3 scripts/publish_worldcup_2026_api.py
+python3 scripts/publish_world_cup_predictor_api.py
+```
+
+当前 `team-recent-matches.json` 从已迁移的模型侧 `normalized_matches.csv` 生成，每队最近 10 场。`team-world-cup-history.json` 先发布契约骨架，`source_status=pending_source`，后续必须从已审计的历届世界杯赛果源计算后才能作为生产事实使用。
 
 带上下文采集的世界杯发布：
 

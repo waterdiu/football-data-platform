@@ -220,6 +220,8 @@ football-data-platform/
 - `qualifier_matches`
 - `predictions`
 - `data_coverage`
+- `team_world_cup_history`
+- `team_recent_matches`
 - `model lineups`
 - `model odds_snapshots`
 - `model injuries`
@@ -497,6 +499,30 @@ football-data-platform/
 - `data/public/players.json`
 
 后续从 FIFA、国家队官网、足协公告或人工 patch 导入名单时，只写 normalized master，再由 `scripts/build_world_cup_roster_datasets.py` 发布到 public/API。
+
+### team history / recent matches schemas
+
+球队世界杯历史和近期国家队比赛当前已固定独立 schema：
+
+- `schemas/team-world-cup-history.schema.json`
+- `schemas/team-recent-matches.schema.json`
+
+当前数据集：
+
+- `data/normalized/team_world_cup_history_master.json`
+- `data/normalized/team_recent_matches_master.json`
+- `data/public/team-world-cup-history.json`
+- `data/public/team-recent-matches.json`
+
+发布脚本：
+
+- `scripts/build_team_history_datasets.py`
+
+边界：
+
+- `team_recent_matches` 当前从已迁移的 `data/predictor-assets/files/processed/normalized_matches.csv` 生成，每队保留最近 10 场，覆盖比分、赛事、主客/中立、比赛地和基础状态。
+- `team_world_cup_history` 当前先发布 48 队契约骨架，`source_status=pending_source`，不得当成历史事实使用；后续需要从 audited historical World Cup results 计算参赛次数、最好成绩、世界杯总场次、胜平负和进失球。
+- 历史世界杯战绩的可接受来源优先级：FIFA 官方历史资料、openfootball 历史世界杯结果、Kaggle international/world cup results、Wikipedia/DBpedia 仅作为人工校验辅助。
 
 官方名单导入规则：
 
@@ -835,6 +861,7 @@ predictor 全量数据资产当前边界：
 - 已增强：天气采集优先使用 OpenWeather；无 key 或 OpenWeather 失败时 fallback 到无 key的 Open-Meteo 16 天预报窗口，直接写 `data/normalized/world_cup_2026_model_weather_master.json`
 - 已增强：运行期采集器支持从未提交的 `.env.local` 读取 provider keys，避免把 `API_FOOTBALL_KEY`、`OPENWEATHER_API_KEY` 等敏感信息写入仓库或命令行日志
 - 已建立：rosters/players 契约、空 master/public 数据集、官方来源配置、手动 patch 导入脚本、发布脚本和 coverage 字段；真实名单需从官方来源导入
+- 已建立：team_world_cup_history / team_recent_matches 契约、master/public 数据集、发布脚本和 World Cup site/predictor API 输出；近期比赛已有第一版，历届世界杯战绩仍需 audited historical source 填充
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
 - 已增强：赛前新闻源列表由 `configs/prematch_news/world_cup_2026.json` 配置，`sources/prematch_news.py` 保留内置 fallback；采集结果和 `reports/world_cup_runtime_collection_report.json` 会记录 source 级 freshness（`last_checked_at`、`status`、`pages_collected`、错误信息）
 - 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`
