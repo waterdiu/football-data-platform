@@ -356,6 +356,7 @@ Owner:
 Status:
 
 - `team_recent_matches` is published from migrated predictor `normalized_matches.csv`, with 48 teams and 10 matches per team.
+- The full `normalized_matches.csv` source is a local predictor migration asset and is not committed under `data/predictor-assets/files/`; generated normalized/public/API snapshots are committed. If a CI rebuild lacks the local source, `scripts/build_team_history_datasets.py` preserves an existing non-empty public snapshot instead of overwriting it with empty rows, then falls back to `public/qualifier-matches.json` only when no snapshot exists.
 - `team_world_cup_history` is published for 48 teams from openfootball World Cup JSON. Completed finals history covers 1930-2022; 2026 qualification is represented as `qualified_not_started`.
 - `worldcup/2026` confirmed P0 display scope: main coach only, annual-level World Cup history, last 10 basic scores, player name/position/status/team_id, post-match updates only, no site odds display.
 

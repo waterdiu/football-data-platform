@@ -14,7 +14,10 @@ PREDICTOR_ASSETS_DIR = ROOT / "data" / "predictor-assets" / "files"
 TEAMS_PATH = PUBLIC_DIR / "teams.json"
 FIXTURES_PATH = PUBLIC_DIR / "fixtures.json"
 NORMALIZED_MATCHES_PATH = PREDICTOR_ASSETS_DIR / "processed" / "normalized_matches.csv"
+QUALIFIER_MATCHES_PATH = PUBLIC_DIR / "qualifier-matches.json"
 OPENFOOTBALL_WORLDCUP_DIR = ROOT / "data" / "raw" / "openfootball" / "worldcup-json"
+NORMALIZED_MATCHES_SOURCE_LABEL = "predictor-assets/processed/normalized_matches.csv"
+QUALIFIER_MATCHES_SOURCE_LABEL = "public/qualifier-matches.json"
 
 HISTORY_MASTER_PATH = NORMALIZED_DIR / "team_world_cup_history_master.json"
 RECENT_MASTER_PATH = NORMALIZED_DIR / "team_recent_matches_master.json"
@@ -32,6 +35,10 @@ def load_json(path: Path) -> object:
 def write_json(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def rel(path: Path) -> str:
+    return str(path.relative_to(ROOT))
 
 
 def normalize_name(value: str) -> str:
@@ -231,6 +238,46 @@ def row_for_team(row: dict, team_id: str, team_name: str, side: str) -> dict | N
         "country": country,
         "venue": venue or None,
         "neutral": parse_bool(row.get("neutral")),
+    }
+
+
+def row_for_qualifier_team(row: dict, team_id: str, team_name: str, side: str) -> dict | None:
+    home_score = parse_int(row.get("homeScore"))
+    away_score = parse_int(row.get("awayScore"))
+    if home_score is None or away_score is None:
+        return None
+    is_home = side == "home"
+    score_for = home_score if is_home else away_score
+    score_against = away_score if is_home else home_score
+    opponent = row.get("awayTeam") if is_home else row.get("homeTeam")
+    return {
+        "match_id": str(row.get("id") or match_id_for_row({
+            "date": row.get("dateLabel"),
+            "home_team": row.get("homeTeam"),
+            "away_team": row.get("awayTeam"),
+            "tournament": row.get("stage") or row.get("confederationName"),
+        })),
+        "date": str(row.get("dateLabel") or ""),
+        "team_id": team_id,
+        "team_name": team_name,
+        "home_team": str(row.get("homeTeam") or ""),
+        "away_team": str(row.get("awayTeam") or ""),
+        "opponent_name": str(opponent or ""),
+        "home_away": side,
+        "home_score": home_score,
+        "away_score": away_score,
+        "score_for": score_for,
+        "score_against": score_against,
+        "result": result_for(score_for, score_against),
+        "tournament": str(row.get("confederationName") or "FIFA World Cup qualifying"),
+        "competition_group": "world_cup_qualifying",
+        "competition_weight": 0.85,
+        "round": str(row.get("stage") or ""),
+        "city": "",
+        "country": "",
+        "venue": row.get("venue") or None,
+        "neutral": False,
+        "source_label": row.get("sourceLabel"),
     }
 
 
@@ -451,34 +498,51 @@ def build_recent_matches(
     limit: int,
 ) -> list[dict]:
     rows_by_team: dict[str, list[dict]] = {team_id: [] for team_id in team_by_id}
-    if not source_path.exists():
-        return [
-            {
-                "team_id": team_id,
-                "team_name": team.get("name") or team_id,
-                "source": str(source_path),
-                "source_status": "missing_source",
-                "match_count": 0,
-                "latest_match_date": None,
-                "form_summary": summarize_form([]),
-                "matches": [],
-                "updated_at": UPDATED_AT,
-            }
-            for team_id, team in sorted(team_by_id.items())
-        ]
+    source_label = NORMALIZED_MATCHES_SOURCE_LABEL
 
-    with source_path.open(newline="", encoding="utf-8") as handle:
-        for row in csv.DictReader(handle):
-            home_id = alias_to_id.get(normalize_name(str(row.get("home_team") or "")))
-            away_id = alias_to_id.get(normalize_name(str(row.get("away_team") or "")))
-            if home_id:
-                item = row_for_team(row, home_id, str(row.get("home_team") or ""), "home")
-                if item:
-                    rows_by_team[home_id].append(item)
-            if away_id:
-                item = row_for_team(row, away_id, str(row.get("away_team") or ""), "away")
-                if item:
-                    rows_by_team[away_id].append(item)
+    if source_path.exists():
+        source_status_when_available = "available"
+        with source_path.open(newline="", encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                home_id = alias_to_id.get(normalize_name(str(row.get("home_team") or "")))
+                away_id = alias_to_id.get(normalize_name(str(row.get("away_team") or "")))
+                if home_id:
+                    item = row_for_team(row, home_id, str(row.get("home_team") or ""), "home")
+                    if item:
+                        rows_by_team[home_id].append(item)
+                if away_id:
+                    item = row_for_team(row, away_id, str(row.get("away_team") or ""), "away")
+                    if item:
+                        rows_by_team[away_id].append(item)
+    elif RECENT_PUBLIC_PATH.exists():
+        existing = load_json(RECENT_PUBLIC_PATH)
+        if isinstance(existing, list) and any((row.get("match_count") or 0) > 0 for row in existing if isinstance(row, dict)):
+            return existing
+        source_status_when_available = "available_from_qualifier_matches"
+        source_label = QUALIFIER_MATCHES_SOURCE_LABEL
+    else:
+        source_status_when_available = "available_from_qualifier_matches"
+        source_label = QUALIFIER_MATCHES_SOURCE_LABEL
+
+    if not source_path.exists() and QUALIFIER_MATCHES_PATH.exists():
+        qualifier_rows = load_json(QUALIFIER_MATCHES_PATH)
+        if isinstance(qualifier_rows, list):
+            for row in qualifier_rows:
+                if not isinstance(row, dict):
+                    continue
+                home_id = alias_to_id.get(normalize_name(str(row.get("homeTeam") or "")))
+                away_id = alias_to_id.get(normalize_name(str(row.get("awayTeam") or "")))
+                if home_id:
+                    item = row_for_qualifier_team(row, home_id, str(row.get("homeTeam") or ""), "home")
+                    if item:
+                        rows_by_team[home_id].append(item)
+                if away_id:
+                    item = row_for_qualifier_team(row, away_id, str(row.get("awayTeam") or ""), "away")
+                    if item:
+                        rows_by_team[away_id].append(item)
+    elif not source_path.exists():
+        source_label = NORMALIZED_MATCHES_SOURCE_LABEL
+        source_status_when_available = "missing_source"
 
     output: list[dict] = []
     for team_id, team in sorted(team_by_id.items()):
@@ -487,8 +551,8 @@ def build_recent_matches(
             {
                 "team_id": team_id,
                 "team_name": team.get("name") or team_id,
-                "source": str(source_path),
-                "source_status": "available" if matches else "missing",
+                "source": source_label,
+                "source_status": source_status_when_available if matches else "missing",
                 "match_count": len(matches),
                 "latest_match_date": matches[0]["date"] if matches else None,
                 "form_summary": summarize_form(matches),
@@ -544,12 +608,12 @@ def main() -> None:
         "recent_rows": len(recent),
         "recent_available_rows": sum(1 for row in recent if row.get("source_status") == "available"),
         "recent_limit": args.recent_limit,
-        "recent_source": str(NORMALIZED_MATCHES_PATH),
+        "recent_source": NORMALIZED_MATCHES_SOURCE_LABEL,
         "outputs": {
-            "history_master": str(HISTORY_MASTER_PATH),
-            "recent_master": str(RECENT_MASTER_PATH),
-            "history_public": str(HISTORY_PUBLIC_PATH),
-            "recent_public": str(RECENT_PUBLIC_PATH),
+            "history_master": rel(HISTORY_MASTER_PATH),
+            "recent_master": rel(RECENT_MASTER_PATH),
+            "history_public": rel(HISTORY_PUBLIC_PATH),
+            "recent_public": rel(RECENT_PUBLIC_PATH),
         },
     }
     write_json(Path(args.report_output), report)
