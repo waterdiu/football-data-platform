@@ -3,15 +3,15 @@
   "teams_considered": 48,
   "history_rows": 48,
   "history_source_status": "available_partial",
-  "history_available_rows": 38,
+  "history_available_rows": 0,
   "recent_rows": 48,
-  "recent_available_rows": 48,
+  "recent_available_rows": 0,
   "recent_limit": 10,
-  "recent_source": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/predictor-assets/files/processed/normalized_matches.csv",
+  "recent_source": "/home/runner/work/football-data-platform/football-data-platform/data/predictor-assets/files/processed/normalized_matches.csv",
   "outputs": {
-    "history_master": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/team_world_cup_history_master.json",
-    "recent_master": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/team_recent_matches_master.json",
-    "history_public": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/team-world-cup-history.json",
-    "recent_public": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/team-recent-matches.json"
+    "history_master": "/home/runner/work/football-data-platform/football-data-platform/data/normalized/team_world_cup_history_master.json",
+    "recent_master": "/home/runner/work/football-data-platform/football-data-platform/data/normalized/team_recent_matches_master.json",
+    "history_public": "/home/runner/work/football-data-platform/football-data-platform/data/public/team-world-cup-history.json",
+    "recent_public": "/home/runner/work/football-data-platform/football-data-platform/data/public/team-recent-matches.json"
   }
 }
