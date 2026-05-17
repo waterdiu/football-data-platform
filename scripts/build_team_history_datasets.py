@@ -14,6 +14,7 @@ PREDICTOR_ASSETS_DIR = ROOT / "data" / "predictor-assets" / "files"
 TEAMS_PATH = PUBLIC_DIR / "teams.json"
 FIXTURES_PATH = PUBLIC_DIR / "fixtures.json"
 NORMALIZED_MATCHES_PATH = PREDICTOR_ASSETS_DIR / "processed" / "normalized_matches.csv"
+OPENFOOTBALL_WORLDCUP_DIR = ROOT / "data" / "raw" / "openfootball" / "worldcup-json"
 
 HISTORY_MASTER_PATH = NORMALIZED_DIR / "team_world_cup_history_master.json"
 RECENT_MASTER_PATH = NORMALIZED_DIR / "team_recent_matches_master.json"
@@ -21,6 +22,7 @@ HISTORY_PUBLIC_PATH = PUBLIC_DIR / "team-world-cup-history.json"
 RECENT_PUBLIC_PATH = PUBLIC_DIR / "team-recent-matches.json"
 
 UPDATED_AT = "2026-05-17T00:00:00Z"
+CURRENT_EDITION_YEAR = 2026
 
 
 def load_json(path: Path) -> object:
@@ -66,15 +68,41 @@ def team_indexes(teams: list[dict], selected_ids: set[str]) -> tuple[dict[str, d
     return by_id, alias_to_id
 
 
+def add_historical_aliases(alias_to_id: dict[str, str]) -> None:
+    replacements = {
+        "bosniaherzegovina": "bosnia-and-herzegovina",
+        "cotedivoire": "cote-divoire",
+        "côtedivoire": "cote-divoire",
+        "ivorycoast": "cote-divoire",
+        "czechrepublic": "czechia",
+        "czechoslovakia": "czechia",
+        "korearepublic": "korea-republic",
+        "southkorea": "korea-republic",
+        "usa": "united-states",
+        "unitedstates": "united-states",
+        "unitedstatesofamerica": "united-states",
+        "westgermany": "germany",
+        "zaire": "congo-dr",
+        "drcongo": "congo-dr",
+        "democraticrepublicofthecongo": "congo-dr",
+        "serbiaandmontenegro": "serbia",
+        "yugoslavia": "serbia",
+    }
+    for name, team_id in replacements.items():
+        alias_to_id.setdefault(name, team_id)
+
+
 def empty_history(team_id: str, team: dict) -> dict:
     return {
         "team_id": team_id,
         "team_name": team.get("name") or team_id,
         "competition_id": "fifa_world_cup",
-        "source_status": "pending_source",
-        "source": None,
+        "source_status": "available_no_prior_appearances",
+        "source": "openfootball/worldcup.json",
         "summary": {
-            "appearances": 0,
+            "appearances": 1,
+            "completed_appearances": 0,
+            "current_qualified": True,
             "best_finish": None,
             "matches_played": 0,
             "won": 0,
@@ -83,10 +111,30 @@ def empty_history(team_id: str, team: dict) -> dict:
             "goals_for": 0,
             "goals_against": 0,
         },
-        "editions": [],
-        "notes": "Contract placeholder. Populate from audited historical World Cup results before using as production facts.",
+        "editions": [
+            {
+                "year": CURRENT_EDITION_YEAR,
+                "status": "qualified",
+                "stage_reached": "qualified_not_started",
+                "finish": None,
+                "matches_played": 0,
+                "won": 0,
+                "drawn": 0,
+                "lost": 0,
+                "goals_for": 0,
+                "goals_against": 0,
+                "goal_difference": 0,
+                "matches": [],
+            }
+        ],
+        "notes": "No completed FIFA World Cup finals matches found in the audited openfootball history source through 2022. The 2026 qualified edition is counted as an appearance but not in match totals.",
         "updated_at": UPDATED_AT,
     }
+
+
+def slugify(value: str) -> str:
+    slug = "".join(ch.lower() if ch.isalnum() else "-" for ch in value)
+    return "-".join(part for part in slug.split("-") if part)
 
 
 def match_id_for_row(row: dict) -> str:
@@ -98,9 +146,20 @@ def match_id_for_row(row: dict) -> str:
             str(row.get("tournament") or ""),
         ]
     )
-    slug = "".join(ch.lower() if ch.isalnum() else "-" for ch in raw)
-    slug = "-".join(part for part in slug.split("-") if part)
-    return f"historical:{slug}"
+    return f"historical:{slugify(raw)}"
+
+
+def match_id_for_openfootball(year: int, match: dict) -> str:
+    raw = "|".join(
+        [
+            str(year),
+            str(match.get("date") or ""),
+            str(match.get("team1") or ""),
+            str(match.get("team2") or ""),
+            str(match.get("round") or ""),
+        ]
+    )
+    return f"openfootball:worldcup:{slugify(raw)}"
 
 
 def parse_int(value: object) -> int | None:
@@ -127,6 +186,16 @@ def result_for(score_for: int, score_against: int) -> str:
     if score_for < score_against:
         return "loss"
     return "draw"
+
+
+def score_for_stats(score: dict) -> tuple[list[int], str]:
+    if not isinstance(score, dict):
+        return [0, 0], "missing"
+    if "p" in score and "et" in score:
+        return list(score["et"]), "draw_after_penalties"
+    if "et" in score:
+        return list(score["et"]), "after_extra_time"
+    return list(score.get("ft") or [0, 0]), "full_time"
 
 
 def row_for_team(row: dict, team_id: str, team_name: str, side: str) -> dict | None:
@@ -182,30 +251,82 @@ def summarize_form(matches: list[dict]) -> dict:
     }
 
 
-def build_world_cup_history(
+def stage_from_round(round_name: str, *, is_group: bool) -> str:
+    label = round_name.casefold()
+    if "final" == label:
+        return "final"
+    if "match for third place" in label or "third place" in label:
+        return "third_place_match"
+    if "semi" in label:
+        return "semi_finals"
+    if "quarter" in label:
+        return "quarter_finals"
+    if "round of 16" in label:
+        return "round_of_16"
+    if "second round" in label or "second group" in label:
+        return "second_group_stage"
+    if is_group or "matchday" in label or "group" in label:
+        return "group_stage"
+    return round_name or "unknown"
+
+
+STAGE_RANK = {
+    "winner": 1,
+    "runner_up": 2,
+    "third_place": 3,
+    "fourth_place": 4,
+    "semi_finals": 5,
+    "quarter_finals": 6,
+    "round_of_16": 7,
+    "second_group_stage": 8,
+    "group_stage": 9,
+    "qualified_not_started": 10,
+}
+
+
+def better_stage(current: str | None, candidate: str) -> str:
+    if current is None:
+        return candidate
+    return candidate if STAGE_RANK.get(candidate, 99) < STAGE_RANK.get(current, 99) else current
+
+
+def update_stage_after_match(edition: dict[str, object], side: int, match: dict, score_stats: list[int]) -> None:
+    stage = stage_from_round(str(match.get("round") or ""), is_group=bool(match.get("group")))
+    if stage == "final":
+        stage = "winner" if score_stats[side] > score_stats[1 - side] else "runner_up"
+    elif stage == "third_place_match":
+        stage = "third_place" if score_stats[side] > score_stats[1 - side] else "fourth_place"
+    edition["stage_reached"] = better_stage(edition.get("stage_reached"), stage)
+    edition["finish"] = edition["stage_reached"]
+
+
+def build_world_cup_history_from_openfootball(
     *,
     team_by_id: dict[str, dict],
     alias_to_id: dict[str, str],
-    source_path: Path,
+    source_dir: Path,
 ) -> list[dict]:
     stats_by_team: dict[str, dict[int, dict[str, object]]] = {team_id: {} for team_id in team_by_id}
-    if not source_path.exists():
+    if not source_dir.exists():
         return [empty_history(team_id, team) for team_id, team in sorted(team_by_id.items())]
 
-    with source_path.open(newline="", encoding="utf-8") as handle:
-        for row in csv.DictReader(handle):
-            if str(row.get("competition_group") or "") != "world_cup" and str(row.get("tournament") or "") != "FIFA World Cup":
+    for path in sorted(source_dir.glob("*/worldcup.json")):
+        year = parse_int(path.parent.name)
+        if year is None or year > 2022:
+            continue
+        payload = load_json(path)
+        if not isinstance(payload, dict):
+            continue
+        for match in payload.get("matches") or []:
+            if not isinstance(match, dict):
                 continue
-            year = parse_int(str(row.get("date") or "")[:4])
-            if year is None:
-                continue
-            home_id = alias_to_id.get(normalize_name(str(row.get("home_team") or "")))
-            away_id = alias_to_id.get(normalize_name(str(row.get("away_team") or "")))
-            for team_id, side in ((home_id, "home"), (away_id, "away")):
-                if not team_id:
-                    continue
-                item = row_for_team(row, team_id, team_by_id[team_id].get("name") or team_id, side)
-                if not item:
+            score_stats, result_basis = score_for_stats(match.get("score") or {})
+            team_ids = [
+                alias_to_id.get(normalize_name(str(match.get("team1") or ""))),
+                alias_to_id.get(normalize_name(str(match.get("team2") or ""))),
+            ]
+            for side, team_id in enumerate(team_ids):
+                if not team_id or team_id not in stats_by_team:
                     continue
                 edition = stats_by_team[team_id].setdefault(
                     year,
@@ -223,17 +344,49 @@ def build_world_cup_history(
                         "finish": None,
                     },
                 )
+                score_for = int(score_stats[side])
+                score_against = int(score_stats[1 - side])
                 edition["matches_played"] = int(edition["matches_played"]) + 1
-                if item["result"] == "win":
+                match_result = result_for(score_for, score_against)
+                if result_basis == "draw_after_penalties":
+                    match_result = "draw"
+                if match_result == "win":
                     edition["won"] = int(edition["won"]) + 1
-                elif item["result"] == "draw":
+                elif match_result == "draw":
                     edition["drawn"] = int(edition["drawn"]) + 1
                 else:
                     edition["lost"] = int(edition["lost"]) + 1
-                edition["goals_for"] = int(edition["goals_for"]) + int(item["score_for"])
-                edition["goals_against"] = int(edition["goals_against"]) + int(item["score_against"])
+                edition["goals_for"] = int(edition["goals_for"]) + score_for
+                edition["goals_against"] = int(edition["goals_against"]) + score_against
                 edition["goal_difference"] = int(edition["goals_for"]) - int(edition["goals_against"])
-                edition["matches"].append(item)
+                update_stage_after_match(edition, side, match, score_stats)
+                edition["matches"].append(
+                    {
+                        "match_id": match_id_for_openfootball(year, match),
+                        "date": str(match.get("date") or ""),
+                        "team_id": team_id,
+                        "team_name": team_by_id[team_id].get("name") or team_id,
+                        "home_team": str(match.get("team1") or ""),
+                        "away_team": str(match.get("team2") or ""),
+                        "opponent_name": str(match.get("team2") if side == 0 else match.get("team1") or ""),
+                        "home_away": "neutral",
+                        "home_score": int(score_stats[0]),
+                        "away_score": int(score_stats[1]),
+                        "score_for": score_for,
+                        "score_against": score_against,
+                        "result": match_result,
+                        "result_basis": result_basis,
+                        "tournament": "FIFA World Cup",
+                        "competition_group": "world_cup",
+                        "competition_weight": 1.0,
+                        "round": str(match.get("round") or ""),
+                        "group": match.get("group"),
+                        "city": "",
+                        "country": "",
+                        "venue": match.get("ground"),
+                        "neutral": True,
+                    }
+                )
 
     output: list[dict] = []
     for team_id, team in sorted(team_by_id.items()):
@@ -241,26 +394,49 @@ def build_world_cup_history(
         if not editions:
             output.append(empty_history(team_id, team))
             continue
+        editions.append(
+            {
+                "year": CURRENT_EDITION_YEAR,
+                "status": "qualified",
+                "stage_reached": "qualified_not_started",
+                "finish": None,
+                "matches_played": 0,
+                "won": 0,
+                "drawn": 0,
+                "lost": 0,
+                "goals_for": 0,
+                "goals_against": 0,
+                "goal_difference": 0,
+                "matches": [],
+            }
+        )
+        best_finish = None
+        for edition in editions:
+            stage = edition.get("stage_reached")
+            if stage and stage != "qualified_not_started":
+                best_finish = better_stage(best_finish, str(stage))
         summary = {
             "appearances": len(editions),
-            "best_finish": None,
-            "matches_played": sum(int(item["matches_played"]) for item in editions),
-            "won": sum(int(item["won"]) for item in editions),
-            "drawn": sum(int(item["drawn"]) for item in editions),
-            "lost": sum(int(item["lost"]) for item in editions),
-            "goals_for": sum(int(item["goals_for"]) for item in editions),
-            "goals_against": sum(int(item["goals_against"]) for item in editions),
+            "completed_appearances": len(editions) - 1,
+            "current_qualified": True,
+            "best_finish": best_finish,
+            "matches_played": sum(int(item["matches_played"]) for item in editions if int(item["year"]) != CURRENT_EDITION_YEAR),
+            "won": sum(int(item["won"]) for item in editions if int(item["year"]) != CURRENT_EDITION_YEAR),
+            "drawn": sum(int(item["drawn"]) for item in editions if int(item["year"]) != CURRENT_EDITION_YEAR),
+            "lost": sum(int(item["lost"]) for item in editions if int(item["year"]) != CURRENT_EDITION_YEAR),
+            "goals_for": sum(int(item["goals_for"]) for item in editions if int(item["year"]) != CURRENT_EDITION_YEAR),
+            "goals_against": sum(int(item["goals_against"]) for item in editions if int(item["year"]) != CURRENT_EDITION_YEAR),
         }
         output.append(
             {
                 "team_id": team_id,
                 "team_name": team.get("name") or team_id,
                 "competition_id": "fifa_world_cup",
-                "source_status": "available_partial",
-                "source": str(source_path),
+                "source_status": "available",
+                "source": "openfootball/worldcup.json",
                 "summary": summary,
                 "editions": editions,
-                "notes": "Derived from migrated historical international results. Coverage currently includes FIFA World Cup matches present in normalized_matches.csv (2002-2022); stage/finish labels are not asserted until an audited full-history source is connected.",
+                "notes": "Derived from openfootball/worldcup.json completed FIFA World Cup finals through 2022. The 2026 qualified edition is counted as an appearance but not in match totals.",
                 "updated_at": UPDATED_AT,
             }
         )
@@ -338,7 +514,12 @@ def main() -> None:
 
     selected_ids = active_team_ids(fixtures)
     team_by_id, alias_to_id = team_indexes(teams, selected_ids)
-    history = build_world_cup_history(team_by_id=team_by_id, alias_to_id=alias_to_id, source_path=NORMALIZED_MATCHES_PATH)
+    add_historical_aliases(alias_to_id)
+    history = build_world_cup_history_from_openfootball(
+        team_by_id=team_by_id,
+        alias_to_id=alias_to_id,
+        source_dir=OPENFOOTBALL_WORLDCUP_DIR,
+    )
     recent = build_recent_matches(
         team_by_id=team_by_id,
         alias_to_id=alias_to_id,
@@ -355,8 +536,11 @@ def main() -> None:
         "status": "published_contract_and_recent_matches",
         "teams_considered": len(team_by_id),
         "history_rows": len(history),
-        "history_source_status": "available_partial",
-        "history_available_rows": sum(1 for row in history if row.get("source_status") == "available_partial"),
+        "history_source_status": "available",
+        "history_available_rows": sum(1 for row in history if row.get("source_status") == "available"),
+        "history_no_prior_appearance_rows": sum(
+            1 for row in history if row.get("source_status") == "available_no_prior_appearances"
+        ),
         "recent_rows": len(recent),
         "recent_available_rows": sum(1 for row in recent if row.get("source_status") == "available"),
         "recent_limit": args.recent_limit,

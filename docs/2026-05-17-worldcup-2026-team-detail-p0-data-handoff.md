@@ -40,7 +40,7 @@ manifest：
 | `rosters` | 8 队 | 已有 FIFA 官方名单文章的 26 人名单 |
 | `players` | 208 人 | P0 可用字段：姓名、位置、状态、`team_id` |
 | `team_recent_matches` | 48 队 | 每队最近 10 场基础比分 |
-| `team_world_cup_history` | 48 队 | 38 队有 2002-2022 源内世界杯正赛汇总，10 队仍为 `pending_source` |
+| `team_world_cup_history` | 48 队 | 44 队有历史世界杯正赛记录，4 队为 2026 首次参赛 |
 
 ## 字段说明
 
@@ -104,22 +104,17 @@ const headCoach = teamStaff.find((row) => row.team_id === teamId && row.role ===
 
 重要限制：
 
-- 当前只从已迁移历史赛果里计算源内存在的 `FIFA World Cup` 正赛，覆盖年份为 2002-2022。
-- `source_status=available_partial` 表示可以展示为“平台已覆盖年份内的世界杯历史汇总”，不能文案写成“完整历届世界杯历史”。
-- `source_status=pending_source` 的球队没有源内世界杯正赛记录，前端应显示“历史数据待补充”。
-- `best_finish`、`stage_reached`、`finish` 暂时为 `null`，前端不要伪造。
+- 当前从 openfootball 历届世界杯 JSON 计算已结束世界杯正赛，覆盖 1930-2022。
+- 2026 已晋级作为 `qualified_not_started` 计入 `summary.appearances`，但不计入 `matches_played`、胜平负和进失球。
+- `source_status=available` 表示该队有历史世界杯正赛记录。
+- `source_status=available_no_prior_appearances` 表示该队历史上没有已结束世界杯正赛记录，2026 是首次参赛。
+- `best_finish`、`stage_reached`、`finish` 由比赛阶段推断，早期赛制存在表达差异；前端应优先展示 `summary` 和逐届比分，阶段文案保持保守。
 
-当前仍为 `pending_source` 的球队：
+当前 `available_no_prior_appearances` 球队：
 
-- Austria
 - Cabo Verde
-- Congo DR
 - Curacao
-- Haiti
-- Iraq
 - Jordan
-- Norway
-- Scotland
 - Uzbekistan
 
 ## data_coverage

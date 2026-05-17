@@ -523,8 +523,8 @@ football-data-platform/
 边界：
 
 - `team_recent_matches` 当前从已迁移的 `data/predictor-assets/files/processed/normalized_matches.csv` 生成，每队保留最近 10 场，覆盖 `match_id`、日期、赛事、主客队、比分、主客/中立、比赛地和基础状态，满足 `worldcup/2026` 球队详情页 P0 展示。
-- `team_world_cup_history` 当前从同一已迁移历史赛果源计算 48 队年度级世界杯历史汇总。已覆盖源内存在的 2002-2022 FIFA World Cup 正赛，`source_status=available_partial`；源内没有世界杯正赛记录的球队继续标记 `source_status=pending_source`。由于当前源不含 1930-1998 和阶段/最终名次字段，`best_finish`、`stage_reached`、`finish` 不得臆造，保持 `null`。
-- 历史世界杯战绩全量化的可接受来源优先级：FIFA 官方历史资料、openfootball 历史世界杯结果、RSSSF、Kaggle international/world cup results；Wikipedia/DBpedia 仅作为人工校验辅助。
+- `team_world_cup_history` 当前从 `data/raw/openfootball/worldcup-json/{year}/worldcup.json` 计算 48 队完整已结束世界杯正赛历史，覆盖 1930-2022；2026 已晋级作为 `qualified_not_started` 计入 `summary.appearances`，但不计入总场次、胜平负、进失球。`source_status=available` 表示已有历史参赛记录，`source_status=available_no_prior_appearances` 表示历史无已结束世界杯正赛记录但 2026 已晋级。
+- 历史世界杯战绩来源优先级：openfootball 历史世界杯结果作为当前结构化主源；FIFA 官方历史资料、RSSSF、Kaggle international/world cup results 可作为后续交叉校验；Wikipedia/DBpedia 仅作为人工校验辅助。
 - `worldcup/2026` 展示站 P0 不展示赔率，不要求比赛中实时事件；正赛事件、阵容、技术统计按赛后一次性采集和发布设计。
 
 官方名单导入规则：

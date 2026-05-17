@@ -13,6 +13,8 @@
       "type": "object",
       "properties": {
         "appearances": { "type": "integer" },
+        "completed_appearances": { "type": "integer" },
+        "current_qualified": { "type": "boolean" },
         "best_finish": { "type": ["string", "null"] },
         "matches_played": { "type": "integer" },
         "won": { "type": "integer" },

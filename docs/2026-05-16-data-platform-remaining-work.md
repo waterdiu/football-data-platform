@@ -356,7 +356,7 @@ Owner:
 Status:
 
 - `team_recent_matches` is published from migrated predictor `normalized_matches.csv`, with 48 teams and 10 matches per team.
-- `team_world_cup_history` is published for 48 teams. Rows with migrated FIFA World Cup finals results from 2002-2022 are marked `source_status=available_partial`; teams without source rows remain `pending_source`.
+- `team_world_cup_history` is published for 48 teams from openfootball World Cup JSON. Completed finals history covers 1930-2022; 2026 qualification is represented as `qualified_not_started`.
 - `worldcup/2026` confirmed P0 display scope: main coach only, annual-level World Cup history, last 10 basic scores, player name/position/status/team_id, post-match updates only, no site odds display.
 
 Required datasets:
@@ -368,14 +368,14 @@ Required datasets:
 
 Remaining work:
 
-- Connect a complete audited historical World Cup source for 1930-2022 and replace partial 2002-2022 summaries where needed.
-- Fill `best_finish`, `stage_reached`, and `finish` only after connecting a source that explicitly contains stage/final-rank facts.
-- Keep `available_partial` and `pending_source` visible so the site can distinguish computed facts from incomplete placeholders.
+- Cross-check openfootball-derived summaries against FIFA/RSSSF/Kaggle historical sources before adding more presentation claims.
+- Improve `best_finish`, `stage_reached`, and `finish` wording where early tournament formats are ambiguous.
+- Keep `available` and `available_no_prior_appearances` visible so the site can distinguish historical participants from 2026 first-time qualifiers.
 - Continue importing official rosters and head coaches as FIFA/FA squad announcements arrive.
 
 Acceptance criteria:
 
-- `team_world_cup_history` no longer contains `pending_source` for teams with sufficient audited full-history data.
+- `team_world_cup_history` no longer contains `pending_source` for current 48 teams.
 - `team_recent_matches` includes last 10 international matches for every actual 2026 team. Current criterion is met for 48 teams.
 - World Cup site can show team history cards without maintaining local historical data.
 - Predictor can consume recent-form data from platform instead of local CSV assumptions.
