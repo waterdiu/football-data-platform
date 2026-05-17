@@ -69,6 +69,12 @@ Primary platform runtime publish/refresh wrapper:
 python3 scripts/sync_predictor_runtime_inbox.py --skip-capture --collect-platform-runtime
 ```
 
+Predictor runtime requirements baseline:
+
+- `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`
+
+This document is the working contract for model-facing runtime data: confirmed lineups, AH/OU odds snapshots, injuries/player impact, weather, advanced team stats, and referee profiles.
+
 ## Remaining Data-Layer Tasks
 
 ### 1. World Cup Runtime Odds Coverage
@@ -119,6 +125,7 @@ Acceptance criteria:
 - `predictor/health.json` shows odds rows and fixture coverage.
 - `migration-status.json` no longer reports World Cup odds as a runtime gap when configured keys and source coverage exist.
 - Missing odds do not break prediction generation, but they are recorded as optional runtime gaps.
+- AH / OU snapshot rules, opening/closing semantics, bookmaker quality thresholds, and UTC anti-leakage requirements are defined in `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`.
 
 ### 2. World Cup Lineups And Injuries Coverage
 
@@ -149,6 +156,7 @@ Acceptance criteria:
 - Each match has source status: `available`, `partial`, `missing`, or `provider_error`.
 - Lineup freshness supports pre-match windows: 90/60/30 minutes before kickoff.
 - Injury status distinguishes confirmed absence, doubtful, suspension, and unknown.
+- Confirmed lineups and injury/player-impact fields must follow `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`.
 
 ### 3. World Cup Prematch Context Coverage
 
@@ -206,6 +214,7 @@ Acceptance criteria:
 - Every venue has latitude/longitude in `configs/venues/world_cup_2026.json`.
 - Weather rows include provider timestamp and fixture timestamp.
 - Missing API key or provider errors are visible in runtime collection report.
+- Weather rows must expose model-facing risk tags and minimum fields defined in `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`.
 
 ### 5. World Cup Data Coverage Table
 
@@ -304,6 +313,12 @@ Acceptance criteria:
 - Final post-match rows are marked as finalized.
 - Site and predictor consume platform results only.
 
+Advanced model-facing statistics:
+
+- Predictor P1 requires possession, pass accuracy, passes completed, progressive passes, shots, shots on target, PPDA, xG for, and xG against.
+- Missing advanced fields must be `null`, not `0`.
+- `matches >= 5` is required for display trend claims; `matches >= 10` is required before using the field for strong model/report conclusions.
+
 ### 7. National Team Rosters And Player Data
 
 Owner:
@@ -380,6 +395,36 @@ Acceptance criteria:
 - `team_recent_matches` includes last 10 international matches for every actual 2026 team. Current criterion is met for 48 teams.
 - World Cup site can show team history cards without maintaining local historical data.
 - Predictor can consume recent-form data from platform instead of local CSV assumptions.
+
+### 7.2 Referee Profiles And Officials Ratings
+
+Owner:
+
+- `football-data-platform`
+
+Goal:
+
+- Provide referee profile samples for model reports and non-odds risk explanations.
+
+Required outputs:
+
+- `data/public/api/worldcup/2026/core/officials.json`
+- `data/public/api/worldcup/2026/core/official-ratings.json`
+- `data/public/api/worldcup/2026/predictor/officials.json`
+- `data/public/api/worldcup/2026/predictor/official-ratings.json`
+
+Remaining work:
+
+- Import FIFA World Cup 2026 referee assignments when available.
+- Build Premier League referee samples from football-data.co.uk `Referee` and card fields.
+- Add international referee samples from FIFA/worldfootball/public match records where legally usable.
+- Emit `missing_referee_assignment` when no referee is assigned and `low_referee_sample` when sample size is below 20.
+
+Acceptance criteria:
+
+- `sample_size >= 20` before a referee profile can influence model/report conclusions.
+- `sample_size < 20` is published but marked low-confidence.
+- Style tags and metrics follow `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`.
 
 ### 8. Premier League Public API Standardization
 
