@@ -290,11 +290,20 @@ def main() -> None:
             injuries_status = coverage_item(status="missing", confidence="low")
 
         if weather:
+            weather_source_status = str(weather.get("source_status") or "")
+            if weather_source_status in {"available", "partial"}:
+                weather_field_status = weather_source_status
+            elif weather_source_status in {"unavailable", "provider_empty"}:
+                weather_field_status = "unavailable"
+            else:
+                weather_field_status = "available"
             weather_status = coverage_item(
-                status="available",
+                status=weather_field_status,
                 confidence=str(weather.get("confidence") or "medium"),
                 source=str(weather.get("source") or "weather_api"),
                 last_updated=str(weather.get("fetched_at") or weather.get("updated_at") or source_updated_at["weather"] or ""),
+                source_status=weather_source_status or None,
+                status_reason=weather.get("status_reason"),
             )
         else:
             weather_status = coverage_item(status="missing", confidence="low")

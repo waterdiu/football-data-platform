@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
-from sources.open_meteo import fetch_open_meteo_payload, normalize_open_meteo_snapshot
+from sources.open_meteo import FORECAST_HORIZON_DAYS, fetch_open_meteo_payload, normalize_open_meteo_snapshot
 from sources.openweather import fetch_openweather_payload, normalize_openweather_snapshot
 from sources.api_football import collect_api_football_context
 from sources.prematch_news import collect_prematch_context
@@ -54,6 +54,10 @@ def load_env_value(name: str) -> str:
 def write_json(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def rel(path: Path) -> str:
+    return str(path.relative_to(ROOT))
 
 
 def now_utc() -> datetime:
@@ -102,6 +106,54 @@ def load_existing_list(path: Path) -> list[dict]:
     return payload if isinstance(payload, list) else []
 
 
+def weather_placeholder(
+    *,
+    fixture: dict,
+    venue: dict,
+    fetched_at: str,
+    source_status: str,
+    status_reason: str,
+) -> dict:
+    return {
+        "match_id": str(fixture.get("match_id") or ""),
+        "source": "platform_weather_window",
+        "confidence": "low",
+        "source_status": source_status,
+        "status_reason": status_reason,
+        "fetched_at": fetched_at,
+        "valid_at": fixture.get("date_utc"),
+        "normalized": {
+            "venue_id": str(venue.get("venue_id") or fixture.get("venue_id") or ""),
+            "venue_name": str(venue.get("name") or fixture.get("venue_name") or ""),
+            "city": str(venue.get("city") or fixture.get("host_city") or ""),
+            "latitude": venue.get("latitude"),
+            "longitude": venue.get("longitude"),
+            "condition": "unknown",
+            "description": None,
+            "temperature_c": None,
+            "humidity_percent": None,
+            "wind_speed_mps": None,
+            "wind_degrees": None,
+            "rain_1h_mm": None,
+            "cloud_cover_percent": None,
+            "risk_flags": [],
+        },
+        "raw": None,
+    }
+
+
+def weather_window_status(fixture: dict, fetched_at: str) -> str | None:
+    kickoff = parse_datetime(str(fixture.get("date_utc") or ""))
+    fetched = parse_datetime(fetched_at)
+    if kickoff is None or fetched is None:
+        return "missing_kickoff_at"
+    if kickoff < fetched:
+        return "past_kickoff"
+    if kickoff > fetched + timedelta(days=FORECAST_HORIZON_DAYS):
+        return "outside_forecast_window"
+    return None
+
+
 def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at: str, dry_run: bool) -> dict:
     api_key = load_env_value("OPENWEATHER_API_KEY")
     rows: list[dict] = []
@@ -118,6 +170,20 @@ def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at
         longitude = venue.get("longitude")
         if latitude is None or longitude is None:
             skipped.append({"match_id": str(fixture.get("match_id") or ""), "reason": "missing_coordinates"})
+            continue
+
+        forecast_window_reason = weather_window_status(fixture, fetched_at)
+        if forecast_window_reason:
+            rows.append(
+                weather_placeholder(
+                    fixture=fixture,
+                    venue=venue,
+                    fetched_at=fetched_at,
+                    source_status="unavailable",
+                    status_reason=forecast_window_reason,
+                )
+            )
+            skipped.append({"match_id": str(fixture.get("match_id") or ""), "reason": forecast_window_reason})
             continue
 
         row: dict | None = None
@@ -139,7 +205,16 @@ def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at
                 errors.append({"match_id": str(fixture.get("match_id") or ""), "provider": "open_meteo", "error": str(exc)})
 
         if row is None:
-            skipped.append({"match_id": str(fixture.get("match_id") or ""), "reason": "not_in_forecast_window_or_empty_provider_payload"})
+            rows.append(
+                weather_placeholder(
+                    fixture=fixture,
+                    venue=venue,
+                    fetched_at=fetched_at,
+                    source_status="provider_empty",
+                    status_reason="empty_provider_payload",
+                )
+            )
+            skipped.append({"match_id": str(fixture.get("match_id") or ""), "reason": "empty_provider_payload"})
             continue
 
         rows.append(row)
@@ -160,7 +235,7 @@ def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at
         "provider_counts": provider_counts,
         "skipped": skipped,
         "errors": errors,
-        "output": str(WEATHER_MASTER_PATH) if rows else None,
+        "output": rel(WEATHER_MASTER_PATH) if rows else None,
     }
 
 
@@ -236,7 +311,7 @@ def collect_odds(*, fixtures: list[dict], teams: list[dict], fetched_at: str, dr
         "rows_collected": len(rows),
         "unmatched_events_count": len(unmatched),
         "unmatched_events": unmatched[:20],
-        "output": str(ODDS_MASTER_PATH) if rows else None,
+        "output": rel(ODDS_MASTER_PATH) if rows else None,
     }
 
 
@@ -269,7 +344,7 @@ def collect_api_football(*, fixtures: list[dict], teams: list[dict], fetched_at:
             "fixtures_considered": report.get("fixtures_considered", len(fixtures)),
             "fixture_ids_discovered": report.get("fixture_ids_discovered", 0),
             "rows_collected": len(injuries_rows),
-            "output": str(INJURIES_MASTER_PATH) if injuries_rows else None,
+            "output": rel(INJURIES_MASTER_PATH) if injuries_rows else None,
             "skipped": report.get("skipped", []),
             "errors": report.get("errors", []),
         },
@@ -284,7 +359,7 @@ def collect_api_football(*, fixtures: list[dict], teams: list[dict], fetched_at:
             "fixtures_considered": report.get("fixtures_considered", len(fixtures)),
             "fixture_ids_discovered": report.get("fixture_ids_discovered", 0),
             "rows_collected": len(lineups_rows),
-            "output": str(LINEUPS_MASTER_PATH) if lineups_rows else None,
+            "output": rel(LINEUPS_MASTER_PATH) if lineups_rows else None,
             "skipped": report.get("skipped", []),
             "errors": report.get("errors", []),
         },
@@ -308,7 +383,7 @@ def collect_prematch_news_context(*, fixtures: list[dict], teams: list[dict], fe
             "rows_collected": 0,
             "rows_existing": len(existing),
             "error": str(exc),
-            "output": str(PREMATCH_CONTEXT_MASTER_PATH),
+            "output": rel(PREMATCH_CONTEXT_MASTER_PATH),
         }
     if rows and not dry_run:
         write_json(PREMATCH_CONTEXT_MASTER_PATH, merge_by_match_id(existing, rows))
@@ -323,7 +398,7 @@ def collect_prematch_news_context(*, fixtures: list[dict], teams: list[dict], fe
         "failed_sources": provider_report.get("failed_sources", []),
         "source_freshness": provider_report.get("source_freshness", []),
         "errors": provider_report.get("errors", []),
-        "output": str(PREMATCH_CONTEXT_MASTER_PATH) if rows else None,
+        "output": rel(PREMATCH_CONTEXT_MASTER_PATH) if rows else None,
     }
 
 
@@ -333,7 +408,7 @@ def pending_dataset(name: str, path: Path, reason: str, auth_env: str | None = N
         "status": "pending_adapter",
         "rows_existing": len(load_existing_list(path)),
         "reason": reason,
-        "output": str(path),
+        "output": rel(path),
     }
     if auth_env:
         payload["auth_env"] = auth_env
@@ -345,6 +420,12 @@ def main() -> None:
     parser.add_argument("--window-hours", type=int, default=None, help="only collect fixtures within this UTC window")
     parser.add_argument("--limit", type=int, default=None, help="limit selected fixtures")
     parser.add_argument("--dry-run", action="store_true", help="collect and report without writing dataset masters")
+    parser.add_argument(
+        "--only",
+        choices=["all", "weather", "odds", "api_football", "prematch_context"],
+        default="all",
+        help="collect only one runtime dataset family",
+    )
     args = parser.parse_args()
 
     fixtures = load_json(FIXTURES_PATH)
@@ -359,13 +440,15 @@ def main() -> None:
 
     selected = selected_fixtures(fixtures, window_hours=args.window_hours, limit=args.limit)
     fetched_at = now_utc().isoformat()
-    api_football_datasets = collect_api_football(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run)
-    datasets = [
-        collect_odds(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run),
-        collect_weather(fixtures=selected, venues=venues, fetched_at=fetched_at, dry_run=args.dry_run),
-        *api_football_datasets,
-        collect_prematch_news_context(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run),
-    ]
+    datasets: list[dict] = []
+    if args.only in {"all", "odds"}:
+        datasets.append(collect_odds(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run))
+    if args.only in {"all", "weather"}:
+        datasets.append(collect_weather(fixtures=selected, venues=venues, fetched_at=fetched_at, dry_run=args.dry_run))
+    if args.only in {"all", "api_football"}:
+        datasets.extend(collect_api_football(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run))
+    if args.only in {"all", "prematch_context"}:
+        datasets.append(collect_prematch_news_context(fixtures=selected, teams=teams, fetched_at=fetched_at, dry_run=args.dry_run))
     report = {
         "generated_at": fetched_at,
         "dry_run": args.dry_run,
@@ -373,6 +456,7 @@ def main() -> None:
         "fixtures_selected": len(selected),
         "window_hours": args.window_hours,
         "limit": args.limit,
+        "only": args.only,
         "datasets": datasets,
     }
     write_json(REPORT_PATH, report)

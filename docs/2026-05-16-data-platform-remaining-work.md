@@ -221,6 +221,7 @@ Acceptance criteria:
 - Weather rows include provider timestamp and fixture timestamp.
 - Missing API key or provider errors are visible in runtime collection report.
 - Weather rows must expose model-facing risk tags and minimum fields defined in `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`.
+- Fixtures outside the provider forecast window are published as explicit placeholders with `source_status=unavailable` and `status_reason=outside_forecast_window`; this prevents the predictor from treating missing future weather as zero wind or clear weather.
 
 ### 5. World Cup Data Coverage Table
 

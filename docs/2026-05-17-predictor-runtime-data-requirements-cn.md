@@ -250,6 +250,7 @@ OU 快照：
 - 至少需要 `temperature_c`、`wind_speed_mps`、`condition`。
 - 所有场馆必须在 `configs/venues/world_cup_2026.json` 有经纬度。
 - 目前 Open-Meteo fallback 已存在；真实天气行只有进入天气预报窗口后才会出现。
+- 当比赛超出天气预报窗口时，平台必须发布占位天气行：`source_status=unavailable`、`status_reason=outside_forecast_window`，并在 `runtime-summary.json.data_coverage.weather` 标记为 `unavailable`。这表示“暂时不可采集”，不是采集失败，也不能当成缺省晴天或 0 风速。
 
 ## P1 数据
 

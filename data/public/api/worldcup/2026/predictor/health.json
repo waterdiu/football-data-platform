@@ -36,6 +36,7 @@
     "person_style_profiles": 0,
     "predictions": 104,
     "prematch_context": 104,
+    "runtime_summary": 104,
     "shared_fixtures_enriched_with_kickoff_at": 104,
     "feature_inputs_enriched_with_kickoff_at": 208,
     "predictions_source_enriched_with_kickoff_at": 104,
