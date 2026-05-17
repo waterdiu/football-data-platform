@@ -188,6 +188,11 @@
     - `data/model/weather.json`
   - 并生成：`reports/world_cup_model_dataset_report.json`
   - 当前定位：主发布流水线默认入口，用平台 own 的 model master 文件生成运行时模型数据
+- `build_world_cup_injury_evidence.py`
+  - 输入：`data/normalized/world_cup_2026_model_injuries_master.json` 和 `data/normalized/world_cup_2026_model_prematch_context_master.json`
+  - 输出：回写 `data/normalized/world_cup_2026_model_injuries_master.json` 的 `absence_evidence_summary`
+  - 并生成：`reports/world_cup_injury_evidence_report.json`
+  - 当前定位：从公开新闻页赛前上下文中提取伤停/停赛证据。该脚本只写 evidence，不把新闻推断当作官方伤停结论；没有命中时标记 `no_news_absence_evidence`
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
   - 先发布平台 own 的 `worldcup/2026` 兼容数据镜像

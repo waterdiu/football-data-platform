@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-05-17T14:03:56.122150+00:00",
+  "injuries_rows": 104,
+  "prematch_context_rows": 104,
+  "matches_with_absence_evidence": 0,
+  "absence_evidence_count": 0,
+  "output": "data/normalized/world_cup_2026_model_injuries_master.json"
+}

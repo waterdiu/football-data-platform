@@ -23,7 +23,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537328",
@@ -49,7 +59,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537329",
@@ -75,7 +95,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537330",
@@ -101,7 +131,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537331",
@@ -127,7 +167,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537332",
@@ -153,7 +203,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537333",
@@ -179,7 +239,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537334",
@@ -205,7 +275,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537335",
@@ -231,7 +311,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537336",
@@ -257,7 +347,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537337",
@@ -283,7 +383,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537338",
@@ -309,7 +419,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537339",
@@ -335,7 +455,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537340",
@@ -361,7 +491,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537341",
@@ -387,7 +527,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537342",
@@ -413,7 +563,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537343",
@@ -439,7 +599,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537344",
@@ -465,7 +635,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537345",
@@ -491,7 +671,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537346",
@@ -517,7 +707,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537347",
@@ -543,7 +743,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537348",
@@ -569,7 +779,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537349",
@@ -595,7 +815,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537350",
@@ -621,7 +851,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537351",
@@ -647,7 +887,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537352",
@@ -673,7 +923,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537353",
@@ -699,7 +959,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537354",
@@ -725,7 +995,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537355",
@@ -751,7 +1031,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537356",
@@ -777,7 +1067,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537357",
@@ -803,7 +1103,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537358",
@@ -829,7 +1139,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537359",
@@ -855,7 +1175,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537360",
@@ -881,7 +1211,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537361",
@@ -907,7 +1247,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537362",
@@ -933,7 +1283,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537363",
@@ -959,7 +1319,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537364",
@@ -985,7 +1355,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537365",
@@ -1011,7 +1391,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537366",
@@ -1037,7 +1427,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537367",
@@ -1063,7 +1463,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537368",
@@ -1089,7 +1499,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537369",
@@ -1115,7 +1535,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537370",
@@ -1141,7 +1571,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537371",
@@ -1167,7 +1607,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537372",
@@ -1193,7 +1643,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537373",
@@ -1219,7 +1679,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537374",
@@ -1245,7 +1715,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537375",
@@ -1271,7 +1751,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537376",
@@ -1297,7 +1787,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537377",
@@ -1323,7 +1823,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537378",
@@ -1349,7 +1859,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537379",
@@ -1375,7 +1895,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537380",
@@ -1401,7 +1931,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537381",
@@ -1427,7 +1967,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537382",
@@ -1453,7 +2003,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537383",
@@ -1479,7 +2039,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537384",
@@ -1505,7 +2075,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537385",
@@ -1531,7 +2111,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537386",
@@ -1557,7 +2147,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537387",
@@ -1583,7 +2183,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537388",
@@ -1609,7 +2219,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537389",
@@ -1635,7 +2255,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537390",
@@ -1661,7 +2291,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537391",
@@ -1687,7 +2327,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537392",
@@ -1713,7 +2363,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537393",
@@ -1739,7 +2399,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537394",
@@ -1765,7 +2435,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537395",
@@ -1791,7 +2471,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537396",
@@ -1817,7 +2507,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537397",
@@ -1843,7 +2543,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537398",
@@ -1869,7 +2579,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537399",
@@ -1895,7 +2615,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537400",
@@ -1921,7 +2651,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537401",
@@ -1947,7 +2687,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537402",
@@ -1973,7 +2723,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537403",
@@ -1999,7 +2759,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537404",
@@ -2025,7 +2795,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537405",
@@ -2051,7 +2831,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537406",
@@ -2077,7 +2867,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537407",
@@ -2103,7 +2903,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537408",
@@ -2129,7 +2939,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537409",
@@ -2155,7 +2975,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537410",
@@ -2181,7 +3011,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537411",
@@ -2207,7 +3047,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537412",
@@ -2233,7 +3083,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537413",
@@ -2259,7 +3119,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537414",
@@ -2285,7 +3155,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537415",
@@ -2311,7 +3191,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537416",
@@ -2337,7 +3227,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537417",
@@ -2363,7 +3263,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537418",
@@ -2389,7 +3299,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537419",
@@ -2415,7 +3335,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537420",
@@ -2441,7 +3371,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537421",
@@ -2467,7 +3407,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537422",
@@ -2493,7 +3443,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537423",
@@ -2519,7 +3479,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537424",
@@ -2545,7 +3515,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537425",
@@ -2571,7 +3551,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537426",
@@ -2597,7 +3587,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537427",
@@ -2623,7 +3623,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537428",
@@ -2649,7 +3659,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537429",
@@ -2675,7 +3695,17 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   },
   {
     "match_id": "fifa_world_cup:2026:fdorg:537430",
@@ -2701,6 +3731,16 @@
       "api_football_status": "plan_restricted",
       "api_football_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
     },
-    "raw": null
+    "raw": null,
+    "absence_evidence_summary": {
+      "status": "no_news_absence_evidence",
+      "source": "platform_prematch_news",
+      "generated_at": "2026-05-17T14:03:56.122150+00:00",
+      "evidence_count": 0,
+      "sources": [],
+      "source_urls": [],
+      "evidence": [],
+      "note": "News evidence is not a final injury list. It is used for model/report downgrades until official injury, suspension, or lineup sources are available."
+    }
   }
 ]

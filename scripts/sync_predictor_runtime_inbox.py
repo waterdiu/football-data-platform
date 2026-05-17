@@ -109,6 +109,7 @@ def main() -> None:
         print("[platform] collect_world_cup_runtime_data.py")
         run_command(command, cwd=ROOT)
     for script_name in [
+        "build_world_cup_injury_evidence.py",
         "build_world_cup_model_runtime_datasets.py",
         "build_world_cup_coverage.py",
         "publish_worldcup_2026_api.py",

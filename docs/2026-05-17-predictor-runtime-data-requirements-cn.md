@@ -204,6 +204,12 @@ OU 快照：
 - `impact_score` 可以先为空，但必须保留字段。
 - 新闻源只能作为 evidence，不能直接覆盖官方状态，除非有明确来源时间和链接。
 
+平台实现要求：
+
+- `injuries.json.absence_evidence_summary` 可由公开新闻页赛前上下文生成。
+- 该 evidence 只能用于报告提示、置信度降权和人工复核，不能直接等同于官方 `injured/suspended/available` 状态。
+- 没有新闻证据时必须标记 `no_news_absence_evidence`，不能解释为“没有伤停”。
+
 优先数据源：
 
 - 英超：FPL、Premier League official、Premier Injuries、Transfermarkt。
