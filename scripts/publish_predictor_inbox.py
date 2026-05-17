@@ -106,6 +106,7 @@ def enrich_world_cup_predictions_source(payload: object) -> object:
         "venue_id",
         "venue_name",
         "host_city",
+        "host_city_id",
         "stage",
         "round",
         "group",

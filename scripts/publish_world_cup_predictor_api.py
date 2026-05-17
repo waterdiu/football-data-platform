@@ -53,7 +53,7 @@ def team_name_by_id(teams: object) -> dict[str, str]:
 
 
 VENUE_COUNTRY_BY_ID = {
-    "bc-place": "canada",
+    "bc-place-vancouver": "canada",
     "bmo-field": "canada",
     "estadio-akron": "mexico",
     "estadio-azteca": "mexico",
@@ -119,7 +119,7 @@ def enrich_fixture_row(row: dict, *, by_match_id: dict[str, dict], by_key: dict[
     if kickoff_at:
         row.setdefault("kickoff_at", kickoff_at)
         row.setdefault("date_utc", kickoff_at)
-    for field in ("venue_id", "venue_name", "host_city", "stage", "round", "group"):
+    for field in ("venue_id", "venue_name", "host_city", "host_city_id", "stage", "round", "group"):
         if standard.get(field) is not None:
             row.setdefault(field, standard[field])
     row.setdefault("venue_type", venue_type_for_fixture(standard))

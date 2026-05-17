@@ -24,6 +24,9 @@
     "home_team_id": { "type": "string" },
     "away_team_id": { "type": "string" },
     "venue_id": { "type": "string" },
+    "venue_name": { "type": "string" },
+    "host_city": { "type": "string" },
+    "host_city_id": { "type": "string" },
     "source_refs": { "type": "object" },
     "updated_at": { "type": "string" }
   }

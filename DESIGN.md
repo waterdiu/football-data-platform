@@ -709,7 +709,8 @@ predictor 兼容数据当前边界：
 - `scripts/import_world_cup_predictor_local_data.py` 当前是 predictor 已下载世界杯数据的手动迁移入口
 - `scripts/publish_world_cup_predictor_api.py` 负责发布 predictor 专用 compatibility API
 - `scripts/build_world_cup_predictor_runtime_health.py` 负责发布 predictor 对接层的健康快照
-- predictor 兼容层必须从平台标准 `data/public/fixtures.json` 回填 `kickoff_at`、`date_utc`、`venue_id`、`venue_name`、`host_city`、`stage`、`round`、`group`、`venue_type`
+- predictor 兼容层必须从平台标准 `data/public/fixtures.json` 回填 `kickoff_at`、`date_utc`、`venue_id`、`venue_name`、`host_city`、`host_city_id`、`stage`、`round`、`group`、`venue_type`
+- 场馆和城市长期字段必须稳定：Vancouver 的 BC Place 使用 `venue_id=bc-place-vancouver`、`host_city_id=vancouver`；展示字段可继续使用 `venue_name=BC Place 温哥华球场` 或站点兼容 `venue` 文案
 - `kickoff_at` 和 `date_utc` 必须使用 UTC ISO 8601；消费方只能在展示层做本地时区转换
 - `venue_type` 当前允许值为 `neutral`、`host_home`；世界杯普通场次为 `neutral`，东道主在本国球场比赛为 `host_home`
 - `shared-fixtures.json`、`feature-inputs.json`、`predictions-source.json` 以及 `bundle.json` 中对应 fixture 列表发布前必须满足 `missing_kickoff_at=0`

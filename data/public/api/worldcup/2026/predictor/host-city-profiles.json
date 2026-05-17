@@ -520,7 +520,7 @@
     "transport_summary_en": "The city is served by Vancouver International Airport and the SkyTrain network.",
     "local_feature_zh": "以山海景观、户外生活、多元社区和太平洋港口气质闻名。",
     "local_feature_en": "Known for mountain-and-ocean scenery, outdoor life, diverse communities, and Pacific port character.",
-    "primary_venue_id": "bc-place",
+    "primary_venue_id": "bc-place-vancouver",
     "source_status": "official_fifa_manual_patch",
     "source_urls": [
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/vancouver"

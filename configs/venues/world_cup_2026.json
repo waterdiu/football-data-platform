@@ -13,8 +13,8 @@
     "latitude": 32.7473,
     "longitude": -97.0945
   },
-  "bc-place": {
-    "venue_id": "bc-place",
+  "bc-place-vancouver": {
+    "venue_id": "bc-place-vancouver",
     "name": "BC Place",
     "city": "Vancouver",
     "latitude": 49.2768,

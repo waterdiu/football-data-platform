@@ -147,6 +147,28 @@ MATCH_STAGE_MAP = {
     range(103, 104): ("third_place", "Third Place Playoff"),
     range(104, 105): ("final", "Final"),
 }
+VENUE_ID_BY_VENUE_NAME = {
+    "BC Place 温哥华球场": "bc-place-vancouver",
+    "BC Place Vancouver": "bc-place-vancouver",
+}
+HOST_CITY_ID_BY_CITY_NAME = {
+    "亚特兰大": "atlanta",
+    "波士顿": "boston",
+    "达拉斯": "dallas",
+    "瓜达拉哈拉": "guadalajara",
+    "休斯敦": "houston",
+    "堪萨斯城": "kansas-city",
+    "洛杉矶": "los-angeles",
+    "墨西哥城": "mexico-city",
+    "迈阿密": "miami",
+    "蒙特雷": "monterrey",
+    "纽约/新泽西": "new-york-new-jersey",
+    "费城": "philadelphia",
+    "旧金山湾区": "san-francisco-bay-area",
+    "西雅图": "seattle",
+    "多伦多": "toronto",
+    "温哥华": "vancouver",
+}
 
 
 def slugify(value: str) -> str:
@@ -158,6 +180,11 @@ def slugify(value: str) -> str:
     lowered = re.sub(r"[^a-z0-9]+", "-", lowered)
     lowered = re.sub(r"-{2,}", "-", lowered).strip("-")
     return lowered
+
+
+def normalize_venue_id(venue_name: str) -> str:
+    venue_name = str(venue_name or "").strip()
+    return VENUE_ID_BY_VENUE_NAME.get(venue_name) or slugify(venue_name)
 
 
 def parse_team_translations() -> dict[str, dict[str, object]]:
@@ -319,9 +346,10 @@ def build_fixture(row: dict[str, str], translations: dict[str, dict[str, object]
         "status": "scheduled",
         "home_team_id": home_team["team_id"],
         "away_team_id": away_team["team_id"],
-        "venue_id": slugify(row["比赛场馆"]),
+        "venue_id": normalize_venue_id(row["比赛场馆"]),
         "venue_name": row["比赛场馆"],
         "host_city": row["比赛城市"],
+        "host_city_id": HOST_CITY_ID_BY_CITY_NAME.get(row["比赛城市"]) or slugify(row["比赛城市"]),
         "match_theme": row["比赛主题"],
         "source_refs": {
             "worldcup_2026_schedule_csv": row["序号"],

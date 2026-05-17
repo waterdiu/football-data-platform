@@ -27,6 +27,28 @@ SOURCE_STAGE_MAP = {
     "Match for Third Place": ("third_place", "Match for Third Place"),
     "Final": ("final", "Final"),
 }
+VENUE_ID_BY_VENUE_NAME = {
+    "BC Place 温哥华球场": "bc-place-vancouver",
+    "BC Place Vancouver": "bc-place-vancouver",
+}
+HOST_CITY_ID_BY_CITY_NAME = {
+    "亚特兰大": "atlanta",
+    "波士顿": "boston",
+    "达拉斯": "dallas",
+    "瓜达拉哈拉": "guadalajara",
+    "休斯敦": "houston",
+    "堪萨斯城": "kansas-city",
+    "洛杉矶": "los-angeles",
+    "墨西哥城": "mexico-city",
+    "迈阿密": "miami",
+    "蒙特雷": "monterrey",
+    "纽约/新泽西": "new-york-new-jersey",
+    "费城": "philadelphia",
+    "旧金山湾区": "san-francisco-bay-area",
+    "西雅图": "seattle",
+    "多伦多": "toronto",
+    "温哥华": "vancouver",
+}
 
 
 def load_json(path: Path) -> object:
@@ -119,6 +141,15 @@ def resolve_team_id(label: str, lookup: dict[str, str]) -> str:
     raise KeyError(f"Unknown team label in local full schedule: {label}")
 
 
+def normalize_venue_id(venue_name: str, existing: dict[str, object] | None) -> str:
+    venue_name = str(venue_name or "").strip()
+    if venue_name in VENUE_ID_BY_VENUE_NAME:
+        return VENUE_ID_BY_VENUE_NAME[venue_name]
+    if existing and str(existing.get("venue_name") or "").strip() in VENUE_ID_BY_VENUE_NAME:
+        return VENUE_ID_BY_VENUE_NAME[str(existing.get("venue_name") or "").strip()]
+    return str((existing or {}).get("venue_id") or slugify(venue_name))
+
+
 def build_fixtures() -> list[dict[str, object]]:
     local_full_schedule = load_json(LOCAL_FULL_SCHEDULE_PATH)
     teams = load_json(TEAMS_PATH)
@@ -146,6 +177,8 @@ def build_fixtures() -> list[dict[str, object]]:
         source_refs = dict(existing.get("source_refs") or {})
         source_refs["worldcup_2026_schedule_csv"] = local_id
 
+        host_city = str(match.get("city") or existing.get("host_city") or "").strip()
+        venue_name = str(match.get("venue") or existing.get("venue_name") or "").strip()
         fixture = {
             "match_id": existing.get("match_id") or f"fifa_world_cup:2026:site:{local_id}",
             "competition_id": "fifa_world_cup",
@@ -156,9 +189,10 @@ def build_fixtures() -> list[dict[str, object]]:
             "status": str(match.get("predictionStatus") or "scheduled").strip().casefold() or "scheduled",
             "home_team_id": resolve_team_id(str(match.get("homeTeam") or ""), team_lookup),
             "away_team_id": resolve_team_id(str(match.get("awayTeam") or ""), team_lookup),
-            "venue_id": str(existing.get("venue_id") or slugify(str(match.get("venue") or ""))),
-            "venue_name": str(match.get("venue") or existing.get("venue_name") or "").strip(),
-            "host_city": str(match.get("city") or existing.get("host_city") or "").strip(),
+            "venue_id": normalize_venue_id(venue_name, existing),
+            "venue_name": venue_name,
+            "host_city": host_city,
+            "host_city_id": HOST_CITY_ID_BY_CITY_NAME.get(host_city) or slugify(host_city),
             "match_theme": str(match.get("title") or existing.get("match_theme") or "").strip(),
             "source_refs": source_refs,
             "updated_at": UPDATED_AT,

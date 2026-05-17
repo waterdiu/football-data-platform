@@ -3871,6 +3871,7 @@
         "venue_id": "estadio-azteca",
         "venue_name": "墨西哥城球场（Estadio Azteca）",
         "host_city": "墨西哥城",
+        "host_city_id": "mexico-city",
         "match_theme": "第1场·墨西哥城开幕之战：东道主号角迎战彩虹勇士",
         "source_refs": {
           "worldcup_2026_schedule_csv": "1",
@@ -3892,6 +3893,7 @@
         "venue_id": "estadio-akron",
         "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
         "host_city": "瓜达拉哈拉",
+        "host_city_id": "guadalajara",
         "match_theme": "第2场·瓜达拉哈拉夜战：太极虎对阵波西米亚雄狮",
         "source_refs": {
           "worldcup_2026_schedule_csv": "2",
@@ -3913,6 +3915,7 @@
         "venue_id": "mercedes-benz-stadium",
         "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
         "host_city": "亚特兰大",
+        "host_city_id": "atlanta",
         "match_theme": "第3场·亚特兰大午间战：波西米亚雄狮对阵彩虹勇士",
         "source_refs": {
           "worldcup_2026_schedule_csv": "3",
@@ -3934,6 +3937,7 @@
         "venue_id": "estadio-akron",
         "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
         "host_city": "瓜达拉哈拉",
+        "host_city_id": "guadalajara",
         "match_theme": "第4场·瓜达拉哈拉黄昏战：绿白红号角对阵太极虎",
         "source_refs": {
           "worldcup_2026_schedule_csv": "4",
@@ -3955,6 +3959,7 @@
         "venue_id": "estadio-azteca",
         "venue_name": "墨西哥城球场（Estadio Azteca）",
         "host_city": "墨西哥城",
+        "host_city_id": "mexico-city",
         "match_theme": "第5场·墨西哥城黄昏战：波西米亚雄狮对阵绿白红号角",
         "source_refs": {
           "worldcup_2026_schedule_csv": "5",
@@ -3976,6 +3981,7 @@
         "venue_id": "estadio-bbva",
         "venue_name": "蒙特雷球场（Estadio BBVA）",
         "host_city": "蒙特雷",
+        "host_city_id": "monterrey",
         "match_theme": "第6场·蒙特雷黄昏战：彩虹勇士对阵太极虎",
         "source_refs": {
           "worldcup_2026_schedule_csv": "6",
@@ -3997,6 +4003,7 @@
         "venue_id": "bmo-field",
         "venue_name": "多伦多球场（BMO Field）",
         "host_city": "多伦多",
+        "host_city_id": "toronto",
         "match_theme": "第7场·多伦多午后战：枫叶军团对阵巴尔干龙",
         "source_refs": {
           "worldcup_2026_schedule_csv": "7",
@@ -4018,6 +4025,7 @@
         "venue_id": "levis-stadium",
         "venue_name": "旧金山湾区球场（Levi's Stadium）",
         "host_city": "旧金山湾区",
+        "host_city_id": "san-francisco-bay-area",
         "match_theme": "第8场·旧金山湾区午间战：海湾红潮对阵阿尔卑斯十字",
         "source_refs": {
           "worldcup_2026_schedule_csv": "8",
@@ -4039,6 +4047,7 @@
         "venue_id": "sofi-stadium",
         "venue_name": "洛杉矶球场（SoFi Stadium）",
         "host_city": "洛杉矶",
+        "host_city_id": "los-angeles",
         "match_theme": "第9场·洛杉矶午间战：阿尔卑斯十字对阵巴尔干龙",
         "source_refs": {
           "worldcup_2026_schedule_csv": "9",
@@ -4057,9 +4066,10 @@
         "status": "scheduled",
         "home_team_id": "canada",
         "away_team_id": "qatar",
-        "venue_id": "bc-place",
+        "venue_id": "bc-place-vancouver",
         "venue_name": "BC Place 温哥华球场",
         "host_city": "温哥华",
+        "host_city_id": "vancouver",
         "match_theme": "第10场·温哥华午后战：枫叶军团对阵海湾红潮",
         "source_refs": {
           "worldcup_2026_schedule_csv": "10",
@@ -4078,9 +4088,10 @@
         "status": "scheduled",
         "home_team_id": "switzerland",
         "away_team_id": "canada",
-        "venue_id": "bc-place",
+        "venue_id": "bc-place-vancouver",
         "venue_name": "BC Place 温哥华球场",
         "host_city": "温哥华",
+        "host_city_id": "vancouver",
         "match_theme": "第11场·温哥华午间战：阿尔卑斯十字对阵枫叶军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "11",
@@ -4102,6 +4113,7 @@
         "venue_id": "lumen-field",
         "venue_name": "西雅图球场（Lumen Field）",
         "host_city": "西雅图",
+        "host_city_id": "seattle",
         "match_theme": "第12场·西雅图午间战：巴尔干龙对阵海湾红潮",
         "source_refs": {
           "worldcup_2026_schedule_csv": "12",
@@ -4123,6 +4135,7 @@
         "venue_id": "metlife-stadium",
         "venue_name": "纽约新泽西球场（MetLife Stadium）",
         "host_city": "纽约/新泽西",
+        "host_city_id": "new-york-new-jersey",
         "match_theme": "第13场·纽约新泽西黄昏战：桑巴遇见阿特拉斯雄狮",
         "source_refs": {
           "worldcup_2026_schedule_csv": "13",
@@ -4144,6 +4157,7 @@
         "venue_id": "gillette-stadium",
         "venue_name": "波士顿球场（Gillette Stadium）",
         "host_city": "波士顿",
+        "host_city_id": "boston",
         "match_theme": "第14场·波士顿夜战：加勒比蓝红风暴对阵高地军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "14",
@@ -4165,6 +4179,7 @@
         "venue_id": "gillette-stadium",
         "venue_name": "波士顿球场（Gillette Stadium）",
         "host_city": "波士顿",
+        "host_city_id": "boston",
         "match_theme": "第15场·波士顿黄昏战：高地军团对阵阿特拉斯雄狮",
         "source_refs": {
           "worldcup_2026_schedule_csv": "15",
@@ -4186,6 +4201,7 @@
         "venue_id": "lincoln-financial-field",
         "venue_name": "费城球场（Lincoln Financial Field）",
         "host_city": "费城",
+        "host_city_id": "philadelphia",
         "match_theme": "第16场·费城夜战：桑巴军团对阵加勒比蓝红风暴",
         "source_refs": {
           "worldcup_2026_schedule_csv": "16",
@@ -4207,6 +4223,7 @@
         "venue_id": "hard-rock-stadium",
         "venue_name": "迈阿密球场（Hard Rock Stadium）",
         "host_city": "迈阿密",
+        "host_city_id": "miami",
         "match_theme": "第17场·迈阿密黄昏战：高地军团对阵桑巴军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "17",
@@ -4228,6 +4245,7 @@
         "venue_id": "mercedes-benz-stadium",
         "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
         "host_city": "亚特兰大",
+        "host_city_id": "atlanta",
         "match_theme": "第18场·亚特兰大黄昏战：阿特拉斯雄狮对阵加勒比蓝红风暴",
         "source_refs": {
           "worldcup_2026_schedule_csv": "18",
@@ -4249,6 +4267,7 @@
         "venue_id": "sofi-stadium",
         "venue_name": "洛杉矶球场（SoFi Stadium）",
         "host_city": "洛杉矶",
+        "host_city_id": "los-angeles",
         "match_theme": "第19场·洛杉矶黄昏战：星条旗军团对阵南美红白军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "19",
@@ -4267,9 +4286,10 @@
         "status": "scheduled",
         "home_team_id": "australia",
         "away_team_id": "turkiye",
-        "venue_id": "bc-place",
+        "venue_id": "bc-place-vancouver",
         "venue_name": "BC Place 温哥华球场",
         "host_city": "温哥华",
+        "host_city_id": "vancouver",
         "match_theme": "第20场·温哥华夜战：袋鼠军团对阵星月军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "20",
@@ -4291,6 +4311,7 @@
         "venue_id": "lumen-field",
         "venue_name": "西雅图球场（Lumen Field）",
         "host_city": "西雅图",
+        "host_city_id": "seattle",
         "match_theme": "第21场·西雅图午间战：星条旗军团对阵袋鼠军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "21",
@@ -4312,6 +4333,7 @@
         "venue_id": "levis-stadium",
         "venue_name": "旧金山湾区球场（Levi's Stadium）",
         "host_city": "旧金山湾区",
+        "host_city_id": "san-francisco-bay-area",
         "match_theme": "第22场·旧金山湾区夜战：星月军团对阵南美红白军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "22",
@@ -4333,6 +4355,7 @@
         "venue_id": "sofi-stadium",
         "venue_name": "洛杉矶球场（SoFi Stadium）",
         "host_city": "洛杉矶",
+        "host_city_id": "los-angeles",
         "match_theme": "第23场·洛杉矶黄昏战：星月军团对阵星条旗军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "23",
@@ -4354,6 +4377,7 @@
         "venue_id": "levis-stadium",
         "venue_name": "旧金山湾区球场（Levi's Stadium）",
         "host_city": "旧金山湾区",
+        "host_city_id": "san-francisco-bay-area",
         "match_theme": "第24场·旧金山湾区黄昏战：南美红白军团对阵袋鼠军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "24",
@@ -4375,6 +4399,7 @@
         "venue_id": "nrg-stadium",
         "venue_name": "休斯敦球场（NRG Stadium）",
         "host_city": "休斯敦",
+        "host_city_id": "houston",
         "match_theme": "第25场·休斯敦午间战：日耳曼战车对阵加勒比蓝浪",
         "source_refs": {
           "worldcup_2026_schedule_csv": "25",
@@ -4396,6 +4421,7 @@
         "venue_id": "lincoln-financial-field",
         "venue_name": "费城球场（Lincoln Financial Field）",
         "host_city": "费城",
+        "host_city_id": "philadelphia",
         "match_theme": "第26场·费城黄昏战：非洲大象对阵安第斯三色",
         "source_refs": {
           "worldcup_2026_schedule_csv": "26",
@@ -4417,6 +4443,7 @@
         "venue_id": "bmo-field",
         "venue_name": "多伦多球场（BMO Field）",
         "host_city": "多伦多",
+        "host_city_id": "toronto",
         "match_theme": "第27场·多伦多午后战：日耳曼战车对阵非洲大象",
         "source_refs": {
           "worldcup_2026_schedule_csv": "27",
@@ -4438,6 +4465,7 @@
         "venue_id": "arrowhead-stadium",
         "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
         "host_city": "堪萨斯城",
+        "host_city_id": "kansas-city",
         "match_theme": "第28场·堪萨斯城黄昏战：安第斯三色对阵加勒比蓝浪",
         "source_refs": {
           "worldcup_2026_schedule_csv": "28",
@@ -4459,6 +4487,7 @@
         "venue_id": "lincoln-financial-field",
         "venue_name": "费城球场（Lincoln Financial Field）",
         "host_city": "费城",
+        "host_city_id": "philadelphia",
         "match_theme": "第29场·费城午后战：加勒比蓝浪对阵非洲大象",
         "source_refs": {
           "worldcup_2026_schedule_csv": "29",
@@ -4480,6 +4509,7 @@
         "venue_id": "metlife-stadium",
         "venue_name": "纽约新泽西球场（MetLife Stadium）",
         "host_city": "纽约/新泽西",
+        "host_city_id": "new-york-new-jersey",
         "match_theme": "第30场·纽约/新泽西午后战：安第斯三色对阵日耳曼战车",
         "source_refs": {
           "worldcup_2026_schedule_csv": "30",
@@ -4501,6 +4531,7 @@
         "venue_id": "at-and-t-stadium",
         "venue_name": "达拉斯球场（AT&T Stadium）",
         "host_city": "达拉斯",
+        "host_city_id": "dallas",
         "match_theme": "第31场·达拉斯午后战：橙衣军团对阵蓝武士",
         "source_refs": {
           "worldcup_2026_schedule_csv": "31",
@@ -4522,6 +4553,7 @@
         "venue_id": "estadio-bbva",
         "venue_name": "蒙特雷球场（Estadio BBVA）",
         "host_city": "蒙特雷",
+        "host_city_id": "monterrey",
         "match_theme": "第32场·蒙特雷夜战：北欧蓝黄对阵迦太基雄鹰",
         "source_refs": {
           "worldcup_2026_schedule_csv": "32",
@@ -4543,6 +4575,7 @@
         "venue_id": "nrg-stadium",
         "venue_name": "休斯敦球场（NRG Stadium）",
         "host_city": "休斯敦",
+        "host_city_id": "houston",
         "match_theme": "第33场·休斯敦午间战：橙衣军团对阵北欧蓝黄",
         "source_refs": {
           "worldcup_2026_schedule_csv": "33",
@@ -4564,6 +4597,7 @@
         "venue_id": "estadio-bbva",
         "venue_name": "蒙特雷球场（Estadio BBVA）",
         "host_city": "蒙特雷",
+        "host_city_id": "monterrey",
         "match_theme": "第34场·蒙特雷夜战：迦太基雄鹰对阵蓝武士",
         "source_refs": {
           "worldcup_2026_schedule_csv": "34",
@@ -4585,6 +4619,7 @@
         "venue_id": "at-and-t-stadium",
         "venue_name": "达拉斯球场（AT&T Stadium）",
         "host_city": "达拉斯",
+        "host_city_id": "dallas",
         "match_theme": "第35场·达拉斯黄昏战：蓝武士对阵北欧蓝黄",
         "source_refs": {
           "worldcup_2026_schedule_csv": "35",
@@ -4606,6 +4641,7 @@
         "venue_id": "arrowhead-stadium",
         "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
         "host_city": "堪萨斯城",
+        "host_city_id": "kansas-city",
         "match_theme": "第36场·堪萨斯城黄昏战：迦太基雄鹰对阵橙衣军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "36",
@@ -4627,6 +4663,7 @@
         "venue_id": "lumen-field",
         "venue_name": "西雅图球场（Lumen Field）",
         "host_city": "西雅图",
+        "host_city_id": "seattle",
         "match_theme": "第37场·西雅图午间战：欧洲红魔对阵法老之鹰",
         "source_refs": {
           "worldcup_2026_schedule_csv": "37",
@@ -4648,6 +4685,7 @@
         "venue_id": "sofi-stadium",
         "venue_name": "洛杉矶球场（SoFi Stadium）",
         "host_city": "洛杉矶",
+        "host_city_id": "los-angeles",
         "match_theme": "第38场·洛杉矶黄昏战：波斯勇士对阵全白军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "38",
@@ -4669,6 +4707,7 @@
         "venue_id": "sofi-stadium",
         "venue_name": "洛杉矶球场（SoFi Stadium）",
         "host_city": "洛杉矶",
+        "host_city_id": "los-angeles",
         "match_theme": "第39场·洛杉矶午间战：欧洲红魔对阵波斯勇士",
         "source_refs": {
           "worldcup_2026_schedule_csv": "39",
@@ -4687,9 +4726,10 @@
         "status": "scheduled",
         "home_team_id": "new-zealand",
         "away_team_id": "egypt",
-        "venue_id": "bc-place",
+        "venue_id": "bc-place-vancouver",
         "venue_name": "BC Place 温哥华球场",
         "host_city": "温哥华",
+        "host_city_id": "vancouver",
         "match_theme": "第40场·温哥华黄昏战：全白军团对阵法老之鹰",
         "source_refs": {
           "worldcup_2026_schedule_csv": "40",
@@ -4711,6 +4751,7 @@
         "venue_id": "lumen-field",
         "venue_name": "西雅图球场（Lumen Field）",
         "host_city": "西雅图",
+        "host_city_id": "seattle",
         "match_theme": "第41场·西雅图夜战：法老之鹰对阵波斯勇士",
         "source_refs": {
           "worldcup_2026_schedule_csv": "41",
@@ -4729,9 +4770,10 @@
         "status": "scheduled",
         "home_team_id": "new-zealand",
         "away_team_id": "belgium",
-        "venue_id": "bc-place",
+        "venue_id": "bc-place-vancouver",
         "venue_name": "BC Place 温哥华球场",
         "host_city": "温哥华",
+        "host_city_id": "vancouver",
         "match_theme": "第42场·温哥华夜战：全白军团对阵欧洲红魔",
         "source_refs": {
           "worldcup_2026_schedule_csv": "42",
@@ -4753,6 +4795,7 @@
         "venue_id": "mercedes-benz-stadium",
         "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
         "host_city": "亚特兰大",
+        "host_city_id": "atlanta",
         "match_theme": "第43场·亚特兰大午间战：斗牛士军团对阵大西洋蓝鲨",
         "source_refs": {
           "worldcup_2026_schedule_csv": "43",
@@ -4774,6 +4817,7 @@
         "venue_id": "hard-rock-stadium",
         "venue_name": "迈阿密球场（Hard Rock Stadium）",
         "host_city": "迈阿密",
+        "host_city_id": "miami",
         "match_theme": "第44场·迈阿密黄昏战：沙漠绿鹰对阵天蓝军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "44",
@@ -4795,6 +4839,7 @@
         "venue_id": "mercedes-benz-stadium",
         "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
         "host_city": "亚特兰大",
+        "host_city_id": "atlanta",
         "match_theme": "第45场·亚特兰大午间战：斗牛士军团对阵沙漠绿鹰",
         "source_refs": {
           "worldcup_2026_schedule_csv": "45",
@@ -4816,6 +4861,7 @@
         "venue_id": "hard-rock-stadium",
         "venue_name": "迈阿密球场（Hard Rock Stadium）",
         "host_city": "迈阿密",
+        "host_city_id": "miami",
         "match_theme": "第46场·迈阿密黄昏战：天蓝军团对阵大西洋蓝鲨",
         "source_refs": {
           "worldcup_2026_schedule_csv": "46",
@@ -4837,6 +4883,7 @@
         "venue_id": "nrg-stadium",
         "venue_name": "休斯敦球场（NRG Stadium）",
         "host_city": "休斯敦",
+        "host_city_id": "houston",
         "match_theme": "第47场·休斯敦黄昏战：大西洋蓝鲨对阵沙漠绿鹰",
         "source_refs": {
           "worldcup_2026_schedule_csv": "47",
@@ -4858,6 +4905,7 @@
         "venue_id": "estadio-akron",
         "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
         "host_city": "瓜达拉哈拉",
+        "host_city_id": "guadalajara",
         "match_theme": "第48场·瓜达拉哈拉黄昏战：天蓝军团对阵斗牛士军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "48",
@@ -4879,6 +4927,7 @@
         "venue_id": "metlife-stadium",
         "venue_name": "纽约新泽西球场（MetLife Stadium）",
         "host_city": "纽约/新泽西",
+        "host_city_id": "new-york-new-jersey",
         "match_theme": "第49场·纽约/新泽西午后战：高卢雄鸡对阵特兰加雄狮",
         "source_refs": {
           "worldcup_2026_schedule_csv": "49",
@@ -4900,6 +4949,7 @@
         "venue_id": "gillette-stadium",
         "venue_name": "波士顿球场（Gillette Stadium）",
         "host_city": "波士顿",
+        "host_city_id": "boston",
         "match_theme": "第50场·波士顿黄昏战：两河雄狮对阵北欧峡湾",
         "source_refs": {
           "worldcup_2026_schedule_csv": "50",
@@ -4921,6 +4971,7 @@
         "venue_id": "lincoln-financial-field",
         "venue_name": "费城球场（Lincoln Financial Field）",
         "host_city": "费城",
+        "host_city_id": "philadelphia",
         "match_theme": "第51场·费城午后战：高卢雄鸡对阵两河雄狮",
         "source_refs": {
           "worldcup_2026_schedule_csv": "51",
@@ -4942,6 +4993,7 @@
         "venue_id": "metlife-stadium",
         "venue_name": "纽约新泽西球场（MetLife Stadium）",
         "host_city": "纽约/新泽西",
+        "host_city_id": "new-york-new-jersey",
         "match_theme": "第52场·纽约/新泽西夜战：北欧峡湾对阵特兰加雄狮",
         "source_refs": {
           "worldcup_2026_schedule_csv": "52",
@@ -4963,6 +5015,7 @@
         "venue_id": "gillette-stadium",
         "venue_name": "波士顿球场（Gillette Stadium）",
         "host_city": "波士顿",
+        "host_city_id": "boston",
         "match_theme": "第53场·波士顿午后战：北欧峡湾对阵高卢雄鸡",
         "source_refs": {
           "worldcup_2026_schedule_csv": "53",
@@ -4984,6 +5037,7 @@
         "venue_id": "bmo-field",
         "venue_name": "多伦多球场（BMO Field）",
         "host_city": "多伦多",
+        "host_city_id": "toronto",
         "match_theme": "第54场·多伦多午后战：特兰加雄狮对阵两河雄狮",
         "source_refs": {
           "worldcup_2026_schedule_csv": "54",
@@ -5005,6 +5059,7 @@
         "venue_id": "arrowhead-stadium",
         "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
         "host_city": "堪萨斯城",
+        "host_city_id": "kansas-city",
         "match_theme": "第55场·堪萨斯城夜战：潘帕斯雄鹰对阵沙漠之狐",
         "source_refs": {
           "worldcup_2026_schedule_csv": "55",
@@ -5026,6 +5081,7 @@
         "venue_id": "levis-stadium",
         "venue_name": "旧金山湾区球场（Levi's Stadium）",
         "host_city": "旧金山湾区",
+        "host_city_id": "san-francisco-bay-area",
         "match_theme": "第56场·旧金山湾区夜战：阿尔卑斯红白对阵纳巴泰之星",
         "source_refs": {
           "worldcup_2026_schedule_csv": "56",
@@ -5047,6 +5103,7 @@
         "venue_id": "at-and-t-stadium",
         "venue_name": "达拉斯球场（AT&T Stadium）",
         "host_city": "达拉斯",
+        "host_city_id": "dallas",
         "match_theme": "第57场·达拉斯午间战：潘帕斯雄鹰对阵阿尔卑斯红白",
         "source_refs": {
           "worldcup_2026_schedule_csv": "57",
@@ -5068,6 +5125,7 @@
         "venue_id": "levis-stadium",
         "venue_name": "旧金山湾区球场（Levi's Stadium）",
         "host_city": "旧金山湾区",
+        "host_city_id": "san-francisco-bay-area",
         "match_theme": "第58场·旧金山湾区夜战：纳巴泰之星对阵沙漠之狐",
         "source_refs": {
           "worldcup_2026_schedule_csv": "58",
@@ -5089,6 +5147,7 @@
         "venue_id": "arrowhead-stadium",
         "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
         "host_city": "堪萨斯城",
+        "host_city_id": "kansas-city",
         "match_theme": "第59场·堪萨斯城夜战：沙漠之狐对阵阿尔卑斯红白",
         "source_refs": {
           "worldcup_2026_schedule_csv": "59",
@@ -5110,6 +5169,7 @@
         "venue_id": "at-and-t-stadium",
         "venue_name": "达拉斯球场（AT&T Stadium）",
         "host_city": "达拉斯",
+        "host_city_id": "dallas",
         "match_theme": "第60场·达拉斯夜战：纳巴泰之星对阵潘帕斯雄鹰",
         "source_refs": {
           "worldcup_2026_schedule_csv": "60",
@@ -5131,6 +5191,7 @@
         "venue_id": "nrg-stadium",
         "venue_name": "休斯敦球场（NRG Stadium）",
         "host_city": "休斯敦",
+        "host_city_id": "houston",
         "match_theme": "第61场·休斯敦午间战：航海军团对阵刚果豹影",
         "source_refs": {
           "worldcup_2026_schedule_csv": "61",
@@ -5152,6 +5213,7 @@
         "venue_id": "estadio-azteca",
         "venue_name": "墨西哥城球场（Estadio Azteca）",
         "host_city": "墨西哥城",
+        "host_city_id": "mexico-city",
         "match_theme": "第62场·墨西哥城夜战：中亚蓝狼对阵咖啡三色",
         "source_refs": {
           "worldcup_2026_schedule_csv": "62",
@@ -5173,6 +5235,7 @@
         "venue_id": "nrg-stadium",
         "venue_name": "休斯敦球场（NRG Stadium）",
         "host_city": "休斯敦",
+        "host_city_id": "houston",
         "match_theme": "第63场·休斯敦午间战：航海军团对阵中亚蓝狼",
         "source_refs": {
           "worldcup_2026_schedule_csv": "63",
@@ -5194,6 +5257,7 @@
         "venue_id": "estadio-akron",
         "venue_name": "瓜达拉哈拉球场（Estadio Akron）",
         "host_city": "瓜达拉哈拉",
+        "host_city_id": "guadalajara",
         "match_theme": "第64场·瓜达拉哈拉夜战：咖啡三色对阵刚果豹影",
         "source_refs": {
           "worldcup_2026_schedule_csv": "64",
@@ -5215,6 +5279,7 @@
         "venue_id": "hard-rock-stadium",
         "venue_name": "迈阿密球场（Hard Rock Stadium）",
         "host_city": "迈阿密",
+        "host_city_id": "miami",
         "match_theme": "第65场·迈阿密黄昏战：咖啡三色对阵航海军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "65",
@@ -5236,6 +5301,7 @@
         "venue_id": "mercedes-benz-stadium",
         "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
         "host_city": "亚特兰大",
+        "host_city_id": "atlanta",
         "match_theme": "第66场·亚特兰大黄昏战：刚果豹影对阵中亚蓝狼",
         "source_refs": {
           "worldcup_2026_schedule_csv": "66",
@@ -5257,6 +5323,7 @@
         "venue_id": "at-and-t-stadium",
         "venue_name": "达拉斯球场（AT&T Stadium）",
         "host_city": "达拉斯",
+        "host_city_id": "dallas",
         "match_theme": "第67场·达拉斯午后战：三狮军团对阵格子军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "67",
@@ -5278,6 +5345,7 @@
         "venue_id": "bmo-field",
         "venue_name": "多伦多球场（BMO Field）",
         "host_city": "多伦多",
+        "host_city_id": "toronto",
         "match_theme": "第68场·多伦多黄昏战：黑星军团对阵运河红潮",
         "source_refs": {
           "worldcup_2026_schedule_csv": "68",
@@ -5299,6 +5367,7 @@
         "venue_id": "gillette-stadium",
         "venue_name": "波士顿球场（Gillette Stadium）",
         "host_city": "波士顿",
+        "host_city_id": "boston",
         "match_theme": "第69场·波士顿午后战：三狮军团对阵黑星军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "69",
@@ -5320,6 +5389,7 @@
         "venue_id": "bmo-field",
         "venue_name": "多伦多球场（BMO Field）",
         "host_city": "多伦多",
+        "host_city_id": "toronto",
         "match_theme": "第70场·多伦多黄昏战：运河红潮对阵格子军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "70",
@@ -5341,6 +5411,7 @@
         "venue_id": "metlife-stadium",
         "venue_name": "纽约新泽西球场（MetLife Stadium）",
         "host_city": "纽约/新泽西",
+        "host_city_id": "new-york-new-jersey",
         "match_theme": "第71场·纽约/新泽西午后战：运河红潮对阵三狮军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "71",
@@ -5362,6 +5433,7 @@
         "venue_id": "lincoln-financial-field",
         "venue_name": "费城球场（Lincoln Financial Field）",
         "host_city": "费城",
+        "host_city_id": "philadelphia",
         "match_theme": "第72场·费城午后战：格子军团对阵黑星军团",
         "source_refs": {
           "worldcup_2026_schedule_csv": "72",
@@ -5383,6 +5455,7 @@
         "venue_id": "sofi-stadium",
         "venue_name": "洛杉矶球场（SoFi Stadium）",
         "host_city": "洛杉矶",
+        "host_city_id": "los-angeles",
         "match_theme": "第73场·洛杉矶三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "73",
@@ -5403,6 +5476,7 @@
         "venue_id": "gillette-stadium",
         "venue_name": "波士顿球场（Gillette Stadium）",
         "host_city": "波士顿",
+        "host_city_id": "boston",
         "match_theme": "第74场·波士顿三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "74",
@@ -5423,6 +5497,7 @@
         "venue_id": "estadio-bbva",
         "venue_name": "蒙特雷球场（Estadio BBVA）",
         "host_city": "蒙特雷",
+        "host_city_id": "monterrey",
         "match_theme": "第75场·蒙特雷三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "75",
@@ -5443,6 +5518,7 @@
         "venue_id": "nrg-stadium",
         "venue_name": "休斯敦球场（NRG Stadium）",
         "host_city": "休斯敦",
+        "host_city_id": "houston",
         "match_theme": "第76场·休斯敦三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "76",
@@ -5463,6 +5539,7 @@
         "venue_id": "metlife-stadium",
         "venue_name": "纽约新泽西球场（MetLife Stadium）",
         "host_city": "纽约/新泽西",
+        "host_city_id": "new-york-new-jersey",
         "match_theme": "第77场·纽约/新泽西三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "77",
@@ -5483,6 +5560,7 @@
         "venue_id": "at-and-t-stadium",
         "venue_name": "达拉斯球场（AT&T Stadium）",
         "host_city": "达拉斯",
+        "host_city_id": "dallas",
         "match_theme": "第78场·达拉斯三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "78",
@@ -5503,6 +5581,7 @@
         "venue_id": "estadio-azteca",
         "venue_name": "墨西哥城球场（Estadio Azteca）",
         "host_city": "墨西哥城",
+        "host_city_id": "mexico-city",
         "match_theme": "第79场·墨西哥城三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "79",
@@ -5523,6 +5602,7 @@
         "venue_id": "mercedes-benz-stadium",
         "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
         "host_city": "亚特兰大",
+        "host_city_id": "atlanta",
         "match_theme": "第80场·亚特兰大三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "80",
@@ -5543,6 +5623,7 @@
         "venue_id": "levis-stadium",
         "venue_name": "旧金山湾区球场（Levi's Stadium）",
         "host_city": "旧金山湾区",
+        "host_city_id": "san-francisco-bay-area",
         "match_theme": "第81场·旧金山湾区三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "81",
@@ -5563,6 +5644,7 @@
         "venue_id": "lumen-field",
         "venue_name": "西雅图球场（Lumen Field）",
         "host_city": "西雅图",
+        "host_city_id": "seattle",
         "match_theme": "第82场·西雅图三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "82",
@@ -5583,6 +5665,7 @@
         "venue_id": "bmo-field",
         "venue_name": "多伦多球场（BMO Field）",
         "host_city": "多伦多",
+        "host_city_id": "toronto",
         "match_theme": "第83场·多伦多三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "83",
@@ -5603,6 +5686,7 @@
         "venue_id": "sofi-stadium",
         "venue_name": "洛杉矶球场（SoFi Stadium）",
         "host_city": "洛杉矶",
+        "host_city_id": "los-angeles",
         "match_theme": "第84场·洛杉矶三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "84",
@@ -5620,9 +5704,10 @@
         "status": "scheduled",
         "home_team_id": "slot-group-b-winner",
         "away_team_id": "slot-best-third-e-f-g-i-j",
-        "venue_id": "bc-place",
+        "venue_id": "bc-place-vancouver",
         "venue_name": "BC Place 温哥华球场",
         "host_city": "温哥华",
+        "host_city_id": "vancouver",
         "match_theme": "第85场·温哥华三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "85",
@@ -5643,6 +5728,7 @@
         "venue_id": "hard-rock-stadium",
         "venue_name": "迈阿密球场（Hard Rock Stadium）",
         "host_city": "迈阿密",
+        "host_city_id": "miami",
         "match_theme": "第86场·迈阿密三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "86",
@@ -5663,6 +5749,7 @@
         "venue_id": "arrowhead-stadium",
         "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
         "host_city": "堪萨斯城",
+        "host_city_id": "kansas-city",
         "match_theme": "第87场·堪萨斯城三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "87",
@@ -5683,6 +5770,7 @@
         "venue_id": "at-and-t-stadium",
         "venue_name": "达拉斯球场（AT&T Stadium）",
         "host_city": "达拉斯",
+        "host_city_id": "dallas",
         "match_theme": "第88场·达拉斯三十二强战：淘汰赛门票再洗牌",
         "source_refs": {
           "worldcup_2026_schedule_csv": "88",
@@ -5703,6 +5791,7 @@
         "venue_id": "lincoln-financial-field",
         "venue_name": "费城球场（Lincoln Financial Field）",
         "host_city": "费城",
+        "host_city_id": "philadelphia",
         "match_theme": "第89场·费城十六强战：八强席位争夺",
         "source_refs": {
           "worldcup_2026_schedule_csv": "89",
@@ -5723,6 +5812,7 @@
         "venue_id": "nrg-stadium",
         "venue_name": "休斯敦球场（NRG Stadium）",
         "host_city": "休斯敦",
+        "host_city_id": "houston",
         "match_theme": "第90场·休斯敦十六强战：八强席位争夺",
         "source_refs": {
           "worldcup_2026_schedule_csv": "90",
@@ -5743,6 +5833,7 @@
         "venue_id": "metlife-stadium",
         "venue_name": "纽约新泽西球场（MetLife Stadium）",
         "host_city": "纽约/新泽西",
+        "host_city_id": "new-york-new-jersey",
         "match_theme": "第91场·纽约/新泽西十六强战：八强席位争夺",
         "source_refs": {
           "worldcup_2026_schedule_csv": "91",
@@ -5763,6 +5854,7 @@
         "venue_id": "estadio-azteca",
         "venue_name": "墨西哥城球场（Estadio Azteca）",
         "host_city": "墨西哥城",
+        "host_city_id": "mexico-city",
         "match_theme": "第92场·墨西哥城十六强战：八强席位争夺",
         "source_refs": {
           "worldcup_2026_schedule_csv": "92",
@@ -5783,6 +5875,7 @@
         "venue_id": "at-and-t-stadium",
         "venue_name": "达拉斯球场（AT&T Stadium）",
         "host_city": "达拉斯",
+        "host_city_id": "dallas",
         "match_theme": "第93场·达拉斯十六强战：八强席位争夺",
         "source_refs": {
           "worldcup_2026_schedule_csv": "93",
@@ -5803,6 +5896,7 @@
         "venue_id": "lumen-field",
         "venue_name": "西雅图球场（Lumen Field）",
         "host_city": "西雅图",
+        "host_city_id": "seattle",
         "match_theme": "第94场·西雅图十六强战：八强席位争夺",
         "source_refs": {
           "worldcup_2026_schedule_csv": "94",
@@ -5823,6 +5917,7 @@
         "venue_id": "mercedes-benz-stadium",
         "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
         "host_city": "亚特兰大",
+        "host_city_id": "atlanta",
         "match_theme": "第95场·亚特兰大十六强战：八强席位争夺",
         "source_refs": {
           "worldcup_2026_schedule_csv": "95",
@@ -5840,9 +5935,10 @@
         "status": "scheduled",
         "home_team_id": "slot-winner-match-85",
         "away_team_id": "slot-winner-match-87",
-        "venue_id": "bc-place",
+        "venue_id": "bc-place-vancouver",
         "venue_name": "BC Place 温哥华球场",
         "host_city": "温哥华",
+        "host_city_id": "vancouver",
         "match_theme": "第96场·温哥华十六强战：八强席位争夺",
         "source_refs": {
           "worldcup_2026_schedule_csv": "96",
@@ -5863,6 +5959,7 @@
         "venue_id": "gillette-stadium",
         "venue_name": "波士顿球场（Gillette Stadium）",
         "host_city": "波士顿",
+        "host_city_id": "boston",
         "match_theme": "第97场·波士顿八强战：通往四强的硬仗",
         "source_refs": {
           "worldcup_2026_schedule_csv": "97",
@@ -5883,6 +5980,7 @@
         "venue_id": "sofi-stadium",
         "venue_name": "洛杉矶球场（SoFi Stadium）",
         "host_city": "洛杉矶",
+        "host_city_id": "los-angeles",
         "match_theme": "第98场·洛杉矶八强战：通往四强的硬仗",
         "source_refs": {
           "worldcup_2026_schedule_csv": "98",
@@ -5903,6 +6001,7 @@
         "venue_id": "hard-rock-stadium",
         "venue_name": "迈阿密球场（Hard Rock Stadium）",
         "host_city": "迈阿密",
+        "host_city_id": "miami",
         "match_theme": "第99场·迈阿密八强战：通往四强的硬仗",
         "source_refs": {
           "worldcup_2026_schedule_csv": "99",
@@ -5923,6 +6022,7 @@
         "venue_id": "arrowhead-stadium",
         "venue_name": "堪萨斯城球场（Arrowhead Stadium）",
         "host_city": "堪萨斯城",
+        "host_city_id": "kansas-city",
         "match_theme": "第100场·堪萨斯城八强战：通往四强的硬仗",
         "source_refs": {
           "worldcup_2026_schedule_csv": "100",
@@ -5943,6 +6043,7 @@
         "venue_id": "at-and-t-stadium",
         "venue_name": "达拉斯球场（AT&T Stadium）",
         "host_city": "达拉斯",
+        "host_city_id": "dallas",
         "match_theme": "第101场·达拉斯半决赛：决赛门票之夜",
         "source_refs": {
           "worldcup_2026_schedule_csv": "101",
@@ -5963,6 +6064,7 @@
         "venue_id": "mercedes-benz-stadium",
         "venue_name": "亚特兰大球场（Mercedes-Benz Stadium）",
         "host_city": "亚特兰大",
+        "host_city_id": "atlanta",
         "match_theme": "第102场·亚特兰大半决赛：决赛门票之夜",
         "source_refs": {
           "worldcup_2026_schedule_csv": "102",
@@ -5983,6 +6085,7 @@
         "venue_id": "hard-rock-stadium",
         "venue_name": "迈阿密球场（Hard Rock Stadium）",
         "host_city": "迈阿密",
+        "host_city_id": "miami",
         "match_theme": "第103场·迈阿密荣誉之战：季军归属",
         "source_refs": {
           "worldcup_2026_schedule_csv": "103",
@@ -6003,6 +6106,7 @@
         "venue_id": "metlife-stadium",
         "venue_name": "纽约新泽西球场（MetLife Stadium）",
         "host_city": "纽约/新泽西",
+        "host_city_id": "new-york-new-jersey",
         "match_theme": "第104场·纽约新泽西决赛之夜：冠军加冕",
         "source_refs": {
           "worldcup_2026_schedule_csv": "104",
@@ -9329,7 +9433,7 @@
         "transport_summary_en": "The city is served by Vancouver International Airport and the SkyTrain network.",
         "local_feature_zh": "以山海景观、户外生活、多元社区和太平洋港口气质闻名。",
         "local_feature_en": "Known for mountain-and-ocean scenery, outdoor life, diverse communities, and Pacific port character.",
-        "primary_venue_id": "bc-place",
+        "primary_venue_id": "bc-place-vancouver",
         "source_status": "official_fifa_manual_patch",
         "source_urls": [
           "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/vancouver"

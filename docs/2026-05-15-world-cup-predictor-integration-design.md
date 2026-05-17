@@ -75,7 +75,7 @@
 - `kickoff_at`：来自平台标准 `fixtures.date_utc`，UTC ISO 8601
 - `date_utc`：与 `kickoff_at` 一致，便于旧代码和新代码并行消费
 - `venue_type`：`neutral` 或 `host_home`
-- `venue_id`、`venue_name`、`host_city`、`stage`、`round`、`group`
+- `venue_id`、`venue_name`、`host_city`、`host_city_id`、`stage`、`round`、`group`
 
 发布前质量门槛：
 
