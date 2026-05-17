@@ -272,6 +272,8 @@ def collect_api_football_context(
     if not key:
         return [], [], {
             "status": "missing_auth",
+            "status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+            "provider": "api_football",
             "auth_env": "API_FOOTBALL_KEY",
             "league_id": resolved_league_id,
             "season": resolved_season,
@@ -323,6 +325,8 @@ def collect_api_football_context(
 
     report = {
         "status": "collected" if injuries_rows or lineups_rows else "no_rows",
+        "status_reason": None if injuries_rows or lineups_rows else "No API-FOOTBALL lineups or injuries rows were available for selected fixtures.",
+        "provider": "api_football",
         "auth_env": "API_FOOTBALL_KEY",
         "league_id": resolved_league_id,
         "season": resolved_season,

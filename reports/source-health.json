@@ -57,7 +57,7 @@
       "note": "当前共享层主发布流水线已经从平台 own 的 model master 文件发布运行时模型数据。predictor 仓库现在只应作为可选回灌来源，而不是主发布阻塞项。"
     },
     "runtime_collection": {
-      "generated_at": "2026-05-17T08:23:33.549459+00:00",
+      "generated_at": "2026-05-17T08:32:55.349931+00:00",
       "dry_run": true,
       "fixtures_total": 104,
       "fixtures_selected": 1,
@@ -96,8 +96,8 @@
         },
         "injuries": {
           "status": "missing_auth",
-          "status_reason": null,
-          "provider": null,
+          "status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+          "provider": "api_football",
           "auth_env": "API_FOOTBALL_KEY",
           "production_enabled_env": null,
           "required_plan": null,
@@ -112,8 +112,8 @@
         },
         "lineups": {
           "status": "missing_auth",
-          "status_reason": null,
-          "provider": null,
+          "status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
+          "provider": "api_football",
           "auth_env": "API_FOOTBALL_KEY",
           "production_enabled_env": null,
           "required_plan": null,

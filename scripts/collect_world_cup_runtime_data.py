@@ -35,6 +35,22 @@ def load_json(path: Path) -> object:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_env_value(name: str) -> str:
+    direct = os.environ.get(name, "").strip()
+    if direct:
+        return direct
+    for env_path in (ROOT / ".env.local", ROOT / ".env"):
+        if not env_path.exists():
+            continue
+        for line in env_path.read_text(encoding="utf-8").splitlines():
+            if not line or line.lstrip().startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            if key.strip() == name and value.strip():
+                return value.strip().strip('"').strip("'")
+    return ""
+
+
 def write_json(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -87,7 +103,7 @@ def load_existing_list(path: Path) -> list[dict]:
 
 
 def collect_weather(*, fixtures: list[dict], venues: dict[str, dict], fetched_at: str, dry_run: bool) -> dict:
-    api_key = os.environ.get("OPENWEATHER_API_KEY", "").strip()
+    api_key = load_env_value("OPENWEATHER_API_KEY")
     rows: list[dict] = []
     skipped: list[dict[str, str]] = []
     errors: list[dict[str, str]] = []
@@ -153,9 +169,9 @@ def collect_odds(*, fixtures: list[dict], teams: list[dict], fetched_at: str, dr
     provider_config = provider_config if isinstance(provider_config, dict) else {}
     soccer_access = provider_config.get("soccer_access") if isinstance(provider_config.get("soccer_access"), dict) else {}
     enabled_env = str(provider_config.get("production_enabled_env") or "THE_ODDS_API_SOCCER_ENABLED")
-    soccer_enabled = os.environ.get(enabled_env, "").strip().lower() in {"1", "true", "yes", "enabled"}
-    api_key = os.environ.get("THE_ODDS_API_KEY", "").strip()
-    sport_key = os.environ.get("THE_ODDS_API_SPORT", "soccer_fifa_world_cup")
+    soccer_enabled = load_env_value(enabled_env).lower() in {"1", "true", "yes", "enabled"}
+    api_key = load_env_value("THE_ODDS_API_KEY")
+    sport_key = load_env_value("THE_ODDS_API_SPORT") or "soccer_fifa_world_cup"
     if not soccer_enabled:
         return {
             "dataset": "odds",
@@ -231,6 +247,9 @@ def collect_api_football(*, fixtures: list[dict], teams: list[dict], fetched_at:
         teams=teams,
         fetched_at=fetched_at,
         fixture_map_path=fixture_map_path,
+        api_key=load_env_value("API_FOOTBALL_KEY"),
+        league_id=load_env_value("API_FOOTBALL_LEAGUE_ID") or None,
+        season=load_env_value("API_FOOTBALL_SEASON") or None,
     )
     if injuries_rows and not dry_run:
         existing = load_existing_list(INJURIES_MASTER_PATH)
@@ -241,7 +260,9 @@ def collect_api_football(*, fixtures: list[dict], teams: list[dict], fetched_at:
     return [
         {
             "dataset": "injuries",
+            "provider": "api_football",
             "status": report["status"] if injuries_rows else report["status"],
+            "status_reason": report.get("status_reason"),
             "auth_env": report.get("auth_env"),
             "league_id": report.get("league_id"),
             "season": report.get("season"),
@@ -254,7 +275,9 @@ def collect_api_football(*, fixtures: list[dict], teams: list[dict], fetched_at:
         },
         {
             "dataset": "lineups",
+            "provider": "api_football",
             "status": report["status"] if lineups_rows else report["status"],
+            "status_reason": report.get("status_reason"),
             "auth_env": report.get("auth_env"),
             "league_id": report.get("league_id"),
             "season": report.get("season"),

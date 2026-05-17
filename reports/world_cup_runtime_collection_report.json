@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T08:23:33.549459+00:00",
+  "generated_at": "2026-05-17T08:32:55.349931+00:00",
   "dry_run": true,
   "fixtures_total": 104,
   "fixtures_selected": 1,
@@ -45,7 +45,9 @@
     },
     {
       "dataset": "injuries",
+      "provider": "api_football",
       "status": "missing_auth",
+      "status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
       "auth_env": "API_FOOTBALL_KEY",
       "league_id": "1",
       "season": "2026",
@@ -58,7 +60,9 @@
     },
     {
       "dataset": "lineups",
+      "provider": "api_football",
       "status": "missing_auth",
+      "status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file.",
       "auth_env": "API_FOOTBALL_KEY",
       "league_id": "1",
       "season": "2026",
@@ -83,42 +87,42 @@
           "source": "fifa_news",
           "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles",
           "status": "available",
-          "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
+          "last_checked_at": "2026-05-17T08:32:55.349931+00:00",
           "pages_collected": 1
         },
         {
           "source": "fifa_world_cup_news",
           "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news",
           "status": "available",
-          "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
+          "last_checked_at": "2026-05-17T08:32:55.349931+00:00",
           "pages_collected": 1
         },
         {
           "source": "bbc_world_cup",
           "url": "https://www.bbc.com/sport/football/world-cup",
           "status": "available",
-          "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
+          "last_checked_at": "2026-05-17T08:32:55.349931+00:00",
           "pages_collected": 1
         },
         {
           "source": "sky_world_cup",
           "url": "https://www.skysports.com/world-cup-news",
           "status": "available",
-          "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
+          "last_checked_at": "2026-05-17T08:32:55.349931+00:00",
           "pages_collected": 2
         },
         {
           "source": "espn_soccer",
           "url": "https://www.espn.com/soccer/",
           "status": "available",
-          "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
+          "last_checked_at": "2026-05-17T08:32:55.349931+00:00",
           "pages_collected": 1
         },
         {
           "source": "mexico_fmf",
           "url": "https://miseleccion.mx/noticias/",
           "status": "available",
-          "last_checked_at": "2026-05-17T08:23:33.549459+00:00",
+          "last_checked_at": "2026-05-17T08:32:55.349931+00:00",
           "pages_collected": 1
         }
       ],
