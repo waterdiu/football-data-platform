@@ -107,6 +107,7 @@ Pages 首页：
 - `standings`
 - `team_world_cup_history`
 - `team_recent_matches`
+- `team_staff`
 - `predictions`
 - `data_coverage`
 - `qualifier_events`
@@ -185,6 +186,17 @@ python3 scripts/publish_world_cup_predictor_api.py
 ```
 
 当前允许进入 master 的名单来源状态包括 `official_fifa`、`official_fa`、`official_club_or_league_correction`、`manual_official_patch`。媒体报道、Wikipedia、球迷站不能直接进入 master，只能作为线索。
+
+球队教练/工作人员数据：
+
+```bash
+python3 scripts/import_world_cup_team_staff_from_manual_patch.py
+python3 scripts/build_person_profile_datasets.py
+python3 scripts/publish_worldcup_2026_api.py
+python3 scripts/publish_world_cup_predictor_api.py
+```
+
+当前已补 8 支已有官方 26 人名单球队的主教练，发布到 `api/worldcup/2026/core/team-staff.json`。生日/年龄字段在未审计来源前保持 `null`。
 
 球队历史与近期比赛数据：
 

@@ -1,0 +1,79 @@
+{
+  "competition_id": "fifa_world_cup",
+  "season_id": "2026",
+  "updated_at": "2026-05-17T00:00:00Z",
+  "entries": [
+    {
+      "team_id": "belgium",
+      "name": "Rudi Garcia",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named"
+    },
+    {
+      "team_id": "bosnia-and-herzegovina",
+      "name": "Sergej Barbarez",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad"
+    },
+    {
+      "team_id": "cote-divoire",
+      "name": "Emerse Fae",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae"
+    },
+    {
+      "team_id": "france",
+      "name": "Didier Deschamps",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named"
+    },
+    {
+      "team_id": "haiti",
+      "name": "Sebastien Migne",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne"
+    },
+    {
+      "team_id": "japan",
+      "name": "Hajime Moriyasu",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/news/articles/japan-squad-announcement"
+    },
+    {
+      "team_id": "sweden",
+      "name": "Graham Potter",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-squad-announcement-world-cup-graham-potter"
+    },
+    {
+      "team_id": "tunisia",
+      "name": "Sabri Lamouchi",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "status": "published",
   "counts": {
-    "team-staff.json": 0,
+    "team-staff.json": 8,
     "officials.json": 0,
     "player-ratings.json": 0,
     "staff-ratings.json": 0,
@@ -9,11 +9,11 @@
     "person-style-profiles.json": 0
   },
   "outputs": {
-    "team-staff.json": "/home/runner/work/football-data-platform/football-data-platform/data/public/team-staff.json",
-    "officials.json": "/home/runner/work/football-data-platform/football-data-platform/data/public/officials.json",
-    "player-ratings.json": "/home/runner/work/football-data-platform/football-data-platform/data/public/player-ratings.json",
-    "staff-ratings.json": "/home/runner/work/football-data-platform/football-data-platform/data/public/staff-ratings.json",
-    "official-ratings.json": "/home/runner/work/football-data-platform/football-data-platform/data/public/official-ratings.json",
-    "person-style-profiles.json": "/home/runner/work/football-data-platform/football-data-platform/data/public/person-style-profiles.json"
+    "team-staff.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/team-staff.json",
+    "officials.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/officials.json",
+    "player-ratings.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/player-ratings.json",
+    "staff-ratings.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/staff-ratings.json",
+    "official-ratings.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/official-ratings.json",
+    "person-style-profiles.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/person-style-profiles.json"
   }
 }

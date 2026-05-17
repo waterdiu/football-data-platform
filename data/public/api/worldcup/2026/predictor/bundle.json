@@ -70087,7 +70087,224 @@
         "updated_at": "2026-05-17T00:00:00Z"
       }
     ],
-    "team_staff": [],
+    "team_staff": [
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "belgium",
+        "team_name": "Belgium",
+        "staff_id": "belgium:staff:rudi-garcia",
+        "name": "Rudi Garcia",
+        "display_name": "Rudi Garcia",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "bosnia-and-herzegovina",
+        "team_name": "Bosnia and Herzegovina",
+        "staff_id": "bosnia-and-herzegovina:staff:sergej-barbarez",
+        "name": "Sergej Barbarez",
+        "display_name": "Sergej Barbarez",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad"
+        },
+        "source_url": "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "cote-divoire",
+        "team_name": "Cote d'Ivoire",
+        "staff_id": "cote-divoire:staff:emerse-fae",
+        "name": "Emerse Fae",
+        "display_name": "Emerse Fae",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "france",
+        "team_name": "France",
+        "staff_id": "france:staff:didier-deschamps",
+        "name": "Didier Deschamps",
+        "display_name": "Didier Deschamps",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named"
+        },
+        "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "haiti",
+        "team_name": "Haiti",
+        "staff_id": "haiti:staff:sebastien-migne",
+        "name": "Sebastien Migne",
+        "display_name": "Sebastien Migne",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "japan",
+        "team_name": "Japan",
+        "staff_id": "japan:staff:hajime-moriyasu",
+        "name": "Hajime Moriyasu",
+        "display_name": "Hajime Moriyasu",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/news/articles/japan-squad-announcement"
+        },
+        "source_url": "https://www.fifa.com/en/news/articles/japan-squad-announcement",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "sweden",
+        "team_name": "Sweden",
+        "staff_id": "sweden:staff:graham-potter",
+        "name": "Graham Potter",
+        "display_name": "Graham Potter",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-squad-announcement-world-cup-graham-potter"
+        },
+        "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-squad-announcement-world-cup-graham-potter",
+        "updated_at": "2026-05-17T00:00:00Z"
+      },
+      {
+        "competition_id": "fifa_world_cup",
+        "season_id": "2026",
+        "team_id": "tunisia",
+        "team_name": "Tunisia",
+        "staff_id": "tunisia:staff:sabri-lamouchi",
+        "name": "Sabri Lamouchi",
+        "display_name": "Sabri Lamouchi",
+        "name_zh": null,
+        "role": "head_coach",
+        "role_zh": "主教练",
+        "status": "active",
+        "nationality": null,
+        "date_of_birth": null,
+        "age": null,
+        "appointed_at": null,
+        "contract_until": null,
+        "source_status": "official_fifa",
+        "sources": [
+          "official_fifa"
+        ],
+        "source_refs": {
+          "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi"
+        },
+        "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi",
+        "updated_at": "2026-05-17T00:00:00Z"
+      }
+    ],
     "officials": [],
     "player_ratings": [],
     "staff_ratings": [],

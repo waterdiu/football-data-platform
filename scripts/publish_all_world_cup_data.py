@@ -17,6 +17,7 @@ PIPELINE = [
     "build_world_cup_detail_datasets.py",
     "import_world_cup_rosters_from_manual_patch.py",
     "build_world_cup_roster_datasets.py",
+    "import_world_cup_team_staff_from_manual_patch.py",
     "build_team_history_datasets.py",
     "build_person_profile_datasets.py",
     "build_world_cup_model_runtime_datasets.py",

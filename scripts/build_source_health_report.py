@@ -131,6 +131,7 @@ def main() -> None:
             "fixtures": dataset_count(PUBLIC_DIR / "fixtures.json"),
             "results": dataset_count(PUBLIC_DIR / "results.json"),
             "standings": dataset_count(PUBLIC_DIR / "standings.json"),
+            "team_staff": dataset_count(PUBLIC_DIR / "team-staff.json"),
             "team_world_cup_history": dataset_count(PUBLIC_DIR / "team-world-cup-history.json"),
             "team_recent_matches": dataset_count(PUBLIC_DIR / "team-recent-matches.json"),
             "predictions": dataset_count(PUBLIC_DIR / "predictions.json"),
