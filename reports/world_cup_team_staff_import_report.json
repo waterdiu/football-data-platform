@@ -1,8 +1,8 @@
 {
   "status": "published",
-  "patch": "/home/runner/work/football-data-platform/football-data-platform/data/patches/world_cup_2026_team_staff.manual.json",
-  "output": "/home/runner/work/football-data-platform/football-data-platform/data/normalized/person_team_staff_master.json",
-  "rows": 8,
+  "patch": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/patches/world_cup_2026_team_staff.manual.json",
+  "output": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_team_staff_master.json",
+  "rows": 10,
   "teams": [
     "belgium",
     "bosnia-and-herzegovina",
@@ -10,6 +10,8 @@
     "france",
     "haiti",
     "japan",
+    "korea-republic",
+    "new-zealand",
     "sweden",
     "tunisia"
   ],

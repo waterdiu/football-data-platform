@@ -330,6 +330,47 @@
         { "name": "Elias Saad", "position": "FW" },
         { "name": "Sebastian Tounekti", "position": "FW" }
       ]
+    },
+    {
+      "competition_id": "fifa_world_cup",
+      "season_id": "2026",
+      "team_id": "korea-republic",
+      "roster_type": "announced_26_provisional_until_fifa_final",
+      "source_status": "official_fifa",
+      "confidence": "high",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo",
+      "published_at": "2026-05-16",
+      "source_refs": {
+        "fifa_article": "korea-republic-world-cup-squad-hong-myungbo"
+      },
+      "players": [
+        { "name": "Song Bumkeun", "position": "GK" },
+        { "name": "Jo Hyeonwoo", "position": "GK" },
+        { "name": "Kim Seung-gyu", "position": "GK" },
+        { "name": "Jens Castrop", "position": "DF" },
+        { "name": "Lee Hanbeom", "position": "DF" },
+        { "name": "Park Jinseob", "position": "DF" },
+        { "name": "Lee Kihyuk", "position": "DF" },
+        { "name": "Kim Minjae", "position": "DF" },
+        { "name": "Kim Moonhwan", "position": "DF" },
+        { "name": "Kim Taehyeon", "position": "DF" },
+        { "name": "Lee Taeseok", "position": "DF" },
+        { "name": "Seol Youngwoo", "position": "DF" },
+        { "name": "Cho Yumin", "position": "DF" },
+        { "name": "Lee Donggyeong", "position": "MF" },
+        { "name": "Hwang Heechan", "position": "MF" },
+        { "name": "Yang Hyunjun", "position": "MF" },
+        { "name": "Hwang Inbeom", "position": "MF" },
+        { "name": "Lee Jaesung", "position": "MF" },
+        { "name": "Kim Jingyu", "position": "MF" },
+        { "name": "Eom Jisung", "position": "MF" },
+        { "name": "Bae Junho", "position": "MF" },
+        { "name": "Lee Kangin", "position": "MF" },
+        { "name": "Paik Seungho", "position": "MF" },
+        { "name": "Cho Guesung", "position": "FW" },
+        { "name": "Son Heungmin", "position": "FW" },
+        { "name": "Oh Hyeongyu", "position": "FW" }
+      ]
     }
   ]
 }

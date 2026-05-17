@@ -164,6 +164,60 @@
   {
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
+    "team_id": "korea-republic",
+    "team_name": "Korea Republic",
+    "staff_id": "korea-republic:staff:hong-myungbo",
+    "name": "Hong Myungbo",
+    "display_name": "Hong Myungbo",
+    "name_zh": null,
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "status": "active",
+    "nationality": null,
+    "date_of_birth": null,
+    "age": null,
+    "appointed_at": null,
+    "contract_until": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo"
+    },
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "team_id": "new-zealand",
+    "team_name": "New Zealand",
+    "staff_id": "new-zealand:staff:darren-bazeley",
+    "name": "Darren Bazeley",
+    "display_name": "Darren Bazeley",
+    "name_zh": null,
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "status": "active",
+    "nationality": null,
+    "date_of_birth": null,
+    "age": null,
+    "appointed_at": null,
+    "contract_until": null,
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {
+      "source_url": "https://inside.fifa.com/about-fifa/organisation/news/darren-bazeley-on-new-zealands-world-cup-qualification"
+    },
+    "source_url": "https://inside.fifa.com/about-fifa/organisation/news/darren-bazeley-on-new-zealands-world-cup-qualification",
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
     "team_id": "sweden",
     "team_name": "Sweden",
     "staff_id": "sweden:staff:graham-potter",

@@ -480,7 +480,7 @@ football-data-platform/
 
 - 人物 master 只保存可追溯事实。
 - `person_id_map` 只保存外部 provider ID 映射，不能覆盖 `players` 或 `rosters` 的官方事实字段。
-- `team_staff` 用于球队教练/工作人员档案。当前 8 支已有官方名单球队已补主教练数据，来源为对应 FIFA 官方名单文章，发布到 `data/public/team-staff.json`、`api/worldcup/2026/core/team-staff.json` 和 predictor API。
+- `team_staff` 用于球队教练/工作人员档案。当前已补 10 支球队主教练数据，来源为对应 FIFA 官方文章，发布到 `data/public/team-staff.json`、`api/worldcup/2026/core/team-staff.json` 和 predictor API。
 - 教练生日/年龄只有在有可靠来源时才填；当前未审计生日来源的行保留 `date_of_birth=null`、`age=null`，避免伪造事实。
 - 能力评分必须保留 `source`、`sample_size`、`time_window`、`confidence`。
 - 风格画像必须由规则标签和 evidence 生成，不允许仅凭姓名或主观印象生成。
@@ -863,8 +863,8 @@ predictor 全量数据资产当前边界：
 - 已迁移：API-FOOTBALL 阵容和伤停采集，直接写 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
 - 已增强：天气采集优先使用 OpenWeather；无 key 或 OpenWeather 失败时 fallback 到无 key的 Open-Meteo 16 天预报窗口，直接写 `data/normalized/world_cup_2026_model_weather_master.json`
 - 已增强：运行期采集器支持从未提交的 `.env.local` 读取 provider keys，避免把 `API_FOOTBALL_KEY`、`OPENWEATHER_API_KEY` 等敏感信息写入仓库或命令行日志
-- 已建立：rosters/players 契约、空 master/public 数据集、官方来源配置、手动 patch 导入脚本、发布脚本和 coverage 字段；真实名单需从官方来源导入
-- 已补齐：已有官方 26 人名单的 8 支球队主教练数据，通过 `data/patches/world_cup_2026_team_staff.manual.json` 和 `scripts/import_world_cup_team_staff_from_manual_patch.py` 进入 `person_team_staff_master.json`
+- 已建立：rosters/players 契约、master/public 数据集、官方来源配置、手动 patch 导入脚本、发布脚本和 coverage 字段；真实名单只从官方来源导入
+- 已补齐：已有官方 26 人名单的 9 支球队 roster / 234 名球员；10 支球队主教练数据，通过 `data/patches/world_cup_2026_team_staff.manual.json` 和 `scripts/import_world_cup_team_staff_from_manual_patch.py` 进入 `person_team_staff_master.json`
 - 已建立：team_world_cup_history / team_recent_matches 契约、master/public 数据集、发布脚本和 World Cup site/predictor API 输出；近期比赛已有第一版，历届世界杯战绩仍需 audited historical source 填充
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
 - 已增强：赛前新闻源列表由 `configs/prematch_news/world_cup_2026.json` 配置，`sources/prematch_news.py` 保留内置 fallback；采集结果和 `reports/world_cup_runtime_collection_report.json` 会记录 source 级 freshness（`last_checked_at`、`status`、`pages_collected`、错误信息）

@@ -5,7 +5,7 @@
     "fixtures": 104,
     "results": 104,
     "standings": 48,
-    "team_staff": 8,
+    "team_staff": 10,
     "team_world_cup_history": 48,
     "team_recent_matches": 48,
     "predictions": 104,
@@ -35,9 +35,9 @@
     "injuries_available": 0,
     "weather_available": 0,
     "rosters_available": 3,
-    "rosters_partial": 18,
-    "team_staff_available": 3,
-    "team_staff_partial": 18
+    "rosters_partial": 21,
+    "team_staff_available": 4,
+    "team_staff_partial": 22
   },
   "world_cup_sources": {
     "detail_extract": {

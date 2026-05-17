@@ -8,7 +8,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-13",
-    "updated_at": "2026-05-17T09:59:57.811486+00:00",
+    "updated_at": "2026-05-17T10:29:18.590489+00:00",
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
     "sources": [
       "official_fifa"
@@ -236,7 +236,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-10",
-    "updated_at": "2026-05-17T09:59:57.811486+00:00",
+    "updated_at": "2026-05-17T10:29:18.590489+00:00",
     "source_url": "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad",
     "sources": [
       "official_fifa"
@@ -464,7 +464,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-15",
-    "updated_at": "2026-05-17T09:59:57.811486+00:00",
+    "updated_at": "2026-05-17T10:29:18.590489+00:00",
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae",
     "sources": [
       "official_fifa"
@@ -692,7 +692,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-14",
-    "updated_at": "2026-05-17T09:59:57.811486+00:00",
+    "updated_at": "2026-05-17T10:29:18.590489+00:00",
     "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
     "sources": [
       "official_fifa"
@@ -920,7 +920,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-15",
-    "updated_at": "2026-05-17T09:59:57.811486+00:00",
+    "updated_at": "2026-05-17T10:29:18.590489+00:00",
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne",
     "sources": [
       "official_fifa"
@@ -1148,7 +1148,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-15",
-    "updated_at": "2026-05-17T09:59:57.811486+00:00",
+    "updated_at": "2026-05-17T10:29:18.590489+00:00",
     "source_url": "https://www.fifa.com/en/news/articles/japan-squad-announcement",
     "sources": [
       "official_fifa"
@@ -1370,13 +1370,241 @@
   {
     "competition_id": "fifa_world_cup",
     "season_id": "2026",
+    "team_id": "korea-republic",
+    "team_name": "Korea Republic",
+    "roster_type": "announced_26_provisional_until_fifa_final",
+    "source_status": "official_fifa",
+    "confidence": "high",
+    "published_at": "2026-05-16",
+    "updated_at": "2026-05-17T10:29:18.590489+00:00",
+    "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_refs": {
+      "fifa_article": "korea-republic-world-cup-squad-hong-myungbo"
+    },
+    "players": [
+      {
+        "player_id": "korea-republic:player:song-bumkeun",
+        "name": "Song Bumkeun",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:jo-hyeonwoo",
+        "name": "Jo Hyeonwoo",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:kim-seung-gyu",
+        "name": "Kim Seung-gyu",
+        "position": "GK",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:jens-castrop",
+        "name": "Jens Castrop",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:lee-hanbeom",
+        "name": "Lee Hanbeom",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:park-jinseob",
+        "name": "Park Jinseob",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:lee-kihyuk",
+        "name": "Lee Kihyuk",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:kim-minjae",
+        "name": "Kim Minjae",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:kim-moonhwan",
+        "name": "Kim Moonhwan",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:kim-taehyeon",
+        "name": "Kim Taehyeon",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:lee-taeseok",
+        "name": "Lee Taeseok",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:seol-youngwoo",
+        "name": "Seol Youngwoo",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:cho-yumin",
+        "name": "Cho Yumin",
+        "position": "DF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:lee-donggyeong",
+        "name": "Lee Donggyeong",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:hwang-heechan",
+        "name": "Hwang Heechan",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:yang-hyunjun",
+        "name": "Yang Hyunjun",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:hwang-inbeom",
+        "name": "Hwang Inbeom",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:lee-jaesung",
+        "name": "Lee Jaesung",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:kim-jingyu",
+        "name": "Kim Jingyu",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:eom-jisung",
+        "name": "Eom Jisung",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:bae-junho",
+        "name": "Bae Junho",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:lee-kangin",
+        "name": "Lee Kangin",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:paik-seungho",
+        "name": "Paik Seungho",
+        "position": "MF",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:cho-guesung",
+        "name": "Cho Guesung",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:son-heungmin",
+        "name": "Son Heungmin",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      },
+      {
+        "player_id": "korea-republic:player:oh-hyeongyu",
+        "name": "Oh Hyeongyu",
+        "position": "FW",
+        "shirt_number": null,
+        "club": null,
+        "status": "selected"
+      }
+    ]
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
     "team_id": "sweden",
     "team_name": "Sweden",
     "roster_type": "announced_26_provisional_until_fifa_final",
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-11",
-    "updated_at": "2026-05-17T09:59:57.811486+00:00",
+    "updated_at": "2026-05-17T10:29:18.590489+00:00",
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-squad-announcement-world-cup-graham-potter",
     "sources": [
       "official_fifa"
@@ -1604,7 +1832,7 @@
     "source_status": "official_fifa",
     "confidence": "high",
     "published_at": "2026-05-15",
-    "updated_at": "2026-05-17T09:59:57.811486+00:00",
+    "updated_at": "2026-05-17T10:29:18.590489+00:00",
     "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi",
     "sources": [
       "official_fifa"

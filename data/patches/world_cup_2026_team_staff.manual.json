@@ -74,6 +74,24 @@
       "status": "active",
       "source_status": "official_fifa",
       "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi"
+    },
+    {
+      "team_id": "korea-republic",
+      "name": "Hong Myungbo",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo"
+    },
+    {
+      "team_id": "new-zealand",
+      "name": "Darren Bazeley",
+      "role": "head_coach",
+      "role_zh": "主教练",
+      "status": "active",
+      "source_status": "official_fifa",
+      "source_url": "https://inside.fifa.com/about-fifa/organisation/news/darren-bazeley-on-new-zealands-world-cup-qualification"
     }
   ]
 }
