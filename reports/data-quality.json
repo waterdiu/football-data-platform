@@ -114,14 +114,14 @@
       "status": "attention",
       "severity": "P0",
       "title": "World Cup injury source status",
-      "detail": "Injury source status is plan_restricted. Placeholder rows are not proof of no injuries.",
+      "detail": "Injury source status is missing_auth. Placeholder rows are not proof of no injuries.",
       "evidence": {
         "rows": 104,
         "source_status_counts": {
-          "plan_restricted": 104
+          "missing_auth": 104
         },
-        "runtime_status": "plan_restricted",
-        "runtime_status_reason": "Free plans do not have access to this season, try from 2022 to 2024."
+        "runtime_status": "missing_auth",
+        "runtime_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
       },
       "runbook": "Use official/FIFA/news manual evidence for critical absences until a provider plan with World Cup coverage is approved."
     },
