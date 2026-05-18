@@ -500,7 +500,8 @@ football-data-platform/
 Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
 
 - `coach-profiles.json` 的 48 名主教练都有 `derived.metrics`，来源为 `data/public/team-recent-matches.json` 的国家队近 10 场代理指标；字段包括 `matches_managed_total`、`w_total`、`d_total`、`l_total`、`win_rate_pct`、`goals_for_per_match`、`goals_against_per_match`、`clean_sheet_rate_pct` 和 `recent_10_form`。该指标只用于页面呈现和低样本提示，不等同完整教练职业生涯战绩。
-- `player-profiles.json` 对当前 234 名已导入官方名单球员输出 `field_coverage`、`impact_box` 和 `pending_source` basis。当前官方名单源不含 `club`、`shirt_number`、`date_of_birth`、`caps`、`goals` 等可靠字段，因此这些字段保持 `null`，不得填 0 或推断值。
+- `player-profiles.json` 对当前 234 名已导入官方名单球员输出 `field_coverage`、`impact_box` 和 `pending_source` basis。当前通过 Reep `key_transfermarkt` 映射接入 dcaribou Transfermarkt 离线数据，补充 `player-external-facts.json` 197 条；其中 190 条有俱乐部、caps、goals，197 条有 DOB/age，196 条有展示型 `impact_proxy_score`。`shirt_number` 仍无可靠来源，保持 `null + pending_source`。这些第三方事实只补充 profile，不覆盖官方 roster master。
+- `coach-profiles.json` 通过 Reep coach rows 补充 `staff-external-facts.json` 44 条；当前 43 名主教练有 nationality，44 名有 DOB/age。`appointed_at` 与 `contract_until` 仍无可靠结构化来源，保持 `pending_source`。
 - `referee-profiles.json` 发布 50 名英超历史裁判样本，`direct.assigned_matches=[]` 且 `assignment_status=missing_referee_assignment`。这仍不是世界杯裁判名单或单场裁判指派。
 - `sections[]` 支持 `identity`、`data_grid`、`kpi_strip`、`ability_bars`、`impact_box`、`career_summary`、`production_metrics`、`officiating_metrics` 和 `style_distillation`，消费端只负责渲染和隐藏缺失模块。
 
@@ -510,6 +511,7 @@ Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
 - `person_id_map` 只保存外部 provider ID 映射，不能覆盖 `players` 或 `rosters` 的官方事实字段。
 - `team_staff` 用于球队教练/工作人员档案。当前已补 48 支球队主教练数据，来源为对应 FIFA 官方文章，发布到 `data/public/team-staff.json`、`api/worldcup/2026/core/team-staff.json` 和 predictor API。
 - 教练生日/年龄只有在有可靠来源时才填；当前未审计生日来源的行保留 `date_of_birth=null`、`age=null`，避免伪造事实。
+- `player-external-facts` 与 `staff-external-facts` 是第三方补充事实层，必须通过 `field_sources` 标明来源；消费端展示时应把它们视为补充资料，不应当成 FIFA 官方名单事实。
 - `officials` / `official-ratings` 当前由 `scripts/build_referee_sample_profiles.py` 从 `data/predictor-assets/files/processed/premier_league_matches.csv` 的 `referee`、红黄牌和赛果字段派生，发布 50 名英超历史裁判样本画像。该数据的 `source_status=historical_sample_only`，只能作为模型解释和裁判风格样本，不能解释为 2026 世界杯裁判名单、裁判国籍或单场裁判指派。
 - 能力评分必须保留 `source`、`sample_size`、`time_window`、`confidence`。
 - 风格画像必须由规则标签和 evidence 生成，不允许仅凭姓名或主观印象生成。

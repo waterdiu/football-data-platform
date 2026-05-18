@@ -10,6 +10,8 @@
     "referee_metric_minimum_sample_matches": 20,
     "phase": "phase_1_5_renderable_profiles",
     "coach_derived_basis": "team recent-match proxy from data/public/team-recent-matches.json",
+    "coach_external_fact_source": "withqwerty/reep coach rows for nationality/date_of_birth/age",
+    "player_external_fact_source": "dcaribou/transfermarkt-datasets via Reep key_transfermarkt mapping",
     "player_missing_field_policy": "explicit null plus pending_source; never fill with zero or inferred facts"
   },
   "counts": {
@@ -19,6 +21,8 @@
     "referee-profiles.json": 50,
     "team-staff.json": 48,
     "officials.json": 50,
+    "player-external-facts.json": 197,
+    "staff-external-facts.json": 44,
     "player-ratings.json": 0,
     "staff-ratings.json": 0,
     "official-ratings.json": 50,
@@ -31,6 +35,8 @@
     "referee-profiles.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/referee-profiles.json",
     "team-staff.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/team-staff.json",
     "officials.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/officials.json",
+    "player-external-facts.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/player-external-facts.json",
+    "staff-external-facts.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/staff-external-facts.json",
     "player-ratings.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/player-ratings.json",
     "staff-ratings.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/staff-ratings.json",
     "official-ratings.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/official-ratings.json",

@@ -317,7 +317,9 @@ def main() -> None:
     team_world_cup_history = load_json(PUBLIC_DIR / "team-world-cup-history.json")
     team_recent_matches = load_json(PUBLIC_DIR / "team-recent-matches.json")
     team_staff = load_json(PUBLIC_DIR / "team-staff.json")
+    staff_external_facts = load_json(PUBLIC_DIR / "staff-external-facts.json")
     officials = load_json(PUBLIC_DIR / "officials.json")
+    player_external_facts = load_json(PUBLIC_DIR / "player-external-facts.json")
     player_ratings = load_json(PUBLIC_DIR / "player-ratings.json")
     staff_ratings = load_json(PUBLIC_DIR / "staff-ratings.json")
     official_ratings = load_json(PUBLIC_DIR / "official-ratings.json")
@@ -368,7 +370,9 @@ def main() -> None:
         "team-world-cup-history.json": team_world_cup_history,
         "team-recent-matches.json": team_recent_matches,
         "team-staff.json": team_staff,
+        "staff-external-facts.json": staff_external_facts,
         "officials.json": officials,
+        "player-external-facts.json": player_external_facts,
         "player-ratings.json": player_ratings,
         "staff-ratings.json": staff_ratings,
         "official-ratings.json": official_ratings,

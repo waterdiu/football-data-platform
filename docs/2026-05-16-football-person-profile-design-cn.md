@@ -466,8 +466,8 @@ World Cup API：
 Phase 1.5 人物页可渲染 profile 已落地：
 
 - `people-index.json` 是人物搜索/跳转索引，覆盖教练、球员、裁判三类。
-- `coach-profiles.json` 当前由 48 支球队主教练 direct facts 生成，并用 `data/public/team-recent-matches.json` 补充国家队近 10 场代理派生指标。
-- `player-profiles.json` 当前由已导入 FIFA 官方名单球员 direct facts 生成；官方名单未提供的 `club`、`shirt_number`、`date_of_birth`、`caps`、`goals`、`absence_impact_pct` 以 `null` + `pending_source` 明确标记。
+- `coach-profiles.json` 当前由 48 支球队主教练 direct facts 生成，并用 `data/public/team-recent-matches.json` 补充国家队近 10 场代理派生指标；同时通过 Reep coach rows 补充 `staff-external-facts.json` 44 条，覆盖 43 名教练 nationality 和 44 名教练 DOB/age。
+- `player-profiles.json` 当前由已导入 FIFA 官方名单球员 direct facts 生成；通过 Reep `key_transfermarkt` 映射接入 dcaribou Transfermarkt 离线数据后，`player-external-facts.json` 发布 197 条补充事实，覆盖 190 名球员 club/caps/goals、197 名球员 DOB/age、196 名球员展示型 impact proxy。官方名单未提供且当前外部源也不能稳定提供的 `shirt_number`、`absence_impact_pct` 继续以 `null` + `pending_source` 明确标记。
 - `referee-profiles.json` 当前由英超历史裁判样本生成 50 条可渲染 profile；`source_status=historical_sample_only`，`assigned_matches=[]`，不代表 2026 世界杯裁判名单或指派。
 
 profile 记录必须包含：
@@ -483,6 +483,8 @@ profile 记录必须包含：
 - `updated_at`
 
 其中 `direct` 是采集事实，`derived` 是可复现计算，`distilled` 是风格蒸馏。世界杯前允许发布 direct-first profile；任何没有样本支撑的派生指标必须标记 `pending_source`，任何风格画像必须标记 `distillation_status=insufficient_sample`。教练近 10 场指标是国家队近期状态代理，不是完整教练职业生涯统计，必须在 `basis.method` 中保留该说明。
+
+`player-external-facts.json` 与 `staff-external-facts.json` 是第三方补充事实层，只用于补强 profile 展示密度；它们不能覆盖 `players.json`、`rosters.json` 或 `team-staff.json` 中来自 FIFA/足协的官方事实。消费端应读取 profile 中的 `field_sources`，在需要时标出第三方来源。
 
 Phase 1.5 的可选 section 用于复刻人物页模块：
 

@@ -14,6 +14,8 @@ REPORTS_DIR = ROOT / "reports"
 DATASETS = {
     "person_team_staff_master.json": "team-staff.json",
     "person_officials_master.json": "officials.json",
+    "person_player_external_facts_master.json": "player-external-facts.json",
+    "person_staff_external_facts_master.json": "staff-external-facts.json",
     "person_player_ratings_master.json": "player-ratings.json",
     "person_staff_ratings_master.json": "staff-ratings.json",
     "person_official_ratings_master.json": "official-ratings.json",
@@ -21,6 +23,8 @@ DATASETS = {
 }
 
 TEAM_RECENT_MATCHES_PATH = PUBLIC_DIR / "team-recent-matches.json"
+PLAYER_EXTERNAL_FACTS_PATH = NORMALIZED_DIR / "person_player_external_facts_master.json"
+STAFF_EXTERNAL_FACTS_PATH = NORMALIZED_DIR / "person_staff_external_facts_master.json"
 
 
 def load_json(path: Path) -> object:
@@ -185,23 +189,52 @@ def build_direct_field_coverage(fields: dict) -> dict:
     return {key: field_status(value) for key, value in fields.items()}
 
 
-def build_coach_profile(staff: dict, team_recent: dict | None = None) -> dict:
+def source_compact_from_external_fact(fact: dict | None) -> dict:
+    if not isinstance(fact, dict):
+        return {}
+    source_url = fact.get("source_url")
+    return {
+        "source_status": fact.get("source_status"),
+        "source": fact.get("source"),
+        "source_url": source_url,
+        "source_refs": fact.get("source_refs") if isinstance(fact.get("source_refs"), dict) else {},
+        "confidence": fact.get("confidence"),
+        "updated_at": fact.get("updated_at"),
+    }
+
+
+def build_coach_profile(staff: dict, team_recent: dict | None = None, external_fact: dict | None = None) -> dict:
     person_id = staff.get("staff_id")
     derived, coach_metrics, ability_bars = build_coach_recent_metrics(team_recent)
     record = coach_metrics.get("recent_10_form") if isinstance(coach_metrics.get("recent_10_form"), dict) else {}
     record_value = None
     if record:
         record_value = f"{record.get('won', 0)}-{record.get('drawn', 0)}-{record.get('lost', 0)}"
+    external_direct = external_fact.get("direct") if isinstance(external_fact, dict) and isinstance(external_fact.get("direct"), dict) else {}
+    nationality = staff.get("nationality") or external_direct.get("nationality")
+    date_of_birth = staff.get("date_of_birth") or external_direct.get("date_of_birth")
+    age = staff.get("age") or external_direct.get("age")
     direct_fields = {
         "staff_id": staff.get("staff_id"),
         "status": staff.get("status"),
-        "nationality": staff.get("nationality"),
-        "date_of_birth": staff.get("date_of_birth"),
-        "age": staff.get("age"),
+        "nationality": nationality,
+        "date_of_birth": date_of_birth,
+        "age": age,
         "appointed_at": staff.get("appointed_at"),
         "contract_until": staff.get("contract_until"),
         "current_team_display": staff.get("team_name"),
     }
+    direct_coverage = build_direct_field_coverage(direct_fields)
+    field_sources = {
+        "staff_id": "official_fifa",
+        "status": "official_fifa",
+        "current_team_display": "official_fifa",
+        "appointed_at": "pending_source",
+        "contract_until": "pending_source",
+    }
+    for key in ("nationality", "date_of_birth", "age"):
+        if direct_coverage.get(key) == "available":
+            field_sources[key] = external_fact.get("source_status") if isinstance(external_fact, dict) else "unknown"
     profile = {
         "person_id": person_id,
         "person_type": "coach",
@@ -220,7 +253,9 @@ def build_coach_profile(staff: dict, team_recent: dict | None = None) -> dict:
         "role_zh": staff.get("role_zh"),
         "direct": {
             **direct_fields,
-            "field_coverage": build_direct_field_coverage(direct_fields),
+            "field_coverage": direct_coverage,
+            "field_sources": field_sources,
+            "external_fact": source_compact_from_external_fact(external_fact),
         },
         "derived": derived,
         "distilled": {
@@ -237,9 +272,9 @@ def build_coach_profile(staff: dict, team_recent: dict | None = None) -> dict:
             {"key": "style_profile", "label": "Style profile", "label_zh": "风格画像", "value": "insufficient_sample", "unit": None, **data_badge("distilled", "distilled", "insufficient_sample")},
         ],
         "sections": [
-            {"type": "identity", "data_tier": "direct", "status": "available", "fields": {**direct_fields, **compact_sources(staff)}},
+            {"type": "identity", "data_tier": "direct", "status": "available", "fields": {**direct_fields, **compact_sources(staff), "external_fact": source_compact_from_external_fact(external_fact)}},
             {"type": "kpi_strip", "data_tier": "derived", "status": derived.get("status"), "metrics": coach_metrics, "basis": derived.get("basis")},
-            {"type": "data_grid", "data_tier": "direct", "status": "available", "fields": direct_fields, "field_coverage": build_direct_field_coverage(direct_fields)},
+            {"type": "data_grid", "data_tier": "direct", "status": "partial", "fields": direct_fields, "field_coverage": direct_coverage, "field_sources": field_sources},
             {"type": "ability_bars", "data_tier": "derived", "status": derived.get("status"), "items": ability_bars, "basis": derived.get("basis")},
             {"type": "career_summary", "data_tier": "derived", "status": derived.get("status"), "basis": derived.get("basis"), "metrics": coach_metrics},
             {"type": "style_distillation", "data_tier": "distilled", "status": "insufficient_sample", "basis": {"sample_size_matches": int(derived.get("sample_size_matches") or 0), "minimum_required": 30}},
@@ -250,24 +285,79 @@ def build_coach_profile(staff: dict, team_recent: dict | None = None) -> dict:
     return profile
 
 
-def build_player_profile(player: dict) -> dict:
+def build_player_profile(player: dict, external_fact: dict | None = None) -> dict:
+    external_direct = external_fact.get("direct") if isinstance(external_fact, dict) and isinstance(external_fact.get("direct"), dict) else {}
+    external_derived = external_fact.get("derived") if isinstance(external_fact, dict) and isinstance(external_fact.get("derived"), dict) else {}
+    club = player.get("club") or external_direct.get("club")
+    date_of_birth = player.get("date_of_birth") or external_direct.get("date_of_birth")
+    age = player.get("age") or external_direct.get("age")
     direct_fields = {
         "player_id": player.get("player_id"),
         "position": player.get("position"),
         "shirt_number": player.get("shirt_number"),
-        "club": player.get("club"),
-        "date_of_birth": player.get("date_of_birth"),
-        "age": player.get("age"),
+        "club": club,
+        "date_of_birth": date_of_birth,
+        "age": age,
         "status": player.get("status") or "selected",
+        "country_of_citizenship": external_direct.get("country_of_citizenship"),
+        "height_cm": external_direct.get("height_cm"),
+        "foot": external_direct.get("foot"),
+        "sub_position": external_direct.get("sub_position"),
+        "image_url": external_direct.get("image_url"),
     }
     direct_coverage = build_direct_field_coverage(direct_fields)
-    derived_basis = {
-        "sample_size_matches": 0,
-        "window": None,
-        "competition_scope": None,
-        "source": None,
-        "method": "Pending reliable caps/goals/minutes/club source. Missing values are explicit nulls, not zero.",
+    field_sources = {
+        "player_id": "official_fifa",
+        "position": "official_fifa",
+        "status": "official_fifa",
     }
+    for key in ("club", "date_of_birth", "age", "country_of_citizenship", "height_cm", "foot", "sub_position", "image_url"):
+        if direct_coverage.get(key) == "available":
+            field_sources[key] = external_fact.get("source_status") if isinstance(external_fact, dict) else "unknown"
+    for key in ("shirt_number",):
+        field_sources[key] = "pending_source"
+    metrics = {
+        key: value
+        for key, value in {
+            "caps": external_derived.get("caps"),
+            "goals": external_derived.get("goals"),
+            "market_value_eur": external_derived.get("market_value_eur"),
+            "highest_market_value_eur": external_derived.get("highest_market_value_eur"),
+            "impact_proxy_score": external_derived.get("impact_proxy_score"),
+        }.items()
+        if value is not None
+    }
+    derived_status = "available" if metrics else "pending_source"
+    sample_size = int(metrics.get("caps") or 0)
+    derived_basis = {
+        "sample_size_matches": sample_size,
+        "window": "career" if metrics else None,
+        "competition_scope": "international_caps_transfermarkt" if metrics else None,
+        "source": "data/normalized/person_player_external_facts_master.json" if metrics else None,
+        "method": "Third-party Transfermarkt dataset facts and a simple display impact proxy; missing values are explicit nulls, not zero." if metrics else "Pending reliable caps/goals/minutes/club source. Missing values are explicit nulls, not zero.",
+        "external_fact": source_compact_from_external_fact(external_fact),
+    }
+    impact_box = {
+        "status": "available" if metrics.get("impact_proxy_score") is not None else "pending_source",
+        "impact_proxy_score": metrics.get("impact_proxy_score"),
+        "absence_impact_pct": None,
+        "absence_impact_explain_zh": "当前仅有基于身价、国家队出场和国家队进球的展示型影响力代理分；不是缺阵百分比。"
+        if metrics.get("impact_proxy_score") is not None
+        else None,
+        "absence_impact_explain_en": "Current value is a display-only impact proxy from market value, international caps, and goals; it is not an absence-impact percentage."
+        if metrics.get("impact_proxy_score") is not None
+        else None,
+        "basis": derived_basis,
+    }
+    ability_items = []
+    if metrics.get("caps") is not None:
+        ability_items.append({"key": "international_experience", "label": "International experience", "label_zh": "国家队经验", "value": clamp_rating((metrics["caps"] / 100) * 100), "unit": "rating", **data_badge("derived", "derived", "available")})
+    if metrics.get("goals") is not None:
+        ability_items.append({"key": "international_goals", "label": "International goals", "label_zh": "国家队进球", "value": clamp_rating((metrics["goals"] / 50) * 100), "unit": "rating", **data_badge("derived", "derived", "available")})
+    if metrics.get("market_value_eur") is not None:
+        ability_items.append({"key": "market_value_proxy", "label": "Market value proxy", "label_zh": "身价代理", "value": clamp_rating((metrics["market_value_eur"] / 100_000_000) * 100), "unit": "rating", **data_badge("derived", "derived", "available")})
+    if metrics.get("impact_proxy_score") is not None:
+        ability_items.append({"key": "impact_proxy_score", "label": "Impact proxy", "label_zh": "影响力代理", "value": metrics["impact_proxy_score"], "unit": "rating", **data_badge("derived", "derived", "available")})
     profile = {
         "person_id": player.get("player_id"),
         "person_type": "player",
@@ -287,21 +377,17 @@ def build_player_profile(player: dict) -> dict:
         "direct": {
             **direct_fields,
             "field_coverage": direct_coverage,
+            "field_sources": field_sources,
+            "external_fact": source_compact_from_external_fact(external_fact),
         },
         "derived": {
-            "status": "pending_source",
-            "sample_size_matches": 0,
-            "window": None,
-            "competition_scope": None,
-            "metrics": {},
+            "status": derived_status,
+            "sample_size_matches": sample_size,
+            "window": "career" if metrics else None,
+            "competition_scope": "international_caps_transfermarkt" if metrics else None,
+            "metrics": metrics,
             "basis": derived_basis,
-            "impact_box": {
-                "status": "pending_source",
-                "absence_impact_pct": None,
-                "absence_impact_explain_zh": None,
-                "absence_impact_explain_en": None,
-                "basis": derived_basis,
-            },
+            "impact_box": impact_box,
         },
         "distilled": {
             "distillation_status": "insufficient_sample",
@@ -311,18 +397,20 @@ def build_player_profile(player: dict) -> dict:
         },
         "kpis": [
             {"key": "position", "label": "Position", "label_zh": "位置", "value": player.get("position"), "unit": None, **data_badge("direct", "direct")},
-            {"key": "club", "label": "Club", "label_zh": "俱乐部", "value": player.get("club"), "unit": None, **data_badge("direct", "direct", direct_coverage.get("club", "pending_source"))},
+            {"key": "club", "label": "Club", "label_zh": "俱乐部", "value": club, "unit": None, **data_badge("direct", "direct", direct_coverage.get("club", "pending_source"))},
             {"key": "shirt_number", "label": "Shirt number", "label_zh": "号码", "value": player.get("shirt_number"), "unit": None, **data_badge("direct", "direct", direct_coverage.get("shirt_number", "pending_source"))},
-            {"key": "impact_score", "label": "Impact score", "label_zh": "影响力分", "value": None, "unit": None, **data_badge("derived", "derived", "pending_source")},
+            {"key": "caps", "label": "Caps", "label_zh": "国家队出场", "value": metrics.get("caps"), "unit": None, **data_badge("derived", "derived", derived_status)},
+            {"key": "goals", "label": "Goals", "label_zh": "国家队进球", "value": metrics.get("goals"), "unit": None, **data_badge("derived", "derived", derived_status)},
+            {"key": "impact_score", "label": "Impact score", "label_zh": "影响力分", "value": metrics.get("impact_proxy_score"), "unit": "proxy", **data_badge("derived", "derived", impact_box["status"])},
             {"key": "style_profile", "label": "Style profile", "label_zh": "风格画像", "value": "insufficient_sample", "unit": None, **data_badge("distilled", "distilled", "insufficient_sample")},
         ],
         "sections": [
             {"type": "identity", "data_tier": "direct", "status": "available", "fields": {**direct_fields, **compact_sources(player)}},
             {"type": "data_grid", "data_tier": "direct", "status": "partial", "fields": direct_fields, "field_coverage": direct_coverage},
-            {"type": "kpi_strip", "data_tier": "derived", "status": "pending_source", "metrics": {}, "basis": derived_basis},
-            {"type": "ability_bars", "data_tier": "derived", "status": "pending_source", "items": [], "basis": derived_basis},
-            {"type": "impact_box", "data_tier": "derived", "status": "pending_source", "absence_impact_pct": None, "basis": derived_basis},
-            {"type": "production_metrics", "data_tier": "derived", "status": "pending_source", "basis": derived_basis, "metrics": {}},
+            {"type": "kpi_strip", "data_tier": "derived", "status": derived_status, "metrics": metrics, "basis": derived_basis},
+            {"type": "ability_bars", "data_tier": "derived", "status": derived_status, "items": ability_items, "basis": derived_basis},
+            {"type": "impact_box", "data_tier": "derived", **impact_box},
+            {"type": "production_metrics", "data_tier": "derived", "status": derived_status, "basis": derived_basis, "metrics": metrics},
             {"type": "style_distillation", "data_tier": "distilled", "status": "insufficient_sample", "basis": {"sample_size_matches": 0, "minimum_required": 30}},
         ],
         "data_tiers": ["direct", "derived", "distilled"],
@@ -408,6 +496,28 @@ def load_team_recent_matches() -> dict[str, dict]:
     }
 
 
+def load_player_external_facts() -> dict[str, dict]:
+    if not PLAYER_EXTERNAL_FACTS_PATH.exists():
+        return {}
+    rows = ensure_list(load_json(PLAYER_EXTERNAL_FACTS_PATH), "person_player_external_facts_master.json")
+    return {
+        str(row.get("player_id")): row
+        for row in rows
+        if row.get("player_id")
+    }
+
+
+def load_staff_external_facts() -> dict[str, dict]:
+    if not STAFF_EXTERNAL_FACTS_PATH.exists():
+        return {}
+    rows = ensure_list(load_json(STAFF_EXTERNAL_FACTS_PATH), "person_staff_external_facts_master.json")
+    return {
+        str(row.get("staff_id")): row
+        for row in rows
+        if row.get("staff_id")
+    }
+
+
 def index_row(profile: dict) -> dict:
     return {
         "person_id": profile.get("person_id"),
@@ -440,13 +550,22 @@ def main() -> None:
     official_ratings = ensure_list(load_json(NORMALIZED_DIR / "person_official_ratings_master.json"), "person_official_ratings_master.json")
     official_ratings_by_entity = rating_by_entity_id(official_ratings)
     team_recent_by_id = load_team_recent_matches()
+    player_external_facts_by_id = load_player_external_facts()
+    staff_external_facts_by_id = load_staff_external_facts()
 
     coach_profiles = [
-        build_coach_profile(row, team_recent_by_id.get(str(row.get("team_id") or "")))
+        build_coach_profile(
+            row,
+            team_recent_by_id.get(str(row.get("team_id") or "")),
+            staff_external_facts_by_id.get(str(row.get("staff_id") or "")),
+        )
         for row in team_staff
         if row.get("role") == "head_coach"
     ]
-    player_profiles = [build_player_profile(row) for row in players]
+    player_profiles = [
+        build_player_profile(row, player_external_facts_by_id.get(str(row.get("player_id") or "")))
+        for row in players
+    ]
     referee_profiles = [
         build_referee_profile(row, official_ratings_by_entity.get(str(row.get("official_id") or row.get("person_id") or "")))
         for row in officials
@@ -481,6 +600,8 @@ def main() -> None:
             "referee_metric_minimum_sample_matches": 20,
             "phase": "phase_1_5_renderable_profiles",
             "coach_derived_basis": "team recent-match proxy from data/public/team-recent-matches.json",
+            "coach_external_fact_source": "withqwerty/reep coach rows for nationality/date_of_birth/age",
+            "player_external_fact_source": "dcaribou/transfermarkt-datasets via Reep key_transfermarkt mapping",
             "player_missing_field_policy": "explicit null plus pending_source; never fill with zero or inferred facts",
         },
         "counts": counts,

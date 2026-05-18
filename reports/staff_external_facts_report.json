@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-05-18T12:12:07Z",
+  "status": "published",
+  "source": "withqwerty/reep people.csv",
+  "source_license": "CC0-1.0",
+  "policy": "External staff facts supplement public profiles and do not overwrite official FIFA/FA team-staff masters.",
+  "counts": {
+    "staff_considered": 48,
+    "matched_reep_coach_rows": 44,
+    "ambiguous_rows": 1,
+    "date_of_birth_available": 44,
+    "age_available": 44,
+    "nationality_available": 43
+  },
+  "outputs": {
+    "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_staff_external_facts_master.json"
+  }
+}

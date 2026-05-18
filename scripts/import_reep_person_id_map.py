@@ -25,6 +25,7 @@ TEAM_NATIONALITY_ALIASES = {
     "france": {"france"},
     "haiti": {"haiti"},
     "japan": {"japan"},
+    "korea-republic": {"south korea", "korea republic", "republic of korea"},
     "sweden": {"sweden"},
     "tunisia": {"tunisia"},
 }

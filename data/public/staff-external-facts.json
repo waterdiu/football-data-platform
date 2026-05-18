@@ -1,0 +1,882 @@
+[
+  {
+    "staff_id": "algeria:staff:vladimir-petkovic",
+    "team_id": "algeria",
+    "name": "Vladimir Petkovic",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c7d794213",
+      "key_wikidata": "Q123937",
+      "key_transfermarkt_manager": "1315"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Switzerland",
+      "date_of_birth": "1963-08-15",
+      "age": 62
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "argentina:staff:lionel-scaloni",
+    "team_id": "argentina",
+    "name": "Lionel Scaloni",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c493467d6",
+      "key_wikidata": "Q311586",
+      "key_transfermarkt_manager": "62271"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Argentina",
+      "date_of_birth": "1978-05-16",
+      "age": 48
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "australia:staff:tony-popovic",
+    "team_id": "australia",
+    "name": "Tony Popovic",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_ccb245142",
+      "key_wikidata": "Q361247",
+      "key_transfermarkt_manager": "20038"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Australia",
+      "date_of_birth": "1973-07-04",
+      "age": 52
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "austria:staff:ralf-rangnick",
+    "team_id": "austria",
+    "name": "Ralf Rangnick",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c49d51c89",
+      "key_wikidata": "Q57902",
+      "key_transfermarkt_manager": "196"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Germany",
+      "date_of_birth": "1958-06-29",
+      "age": 67
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "belgium:staff:rudi-garcia",
+    "team_id": "belgium",
+    "name": "Rudi Garcia",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cbc08a975",
+      "key_wikidata": "Q923131",
+      "key_transfermarkt_manager": "1537"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "France",
+      "date_of_birth": "1964-02-20",
+      "age": 62
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "bosnia-and-herzegovina:staff:sergej-barbarez",
+    "team_id": "bosnia-and-herzegovina",
+    "name": "Sergej Barbarez",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cecaaf2a3",
+      "key_wikidata": "Q431455",
+      "key_transfermarkt_manager": "8649"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Bosnia and Herzegovina",
+      "date_of_birth": "1971-09-17",
+      "age": 54
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "brazil:staff:carlo-ancelotti",
+    "team_id": "brazil",
+    "name": "Carlo Ancelotti",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cbda1292f",
+      "key_wikidata": "Q174614",
+      "key_transfermarkt_manager": "523"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Italy",
+      "date_of_birth": "1959-06-10",
+      "age": 66
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "cabo-verde:staff:bubista",
+    "team_id": "cabo-verde",
+    "name": "Bubista",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c46dd5292",
+      "key_wikidata": "Q99597038",
+      "key_transfermarkt_manager": "84856"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": null,
+      "date_of_birth": "1970-01-06",
+      "age": 56
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "canada:staff:jesse-marsch",
+    "team_id": "canada",
+    "name": "Jesse Marsch",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cdfec4409",
+      "key_wikidata": "Q1336179",
+      "key_transfermarkt_manager": "17275"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "United States",
+      "date_of_birth": "1973-11-08",
+      "age": 52
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "colombia:staff:nestor-lorenzo",
+    "team_id": "colombia",
+    "name": "Nestor Lorenzo",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c59b89251",
+      "key_wikidata": "Q655975",
+      "key_transfermarkt_manager": "34086"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Argentina",
+      "date_of_birth": "1966-02-26",
+      "age": 60
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "congo-dr:staff:sebastien-desabre",
+    "team_id": "congo-dr",
+    "name": "Sebastien Desabre",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_ce9230e34",
+      "key_wikidata": "Q3510036",
+      "key_transfermarkt_manager": "28090"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "France",
+      "date_of_birth": "1976-08-02",
+      "age": 49
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "cote-divoire:staff:emerse-fae",
+    "team_id": "cote-divoire",
+    "name": "Emerse Fae",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c76c59491",
+      "key_wikidata": "Q726238",
+      "key_transfermarkt_manager": "63806"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "France",
+      "date_of_birth": "1984-01-24",
+      "age": 42
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "croatia:staff:zlatko-dalic",
+    "team_id": "croatia",
+    "name": "Zlatko Dalic",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c506eb5b5",
+      "key_wikidata": "Q8072990",
+      "key_transfermarkt_manager": "2711"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Croatia",
+      "date_of_birth": "1966-10-26",
+      "age": 59
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "curacao:staff:dick-advocaat",
+    "team_id": "curacao",
+    "name": "Dick Advocaat",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c4ffc6ece",
+      "key_wikidata": "Q11949",
+      "key_transfermarkt_manager": "3"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Kingdom of the Netherlands",
+      "date_of_birth": "1947-09-27",
+      "age": 78
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "czechia:staff:miroslav-koubek",
+    "team_id": "czechia",
+    "name": "Miroslav Koubek",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c622168ab",
+      "key_wikidata": "Q353844",
+      "key_transfermarkt_manager": "9822"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Czech Republic",
+      "date_of_birth": "1951-09-01",
+      "age": 74
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "ecuador:staff:sebastian-beccacece",
+    "team_id": "ecuador",
+    "name": "Sebastian Beccacece",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cdb362a66",
+      "key_wikidata": "Q7442628",
+      "key_transfermarkt_manager": "34076"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Argentina",
+      "date_of_birth": "1980-12-17",
+      "age": 45
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "egypt:staff:hossam-hassan",
+    "team_id": "egypt",
+    "name": "Hossam Hassan",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c5aeec554",
+      "key_wikidata": "Q448937",
+      "key_transfermarkt_manager": "6120"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Egypt",
+      "date_of_birth": "1966-08-10",
+      "age": 59
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "england:staff:thomas-tuchel",
+    "team_id": "england",
+    "name": "Thomas Tuchel",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c516a1a63",
+      "key_wikidata": "Q702233",
+      "key_transfermarkt_manager": "7471"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Germany",
+      "date_of_birth": "1973-08-29",
+      "age": 52
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "france:staff:didier-deschamps",
+    "team_id": "france",
+    "name": "Didier Deschamps",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cfd4b9a55",
+      "key_wikidata": "Q508711",
+      "key_transfermarkt_manager": "1229"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "France",
+      "date_of_birth": "1968-10-15",
+      "age": 57
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "germany:staff:julian-nagelsmann",
+    "team_id": "germany",
+    "name": "Julian Nagelsmann",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c68dd5e82",
+      "key_wikidata": "Q21226404",
+      "key_transfermarkt_manager": "8402"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Germany",
+      "date_of_birth": "1987-07-23",
+      "age": 38
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "ghana:staff:carlos-queiroz",
+    "team_id": "ghana",
+    "name": "Carlos Queiroz",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_ccba52057",
+      "key_wikidata": "Q313209",
+      "key_transfermarkt_manager": "552"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Portugal",
+      "date_of_birth": "1953-03-01",
+      "age": 73
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "haiti:staff:sebastien-migne",
+    "team_id": "haiti",
+    "name": "Sebastien Migne",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c468d5b57",
+      "key_wikidata": "Q16732573",
+      "key_transfermarkt_manager": "3747"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "France",
+      "date_of_birth": "1972-11-30",
+      "age": 53
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "ir-iran:staff:amir-ghalenoei",
+    "team_id": "ir-iran",
+    "name": "Amir Ghalenoei",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c7af8f9ff",
+      "key_wikidata": "Q472003",
+      "key_transfermarkt_manager": "9610"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Iran",
+      "date_of_birth": "1963-11-21",
+      "age": 62
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "iraq:staff:graham-arnold",
+    "team_id": "iraq",
+    "name": "Graham Arnold",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cb0fd9781",
+      "key_wikidata": "Q1336203",
+      "key_transfermarkt_manager": "3342"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Australia",
+      "date_of_birth": "1963-08-03",
+      "age": 62
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "japan:staff:hajime-moriyasu",
+    "team_id": "japan",
+    "name": "Hajime Moriyasu",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cefd4c9b8",
+      "key_wikidata": "Q2428403",
+      "key_transfermarkt_manager": "21905"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Japan",
+      "date_of_birth": "1968-08-23",
+      "age": 57
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "jordan:staff:jamal-sellami",
+    "team_id": "jordan",
+    "name": "Jamal Sellami",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c7bc60cb6",
+      "key_wikidata": "Q2407770",
+      "key_transfermarkt_manager": "25573"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Morocco",
+      "date_of_birth": "1970-10-06",
+      "age": 55
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "morocco:staff:mohamed-ouahbi",
+    "team_id": "morocco",
+    "name": "Mohamed Ouahbi",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c29bd21af",
+      "key_wikidata": "Q20973387",
+      "key_transfermarkt_manager": "36751"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Belgium",
+      "date_of_birth": "1976-09-07",
+      "age": 49
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "netherlands:staff:ronald-koeman",
+    "team_id": "netherlands",
+    "name": "Ronald Koeman",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_ceb6379c9",
+      "key_wikidata": "Q192635",
+      "key_transfermarkt_manager": "439"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Kingdom of the Netherlands",
+      "date_of_birth": "1963-03-21",
+      "age": 63
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "new-zealand:staff:darren-bazeley",
+    "team_id": "new-zealand",
+    "name": "Darren Bazeley",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c75dab205",
+      "key_wikidata": "Q8353918",
+      "key_transfermarkt_manager": "17293"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "United Kingdom",
+      "date_of_birth": "1972-10-05",
+      "age": 53
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "norway:staff:stale-solbakken",
+    "team_id": "norway",
+    "name": "Stale Solbakken",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c22138440",
+      "key_wikidata": "Q455291",
+      "key_transfermarkt_manager": "3419"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Norway",
+      "date_of_birth": "1968-02-27",
+      "age": 58
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "panama:staff:thomas-christiansen",
+    "team_id": "panama",
+    "name": "Thomas Christiansen",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cf96ff26a",
+      "key_wikidata": "Q505800",
+      "key_transfermarkt_manager": "36659"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Spain",
+      "date_of_birth": "1973-03-11",
+      "age": 53
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "paraguay:staff:gustavo-alfaro",
+    "team_id": "paraguay",
+    "name": "Gustavo Alfaro",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_ce79201ac",
+      "key_wikidata": "Q5621337",
+      "key_transfermarkt_manager": "4871"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Uruguay",
+      "date_of_birth": "1962-08-14",
+      "age": 63
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "portugal:staff:roberto-martinez",
+    "team_id": "portugal",
+    "name": "Roberto Martinez",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c0b94c8d2",
+      "key_wikidata": "Q357994",
+      "key_transfermarkt_manager": "4328"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Spain",
+      "date_of_birth": "1973-07-13",
+      "age": 52
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "qatar:staff:julen-lopetegui",
+    "team_id": "qatar",
+    "name": "Julen Lopetegui",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c17659161",
+      "key_wikidata": "Q115119",
+      "key_transfermarkt_manager": "6615"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Spain",
+      "date_of_birth": "1966-08-28",
+      "age": 59
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "saudi-arabia:staff:herve-renard",
+    "team_id": "saudi-arabia",
+    "name": "Herve Renard",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cc98cd250",
+      "key_wikidata": "Q463158",
+      "key_transfermarkt_manager": "6480"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "France",
+      "date_of_birth": "1968-09-30",
+      "age": 57
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "scotland:staff:steve-clarke",
+    "team_id": "scotland",
+    "name": "Steve Clarke",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cb8caac7b",
+      "key_wikidata": "Q379535",
+      "key_transfermarkt_manager": "2638"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "United Kingdom",
+      "date_of_birth": "1963-08-29",
+      "age": 62
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "senegal:staff:pape-thiaw",
+    "team_id": "senegal",
+    "name": "Pape Thiaw",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c442ca54c",
+      "key_wikidata": "Q924134",
+      "key_transfermarkt_manager": "112222"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Senegal",
+      "date_of_birth": "1981-02-05",
+      "age": 45
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "south-africa:staff:hugo-broos",
+    "team_id": "south-africa",
+    "name": "Hugo Broos",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c41715c8c",
+      "key_wikidata": "Q2224676",
+      "key_transfermarkt_manager": "706"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Belgium",
+      "date_of_birth": "1952-04-10",
+      "age": 74
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "sweden:staff:graham-potter",
+    "team_id": "sweden",
+    "name": "Graham Potter",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c94e58da3",
+      "key_wikidata": "Q5593150",
+      "key_transfermarkt_manager": "23954"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "United Kingdom",
+      "date_of_birth": "1975-05-20",
+      "age": 50
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "tunisia:staff:sabri-lamouchi",
+    "team_id": "tunisia",
+    "name": "Sabri Lamouchi",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cef365de9",
+      "key_wikidata": "Q1883",
+      "key_transfermarkt_manager": "24207"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "France",
+      "date_of_birth": "1971-11-09",
+      "age": 54
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "turkiye:staff:vincenzo-montella",
+    "team_id": "turkiye",
+    "name": "Vincenzo Montella",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_cbe968080",
+      "key_wikidata": "Q297768",
+      "key_transfermarkt_manager": "11795"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Italy",
+      "date_of_birth": "1974-06-18",
+      "age": 51
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "united-states:staff:mauricio-pochettino",
+    "team_id": "united-states",
+    "name": "Mauricio Pochettino",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c48ec25d0",
+      "key_wikidata": "Q313000",
+      "key_transfermarkt_manager": "9044"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Spain",
+      "date_of_birth": "1972-03-02",
+      "age": 54
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "uruguay:staff:marcelo-bielsa",
+    "team_id": "uruguay",
+    "name": "Marcelo Bielsa",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c9aea9cec",
+      "key_wikidata": "Q31575",
+      "key_transfermarkt_manager": "2553"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Argentina",
+      "date_of_birth": "1955-07-21",
+      "age": 70
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  },
+  {
+    "staff_id": "uzbekistan:staff:fabio-cannavaro",
+    "team_id": "uzbekistan",
+    "name": "Fabio Cannavaro",
+    "source_status": "third_party_reep_identity_dataset",
+    "source": "withqwerty/reep people.csv",
+    "source_license": "CC0-1.0",
+    "source_refs": {
+      "reep_id": "reep_c5cde7b5a",
+      "key_wikidata": "Q102027",
+      "key_transfermarkt_manager": "22575"
+    },
+    "confidence": "medium",
+    "direct": {
+      "nationality": "Italy",
+      "date_of_birth": "1973-09-13",
+      "age": 52
+    },
+    "updated_at": "2026-05-18T12:12:07Z"
+  }
+]

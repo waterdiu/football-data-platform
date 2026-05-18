@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-05-18T12:07:15Z",
+  "status": "published",
+  "source": "dcaribou/transfermarkt-datasets",
+  "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz",
+  "policy": "External facts supplement public profiles and do not overwrite official FIFA/FA roster masters.",
+  "counts": {
+    "players_considered": 234,
+    "id_map_rows": 234,
+    "matched_transfermarkt_rows": 197,
+    "club_available": 190,
+    "date_of_birth_available": 197,
+    "caps_available": 190,
+    "goals_available": 190,
+    "market_value_available": 164,
+    "impact_proxy_available": 196
+  },
+  "outputs": {
+    "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_player_external_facts_master.json"
+  }
+}
