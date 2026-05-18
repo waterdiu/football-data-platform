@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
+import unicodedata
 from collections import defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -22,6 +24,12 @@ PLAYERS_PATH = NORMALIZED_DIR / "world_cup_2026_players_master.json"
 ID_MAP_PATH = NORMALIZED_DIR / "person_id_map_master.json"
 OUTPUT_PATH = NORMALIZED_DIR / "person_player_dcaribou_activity_master.json"
 REPORT_PATH = REPORTS_DIR / "dcaribou_person_activity_import_report.json"
+
+TEAM_CITIZENSHIP_ALIASES = {
+    "korea-republic": {"korea, south", "south korea", "korea republic", "republic of korea"},
+}
+
+RE_NON_ALNUM = re.compile(r"[^a-z0-9]+")
 
 
 def now_utc() -> str:
@@ -58,6 +66,21 @@ def clean_int(value: object) -> int | None:
         return int(value)
     except (TypeError, ValueError):
         return None
+
+
+def strip_accents(value: str) -> str:
+    return "".join(
+        ch for ch in unicodedata.normalize("NFKD", value) if not unicodedata.combining(ch)
+    )
+
+
+def compact_name(value: str) -> str:
+    return RE_NON_ALNUM.sub("", strip_accents(value).lower())
+
+
+def reverse_compact_name(value: str) -> str:
+    parts = [part for part in re.split(r"\s+", strip_accents(value).strip()) if part]
+    return compact_name(" ".join(reversed(parts)))
 
 
 def row_dict(description: list[tuple], row: tuple) -> dict[str, Any]:
@@ -104,6 +127,104 @@ def build_target_players(players: list[dict[str, Any]], id_map: list[dict[str, A
             }
         )
     return targets, counts
+
+
+def build_dcaribou_name_fallback_targets(
+    con: Any,
+    players: list[dict[str, Any]],
+    id_map: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Use local dcaribou identity rows only when Reep has no TM id and the match is unique.
+
+    This is intentionally conservative. It handles deterministic spelling-order mismatches such
+    as Korean roster names ("Son Heungmin") vs Transfermarkt names ("Heung-min Son"), but it does
+    not resolve ambiguous same-name rows or fuzzy romanization differences.
+    """
+    player_by_id = {str(row.get("player_id")): row for row in players if row.get("player_id")}
+    id_map_by_person_id = {
+        str(row.get("platform_person_id")): row
+        for row in id_map
+        if row.get("platform_person_id")
+    }
+
+    citizenship_rows = fetch_dicts(
+        con,
+        """
+        select
+          player_id,
+          name,
+          country_of_citizenship,
+          date_of_birth,
+          current_club_name,
+          position,
+          sub_position,
+          international_caps,
+          international_goals
+        from players
+        where country_of_citizenship is not null
+        """,
+    )
+    candidates_by_country: dict[str, dict[str, list[dict[str, Any]]]] = defaultdict(lambda: defaultdict(list))
+    for row in citizenship_rows:
+        citizenship = str(row.get("country_of_citizenship") or "").lower()
+        key = compact_name(str(row.get("name") or ""))
+        if key:
+            candidates_by_country[citizenship][key].append(row)
+
+    fallback_targets: list[dict[str, Any]] = []
+    counts = {
+        "dcaribou_name_fallback_considered": 0,
+        "dcaribou_name_fallback_unique": 0,
+        "dcaribou_name_fallback_ambiguous": 0,
+        "dcaribou_name_fallback_missing": 0,
+    }
+
+    for platform_player_id, player in sorted(player_by_id.items()):
+        id_row = id_map_by_person_id.get(platform_player_id)
+        provider_refs = id_row.get("provider_refs") if isinstance(id_row, dict) else {}
+        tm_id = clean_int(provider_refs.get("key_transfermarkt") if isinstance(provider_refs, dict) else None)
+        if tm_id is not None:
+            continue
+
+        team_id = str(player.get("team_id") or "")
+        citizenship_aliases = TEAM_CITIZENSHIP_ALIASES.get(team_id)
+        if not citizenship_aliases:
+            continue
+
+        counts["dcaribou_name_fallback_considered"] += 1
+        name = str(player.get("name") or player.get("display_name") or "").strip()
+        match_keys = {compact_name(name), reverse_compact_name(name)}
+        matches: list[dict[str, Any]] = []
+        seen_ids: set[int] = set()
+        for citizenship in citizenship_aliases:
+            country_index = candidates_by_country.get(citizenship, {})
+            for match_key in match_keys:
+                for candidate in country_index.get(match_key, []):
+                    candidate_id = clean_int(candidate.get("player_id"))
+                    if candidate_id is None or candidate_id in seen_ids:
+                        continue
+                    seen_ids.add(candidate_id)
+                    matches.append(candidate)
+
+        if len(matches) == 1:
+            counts["dcaribou_name_fallback_unique"] += 1
+            match = matches[0]
+            fallback_targets.append(
+                {
+                    "platform_player_id": platform_player_id,
+                    "team_id": player.get("team_id"),
+                    "name": player.get("name") or player.get("display_name"),
+                    "transfermarkt_player_id": int(match["player_id"]),
+                    "id_map_confidence": "medium",
+                    "id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+                }
+            )
+        elif len(matches) > 1:
+            counts["dcaribou_name_fallback_ambiguous"] += 1
+        else:
+            counts["dcaribou_name_fallback_missing"] += 1
+
+    return fallback_targets, counts
 
 
 def register_targets(con: Any, targets: list[dict[str, Any]]) -> None:
@@ -443,7 +564,12 @@ def main() -> None:
     targets, target_counts = build_target_players(players, id_map)
 
     con = duckdb.connect(str(duckdb_path), read_only=True)
-    records, activity_counts = build_activity_rows(con, targets, generated_at)
+    fallback_targets, fallback_counts = build_dcaribou_name_fallback_targets(con, players, id_map)
+    existing_platform_ids = {row["platform_player_id"] for row in targets}
+    merged_targets = targets + [
+        row for row in fallback_targets if row["platform_player_id"] not in existing_platform_ids
+    ]
+    records, activity_counts = build_activity_rows(con, merged_targets, generated_at)
     write_json(Path(args.output), records)
     report = {
         "generated_at": generated_at,
@@ -455,6 +581,8 @@ def main() -> None:
         "policy": "Narrow supplemental profile facts only; does not overwrite FIFA roster masters and does not publish public API by itself.",
         "counts": {
             **target_counts,
+            **fallback_counts,
+            "target_players_after_fallback": len(merged_targets),
             **activity_counts,
         },
         "outputs": {

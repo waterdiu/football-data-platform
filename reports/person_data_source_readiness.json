@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T13:45:37Z",
+  "generated_at": "2026-05-18T14:17:40Z",
   "status": "requires_source_expansion",
   "purpose": "Read-only readiness report for coach/player/referee profile data sources.",
   "rules": {
@@ -10,6 +10,32 @@
   "local_sources": {
     "dcaribou_transfermarkt": {
       "license": "CC0-1.0",
+      "duckdb": {
+        "exists": true,
+        "candidate_paths": [
+          "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/raw/vendor/dcaribou_transfermarkt/transfermarkt-datasets.duckdb",
+          "/Users/chamcham/Downloads/transfermarkt-datasets.duckdb"
+        ],
+        "path": "/Users/chamcham/Downloads/transfermarkt-datasets.duckdb",
+        "size_bytes": 201863168,
+        "readable": true,
+        "tables": [
+          "appearances",
+          "club_games",
+          "clubs",
+          "competitions",
+          "countries",
+          "game_events",
+          "game_lineups",
+          "games",
+          "national_teams",
+          "player_valuations",
+          "players",
+          "transfers",
+          "version"
+        ],
+        "missing_expected_tables": []
+      },
       "local_tables": {
         "players.csv": {
           "exists": true,
@@ -85,19 +111,8 @@
         "countries.csv",
         "national_teams.csv"
       ],
-      "missing_local_tables": [
-        "competitions.csv",
-        "games.csv",
-        "player_valuations.csv",
-        "appearances.csv",
-        "game_events.csv",
-        "game_lineups.csv",
-        "club_games.csv",
-        "transfers.csv",
-        "countries.csv",
-        "national_teams.csv"
-      ],
-      "readiness": "partial",
+      "missing_local_tables": [],
+      "readiness": "activity_import_ready",
       "can_fill_now": [
         "player club",
         "date_of_birth",
@@ -108,13 +123,19 @@
       ],
       "blocked_fields": [
         "shirt_number",
-        "recent minutes",
-        "appearances",
-        "lineup number",
-        "event-backed player style",
         "coach tenure"
       ],
-      "next_action": "Fetch or import the remaining dcaribou CC0 tables before computing true player impact/style."
+      "supplemental_fields_ready": [
+        "historical appearances",
+        "minutes",
+        "goals",
+        "assists",
+        "cards",
+        "historical lineup number candidates",
+        "recent appearances",
+        "valuation history"
+      ],
+      "next_action": "Run scripts/import_dcaribou_person_activity.py against the local DuckDB, then rebuild profiles and publish API."
     },
     "player_ability": {
       "exists": true,
@@ -276,7 +297,7 @@
         "national_teams": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/national_teams.csv.gz"
       },
       "download_probe_status": "public URLs discovered in README; current environment R2 HEAD probes did not complete before timeout on 2026-05-18",
-      "note": "Git metadata describes tables such as games, appearances, game_events, game_lineups and club_games, and README exposes R2 download URLs. Current local platform asset only has players/clubs."
+      "note": "Git metadata describes tables such as games, appearances, game_events, game_lineups and club_games, and README exposes R2 download URLs. A manually downloaded DuckDB can now be used as raw/vendor input and is not committed to git."
     },
     "salimt_football_datasets": {
       "repo": "https://github.com/salimt/football-datasets",
@@ -315,8 +336,8 @@
       "reason": "Current local roster patches and dcaribou players table do not contain squad shirt numbers."
     },
     "true_absence_impact_pct": {
-      "status": "blocked",
-      "reason": "Requires minutes, appearances, availability, and team performance sample; current impact_proxy_score is display-only."
+      "status": "not_production_ready",
+      "reason": "dcaribou minutes/appearances are available as historical activity context, but true absence impact still requires availability evidence and team-performance counterfactual samples."
     },
     "player_style_distillation": {
       "status": "research_ready_not_production_ready",

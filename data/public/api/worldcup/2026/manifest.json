@@ -149,7 +149,7 @@
       "player_dcaribou_activity": {
         "path": "./core/player-dcaribou-activity.json",
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/player-dcaribou-activity.json",
-        "count": 210
+        "count": 232
       },
       "referee_profiles": {
         "path": "./core/referee-profiles.json",
@@ -232,7 +232,7 @@
       "coach_profiles": 48,
       "player_profiles": 234,
       "player_external_facts": 197,
-      "player_dcaribou_activity": 210,
+      "player_dcaribou_activity": 232,
       "referee_profiles": 50,
       "officials": 50,
       "player_ratings": 0,

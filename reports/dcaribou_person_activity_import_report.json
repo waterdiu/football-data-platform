@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T14:05:37Z",
+  "generated_at": "2026-05-18T14:15:25Z",
   "status": "published",
   "source": "dcaribou/transfermarkt-datasets",
   "source_license": "CC0-1.0",
@@ -11,12 +11,17 @@
     "id_map_rows": 234,
     "with_transfermarkt_id": 210,
     "without_transfermarkt_id": 24,
-    "target_players": 210,
-    "with_appearance_summary": 184,
-    "with_lineup_summary": 199,
-    "with_lineup_number_candidates": 199,
-    "with_event_summary": 193,
-    "with_valuation_history": 164
+    "dcaribou_name_fallback_considered": 24,
+    "dcaribou_name_fallback_unique": 22,
+    "dcaribou_name_fallback_ambiguous": 1,
+    "dcaribou_name_fallback_missing": 1,
+    "target_players_after_fallback": 232,
+    "target_players": 232,
+    "with_appearance_summary": 198,
+    "with_lineup_summary": 220,
+    "with_lineup_number_candidates": 220,
+    "with_event_summary": 213,
+    "with_valuation_history": 175
   },
   "outputs": {
     "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_player_dcaribou_activity_master.json"
