@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-05-18T17:05:29Z",
+  "scope": "soccerdata_sofascore_experimental_probe",
+  "provider": {
+    "provider": "soccerdata_sofascore",
+    "display_name": "soccerdata Sofascore reader",
+    "homepage": "https://github.com/probberechts/soccerdata",
+    "upstream_provider": "sofascore",
+    "probe_classification": "experimental_only"
+  },
+  "policy": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "raw_output_dir": "data/raw/experimental/soccerdata",
+    "reason": "soccerdata is a third-party scraper library. Its Sofascore reader can be used for low-frequency experimental feasibility checks only."
+  },
+  "live": false,
+  "soccerdata_import": {
+    "available": true,
+    "version": "1.9.0",
+    "module_path": "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/soccerdata/__init__.py"
+  },
+  "sofascore_class": {
+    "available": true,
+    "signature": "(leagues: Union[str, list[str], NoneType] = None, seasons: Union[str, int, collections.abc.Iterable[Union[str, int]], NoneType] = None, proxy: Union[str, list[str], Callable[[], str], NoneType] = None, no_cache: bool = False, no_store: bool = False, data_dir: pathlib.Path = PosixPath('/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/raw/experimental/soccerdata/data/Sofascore'))",
+    "methods": [
+      "available_leagues",
+      "get",
+      "leagues",
+      "read_league_table",
+      "read_leagues",
+      "read_schedule",
+      "read_seasons",
+      "seasons"
+    ],
+    "method_coverage": {
+      "expected_present": {
+        "available_leagues": true,
+        "read_leagues": true,
+        "read_seasons": true,
+        "read_league_table": true,
+        "read_schedule": true
+      },
+      "advanced_required_present": {
+        "match_statistics": false,
+        "lineups": false,
+        "incidents": false,
+        "shotmap": false,
+        "xg": false,
+        "player_ratings": false,
+        "ppda_inputs": false
+      }
+    }
+  },
+  "live_probe": {
+    "status": "not_requested"
+  },
+  "summary": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "soccerdata_available": true,
+    "sofascore_reader_available": true,
+    "schedule_or_table_capable": true,
+    "advanced_match_data_capable": false,
+    "conclusion": "soccerdata Sofascore can help with schedule/table feasibility checks, but it does not expose match statistics, lineups, shotmap/xG, player ratings, or PPDA inputs."
+  },
+  "recommended_next_steps": [
+    "Do not use soccerdata Sofascore as the source for possession/passing/PPDA/shots/xG.",
+    "If a live probe is needed, keep it low-frequency and only under data/raw/experimental/soccerdata.",
+    "Use soccerdata for endpoint/library feasibility only; continue API-FOOTBALL or authorized providers for production stats.",
+    "Evaluate tunjayoff/sofascore_scraper separately if match statistics endpoints need to be tested through a specialized scraper."
+  ],
+  "raw_dir": "data/raw/experimental/soccerdata"
+}

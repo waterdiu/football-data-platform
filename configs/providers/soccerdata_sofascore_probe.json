@@ -1,0 +1,42 @@
+{
+  "policy": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "raw_output_dir": "data/raw/experimental/soccerdata",
+    "reason": "soccerdata is a third-party scraper library. Its Sofascore reader can be used for low-frequency experimental feasibility checks only."
+  },
+  "provider": {
+    "provider": "soccerdata_sofascore",
+    "display_name": "soccerdata Sofascore reader",
+    "homepage": "https://github.com/probberechts/soccerdata",
+    "upstream_provider": "sofascore",
+    "probe_classification": "experimental_only"
+  },
+  "expected_capabilities": [
+    "available_leagues",
+    "read_leagues",
+    "read_seasons",
+    "read_league_table",
+    "read_schedule"
+  ],
+  "required_but_not_expected": [
+    "match_statistics",
+    "lineups",
+    "incidents",
+    "shotmap",
+    "xg",
+    "player_ratings",
+    "ppda_inputs"
+  ],
+  "live_probe": {
+    "enabled_by_default": false,
+    "sample_leagues": [
+      "ENG-Premier League"
+    ],
+    "sample_seasons": [
+      2024
+    ]
+  }
+}

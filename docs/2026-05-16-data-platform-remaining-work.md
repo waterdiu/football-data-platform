@@ -605,6 +605,7 @@ Remaining data-layer work to continue in `football-data-platform`:
 5. Add national team roster/player datasets.
 6. Standardize Premier League public/predictor API.
 7. Continue Sofascore experimental field-coverage probe for match statistics, lineups, player ratings, shotmap/xG, and possible PPDA inputs; keep all live payloads under `data/raw/experimental/sofascore` and out of normalized/public until authorization review.
+8. Keep `soccerdata` Sofascore reader as experimental schedule/table feasibility only; current probe shows it does not expose match statistics, lineups, shotmap/xG, player ratings, or PPDA inputs.
 7. Automate collection and publishing.
 8. Add alerts, runbooks, quota reports, and data conflict reporting.
 

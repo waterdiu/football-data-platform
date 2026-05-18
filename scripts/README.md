@@ -229,6 +229,12 @@
   - 可选 `--live --event-id <id>`、`--live --team-id <id>` 或 `--live --player-id <id>` 做低频验证；如需保存 payload，只能加 `--write-raw` 写入 `data/raw/experimental/sofascore`
   - 当前直接 live smoke test 返回 HTTP 403，因此只能作为实验源可达性/字段覆盖记录，不能作为生产采集源
   - 禁止把 Sofascore live probe 结果直接写入 `data/normalized`、`data/model` 或 public API
+- `probe_soccerdata_sofascore.py`
+  - 输入：`configs/providers/soccerdata_sofascore_probe.json`
+  - 输出：`reports/soccerdata_sofascore_probe.json`
+  - 当前定位：验证 `probberechts/soccerdata` 的 Sofascore reader 是否能满足高级数据需求
+  - 结论：本机 `soccerdata` 可用，但 Sofascore reader 只支持 league/table/schedule，不提供 match statistics、lineups、shotmap/xG、player ratings 或 PPDA inputs
+  - 可选 `--live` 只允许低频 schedule probe，缓存/日志限定在 `data/raw/experimental/soccerdata`
 - `capture_world_cup_context_from_predictor.py`
   - 调用 `world-cup-predictor` 的 `run_scheduled_maintenance.py`
   - 只触发 `world_cup` 的 context capture，不跑 odds / predictions / evaluation

@@ -153,6 +153,7 @@
 
 - 继续 odds free/low-cost probe，但未通过前不进入生产。
 - 继续 Sofascore 字段覆盖 probe，验证 match statistics / lineups / shotmap / xG；未授权前只允许 raw experimental。
+- `soccerdata` 的 Sofascore reader 已验证只支持 league/table/schedule，不能提供 match statistics、lineups、shotmap/xG、player ratings 或 PPDA inputs。
 - 裁判名单/指派等 FIFA 官方或 API-FOOTBALL。
 - 天气按窗口采集，窗口外输出 `unavailable`。
 
