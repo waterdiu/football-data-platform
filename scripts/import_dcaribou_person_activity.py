@@ -24,6 +24,7 @@ PLAYERS_PATH = NORMALIZED_DIR / "world_cup_2026_players_master.json"
 ID_MAP_PATH = NORMALIZED_DIR / "person_id_map_master.json"
 OUTPUT_PATH = NORMALIZED_DIR / "person_player_dcaribou_activity_master.json"
 REPORT_PATH = REPORTS_DIR / "dcaribou_person_activity_import_report.json"
+UNRESOLVED_REPORT_PATH = REPORTS_DIR / "dcaribou_person_activity_unresolved_report.json"
 
 TEAM_CITIZENSHIP_ALIASES = {
     "korea-republic": {"korea, south", "south korea", "korea republic", "republic of korea"},
@@ -133,7 +134,7 @@ def build_dcaribou_name_fallback_targets(
     con: Any,
     players: list[dict[str, Any]],
     id_map: list[dict[str, Any]],
-) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+) -> tuple[list[dict[str, Any]], dict[str, Any], list[dict[str, Any]]]:
     """Use local dcaribou identity rows only when Reep has no TM id and the match is unique.
 
     This is intentionally conservative. It handles deterministic spelling-order mismatches such
@@ -172,6 +173,7 @@ def build_dcaribou_name_fallback_targets(
             candidates_by_country[citizenship][key].append(row)
 
     fallback_targets: list[dict[str, Any]] = []
+    unresolved: list[dict[str, Any]] = []
     counts = {
         "dcaribou_name_fallback_considered": 0,
         "dcaribou_name_fallback_unique": 0,
@@ -221,10 +223,55 @@ def build_dcaribou_name_fallback_targets(
             )
         elif len(matches) > 1:
             counts["dcaribou_name_fallback_ambiguous"] += 1
+            unresolved.append(
+                {
+                    "player_id": platform_player_id,
+                    "team_id": player.get("team_id"),
+                    "name": player.get("name") or player.get("display_name"),
+                    "status": "ambiguous",
+                    "reason": "Multiple dcaribou players matched by country plus compact canonical/reversed name.",
+                    "match_keys": sorted(match_keys),
+                    "candidates": [
+                        {
+                            "transfermarkt_player_id": candidate.get("player_id"),
+                            "name": candidate.get("name"),
+                            "date_of_birth": json_default(candidate.get("date_of_birth"))
+                            if candidate.get("date_of_birth")
+                            else None,
+                            "current_club_name": candidate.get("current_club_name"),
+                            "position": candidate.get("position"),
+                            "sub_position": candidate.get("sub_position"),
+                            "international_caps": candidate.get("international_caps"),
+                            "international_goals": candidate.get("international_goals"),
+                        }
+                        for candidate in matches
+                    ],
+                    "required_evidence": [
+                        "official roster DOB or club",
+                        "audited Transfermarkt player URL",
+                        "manual patch entry with source_url",
+                    ],
+                }
+            )
         else:
             counts["dcaribou_name_fallback_missing"] += 1
+            unresolved.append(
+                {
+                    "player_id": platform_player_id,
+                    "team_id": player.get("team_id"),
+                    "name": player.get("name") or player.get("display_name"),
+                    "status": "missing",
+                    "reason": "No dcaribou player matched by country plus compact canonical/reversed name.",
+                    "match_keys": sorted(match_keys),
+                    "required_evidence": [
+                        "audited alternative romanization",
+                        "official roster DOB or club",
+                        "manual patch entry with source_url",
+                    ],
+                }
+            )
 
-    return fallback_targets, counts
+    return fallback_targets, counts, unresolved
 
 
 def register_targets(con: Any, targets: list[dict[str, Any]]) -> None:
@@ -550,6 +597,7 @@ def main() -> None:
     parser.add_argument("--id-map", default=str(ID_MAP_PATH))
     parser.add_argument("--output", default=str(OUTPUT_PATH))
     parser.add_argument("--report-output", default=str(REPORT_PATH))
+    parser.add_argument("--unresolved-output", default=str(UNRESOLVED_REPORT_PATH))
     args = parser.parse_args()
 
     try:
@@ -564,13 +612,31 @@ def main() -> None:
     targets, target_counts = build_target_players(players, id_map)
 
     con = duckdb.connect(str(duckdb_path), read_only=True)
-    fallback_targets, fallback_counts = build_dcaribou_name_fallback_targets(con, players, id_map)
+    fallback_targets, fallback_counts, fallback_unresolved = build_dcaribou_name_fallback_targets(
+        con,
+        players,
+        id_map,
+    )
     existing_platform_ids = {row["platform_player_id"] for row in targets}
     merged_targets = targets + [
         row for row in fallback_targets if row["platform_player_id"] not in existing_platform_ids
     ]
     records, activity_counts = build_activity_rows(con, merged_targets, generated_at)
     write_json(Path(args.output), records)
+    unresolved_report = {
+        "generated_at": generated_at,
+        "status": "requires_manual_evidence" if fallback_unresolved else "complete",
+        "source": "dcaribou/transfermarkt-datasets",
+        "source_file": duckdb_path.name,
+        "policy": "Unresolved fallback rows are diagnostic evidence only; they must not enter normalized/public activity without a unique audited ID.",
+        "counts": {
+            "unresolved": len(fallback_unresolved),
+            "ambiguous": sum(1 for row in fallback_unresolved if row.get("status") == "ambiguous"),
+            "missing": sum(1 for row in fallback_unresolved if row.get("status") == "missing"),
+        },
+        "rows": fallback_unresolved,
+    }
+    write_json(Path(args.unresolved_output), unresolved_report)
     report = {
         "generated_at": generated_at,
         "status": "published",
@@ -587,6 +653,7 @@ def main() -> None:
         },
         "outputs": {
             "normalized": str(Path(args.output)),
+            "unresolved_report": str(Path(args.unresolved_output)),
         },
     }
     write_json(Path(args.report_output), report)

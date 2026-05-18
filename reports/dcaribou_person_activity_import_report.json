@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T14:15:25Z",
+  "generated_at": "2026-05-18T14:25:19Z",
   "status": "published",
   "source": "dcaribou/transfermarkt-datasets",
   "source_license": "CC0-1.0",
@@ -24,6 +24,7 @@
     "with_valuation_history": 175
   },
   "outputs": {
-    "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_player_dcaribou_activity_master.json"
+    "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_player_dcaribou_activity_master.json",
+    "unresolved_report": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/reports/dcaribou_person_activity_unresolved_report.json"
   }
 }

@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-05-18T14:25:19Z",
+  "status": "requires_manual_evidence",
+  "source": "dcaribou/transfermarkt-datasets",
+  "source_file": "transfermarkt-datasets.duckdb",
+  "policy": "Unresolved fallback rows are diagnostic evidence only; they must not enter normalized/public activity without a unique audited ID.",
+  "counts": {
+    "unresolved": 2,
+    "ambiguous": 1,
+    "missing": 1
+  },
+  "rows": [
+    {
+      "player_id": "korea-republic:player:kim-taehyeon",
+      "team_id": "korea-republic",
+      "name": "Kim Taehyeon",
+      "status": "ambiguous",
+      "reason": "Multiple dcaribou players matched by country plus compact canonical/reversed name.",
+      "match_keys": [
+        "kimtaehyeon",
+        "taehyeonkim"
+      ],
+      "candidates": [
+        {
+          "transfermarkt_player_id": 508366,
+          "name": "Tae-hyeon Kim",
+          "date_of_birth": "1996-12-19T00:00:00",
+          "current_club_name": "Jeonbuk Hyundai Motors",
+          "position": "Defender",
+          "sub_position": "Left-Back",
+          "international_caps": 1,
+          "international_goals": 0
+        },
+        {
+          "transfermarkt_player_id": 645847,
+          "name": "Tae-hyeon Kim",
+          "date_of_birth": "2000-09-17T00:00:00",
+          "current_club_name": "Kashima Antlers FC",
+          "position": "Defender",
+          "sub_position": "Centre-Back",
+          "international_caps": 7,
+          "international_goals": 0
+        }
+      ],
+      "required_evidence": [
+        "official roster DOB or club",
+        "audited Transfermarkt player URL",
+        "manual patch entry with source_url"
+      ]
+    },
+    {
+      "player_id": "korea-republic:player:lee-kihyuk",
+      "team_id": "korea-republic",
+      "name": "Lee Kihyuk",
+      "status": "missing",
+      "reason": "No dcaribou player matched by country plus compact canonical/reversed name.",
+      "match_keys": [
+        "kihyuklee",
+        "leekihyuk"
+      ],
+      "required_evidence": [
+        "audited alternative romanization",
+        "official roster DOB or club",
+        "manual patch entry with source_url"
+      ]
+    }
+  ]
+}

@@ -442,6 +442,7 @@ Current status:
 - dcaribou DuckDB import is now available through `scripts/import_dcaribou_person_activity.py`. It reads a local raw/vendor or Downloads `transfermarkt-datasets.duckdb` file and writes `data/normalized/person_player_dcaribou_activity_master.json`, plus `data/public/player-dcaribou-activity.json` and `api/worldcup/2026/core/player-dcaribou-activity.json` through the profile/API publish steps.
 - Current dcaribou activity import coverage: 232 mapped or fallback-matched players, 198 with appearances/minutes, 220 with historical lineup number candidates, 213 with events, and 175 with valuation history. The activity data is third-party historical context only; it must not be treated as official World Cup shirt numbers, confirmed lineups, or true absence-impact percentages.
 - Reep misses 24 Korea Republic player `key_transfermarkt` mappings because the FIFA roster spelling omits common hyphen/reversed-name forms. `scripts/import_dcaribou_person_activity.py` now has a conservative dcaribou DuckDB fallback: country plus exact compact canonical/reversed-name unique match. This filled 22 Korea Republic activity rows. `Kim Taehyeon` remains ambiguous and `Lee Kihyuk` remains unresolved because the available match requires romanization inference.
+- The remaining fallback blockers are written to `reports/dcaribou_person_activity_unresolved_report.json` with candidate rows and required evidence. This report is diagnostic only and must not be published as public API.
 
 Remaining work:
 
