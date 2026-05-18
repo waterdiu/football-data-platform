@@ -89,7 +89,7 @@
   "platform_runtime_collectors": {
     "status": "available",
     "report_path": "reports/world_cup_runtime_collection_report.json",
-    "generated_at": "2026-05-18T04:40:39.688775+00:00",
+    "generated_at": "2026-05-18T10:40:00.825848+00:00",
     "dry_run": false,
     "datasets": [
       {
@@ -579,10 +579,10 @@
         "dataset": "prematch_context",
         "status": "collected",
         "fixtures_considered": 104,
-        "rows_collected": 74,
+        "rows_collected": 73,
         "rows_existing": 104,
         "attempted_sources": 16,
-        "successful_pages": 23,
+        "successful_pages": 20,
         "failed_sources": [
           "brazil_cbf",
           "canada_soccer",
@@ -595,49 +595,49 @@
             "source": "fifa_news",
             "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 1
           },
           {
             "source": "fifa_world_cup_news",
             "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 1
           },
           {
             "source": "bbc_world_cup",
             "url": "https://www.bbc.com/sport/football/world-cup",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 4
           },
           {
             "source": "sky_world_cup",
             "url": "https://www.skysports.com/world-cup-news",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 4
           },
           {
             "source": "espn_soccer",
             "url": "https://www.espn.com/soccer/",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
-            "pages_collected": 4
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
+            "pages_collected": 1
           },
           {
             "source": "argentina_fa",
             "url": "https://www.afa.com.ar/en/",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 1
           },
           {
             "source": "brazil_cbf",
             "url": "https://www.cbf.com.br/selecao-brasileira/noticias",
             "status": "provider_error",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 0,
             "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
           },
@@ -645,7 +645,7 @@
             "source": "canada_soccer",
             "url": "https://canadasoccer.com/news/",
             "status": "provider_error",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 0,
             "error": "HTTP Error 404: Not Found"
           },
@@ -653,7 +653,7 @@
             "source": "england_fa",
             "url": "https://www.englandfootball.com/articles",
             "status": "provider_error",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 0,
             "error": "HTTP Error 500: Internal Server Error"
           },
@@ -661,28 +661,28 @@
             "source": "france_fff",
             "url": "https://www.fff.fr/selection/2-equipe-de-france/index.html",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 1
           },
           {
             "source": "germany_dfb",
             "url": "https://www.dfb.de/en/news/",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 4
           },
           {
             "source": "mexico_fmf",
             "url": "https://miseleccion.mx/noticias/",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 1
           },
           {
             "source": "netherlands_knvb",
             "url": "https://www.onsoranje.nl/nieuws",
             "status": "provider_error",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 0,
             "error": "HTTP Error 404: Not Found"
           },
@@ -690,7 +690,7 @@
             "source": "portugal_fpf",
             "url": "https://www.fpf.pt/News",
             "status": "provider_error",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 0,
             "error": "HTTP Error 403: Forbidden"
           },
@@ -698,14 +698,14 @@
             "source": "spain_rfef",
             "url": "https://rfef.es/es/noticias",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 1
           },
           {
             "source": "usa_soccer",
             "url": "https://www.ussoccer.com/stories",
             "status": "available",
-            "last_checked_at": "2026-05-18T04:40:39.688775+00:00",
+            "last_checked_at": "2026-05-18T10:40:00.825848+00:00",
             "pages_collected": 1
           }
         ],

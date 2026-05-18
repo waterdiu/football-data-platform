@@ -118,8 +118,8 @@
       "evidence": {
         "rows": 104,
         "source_status_counts": {
-          "missing_auth": 30,
-          "partial": 74
+          "missing_auth": 31,
+          "partial": 73
         },
         "runtime_status": "missing_auth",
         "runtime_status_reason": "API_FOOTBALL_KEY is not configured in environment or local .env file."
