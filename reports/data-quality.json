@@ -2,15 +2,15 @@
   "generated_at": "2026-05-17T00:00:00Z",
   "scope": "worldcup_2026",
   "summary": {
-    "checks": 9,
+    "checks": 10,
     "status_counts": {
       "attention": 2,
-      "info": 2,
+      "info": 3,
       "pass": 5
     },
     "severity_counts": {
       "P0": 4,
-      "P1": 5
+      "P1": 6
     },
     "blocking_count": 0,
     "attention_count": 2
@@ -150,6 +150,21 @@
         "actual": 104
       },
       "runbook": "Run scripts/collect_world_cup_runtime_data.py and scripts/build_world_cup_model_runtime_datasets.py; inspect source freshness in source-health.json."
+    },
+    {
+      "id": "world_cup_team_advanced_stats",
+      "status": "info",
+      "severity": "P1",
+      "title": "World Cup team advanced stats baseline",
+      "detail": "Team advanced stats contain 48 team rows; process-data fields are available for 0 teams.",
+      "evidence": {
+        "rows": 48,
+        "source_status_counts": {
+          "partial": 48
+        },
+        "process_data_team_count": 0
+      },
+      "runbook": "Baseline rows may use recent-score form proxy. Keep possession/pass/PPDA/shots/xG null until a verified process-data source is approved."
     }
   ]
 }

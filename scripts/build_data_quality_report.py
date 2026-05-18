@@ -87,6 +87,7 @@ def main() -> None:
     injuries = load_json(MODEL_DIR / "injuries.json")
     weather = load_json(MODEL_DIR / "weather.json")
     prematch_context = load_json(MODEL_DIR / "prematch_context.json")
+    team_advanced_stats = load_json(PUBLIC_DIR / "team-advanced-stats.json")
     runtime_collection = load_json(REPORTS_DIR / "world_cup_runtime_collection_report.json")
     automation_readiness = load_json(REPORTS_DIR / "automation-readiness.json")
     free_odds_probe = load_json(REPORTS_DIR / "free_odds_source_probe.json")
@@ -226,6 +227,33 @@ def main() -> None:
         detail=f"Prematch context should publish one row per fixture; found {prematch_rows}.",
         evidence={"expected": EXPECTED_WORLD_CUP_FIXTURES, "actual": prematch_rows},
         runbook="Run scripts/collect_world_cup_runtime_data.py and scripts/build_world_cup_model_runtime_datasets.py; inspect source freshness in source-health.json.",
+    )
+
+    advanced_count = row_count(team_advanced_stats)
+    advanced_status_counts = status_counts(team_advanced_stats)
+    process_available = 0
+    if isinstance(team_advanced_stats, list):
+        for row in team_advanced_stats:
+            if not isinstance(row, dict):
+                continue
+            if any(row.get(field) is not None for field in ("possession_pct", "pass_accuracy_pct", "shots_per_match", "ppda", "xg_for_per_match")):
+                process_available += 1
+    add_check(
+        checks,
+        check_id="world_cup_team_advanced_stats",
+        status="pass" if process_available else "info" if advanced_count else "attention",
+        severity="P1",
+        title="World Cup team advanced stats baseline",
+        detail=(
+            f"Team advanced stats contain {advanced_count} team rows; process-data fields are available for "
+            f"{process_available} teams."
+        ),
+        evidence={
+            "rows": advanced_count,
+            "source_status_counts": advanced_status_counts,
+            "process_data_team_count": process_available,
+        },
+        runbook="Baseline rows may use recent-score form proxy. Keep possession/pass/PPDA/shots/xG null until a verified process-data source is approved.",
     )
 
     status_summary: dict[str, int] = {}

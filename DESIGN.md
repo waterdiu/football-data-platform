@@ -774,7 +774,7 @@ predictor 兼容数据当前边界：
 - 最新模型侧回报：世界杯本地赔率/上下文采集默认停用，返回 `delegated_to_platform`
 - 当前平台 runtime 缺口：`odds_snapshots`、`lineups`、`injuries`、`weather`、`referee_profiles`，以及 `team_advanced_stats` 中的过程型字段。`schedule_load`、`home_away_splits` 与 `team_advanced_stats` 已有基础版：由 `fixtures.json` + `team-recent-matches.json` 生成，覆盖 104 场比赛和 48 支球队；旅行距离仍因上一场比赛经纬度缺失而标记为 `missing_previous_match_coordinates`。
 - 模型侧运行期数据需求基线见 `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`，P0 为确认首发、AH/OU 快照、伤停/球员影响力、天气；P1 为控球率/传球成功率/PPDA 等高级技术统计和裁判画像。模型 D2/D3/D6 新增需求的缺口评估见 `docs/2026-05-18-predictor-post-model-data-gap-assessment-cn.md`，其中将数据分为已具备、现有渠道可补、待验证和明确不可作为当前免费/生产源四类。
-- `runtime-summary.json` 是 predictor 运行期优先入口，由 `scripts/publish_world_cup_predictor_api.py` 从 fixtures、lineups、injuries、weather、odds 和 data coverage 聚合生成。即使底层运行期数据为空，也必须对 104 场输出稳定行并标记缺失状态，避免模型层把缺失值当作 0。
+- `runtime-summary.json` 是 predictor 运行期优先入口，由 `scripts/publish_world_cup_predictor_api.py` 从 fixtures、lineups、injuries、weather、odds、team context metrics 和 data coverage 聚合生成。即使底层运行期数据为空，也必须对 104 场输出稳定行并标记缺失状态，避免模型层把缺失值当作 0。
 - `schedule-load.json`、`team-home-away-splits.json` 与 `team-advanced-stats.json` 由 `scripts/build_predictor_context_metrics.py` 生成并发布到 predictor API。`schedule-load` 当前提供 `days_since_last_match`、`matches_last_7/14/30_days`、上一场比赛文本地点和 coverage；`team-home-away-splits` 当前提供最近 10/20 场 overall/home/away/neutral split；`team-advanced-stats` 当前只提供最近 10 场基础 form proxy（进失球、胜平负率），控球、传球、PPDA、射门和 xG 等过程型字段必须保持 `null + missing_advanced_fields_reason`。国家队中立场必须保持 neutral，不得强行计入主客场。
 - 天气数据在赛程超出预报窗口时必须显式发布占位行：`source_status=unavailable`、`status_reason=outside_forecast_window`；模型层只能将其解释为暂不可采集，不能当作晴天或 0 风速。
 - 截至 2026-05-17，世界杯 predictor compatibility API 已补齐 104 场 `kickoff_at`，平台发布报告显示 `shared_fixtures_missing_kickoff_at=0`、`feature_inputs_missing_kickoff_at=0`、`predictions_source_missing_kickoff_at=0`；模型侧 health-check 返回 `missing_kickoff_count=0`
@@ -831,7 +831,7 @@ predictor 全量数据资产当前边界：
 - `scripts/build_source_health_report.py`
 - `scripts/build_data_quality_report.py`
 
-`source-health` 聚合底层数据源、行数和 provider 状态；`data-quality` 是人工排障入口，把 2026 世界杯 fixture、coverage、predictions、odds、lineups、injuries、weather、prematch context 和 automation readiness 转成 `pass` / `attention` / `blocked` 检查，并附带对应 runbook。
+`source-health` 聚合底层数据源、行数和 provider 状态；`data-quality` 是人工排障入口，把 2026 世界杯 fixture、coverage、predictions、odds、lineups、injuries、weather、prematch context、team advanced stats 和 automation readiness 转成 `pass` / `attention` / `blocked` 检查，并附带对应 runbook。
 
 平台还提供一个面向 `worldcup/2026` 的运行时静态接口发布入口：
 
@@ -927,7 +927,7 @@ predictor 全量数据资产当前边界：
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
 - 已增强：赛前新闻源列表由 `configs/prematch_news/world_cup_2026.json` 配置，`sources/prematch_news.py` 保留内置 fallback；采集结果和 `reports/world_cup_runtime_collection_report.json` 会记录 source 级 freshness（`last_checked_at`、`status`、`pages_collected`、错误信息）
 - 已增强：`scripts/build_world_cup_injury_evidence.py` 从 `prematch_context` 新闻信号中提取伤停/停赛 evidence，写入 `injuries.absence_evidence_summary`。该 evidence 只作为模型降权和报告提示，不等同于官方伤停名单；没有命中时显式标记 `no_news_absence_evidence`。当前实现采用保守过滤：实体必须匹配平台官方名单球员，关键词必须是独立词，且球员名与关键词必须在近距离窗口内，避免把 squad list、俱乐部名或跨标题文本误报为伤停。
-- 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`；coverage 会优先读取 `data/model/lineups.json` 与 `data/model/injuries.json` 的运行期状态，而不是只看赛后 `finals-lineups.json`
+- 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`team_advanced_stats`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`；coverage 会优先读取 `data/model/lineups.json` 与 `data/model/injuries.json` 的运行期状态，而不是只看赛后 `finals-lineups.json`。`team_advanced_stats` 在小组赛已知对阵中可标记为 `partial/basic_form_proxy_only`，淘汰赛待定队伍仍会保持缺失或部分覆盖。
 - 已配置：`configs/venues/world_cup_2026.json` 保存 16 个 2026 世界杯球场坐标
 - API-FOOTBALL fixture id map 缓存在 `data/runtime/api_football_fixture_map.json`，该目录不入 Git
 - 无 API key、公开新闻页不可达或无可采集数据时，collector 必须写清楚 `source_status` / `status_reason`。对阵容、伤停、天气这类模型 P0 输入，允许发布 `unavailable` 状态行；但不得用空数组或 0 冒充真实数据，也不得用低置信占位行覆盖已有 `available` 实据行。

@@ -25,6 +25,7 @@ WEATHER_PATH = MODEL_DIR / "weather.json"
 PREMATCH_CONTEXT_PATH = MODEL_DIR / "prematch_context.json"
 ROSTERS_PATH = PUBLIC_DIR / "rosters.json"
 TEAM_STAFF_PATH = PUBLIC_DIR / "team-staff.json"
+TEAM_ADVANCED_STATS_PATH = PUBLIC_DIR / "team-advanced-stats.json"
 PREDICTOR_INBOX_REPORT_PATH = ROOT / "reports" / "predictor_inbox_publish_report.json"
 
 NORMALIZED_OUTPUT_PATH = NORMALIZED_DIR / "world_cup_2026_data_coverage.json"
@@ -141,6 +142,7 @@ def main() -> None:
     prematch_context_rows = load_json(PREMATCH_CONTEXT_PATH)
     roster_rows = load_json(ROSTERS_PATH)
     team_staff_rows = load_json(TEAM_STAFF_PATH)
+    team_advanced_stats_rows = load_json(TEAM_ADVANCED_STATS_PATH)
 
     if not isinstance(fixtures, list):
         raise TypeError("fixtures.json must contain a list")
@@ -168,6 +170,8 @@ def main() -> None:
         raise TypeError("rosters.json must contain a list")
     if not isinstance(team_staff_rows, list):
         raise TypeError("team-staff.json must contain a list")
+    if not isinstance(team_advanced_stats_rows, list):
+        raise TypeError("team-advanced-stats.json must contain a list")
 
     updated_at = datetime.now(timezone.utc).isoformat()
     predictor_publish = predictor_publish_metadata()
@@ -185,6 +189,7 @@ def main() -> None:
         "prematch_context": file_updated_at(PREMATCH_CONTEXT_PATH),
         "rosters": file_updated_at(ROSTERS_PATH),
         "team_staff": file_updated_at(TEAM_STAFF_PATH),
+        "team_advanced_stats": file_updated_at(TEAM_ADVANCED_STATS_PATH),
         "predictor_inbox_report": file_updated_at(PREDICTOR_INBOX_REPORT_PATH),
     }
 
@@ -217,6 +222,9 @@ def main() -> None:
         str(item["team_id"]): item
         for item in team_staff_rows
         if isinstance(item, dict) and item.get("team_id") and item.get("role") == "head_coach"
+    }
+    team_advanced_stats_by_team_id = {
+        str(item["team_id"]): item for item in team_advanced_stats_rows if isinstance(item, dict) and item.get("team_id")
     }
 
     coverage_rows: list[dict[str, object]] = []
@@ -364,6 +372,29 @@ def main() -> None:
             last_updated=source_updated_at["team_staff"] if head_coach_team_count else None,
             head_coach_team_count=head_coach_team_count,
         )
+        team_advanced_rows = [team_advanced_stats_by_team_id.get(team_id) for team_id in fixture_team_ids]
+        team_advanced_count = sum(1 for item in team_advanced_rows if item)
+        process_fields = ("possession_pct", "pass_accuracy_pct", "shots_per_match", "ppda", "xg_for_per_match")
+        process_field_count = sum(
+            1
+            for item in team_advanced_rows
+            if isinstance(item, dict)
+            for field in process_fields
+            if item.get(field) is not None
+        )
+        team_advanced_status = coverage_item(
+            status="available"
+            if team_advanced_count == 2 and process_field_count
+            else "partial"
+            if team_advanced_count
+            else "missing",
+            confidence="medium" if team_advanced_count == 2 else "low",
+            source="platform_team_advanced_stats" if team_advanced_count else None,
+            last_updated=source_updated_at["team_advanced_stats"] if team_advanced_count else None,
+            team_count=team_advanced_count,
+            process_field_count=process_field_count,
+            status_reason="basic_form_proxy_only" if team_advanced_count and not process_field_count else None,
+        )
 
         events_status = coverage_item(
             status="available" if match_id in event_match_ids else "missing",
@@ -436,6 +467,7 @@ def main() -> None:
                 "prematch_context": prematch_context_status,
                 "rosters": roster_status,
                 "team_staff": team_staff_status,
+                "team_advanced_stats": team_advanced_status,
                 "prediction": prediction_status,
                 "publish_freshness": {
                     "predictions_last_published_at": predictor_publish["predictions_last_published_at"],

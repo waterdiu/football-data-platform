@@ -9,6 +9,7 @@
     "team_staff": 48,
     "team_world_cup_history": 48,
     "team_recent_matches": 48,
+    "team_advanced_stats": 48,
     "predictions": 104,
     "finals_events": 0,
     "finals_lineups": 0,
@@ -38,7 +39,9 @@
     "rosters_available": 3,
     "rosters_partial": 21,
     "team_staff_available": 72,
-    "team_staff_partial": 0
+    "team_staff_partial": 0,
+    "team_advanced_stats_available": 0,
+    "team_advanced_stats_partial": 72
   },
   "world_cup_sources": {
     "detail_extract": {

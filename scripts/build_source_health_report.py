@@ -126,6 +126,16 @@ def main() -> None:
     partial_team_staff = sum(
         1 for row in coverage_rows if isinstance(row, dict) and ((row.get("team_staff") or {}).get("status") == "partial")
     )
+    available_team_advanced_stats = sum(
+        1
+        for row in coverage_rows
+        if isinstance(row, dict) and ((row.get("team_advanced_stats") or {}).get("status") == "available")
+    )
+    partial_team_advanced_stats = sum(
+        1
+        for row in coverage_rows
+        if isinstance(row, dict) and ((row.get("team_advanced_stats") or {}).get("status") == "partial")
+    )
 
     world_cup_detail_report = load_json(WORLD_CUP_DETAIL_REPORT_PATH) or {}
     world_cup_model_report = load_json(WORLD_CUP_MODEL_REPORT_PATH) or {}
@@ -144,6 +154,7 @@ def main() -> None:
             "team_staff": dataset_count(PUBLIC_DIR / "team-staff.json"),
             "team_world_cup_history": dataset_count(PUBLIC_DIR / "team-world-cup-history.json"),
             "team_recent_matches": dataset_count(PUBLIC_DIR / "team-recent-matches.json"),
+            "team_advanced_stats": dataset_count(PUBLIC_DIR / "team-advanced-stats.json"),
             "predictions": dataset_count(PUBLIC_DIR / "predictions.json"),
             "finals_events": dataset_count(PUBLIC_DIR / "finals-events.json"),
             "finals_lineups": dataset_count(PUBLIC_DIR / "finals-lineups.json"),
@@ -174,6 +185,8 @@ def main() -> None:
             "rosters_partial": partial_rosters,
             "team_staff_available": available_team_staff,
             "team_staff_partial": partial_team_staff,
+            "team_advanced_stats_available": available_team_advanced_stats,
+            "team_advanced_stats_partial": partial_team_advanced_stats,
         },
         "world_cup_sources": {
             "detail_extract": world_cup_detail_report,
