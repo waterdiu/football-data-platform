@@ -72,9 +72,28 @@
       "title": "World Cup runtime odds snapshots",
       "detail": "World Cup odds snapshots currently contain 0 rows.",
       "evidence": {
-        "rows": 0
+        "rows": 0,
+        "free_odds_probe_summary": {
+          "provider_count": 6,
+          "classification_counts": {
+            "experimental_only": 2,
+            "pass": 1,
+            "probe_only": 2,
+            "production_candidate_for_1x2_ou_probe": 1
+          },
+          "production_write_allowed": false,
+          "normalized_write_allowed": false
+        },
+        "bsd_probe_status": "metadata_only",
+        "bsd_classification": "production_candidate_for_1x2_ou_probe",
+        "bsd_market_verdict": {
+          "one_x_two": "claimed",
+          "over_under": "claimed",
+          "asian_handicap": "not_documented",
+          "world_cup_2026": "claimed"
+        }
       },
-      "runbook": "Only enable a soccer-capable paid or approved odds provider. TheOddsAPI free key is not soccer-capable."
+      "runbook": "Only enable a soccer-capable paid or approved odds provider. TheOddsAPI free key is not soccer-capable. For free-source validation, get BSD_API_TOKEN and run scripts/probe_free_odds_sources.py --live; do not write probe rows into normalized/model until approved."
     },
     {
       "id": "world_cup_lineups",

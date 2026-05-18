@@ -89,6 +89,7 @@ def main() -> None:
     prematch_context = load_json(MODEL_DIR / "prematch_context.json")
     runtime_collection = load_json(REPORTS_DIR / "world_cup_runtime_collection_report.json")
     automation_readiness = load_json(REPORTS_DIR / "automation-readiness.json")
+    free_odds_probe = load_json(REPORTS_DIR / "free_odds_source_probe.json")
 
     checks: list[dict[str, Any]] = []
 
@@ -144,6 +145,14 @@ def main() -> None:
     )
 
     odds_count = row_count(odds)
+    free_odds_summary = free_odds_probe.get("summary") if isinstance(free_odds_probe, dict) else {}
+    free_odds_providers = free_odds_probe.get("providers") if isinstance(free_odds_probe, dict) else []
+    bsd_probe = {}
+    if isinstance(free_odds_providers, list):
+        for provider in free_odds_providers:
+            if isinstance(provider, dict) and provider.get("provider") == "bsd_bzzoiro":
+                bsd_probe = provider
+                break
     add_check(
         checks,
         check_id="world_cup_runtime_odds",
@@ -151,8 +160,14 @@ def main() -> None:
         severity="P0",
         title="World Cup runtime odds snapshots",
         detail=f"World Cup odds snapshots currently contain {odds_count} rows.",
-        evidence={"rows": odds_count},
-        runbook="Only enable a soccer-capable paid or approved odds provider. TheOddsAPI free key is not soccer-capable.",
+        evidence={
+            "rows": odds_count,
+            "free_odds_probe_summary": free_odds_summary,
+            "bsd_probe_status": bsd_probe.get("probe_status"),
+            "bsd_classification": bsd_probe.get("probe_classification"),
+            "bsd_market_verdict": bsd_probe.get("market_verdict"),
+        },
+        runbook="Only enable a soccer-capable paid or approved odds provider. TheOddsAPI free key is not soccer-capable. For free-source validation, get BSD_API_TOKEN and run scripts/probe_free_odds_sources.py --live; do not write probe rows into normalized/model until approved.",
     )
 
     lineup_counts = status_counts(lineups)

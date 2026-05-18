@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T09:16:11.760385+00:00",
+  "generated_at": "2026-05-18T09:32:54.305907+00:00",
   "scope": "free_or_open_football_odds_sources",
   "live": false,
   "policy": {
@@ -230,7 +230,9 @@
   ],
   "recommended_next_steps": [
     "Keep all scraper/reverse-engineered sources experimental only.",
-    "Probe BSD/Bzzoiro endpoint paths and terms before treating it as a production candidate.",
+    "Get BSD_API_TOKEN and run scripts/probe_free_odds_sources.py --live to verify World Cup/international events and bookmaker-level 1X2/OU rows.",
+    "Confirm BSD terms before treating it as a production candidate; AH is not documented in the public v2 odds consensus docs.",
+    "Confirm SharpAPI account endpoint path before live probing; public page claims AH/OU but World Cup coverage is still unknown.",
     "Use Odds-API.io and SharpAPI only as probe-only until live checks confirm World Cup/international football, bookmaker detail, and AH/OU line structure.",
     "Do not write probe rows into data/normalized or data/model."
   ]
