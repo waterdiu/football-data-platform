@@ -73,6 +73,33 @@
       "known_stat_types": {}
     }
   ],
+  "live_probe": {
+    "enabled_by_default": false,
+    "requires_explicit_browser_driver_flag": true,
+    "fbref": {
+      "driver_risk": "may invoke SeleniumBase/Chrome drivers and hang on anti-bot/browser startup",
+      "sample_leagues": [
+        "ENG-Premier League"
+      ],
+      "sample_seasons": [
+        2024
+      ],
+      "checks": [
+        "read_schedule",
+        "read_team_match_stats_shooting"
+      ]
+    },
+    "whoscored": {
+      "driver_risk": "selenium/anti-bot risk; live checks intentionally disabled until isolated diagnostics are approved",
+      "sample_leagues": [
+        "ENG-Premier League"
+      ],
+      "sample_seasons": [
+        2024
+      ],
+      "checks": []
+    }
+  },
   "target_fields": [
     "possession",
     "shots",

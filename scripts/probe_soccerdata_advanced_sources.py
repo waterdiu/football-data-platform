@@ -46,6 +46,23 @@ def import_soccerdata() -> tuple[Any | None, dict[str, Any]]:
     }
 
 
+def dataframe_summary(frame: Any) -> dict[str, Any]:
+    try:
+        columns = [str(column) for column in frame.columns]
+        rows = int(len(frame))
+    except Exception as exc:  # noqa: BLE001
+        return {
+            "status": "invalid_dataframe",
+            "error": str(exc),
+        }
+    return {
+        "status": "ok",
+        "rows": rows,
+        "columns": columns,
+        "columns_sample": columns[:40],
+    }
+
+
 def method_signature(cls: Any, method: str) -> str | None:
     fn = getattr(cls, method, None)
     if fn is None:
@@ -142,6 +159,62 @@ def probe_provider(sd: Any | None, provider: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def run_fbref_live_probe(sd: Any, live_config: dict[str, Any], allow_browser_driver: bool) -> dict[str, Any]:
+    cfg = live_config.get("fbref") if isinstance(live_config.get("fbref"), dict) else {}
+    checks = set(str(item) for item in cfg.get("checks") or [])
+    leagues = [str(item) for item in cfg.get("sample_leagues") or []]
+    seasons = list(cfg.get("sample_seasons") or [])
+    output: dict[str, Any] = {
+        "provider": "fbref",
+        "status": "not_requested",
+        "leagues": leagues,
+        "seasons": seasons,
+        "checks": sorted(checks),
+        "results": {},
+    }
+    if not checks:
+        return output
+    if not allow_browser_driver:
+        output["status"] = "skipped_browser_driver_required"
+        output["reason"] = (
+            "soccerdata FBref live reads may invoke SeleniumBase/Chrome drivers; "
+            "rerun with --allow-browser-driver only for isolated manual diagnostics."
+        )
+        return output
+    try:
+        reader = sd.FBref(leagues=leagues, seasons=seasons, no_cache=True, no_store=False, headless=True)
+    except Exception as exc:  # noqa: BLE001
+        output["status"] = "reader_error"
+        output["error"] = str(exc)
+        return output
+    output["status"] = "checked"
+    if "read_schedule" in checks:
+        try:
+            output["results"]["read_schedule"] = dataframe_summary(reader.read_schedule())
+        except Exception as exc:  # noqa: BLE001
+            output["results"]["read_schedule"] = {"status": "provider_error", "error": str(exc)}
+    if "read_team_match_stats_shooting" in checks:
+        try:
+            frame = reader.read_team_match_stats(stat_type="shooting")
+            summary = dataframe_summary(frame)
+            summary["target_fields_inferred"] = {
+                "shots": any("Sh" == str(col) or "shot" in str(col).casefold() for col in getattr(frame, "columns", [])),
+                "shots_on_target": any("SoT" == str(col) or "target" in str(col).casefold() for col in getattr(frame, "columns", [])),
+                "xg": any("xG" == str(col) or "xg" in str(col).casefold() for col in getattr(frame, "columns", [])),
+            }
+            output["results"]["read_team_match_stats_shooting"] = summary
+        except Exception as exc:  # noqa: BLE001
+            output["results"]["read_team_match_stats_shooting"] = {"status": "provider_error", "error": str(exc)}
+    return output
+
+
+def run_live_probes(sd: Any | None, config: dict[str, Any], allow_browser_driver: bool) -> list[dict[str, Any]]:
+    if sd is None:
+        return []
+    live_config = config.get("live_probe") if isinstance(config.get("live_probe"), dict) else {}
+    return [run_fbref_live_probe(sd, live_config, allow_browser_driver)]
+
+
 def conclusion_for_provider(provider: str, field_support: dict[str, str]) -> str:
     if provider == "fbref":
         return "usable_for_experimental_fbref_stats_probe; not a World Cup production source and xG/pass fields require live verification"
@@ -154,6 +227,12 @@ def conclusion_for_provider(provider: str, field_support: dict[str, str]) -> str
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Probe soccerdata readers for FBref/FotMob/WhoScored advanced data capability.")
+    parser.add_argument("--live", action="store_true", help="attempt low-frequency live reader smoke tests")
+    parser.add_argument(
+        "--allow-browser-driver",
+        action="store_true",
+        help="allow soccerdata live probes to start Selenium/Chrome drivers; use only for isolated manual diagnostics",
+    )
     parser.add_argument("--output", default=str(REPORT_PATH), help="probe report output path")
     args = parser.parse_args()
 
@@ -163,6 +242,7 @@ def main() -> None:
     sd, import_report = import_soccerdata()
     providers = [row for row in config.get("providers") or [] if isinstance(row, dict)]
     rows = [probe_provider(sd, provider) for provider in providers]
+    live_results = run_live_probes(sd, config, args.allow_browser_driver) if args.live else []
     summary = {
         "classification": "experimental_only",
         "production_write_allowed": False,
@@ -183,6 +263,9 @@ def main() -> None:
         "providers_without_installed_reader": [
             row["provider"] for row in rows if not row.get("reader_available")
         ],
+        "live": args.live,
+        "allow_browser_driver": args.allow_browser_driver,
+        "live_probe_count": len(live_results),
     }
     report = {
         "generated_at": utc_now(),
@@ -191,6 +274,7 @@ def main() -> None:
         "soccerdata_import": import_report,
         "summary": summary,
         "providers": rows,
+        "live_probes": live_results,
         "target_fields": config.get("target_fields") or [],
         "recommended_next_steps": [
             "Use FBref only for experimental/statistical feasibility; live scrape must remain outside normalized/public until verified.",

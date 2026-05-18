@@ -154,7 +154,7 @@
 - 继续 odds free/low-cost probe，但未通过前不进入生产。
 - 继续 Sofascore 字段覆盖 probe，验证 match statistics / lineups / shotmap / xG；未授权前只允许 raw experimental。
 - `soccerdata` 的 Sofascore reader 已验证只支持 league/table/schedule，不能提供 match statistics、lineups、shotmap/xG、player ratings 或 PPDA inputs。
-- `soccerdata` advanced probe 已验证：FBref 有实验性 team/player stats、lineup、events 路径；WhoScored 有 events/missing players 路径；FotMob reader 在本机版本不存在。
+- `soccerdata` advanced probe 已验证：FBref 有实验性 team/player stats、lineup、events 路径；WhoScored 有 events/missing players 路径；FotMob reader 在本机版本不存在。FBref/WhoScored live scrape 可能触发 Selenium/Chrome driver、反爬和长时间挂起，默认不得启动浏览器驱动；仅隔离诊断时允许 `--allow-browser-driver`。
 - 裁判名单/指派等 FIFA 官方或 API-FOOTBALL。
 - 天气按窗口采集，窗口外输出 `unavailable`。
 

@@ -241,6 +241,7 @@
   - 当前定位：验证本机 `soccerdata` 中 FBref、FotMob、WhoScored reader 的高级数据能力
   - 结论：FBref 有实验性 team/player stats、lineup、events 路径；WhoScored 有 events/missing-player 路径；FotMob reader 在本机 `soccerdata 1.9.0` 中不存在
   - 这些 reader 仍然是 scraper/selenium 风险源，不得直接写入 normalized/model/public API
+  - 可选 `--live` 默认不会启动浏览器驱动；需要隔离诊断时必须显式加 `--allow-browser-driver`，否则 FBref live check 会返回 `skipped_browser_driver_required`
 - `capture_world_cup_context_from_predictor.py`
   - 调用 `world-cup-predictor` 的 `run_scheduled_maintenance.py`
   - 只触发 `world_cup` 的 context capture，不跑 odds / predictions / evaluation

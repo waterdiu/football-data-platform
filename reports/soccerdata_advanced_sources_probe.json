@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T17:17:51Z",
+  "generated_at": "2026-05-18T17:28:58Z",
   "scope": "soccerdata_fbref_fotmob_whoscored_capability_probe",
   "policy": {
     "classification": "experimental_only",
@@ -28,7 +28,10 @@
     ],
     "providers_without_installed_reader": [
       "fotmob"
-    ]
+    ],
+    "live": true,
+    "allow_browser_driver": false,
+    "live_probe_count": 1
   },
   "providers": [
     {
@@ -181,6 +184,24 @@
       },
       "classification": "experimental_only",
       "conclusion": "usable_for_experimental_events_probe; high scraping/selenium risk and not a direct xG/player-rating source through soccerdata"
+    }
+  ],
+  "live_probes": [
+    {
+      "provider": "fbref",
+      "status": "skipped_browser_driver_required",
+      "leagues": [
+        "ENG-Premier League"
+      ],
+      "seasons": [
+        2024
+      ],
+      "checks": [
+        "read_schedule",
+        "read_team_match_stats_shooting"
+      ],
+      "results": {},
+      "reason": "soccerdata FBref live reads may invoke SeleniumBase/Chrome drivers; rerun with --allow-browser-driver only for isolated manual diagnostics."
     }
   ],
   "target_fields": [
