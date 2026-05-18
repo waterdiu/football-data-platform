@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T16:50:34Z",
+  "generated_at": "2026-05-18T17:38:01Z",
   "scope": "sofascore_experimental_probe",
   "provider": {
     "provider": "sofascore",
@@ -38,9 +38,9 @@
     "normalized_write_allowed": false,
     "public_api_write_allowed": false,
     "team_probe_count": 0,
-    "player_probe_count": 1,
+    "player_probe_count": 3,
     "event_probe_count": 0,
-    "endpoint_probe_count": 2,
+    "endpoint_probe_count": 6,
     "observed_field_endpoint_counts": {
       "possession": 0,
       "shots": 0,
@@ -117,6 +117,130 @@
         }
       ],
       "event_ids_sample": []
+    },
+    {
+      "player_id": "2018130",
+      "endpoints": [
+        {
+          "endpoint": "player_profile",
+          "url": "https://api.sofascore.com/api/v1/player/2018130",
+          "http_status": 403,
+          "error": "HTTP Error 403: Forbidden",
+          "row_count_or_key_count": 0,
+          "top_level_type": null,
+          "keys_sample": [],
+          "field_coverage_inferred": {
+            "possession": false,
+            "shots": false,
+            "shots_on_target": false,
+            "passes": false,
+            "pass_accuracy": false,
+            "lineups": false,
+            "player_ratings": false,
+            "xg_or_shot_quality": false,
+            "ppda_direct": false,
+            "ppda_inputs_possible": false,
+            "target_groups": [
+              "match_statistics",
+              "lineups",
+              "player_statistics",
+              "shotmap",
+              "ppda"
+            ]
+          }
+        },
+        {
+          "endpoint": "player_events_last",
+          "url": "https://api.sofascore.com/api/v1/player/2018130/events/last/0",
+          "http_status": 403,
+          "error": "HTTP Error 403: Forbidden",
+          "row_count_or_key_count": 0,
+          "top_level_type": null,
+          "keys_sample": [],
+          "field_coverage_inferred": {
+            "possession": false,
+            "shots": false,
+            "shots_on_target": false,
+            "passes": false,
+            "pass_accuracy": false,
+            "lineups": false,
+            "player_ratings": false,
+            "xg_or_shot_quality": false,
+            "ppda_direct": false,
+            "ppda_inputs_possible": false,
+            "target_groups": [
+              "match_statistics",
+              "lineups",
+              "player_statistics",
+              "shotmap",
+              "ppda"
+            ]
+          }
+        }
+      ],
+      "event_ids_sample": []
+    },
+    {
+      "player_id": "2018330",
+      "endpoints": [
+        {
+          "endpoint": "player_profile",
+          "url": "https://api.sofascore.com/api/v1/player/2018330",
+          "http_status": 403,
+          "error": "HTTP Error 403: Forbidden",
+          "row_count_or_key_count": 0,
+          "top_level_type": null,
+          "keys_sample": [],
+          "field_coverage_inferred": {
+            "possession": false,
+            "shots": false,
+            "shots_on_target": false,
+            "passes": false,
+            "pass_accuracy": false,
+            "lineups": false,
+            "player_ratings": false,
+            "xg_or_shot_quality": false,
+            "ppda_direct": false,
+            "ppda_inputs_possible": false,
+            "target_groups": [
+              "match_statistics",
+              "lineups",
+              "player_statistics",
+              "shotmap",
+              "ppda"
+            ]
+          }
+        },
+        {
+          "endpoint": "player_events_last",
+          "url": "https://api.sofascore.com/api/v1/player/2018330/events/last/0",
+          "http_status": 403,
+          "error": "HTTP Error 403: Forbidden",
+          "row_count_or_key_count": 0,
+          "top_level_type": null,
+          "keys_sample": [],
+          "field_coverage_inferred": {
+            "possession": false,
+            "shots": false,
+            "shots_on_target": false,
+            "passes": false,
+            "pass_accuracy": false,
+            "lineups": false,
+            "player_ratings": false,
+            "xg_or_shot_quality": false,
+            "ppda_direct": false,
+            "ppda_inputs_possible": false,
+            "target_groups": [
+              "match_statistics",
+              "lineups",
+              "player_statistics",
+              "shotmap",
+              "ppda"
+            ]
+          }
+        }
+      ],
+      "event_ids_sample": []
     }
   ],
   "event_probes": [],
@@ -135,6 +259,16 @@
       "repo": "apdmatos/sofascore-api",
       "url": "https://github.com/apdmatos/sofascore-api",
       "role": "unofficial Sofascore API documentation; useful for endpoint map review"
+    },
+    {
+      "repo": "kirill52300/pysofascore",
+      "url": "https://pypi.org/project/pysofascore/",
+      "role": "Sofascore-focused Python scraper with statistics, shotmap, lineups, xG and live-score methods; useful for isolated experimental probe only"
+    },
+    {
+      "repo": "oseymour/ScraperFC",
+      "url": "https://scraperfc.readthedocs.io/en/latest/",
+      "role": "multi-source scraper library with Sofascore module; useful for API surface review and isolated experimental probe only"
     }
   ],
   "recommended_next_steps": [

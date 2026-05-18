@@ -228,6 +228,7 @@
   - 当前定位：Sofascore 非官方 endpoint 字段覆盖 probe。默认 metadata-only，不访问网络
   - 可选 `--live --event-id <id>`、`--live --team-id <id>` 或 `--live --player-id <id>` 做低频验证；如需保存 payload，只能加 `--write-raw` 写入 `data/raw/experimental/sofascore`
   - 当前直接 live smoke test 返回 HTTP 403，因此只能作为实验源可达性/字段覆盖记录，不能作为生产采集源
+  - 后续若继续 Sofascore，只能评估 `tunjayoff/sofascore_scraper`、`pysofascore` 或 `ScraperFC` 等专项 wrapper，定位仍是 endpoint discovery / field coverage
   - 禁止把 Sofascore live probe 结果直接写入 `data/normalized`、`data/model` 或 public API
 - `probe_soccerdata_sofascore.py`
   - 输入：`configs/providers/soccerdata_sofascore_probe.json`

@@ -97,6 +97,16 @@
       "repo": "apdmatos/sofascore-api",
       "url": "https://github.com/apdmatos/sofascore-api",
       "role": "unofficial Sofascore API documentation; useful for endpoint map review"
+    },
+    {
+      "repo": "kirill52300/pysofascore",
+      "url": "https://pypi.org/project/pysofascore/",
+      "role": "Sofascore-focused Python scraper with statistics, shotmap, lineups, xG and live-score methods; useful for isolated experimental probe only"
+    },
+    {
+      "repo": "oseymour/ScraperFC",
+      "url": "https://scraperfc.readthedocs.io/en/latest/",
+      "role": "multi-source scraper library with Sofascore module; useful for API surface review and isolated experimental probe only"
     }
   ]
 }
