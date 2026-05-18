@@ -29,6 +29,22 @@ def load_json(path: Path) -> object:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_env_value(name: str) -> str:
+    direct = os.environ.get(name, "").strip()
+    if direct:
+        return direct
+    for env_path in (ROOT / ".env.local", ROOT / ".env"):
+        if not env_path.exists():
+            continue
+        for line in env_path.read_text(encoding="utf-8").splitlines():
+            if not line or line.lstrip().startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            if key.strip() == name and value.strip():
+                return value.strip().strip('"').strip("'")
+    return ""
+
+
 def fetch_json(url: str, *, headers: dict[str, str] | None = None, timeout: int = 20) -> tuple[int | None, object | None, str | None]:
     context = ssl.create_default_context(cafile=certifi.where() if certifi else None)
     request = Request(url, headers=headers or {})
@@ -75,7 +91,7 @@ def market_coverage_from_events(payload: object) -> dict[str, object]:
 
 
 def probe_odds_api_io(provider: dict, *, live: bool) -> dict:
-    key = os.environ.get(str(provider.get("auth_env") or ""), "").strip()
+    key = load_env_value(str(provider.get("auth_env") or ""))
     row = base_probe_row(provider, live=live)
     row["probe_status"] = "skipped_missing_key" if live and not key else "metadata_only"
     row["live_probe_enabled"] = bool(live and key)
@@ -101,7 +117,7 @@ def probe_odds_api_io(provider: dict, *, live: bool) -> dict:
 
 
 def probe_sharpapi(provider: dict, *, live: bool) -> dict:
-    key = os.environ.get(str(provider.get("auth_env") or ""), "").strip()
+    key = load_env_value(str(provider.get("auth_env") or ""))
     row = base_probe_row(provider, live=live)
     row["probe_status"] = "skipped_missing_key" if live and not key else "metadata_only"
     row["live_probe_enabled"] = bool(live and key)
@@ -121,7 +137,7 @@ def probe_sharpapi(provider: dict, *, live: bool) -> dict:
 
 
 def probe_bsd(provider: dict, *, live: bool) -> dict:
-    token = os.environ.get(str(provider.get("auth_env") or ""), "").strip()
+    token = load_env_value(str(provider.get("auth_env") or ""))
     row = base_probe_row(provider, live=live)
     row["probe_status"] = "skipped_missing_key" if live and not token else "metadata_only"
     row["live_probe_enabled"] = bool(live and token)
@@ -144,8 +160,9 @@ def probe_bsd(provider: dict, *, live: bool) -> dict:
         "consensus_markets": ["1x2", "over_1.5", "over_2.5", "over_3.5", "under_1.5", "under_2.5", "under_3.5", "btts"],
         "multi_bookmaker_claim": "~15 books according to public v2 docs",
         "asian_handicap": "not documented in public v2 odds consensus docs",
+        "world_cup_hint": "public docs use league_id=16 and season_id=82 in World Cup venue examples; live probe verifies these ids separately",
     }
-    row["next_probe_required"] = "Get a free BSD token, run --live, verify World Cup/international events and bookmaker-level 1X2/OU rows."
+    row["next_probe_required"] = "Run --live with BSD_API_TOKEN, verify league_id=16&season_id=82 events and odds rows, then confirm terms before adapter promotion."
     if not live or not token:
         return row
 
@@ -154,7 +171,38 @@ def probe_bsd(provider: dict, *, live: bool) -> dict:
     row["bookmakers_probe"] = summarize_bsd_list_payload(status, payload, error)
     status, payload, error = fetch_json("https://sports.bzzoiro.com/api/v2/odds/?limit=20", headers=headers)
     row["odds_probe"] = summarize_bsd_list_payload(status, payload, error)
-    row["probe_status"] = "live_checked" if row["bookmakers_probe"]["http_status"] == 200 or row["odds_probe"]["http_status"] == 200 else "provider_error"
+    status, payload, error = fetch_json("https://sports.bzzoiro.com/api/v2/events/?league_id=16&season_id=82&limit=20", headers=headers)
+    row["world_cup_events_probe"] = summarize_bsd_list_payload(status, payload, error)
+    status, payload, error = fetch_json("https://sports.bzzoiro.com/api/v2/odds/?league_id=16&season_id=82&limit=20", headers=headers)
+    row["world_cup_odds_probe"] = summarize_bsd_list_payload(status, payload, error)
+    promotion_blockers = []
+    if row["world_cup_events_probe"]["row_count_sample"] == 0:
+        promotion_blockers.append("world_cup_events_not_found_for_league_16_season_82")
+    if row["world_cup_odds_probe"]["row_count_sample"] == 0:
+        promotion_blockers.append("world_cup_odds_not_found_for_league_16_season_82")
+    if not row["odds_probe"]["market_keys_sample"]:
+        promotion_blockers.append("market_keys_not_observed")
+    if not any(str(market).startswith("over_under") for market in row["odds_probe"]["market_keys_sample"]):
+        promotion_blockers.append("over_under_not_observed")
+    if "1x2" not in row["odds_probe"]["market_keys_sample"]:
+        promotion_blockers.append("one_x_two_not_observed")
+    promotion_blockers.append("asian_handicap_not_documented")
+    row["promotion_blockers"] = promotion_blockers
+    row["market_verdict"] = {
+        "one_x_two": "observed" if "1x2" in row["odds_probe"]["market_keys_sample"] else "not_observed",
+        "over_under": "observed" if any(str(market).startswith("over_under") for market in row["odds_probe"]["market_keys_sample"]) else "not_observed",
+        "asian_handicap": "not_documented",
+        "world_cup_2026": "not_observed_in_live_probe" if row["world_cup_events_probe"]["row_count_sample"] == 0 and row["world_cup_odds_probe"]["row_count_sample"] == 0 else "observed",
+    }
+    row["probe_status"] = "live_checked" if any(
+        probe.get("http_status") == 200
+        for probe in (
+            row["bookmakers_probe"],
+            row["odds_probe"],
+            row["world_cup_events_probe"],
+            row["world_cup_odds_probe"],
+        )
+    ) else "provider_error"
     return row
 
 
@@ -165,16 +213,27 @@ def summarize_bsd_list_payload(status: int | None, payload: object | None, error
     keys: set[str] = set()
     market_keys: set[str] = set()
     bookmaker_keys: set[str] = set()
+    event_ids: list[object] = []
+    league_ids: set[str] = set()
+    season_ids: set[str] = set()
     for item in results[:20]:
         if not isinstance(item, dict):
             continue
         keys.update(str(key) for key in item.keys())
+        if item.get("id") is not None:
+            event_ids.append(item.get("id"))
         for key in ("market", "market_key", "market_type"):
             if item.get(key):
                 market_keys.add(str(item[key]))
         for key in ("bookmaker", "bookmaker_slug", "bookmaker_key"):
             if item.get(key):
                 bookmaker_keys.add(str(item[key]))
+        for key in ("league_id", "league"):
+            if item.get(key) is not None:
+                league_ids.add(str(item[key]))
+        for key in ("season_id", "season"):
+            if item.get(key) is not None:
+                season_ids.add(str(item[key]))
     return {
         "http_status": status,
         "error": error,
@@ -182,6 +241,9 @@ def summarize_bsd_list_payload(status: int | None, payload: object | None, error
         "top_level_keys_sample": sorted(keys)[:30],
         "market_keys_sample": sorted(market_keys)[:20],
         "bookmaker_keys_sample": sorted(bookmaker_keys)[:20],
+        "event_ids_sample": event_ids[:10],
+        "league_ids_sample": sorted(league_ids)[:10],
+        "season_ids_sample": sorted(season_ids)[:10],
     }
 
 

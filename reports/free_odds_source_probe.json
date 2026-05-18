@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-18T09:32:54.305907+00:00",
+  "generated_at": "2026-05-18T09:48:36.707650+00:00",
   "scope": "free_or_open_football_odds_sources",
-  "live": false,
+  "live": true,
   "policy": {
     "normalized_write_allowed": false,
     "model_publish_allowed": false,
@@ -25,7 +25,7 @@
       "display_name": "Odds-API.io",
       "category": "api",
       "probe_classification": "probe_only",
-      "live_requested": false,
+      "live_requested": true,
       "homepage": "https://odds-api.io/",
       "docs_url": "https://docs.odds-api.io/",
       "auth_env": "ODDS_API_IO_KEY",
@@ -40,7 +40,7 @@
         "world_cup_2026"
       ],
       "production_gate": "Do not enter normalized until a live probe confirms World Cup or international football events plus bookmaker-level 1X2/OU/AH rows.",
-      "probe_status": "metadata_only",
+      "probe_status": "skipped_missing_key",
       "live_probe_enabled": false,
       "production_classification": "probe_only",
       "market_verdict": {
@@ -55,7 +55,7 @@
       "display_name": "SharpAPI Soccer Odds",
       "category": "api",
       "probe_classification": "probe_only",
-      "live_requested": false,
+      "live_requested": true,
       "homepage": "https://sharpapi.io/odds/soccer",
       "docs_url": "https://sharpapi.io/odds/soccer",
       "auth_env": "SHARPAPI_KEY",
@@ -72,7 +72,7 @@
         "world_cup_2026"
       ],
       "production_gate": "Do not enter normalized until a live probe confirms World Cup or international football events and exact line/price structure.",
-      "probe_status": "metadata_only",
+      "probe_status": "skipped_missing_key",
       "live_probe_enabled": false,
       "production_classification": "probe_only",
       "market_verdict": {
@@ -87,7 +87,7 @@
       "display_name": "BSD / Bzzoiro Sports Data",
       "category": "api",
       "probe_classification": "production_candidate_for_1x2_ou_probe",
-      "live_requested": false,
+      "live_requested": true,
       "homepage": "https://sports.bzzoiro.com/",
       "docs_url": "https://sports.bzzoiro.com/docs/v2/",
       "auth_env": "BSD_API_TOKEN",
@@ -104,14 +104,14 @@
         "asian_handicap"
       ],
       "production_gate": "Probe must confirm /api/v2/odds/, /api/v2/events/{id}/odds/comparison/, /api/v2/bookmakers/, terms, bookmaker-level rows, and stable event identifiers before any normalized write.",
-      "probe_status": "metadata_only",
-      "live_probe_enabled": false,
+      "probe_status": "live_checked",
+      "live_probe_enabled": true,
       "production_classification": "production_candidate_for_1x2_ou_probe",
       "market_verdict": {
-        "one_x_two": "claimed",
-        "over_under": "claimed",
+        "one_x_two": "observed",
+        "over_under": "observed",
         "asian_handicap": "not_documented",
-        "world_cup_2026": "claimed"
+        "world_cup_2026": "not_observed_in_live_probe"
       },
       "confirmed_public_docs": {
         "base_url": "https://sports.bzzoiro.com/api/",
@@ -133,16 +133,105 @@
           "btts"
         ],
         "multi_bookmaker_claim": "~15 books according to public v2 docs",
-        "asian_handicap": "not documented in public v2 odds consensus docs"
+        "asian_handicap": "not documented in public v2 odds consensus docs",
+        "world_cup_hint": "public docs use league_id=16 and season_id=82 in World Cup venue examples; live probe verifies these ids separately"
       },
-      "next_probe_required": "Get a free BSD token, run --live, verify World Cup/international events and bookmaker-level 1X2/OU rows."
+      "next_probe_required": "Run --live with BSD_API_TOKEN, verify league_id=16&season_id=82 events and odds rows, then confirm terms before adapter promotion.",
+      "bookmakers_probe": {
+        "http_status": 200,
+        "error": null,
+        "row_count_sample": 15,
+        "top_level_keys_sample": [
+          "name",
+          "slug"
+        ],
+        "market_keys_sample": [],
+        "bookmaker_keys_sample": [],
+        "event_ids_sample": [],
+        "league_ids_sample": [],
+        "season_ids_sample": []
+      },
+      "odds_probe": {
+        "http_status": 200,
+        "error": null,
+        "row_count_sample": 20,
+        "top_level_keys_sample": [
+          "bookmaker_name",
+          "bookmaker_slug",
+          "decimal_odds",
+          "event_id",
+          "id",
+          "implied_probability",
+          "is_max_quote",
+          "market",
+          "movement",
+          "outcome",
+          "outcome_name",
+          "previous_decimal_odds",
+          "updated_at"
+        ],
+        "market_keys_sample": [
+          "1x2",
+          "btts",
+          "double_chance",
+          "draw_no_bet",
+          "over_under_15",
+          "over_under_25",
+          "over_under_35"
+        ],
+        "bookmaker_keys_sample": [
+          "1xbet",
+          "oddssafari-consensus"
+        ],
+        "event_ids_sample": [
+          913396,
+          913397,
+          913398,
+          913520,
+          913521,
+          806110,
+          913637,
+          806258,
+          913716,
+          913717
+        ],
+        "league_ids_sample": [],
+        "season_ids_sample": []
+      },
+      "world_cup_events_probe": {
+        "http_status": 200,
+        "error": null,
+        "row_count_sample": 0,
+        "top_level_keys_sample": [],
+        "market_keys_sample": [],
+        "bookmaker_keys_sample": [],
+        "event_ids_sample": [],
+        "league_ids_sample": [],
+        "season_ids_sample": []
+      },
+      "world_cup_odds_probe": {
+        "http_status": 200,
+        "error": null,
+        "row_count_sample": 0,
+        "top_level_keys_sample": [],
+        "market_keys_sample": [],
+        "bookmaker_keys_sample": [],
+        "event_ids_sample": [],
+        "league_ids_sample": [],
+        "season_ids_sample": []
+      },
+      "promotion_blockers": [
+        "world_cup_events_not_found_for_league_16_season_82",
+        "world_cup_odds_not_found_for_league_16_season_82",
+        "asian_handicap_not_documented"
+      ]
     },
     {
       "provider": "betstack",
       "display_name": "BetStack",
       "category": "api",
       "probe_classification": "pass",
-      "live_requested": false,
+      "live_requested": true,
       "homepage": "https://api.betstack.dev/",
       "docs_url": "https://api.betstack.dev/",
       "auth_env": null,
@@ -171,7 +260,7 @@
       "display_name": "OddsPortal GitHub scrapers",
       "category": "scraper",
       "probe_classification": "experimental_only",
-      "live_requested": false,
+      "live_requested": true,
       "homepage": "https://www.oddsportal.com/",
       "docs_url": null,
       "auth_env": null,
@@ -201,7 +290,7 @@
       "display_name": "Leisu odds scrapers",
       "category": "scraper",
       "probe_classification": "experimental_only",
-      "live_requested": false,
+      "live_requested": true,
       "homepage": "https://www.leisu.com/",
       "docs_url": null,
       "auth_env": null,

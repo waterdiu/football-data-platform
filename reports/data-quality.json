@@ -84,13 +84,13 @@
           "production_write_allowed": false,
           "normalized_write_allowed": false
         },
-        "bsd_probe_status": "metadata_only",
+        "bsd_probe_status": "live_checked",
         "bsd_classification": "production_candidate_for_1x2_ou_probe",
         "bsd_market_verdict": {
-          "one_x_two": "claimed",
-          "over_under": "claimed",
+          "one_x_two": "observed",
+          "over_under": "observed",
           "asian_handicap": "not_documented",
-          "world_cup_2026": "claimed"
+          "world_cup_2026": "not_observed_in_live_probe"
         }
       },
       "runbook": "Only enable a soccer-capable paid or approved odds provider. TheOddsAPI free key is not soccer-capable. For free-source validation, get BSD_API_TOKEN and run scripts/probe_free_odds_sources.py --live; do not write probe rows into normalized/model until approved."
