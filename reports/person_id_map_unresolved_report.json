@@ -39,7 +39,7 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or alias for Woodensky Pierre, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:bae-junho",
@@ -60,7 +60,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:cho-guesung",
@@ -81,7 +81,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:cho-yumin",
@@ -102,7 +102,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:eom-jisung",
@@ -123,7 +123,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:hwang-heechan",
@@ -144,7 +144,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:hwang-inbeom",
@@ -165,7 +165,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:jo-hyeonwoo",
@@ -186,7 +186,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:kim-jingyu",
@@ -207,7 +207,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:kim-minjae",
@@ -228,7 +228,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:kim-moonhwan",
@@ -249,7 +249,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:kim-taehyeon",
@@ -260,17 +260,32 @@
     "name": "Kim Taehyeon",
     "match_key": "kim taehyeon",
     "match_status": "missing",
-    "identity_status": "unresolved",
-    "confidence": "none",
-    "resolution_method": "not_found",
+    "identity_status": "platform_identity_with_external_refs",
+    "confidence": "medium",
+    "resolution_method": "platform_external_refs_no_reep_row",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
+    "provider_refs": {
+      "key_transfermarkt": "645847"
+    },
     "candidates": [],
     "manual_review": null,
-    "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "external_evidence": {
+      "platform_person_id": "korea-republic:player:kim-taehyeon",
+      "evidence_status": "external_refs_found_no_reep_row",
+      "provider_refs": {
+        "key_transfermarkt": "645847"
+      },
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-18T14:35:00Z",
+      "evidence": [
+        "FIFA Korea Republic World Cup 2026 squad article lists Kim Taehyeon with Kashima Antlers.",
+        "Transfermarkt player profile 645847 is Tae-hyeon Kim, Korea Republic defender born 2000-09-17, current club Kashima Antlers.",
+        "The other dcaribou same-name candidate 508366 is associated with Jeonbuk Hyundai Motors and does not match the FIFA squad club context."
+      ]
+    },
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:lee-donggyeong",
@@ -291,7 +306,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:lee-hanbeom",
@@ -312,7 +327,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:lee-jaesung",
@@ -333,7 +348,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:lee-kangin",
@@ -354,7 +369,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:lee-kihyuk",
@@ -365,17 +380,32 @@
     "name": "Lee Kihyuk",
     "match_key": "lee kihyuk",
     "match_status": "missing",
-    "identity_status": "unresolved",
-    "confidence": "none",
-    "resolution_method": "not_found",
+    "identity_status": "platform_identity_with_external_refs",
+    "confidence": "medium",
+    "resolution_method": "platform_external_refs_no_reep_row",
     "source": "reep",
     "source_license": "CC0-1.0",
     "source_version": "2026.17",
-    "provider_refs": {},
+    "provider_refs": {
+      "key_transfermarkt": "763349"
+    },
     "candidates": [],
     "manual_review": null,
-    "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "external_evidence": {
+      "platform_person_id": "korea-republic:player:lee-kihyuk",
+      "evidence_status": "external_refs_found_no_reep_row",
+      "provider_refs": {
+        "key_transfermarkt": "763349"
+      },
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-18T14:35:00Z",
+      "evidence": [
+        "FIFA Korea Republic World Cup 2026 squad article lists Lee Kihyuk with Gangwon.",
+        "Transfermarkt player profile 763349 is Gi-hyuk Lee, Korea Republic defender born 2000-07-07.",
+        "AFC 2025-26 preliminary registration lists Gangwon FC player LEE GIHYUK, DOB 07-07-2000, position DF, confirming the romanization bridge."
+      ]
+    },
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:lee-taeseok",
@@ -396,7 +426,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:oh-hyeongyu",
@@ -417,7 +447,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:paik-seungho",
@@ -438,7 +468,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:park-jinseob",
@@ -459,7 +489,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:seol-youngwoo",
@@ -480,7 +510,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:son-heungmin",
@@ -501,7 +531,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:song-bumkeun",
@@ -522,7 +552,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "korea-republic:player:yang-hyunjun",
@@ -543,7 +573,7 @@
     "candidates": [],
     "manual_review": null,
     "external_evidence": null,
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "tunisia:player:abdelmouhib-chamakh",
@@ -583,7 +613,7 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or alias for Abdelmouhib Chamakh, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   },
   {
     "platform_person_id": "tunisia:player:raed-chikhaoui",
@@ -623,6 +653,6 @@
         "Reep 2026.17 people.csv and names.csv contain no matching row or provider ID for Raed Chikhaoui, so the Reep mapping remains missing."
       ]
     },
-    "updated_at": "2026-05-18T12:06:40Z"
+    "updated_at": "2026-05-18T14:31:37Z"
   }
 ]

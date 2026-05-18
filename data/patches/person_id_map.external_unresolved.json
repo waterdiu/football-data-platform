@@ -55,6 +55,34 @@
         "Public provider profiles identify Raed Chikhaoui as a Tunisia defender with Transfermarkt player ID 1075790, FotMob player ID 1721242, and Sofascore player ID 2018330.",
         "Reep 2026.17 people.csv and names.csv contain no matching row or provider ID for Raed Chikhaoui, so the Reep mapping remains missing."
       ]
+    },
+    {
+      "platform_person_id": "korea-republic:player:kim-taehyeon",
+      "evidence_status": "external_refs_found_no_reep_row",
+      "provider_refs": {
+        "key_transfermarkt": "645847"
+      },
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-18T14:35:00Z",
+      "evidence": [
+        "FIFA Korea Republic World Cup 2026 squad article lists Kim Taehyeon with Kashima Antlers.",
+        "Transfermarkt player profile 645847 is Tae-hyeon Kim, Korea Republic defender born 2000-09-17, current club Kashima Antlers.",
+        "The other dcaribou same-name candidate 508366 is associated with Jeonbuk Hyundai Motors and does not match the FIFA squad club context."
+      ]
+    },
+    {
+      "platform_person_id": "korea-republic:player:lee-kihyuk",
+      "evidence_status": "external_refs_found_no_reep_row",
+      "provider_refs": {
+        "key_transfermarkt": "763349"
+      },
+      "reviewed_by": "codex",
+      "reviewed_at": "2026-05-18T14:35:00Z",
+      "evidence": [
+        "FIFA Korea Republic World Cup 2026 squad article lists Lee Kihyuk with Gangwon.",
+        "Transfermarkt player profile 763349 is Gi-hyuk Lee, Korea Republic defender born 2000-07-07.",
+        "AFC 2025-26 preliminary registration lists Gangwon FC player LEE GIHYUK, DOB 07-07-2000, position DF, confirming the romanization bridge."
+      ]
     }
   ]
 }
