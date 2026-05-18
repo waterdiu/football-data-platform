@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-05-18T00:00:00Z",
+  "policy": {
+    "normalized_write_allowed": false,
+    "model_publish_allowed": false,
+    "raw_experimental_only_for_scrapers": true,
+    "notes": "This config is for feasibility probes only. Probe outputs must stay in reports/ until a provider is explicitly approved."
+  },
+  "providers": [
+    {
+      "provider": "odds_api_io",
+      "display_name": "Odds-API.io",
+      "category": "api",
+      "probe_classification": "probe_only",
+      "homepage": "https://odds-api.io/",
+      "docs_url": "https://docs.odds-api.io/",
+      "auth_env": "ODDS_API_IO_KEY",
+      "free_tier": "100 requests/hour, 2 bookmakers according to public pricing page",
+      "soccer_coverage_claim": "football/soccer listed publicly; World Cup 2026 and Asian handicap coverage must be verified",
+      "markets_claimed": ["1x2", "over_under"],
+      "markets_unknown": ["asian_handicap", "world_cup_2026"],
+      "production_gate": "Do not enter normalized until a live probe confirms World Cup or international football events plus bookmaker-level 1X2/OU/AH rows."
+    },
+    {
+      "provider": "sharpapi_soccer",
+      "display_name": "SharpAPI Soccer Odds",
+      "category": "api",
+      "probe_classification": "probe_only",
+      "homepage": "https://sharpapi.io/odds/soccer",
+      "docs_url": "https://sharpapi.io/odds/soccer",
+      "auth_env": "SHARPAPI_KEY",
+      "free_tier": "12 requests/minute, 2 sportsbooks according to public page",
+      "soccer_coverage_claim": "major club competitions are listed; World Cup/international coverage must be verified",
+      "markets_claimed": ["1x2", "asian_handicap", "over_under", "double_chance", "btts"],
+      "markets_unknown": ["world_cup_2026"],
+      "production_gate": "Do not enter normalized until a live probe confirms World Cup or international football events and exact line/price structure."
+    },
+    {
+      "provider": "bsd_bzzoiro",
+      "display_name": "BSD / Bzzoiro Sports Data",
+      "category": "api",
+      "probe_classification": "production_candidate_for_1x2_ou_probe",
+      "homepage": "https://sports.bzzoiro.com/",
+      "docs_url": "https://sports.bzzoiro.com/",
+      "auth_env": null,
+      "free_tier": "public page claims free football REST access; WebSocket is paid",
+      "soccer_coverage_claim": "World Cup 2026 is publicly listed",
+      "markets_claimed": ["1x2", "over_under", "btts"],
+      "markets_unknown": ["asian_handicap"],
+      "production_gate": "Probe must confirm endpoint availability, terms, bookmaker-level rows, and stable event identifiers before any normalized write."
+    },
+    {
+      "provider": "betstack",
+      "display_name": "BetStack",
+      "category": "api",
+      "probe_classification": "pass",
+      "homepage": "https://api.betstack.dev/",
+      "docs_url": "https://api.betstack.dev/",
+      "auth_env": null,
+      "free_tier": "unknown",
+      "soccer_coverage_claim": "insufficient reliable public documentation found",
+      "markets_claimed": [],
+      "markets_unknown": ["1x2", "asian_handicap", "over_under", "bookmaker_detail", "world_cup_2026"],
+      "production_gate": "Do not implement until reliable docs and terms are available."
+    },
+    {
+      "provider": "oddsportal_scrapers",
+      "display_name": "OddsPortal GitHub scrapers",
+      "category": "scraper",
+      "probe_classification": "experimental_only",
+      "homepage": "https://www.oddsportal.com/",
+      "docs_url": null,
+      "auth_env": null,
+      "free_tier": "not applicable",
+      "soccer_coverage_claim": "site has football odds, but GitHub scrapers are unofficial and fragile",
+      "markets_claimed": ["1x2"],
+      "markets_unknown": ["asian_handicap", "over_under", "world_cup_2026", "terms"],
+      "production_gate": "Only allowed under data/raw/experimental after legal/ToS review; never publish to public/model runtime by default."
+    },
+    {
+      "provider": "leisu_scrapers",
+      "display_name": "Leisu odds scrapers",
+      "category": "scraper",
+      "probe_classification": "experimental_only",
+      "homepage": "https://www.leisu.com/",
+      "docs_url": null,
+      "auth_env": null,
+      "free_tier": "not applicable",
+      "soccer_coverage_claim": "site displays football odds, but GitHub projects are reverse-engineered",
+      "markets_claimed": ["1x2", "asian_handicap", "over_under"],
+      "markets_unknown": ["world_cup_2026", "terms", "stability"],
+      "production_gate": "Only allowed under data/raw/experimental after legal/ToS review; never publish to public/model runtime by default."
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import ssl
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
+
+from json_io import write_json
+
+try:
+    import certifi
+except ImportError:  # pragma: no cover
+    certifi = None
+
+ROOT = Path(__file__).resolve().parents[1]
+CONFIG_PATH = ROOT / "configs" / "providers" / "free_odds_probe.json"
+REPORT_PATH = ROOT / "reports" / "free_odds_source_probe.json"
+
+
+def utc_now() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def load_json(path: Path) -> object:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def fetch_json(url: str, *, headers: dict[str, str] | None = None, timeout: int = 20) -> tuple[int | None, object | None, str | None]:
+    context = ssl.create_default_context(cafile=certifi.where() if certifi else None)
+    request = Request(url, headers=headers or {})
+    try:
+        with urlopen(request, timeout=timeout, context=context) as response:
+            status = int(response.status)
+            raw = response.read().decode("utf-8")
+    except HTTPError as error:
+        return int(error.code), None, str(error)
+    except (URLError, TimeoutError, OSError) as error:
+        return None, None, str(error)
+    try:
+        return status, json.loads(raw), None
+    except json.JSONDecodeError:
+        return status, None, "response was not JSON"
+
+
+def market_coverage_from_events(payload: object) -> dict[str, object]:
+    events = payload if isinstance(payload, list) else []
+    bookmaker_keys: set[str] = set()
+    market_keys: set[str] = set()
+    event_count = len(events)
+    for event in events:
+        if not isinstance(event, dict):
+            continue
+        for bookmaker in event.get("bookmakers") or []:
+            if not isinstance(bookmaker, dict):
+                continue
+            bookmaker_key = str(bookmaker.get("key") or bookmaker.get("title") or "").strip()
+            if bookmaker_key:
+                bookmaker_keys.add(bookmaker_key)
+            for market in bookmaker.get("markets") or []:
+                if isinstance(market, dict) and market.get("key"):
+                    market_keys.add(str(market["key"]))
+    return {
+        "event_count": event_count,
+        "bookmaker_count": len(bookmaker_keys),
+        "bookmakers_sample": sorted(bookmaker_keys)[:10],
+        "market_keys": sorted(market_keys),
+        "has_1x2": "h2h" in market_keys or "1x2" in market_keys,
+        "has_over_under": "totals" in market_keys or "over_under" in market_keys,
+        "has_asian_handicap": "spreads" in market_keys or "asian_handicap" in market_keys,
+    }
+
+
+def probe_odds_api_io(provider: dict, *, live: bool) -> dict:
+    key = os.environ.get(str(provider.get("auth_env") or ""), "").strip()
+    row = base_probe_row(provider, live=live)
+    row["probe_status"] = "skipped_missing_key" if live and not key else "metadata_only"
+    row["live_probe_enabled"] = bool(live and key)
+    row["production_classification"] = provider.get("probe_classification")
+    row["market_verdict"] = {
+        "one_x_two": "claimed_or_unknown",
+        "over_under": "claimed_or_unknown",
+        "asian_handicap": "unknown",
+        "world_cup_2026": "unknown",
+    }
+    if not live or not key:
+        return row
+
+    # Endpoint shape is intentionally isolated in probe code and must be
+    # confirmed before any provider adapter is promoted.
+    url = "https://api.odds-api.io/v3/odds?sport=soccer&apiKey=" + key
+    status, payload, error = fetch_json(url)
+    row["http_status"] = status
+    row["error"] = error
+    row["observed"] = market_coverage_from_events(payload)
+    row["probe_status"] = "live_checked" if status and 200 <= status < 300 else "provider_error"
+    return row
+
+
+def probe_sharpapi(provider: dict, *, live: bool) -> dict:
+    key = os.environ.get(str(provider.get("auth_env") or ""), "").strip()
+    row = base_probe_row(provider, live=live)
+    row["probe_status"] = "skipped_missing_key" if live and not key else "metadata_only"
+    row["live_probe_enabled"] = bool(live and key)
+    row["production_classification"] = provider.get("probe_classification")
+    row["market_verdict"] = {
+        "one_x_two": "claimed",
+        "over_under": "claimed",
+        "asian_handicap": "claimed",
+        "world_cup_2026": "unknown",
+    }
+    if not live or not key:
+        return row
+
+    row["probe_status"] = "manual_endpoint_required"
+    row["error"] = "SharpAPI endpoint path/auth header must be confirmed from account docs before live probing."
+    return row
+
+
+def probe_bsd(provider: dict, *, live: bool) -> dict:
+    row = base_probe_row(provider, live=live)
+    row["probe_status"] = "metadata_only"
+    row["live_probe_enabled"] = False
+    row["production_classification"] = provider.get("probe_classification")
+    row["market_verdict"] = {
+        "one_x_two": "claimed",
+        "over_under": "claimed",
+        "asian_handicap": "not_documented",
+        "world_cup_2026": "claimed",
+    }
+    row["next_probe_required"] = "Confirm public REST endpoint path and terms before live probing."
+    return row
+
+
+def base_probe_row(provider: dict, *, live: bool) -> dict:
+    return {
+        "provider": provider.get("provider"),
+        "display_name": provider.get("display_name"),
+        "category": provider.get("category"),
+        "probe_classification": provider.get("probe_classification"),
+        "live_requested": live,
+        "homepage": provider.get("homepage"),
+        "docs_url": provider.get("docs_url"),
+        "auth_env": provider.get("auth_env"),
+        "free_tier": provider.get("free_tier"),
+        "soccer_coverage_claim": provider.get("soccer_coverage_claim"),
+        "markets_claimed": provider.get("markets_claimed") or [],
+        "markets_unknown": provider.get("markets_unknown") or [],
+        "production_gate": provider.get("production_gate"),
+    }
+
+
+def probe_provider(provider: dict, *, live: bool) -> dict:
+    provider_key = provider.get("provider")
+    if provider_key == "odds_api_io":
+        return probe_odds_api_io(provider, live=live)
+    if provider_key == "sharpapi_soccer":
+        return probe_sharpapi(provider, live=live)
+    if provider_key == "bsd_bzzoiro":
+        return probe_bsd(provider, live=live)
+    row = base_probe_row(provider, live=live)
+    row["probe_status"] = "policy_only"
+    row["production_classification"] = provider.get("probe_classification")
+    row["market_verdict"] = {
+        "one_x_two": "unknown",
+        "over_under": "unknown",
+        "asian_handicap": "unknown",
+        "world_cup_2026": "unknown",
+    }
+    return row
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Probe free or open football odds source feasibility.")
+    parser.add_argument("--live", action="store_true", help="attempt live API probes when the required env key exists")
+    parser.add_argument("--output", default=str(REPORT_PATH), help="probe report output path")
+    args = parser.parse_args()
+
+    config = load_json(CONFIG_PATH)
+    if not isinstance(config, dict):
+        raise TypeError("free odds probe config must be an object")
+    providers = [row for row in config.get("providers") or [] if isinstance(row, dict)]
+    rows = [probe_provider(provider, live=args.live) for provider in providers]
+
+    counts: dict[str, int] = {}
+    for row in rows:
+        key = str(row.get("probe_classification") or "unknown")
+        counts[key] = counts.get(key, 0) + 1
+
+    report = {
+        "generated_at": utc_now(),
+        "scope": "free_or_open_football_odds_sources",
+        "live": args.live,
+        "policy": config.get("policy") or {},
+        "summary": {
+            "provider_count": len(rows),
+            "classification_counts": dict(sorted(counts.items())),
+            "production_write_allowed": False,
+            "normalized_write_allowed": False,
+        },
+        "providers": rows,
+        "recommended_next_steps": [
+            "Keep all scraper/reverse-engineered sources experimental only.",
+            "Probe BSD/Bzzoiro endpoint paths and terms before treating it as a production candidate.",
+            "Use Odds-API.io and SharpAPI only as probe-only until live checks confirm World Cup/international football, bookmaker detail, and AH/OU line structure.",
+            "Do not write probe rows into data/normalized or data/model.",
+        ],
+    }
+    write_json(Path(args.output), report)
+    print(json.dumps(report["summary"], ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()

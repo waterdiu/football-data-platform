@@ -896,6 +896,7 @@ predictor 全量数据资产当前边界：
 
 - 已迁移：The Odds API 赔率采集器，但 TheOddsAPI 免费层只覆盖 NBA/MLB，足球需要 Business 付费计划；平台默认把该源标记为 `paid_plan_required`，除非付费后显式设置 `THE_ODDS_API_SOCCER_ENABLED=1`
 - 已增强：The Odds API 标准化输出 `h2h`、`over_under`、`asian_handicap`、`has_1x2`、`has_over_under`、`has_asian_handicap`，coverage 可直接识别 1X2 / 大小球 / 亚盘覆盖
+- 已新增：免费/开源赔率源可行性 probe，脚本为 `scripts/probe_free_odds_sources.py`，配置为 `configs/providers/free_odds_probe.json`，报告为 `reports/free_odds_source_probe.json`。Probe 只判断可行性，不允许写 `data/normalized`、`data/model` 或 public API。当前 BSD/Bzzoiro 仅可作为 `1X2/OU` 预生产候选继续验证；Odds-API.io 与 SharpAPI 仍是 `probe_only`；OddsPortal/雷速/Bet365 类逆向爬虫只允许 `experimental_only`。
 - 已迁移：API-FOOTBALL 阵容和伤停采集，直接写 `data/normalized/world_cup_2026_model_lineups_master.json` 与 `data/normalized/world_cup_2026_model_injuries_master.json`
 - 已增强：阵容/伤停运行期数据即使未进入采集窗口、缺少 provider key 或 provider 计划受限，也必须对 104 场输出状态行；例如 `lineups.source_status=unavailable,status_reason=outside_lineup_window`，`injuries.source_status=plan_restricted,status_reason=<provider message>`。这表示“当前不可采集/未授权/计划受限”，不是“无伤停”或“无首发”。
 - 已增强：天气采集优先使用 OpenWeather；无 key 或 OpenWeather 失败时 fallback 到无 key的 Open-Meteo 16 天预报窗口，直接写 `data/normalized/world_cup_2026_model_weather_master.json`

@@ -364,7 +364,40 @@ data/raw/experimental/
 - 正式赔率源仍优先可授权 API。
 - 雷速/HKJC/竞彩网等必须先做合规审查。
 
-## 9. 当前结论
+## 9. 免费 / 开源赔率源专项评估
+
+当前结论：
+
+- 没有确认可直接进入生产的免费世界杯赔率源。
+- 免费 API 候选必须先通过 probe，确认足球覆盖、世界杯/国际赛覆盖、`1X2`、`AH`、`OU`、bookmaker 明细、UTC `captured_at` / `kickoff_at` 字段后，才允许进入正式 adapter。
+- GitHub 逆向/爬虫类赔率源只允许进入 `data/raw/experimental`，不得默认进入 `data/normalized`、`data/model` 或 public API。
+
+数据层已新增 probe-only 配置和报告：
+
+- 配置：`configs/providers/free_odds_probe.json`
+- 脚本：`scripts/probe_free_odds_sources.py`
+- 报告：`reports/free_odds_source_probe.json`
+
+当前分级：
+
+| 来源 | 分类 | 判断 |
+|---|---|---|
+| Odds-API.io | `probe_only` | 免费层需要实测足球、世界杯、AH 覆盖和 bookmaker 明细。 |
+| SharpAPI Soccer Odds | `probe_only` | 市场字段描述较完整，但世界杯/国际赛覆盖需要实测。 |
+| BSD / Bzzoiro Sports Data | `production_candidate_for_1x2_ou_probe` | 页面声称 World Cup 2026 和足球赔率覆盖，AH 未确认；需先确认 endpoint、条款和 bookmaker 行。 |
+| BetStack | `pass` | 未找到足够可靠公开文档，暂不实现。 |
+| OddsPortal GitHub scrapers | `experimental_only` | 逆向/爬虫，高 ToS 与反爬风险。 |
+| 雷速 odds scrapers | `experimental_only` | 逆向/爬虫，只可实验，不进生产。 |
+
+验收门槛：
+
+- `1X2`、`AH`、`OU` 必须分市场记录，不允许因为存在 `1X2` 就把 AH/OU 标为 available。
+- 每条赔率必须包含 provider、bookmaker、bookmaker_type、market、line、odds、captured_at、kickoff_at、snapshot_type。
+- 免费源若只有 1-2 家 bookmaker，只能标 `data_quality=low`，不得作为强盘口结论依据。
+- opening odds 必须早于 `kickoff_at - 24h`，closing odds 必须是开赛前最后一个有效快照。
+- 未通过 probe 的源不得写入 `world_cup_2026_model_odds_master.json`。
+
+## 10. 当前结论
 
 国内源值得研究，但不是生产主链路的答案。
 

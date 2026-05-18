@@ -124,6 +124,7 @@ Sources:
 - API-FOOTBALL odds coverage, HKJC compliance validation, or another approved paid source
 - OddsHarvester/OddsPortal where legally and operationally safe
 - OddsPapi or other paid source if approved source coverage is insufficient
+- Free/open source feasibility probes are tracked in `reports/free_odds_source_probe.json`. Current candidates are Odds-API.io, SharpAPI, and BSD/Bzzoiro as probe-only or pre-production candidates; OddsPortal/Leisu scrapers remain `experimental_only`, and BetStack is `pass` until reliable docs are found.
 
 Acceptance criteria:
 
