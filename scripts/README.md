@@ -235,6 +235,12 @@
   - 当前定位：验证 `probberechts/soccerdata` 的 Sofascore reader 是否能满足高级数据需求
   - 结论：本机 `soccerdata` 可用，但 Sofascore reader 只支持 league/table/schedule，不提供 match statistics、lineups、shotmap/xG、player ratings 或 PPDA inputs
   - 可选 `--live` 只允许低频 schedule probe，缓存/日志限定在 `data/raw/experimental/soccerdata`
+- `probe_soccerdata_advanced_sources.py`
+  - 输入：`configs/providers/soccerdata_advanced_sources_probe.json`
+  - 输出：`reports/soccerdata_advanced_sources_probe.json`
+  - 当前定位：验证本机 `soccerdata` 中 FBref、FotMob、WhoScored reader 的高级数据能力
+  - 结论：FBref 有实验性 team/player stats、lineup、events 路径；WhoScored 有 events/missing-player 路径；FotMob reader 在本机 `soccerdata 1.9.0` 中不存在
+  - 这些 reader 仍然是 scraper/selenium 风险源，不得直接写入 normalized/model/public API
 - `capture_world_cup_context_from_predictor.py`
   - 调用 `world-cup-predictor` 的 `run_scheduled_maintenance.py`
   - 只触发 `world_cup` 的 context capture，不跑 odds / predictions / evaluation

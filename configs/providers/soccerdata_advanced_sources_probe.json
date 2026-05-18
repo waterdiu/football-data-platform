@@ -1,0 +1,88 @@
+{
+  "policy": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "raw_output_dir": "data/raw/experimental/soccerdata",
+    "reason": "FBref, FotMob, and WhoScored access through soccerdata is scraper-based or reader-based. These checks are for capability discovery only."
+  },
+  "providers": [
+    {
+      "provider": "fbref",
+      "display_name": "FBref via soccerdata",
+      "reader": "FBref",
+      "expected_methods": [
+        "read_schedule",
+        "read_team_season_stats",
+        "read_team_match_stats",
+        "read_player_season_stats",
+        "read_player_match_stats",
+        "read_lineup",
+        "read_events"
+      ],
+      "known_stat_types": {
+        "team_season_stats": [
+          "standard",
+          "keeper",
+          "shooting",
+          "playing_time",
+          "misc"
+        ],
+        "team_match_stats": [
+          "schedule",
+          "shooting",
+          "keeper",
+          "misc"
+        ],
+        "player_season_stats": [
+          "standard",
+          "keeper",
+          "shooting",
+          "playing_time",
+          "misc"
+        ],
+        "player_match_stats": [
+          "summary",
+          "keepers"
+        ]
+      }
+    },
+    {
+      "provider": "fotmob",
+      "display_name": "FotMob via soccerdata",
+      "reader": "FotMob",
+      "expected_methods": [
+        "read_schedule",
+        "read_match_stats",
+        "read_lineups",
+        "read_shotmap",
+        "read_player_ratings"
+      ],
+      "known_stat_types": {}
+    },
+    {
+      "provider": "whoscored",
+      "display_name": "WhoScored via soccerdata",
+      "reader": "WhoScored",
+      "expected_methods": [
+        "read_schedule",
+        "read_missing_players",
+        "read_events"
+      ],
+      "known_stat_types": {}
+    }
+  ],
+  "target_fields": [
+    "possession",
+    "shots",
+    "shots_on_target",
+    "passes",
+    "pass_accuracy",
+    "xg",
+    "shotmap",
+    "lineups",
+    "player_ratings",
+    "ppda"
+  ]
+}

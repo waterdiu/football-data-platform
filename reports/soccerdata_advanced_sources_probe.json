@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-05-18T17:17:51Z",
+  "scope": "soccerdata_fbref_fotmob_whoscored_capability_probe",
+  "policy": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "raw_output_dir": "data/raw/experimental/soccerdata",
+    "reason": "FBref, FotMob, and WhoScored access through soccerdata is scraper-based or reader-based. These checks are for capability discovery only."
+  },
+  "soccerdata_import": {
+    "available": true,
+    "version": "1.9.0",
+    "module_path": "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/soccerdata/__init__.py"
+  },
+  "summary": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "soccerdata_available": true,
+    "provider_count": 3,
+    "reader_available_count": 2,
+    "providers_with_match_stats_probe_path": [
+      "fbref",
+      "whoscored"
+    ],
+    "providers_without_installed_reader": [
+      "fotmob"
+    ]
+  },
+  "providers": [
+    {
+      "provider": "fbref",
+      "display_name": "FBref via soccerdata",
+      "reader": "FBref",
+      "reader_available": true,
+      "reader_signature": "(leagues: Union[str, list[str], NoneType] = None, seasons: Union[str, int, list, NoneType] = None, proxy: Union[str, list[str], Callable[[], str], NoneType] = None, no_cache: bool = False, no_store: bool = False, data_dir: pathlib.Path = PosixPath('/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/raw/experimental/soccerdata/data/FBref'), path_to_browser: Optional[pathlib.Path] = None, headless: bool = True)",
+      "methods": [
+        "available_leagues",
+        "get",
+        "leagues",
+        "read_events",
+        "read_leagues",
+        "read_lineup",
+        "read_player_match_stats",
+        "read_player_season_stats",
+        "read_schedule",
+        "read_seasons",
+        "read_team_match_stats",
+        "read_team_season_stats",
+        "seasons"
+      ],
+      "method_coverage": {
+        "read_schedule": true,
+        "read_team_season_stats": true,
+        "read_team_match_stats": true,
+        "read_player_season_stats": true,
+        "read_player_match_stats": true,
+        "read_lineup": true,
+        "read_events": true
+      },
+      "method_signatures": {
+        "read_schedule": "(self, force_cache: bool = False) -> pandas.DataFrame",
+        "read_team_season_stats": "(self, stat_type: str = 'standard', opponent_stats: bool = False) -> pandas.DataFrame",
+        "read_team_match_stats": "(self, stat_type: str = 'schedule', opponent_stats: bool = False, team: Union[str, list[str], NoneType] = None, force_cache: bool = False) -> pandas.DataFrame",
+        "read_player_season_stats": "(self, stat_type: str = 'standard') -> pandas.DataFrame",
+        "read_player_match_stats": "(self, stat_type: str = 'summary', match_id: Union[str, list[str], NoneType] = None, force_cache: bool = False) -> pandas.DataFrame",
+        "read_lineup": "(self, match_id: Union[str, list[str], NoneType] = None, force_cache: bool = False) -> pandas.DataFrame",
+        "read_events": "(self, match_id: Union[str, list[str], NoneType] = None, force_cache: bool = False) -> pandas.DataFrame"
+      },
+      "known_stat_types": {
+        "team_season_stats": [
+          "standard",
+          "keeper",
+          "shooting",
+          "playing_time",
+          "misc"
+        ],
+        "team_match_stats": [
+          "schedule",
+          "shooting",
+          "keeper",
+          "misc"
+        ],
+        "player_season_stats": [
+          "standard",
+          "keeper",
+          "shooting",
+          "playing_time",
+          "misc"
+        ],
+        "player_match_stats": [
+          "summary",
+          "keepers"
+        ]
+      },
+      "field_support": {
+        "possession": "season_level_possible",
+        "shots": "match_level_possible",
+        "shots_on_target": "match_level_possible",
+        "passes": "season_level_possible",
+        "pass_accuracy": "season_level_possible",
+        "xg": "season_or_match_possible_but_must_live_verify",
+        "shotmap": "not_exposed",
+        "lineups": "method_available",
+        "player_ratings": "not_exposed",
+        "ppda": "not_exposed"
+      },
+      "classification": "experimental_only",
+      "conclusion": "usable_for_experimental_fbref_stats_probe; not a World Cup production source and xG/pass fields require live verification"
+    },
+    {
+      "provider": "fotmob",
+      "display_name": "FotMob via soccerdata",
+      "reader": "FotMob",
+      "reader_available": false,
+      "method_coverage": {
+        "read_schedule": false,
+        "read_match_stats": false,
+        "read_lineups": false,
+        "read_shotmap": false,
+        "read_player_ratings": false
+      },
+      "field_support": {
+        "possession": "reader_missing_in_installed_soccerdata",
+        "shots": "reader_missing_in_installed_soccerdata",
+        "shots_on_target": "reader_missing_in_installed_soccerdata",
+        "passes": "reader_missing_in_installed_soccerdata",
+        "pass_accuracy": "reader_missing_in_installed_soccerdata",
+        "xg": "reader_missing_in_installed_soccerdata",
+        "shotmap": "reader_missing_in_installed_soccerdata",
+        "lineups": "reader_missing_in_installed_soccerdata",
+        "player_ratings": "reader_missing_in_installed_soccerdata",
+        "ppda": "reader_missing_in_installed_soccerdata"
+      },
+      "classification": "experimental_only",
+      "conclusion": "reader_not_available_in_installed_soccerdata"
+    },
+    {
+      "provider": "whoscored",
+      "display_name": "WhoScored via soccerdata",
+      "reader": "WhoScored",
+      "reader_available": true,
+      "reader_signature": "(leagues: Union[str, list[str], NoneType] = None, seasons: Union[str, int, collections.abc.Iterable[Union[str, int]], NoneType] = None, proxy: Union[str, list[str], Callable[[], str], NoneType] = None, no_cache: bool = False, no_store: bool = False, data_dir: pathlib.Path = PosixPath('/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/raw/experimental/soccerdata/data/WhoScored'), path_to_browser: Optional[pathlib.Path] = None, headless: bool = False)",
+      "methods": [
+        "available_leagues",
+        "get",
+        "leagues",
+        "read_events",
+        "read_leagues",
+        "read_missing_players",
+        "read_schedule",
+        "read_season_stages",
+        "read_seasons",
+        "seasons"
+      ],
+      "method_coverage": {
+        "read_schedule": true,
+        "read_missing_players": true,
+        "read_events": true
+      },
+      "method_signatures": {
+        "read_schedule": "(self, force_cache: bool = False) -> pandas.DataFrame",
+        "read_missing_players": "(self, match_id: Union[int, list[int], NoneType] = None, force_cache: bool = False) -> pandas.DataFrame",
+        "read_events": "(self, match_id: Union[int, list[int], NoneType] = None, force_cache: bool = False, live: bool = False, output_fmt: Optional[str] = 'events', retry_missing: bool = True, on_error: Literal['raise', 'skip'] = 'raise') -> Union[pandas.DataFrame, dict[int, list], ForwardRef('OptaLoader'), NoneType]"
+      },
+      "known_stat_types": {},
+      "field_support": {
+        "possession": "event_derived_possible_but_requires_live_verify",
+        "shots": "event_derived_possible_but_requires_live_verify",
+        "shots_on_target": "event_derived_possible_but_requires_live_verify",
+        "passes": "event_derived_possible_but_requires_live_verify",
+        "pass_accuracy": "event_derived_possible_but_requires_live_verify",
+        "xg": "not_exposed",
+        "shotmap": "not_exposed",
+        "lineups": "not_exposed",
+        "player_ratings": "not_exposed_by_reader",
+        "ppda": "event_derived_possible_but_requires_live_verify"
+      },
+      "classification": "experimental_only",
+      "conclusion": "usable_for_experimental_events_probe; high scraping/selenium risk and not a direct xG/player-rating source through soccerdata"
+    }
+  ],
+  "target_fields": [
+    "possession",
+    "shots",
+    "shots_on_target",
+    "passes",
+    "pass_accuracy",
+    "xg",
+    "shotmap",
+    "lineups",
+    "player_ratings",
+    "ppda"
+  ],
+  "recommended_next_steps": [
+    "Use FBref only for experimental/statistical feasibility; live scrape must remain outside normalized/public until verified.",
+    "Do not rely on installed soccerdata for FotMob; no FotMob reader is present in soccerdata 1.9.0.",
+    "Use WhoScored only as a high-risk experimental events probe; Selenium/anti-bot and authorization risks remain.",
+    "Keep PPDA null unless event-level pass and defensive-action data are verified and the calculation window is documented."
+  ],
+  "raw_dir": "data/raw/experimental/soccerdata"
+}
