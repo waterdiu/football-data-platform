@@ -1,1 +1,2759 @@
-[]
+[
+  {
+    "official_id": "referee:premier-league:a-kitchen",
+    "person_id": "referee:premier-league:a-kitchen",
+    "name": "A Kitchen",
+    "display_name": "A Kitchen",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 5
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 5,
+      "yellow_cards": 15,
+      "red_cards": 0,
+      "yellow_cards_per_match": 3.0,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.6,
+      "away_win_rate": 0.0,
+      "draw_rate": 0.4,
+      "avg_goals": 2.4,
+      "first_match_date": "2025-04-19",
+      "last_match_date": "2025-12-04",
+      "seasons": [
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:a-madley",
+    "person_id": "referee:premier-league:a-madley",
+    "name": "A Madley",
+    "display_name": "A Madley",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 131
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 131,
+      "yellow_cards": 434,
+      "red_cards": 12,
+      "yellow_cards_per_match": 3.313,
+      "red_cards_per_match": 0.0916,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4351,
+      "away_win_rate": 0.3206,
+      "draw_rate": 0.2443,
+      "avg_goals": 2.9695,
+      "first_match_date": "2018-12-15",
+      "last_match_date": "2026-04-25",
+      "seasons": [
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:a-marriner",
+    "person_id": "referee:premier-league:a-marriner",
+    "name": "A Marriner",
+    "display_name": "A Marriner",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 188
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 188,
+      "yellow_cards": 554,
+      "red_cards": 20,
+      "yellow_cards_per_match": 2.9468,
+      "red_cards_per_match": 0.1064,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.3883,
+      "away_win_rate": 0.3617,
+      "draw_rate": 0.25,
+      "avg_goals": 2.9681,
+      "first_match_date": "2015-08-23",
+      "last_match_date": "2023-05-28",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:a-moss",
+    "person_id": "referee:premier-league:a-moss",
+    "name": "A Moss",
+    "display_name": "A Moss",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 1
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 1,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "yellow_cards_per_match": 4.0,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.0,
+      "away_win_rate": 1.0,
+      "draw_rate": 0.0,
+      "avg_goals": 1.0,
+      "first_match_date": "2021-05-16",
+      "last_match_date": "2021-05-16",
+      "seasons": [
+        "2020-2021"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:a-taylor",
+    "person_id": "referee:premier-league:a-taylor",
+    "name": "A Taylor",
+    "display_name": "A Taylor",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 322
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 322,
+      "yellow_cards": 1152,
+      "red_cards": 39,
+      "yellow_cards_per_match": 3.5776,
+      "red_cards_per_match": 0.1211,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4317,
+      "away_win_rate": 0.3385,
+      "draw_rate": 0.2298,
+      "avg_goals": 3.0,
+      "first_match_date": "2015-08-09",
+      "last_match_date": "2026-04-25",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:c-kavanagh",
+    "person_id": "referee:premier-league:c-kavanagh",
+    "name": "C Kavanagh",
+    "display_name": "C Kavanagh",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 189
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 189,
+      "yellow_cards": 657,
+      "red_cards": 22,
+      "yellow_cards_per_match": 3.4762,
+      "red_cards_per_match": 0.1164,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4392,
+      "away_win_rate": 0.328,
+      "draw_rate": 0.2328,
+      "avg_goals": 2.6085,
+      "first_match_date": "2017-04-08",
+      "last_match_date": "2026-04-27",
+      "seasons": [
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:c-pawson",
+    "person_id": "referee:premier-league:c-pawson",
+    "name": "C Pawson",
+    "display_name": "C Pawson",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 254
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 254,
+      "yellow_cards": 923,
+      "red_cards": 33,
+      "yellow_cards_per_match": 3.6339,
+      "red_cards_per_match": 0.1299,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4094,
+      "away_win_rate": 0.3504,
+      "draw_rate": 0.2402,
+      "avg_goals": 2.7008,
+      "first_match_date": "2015-08-09",
+      "last_match_date": "2026-04-21",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:d-bond",
+    "person_id": "referee:premier-league:d-bond",
+    "name": "D Bond",
+    "display_name": "D Bond",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 23
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 23,
+      "yellow_cards": 93,
+      "red_cards": 4,
+      "yellow_cards_per_match": 4.0435,
+      "red_cards_per_match": 0.1739,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.5217,
+      "away_win_rate": 0.2174,
+      "draw_rate": 0.2609,
+      "avg_goals": 2.8261,
+      "first_match_date": "2023-01-03",
+      "last_match_date": "2025-05-25",
+      "seasons": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:d-coote",
+    "person_id": "referee:premier-league:d-coote",
+    "name": "D Coote",
+    "display_name": "D Coote",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 112
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 112,
+      "yellow_cards": 432,
+      "red_cards": 13,
+      "yellow_cards_per_match": 3.8571,
+      "red_cards_per_match": 0.1161,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4643,
+      "away_win_rate": 0.3304,
+      "draw_rate": 0.2054,
+      "avg_goals": 2.7143,
+      "first_match_date": "2018-04-28",
+      "last_match_date": "2024-11-09",
+      "seasons": [
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:d-england",
+    "person_id": "referee:premier-league:d-england",
+    "name": "D England",
+    "display_name": "D England",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 97
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 97,
+      "yellow_cards": 386,
+      "red_cards": 11,
+      "yellow_cards_per_match": 3.9794,
+      "red_cards_per_match": 0.1134,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4227,
+      "away_win_rate": 0.3196,
+      "draw_rate": 0.2577,
+      "avg_goals": 2.9897,
+      "first_match_date": "2020-01-18",
+      "last_match_date": "2026-04-24",
+      "seasons": [
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:d-webb",
+    "person_id": "referee:premier-league:d-webb",
+    "name": "D Webb",
+    "display_name": "D Webb",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 2
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 2,
+      "yellow_cards": 7,
+      "red_cards": 0,
+      "yellow_cards_per_match": 3.5,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 1.0,
+      "away_win_rate": 0.0,
+      "draw_rate": 0.0,
+      "avg_goals": 4.0,
+      "first_match_date": "2025-05-03",
+      "last_match_date": "2025-05-20",
+      "seasons": [
+        "2024-2025"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:f-hallam",
+    "person_id": "referee:premier-league:f-hallam",
+    "name": "F Hallam",
+    "display_name": "F Hallam",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 4
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 4,
+      "yellow_cards": 12,
+      "red_cards": 0,
+      "yellow_cards_per_match": 3.0,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.5,
+      "away_win_rate": 0.25,
+      "draw_rate": 0.25,
+      "avg_goals": 3.5,
+      "first_match_date": "2026-01-24",
+      "last_match_date": "2026-04-18",
+      "seasons": [
+        "2025-2026"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:g-scott",
+    "person_id": "referee:premier-league:g-scott",
+    "name": "G Scott",
+    "display_name": "G Scott",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 104
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 104,
+      "yellow_cards": 274,
+      "red_cards": 18,
+      "yellow_cards_per_match": 2.6346,
+      "red_cards_per_match": 0.1731,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.5385,
+      "away_win_rate": 0.3077,
+      "draw_rate": 0.1538,
+      "avg_goals": 2.8558,
+      "first_match_date": "2015-12-12",
+      "last_match_date": "2024-05-19",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [
+      "low-card"
+    ],
+    "distillation_status": "available"
+  },
+  {
+    "official_id": "referee:premier-league:j-brooks",
+    "person_id": "referee:premier-league:j-brooks",
+    "name": "J Brooks",
+    "display_name": "J Brooks",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 72
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 72,
+      "yellow_cards": 314,
+      "red_cards": 9,
+      "yellow_cards_per_match": 4.3611,
+      "red_cards_per_match": 0.125,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.5278,
+      "away_win_rate": 0.2361,
+      "draw_rate": 0.2361,
+      "avg_goals": 2.6111,
+      "first_match_date": "2021-12-01",
+      "last_match_date": "2026-02-12",
+      "seasons": [
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [
+      "card-heavy"
+    ],
+    "distillation_status": "available"
+  },
+  {
+    "official_id": "referee:premier-league:j-gillett",
+    "person_id": "referee:premier-league:j-gillett",
+    "name": "J Gillett",
+    "display_name": "J Gillett",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 82
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 82,
+      "yellow_cards": 307,
+      "red_cards": 4,
+      "yellow_cards_per_match": 3.7439,
+      "red_cards_per_match": 0.0488,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.3293,
+      "away_win_rate": 0.4634,
+      "draw_rate": 0.2073,
+      "avg_goals": 3.1098,
+      "first_match_date": "2021-09-25",
+      "last_match_date": "2026-04-10",
+      "seasons": [
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [
+      "high-scoring-sample"
+    ],
+    "distillation_status": "available"
+  },
+  {
+    "official_id": "referee:premier-league:j-moss",
+    "person_id": "referee:premier-league:j-moss",
+    "name": "J Moss",
+    "display_name": "J Moss",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 185
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 185,
+      "yellow_cards": 599,
+      "red_cards": 24,
+      "yellow_cards_per_match": 3.2378,
+      "red_cards_per_match": 0.1297,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4486,
+      "away_win_rate": 0.3568,
+      "draw_rate": 0.1946,
+      "avg_goals": 2.9189,
+      "first_match_date": "2015-08-08",
+      "last_match_date": "2022-05-22",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:j-smith",
+    "person_id": "referee:premier-league:j-smith",
+    "name": "J Smith",
+    "display_name": "J Smith",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 8
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 8,
+      "yellow_cards": 31,
+      "red_cards": 2,
+      "yellow_cards_per_match": 3.875,
+      "red_cards_per_match": 0.25,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.625,
+      "away_win_rate": 0.125,
+      "draw_rate": 0.25,
+      "avg_goals": 3.25,
+      "first_match_date": "2023-05-20",
+      "last_match_date": "2024-12-03",
+      "seasons": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:k-friend",
+    "person_id": "referee:premier-league:k-friend",
+    "name": "K Friend",
+    "display_name": "K Friend",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 156
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 156,
+      "yellow_cards": 499,
+      "red_cards": 17,
+      "yellow_cards_per_match": 3.1987,
+      "red_cards_per_match": 0.109,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4487,
+      "away_win_rate": 0.3333,
+      "draw_rate": 0.2179,
+      "avg_goals": 2.7564,
+      "first_match_date": "2015-08-15",
+      "last_match_date": "2022-05-22",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:k-kavanagh",
+    "person_id": "referee:premier-league:k-kavanagh",
+    "name": "K Kavanagh",
+    "display_name": "K Kavanagh",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 1
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "yellow_cards_per_match": 3.0,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 1.0,
+      "away_win_rate": 0.0,
+      "draw_rate": 0.0,
+      "avg_goals": 3.0,
+      "first_match_date": "2025-02-14",
+      "last_match_date": "2025-02-14",
+      "seasons": [
+        "2024-2025"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:k-stroud",
+    "person_id": "referee:premier-league:k-stroud",
+    "name": "K Stroud",
+    "display_name": "K Stroud",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 2
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 2,
+      "yellow_cards": 9,
+      "red_cards": 1,
+      "yellow_cards_per_match": 4.5,
+      "red_cards_per_match": 0.5,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 1.0,
+      "away_win_rate": 0.0,
+      "draw_rate": 0.0,
+      "avg_goals": 2.5,
+      "first_match_date": "2015-08-22",
+      "last_match_date": "2015-10-31",
+      "seasons": [
+        "2015-2016"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:l-mason",
+    "person_id": "referee:premier-league:l-mason",
+    "name": "L Mason",
+    "display_name": "L Mason",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 105
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 105,
+      "yellow_cards": 309,
+      "red_cards": 10,
+      "yellow_cards_per_match": 2.9429,
+      "red_cards_per_match": 0.0952,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.5143,
+      "away_win_rate": 0.2667,
+      "draw_rate": 0.219,
+      "avg_goals": 2.8762,
+      "first_match_date": "2015-08-08",
+      "last_match_date": "2021-05-18",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:l-probert",
+    "person_id": "referee:premier-league:l-probert",
+    "name": "L Probert",
+    "display_name": "L Probert",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 36
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 36,
+      "yellow_cards": 78,
+      "red_cards": 6,
+      "yellow_cards_per_match": 2.1667,
+      "red_cards_per_match": 0.1667,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4167,
+      "away_win_rate": 0.3056,
+      "draw_rate": 0.2778,
+      "avg_goals": 2.3889,
+      "first_match_date": "2017-04-01",
+      "last_match_date": "2019-05-12",
+      "seasons": [
+        "2016-2017",
+        "2017-2018",
+        "2018-2019"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [
+      "low-card"
+    ],
+    "distillation_status": "available"
+  },
+  {
+    "official_id": "referee:premier-league:l-smith",
+    "person_id": "referee:premier-league:l-smith",
+    "name": "L Smith",
+    "display_name": "L Smith",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 10
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 10,
+      "yellow_cards": 41,
+      "red_cards": 3,
+      "yellow_cards_per_match": 4.1,
+      "red_cards_per_match": 0.3,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.5,
+      "away_win_rate": 0.2,
+      "draw_rate": 0.3,
+      "avg_goals": 3.2,
+      "first_match_date": "2024-02-17",
+      "last_match_date": "2026-02-21",
+      "seasons": [
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:m-atkinson",
+    "person_id": "referee:premier-league:m-atkinson",
+    "name": "M Atkinson",
+    "display_name": "M Atkinson",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 197
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 197,
+      "yellow_cards": 596,
+      "red_cards": 19,
+      "yellow_cards_per_match": 3.0254,
+      "red_cards_per_match": 0.0964,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4112,
+      "away_win_rate": 0.3503,
+      "draw_rate": 0.2386,
+      "avg_goals": 2.5635,
+      "first_match_date": "2015-08-09",
+      "last_match_date": "2022-05-22",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:m-clattenburg",
+    "person_id": "referee:premier-league:m-clattenburg",
+    "name": "M Clattenburg",
+    "display_name": "M Clattenburg",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 52
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 52,
+      "yellow_cards": 167,
+      "red_cards": 9,
+      "yellow_cards_per_match": 3.2115,
+      "red_cards_per_match": 0.1731,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4231,
+      "away_win_rate": 0.2692,
+      "draw_rate": 0.3077,
+      "avg_goals": 2.6731,
+      "first_match_date": "2015-08-08",
+      "last_match_date": "2017-04-29",
+      "seasons": [
+        "2015-2016",
+        "2016-2017"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:m-dean",
+    "person_id": "referee:premier-league:m-dean",
+    "name": "M Dean",
+    "display_name": "M Dean",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 195
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 195,
+      "yellow_cards": 719,
+      "red_cards": 39,
+      "yellow_cards_per_match": 3.6872,
+      "red_cards_per_match": 0.2,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4667,
+      "away_win_rate": 0.2667,
+      "draw_rate": 0.2667,
+      "avg_goals": 2.6,
+      "first_match_date": "2015-08-10",
+      "last_match_date": "2022-05-22",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [
+      "red-card-prone"
+    ],
+    "distillation_status": "available"
+  },
+  {
+    "official_id": "referee:premier-league:m-donohue",
+    "person_id": "referee:premier-league:m-donohue",
+    "name": "M Donohue",
+    "display_name": "M Donohue",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 5
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 5,
+      "yellow_cards": 28,
+      "red_cards": 0,
+      "yellow_cards_per_match": 5.6,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.2,
+      "away_win_rate": 0.8,
+      "draw_rate": 0.0,
+      "avg_goals": 3.0,
+      "first_match_date": "2024-05-11",
+      "last_match_date": "2026-03-04",
+      "seasons": [
+        "2023-2024",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:m-jones",
+    "person_id": "referee:premier-league:m-jones",
+    "name": "M Jones",
+    "display_name": "M Jones",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 58
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 58,
+      "yellow_cards": 186,
+      "red_cards": 5,
+      "yellow_cards_per_match": 3.2069,
+      "red_cards_per_match": 0.0862,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4655,
+      "away_win_rate": 0.2931,
+      "draw_rate": 0.2414,
+      "avg_goals": 2.5862,
+      "first_match_date": "2015-08-08",
+      "last_match_date": "2018-05-05",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:m-oliver",
+    "person_id": "referee:premier-league:m-oliver",
+    "name": "M Oliver",
+    "display_name": "M Oliver",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 310
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 310,
+      "yellow_cards": 1007,
+      "red_cards": 42,
+      "yellow_cards_per_match": 3.2484,
+      "red_cards_per_match": 0.1355,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4129,
+      "away_win_rate": 0.3613,
+      "draw_rate": 0.2258,
+      "avg_goals": 2.9677,
+      "first_match_date": "2015-08-08",
+      "last_match_date": "2026-04-25",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:m-salisbury",
+    "person_id": "referee:premier-league:m-salisbury",
+    "name": "M Salisbury",
+    "display_name": "M Salisbury",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 59
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 59,
+      "yellow_cards": 226,
+      "red_cards": 8,
+      "yellow_cards_per_match": 3.8305,
+      "red_cards_per_match": 0.1356,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4746,
+      "away_win_rate": 0.322,
+      "draw_rate": 0.2034,
+      "avg_goals": 3.2881,
+      "first_match_date": "2021-11-27",
+      "last_match_date": "2026-04-22",
+      "seasons": [
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [
+      "high-scoring-sample"
+    ],
+    "distillation_status": "available"
+  },
+  {
+    "official_id": "referee:premier-league:n-swarbrick",
+    "person_id": "referee:premier-league:n-swarbrick",
+    "name": "N Swarbrick",
+    "display_name": "N Swarbrick",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 62
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 62,
+      "yellow_cards": 197,
+      "red_cards": 5,
+      "yellow_cards_per_match": 3.1774,
+      "red_cards_per_match": 0.0806,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4516,
+      "away_win_rate": 0.3387,
+      "draw_rate": 0.2097,
+      "avg_goals": 2.9516,
+      "first_match_date": "2015-08-22",
+      "last_match_date": "2018-05-09",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:o-langford",
+    "person_id": "referee:premier-league:o-langford",
+    "name": "O Langford",
+    "display_name": "O Langford",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 1
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "yellow_cards_per_match": 1.0,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.0,
+      "away_win_rate": 0.0,
+      "draw_rate": 1.0,
+      "avg_goals": 2.0,
+      "first_match_date": "2019-08-18",
+      "last_match_date": "2019-08-18",
+      "seasons": [
+        "2019-2020"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:o-oliver",
+    "person_id": "referee:premier-league:o-oliver",
+    "name": "O Oliver",
+    "display_name": "O Oliver",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 1
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 1,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "yellow_cards_per_match": 5.0,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 1.0,
+      "away_win_rate": 0.0,
+      "draw_rate": 0.0,
+      "avg_goals": 1.0,
+      "first_match_date": "2025-04-14",
+      "last_match_date": "2025-04-14",
+      "seasons": [
+        "2024-2025"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:p-bankes",
+    "person_id": "referee:premier-league:p-bankes",
+    "name": "P Bankes",
+    "display_name": "P Bankes",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 115
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 115,
+      "yellow_cards": 453,
+      "red_cards": 14,
+      "yellow_cards_per_match": 3.9391,
+      "red_cards_per_match": 0.1217,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.5391,
+      "away_win_rate": 0.2435,
+      "draw_rate": 0.2174,
+      "avg_goals": 2.6435,
+      "first_match_date": "2019-08-31",
+      "last_match_date": "2026-03-14",
+      "seasons": [
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:p-tierney",
+    "person_id": "referee:premier-league:p-tierney",
+    "name": "P Tierney",
+    "display_name": "P Tierney",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 191
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 191,
+      "yellow_cards": 650,
+      "red_cards": 20,
+      "yellow_cards_per_match": 3.4031,
+      "red_cards_per_match": 0.1047,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4031,
+      "away_win_rate": 0.3613,
+      "draw_rate": 0.2356,
+      "avg_goals": 2.8063,
+      "first_match_date": "2015-08-15",
+      "last_match_date": "2026-04-18",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:r-east",
+    "person_id": "referee:premier-league:r-east",
+    "name": "R East",
+    "display_name": "R East",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 64
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 64,
+      "yellow_cards": 206,
+      "red_cards": 5,
+      "yellow_cards_per_match": 3.2188,
+      "red_cards_per_match": 0.0781,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.5,
+      "away_win_rate": 0.2344,
+      "draw_rate": 0.2656,
+      "avg_goals": 2.8438,
+      "first_match_date": "2015-09-19",
+      "last_match_date": "2019-05-12",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:r-jones",
+    "person_id": "referee:premier-league:r-jones",
+    "name": "R Jones",
+    "display_name": "R Jones",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 108
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 108,
+      "yellow_cards": 419,
+      "red_cards": 11,
+      "yellow_cards_per_match": 3.8796,
+      "red_cards_per_match": 0.1019,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.463,
+      "away_win_rate": 0.2963,
+      "draw_rate": 0.2407,
+      "avg_goals": 2.787,
+      "first_match_date": "2019-12-21",
+      "last_match_date": "2026-04-12",
+      "seasons": [
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:r-madley",
+    "person_id": "referee:premier-league:r-madley",
+    "name": "R Madley",
+    "display_name": "R Madley",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 76
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 76,
+      "yellow_cards": 254,
+      "red_cards": 10,
+      "yellow_cards_per_match": 3.3421,
+      "red_cards_per_match": 0.1316,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4737,
+      "away_win_rate": 0.2237,
+      "draw_rate": 0.3026,
+      "avg_goals": 2.6053,
+      "first_match_date": "2015-08-15",
+      "last_match_date": "2023-09-02",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2022-2023",
+        "2023-2024"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:r-welch",
+    "person_id": "referee:premier-league:r-welch",
+    "name": "R Welch",
+    "display_name": "R Welch",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 2
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 2,
+      "yellow_cards": 8,
+      "red_cards": 1,
+      "yellow_cards_per_match": 4.0,
+      "red_cards_per_match": 0.5,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.0,
+      "away_win_rate": 0.5,
+      "draw_rate": 0.5,
+      "avg_goals": 2.0,
+      "first_match_date": "2023-12-23",
+      "last_match_date": "2024-02-04",
+      "seasons": [
+        "2023-2024"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:s-allison",
+    "person_id": "referee:premier-league:s-allison",
+    "name": "S Allison",
+    "display_name": "S Allison",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 4
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 4,
+      "yellow_cards": 19,
+      "red_cards": 0,
+      "yellow_cards_per_match": 4.75,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.25,
+      "away_win_rate": 0.5,
+      "draw_rate": 0.25,
+      "avg_goals": 3.75,
+      "first_match_date": "2023-12-26",
+      "last_match_date": "2024-09-21",
+      "seasons": [
+        "2023-2024",
+        "2024-2025"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:s-attwell",
+    "person_id": "referee:premier-league:s-attwell",
+    "name": "S Attwell",
+    "display_name": "S Attwell",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 196
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 196,
+      "yellow_cards": 734,
+      "red_cards": 23,
+      "yellow_cards_per_match": 3.7449,
+      "red_cards_per_match": 0.1173,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4439,
+      "away_win_rate": 0.3163,
+      "draw_rate": 0.2398,
+      "avg_goals": 2.8673,
+      "first_match_date": "2015-09-12",
+      "last_match_date": "2026-04-25",
+      "seasons": [
+        "2015-2016",
+        "2016-2017",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:s-barrott",
+    "person_id": "referee:premier-league:s-barrott",
+    "name": "S Barrott",
+    "display_name": "S Barrott",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 59
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 59,
+      "yellow_cards": 230,
+      "red_cards": 3,
+      "yellow_cards_per_match": 3.8983,
+      "red_cards_per_match": 0.0508,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4576,
+      "away_win_rate": 0.322,
+      "draw_rate": 0.2203,
+      "avg_goals": 3.1017,
+      "first_match_date": "2023-10-07",
+      "last_match_date": "2026-04-25",
+      "seasons": [
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [
+      "high-scoring-sample"
+    ],
+    "distillation_status": "available"
+  },
+  {
+    "official_id": "referee:premier-league:s-hooper",
+    "person_id": "referee:premier-league:s-hooper",
+    "name": "S Hooper",
+    "display_name": "S Hooper",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 140
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 140,
+      "yellow_cards": 510,
+      "red_cards": 10,
+      "yellow_cards_per_match": 3.6429,
+      "red_cards_per_match": 0.0714,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.45,
+      "away_win_rate": 0.2929,
+      "draw_rate": 0.2571,
+      "avg_goals": 2.9714,
+      "first_match_date": "2015-08-08",
+      "last_match_date": "2026-02-10",
+      "seasons": [
+        "2015-2016",
+        "2017-2018",
+        "2018-2019",
+        "2019-2020",
+        "2020-2021",
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:s-scott",
+    "person_id": "referee:premier-league:s-scott",
+    "name": "S Scott",
+    "display_name": "S Scott",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 1
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "yellow_cards_per_match": 3.0,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.0,
+      "away_win_rate": 0.0,
+      "draw_rate": 1.0,
+      "avg_goals": 4.0,
+      "first_match_date": "2020-01-18",
+      "last_match_date": "2020-01-18",
+      "seasons": [
+        "2019-2020"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:s-singh",
+    "person_id": "referee:premier-league:s-singh",
+    "name": "S Singh",
+    "display_name": "S Singh",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 1
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 1,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "yellow_cards_per_match": 5.0,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.0,
+      "away_win_rate": 0.0,
+      "draw_rate": 1.0,
+      "avg_goals": 2.0,
+      "first_match_date": "2024-03-09",
+      "last_match_date": "2024-03-09",
+      "seasons": [
+        "2023-2024"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:t-bramall",
+    "person_id": "referee:premier-league:t-bramall",
+    "name": "T Bramall",
+    "display_name": "T Bramall",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 50
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 50,
+      "yellow_cards": 194,
+      "red_cards": 9,
+      "yellow_cards_per_match": 3.88,
+      "red_cards_per_match": 0.18,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.48,
+      "away_win_rate": 0.2,
+      "draw_rate": 0.32,
+      "avg_goals": 2.6,
+      "first_match_date": "2022-08-30",
+      "last_match_date": "2026-04-18",
+      "seasons": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [
+      "draw-leaning"
+    ],
+    "distillation_status": "available"
+  },
+  {
+    "official_id": "referee:premier-league:t-harrington",
+    "person_id": "referee:premier-league:t-harrington",
+    "name": "T Harrington",
+    "display_name": "T Harrington",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 48
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 48,
+      "yellow_cards": 172,
+      "red_cards": 5,
+      "yellow_cards_per_match": 3.5833,
+      "red_cards_per_match": 0.1042,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.375,
+      "away_win_rate": 0.3958,
+      "draw_rate": 0.2292,
+      "avg_goals": 2.75,
+      "first_match_date": "2021-12-15",
+      "last_match_date": "2026-01-18",
+      "seasons": [
+        "2021-2022",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:t-kirk",
+    "person_id": "referee:premier-league:t-kirk",
+    "name": "T Kirk",
+    "display_name": "T Kirk",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 5
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 5,
+      "yellow_cards": 15,
+      "red_cards": 3,
+      "yellow_cards_per_match": 3.0,
+      "red_cards_per_match": 0.6,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4,
+      "away_win_rate": 0.4,
+      "draw_rate": 0.2,
+      "avg_goals": 2.0,
+      "first_match_date": "2025-12-03",
+      "last_match_date": "2026-04-19",
+      "seasons": [
+        "2025-2026"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:t-robinson",
+    "person_id": "referee:premier-league:t-robinson",
+    "name": "T Robinson",
+    "display_name": "T Robinson",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 49
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 49,
+      "yellow_cards": 204,
+      "red_cards": 3,
+      "yellow_cards_per_match": 4.1633,
+      "red_cards_per_match": 0.0612,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.4898,
+      "away_win_rate": 0.2449,
+      "draw_rate": 0.2653,
+      "avg_goals": 2.7347,
+      "first_match_date": "2019-12-14",
+      "last_match_date": "2026-03-03",
+      "seasons": [
+        "2019-2020",
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026"
+      ]
+    },
+    "sample_status": "available",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  },
+  {
+    "official_id": "referee:premier-league:l-mason",
+    "person_id": "referee:premier-league:l-mason",
+    "name": "l Mason",
+    "display_name": "l Mason",
+    "country": null,
+    "nationality": null,
+    "confederation": null,
+    "roles": [
+      "referee"
+    ],
+    "role": "referee",
+    "role_zh": "裁判",
+    "fifa_listed_since": null,
+    "competition_id": "premier_league",
+    "season_id": "historical",
+    "competition_scope": "premier_league",
+    "source_status": "historical_sample_only",
+    "sources": [
+      "football-data.co.uk",
+      "platform_predictor_migrated_epl_matches"
+    ],
+    "source_refs": {
+      "source_file": "data/predictor-assets/files/processed/premier_league_matches.csv",
+      "competition_scope": "premier_league",
+      "sample_size_matches": 1
+    },
+    "source_url": "https://www.football-data.co.uk/",
+    "updated_at": "2026-05-18T11:26:18.439378+00:00",
+    "metrics": {
+      "matches": 1,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "yellow_cards_per_match": 5.0,
+      "red_cards_per_match": 0.0,
+      "fouls_per_match": null,
+      "penalties_per_match": null,
+      "home_win_rate": 0.0,
+      "away_win_rate": 0.0,
+      "draw_rate": 1.0,
+      "avg_goals": 2.0,
+      "first_match_date": "2017-05-21",
+      "last_match_date": "2017-05-21",
+      "seasons": [
+        "2016-2017"
+      ]
+    },
+    "sample_status": "low_referee_sample",
+    "style_tags": [],
+    "distillation_status": "insufficient_sample"
+  }
+]

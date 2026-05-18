@@ -428,13 +428,18 @@ Required outputs:
 - `data/public/api/worldcup/2026/predictor/officials.json`
 - `data/public/api/worldcup/2026/predictor/official-ratings.json`
 
+Current status:
+
+- `scripts/build_referee_sample_profiles.py` builds historical Premier League referee samples from `data/predictor-assets/files/processed/premier_league_matches.csv`.
+- Published sample: 50 officials, 50 official ratings, 4,139 matches, 33 ratings with `sample_size >= 20`.
+- Current rows use `source_status=historical_sample_only`. They are model/report style samples only, not FIFA World Cup 2026 referee assignments.
+
 Remaining work:
 
 - Import FIFA World Cup 2026 referee assignments when available.
-- Build Premier League referee samples from football-data.co.uk `Referee` and card fields.
 - Add international referee samples from FIFA/worldfootball/public match records where legally usable.
 - Emit `missing_referee_assignment` when no referee is assigned and `low_referee_sample` when sample size is below 20.
-- Keep `referee-profiles.json` published as an empty direct-first contract until official/referee facts are imported.
+- Keep `runtime-summary.json.referee_profile` as `missing_referee_assignment` until actual World Cup match referee assignments are imported.
 
 Acceptance criteria:
 

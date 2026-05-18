@@ -40,38 +40,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Algeria",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -170,38 +174,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Argentina",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -300,38 +308,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Australia",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -430,38 +442,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Austria",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -560,38 +576,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Belgium",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -690,38 +710,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Bosnia and Herzegovina",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -820,38 +844,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Brazil",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -950,38 +978,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Cabo Verde",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -1080,38 +1112,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Canada",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -1210,38 +1246,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Colombia",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -1340,38 +1380,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Congo DR",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -1470,38 +1514,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Cote d'Ivoire",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -1600,38 +1648,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Croatia",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -1730,38 +1782,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Curacao",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -1860,38 +1916,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Czechia",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -1990,38 +2050,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Ecuador",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -2120,38 +2184,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Egypt",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -2250,38 +2318,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "England",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -2380,38 +2452,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "France",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -2510,38 +2586,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Germany",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -2640,38 +2720,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Ghana",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -2770,38 +2854,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Haiti",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -2900,38 +2988,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "IR Iran",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -3030,38 +3122,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Iraq",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -3160,38 +3256,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Japan",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -3290,38 +3390,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Jordan",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -3420,38 +3524,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Korea Republic",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -3550,38 +3658,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Mexico",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -3680,38 +3792,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Morocco",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -3810,38 +3926,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Netherlands",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -3940,38 +4060,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "New Zealand",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -4070,38 +4194,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Norway",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -4200,38 +4328,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Panama",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -4330,38 +4462,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Paraguay",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -4460,38 +4596,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Portugal",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -4590,38 +4730,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Qatar",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -4720,38 +4864,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Saudi Arabia",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -4850,38 +4998,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Scotland",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -4980,38 +5132,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Senegal",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -5110,38 +5266,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "South Africa",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -5240,38 +5400,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Spain",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -5370,38 +5534,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Sweden",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -5500,38 +5668,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Switzerland",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -5630,38 +5802,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Tunisia",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -5760,38 +5936,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Turkiye",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -5890,38 +6070,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "United States",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -6020,38 +6204,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Uruguay",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],
@@ -6150,38 +6338,42 @@
     "kpis": [
       {
         "key": "role",
-        "label": "direct",
+        "label": "Role",
         "label_zh": "身份",
         "value": "主教练",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "team",
-        "label": "direct",
+        "label": "Team",
         "label_zh": "球队",
         "value": "Uzbekistan",
         "unit": null,
         "data_tier": "direct",
+        "data_tier_label": "direct",
         "status": "available"
       },
       {
         "key": "derived_record",
-        "label": "derived",
+        "label": "Derived record",
         "label_zh": "派生战绩",
         "value": null,
         "unit": null,
         "data_tier": "derived",
+        "data_tier_label": "derived",
         "status": "pending_source"
       },
       {
         "key": "style_profile",
-        "label": "distilled",
+        "label": "Style profile",
         "label_zh": "风格画像",
         "value": "insufficient_sample",
         "unit": null,
         "data_tier": "distilled",
+        "data_tier_label": "distilled",
         "status": "insufficient_sample"
       }
     ],

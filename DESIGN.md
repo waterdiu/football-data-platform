@@ -495,7 +495,7 @@ football-data-platform/
 - `api/worldcup/2026/core/player-profiles.json`
 - `api/worldcup/2026/core/referee-profiles.json`
 
-这些 profile 以 `direct` / `derived` / `distilled` 三层组织。当前 `direct` 来自官方主教练和已导入官方名单球员；`derived` 与 `distilled` 在样本不足或来源未接入时必须保持 `pending_source` / `insufficient_sample`，不能由前端或模型主观补写。
+这些 profile 以 `direct` / `derived` / `distilled` 三层组织。当前 `direct` 来自官方主教练、已导入官方名单球员，以及英超历史裁判样本中的裁判姓名；`derived` 可由可复现历史样本计算，`distilled` 在样本不足或来源未接入时必须保持 `pending_source` / `insufficient_sample`，不能由前端或模型主观补写。人物 `kpis[]` 中 `label` 保留展示文案，三色数据性质使用 `data_tier` / `data_tier_label` / `status` 表示。
 
 设计原则：
 
@@ -503,6 +503,7 @@ football-data-platform/
 - `person_id_map` 只保存外部 provider ID 映射，不能覆盖 `players` 或 `rosters` 的官方事实字段。
 - `team_staff` 用于球队教练/工作人员档案。当前已补 48 支球队主教练数据，来源为对应 FIFA 官方文章，发布到 `data/public/team-staff.json`、`api/worldcup/2026/core/team-staff.json` 和 predictor API。
 - 教练生日/年龄只有在有可靠来源时才填；当前未审计生日来源的行保留 `date_of_birth=null`、`age=null`，避免伪造事实。
+- `officials` / `official-ratings` 当前由 `scripts/build_referee_sample_profiles.py` 从 `data/predictor-assets/files/processed/premier_league_matches.csv` 的 `referee`、红黄牌和赛果字段派生，发布 50 名英超历史裁判样本画像。该数据的 `source_status=historical_sample_only`，只能作为模型解释和裁判风格样本，不能解释为 2026 世界杯裁判名单、裁判国籍或单场裁判指派。
 - 能力评分必须保留 `source`、`sample_size`、`time_window`、`confidence`。
 - 风格画像必须由规则标签和 evidence 生成，不允许仅凭姓名或主观印象生成。
 - 教练和裁判画像只描述行为倾向，不做价值判断。
@@ -903,6 +904,7 @@ predictor 全量数据资产当前边界：
 - 已增强：运行期采集器支持从未提交的 `.env.local` 读取 provider keys，避免把 `API_FOOTBALL_KEY`、`OPENWEATHER_API_KEY` 等敏感信息写入仓库或命令行日志
 - 已建立：rosters/players 契约、master/public 数据集、官方来源配置、手动 patch 导入脚本、发布脚本和 coverage 字段；真实名单只从官方来源导入
 - 已补齐：已有官方 26 人名单的 9 支球队 roster / 234 名球员；48 支球队主教练数据，通过 `data/patches/world_cup_2026_team_staff.manual.json` 和 `scripts/import_world_cup_team_staff_from_manual_patch.py` 进入 `person_team_staff_master.json`
+- 已补齐：50 名英超历史裁判样本和 50 条裁判 rating，其中 33 条达到 `sample_size >= 20` 可用于报告解释；来源为 `data/predictor-assets/files/processed/premier_league_matches.csv`，不是世界杯裁判指派。
 - 已建立：team_world_cup_history / team_recent_matches / host_city_profiles 契约、master/public 数据集、发布脚本和 World Cup site/predictor API 输出；近期比赛、历届世界杯战绩和 16 城市资料已有第一版
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
 - 已增强：赛前新闻源列表由 `configs/prematch_news/world_cup_2026.json` 配置，`sources/prematch_news.py` 保留内置 fallback；采集结果和 `reports/world_cup_runtime_collection_report.json` 会记录 source 级 freshness（`last_checked_at`、`status`、`pages_collected`、错误信息）

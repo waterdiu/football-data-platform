@@ -197,6 +197,14 @@ flowchart LR
 - `game_control_score`
 - `high_pressure_match_experience`
 
+当前第一版已落地英超历史裁判样本画像：
+
+- 构建脚本：`scripts/build_referee_sample_profiles.py`
+- 来源：`data/predictor-assets/files/processed/premier_league_matches.csv`
+- 可复现字段：`referee`、红黄牌、赛果、总进球、赛季、比赛日期
+- 输出：`data/public/officials.json`、`data/public/official-ratings.json`、`data/public/referee-profiles.json`
+- 边界：`source_status=historical_sample_only`，只能作为裁判风格/尺度样本，不能代表 2026 世界杯裁判名单或单场裁判指派。
+
 风格画像：
 
 - `refereeing_style`

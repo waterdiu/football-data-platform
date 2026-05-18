@@ -51,7 +51,7 @@ def compact_sources(row: dict) -> dict:
 def data_badge(tier: str, label: str, status: str = "available") -> dict:
     return {
         "data_tier": tier,
-        "label": label,
+        "data_tier_label": label,
         "status": status,
     }
 
@@ -169,7 +169,21 @@ def build_player_profile(player: dict) -> dict:
     return profile
 
 
-def build_referee_profile(official: dict) -> dict:
+def rating_by_entity_id(ratings: list[dict]) -> dict[str, dict]:
+    return {
+        str(row.get("entity_id") or ""): row
+        for row in ratings
+        if isinstance(row, dict) and row.get("entity_id")
+    }
+
+
+def build_referee_profile(official: dict, rating: dict | None = None) -> dict:
+    rating = rating if isinstance(rating, dict) else {}
+    sample_size = int(rating.get("sample_size") or 0)
+    raw_metrics = rating.get("raw_metrics") if isinstance(rating.get("raw_metrics"), dict) else {}
+    dimension_ratings = rating.get("dimension_ratings") if isinstance(rating.get("dimension_ratings"), dict) else {}
+    style_tags = rating.get("style_tags") if isinstance(rating.get("style_tags"), list) else official.get("style_tags") or []
+    derived_status = rating.get("status") or "pending_source"
     profile = {
         "person_id": official.get("official_id") or official.get("person_id"),
         "person_type": "referee",
@@ -186,26 +200,29 @@ def build_referee_profile(official: dict) -> dict:
         "role_zh": official.get("role_zh") or "裁判",
         "direct": official,
         "derived": {
-            "status": "pending_source",
-            "sample_size_matches": 0,
-            "competition_scope": None,
-            "metrics": {},
+            "status": derived_status,
+            "sample_size_matches": sample_size,
+            "competition_scope": rating.get("competition_scope") or official.get("competition_scope"),
+            "metrics": raw_metrics,
+            "dimension_ratings": dimension_ratings,
+            "overall_rating": rating.get("overall_rating"),
         },
         "distilled": {
-            "distillation_status": "insufficient_sample",
-            "sample_size_matches": 0,
-            "style_tags": [],
-            "summary": None,
+            "distillation_status": "available" if style_tags else "insufficient_sample",
+            "sample_size_matches": sample_size,
+            "style_tags": style_tags,
+            "summary": None if not style_tags else ", ".join(str(tag) for tag in style_tags),
         },
         "kpis": [
             {"key": "role", "label": "Role", "label_zh": "身份", "value": official.get("role") or "referee", "unit": None, **data_badge("direct", "direct")},
-            {"key": "sample_size", "label": "Sample size", "label_zh": "样本数", "value": 0, "unit": "matches", **data_badge("derived", "derived", "pending_source")},
-            {"key": "style_profile", "label": "Style profile", "label_zh": "风格画像", "value": "insufficient_sample", "unit": None, **data_badge("distilled", "distilled", "insufficient_sample")},
+            {"key": "sample_size", "label": "Sample size", "label_zh": "样本数", "value": sample_size, "unit": "matches", **data_badge("derived", "derived", str(derived_status))},
+            {"key": "yellow_cards_per_match", "label": "Yellow cards / match", "label_zh": "场均黄牌", "value": raw_metrics.get("yellow_cards_per_match"), "unit": None, **data_badge("derived", "derived", str(derived_status))},
+            {"key": "style_profile", "label": "Style profile", "label_zh": "风格画像", "value": " / ".join(style_tags) if style_tags else "insufficient_sample", "unit": None, **data_badge("distilled", "distilled", "available" if style_tags else "insufficient_sample")},
         ],
         "sections": [
             {"type": "identity", "data_tier": "direct", "status": official.get("source_status") or "pending_source", "fields": compact_sources(official)},
-            {"type": "officiating_metrics", "data_tier": "derived", "status": "pending_source", "basis": {"sample_size_matches": 0, "minimum_required": 20}},
-            {"type": "style_distillation", "data_tier": "distilled", "status": "insufficient_sample", "basis": {"sample_size_matches": 0, "minimum_required": 30}},
+            {"type": "officiating_metrics", "data_tier": "derived", "status": derived_status, "basis": {"sample_size_matches": sample_size, "minimum_required": 20}, "metrics": raw_metrics, "dimension_ratings": dimension_ratings},
+            {"type": "style_distillation", "data_tier": "distilled", "status": "available" if style_tags else "insufficient_sample", "basis": {"sample_size_matches": sample_size, "minimum_required": 30}, "style_tags": style_tags},
         ],
         "data_tiers": ["direct", "derived", "distilled"],
         **compact_sources(official),
@@ -242,10 +259,15 @@ def main() -> None:
     team_staff = ensure_list(load_json(NORMALIZED_DIR / "person_team_staff_master.json"), "person_team_staff_master.json")
     players = ensure_list(load_json(NORMALIZED_DIR / "world_cup_2026_players_master.json"), "world_cup_2026_players_master.json")
     officials = ensure_list(load_json(NORMALIZED_DIR / "person_officials_master.json"), "person_officials_master.json")
+    official_ratings = ensure_list(load_json(NORMALIZED_DIR / "person_official_ratings_master.json"), "person_official_ratings_master.json")
+    official_ratings_by_entity = rating_by_entity_id(official_ratings)
 
     coach_profiles = [build_coach_profile(row) for row in team_staff if row.get("role") == "head_coach"]
     player_profiles = [build_player_profile(row) for row in players]
-    referee_profiles = [build_referee_profile(row) for row in officials]
+    referee_profiles = [
+        build_referee_profile(row, official_ratings_by_entity.get(str(row.get("official_id") or row.get("person_id") or "")))
+        for row in officials
+    ]
     people_index = [index_row(row) for row in [*coach_profiles, *player_profiles, *referee_profiles]]
 
     generated_datasets = {
