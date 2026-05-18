@@ -384,7 +384,7 @@ data/raw/experimental/
 |---|---|---|
 | Odds-API.io | `probe_only` | 免费层需要实测足球、世界杯、AH 覆盖和 bookmaker 明细。 |
 | SharpAPI Soccer Odds | `probe_only` | 市场字段描述较完整，但世界杯/国际赛覆盖需要实测。 |
-| BSD / Bzzoiro Sports Data | `production_candidate_for_1x2_ou_probe` | 页面声称 World Cup 2026 和足球赔率覆盖，AH 未确认；需先确认 endpoint、条款和 bookmaker 行。 |
+| BSD / Bzzoiro Sports Data | `production_candidate_for_1x2_ou_probe` | 公共 v2 文档确认 token-based free REST、`/api/v2/odds/`、`/api/v2/events/{id}/odds/comparison/`、`/api/v2/bookmakers/`，以及约 15 家 bookmaker；1X2/OU/BTTS 有文档，AH 未确认；需用 token 实测 World Cup/国际赛覆盖和 bookmaker 行。 |
 | BetStack | `pass` | 未找到足够可靠公开文档，暂不实现。 |
 | OddsPortal GitHub scrapers | `experimental_only` | 逆向/爬虫，高 ToS 与反爬风险。 |
 | 雷速 odds scrapers | `experimental_only` | 逆向/爬虫，只可实验，不进生产。 |

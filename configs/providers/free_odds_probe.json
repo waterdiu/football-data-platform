@@ -41,13 +41,13 @@
       "category": "api",
       "probe_classification": "production_candidate_for_1x2_ou_probe",
       "homepage": "https://sports.bzzoiro.com/",
-      "docs_url": "https://sports.bzzoiro.com/",
-      "auth_env": null,
-      "free_tier": "public page claims free football REST access; WebSocket is paid",
-      "soccer_coverage_claim": "World Cup 2026 is publicly listed",
-      "markets_claimed": ["1x2", "over_under", "btts"],
+      "docs_url": "https://sports.bzzoiro.com/docs/v2/",
+      "auth_env": "BSD_API_TOKEN",
+      "free_tier": "public docs say free REST API, GET-only, token required; WebSocket is paid",
+      "soccer_coverage_claim": "World Cup 2026 is publicly listed on product pages; endpoint-level World Cup coverage must be verified with token",
+      "markets_claimed": ["1x2", "over_under", "btts", "multi_bookmaker_latest_odds", "bookmakers_index"],
       "markets_unknown": ["asian_handicap"],
-      "production_gate": "Probe must confirm endpoint availability, terms, bookmaker-level rows, and stable event identifiers before any normalized write."
+      "production_gate": "Probe must confirm /api/v2/odds/, /api/v2/events/{id}/odds/comparison/, /api/v2/bookmakers/, terms, bookmaker-level rows, and stable event identifiers before any normalized write."
     },
     {
       "provider": "betstack",
