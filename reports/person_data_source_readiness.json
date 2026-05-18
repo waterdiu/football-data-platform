@@ -1,0 +1,306 @@
+{
+  "generated_at": "2026-05-18T13:27:54Z",
+  "status": "requires_source_expansion",
+  "purpose": "Read-only readiness report for coach/player/referee profile data sources.",
+  "rules": {
+    "no_public_publish": true,
+    "license_gate": "Sources without explicit usable license remain probe-only and must not write normalized/public datasets.",
+    "distillation_gate": "Style labels require evidence and sufficient sample; otherwise keep distillation_status=insufficient_sample."
+  },
+  "local_sources": {
+    "dcaribou_transfermarkt": {
+      "license": "CC0-1.0",
+      "local_tables": {
+        "players.csv": {
+          "exists": true,
+          "path": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz",
+          "size_bytes": 4023393,
+          "row_count": 47637,
+          "columns": [
+            "player_id",
+            "first_name",
+            "last_name",
+            "name",
+            "last_season",
+            "current_club_id",
+            "player_code",
+            "country_of_birth",
+            "city_of_birth",
+            "country_of_citizenship",
+            "date_of_birth",
+            "sub_position",
+            "position",
+            "foot",
+            "height_in_cm",
+            "contract_expiration_date",
+            "agent_name",
+            "image_url",
+            "international_caps",
+            "international_goals",
+            "current_national_team_id",
+            "url",
+            "current_club_domestic_competition_id",
+            "current_club_name",
+            "market_value_in_eur",
+            "highest_market_value_in_eur"
+          ]
+        },
+        "clubs.csv": {
+          "exists": true,
+          "path": "data/predictor-assets/files/raw/dcaribou_transfermarkt/clubs.csv.gz",
+          "size_bytes": 46856,
+          "row_count": 796,
+          "columns": [
+            "club_id",
+            "club_code",
+            "name",
+            "domestic_competition_id",
+            "total_market_value",
+            "squad_size",
+            "average_age",
+            "foreigners_number",
+            "foreigners_percentage",
+            "national_team_players",
+            "stadium_name",
+            "stadium_seats",
+            "net_transfer_record",
+            "coach_name",
+            "last_season",
+            "filename",
+            "url"
+          ]
+        }
+      },
+      "expected_tables_from_metadata": [
+        "competitions.csv",
+        "games.csv",
+        "clubs.csv",
+        "players.csv",
+        "player_valuations.csv",
+        "appearances.csv",
+        "game_events.csv",
+        "game_lineups.csv",
+        "club_games.csv",
+        "transfers.csv",
+        "countries.csv",
+        "national_teams.csv"
+      ],
+      "missing_local_tables": [
+        "competitions.csv",
+        "games.csv",
+        "player_valuations.csv",
+        "appearances.csv",
+        "game_events.csv",
+        "game_lineups.csv",
+        "club_games.csv",
+        "transfers.csv",
+        "countries.csv",
+        "national_teams.csv"
+      ],
+      "readiness": "partial",
+      "can_fill_now": [
+        "player club",
+        "date_of_birth",
+        "age",
+        "caps",
+        "goals",
+        "market value"
+      ],
+      "blocked_fields": [
+        "shirt_number",
+        "recent minutes",
+        "appearances",
+        "lineup number",
+        "event-backed player style",
+        "coach tenure"
+      ],
+      "next_action": "Fetch or import the remaining dcaribou CC0 tables before computing true player impact/style."
+    },
+    "player_ability": {
+      "exists": true,
+      "path": "data/predictor-assets/files/processed/player_ability.csv",
+      "size_bytes": 2900015,
+      "row_count": 31282,
+      "columns": [
+        "player_name",
+        "team_name",
+        "position",
+        "market_value_eur",
+        "market_value_score",
+        "fbref_score",
+        "ability_score",
+        "source_notes"
+      ]
+    },
+    "fbref_player_stats": {
+      "exists": true,
+      "path": "data/predictor-assets/files/raw/fbref_premier_league_player_stats.csv",
+      "size_bytes": 34167,
+      "row_count": 544,
+      "columns": [
+        "Player",
+        "Squad",
+        "Pos",
+        "90s",
+        "Starts",
+        "Gls",
+        "Ast",
+        "xG",
+        "xAG",
+        "PrgP",
+        "Tkl",
+        "Int"
+      ],
+      "production_scope": "Premier League player-stat sample; not national-team roster truth."
+    },
+    "transfermarkt_player_values": {
+      "exists": true,
+      "path": "data/predictor-assets/files/raw/transfermarkt_player_values.csv",
+      "size_bytes": 1704517,
+      "row_count": 31191,
+      "columns": [
+        "player_name",
+        "current_club_name",
+        "position",
+        "market_value_in_eur"
+      ]
+    },
+    "premier_league_availability": {
+      "exists": true,
+      "path": "data/predictor-assets/files/raw/premier_league_historical_player_availability.csv",
+      "size_bytes": 9570,
+      "row_count": 117,
+      "columns": [
+        "date",
+        "home_team",
+        "away_team",
+        "team",
+        "player",
+        "position",
+        "status",
+        "impact_score"
+      ],
+      "production_scope": "historical EPL availability sample; not FIFA World Cup 2026 injury truth."
+    },
+    "statsbomb_matches": {
+      "exists": true,
+      "path": "data/predictor-assets/files/raw/statsbomb_matches.json",
+      "size_bytes": 632909,
+      "record_count": 314,
+      "sample_keys": [
+        "match_id",
+        "match_date",
+        "kick_off",
+        "competition",
+        "season",
+        "home_team",
+        "away_team",
+        "home_score",
+        "away_score",
+        "match_status",
+        "match_status_360",
+        "last_updated",
+        "last_updated_360",
+        "metadata",
+        "match_week",
+        "competition_stage",
+        "stadium",
+        "referee"
+      ]
+    },
+    "statsbomb_events": {
+      "exists": true,
+      "event_file_count": 314,
+      "files_read": 314,
+      "events_read": 1106266,
+      "unique_player_names": 2285,
+      "event_types": [
+        "50/50",
+        "Bad Behaviour",
+        "Ball Receipt*",
+        "Ball Recovery",
+        "Block",
+        "Camera On",
+        "Camera off",
+        "Carry",
+        "Clearance",
+        "Dispossessed",
+        "Dribble",
+        "Dribbled Past",
+        "Duel",
+        "Error",
+        "Foul Committed",
+        "Foul Won",
+        "Goal Keeper",
+        "Half End",
+        "Half Start",
+        "Injury Stoppage",
+        "Interception",
+        "Miscontrol",
+        "Offside",
+        "Own Goal Against",
+        "Own Goal For",
+        "Pass",
+        "Player Off",
+        "Player On",
+        "Pressure",
+        "Referee Ball-Drop",
+        "Shield",
+        "Shot",
+        "Starting XI",
+        "Substitution",
+        "Tactical Shift"
+      ],
+      "production_scope": "style-rule sample only; not a full FIFA World Cup 2026 player coverage source"
+    }
+  },
+  "github_source_decisions": {
+    "dcaribou_transfermarkt_datasets": {
+      "repo": "https://github.com/dcaribou/transfermarkt-datasets",
+      "license": "CC0-1.0",
+      "decision": "production_candidate",
+      "note": "Git metadata describes tables such as games, appearances, game_events, game_lineups and club_games, but current local platform asset only has players/clubs."
+    },
+    "salimt_football_datasets": {
+      "repo": "https://github.com/salimt/football-datasets",
+      "license": "missing_in_github_metadata",
+      "decision": "probe_only",
+      "useful_files": [
+        "datalake/transfermarkt/player_profiles/player_profiles.csv",
+        "datalake/transfermarkt/player_national_performances/player_national_performances.csv",
+        "datalake/transfermarkt/player_injuries/player_injuries.csv"
+      ]
+    },
+    "statsbomb_open_data": {
+      "repo": "https://github.com/statsbomb/open-data",
+      "license": "non-standard / requires review",
+      "decision": "research_style_sample"
+    }
+  },
+  "field_readiness": {
+    "coach_appointed_at": {
+      "status": "blocked",
+      "reason": "No reliable structured local source. Requires audited FA/FIFA/Wikidata evidence or manual patch."
+    },
+    "coach_contract_until": {
+      "status": "blocked",
+      "reason": "No reliable structured local source. Requires official contract evidence."
+    },
+    "player_shirt_number": {
+      "status": "blocked",
+      "reason": "Current local roster patches and dcaribou players table do not contain squad shirt numbers."
+    },
+    "true_absence_impact_pct": {
+      "status": "blocked",
+      "reason": "Requires minutes, appearances, availability, and team performance sample; current impact_proxy_score is display-only."
+    },
+    "player_style_distillation": {
+      "status": "research_ready_not_production_ready",
+      "reason": "StatsBomb and FBref samples can validate rules, but 2026 roster coverage is incomplete."
+    },
+    "referee_worldcup_assignments": {
+      "status": "pending_official_source",
+      "reason": "Historical EPL referee samples exist, but FIFA World Cup 2026 assignments are not available in platform data."
+    }
+  }
+}
