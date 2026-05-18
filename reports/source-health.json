@@ -68,7 +68,7 @@
       "note": "当前共享层主发布流水线已经从平台 own 的 model master 文件发布运行时模型数据。predictor 仓库现在只应作为可选回灌来源，而不是主发布阻塞项。"
     },
     "runtime_collection": {
-      "generated_at": "2026-05-18T15:56:13.357024+00:00",
+      "generated_at": "2026-05-18T19:59:36.939938+00:00",
       "dry_run": false,
       "fixtures_total": 104,
       "fixtures_selected": 104,
