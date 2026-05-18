@@ -87,7 +87,7 @@ const headCoach = teamStaff.find((row) => row.team_id === teamId && row.role ===
 - `venue`
 - `neutral`
 
-当前来源是已迁移模型历史赛果：`predictor-assets/processed/normalized_matches.csv`。该原始迁移资产不作为 public API 暴露；2026 展示站只读取已发布的 `core/team-recent-matches.json`。
+当前来源优先使用平台内提交的国际比赛结果 CSV：`data/raw/international-results/results.csv`，发布时写入 `core/team-recent-matches.json`。若该源缺失，数据层才回退到模型迁移历史赛果或预选赛快照；2026 展示站只读取已发布的 `core/team-recent-matches.json`，不要直接读取 raw CSV。
 
 ### team_world_cup_history
 

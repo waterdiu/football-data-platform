@@ -13,9 +13,11 @@ PREDICTOR_ASSETS_DIR = ROOT / "data" / "predictor-assets" / "files"
 
 TEAMS_PATH = PUBLIC_DIR / "teams.json"
 FIXTURES_PATH = PUBLIC_DIR / "fixtures.json"
+INTERNATIONAL_RESULTS_PATH = ROOT / "data" / "raw" / "international-results" / "results.csv"
 NORMALIZED_MATCHES_PATH = PREDICTOR_ASSETS_DIR / "processed" / "normalized_matches.csv"
 QUALIFIER_MATCHES_PATH = PUBLIC_DIR / "qualifier-matches.json"
 OPENFOOTBALL_WORLDCUP_DIR = ROOT / "data" / "raw" / "openfootball" / "worldcup-json"
+INTERNATIONAL_RESULTS_SOURCE_LABEL = "martj42/international_results/results.csv"
 NORMALIZED_MATCHES_SOURCE_LABEL = "predictor-assets/processed/normalized_matches.csv"
 QUALIFIER_MATCHES_SOURCE_LABEL = "public/qualifier-matches.json"
 
@@ -39,6 +41,13 @@ def write_json(path: Path, payload: object) -> None:
 
 def rel(path: Path) -> str:
     return str(path.relative_to(ROOT))
+
+
+def count_csv_data_rows(path: Path) -> int | None:
+    if not path.exists():
+        return None
+    with path.open(encoding="utf-8") as handle:
+        return max(sum(1 for _ in handle) - 1, 0)
 
 
 def normalize_name(value: str) -> str:
@@ -495,10 +504,10 @@ def build_recent_matches(
     team_by_id: dict[str, dict],
     alias_to_id: dict[str, str],
     source_path: Path,
+    source_label: str,
     limit: int,
 ) -> list[dict]:
     rows_by_team: dict[str, list[dict]] = {team_id: [] for team_id in team_by_id}
-    source_label = NORMALIZED_MATCHES_SOURCE_LABEL
 
     if source_path.exists():
         source_status_when_available = "available"
@@ -506,11 +515,11 @@ def build_recent_matches(
             for row in csv.DictReader(handle):
                 home_id = alias_to_id.get(normalize_name(str(row.get("home_team") or "")))
                 away_id = alias_to_id.get(normalize_name(str(row.get("away_team") or "")))
-                if home_id:
+                if home_id in rows_by_team:
                     item = row_for_team(row, home_id, str(row.get("home_team") or ""), "home")
                     if item:
                         rows_by_team[home_id].append(item)
-                if away_id:
+                if away_id in rows_by_team:
                     item = row_for_team(row, away_id, str(row.get("away_team") or ""), "away")
                     if item:
                         rows_by_team[away_id].append(item)
@@ -532,11 +541,11 @@ def build_recent_matches(
                     continue
                 home_id = alias_to_id.get(normalize_name(str(row.get("homeTeam") or "")))
                 away_id = alias_to_id.get(normalize_name(str(row.get("awayTeam") or "")))
-                if home_id:
+                if home_id in rows_by_team:
                     item = row_for_qualifier_team(row, home_id, str(row.get("homeTeam") or ""), "home")
                     if item:
                         rows_by_team[home_id].append(item)
-                if away_id:
+                if away_id in rows_by_team:
                     item = row_for_qualifier_team(row, away_id, str(row.get("awayTeam") or ""), "away")
                     if item:
                         rows_by_team[away_id].append(item)
@@ -584,10 +593,15 @@ def main() -> None:
         alias_to_id=alias_to_id,
         source_dir=OPENFOOTBALL_WORLDCUP_DIR,
     )
+    recent_source_path = INTERNATIONAL_RESULTS_PATH if INTERNATIONAL_RESULTS_PATH.exists() else NORMALIZED_MATCHES_PATH
+    recent_source_label = (
+        INTERNATIONAL_RESULTS_SOURCE_LABEL if INTERNATIONAL_RESULTS_PATH.exists() else NORMALIZED_MATCHES_SOURCE_LABEL
+    )
     recent = build_recent_matches(
         team_by_id=team_by_id,
         alias_to_id=alias_to_id,
-        source_path=NORMALIZED_MATCHES_PATH,
+        source_path=recent_source_path,
+        source_label=recent_source_label,
         limit=args.recent_limit,
     )
 
@@ -608,7 +622,8 @@ def main() -> None:
         "recent_rows": len(recent),
         "recent_available_rows": sum(1 for row in recent if row.get("source_status") == "available"),
         "recent_limit": args.recent_limit,
-        "recent_source": NORMALIZED_MATCHES_SOURCE_LABEL,
+        "recent_source": recent_source_label,
+        "recent_source_rows": count_csv_data_rows(recent_source_path),
         "outputs": {
             "history_master": rel(HISTORY_MASTER_PATH),
             "recent_master": rel(RECENT_MASTER_PATH),
