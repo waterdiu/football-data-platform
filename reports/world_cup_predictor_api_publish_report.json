@@ -18,6 +18,8 @@
     "rosters": 9,
     "team_world_cup_history": 48,
     "team_recent_matches": 48,
+    "schedule_load": 104,
+    "team_home_away_splits": 48,
     "team_staff": 48,
     "officials": 50,
     "player_ratings": 0,

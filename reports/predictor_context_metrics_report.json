@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-18T15:20:08Z",
+  "status": "published",
+  "source": "fixtures.json + team-recent-matches.json",
+  "policy": "Baseline model-context proxy. Travel distance is intentionally null until previous-match coordinates are available.",
+  "counts": {
+    "schedule_load_rows": 104,
+    "team_home_away_split_rows": 48,
+    "schedule_load_partial_rows": 104,
+    "rest_days_available_rows": 72,
+    "travel_distance_missing_rows": 104
+  },
+  "outputs": {
+    "schedule_load_master": "data/normalized/world_cup_2026_predictor_schedule_load_master.json",
+    "team_home_away_splits_master": "data/normalized/world_cup_2026_predictor_team_home_away_splits_master.json",
+    "schedule_load_public": "data/public/schedule-load.json",
+    "team_home_away_splits_public": "data/public/team-home-away-splits.json"
+  }
+}

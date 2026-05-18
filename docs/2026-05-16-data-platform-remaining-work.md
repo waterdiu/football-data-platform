@@ -430,7 +430,7 @@ Required outputs:
 
 Current status:
 
-- Model-side D2/D3/D6 requirements after the latest predictor changes are assessed in `docs/2026-05-18-predictor-post-model-data-gap-assessment-cn.md`. The highest-value remaining data-layer gaps are stable AH/OU odds time series, confirmed lineups, injuries/availability, schedule-load proxies, home/away/neutral splits, team advanced stats, and World Cup referee assignments.
+- Model-side D2/D3/D6 requirements after the latest predictor changes are assessed in `docs/2026-05-18-predictor-post-model-data-gap-assessment-cn.md`. Baseline `schedule-load.json` and `team-home-away-splits.json` are now published for the World Cup predictor API. The highest-value remaining data-layer gaps are stable AH/OU odds time series, confirmed lineups, injuries/availability, team advanced stats, travel-distance coordinates, and World Cup referee assignments.
 - `scripts/build_referee_sample_profiles.py` builds historical Premier League referee samples from `data/predictor-assets/files/processed/premier_league_matches.csv`.
 - Published sample: 50 officials, 50 official ratings, 4,139 matches, 33 ratings with `sample_size >= 20`.
 - Current rows use `source_status=historical_sample_only`. They are model/report style samples only, not FIFA World Cup 2026 referee assignments.

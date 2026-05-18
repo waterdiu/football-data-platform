@@ -177,6 +177,19 @@ def first_by_match_id(rows: object) -> dict[str, dict]:
     return result
 
 
+def first_by_team_id(rows: object) -> dict[str, dict]:
+    result: dict[str, dict] = {}
+    if not isinstance(rows, list):
+        return result
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        team_id = str(row.get("team_id") or "")
+        if team_id and team_id not in result:
+            result[team_id] = row
+    return result
+
+
 def coverage_status(coverage: dict, field: str) -> str:
     item = coverage.get(field)
     if isinstance(item, dict):
@@ -229,6 +242,8 @@ def build_runtime_summary(
     injuries: object,
     weather: object,
     odds: object,
+    schedule_load: object,
+    team_home_away_splits: object,
     coverage: object,
 ) -> list[dict]:
     if not isinstance(fixtures, list):
@@ -238,6 +253,8 @@ def build_runtime_summary(
     injuries_by_match = list_by_match_id(injuries)
     weather_by_match = first_by_match_id(weather)
     odds_by_match = list_by_match_id(odds)
+    schedule_load_by_match = first_by_match_id(schedule_load)
+    home_away_by_team = first_by_team_id(team_home_away_splits)
     coverage_by_match = first_by_match_id(coverage)
 
     rows: list[dict] = []
@@ -263,6 +280,11 @@ def build_runtime_summary(
                 "lineups": lineups_by_match.get(match_id, []),
                 "injuries": injuries_by_match.get(match_id, []),
                 "weather": weather_by_match.get(match_id) or {},
+                "schedule_load": schedule_load_by_match.get(match_id) or {},
+                "home_away_splits": {
+                    "home": home_away_by_team.get(home_team_id) or {},
+                    "away": home_away_by_team.get(away_team_id) or {},
+                },
                 "referee_profile": {
                     "status": "missing_referee_assignment",
                     "referee_id": None,
@@ -284,6 +306,10 @@ def build_runtime_summary(
                     "ou_odds": coverage_status(coverage_row, "over_under"),
                     "one_x_two_odds": coverage_status(coverage_row, "odds"),
                     "prematch_context": coverage_status(coverage_row, "prematch_context"),
+                    "schedule_load": "partial" if schedule_load_by_match.get(match_id) else "missing",
+                    "home_away_splits": "available"
+                    if home_away_by_team.get(home_team_id) and home_away_by_team.get(away_team_id)
+                    else "partial",
                 },
                 "coverage_detail": coverage_row,
             }
@@ -317,6 +343,8 @@ def main() -> None:
     rosters = load_json(PUBLIC_DIR / "rosters.json")
     team_world_cup_history = load_json(PUBLIC_DIR / "team-world-cup-history.json")
     team_recent_matches = load_json(PUBLIC_DIR / "team-recent-matches.json")
+    schedule_load = load_json(PUBLIC_DIR / "schedule-load.json")
+    team_home_away_splits = load_json(PUBLIC_DIR / "team-home-away-splits.json")
     team_staff = load_json(PUBLIC_DIR / "team-staff.json")
     staff_external_facts = load_json(PUBLIC_DIR / "staff-external-facts.json")
     officials = load_json(PUBLIC_DIR / "officials.json")
@@ -351,6 +379,8 @@ def main() -> None:
         injuries=injuries_runtime,
         weather=weather_runtime,
         odds=odds_runtime,
+        schedule_load=schedule_load,
+        team_home_away_splits=team_home_away_splits,
         coverage=data_coverage,
     )
 
@@ -371,6 +401,8 @@ def main() -> None:
         "rosters.json": rosters,
         "team-world-cup-history.json": team_world_cup_history,
         "team-recent-matches.json": team_recent_matches,
+        "schedule-load.json": schedule_load,
+        "team-home-away-splits.json": team_home_away_splits,
         "team-staff.json": team_staff,
         "staff-external-facts.json": staff_external_facts,
         "officials.json": officials,
@@ -441,6 +473,8 @@ def main() -> None:
             "rosters": rosters,
             "team_world_cup_history": team_world_cup_history,
             "team_recent_matches": team_recent_matches,
+            "schedule_load": schedule_load,
+            "team_home_away_splits": team_home_away_splits,
             "team_staff": team_staff,
             "officials": officials,
             "player_ratings": player_ratings,
@@ -481,6 +515,8 @@ def main() -> None:
             "rosters": payload_size(rosters),
             "team_world_cup_history": payload_size(team_world_cup_history),
             "team_recent_matches": payload_size(team_recent_matches),
+            "schedule_load": payload_size(schedule_load),
+            "team_home_away_splits": payload_size(team_home_away_splits),
             "team_staff": payload_size(team_staff),
             "officials": payload_size(officials),
             "player_ratings": payload_size(player_ratings),

@@ -29,14 +29,16 @@
 | 球员历史活动数据 | 已具备补充层 | `player-dcaribou-activity.json` | 234 人 | 历史出场、分钟、进球助攻、牌、历史号码候选；不是 2026 官方号码/首发/伤停影响。 |
 | 裁判历史样本画像 | 部分具备 | `official-ratings.json`、`referee-profiles.json` | 英超历史样本 | 可做裁判尺度样本；不是世界杯裁判名单或单场指派。 |
 | 运行期 API 占位契约 | 已具备 | `runtime-summary.json`、`lineups.json`、`injuries.json`、`weather.json`、`odds-snapshots.json` | 世界杯 | 即使为空也应输出覆盖状态，模型按 coverage 降权。 |
+| 赛程负荷基础版 | 已具备基础版 | `schedule-load.json` | 世界杯 104 场 | 提供休息天数和近 7/14/30 天比赛数；旅行距离因上一场坐标缺失仍为 missing。 |
+| 主客/中立拆分基础版 | 已具备基础版 | `team-home-away-splits.json` | 48 队 | 基于最近 10 场，输出 overall/home/away/neutral split；国家队中立场不强行归入主客。 |
 | 人物数据源就绪度 | 已具备 | `reports/person_data_source_readiness.json` | 数据层诊断 | 已识别 dcaribou DuckDB 表、salimt license 阻断、StatsBomb 样本用途。 |
 
 ### 2.2 可以通过现有渠道继续补齐
 
 | 数据需求 | 现有可用渠道 | 可补字段 | 优先级 | 风险 / 限制 |
 | --- | --- | --- | --- | --- |
-| 主客场细分基础数据 | `team-recent-matches.json`、`international-results`、已迁移 predictor normalized matches | 近 10/20 场主客场 W/D/L、进球、失球、零封、主客/中立标签 | P0/P1 | 国家队很多比赛是中立场，不能硬套俱乐部主客场逻辑。 |
-| 完整赛程与体能负荷 | dcaribou `appearances/games`、football-data.co.uk、predictor assets、openfootball | 日期间隔、连续客场、跨赛事比赛数量 | P0 | 俱乐部多线赛程可做；国家队球员俱乐部赛程与国家队赛程合并需要身份映射。 |
+| 主客场细分基础数据 | `team-recent-matches.json`、`international-results`、已迁移 predictor normalized matches | 近 10/20 场主客场 W/D/L、进球、失球、零封、主客/中立标签 | P0/P1 | 基础版已发布到 `team-home-away-splits.json`；国家队很多比赛是中立场，不能硬套俱乐部主客场逻辑。 |
+| 完整赛程与体能负荷 | dcaribou `appearances/games`、football-data.co.uk、predictor assets、openfootball | 日期间隔、连续客场、跨赛事比赛数量 | P0 | 基础版已发布到 `schedule-load.json`；俱乐部多线赛程可做，国家队球员俱乐部赛程与国家队赛程合并需要身份映射。 |
 | 旅行距离 | `venues.json` / host city 经纬度、比赛城市、球队/俱乐部所在地 | 城市间距离、跨国/跨洲、连续客场距离 | P1 | 球队出发地不一定等于俱乐部城市或国家首都，需要明确假设。 |
 | 球员能力与影响力 proxy | dcaribou players/activity、FBref/Understat/predictor assets | 身价、caps、goals、出场、分钟、首发、进球助攻、牌、近期活动 | P0/P1 | 当前只能做 proxy，不是 `absence_impact_pct`。 |
 | 英超高级过程数据 | FBref、Understat、StatsBomb 样本、predictor assets | xG/xGA、射门、控球、传球、部分防守指标 | P1 | 可先支持英超测试；字段覆盖不一定全。 |
@@ -108,8 +110,8 @@
 
 数据层下一步：
 
-- 先输出 `schedule_load` proxy：`days_since_last_match`、`matches_last_7/14/30_days`、`travel_distance_km`。
-- 明确 `travel_origin_assumption`，例如 club home city / national team base / previous match venue。
+- `schedule_load` 基础版已发布：`days_since_last_match`、`matches_last_7/14/30_days`、上一场文本地点和 `travel_origin_assumption`。
+- `travel_distance_km` 仍为 `null`，原因是 `team-recent-matches` 只有上一场城市/国家文本，没有经纬度。
 
 ### D5 / D6 阵容结构、主客场、板凳深度
 
@@ -124,12 +126,12 @@
 
 - 球员基础和历史活动 proxy 已覆盖当前 234 人。
 - 确认首发必须等赛前窗口。
-- 主客场基础可以从最近比赛数据派生，但国家队中立场要特殊处理。
+- 主客/中立基础版已从最近比赛数据派生；国家队中立场明确保持 neutral。
 
 数据层下一步：
 
 - `lineups.json` 保持占位，进入 T-90/T-60/T-30 后采集。
-- `team_home_away_splits` 先从 `team-recent-matches` 派生基础版本。
+- `team_home_away_splits` 已从 `team-recent-matches` 派生基础版本，覆盖 48 队。
 - `player_impact_proxy` 可以基于 market value/caps/minutes 输出，但必须标记不是 absence impact。
 
 ### D8 裁判、天气、盘口、环境
@@ -173,13 +175,13 @@
 
 4. **完整赛程与负荷 proxy**
    - 目标：休息天数、多线作战、连续客场、旅行距离。
-   - 当前缺口：跨联赛/杯赛/国家队数据未统一。
-   - 输出：`schedule-load.json` 或并入 predictor runtime bundle。
+   - 当前状态：基础版已发布 `schedule-load.json`，覆盖 104 场；旅行距离仍缺上一场经纬度。
+   - 后续缺口：跨联赛/杯赛/国家队数据未统一。
 
 ### P1
 
 5. **主客场/中立场拆分**
-   - 从 `team-recent-matches` 派生近 10/20 场 home/away/neutral split。
+   - 已从 `team-recent-matches` 派生近 10/20 场 home/away/neutral split。
    - 国家队必须显式处理中立场，不能把中立场硬算主客。
 
 6. **高级过程数据**
@@ -215,7 +217,7 @@
 - 世界杯裁判名单和单场裁判指派。
 - 世界杯全量 xG、PPDA、传球成功率、控球率。
 - 真实 `absence_impact_pct`。
-- 赛程负荷与旅行距离的统一 proxy。
+- 赛程负荷基础 proxy 已有；旅行距离仍缺。
 - 跑动距离、高强度跑、冲刺次数。
 
 模型可以先使用平台已有数据降级运行：
@@ -224,6 +226,7 @@
 - 最近 10 场基础赛果。
 - 球员基础档案、club/DOB/age/caps/goals。
 - dcaribou 历史活动 proxy。
+- `schedule-load.json` 和 `team-home-away-splits.json` 基础版。
 - 英超历史裁判样本。
 - runtime-summary 的 coverage 状态。
 
