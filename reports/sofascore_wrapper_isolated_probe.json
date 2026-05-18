@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-05-18T17:48:58Z",
+  "scope": "sofascore_wrapper_isolated_probe",
+  "policy": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "raw_output_dir": "data/raw/experimental/sofascore",
+    "reason": "Sofascore wrappers are unofficial scraper clients. They are only allowed for isolated package/API-surface feasibility checks and must not write normalized, model, or public API data."
+  },
+  "classification": "experimental_only",
+  "production_write_allowed": false,
+  "normalized_write_allowed": false,
+  "public_api_write_allowed": false,
+  "wrapper": {
+    "wrapper_id": "pysofascore",
+    "display_name": "pysofascore",
+    "project_url": "https://pypi.org/project/pysofascore/",
+    "package_names": [
+      "pysofascore"
+    ],
+    "module_candidates": [
+      "pysofascore"
+    ],
+    "expected_methods": [
+      "get_event_statistics",
+      "get_event_shotmap",
+      "get_event_incidents",
+      "get_event_lineups",
+      "get_event_graph",
+      "get_event_best_players",
+      "get_team_players",
+      "get_player_heatmap"
+    ],
+    "documented_capabilities": [
+      "match_statistics",
+      "xg",
+      "shotmap",
+      "incidents",
+      "lineups",
+      "momentum_graph",
+      "best_players",
+      "live_scores"
+    ],
+    "notes": "PyPI description says it uses scrapling/curl_cffi impersonation and is educational/research only; not actively maintained."
+  },
+  "install_requested": false,
+  "status": "skipped_install_not_requested",
+  "commands": [],
+  "probe_report": null,
+  "notes": [
+    "This runner must not add Sofascore wrappers to project dependencies.",
+    "It may install packages only into a temporary venv for isolated diagnostics.",
+    "Do not run live scraping from this runner; it only checks package/API surface through probe_sofascore_wrappers.py."
+  ],
+  "reason": "Pass --install to create a temporary venv and install the allowlisted wrapper package."
+}

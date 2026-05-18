@@ -235,6 +235,12 @@
   - 输出：`reports/sofascore_wrapper_probe.json`
   - 当前定位：不访问网络、不安装依赖，只检查 `tunjayoff/sofascore_scraper`、`pysofascore`、`ScraperFC` 等 Sofascore wrapper 是否已安装以及暴露的 API surface
   - 当前结论：本机 3 个候选均未安装；若继续，必须在隔离环境安装并保持 experimental-only
+- `probe_sofascore_wrapper_isolated.py`
+  - 输入：`configs/providers/sofascore_wrapper_probe.json`
+  - 输出：`reports/sofascore_wrapper_isolated_probe.json`
+  - 当前定位：为 wrapper 做临时 venv 隔离验证；默认不安装，只写 `skipped_install_not_requested`
+  - 可选 `--wrapper pysofascore --install` 或 `--wrapper scraperfc_sofascore --install` 会在临时目录安装 allowlist 中的 PyPI 包并复用 `probe_sofascore_wrappers.py`
+  - 禁止把 wrapper 加入项目依赖；禁止写 normalized/model/public API
 - `probe_soccerdata_sofascore.py`
   - 输入：`configs/providers/soccerdata_sofascore_probe.json`
   - 输出：`reports/soccerdata_sofascore_probe.json`
