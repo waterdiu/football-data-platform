@@ -10,7 +10,7 @@
     "host_city": "墨西哥城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -124,7 +124,7 @@
     "host_city": "瓜达拉哈拉",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -238,7 +238,7 @@
     "host_city": "多伦多",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -352,7 +352,7 @@
     "host_city": "洛杉矶",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -466,7 +466,7 @@
     "host_city": "旧金山湾区",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -580,7 +580,7 @@
     "host_city": "纽约/新泽西",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -694,7 +694,7 @@
     "host_city": "波士顿",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -808,7 +808,7 @@
     "host_city": "温哥华",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -922,7 +922,7 @@
     "host_city": "休斯敦",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -1036,7 +1036,7 @@
     "host_city": "达拉斯",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -1150,7 +1150,7 @@
     "host_city": "费城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -1264,7 +1264,7 @@
     "host_city": "蒙特雷",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -1378,7 +1378,7 @@
     "host_city": "亚特兰大",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -1492,7 +1492,7 @@
     "host_city": "西雅图",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -1606,7 +1606,7 @@
     "host_city": "迈阿密",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -1720,7 +1720,7 @@
     "host_city": "洛杉矶",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -1834,7 +1834,7 @@
     "host_city": "纽约/新泽西",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -1948,7 +1948,7 @@
     "host_city": "波士顿",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -2062,7 +2062,7 @@
     "host_city": "堪萨斯城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -2176,7 +2176,7 @@
     "host_city": "旧金山湾区",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -2290,7 +2290,7 @@
     "host_city": "休斯敦",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -2404,7 +2404,7 @@
     "host_city": "达拉斯",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -2518,7 +2518,7 @@
     "host_city": "多伦多",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -2632,7 +2632,7 @@
     "host_city": "墨西哥城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -2746,7 +2746,7 @@
     "host_city": "亚特兰大",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -2860,7 +2860,7 @@
     "host_city": "洛杉矶",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -2974,7 +2974,7 @@
     "host_city": "温哥华",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -3088,7 +3088,7 @@
     "host_city": "瓜达拉哈拉",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -3202,7 +3202,7 @@
     "host_city": "西雅图",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -3316,7 +3316,7 @@
     "host_city": "波士顿",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -3430,7 +3430,7 @@
     "host_city": "费城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -3544,7 +3544,7 @@
     "host_city": "旧金山湾区",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -3658,7 +3658,7 @@
     "host_city": "休斯敦",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -3772,7 +3772,7 @@
     "host_city": "多伦多",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -3886,7 +3886,7 @@
     "host_city": "堪萨斯城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -4000,7 +4000,7 @@
     "host_city": "蒙特雷",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -4114,7 +4114,7 @@
     "host_city": "亚特兰大",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -4228,7 +4228,7 @@
     "host_city": "洛杉矶",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -4342,7 +4342,7 @@
     "host_city": "迈阿密",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -4456,7 +4456,7 @@
     "host_city": "温哥华",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -4570,7 +4570,7 @@
     "host_city": "达拉斯",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -4684,7 +4684,7 @@
     "host_city": "费城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -4798,7 +4798,7 @@
     "host_city": "纽约/新泽西",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -4912,7 +4912,7 @@
     "host_city": "旧金山湾区",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -5026,7 +5026,7 @@
     "host_city": "休斯敦",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -5140,7 +5140,7 @@
     "host_city": "波士顿",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -5254,7 +5254,7 @@
     "host_city": "多伦多",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -5368,7 +5368,7 @@
     "host_city": "瓜达拉哈拉",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -5482,7 +5482,7 @@
     "host_city": "温哥华",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -5596,7 +5596,7 @@
     "host_city": "西雅图",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -5710,7 +5710,7 @@
     "host_city": "迈阿密",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -5824,7 +5824,7 @@
     "host_city": "亚特兰大",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -5938,7 +5938,7 @@
     "host_city": "墨西哥城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -6052,7 +6052,7 @@
     "host_city": "蒙特雷",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -6166,7 +6166,7 @@
     "host_city": "费城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -6280,7 +6280,7 @@
     "host_city": "纽约/新泽西",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -6394,7 +6394,7 @@
     "host_city": "达拉斯",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -6508,7 +6508,7 @@
     "host_city": "堪萨斯城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -6622,7 +6622,7 @@
     "host_city": "洛杉矶",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -6736,7 +6736,7 @@
     "host_city": "旧金山湾区",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -6850,7 +6850,7 @@
     "host_city": "波士顿",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -6964,7 +6964,7 @@
     "host_city": "多伦多",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -7078,7 +7078,7 @@
     "host_city": "休斯敦",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -7192,7 +7192,7 @@
     "host_city": "瓜达拉哈拉",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -7306,7 +7306,7 @@
     "host_city": "西雅图",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -7420,7 +7420,7 @@
     "host_city": "温哥华",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -7534,7 +7534,7 @@
     "host_city": "纽约/新泽西",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -7648,7 +7648,7 @@
     "host_city": "费城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -7762,7 +7762,7 @@
     "host_city": "迈阿密",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -7876,7 +7876,7 @@
     "host_city": "亚特兰大",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -7990,7 +7990,7 @@
     "host_city": "堪萨斯城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8104,7 +8104,7 @@
     "host_city": "达拉斯",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8218,7 +8218,7 @@
     "host_city": "洛杉矶",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8290,7 +8290,7 @@
     "host_city": "休斯敦",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8362,7 +8362,7 @@
     "host_city": "波士顿",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8434,7 +8434,7 @@
     "host_city": "蒙特雷",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8506,7 +8506,7 @@
     "host_city": "达拉斯",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8578,7 +8578,7 @@
     "host_city": "纽约/新泽西",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8650,7 +8650,7 @@
     "host_city": "墨西哥城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8722,7 +8722,7 @@
     "host_city": "亚特兰大",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8794,7 +8794,7 @@
     "host_city": "西雅图",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8866,7 +8866,7 @@
     "host_city": "旧金山湾区",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -8938,7 +8938,7 @@
     "host_city": "洛杉矶",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9010,7 +9010,7 @@
     "host_city": "多伦多",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9082,7 +9082,7 @@
     "host_city": "温哥华",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9154,7 +9154,7 @@
     "host_city": "达拉斯",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9226,7 +9226,7 @@
     "host_city": "迈阿密",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9298,7 +9298,7 @@
     "host_city": "堪萨斯城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9370,7 +9370,7 @@
     "host_city": "休斯敦",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9442,7 +9442,7 @@
     "host_city": "费城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9514,7 +9514,7 @@
     "host_city": "纽约/新泽西",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9586,7 +9586,7 @@
     "host_city": "墨西哥城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9658,7 +9658,7 @@
     "host_city": "达拉斯",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9730,7 +9730,7 @@
     "host_city": "西雅图",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9802,7 +9802,7 @@
     "host_city": "亚特兰大",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9874,7 +9874,7 @@
     "host_city": "温哥华",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -9946,7 +9946,7 @@
     "host_city": "波士顿",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -10018,7 +10018,7 @@
     "host_city": "洛杉矶",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -10090,7 +10090,7 @@
     "host_city": "迈阿密",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -10162,7 +10162,7 @@
     "host_city": "堪萨斯城",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -10234,7 +10234,7 @@
     "host_city": "达拉斯",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -10306,7 +10306,7 @@
     "host_city": "亚特兰大",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -10378,7 +10378,7 @@
     "host_city": "迈阿密",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",
@@ -10450,7 +10450,7 @@
     "host_city": "纽约/新泽西",
     "source": "fixtures.json + team-recent-matches.json",
     "source_status": "partial",
-    "generated_at": "2026-05-18T15:20:08Z",
+    "generated_at": "2026-05-18T15:36:52Z",
     "basis": {
       "recent_match_source": "team-recent-matches.json",
       "fixture_source": "fixtures.json",

@@ -20,8 +20,10 @@ VENUES_PATH = PUBLIC_DIR / "venues.json"
 
 SCHEDULE_LOAD_MASTER_PATH = NORMALIZED_DIR / "world_cup_2026_predictor_schedule_load_master.json"
 HOME_AWAY_SPLITS_MASTER_PATH = NORMALIZED_DIR / "world_cup_2026_predictor_team_home_away_splits_master.json"
+TEAM_ADVANCED_STATS_MASTER_PATH = NORMALIZED_DIR / "world_cup_2026_predictor_team_advanced_stats_master.json"
 SCHEDULE_LOAD_PUBLIC_PATH = PUBLIC_DIR / "schedule-load.json"
 HOME_AWAY_SPLITS_PUBLIC_PATH = PUBLIC_DIR / "team-home-away-splits.json"
+TEAM_ADVANCED_STATS_PUBLIC_PATH = PUBLIC_DIR / "team-advanced-stats.json"
 REPORT_PATH = REPORTS_DIR / "predictor_context_metrics_report.json"
 
 WINDOW_DAYS = (7, 14, 30)
@@ -141,6 +143,74 @@ def split_recent_matches(matches: list[dict[str, Any]], limit: int) -> dict[str,
         "overall": with_rates(overall),
         "splits": {key: with_rates(value) for key, value in splits.items()},
     }
+
+
+def build_team_advanced_stats(
+    *,
+    teams: list[dict[str, Any]],
+    team_recent_matches: list[dict[str, Any]],
+    generated_at: str,
+) -> list[dict[str, Any]]:
+    names = team_name_by_id(teams)
+    rows: list[dict[str, Any]] = []
+    for team_id in sorted(recent_by_team(team_recent_matches)):
+        recent = recent_by_team(team_recent_matches).get(team_id, {})
+        matches = recent.get("matches") if isinstance(recent.get("matches"), list) else []
+        window = split_recent_matches(matches, 10)
+        overall = window["overall"]
+        rows.append(
+            {
+                "team_id": team_id,
+                "team_name": str(recent.get("team_name") or names.get(team_id, team_id)),
+                "competition": "world_cup",
+                "competition_id": "fifa_world_cup",
+                "season_id": "2026",
+                "scope": "last_10",
+                "matches": window["matches"],
+                "goals_for_per_match": overall["goals_for_per_match"],
+                "goals_against_per_match": overall["goals_against_per_match"],
+                "goal_difference_per_match": round(
+                    overall["goal_difference"] / window["matches"], 3
+                )
+                if window["matches"]
+                else None,
+                "win_rate_pct": overall["win_rate_pct"],
+                "draw_rate_pct": overall["draw_rate_pct"],
+                "loss_rate_pct": overall["loss_rate_pct"],
+                "possession_pct": None,
+                "pass_accuracy_pct": None,
+                "passes_completed_per_match": None,
+                "progressive_passes_per_match": None,
+                "shots_per_match": None,
+                "shots_on_target_per_match": None,
+                "ppda": None,
+                "xg_for_per_match": None,
+                "xga_per_match": None,
+                "source": recent.get("source") or "data/public/team-recent-matches.json",
+                "last_updated": generated_at,
+                "source_status": "partial" if matches else "missing",
+                "missing_advanced_fields_reason": (
+                    "team-recent-matches provides scores and locations only; possession, passing, "
+                    "PPDA, shots and xG require a verified process-data source."
+                ),
+                "basis": {
+                    "source_dataset": "team-recent-matches.json",
+                    "window": "last_10",
+                    "sample_size_matches": window["matches"],
+                    "competition_scope": "international_recent_matches",
+                    "advanced_fields_policy": "null means unavailable; never infer as zero",
+                },
+                "data_coverage": {
+                    "basic_form": "available" if matches else "missing",
+                    "possession": "missing",
+                    "passing": "missing",
+                    "shots": "missing",
+                    "ppda": "missing",
+                    "xg": "missing",
+                },
+            }
+        )
+    return rows
 
 
 def build_team_home_away_splits(
@@ -315,6 +385,11 @@ def main() -> None:
         team_recent_matches=team_recent_matches,
         generated_at=generated_at,
     )
+    team_advanced_stats = build_team_advanced_stats(
+        teams=teams,
+        team_recent_matches=team_recent_matches,
+        generated_at=generated_at,
+    )
     schedule_load = build_schedule_load(
         fixtures=fixtures,
         teams=teams,
@@ -325,8 +400,10 @@ def main() -> None:
 
     write_json(SCHEDULE_LOAD_MASTER_PATH, schedule_load)
     write_json(HOME_AWAY_SPLITS_MASTER_PATH, home_away_splits)
+    write_json(TEAM_ADVANCED_STATS_MASTER_PATH, team_advanced_stats)
     write_json(SCHEDULE_LOAD_PUBLIC_PATH, schedule_load)
     write_json(HOME_AWAY_SPLITS_PUBLIC_PATH, home_away_splits)
+    write_json(TEAM_ADVANCED_STATS_PUBLIC_PATH, team_advanced_stats)
 
     report = {
         "generated_at": generated_at,
@@ -336,6 +413,10 @@ def main() -> None:
         "counts": {
             "schedule_load_rows": len(schedule_load),
             "team_home_away_split_rows": len(home_away_splits),
+            "team_advanced_stats_rows": len(team_advanced_stats),
+            "team_advanced_stats_partial_rows": sum(
+                1 for row in team_advanced_stats if row.get("source_status") == "partial"
+            ),
             "schedule_load_partial_rows": sum(
                 1 for row in schedule_load if row.get("source_status") == "partial"
             ),
@@ -353,8 +434,10 @@ def main() -> None:
         "outputs": {
             "schedule_load_master": rel(SCHEDULE_LOAD_MASTER_PATH),
             "team_home_away_splits_master": rel(HOME_AWAY_SPLITS_MASTER_PATH),
+            "team_advanced_stats_master": rel(TEAM_ADVANCED_STATS_MASTER_PATH),
             "schedule_load_public": rel(SCHEDULE_LOAD_PUBLIC_PATH),
             "team_home_away_splits_public": rel(HOME_AWAY_SPLITS_PUBLIC_PATH),
+            "team_advanced_stats_public": rel(TEAM_ADVANCED_STATS_PUBLIC_PATH),
         },
     }
     write_json(Path(args.report_output), report)

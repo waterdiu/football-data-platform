@@ -87,6 +87,10 @@
       "path": "api/worldcup/2026/predictor/team-home-away-splits.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/team-home-away-splits.json"
     },
+    "team_advanced_stats": {
+      "path": "api/worldcup/2026/predictor/team-advanced-stats.json",
+      "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/team-advanced-stats.json"
+    },
     "team_staff": {
       "path": "api/worldcup/2026/predictor/team-staff.json",
       "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/predictor/team-staff.json"

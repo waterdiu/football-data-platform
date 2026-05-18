@@ -87,12 +87,13 @@
 现状：
 
 - 英超可通过 FBref / Understat / predictor assets 部分补。
-- 世界杯/国家队只能先做基础结果代理，完整 PPDA/xG 需要付费或赛后统计源验证。
+- 世界杯/国家队已发布基础结果代理到 `team-advanced-stats.json`：覆盖 48 队，提供最近 10 场进失球、胜平负率和样本 basis。
+- 完整 PPDA/xG、控球、传球和射门过程数据仍需要付费源、合规公开源或赛后统计源验证。
 
 数据层下一步：
 
-- 先做 `team_advanced_stats` 的英超测试集。
-- 世界杯先发布 `null + missing_reason`，不要填 0。
+- 继续做 `team_advanced_stats` 的英超测试集。
+- 世界杯过程型字段已按 `null + missing_advanced_fields_reason` 发布，不得填 0。
 
 ### D3 体能负荷 / 多线作战 / 旅行
 

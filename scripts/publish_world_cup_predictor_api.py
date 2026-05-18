@@ -244,6 +244,7 @@ def build_runtime_summary(
     odds: object,
     schedule_load: object,
     team_home_away_splits: object,
+    team_advanced_stats: object,
     coverage: object,
 ) -> list[dict]:
     if not isinstance(fixtures, list):
@@ -255,6 +256,7 @@ def build_runtime_summary(
     odds_by_match = list_by_match_id(odds)
     schedule_load_by_match = first_by_match_id(schedule_load)
     home_away_by_team = first_by_team_id(team_home_away_splits)
+    advanced_by_team = first_by_team_id(team_advanced_stats)
     coverage_by_match = first_by_match_id(coverage)
 
     rows: list[dict] = []
@@ -292,8 +294,10 @@ def build_runtime_summary(
                     "sample_size": 0,
                 },
                 "team_advanced_stats": {
-                    "home": empty_advanced_stats(home_team_id, names.get(home_team_id, home_team_id)),
-                    "away": empty_advanced_stats(away_team_id, names.get(away_team_id, away_team_id)),
+                    "home": advanced_by_team.get(home_team_id)
+                    or empty_advanced_stats(home_team_id, names.get(home_team_id, home_team_id)),
+                    "away": advanced_by_team.get(away_team_id)
+                    or empty_advanced_stats(away_team_id, names.get(away_team_id, away_team_id)),
                 },
                 "odds_snapshots": split_odds_snapshots(odds_rows),
                 "data_coverage": {
@@ -301,7 +305,9 @@ def build_runtime_summary(
                     "injuries": coverage_status(coverage_row, "injuries"),
                     "weather": coverage_status(coverage_row, "weather"),
                     "referee_profile": "missing",
-                    "advanced_stats": "missing",
+                    "advanced_stats": "partial"
+                    if advanced_by_team.get(home_team_id) and advanced_by_team.get(away_team_id)
+                    else "missing",
                     "ah_odds": coverage_status(coverage_row, "asian_handicap"),
                     "ou_odds": coverage_status(coverage_row, "over_under"),
                     "one_x_two_odds": coverage_status(coverage_row, "odds"),
@@ -345,6 +351,7 @@ def main() -> None:
     team_recent_matches = load_json(PUBLIC_DIR / "team-recent-matches.json")
     schedule_load = load_json(PUBLIC_DIR / "schedule-load.json")
     team_home_away_splits = load_json(PUBLIC_DIR / "team-home-away-splits.json")
+    team_advanced_stats = load_json(PUBLIC_DIR / "team-advanced-stats.json")
     team_staff = load_json(PUBLIC_DIR / "team-staff.json")
     staff_external_facts = load_json(PUBLIC_DIR / "staff-external-facts.json")
     officials = load_json(PUBLIC_DIR / "officials.json")
@@ -381,6 +388,7 @@ def main() -> None:
         odds=odds_runtime,
         schedule_load=schedule_load,
         team_home_away_splits=team_home_away_splits,
+        team_advanced_stats=team_advanced_stats,
         coverage=data_coverage,
     )
 
@@ -403,6 +411,7 @@ def main() -> None:
         "team-recent-matches.json": team_recent_matches,
         "schedule-load.json": schedule_load,
         "team-home-away-splits.json": team_home_away_splits,
+        "team-advanced-stats.json": team_advanced_stats,
         "team-staff.json": team_staff,
         "staff-external-facts.json": staff_external_facts,
         "officials.json": officials,
@@ -475,6 +484,7 @@ def main() -> None:
             "team_recent_matches": team_recent_matches,
             "schedule_load": schedule_load,
             "team_home_away_splits": team_home_away_splits,
+            "team_advanced_stats": team_advanced_stats,
             "team_staff": team_staff,
             "officials": officials,
             "player_ratings": player_ratings,
@@ -517,6 +527,7 @@ def main() -> None:
             "team_recent_matches": payload_size(team_recent_matches),
             "schedule_load": payload_size(schedule_load),
             "team_home_away_splits": payload_size(team_home_away_splits),
+            "team_advanced_stats": payload_size(team_advanced_stats),
             "team_staff": payload_size(team_staff),
             "officials": payload_size(officials),
             "player_ratings": payload_size(player_ratings),
