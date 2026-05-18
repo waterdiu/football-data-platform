@@ -772,8 +772,8 @@ predictor 兼容数据当前边界：
 - runtime odds、lineups、injuries、weather 和 prematch context 的生产采集责任已迁到平台；模型项目只消费平台输出并按缺失情况降权
 - 最新模型侧回报：`generate_predictions.py` 在严格平台模式下成功生成 104 场世界杯预测并写入平台 inbox
 - 最新模型侧回报：世界杯本地赔率/上下文采集默认停用，返回 `delegated_to_platform`
-- 当前平台 runtime 缺口：`odds_snapshots`、`lineups`、`injuries`、`weather`、`team_advanced_stats`、`referee_profiles`
-- 模型侧运行期数据需求基线见 `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`，P0 为确认首发、AH/OU 快照、伤停/球员影响力、天气；P1 为控球率/传球成功率/PPDA 等高级技术统计和裁判画像。
+- 当前平台 runtime 缺口：`odds_snapshots`、`lineups`、`injuries`、`weather`、`team_advanced_stats`、`referee_profiles`、`schedule_load`、`home_away_splits`
+- 模型侧运行期数据需求基线见 `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`，P0 为确认首发、AH/OU 快照、伤停/球员影响力、天气；P1 为控球率/传球成功率/PPDA 等高级技术统计和裁判画像。模型 D2/D3/D6 新增需求的缺口评估见 `docs/2026-05-18-predictor-post-model-data-gap-assessment-cn.md`，其中将数据分为已具备、现有渠道可补、待验证和明确不可作为当前免费/生产源四类。
 - `runtime-summary.json` 是 predictor 运行期优先入口，由 `scripts/publish_world_cup_predictor_api.py` 从 fixtures、lineups、injuries、weather、odds 和 data coverage 聚合生成。即使底层运行期数据为空，也必须对 104 场输出稳定行并标记缺失状态，避免模型层把缺失值当作 0。
 - 天气数据在赛程超出预报窗口时必须显式发布占位行：`source_status=unavailable`、`status_reason=outside_forecast_window`；模型层只能将其解释为暂不可采集，不能当作晴天或 0 风速。
 - 截至 2026-05-17，世界杯 predictor compatibility API 已补齐 104 场 `kickoff_at`，平台发布报告显示 `shared_fixtures_missing_kickoff_at=0`、`feature_inputs_missing_kickoff_at=0`、`predictions_source_missing_kickoff_at=0`；模型侧 health-check 返回 `missing_kickoff_count=0`
