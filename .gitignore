@@ -8,3 +8,4 @@ venv/
 .env.local
 data/predictor-assets/files/
 data/runtime/
+data/raw/vendor/

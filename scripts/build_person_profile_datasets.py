@@ -15,6 +15,7 @@ DATASETS = {
     "person_team_staff_master.json": "team-staff.json",
     "person_officials_master.json": "officials.json",
     "person_player_external_facts_master.json": "player-external-facts.json",
+    "person_player_dcaribou_activity_master.json": "player-dcaribou-activity.json",
     "person_staff_external_facts_master.json": "staff-external-facts.json",
     "person_player_ratings_master.json": "player-ratings.json",
     "person_staff_ratings_master.json": "staff-ratings.json",
@@ -24,6 +25,7 @@ DATASETS = {
 
 TEAM_RECENT_MATCHES_PATH = PUBLIC_DIR / "team-recent-matches.json"
 PLAYER_EXTERNAL_FACTS_PATH = NORMALIZED_DIR / "person_player_external_facts_master.json"
+PLAYER_ACTIVITY_FACTS_PATH = NORMALIZED_DIR / "person_player_dcaribou_activity_master.json"
 STAFF_EXTERNAL_FACTS_PATH = NORMALIZED_DIR / "person_staff_external_facts_master.json"
 
 
@@ -285,9 +287,15 @@ def build_coach_profile(staff: dict, team_recent: dict | None = None, external_f
     return profile
 
 
-def build_player_profile(player: dict, external_fact: dict | None = None) -> dict:
+def build_player_profile(player: dict, external_fact: dict | None = None, activity_fact: dict | None = None) -> dict:
     external_direct = external_fact.get("direct") if isinstance(external_fact, dict) and isinstance(external_fact.get("direct"), dict) else {}
     external_derived = external_fact.get("derived") if isinstance(external_fact, dict) and isinstance(external_fact.get("derived"), dict) else {}
+    activity = activity_fact.get("activity") if isinstance(activity_fact, dict) and isinstance(activity_fact.get("activity"), dict) else {}
+    lineups = activity_fact.get("lineups") if isinstance(activity_fact, dict) and isinstance(activity_fact.get("lineups"), dict) else {}
+    events = activity_fact.get("events") if isinstance(activity_fact, dict) and isinstance(activity_fact.get("events"), dict) else {}
+    lineup_number_candidates = activity_fact.get("lineup_number_candidates") if isinstance(activity_fact, dict) and isinstance(activity_fact.get("lineup_number_candidates"), list) else []
+    recent_appearances = activity_fact.get("recent_appearances") if isinstance(activity_fact, dict) and isinstance(activity_fact.get("recent_appearances"), list) else []
+    valuation_history = activity_fact.get("valuation_history") if isinstance(activity_fact, dict) and isinstance(activity_fact.get("valuation_history"), list) else []
     club = player.get("club") or external_direct.get("club")
     date_of_birth = player.get("date_of_birth") or external_direct.get("date_of_birth")
     age = player.get("age") or external_direct.get("age")
@@ -324,6 +332,12 @@ def build_player_profile(player: dict, external_fact: dict | None = None) -> dic
             "market_value_eur": external_derived.get("market_value_eur"),
             "highest_market_value_eur": external_derived.get("highest_market_value_eur"),
             "impact_proxy_score": external_derived.get("impact_proxy_score"),
+            "appearances_total": activity.get("appearances_total"),
+            "minutes_total": activity.get("minutes_total"),
+            "assists_total": activity.get("assists_total"),
+            "starts_total": lineups.get("starts"),
+            "bench_rows_total": lineups.get("bench_rows"),
+            "event_rows_total": events.get("events_total"),
         }.items()
         if value is not None
     }
@@ -336,6 +350,7 @@ def build_player_profile(player: dict, external_fact: dict | None = None) -> dic
         "source": "data/normalized/person_player_external_facts_master.json" if metrics else None,
         "method": "Third-party Transfermarkt dataset facts and a simple display impact proxy; missing values are explicit nulls, not zero." if metrics else "Pending reliable caps/goals/minutes/club source. Missing values are explicit nulls, not zero.",
         "external_fact": source_compact_from_external_fact(external_fact),
+        "activity_fact": source_compact_from_external_fact(activity_fact),
     }
     impact_box = {
         "status": "available" if metrics.get("impact_proxy_score") is not None else "pending_source",
@@ -358,6 +373,9 @@ def build_player_profile(player: dict, external_fact: dict | None = None) -> dic
         ability_items.append({"key": "market_value_proxy", "label": "Market value proxy", "label_zh": "身价代理", "value": clamp_rating((metrics["market_value_eur"] / 100_000_000) * 100), "unit": "rating", **data_badge("derived", "derived", "available")})
     if metrics.get("impact_proxy_score") is not None:
         ability_items.append({"key": "impact_proxy_score", "label": "Impact proxy", "label_zh": "影响力代理", "value": metrics["impact_proxy_score"], "unit": "rating", **data_badge("derived", "derived", "available")})
+    if metrics.get("minutes_total") is not None:
+        ability_items.append({"key": "historical_minutes", "label": "Historical minutes", "label_zh": "历史出场分钟", "value": clamp_rating((metrics["minutes_total"] / 30000) * 100), "unit": "rating", **data_badge("derived", "derived", "available")})
+    top_number_candidate = lineup_number_candidates[0] if lineup_number_candidates else {}
     profile = {
         "person_id": player.get("player_id"),
         "person_type": "player",
@@ -388,6 +406,8 @@ def build_player_profile(player: dict, external_fact: dict | None = None) -> dic
             "metrics": metrics,
             "basis": derived_basis,
             "impact_box": impact_box,
+            "lineup_number_candidates": lineup_number_candidates,
+            "activity_ref": "player-dcaribou-activity.json" if activity_fact else None,
         },
         "distilled": {
             "distillation_status": "insufficient_sample",
@@ -399,8 +419,10 @@ def build_player_profile(player: dict, external_fact: dict | None = None) -> dic
             {"key": "position", "label": "Position", "label_zh": "位置", "value": player.get("position"), "unit": None, **data_badge("direct", "direct")},
             {"key": "club", "label": "Club", "label_zh": "俱乐部", "value": club, "unit": None, **data_badge("direct", "direct", direct_coverage.get("club", "pending_source"))},
             {"key": "shirt_number", "label": "Shirt number", "label_zh": "号码", "value": player.get("shirt_number"), "unit": None, **data_badge("direct", "direct", direct_coverage.get("shirt_number", "pending_source"))},
+            {"key": "historical_number_candidate", "label": "Historical number", "label_zh": "历史常用号码", "value": top_number_candidate.get("number"), "unit": "candidate" if top_number_candidate else None, **data_badge("derived", "derived", "available" if top_number_candidate else "pending_source")},
             {"key": "caps", "label": "Caps", "label_zh": "国家队出场", "value": metrics.get("caps"), "unit": None, **data_badge("derived", "derived", derived_status)},
             {"key": "goals", "label": "Goals", "label_zh": "国家队进球", "value": metrics.get("goals"), "unit": None, **data_badge("derived", "derived", derived_status)},
+            {"key": "minutes_total", "label": "Historical minutes", "label_zh": "历史分钟", "value": metrics.get("minutes_total"), "unit": "min", **data_badge("derived", "derived", "available" if metrics.get("minutes_total") is not None else "pending_source")},
             {"key": "impact_score", "label": "Impact score", "label_zh": "影响力分", "value": metrics.get("impact_proxy_score"), "unit": "proxy", **data_badge("derived", "derived", impact_box["status"])},
             {"key": "style_profile", "label": "Style profile", "label_zh": "风格画像", "value": "insufficient_sample", "unit": None, **data_badge("distilled", "distilled", "insufficient_sample")},
         ],
@@ -411,6 +433,25 @@ def build_player_profile(player: dict, external_fact: dict | None = None) -> dic
             {"type": "ability_bars", "data_tier": "derived", "status": derived_status, "items": ability_items, "basis": derived_basis},
             {"type": "impact_box", "data_tier": "derived", **impact_box},
             {"type": "production_metrics", "data_tier": "derived", "status": derived_status, "basis": derived_basis, "metrics": metrics},
+            {
+                "type": "historical_activity",
+                "data_tier": "derived",
+                "status": "available" if activity_fact else "pending_source",
+                "basis": {
+                    "source": "data/normalized/person_player_dcaribou_activity_master.json" if activity_fact else None,
+                    "public_dataset": "player-dcaribou-activity.json" if activity_fact else None,
+                    "usage": "Historical supplemental Transfermarkt activity; not FIFA World Cup 2026 official shirt number or confirmed lineup.",
+                    "minimum_required": 1,
+                },
+                "lineup_number_candidates": lineup_number_candidates,
+                "activity": activity,
+                "lineups": lineups,
+                "events": events,
+                "detail_ref": {
+                    "dataset": "player-dcaribou-activity.json",
+                    "key": player.get("player_id"),
+                } if activity_fact else None,
+            },
             {"type": "style_distillation", "data_tier": "distilled", "status": "insufficient_sample", "basis": {"sample_size_matches": 0, "minimum_required": 30}},
         ],
         "data_tiers": ["direct", "derived", "distilled"],
@@ -507,6 +548,17 @@ def load_player_external_facts() -> dict[str, dict]:
     }
 
 
+def load_player_activity_facts() -> dict[str, dict]:
+    if not PLAYER_ACTIVITY_FACTS_PATH.exists():
+        return {}
+    rows = ensure_list(load_json(PLAYER_ACTIVITY_FACTS_PATH), "person_player_dcaribou_activity_master.json")
+    return {
+        str(row.get("player_id")): row
+        for row in rows
+        if row.get("player_id")
+    }
+
+
 def load_staff_external_facts() -> dict[str, dict]:
     if not STAFF_EXTERNAL_FACTS_PATH.exists():
         return {}
@@ -551,6 +603,7 @@ def main() -> None:
     official_ratings_by_entity = rating_by_entity_id(official_ratings)
     team_recent_by_id = load_team_recent_matches()
     player_external_facts_by_id = load_player_external_facts()
+    player_activity_facts_by_id = load_player_activity_facts()
     staff_external_facts_by_id = load_staff_external_facts()
 
     coach_profiles = [
@@ -563,7 +616,11 @@ def main() -> None:
         if row.get("role") == "head_coach"
     ]
     player_profiles = [
-        build_player_profile(row, player_external_facts_by_id.get(str(row.get("player_id") or "")))
+        build_player_profile(
+            row,
+            player_external_facts_by_id.get(str(row.get("player_id") or "")),
+            player_activity_facts_by_id.get(str(row.get("player_id") or "")),
+        )
         for row in players
     ]
     referee_profiles = [

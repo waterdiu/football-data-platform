@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-05-18T14:05:37Z",
+  "status": "published",
+  "source": "dcaribou/transfermarkt-datasets",
+  "source_license": "CC0-1.0",
+  "source_file": "transfermarkt-datasets.duckdb",
+  "source_file_location_policy": "Local raw/vendor or Downloads input; the DuckDB file is not committed to git.",
+  "policy": "Narrow supplemental profile facts only; does not overwrite FIFA roster masters and does not publish public API by itself.",
+  "counts": {
+    "platform_players": 234,
+    "id_map_rows": 234,
+    "with_transfermarkt_id": 210,
+    "without_transfermarkt_id": 24,
+    "target_players": 210,
+    "with_appearance_summary": 184,
+    "with_lineup_summary": 199,
+    "with_lineup_number_candidates": 199,
+    "with_event_summary": 193,
+    "with_valuation_history": 164
+  },
+  "outputs": {
+    "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_player_dcaribou_activity_master.json"
+  }
+}

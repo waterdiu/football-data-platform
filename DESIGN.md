@@ -503,6 +503,7 @@ Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
 
 - `coach-profiles.json` 的 48 名主教练都有 `derived.metrics`，来源为 `data/public/team-recent-matches.json` 的国家队近 10 场代理指标；字段包括 `matches_managed_total`、`w_total`、`d_total`、`l_total`、`win_rate_pct`、`goals_for_per_match`、`goals_against_per_match`、`clean_sheet_rate_pct` 和 `recent_10_form`。该指标只用于页面呈现和低样本提示，不等同完整教练职业生涯战绩。
 - `player-profiles.json` 对当前 234 名已导入官方名单球员输出 `field_coverage`、`impact_box` 和 `pending_source` basis。当前通过 Reep `key_transfermarkt` 映射接入 dcaribou Transfermarkt 离线数据，补充 `player-external-facts.json` 197 条；其中 190 条有俱乐部、caps、goals，197 条有 DOB/age，196 条有展示型 `impact_proxy_score`。`shirt_number` 仍无可靠来源，保持 `null + pending_source`。这些第三方事实只补充 profile，不覆盖官方 roster master。
+- `player-dcaribou-activity.json` 从本地人工下载的 dcaribou DuckDB 窄表导入，当前覆盖 210 名已映射球员：184 名有 appearance/minutes 汇总，199 名有 historical lineup number candidates，193 名有 events 汇总，164 名有 valuation history。该数据只作为历史补充事实和人物页 activity 模块，不是 FIFA 2026 官方号码、确认首发或真实缺阵影响百分比。
 - `coach-profiles.json` 通过 Reep coach rows 补充 `staff-external-facts.json` 44 条；当前 43 名主教练有 nationality，44 名有 DOB/age。`appointed_at` 与 `contract_until` 仍无可靠结构化来源，保持 `pending_source`。
 - `referee-profiles.json` 发布 50 名英超历史裁判样本，`direct.assigned_matches=[]` 且 `assignment_status=missing_referee_assignment`。这仍不是世界杯裁判名单或单场裁判指派。
 - `sections[]` 支持 `identity`、`data_grid`、`kpi_strip`、`ability_bars`、`impact_box`、`career_summary`、`production_metrics`、`officiating_metrics` 和 `style_distillation`，消费端只负责渲染和隐藏缺失模块。
@@ -514,8 +515,10 @@ Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
 - `team_staff` 用于球队教练/工作人员档案。当前已补 48 支球队主教练数据，来源为对应 FIFA 官方文章，发布到 `data/public/team-staff.json`、`api/worldcup/2026/core/team-staff.json` 和 predictor API。
 - 教练生日/年龄只有在有可靠来源时才填；当前未审计生日来源的行保留 `date_of_birth=null`、`age=null`，避免伪造事实。
 - `player-external-facts` 与 `staff-external-facts` 是第三方补充事实层，必须通过 `field_sources` 标明来源；消费端展示时应把它们视为补充资料，不应当成 FIFA 官方名单事实。
+- `player-dcaribou-activity` 是第三方历史活动补充层，必须通过 `usage_policy.not_official_roster_source=true`、`not_absence_impact_pct=true` 和 `not_world_cup_lineup_confirmation=true` 标明限制。消费端可以展示“历史常用号码候选 / 历史分钟 / 近期俱乐部出场”，但不得显示为世界杯官方球衣号码。
 - GitHub 人物数据源调研结论：`dcaribou/transfermarkt-datasets` 许可证为 CC0-1.0，可继续作为生产候选扩展；`salimt/football-datasets` 字段有价值但仓库缺少明确 license metadata，只能作为 probe，不得写入 normalized/public；`statsbomb/open-data` 可用于风格规则研究，但不能视为 2026 全量人物覆盖。
 - 人物数据源就绪度由 `scripts/build_person_data_source_readiness.py` 生成到 `reports/person_data_source_readiness.json`。截至 2026-05-18，本地 dcaribou 资产只有 `players.csv.gz` 和 `clubs.csv.gz`，缺少 metadata 中描述的 `games.csv`、`appearances.csv`、`game_events.csv`、`game_lineups.csv`、`club_games.csv` 等表；因此只能继续补 club/DOB/age/caps/goals/market value，不能据此生成 `shirt_number`、出场分钟、真实缺阵影响或事件级风格。dcaribou README 暴露了 R2 下载入口，但当前环境 HEAD probe 未完成；导入策略应以人工/CI 获取的 DuckDB 或单表 CSV gzip 为 raw/vendor 输入，再导出窄表进入 normalized。`salimt/football-datasets` 仍是 probe-only：GitHub license metadata 为 null，根目录没有 `LICENSE`，`contents/LICENSE` 返回 404，递归 tree 未发现 license/copying/notice 文件。
+- `scripts/import_dcaribou_person_activity.py` 依赖可选 Python 包 `duckdb`。该脚本不在默认 Pages 发布流水线中运行；需要手动或 CI 提供本地 DuckDB 原始文件后再执行。原始 `.duckdb` 文件不提交 Git。
 - `officials` / `official-ratings` 当前由 `scripts/build_referee_sample_profiles.py` 从 `data/predictor-assets/files/processed/premier_league_matches.csv` 的 `referee`、红黄牌和赛果字段派生，发布 50 名英超历史裁判样本画像。该数据的 `source_status=historical_sample_only`，只能作为模型解释和裁判风格样本，不能解释为 2026 世界杯裁判名单、裁判国籍或单场裁判指派。
 - 能力评分必须保留 `source`、`sample_size`、`time_window`、`confidence`。
 - 风格画像必须由规则标签和 evidence 生成，不允许仅凭姓名或主观印象生成。
