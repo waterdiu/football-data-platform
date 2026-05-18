@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T13:38:43Z",
+  "generated_at": "2026-05-18T13:45:37Z",
   "status": "requires_source_expansion",
   "purpose": "Read-only readiness report for coach/player/referee profile data sources.",
   "rules": {
@@ -259,7 +259,24 @@
       "repo": "https://github.com/dcaribou/transfermarkt-datasets",
       "license": "CC0-1.0",
       "decision": "production_candidate",
-      "note": "Git metadata describes tables such as games, appearances, game_events, game_lineups and club_games, but current local platform asset only has players/clubs."
+      "public_download_targets": {
+        "duckdb": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/transfermarkt-datasets.duckdb",
+        "zip": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/transfermarkt-datasets.zip",
+        "competitions": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/competitions.csv.gz",
+        "games": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/games.csv.gz",
+        "clubs": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/clubs.csv.gz",
+        "players": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/players.csv.gz",
+        "player_valuations": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/player_valuations.csv.gz",
+        "appearances": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/appearances.csv.gz",
+        "game_events": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/game_events.csv.gz",
+        "game_lineups": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/game_lineups.csv.gz",
+        "club_games": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/club_games.csv.gz",
+        "transfers": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/transfers.csv.gz",
+        "countries": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/countries.csv.gz",
+        "national_teams": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/national_teams.csv.gz"
+      },
+      "download_probe_status": "public URLs discovered in README; current environment R2 HEAD probes did not complete before timeout on 2026-05-18",
+      "note": "Git metadata describes tables such as games, appearances, game_events, game_lineups and club_games, and README exposes R2 download URLs. Current local platform asset only has players/clubs."
     },
     "salimt_football_datasets": {
       "repo": "https://github.com/salimt/football-datasets",

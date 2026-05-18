@@ -452,6 +452,7 @@ Remaining work:
 - Extend dcaribou Transfermarkt CC0 data beyond `players.csv.gz` / `clubs.csv.gz` into appearances/games/lineups/events before computing true player impact or style.
 - Keep `salimt/football-datasets` as probe-only until license is explicit; useful candidate files are `player_profiles.csv`, `player_national_performances.csv`, and `player_injuries.csv`. Current evidence: GitHub repo license metadata is null, no root `LICENSE` exists, `contents/LICENSE` returns 404, and recursive tree inspection finds no license/copying/notice file.
 - Use existing local StatsBomb/FBref/predictor assets only as style-rule samples unless a profile row can be linked to the 2026 roster with sufficient sample and license coverage.
+- dcaribou README exposes R2 download targets for the full DuckDB/zip and single-table CSV gzip files. Treat these as discovered but not network-verified in the current environment until a download job succeeds; import should prefer a manually/CI-provided DuckDB file and then export narrow, roster-linked normalized facts.
 
 Acceptance criteria:
 

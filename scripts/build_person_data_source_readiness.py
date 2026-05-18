@@ -76,6 +76,25 @@ DCARIBOU_EXPECTED_TABLES = [
     "national_teams.csv",
 ]
 
+DCARIBOU_PUBLIC_BASE_URL = "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data"
+
+DCARIBOU_PUBLIC_TARGETS = {
+    "duckdb": f"{DCARIBOU_PUBLIC_BASE_URL}/transfermarkt-datasets.duckdb",
+    "zip": f"{DCARIBOU_PUBLIC_BASE_URL}/transfermarkt-datasets.zip",
+    "competitions": f"{DCARIBOU_PUBLIC_BASE_URL}/competitions.csv.gz",
+    "games": f"{DCARIBOU_PUBLIC_BASE_URL}/games.csv.gz",
+    "clubs": f"{DCARIBOU_PUBLIC_BASE_URL}/clubs.csv.gz",
+    "players": f"{DCARIBOU_PUBLIC_BASE_URL}/players.csv.gz",
+    "player_valuations": f"{DCARIBOU_PUBLIC_BASE_URL}/player_valuations.csv.gz",
+    "appearances": f"{DCARIBOU_PUBLIC_BASE_URL}/appearances.csv.gz",
+    "game_events": f"{DCARIBOU_PUBLIC_BASE_URL}/game_events.csv.gz",
+    "game_lineups": f"{DCARIBOU_PUBLIC_BASE_URL}/game_lineups.csv.gz",
+    "club_games": f"{DCARIBOU_PUBLIC_BASE_URL}/club_games.csv.gz",
+    "transfers": f"{DCARIBOU_PUBLIC_BASE_URL}/transfers.csv.gz",
+    "countries": f"{DCARIBOU_PUBLIC_BASE_URL}/countries.csv.gz",
+    "national_teams": f"{DCARIBOU_PUBLIC_BASE_URL}/national_teams.csv.gz",
+}
+
 
 def now_utc() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
@@ -213,7 +232,9 @@ def build_report() -> dict[str, Any]:
                 "repo": "https://github.com/dcaribou/transfermarkt-datasets",
                 "license": "CC0-1.0",
                 "decision": "production_candidate",
-                "note": "Git metadata describes tables such as games, appearances, game_events, game_lineups and club_games, but current local platform asset only has players/clubs.",
+                "public_download_targets": DCARIBOU_PUBLIC_TARGETS,
+                "download_probe_status": "public URLs discovered in README; current environment R2 HEAD probes did not complete before timeout on 2026-05-18",
+                "note": "Git metadata describes tables such as games, appearances, game_events, game_lineups and club_games, and README exposes R2 download URLs. Current local platform asset only has players/clubs.",
             },
             "salimt_football_datasets": {
                 "repo": "https://github.com/salimt/football-datasets",
