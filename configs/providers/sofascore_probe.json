@@ -1,0 +1,95 @@
+{
+  "policy": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "raw_output_dir": "data/raw/experimental/sofascore",
+    "reason": "Sofascore access is based on non-official public web endpoints or third-party wrappers. It must not enter normalized, model, or public API until authorization, stability, and field coverage are reviewed."
+  },
+  "provider": {
+    "provider": "sofascore",
+    "display_name": "Sofascore",
+    "homepage": "https://www.sofascore.com/",
+    "api_base": "https://api.sofascore.com/api/v1",
+    "probe_classification": "experimental_only",
+    "candidate_use": [
+      "match_statistics",
+      "lineups",
+      "incidents",
+      "shotmap",
+      "player_statistics",
+      "player_ratings"
+    ],
+    "blocked_use": [
+      "production_primary_source",
+      "normalized_public_source_without_authorization",
+      "odds_primary_source",
+      "ppda_without_event_level_evidence"
+    ]
+  },
+  "field_targets": {
+    "match_statistics": [
+      "possession",
+      "shots",
+      "shots_on_target",
+      "corners",
+      "fouls",
+      "passes",
+      "pass_accuracy"
+    ],
+    "lineups": [
+      "starting_xi",
+      "substitutes",
+      "formation",
+      "player_positions"
+    ],
+    "player_statistics": [
+      "rating",
+      "minutes",
+      "shots",
+      "passes",
+      "tackles",
+      "interceptions"
+    ],
+    "shotmap": [
+      "xg",
+      "shot_location",
+      "body_part",
+      "situation"
+    ],
+    "ppda": [
+      "opponent_passes_in_pressing_zone",
+      "defensive_actions_in_pressing_zone"
+    ]
+  },
+  "endpoint_templates": {
+    "team_events_last": "/team/{team_id}/events/last/0",
+    "event_statistics": "/event/{event_id}/statistics",
+    "event_lineups": "/event/{event_id}/lineups",
+    "event_incidents": "/event/{event_id}/incidents",
+    "event_shotmap": "/event/{event_id}/shotmap",
+    "event_graph": "/event/{event_id}/graph"
+  },
+  "probe_inputs": {
+    "team_ids": [],
+    "event_ids": []
+  },
+  "github_projects_to_review": [
+    {
+      "repo": "probberechts/soccerdata",
+      "url": "https://github.com/probberechts/soccerdata",
+      "role": "multi-source football data library; review Sofascore support and scraping policy"
+    },
+    {
+      "repo": "tunjayoff/sofascore_scraper",
+      "url": "https://github.com/tunjayoff/sofascore_scraper",
+      "role": "Sofascore-focused scraper; useful for endpoint discovery only"
+    },
+    {
+      "repo": "apdmatos/sofascore-api",
+      "url": "https://github.com/apdmatos/sofascore-api",
+      "role": "unofficial Sofascore API documentation; useful for endpoint map review"
+    }
+  ]
+}

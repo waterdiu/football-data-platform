@@ -222,6 +222,12 @@
   - 输出：`reports/free_odds_source_probe.json`
   - 当前定位：免费/开源赔率源可行性 probe。默认只生成 metadata/policy 报告，不写 `data/normalized` 或 `data/model`
   - 可选 `--live` 只在对应 env key 存在时做 live probe；live 结果仍不得直接进入 production odds master
+- `probe_sofascore_source.py`
+  - 输入：`configs/providers/sofascore_probe.json`
+  - 输出：`reports/sofascore_source_probe.json`
+  - 当前定位：Sofascore 非官方 endpoint 字段覆盖 probe。默认 metadata-only，不访问网络
+  - 可选 `--live --event-id <id>` 或 `--live --team-id <id>` 做低频验证；如需保存 payload，只能加 `--write-raw` 写入 `data/raw/experimental/sofascore`
+  - 禁止把 Sofascore live probe 结果直接写入 `data/normalized`、`data/model` 或 public API
 - `capture_world_cup_context_from_predictor.py`
   - 调用 `world-cup-predictor` 的 `run_scheduled_maintenance.py`
   - 只触发 `world_cup` 的 context capture，不跑 odds / predictions / evaluation

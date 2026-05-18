@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-05-18T16:43:56Z",
+  "scope": "sofascore_experimental_probe",
+  "provider": {
+    "provider": "sofascore",
+    "display_name": "Sofascore",
+    "homepage": "https://www.sofascore.com/",
+    "api_base": "https://api.sofascore.com/api/v1",
+    "probe_classification": "experimental_only",
+    "candidate_use": [
+      "match_statistics",
+      "lineups",
+      "incidents",
+      "shotmap",
+      "player_statistics",
+      "player_ratings"
+    ],
+    "blocked_use": [
+      "production_primary_source",
+      "normalized_public_source_without_authorization",
+      "odds_primary_source",
+      "ppda_without_event_level_evidence"
+    ]
+  },
+  "policy": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "raw_output_dir": "data/raw/experimental/sofascore",
+    "reason": "Sofascore access is based on non-official public web endpoints or third-party wrappers. It must not enter normalized, model, or public API until authorization, stability, and field coverage are reviewed."
+  },
+  "live": false,
+  "write_raw": false,
+  "summary": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "team_probe_count": 0,
+    "event_probe_count": 0,
+    "endpoint_probe_count": 0,
+    "observed_field_endpoint_counts": {
+      "possession": 0,
+      "shots": 0,
+      "shots_on_target": 0,
+      "passes": 0,
+      "pass_accuracy": 0,
+      "lineups": 0,
+      "player_ratings": 0,
+      "xg_or_shot_quality": 0,
+      "ppda_direct": 0,
+      "ppda_inputs_possible": 0
+    }
+  },
+  "team_probes": [],
+  "event_probes": [],
+  "github_projects_to_review": [
+    {
+      "repo": "probberechts/soccerdata",
+      "url": "https://github.com/probberechts/soccerdata",
+      "role": "multi-source football data library; review Sofascore support and scraping policy"
+    },
+    {
+      "repo": "tunjayoff/sofascore_scraper",
+      "url": "https://github.com/tunjayoff/sofascore_scraper",
+      "role": "Sofascore-focused scraper; useful for endpoint discovery only"
+    },
+    {
+      "repo": "apdmatos/sofascore-api",
+      "url": "https://github.com/apdmatos/sofascore-api",
+      "role": "unofficial Sofascore API documentation; useful for endpoint map review"
+    }
+  ],
+  "recommended_next_steps": [
+    "Use known Sofascore team/event ids only for live probes; do not crawl schedules broadly.",
+    "Keep all live payloads under data/raw/experimental/sofascore.",
+    "Do not promote Sofascore rows to normalized/model/public API without authorization and field stability review.",
+    "If shotmap includes xG, it can support post-match validation only after legal review.",
+    "Treat PPDA as missing unless direct PPDA or event-level pass/defensive-action inputs are verified."
+  ]
+}

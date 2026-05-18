@@ -56,7 +56,7 @@
 | 世界杯裁判名单与单场指派 | FIFA 官方、比赛报告、API-FOOTBALL | 需等官方公布/比赛日指派 | 当前只发布英超历史裁判样本。 |
 | AH / OU / closing odds | API-FOOTBALL odds、BSD/Bzzoiro probe、HKJC 合规验证、授权商业源 | 免费源 World Cup/AH 覆盖未确认；逆向源不能进生产 | 继续 probe，不通过不得入 normalized/public。 |
 | 多机构盘口时间序列 | 付费/授权 odds provider、API-FOOTBALL、合规 HKJC | 免费层覆盖不足，closing odds 需要持续采样 | 当前模型只能弱赔率分析。 |
-| PPDA / 传球成功率 / 控球率的世界杯全量 | API-FOOTBALL stats、StatsBomb/FBref 样本、Sofascore 增强 | 正赛未开始；免费源不保证字段 | 缺失字段必须 `null`，不能填 0。 |
+| PPDA / 传球成功率 / 控球率的世界杯全量 | API-FOOTBALL stats、StatsBomb/FBref 样本、Sofascore experimental probe | 正赛未开始；免费源不保证字段；Sofascore 非官方 endpoint 不能进生产 | 缺失字段必须 `null`，不能填 0；Sofascore 只写 raw experimental/report。 |
 | 跑动距离 / 高强度跑 / 冲刺 | SkillCorner/Wyscout/Opta 类商业源 | 通常是付费 tracking 数据 | 暂不作为 P0。 |
 | 教练 `appointed_at` / `contract_until` | 足协公告、FIFA profile、Wikidata qualifier、Transfermarkt manager profile | 结构化覆盖不稳定，Transfermarkt 页面有 WAF | 需要人工审计 patch 或 Wikidata probe。 |
 
@@ -152,6 +152,7 @@
 数据层下一步：
 
 - 继续 odds free/low-cost probe，但未通过前不进入生产。
+- 继续 Sofascore 字段覆盖 probe，验证 match statistics / lineups / shotmap / xG；未授权前只允许 raw experimental。
 - 裁判名单/指派等 FIFA 官方或 API-FOOTBALL。
 - 天气按窗口采集，窗口外输出 `unavailable`。
 
