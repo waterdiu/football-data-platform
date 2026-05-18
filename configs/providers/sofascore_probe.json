@@ -65,6 +65,8 @@
   },
   "endpoint_templates": {
     "team_events_last": "/team/{team_id}/events/last/0",
+    "player_profile": "/player/{player_id}",
+    "player_events_last": "/player/{player_id}/events/last/0",
     "event_statistics": "/event/{event_id}/statistics",
     "event_lineups": "/event/{event_id}/lineups",
     "event_incidents": "/event/{event_id}/incidents",
@@ -72,6 +74,11 @@
     "event_graph": "/event/{event_id}/graph"
   },
   "probe_inputs": {
+    "player_ids": [
+      "1384367",
+      "2018130",
+      "2018330"
+    ],
     "team_ids": [],
     "event_ids": []
   },

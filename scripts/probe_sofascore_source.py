@@ -227,12 +227,61 @@ def probe_team_events(*, team_id: str, config: dict, live: bool, write_raw: bool
     }
 
 
+def probe_player(*, player_id: str, config: dict, live: bool, write_raw: bool) -> dict[str, object]:
+    provider = config["provider"]
+    api_base = str(provider["api_base"])
+    templates = config["endpoint_templates"]
+    field_targets = config["field_targets"]
+    endpoints = {
+        "player_profile": templates["player_profile"],
+        "player_events_last": templates["player_events_last"],
+    }
+    rows: list[dict[str, object]] = []
+    discovered_event_ids: list[str] = []
+    for name, template in endpoints.items():
+        url = endpoint_url(api_base, template, player_id=player_id)
+        if not live:
+            rows.append(
+                {
+                    "endpoint": name,
+                    "url": url,
+                    "probe_status": "metadata_only",
+                    "field_coverage_inferred": {},
+                }
+            )
+            continue
+        status, payload, error = fetch_json(url)
+        row = summarize_endpoint(
+            name=name,
+            url=url,
+            payload=payload,
+            status=status,
+            error=error,
+            field_targets=field_targets,
+        )
+        if write_raw:
+            row["raw_output"] = write_raw_payload(endpoint=name, identifier=player_id, payload=payload)
+        rows.append(row)
+        if isinstance(payload, dict) and isinstance(payload.get("events"), list):
+            for event in payload["events"][:5]:
+                if isinstance(event, dict) and event.get("id") is not None:
+                    event_id = str(event["id"])
+                    if event_id not in discovered_event_ids:
+                        discovered_event_ids.append(event_id)
+    return {
+        "player_id": player_id,
+        "endpoints": rows,
+        "event_ids_sample": discovered_event_ids,
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Probe Sofascore experimental field coverage.")
     parser.add_argument("--live", action="store_true", help="attempt live non-official Sofascore endpoint probes")
     parser.add_argument("--write-raw", action="store_true", help="write live payloads to data/raw/experimental/sofascore")
     parser.add_argument("--event-id", action="append", default=[], help="Sofascore event id to probe")
     parser.add_argument("--team-id", action="append", default=[], help="Sofascore team id to probe for recent events")
+    parser.add_argument("--player-id", action="append", default=[], help="Sofascore player id to probe")
     parser.add_argument("--output", default=str(REPORT_PATH), help="probe report output path")
     args = parser.parse_args()
 
@@ -244,13 +293,22 @@ def main() -> None:
     probe_inputs = config.get("probe_inputs") if isinstance(config.get("probe_inputs"), dict) else {}
     event_ids = [str(value) for value in (args.event_id or probe_inputs.get("event_ids") or []) if str(value)]
     team_ids = [str(value) for value in (args.team_id or probe_inputs.get("team_ids") or []) if str(value)]
+    player_ids = [str(value) for value in (args.player_id or probe_inputs.get("player_ids") or []) if str(value)]
 
     team_probes = [
         probe_team_events(team_id=team_id, config=config, live=args.live, write_raw=args.write_raw)
         for team_id in team_ids
     ]
+    player_probes = [
+        probe_player(player_id=player_id, config=config, live=args.live, write_raw=args.write_raw)
+        for player_id in player_ids
+    ]
     discovered_event_ids: list[str] = []
     for row in team_probes:
+        for event_id in row.get("event_ids_sample") or []:
+            if isinstance(event_id, str) and event_id not in discovered_event_ids:
+                discovered_event_ids.append(event_id)
+    for row in player_probes:
         for event_id in row.get("event_ids_sample") or []:
             if isinstance(event_id, str) and event_id not in discovered_event_ids:
                 discovered_event_ids.append(event_id)
@@ -266,6 +324,12 @@ def main() -> None:
         for endpoint in event.get("endpoints", [])
         if isinstance(endpoint, dict)
     ]
+    endpoint_rows.extend(
+        endpoint
+        for player in player_probes
+        for endpoint in player.get("endpoints", [])
+        if isinstance(endpoint, dict)
+    )
     observed_coverage = {
         key: sum(1 for row in endpoint_rows if (row.get("field_coverage_inferred") or {}).get(key))
         for key in (
@@ -295,11 +359,13 @@ def main() -> None:
             "normalized_write_allowed": False,
             "public_api_write_allowed": False,
             "team_probe_count": len(team_probes),
+            "player_probe_count": len(player_probes),
             "event_probe_count": len(event_probes),
             "endpoint_probe_count": len(endpoint_rows),
             "observed_field_endpoint_counts": observed_coverage,
         },
         "team_probes": team_probes,
+        "player_probes": player_probes,
         "event_probes": event_probes,
         "github_projects_to_review": config.get("github_projects_to_review") or [],
         "recommended_next_steps": [

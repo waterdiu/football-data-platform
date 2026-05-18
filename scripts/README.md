@@ -226,7 +226,8 @@
   - 输入：`configs/providers/sofascore_probe.json`
   - 输出：`reports/sofascore_source_probe.json`
   - 当前定位：Sofascore 非官方 endpoint 字段覆盖 probe。默认 metadata-only，不访问网络
-  - 可选 `--live --event-id <id>` 或 `--live --team-id <id>` 做低频验证；如需保存 payload，只能加 `--write-raw` 写入 `data/raw/experimental/sofascore`
+  - 可选 `--live --event-id <id>`、`--live --team-id <id>` 或 `--live --player-id <id>` 做低频验证；如需保存 payload，只能加 `--write-raw` 写入 `data/raw/experimental/sofascore`
+  - 当前直接 live smoke test 返回 HTTP 403，因此只能作为实验源可达性/字段覆盖记录，不能作为生产采集源
   - 禁止把 Sofascore live probe 结果直接写入 `data/normalized`、`data/model` 或 public API
 - `capture_world_cup_context_from_predictor.py`
   - 调用 `world-cup-predictor` 的 `run_scheduled_maintenance.py`
