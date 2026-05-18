@@ -727,7 +727,7 @@ football-data-platform/
 - 平台对外发布：`data/model/*.json`
 - `scripts/build_world_cup_model_datasets.py` 当前仅保留为 predictor 兼容回灌工具
 - `scripts/build_world_cup_model_runtime_datasets.py` 是主发布流水线默认入口
-- `scripts/build_world_cup_injury_evidence.py` 必须在 `build_world_cup_model_runtime_datasets.py` 之前运行，用 `prematch_context` 的伤停/停赛新闻 evidence 增强 injuries master
+- `scripts/build_world_cup_injury_evidence.py` 必须在 `build_world_cup_model_runtime_datasets.py` 之前运行，用 `prematch_context` 的伤停/停赛新闻 evidence 增强 injuries master；该脚本只保留能匹配官方名单球员、关键词具备词边界且球员名与关键词在近距离窗口内的 evidence，避免把俱乐部列表、新闻标题拼接或姓名子串误判为伤停。
 
 predictor 兼容数据当前边界：
 
@@ -906,7 +906,7 @@ predictor 全量数据资产当前边界：
 - 已建立：team_world_cup_history / team_recent_matches / host_city_profiles 契约、master/public 数据集、发布脚本和 World Cup site/predictor API 输出；近期比赛、历届世界杯战绩和 16 城市资料已有第一版
 - 已迁移：公开新闻页赛前上下文采集，直接写 `data/normalized/world_cup_2026_model_prematch_context_master.json`
 - 已增强：赛前新闻源列表由 `configs/prematch_news/world_cup_2026.json` 配置，`sources/prematch_news.py` 保留内置 fallback；采集结果和 `reports/world_cup_runtime_collection_report.json` 会记录 source 级 freshness（`last_checked_at`、`status`、`pages_collected`、错误信息）
-- 已增强：`scripts/build_world_cup_injury_evidence.py` 从 `prematch_context` 新闻信号中提取伤停/停赛 evidence，写入 `injuries.absence_evidence_summary`。该 evidence 只作为模型降权和报告提示，不等同于官方伤停名单；没有命中时显式标记 `no_news_absence_evidence`
+- 已增强：`scripts/build_world_cup_injury_evidence.py` 从 `prematch_context` 新闻信号中提取伤停/停赛 evidence，写入 `injuries.absence_evidence_summary`。该 evidence 只作为模型降权和报告提示，不等同于官方伤停名单；没有命中时显式标记 `no_news_absence_evidence`。当前实现采用保守过滤：实体必须匹配平台官方名单球员，关键词必须是独立词，且球员名与关键词必须在近距离窗口内，避免把 squad list、俱乐部名或跨标题文本误报为伤停。
 - 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`；coverage 会优先读取 `data/model/lineups.json` 与 `data/model/injuries.json` 的运行期状态，而不是只看赛后 `finals-lineups.json`
 - 已配置：`configs/venues/world_cup_2026.json` 保存 16 个 2026 世界杯球场坐标
 - API-FOOTBALL fixture id map 缓存在 `data/runtime/api_football_fixture_map.json`，该目录不入 Git

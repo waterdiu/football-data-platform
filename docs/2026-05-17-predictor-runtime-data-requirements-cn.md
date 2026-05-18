@@ -208,6 +208,7 @@ OU 快照：
 
 - `injuries.json.absence_evidence_summary` 可由公开新闻页赛前上下文生成。
 - 该 evidence 只能用于报告提示、置信度降权和人工复核，不能直接等同于官方 `injured/suspended/available` 状态。
+- 数据层必须保守过滤新闻 evidence：实体需要匹配平台官方名单球员，关键词需要独立词命中，且球员名与关键词需要在近距离上下文内同时出现。否则只能保留为普通 prematch context 信号，不能写入 `absence_evidence_summary.evidence`。
 - 没有新闻证据时必须标记 `no_news_absence_evidence`，不能解释为“没有伤停”。
 
 优先数据源：

@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-05-18T10:40:16.817735+00:00",
+  "generated_at": "2026-05-18T11:13:01.860250+00:00",
   "injuries_rows": 104,
   "prematch_context_rows": 104,
-  "matches_with_absence_evidence": 73,
-  "absence_evidence_count": 1066,
+  "matches_with_absence_evidence": 0,
+  "absence_evidence_count": 0,
+  "player_teams_indexed": 9,
+  "team_names_indexed": 343,
   "output": "data/normalized/world_cup_2026_model_injuries_master.json"
 }
