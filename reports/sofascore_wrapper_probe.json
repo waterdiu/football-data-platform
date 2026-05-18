@@ -1,0 +1,223 @@
+{
+  "generated_at": "2026-05-18T17:43:28Z",
+  "scope": "sofascore_wrapper_capability_probe",
+  "policy": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "raw_output_dir": "data/raw/experimental/sofascore",
+    "reason": "Sofascore wrappers are unofficial scraper clients. They are only allowed for isolated package/API-surface feasibility checks and must not write normalized, model, or public API data."
+  },
+  "summary": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "wrapper_count": 3,
+    "installed_wrapper_count": 0,
+    "available_module_count": 0,
+    "wrappers_requiring_isolated_install": [
+      "tunjayoff_sofascore_scraper",
+      "pysofascore",
+      "scraperfc_sofascore"
+    ]
+  },
+  "target_fields": [
+    "match_statistics",
+    "possession",
+    "shots",
+    "shots_on_target",
+    "passes",
+    "pass_accuracy",
+    "lineups",
+    "incidents",
+    "shotmap",
+    "xg",
+    "player_ratings",
+    "ppda"
+  ],
+  "wrappers": [
+    {
+      "wrapper_id": "tunjayoff_sofascore_scraper",
+      "display_name": "tunjayoff/sofascore_scraper",
+      "project_url": "https://github.com/tunjayoff/sofascore_scraper",
+      "classification": "experimental_only",
+      "installed": false,
+      "status": "not_installed",
+      "package_versions": {},
+      "module_attempts": [
+        {
+          "module": "sofascore_scraper",
+          "available": false,
+          "error": "No module named 'sofascore_scraper'",
+          "module_path": null
+        },
+        {
+          "module": "src",
+          "available": false,
+          "error": "No module named 'src'",
+          "module_path": null
+        },
+        {
+          "module": "app",
+          "available": false,
+          "error": "No module named 'app'",
+          "module_path": null
+        }
+      ],
+      "imported_module": null,
+      "module_methods": [],
+      "classes": [],
+      "expected_method_coverage": {
+        "statistics": false,
+        "lineups": false,
+        "incidents": false,
+        "shotmap": false,
+        "h2h": false
+      },
+      "documented_capabilities": [
+        "match_details",
+        "statistics",
+        "lineups",
+        "incidents",
+        "h2h",
+        "related_json_slices"
+      ],
+      "target_field_support_inferred": {
+        "match_statistics": "possible",
+        "possession": "possible_via_statistics",
+        "shots": "possible_via_statistics_or_shotmap",
+        "shots_on_target": "possible_via_statistics",
+        "passes": "possible_via_statistics",
+        "pass_accuracy": "possible_via_statistics",
+        "lineups": "possible",
+        "incidents": "possible",
+        "shotmap": "not_observed",
+        "xg": "not_observed",
+        "player_ratings": "not_observed",
+        "ppda": "not_observed"
+      },
+      "notes": "Repository appears to be an application-style scraper, not a stable Python package API. Treat as endpoint discovery only."
+    },
+    {
+      "wrapper_id": "pysofascore",
+      "display_name": "pysofascore",
+      "project_url": "https://pypi.org/project/pysofascore/",
+      "classification": "experimental_only",
+      "installed": false,
+      "status": "not_installed",
+      "package_versions": {
+        "pysofascore": null
+      },
+      "module_attempts": [
+        {
+          "module": "pysofascore",
+          "available": false,
+          "error": "No module named 'pysofascore'",
+          "module_path": null
+        }
+      ],
+      "imported_module": null,
+      "module_methods": [],
+      "classes": [],
+      "expected_method_coverage": {
+        "get_event_statistics": false,
+        "get_event_shotmap": false,
+        "get_event_incidents": false,
+        "get_event_lineups": false,
+        "get_event_graph": false,
+        "get_event_best_players": false,
+        "get_team_players": false,
+        "get_player_heatmap": false
+      },
+      "documented_capabilities": [
+        "match_statistics",
+        "xg",
+        "shotmap",
+        "incidents",
+        "lineups",
+        "momentum_graph",
+        "best_players",
+        "live_scores"
+      ],
+      "target_field_support_inferred": {
+        "match_statistics": "possible",
+        "possession": "possible_via_statistics",
+        "shots": "possible_via_statistics_or_shotmap",
+        "shots_on_target": "possible_via_statistics",
+        "passes": "possible_via_statistics",
+        "pass_accuracy": "possible_via_statistics",
+        "lineups": "possible",
+        "incidents": "possible",
+        "shotmap": "possible",
+        "xg": "possible_via_shotmap",
+        "player_ratings": "possible_via_best_players_or_player_stats",
+        "ppda": "not_observed"
+      },
+      "notes": "PyPI description says it uses scrapling/curl_cffi impersonation and is educational/research only; not actively maintained."
+    },
+    {
+      "wrapper_id": "scraperfc_sofascore",
+      "display_name": "ScraperFC Sofascore",
+      "project_url": "https://scraperfc.readthedocs.io/en/stable/sofascore.html",
+      "classification": "experimental_only",
+      "installed": false,
+      "status": "not_installed",
+      "package_versions": {
+        "ScraperFC": null
+      },
+      "module_attempts": [
+        {
+          "module": "ScraperFC",
+          "available": false,
+          "error": "No module named 'ScraperFC'",
+          "module_path": null
+        },
+        {
+          "module": "ScraperFC.sofascore",
+          "available": false,
+          "error": "No module named 'ScraperFC'",
+          "module_path": null
+        }
+      ],
+      "imported_module": null,
+      "module_methods": [],
+      "classes": [],
+      "expected_method_coverage": {
+        "get_match_dict": false,
+        "get_match_dicts": false,
+        "get_match_player_ids": false,
+        "scrape_player_league_stats": false,
+        "scrape_player_details": false
+      },
+      "documented_capabilities": [
+        "match_dict",
+        "match_player_ids",
+        "league_player_stats",
+        "player_details"
+      ],
+      "target_field_support_inferred": {
+        "match_statistics": "possible",
+        "possession": "possible_via_statistics",
+        "shots": "possible_via_statistics_or_shotmap",
+        "shots_on_target": "possible_via_statistics",
+        "passes": "possible_via_statistics",
+        "pass_accuracy": "possible_via_statistics",
+        "lineups": "possible",
+        "incidents": "not_observed",
+        "shotmap": "not_observed",
+        "xg": "not_observed",
+        "player_ratings": "possible_via_best_players_or_player_stats",
+        "ppda": "not_observed"
+      },
+      "notes": "Documentation exposes Sofascore match/player APIs, but field coverage for xG, shotmap, and ratings must be live-verified."
+    }
+  ],
+  "recommended_next_steps": [
+    "Do not add any wrapper to platform runtime dependencies until license, maintenance, and anti-bot behavior are reviewed.",
+    "If a wrapper is tested, install it only in an isolated environment and write any payloads under data/raw/experimental/sofascore.",
+    "Only promote a Sofascore-derived field after proving authorization, stability, field semantics, and match/team/player id mapping.",
+    "Keep PPDA null unless pass and defensive-action event inputs are verified with a documented calculation window."
+  ]
+}

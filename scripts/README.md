@@ -230,6 +230,11 @@
   - 当前直接 live smoke test 返回 HTTP 403，因此只能作为实验源可达性/字段覆盖记录，不能作为生产采集源
   - 后续若继续 Sofascore，只能评估 `tunjayoff/sofascore_scraper`、`pysofascore` 或 `ScraperFC` 等专项 wrapper，定位仍是 endpoint discovery / field coverage
   - 禁止把 Sofascore live probe 结果直接写入 `data/normalized`、`data/model` 或 public API
+- `probe_sofascore_wrappers.py`
+  - 输入：`configs/providers/sofascore_wrapper_probe.json`
+  - 输出：`reports/sofascore_wrapper_probe.json`
+  - 当前定位：不访问网络、不安装依赖，只检查 `tunjayoff/sofascore_scraper`、`pysofascore`、`ScraperFC` 等 Sofascore wrapper 是否已安装以及暴露的 API surface
+  - 当前结论：本机 3 个候选均未安装；若继续，必须在隔离环境安装并保持 experimental-only
 - `probe_soccerdata_sofascore.py`
   - 输入：`configs/providers/soccerdata_sofascore_probe.json`
   - 输出：`reports/soccerdata_sofascore_probe.json`

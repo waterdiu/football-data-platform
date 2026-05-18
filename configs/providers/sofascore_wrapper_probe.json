@@ -1,0 +1,111 @@
+{
+  "policy": {
+    "classification": "experimental_only",
+    "production_write_allowed": false,
+    "normalized_write_allowed": false,
+    "public_api_write_allowed": false,
+    "raw_output_dir": "data/raw/experimental/sofascore",
+    "reason": "Sofascore wrappers are unofficial scraper clients. They are only allowed for isolated package/API-surface feasibility checks and must not write normalized, model, or public API data."
+  },
+  "target_fields": [
+    "match_statistics",
+    "possession",
+    "shots",
+    "shots_on_target",
+    "passes",
+    "pass_accuracy",
+    "lineups",
+    "incidents",
+    "shotmap",
+    "xg",
+    "player_ratings",
+    "ppda"
+  ],
+  "wrappers": [
+    {
+      "wrapper_id": "tunjayoff_sofascore_scraper",
+      "display_name": "tunjayoff/sofascore_scraper",
+      "project_url": "https://github.com/tunjayoff/sofascore_scraper",
+      "package_names": [],
+      "module_candidates": [
+        "sofascore_scraper",
+        "src",
+        "app"
+      ],
+      "expected_methods": [
+        "statistics",
+        "lineups",
+        "incidents",
+        "shotmap",
+        "h2h"
+      ],
+      "documented_capabilities": [
+        "match_details",
+        "statistics",
+        "lineups",
+        "incidents",
+        "h2h",
+        "related_json_slices"
+      ],
+      "notes": "Repository appears to be an application-style scraper, not a stable Python package API. Treat as endpoint discovery only."
+    },
+    {
+      "wrapper_id": "pysofascore",
+      "display_name": "pysofascore",
+      "project_url": "https://pypi.org/project/pysofascore/",
+      "package_names": [
+        "pysofascore"
+      ],
+      "module_candidates": [
+        "pysofascore"
+      ],
+      "expected_methods": [
+        "get_event_statistics",
+        "get_event_shotmap",
+        "get_event_incidents",
+        "get_event_lineups",
+        "get_event_graph",
+        "get_event_best_players",
+        "get_team_players",
+        "get_player_heatmap"
+      ],
+      "documented_capabilities": [
+        "match_statistics",
+        "xg",
+        "shotmap",
+        "incidents",
+        "lineups",
+        "momentum_graph",
+        "best_players",
+        "live_scores"
+      ],
+      "notes": "PyPI description says it uses scrapling/curl_cffi impersonation and is educational/research only; not actively maintained."
+    },
+    {
+      "wrapper_id": "scraperfc_sofascore",
+      "display_name": "ScraperFC Sofascore",
+      "project_url": "https://scraperfc.readthedocs.io/en/stable/sofascore.html",
+      "package_names": [
+        "ScraperFC"
+      ],
+      "module_candidates": [
+        "ScraperFC",
+        "ScraperFC.sofascore"
+      ],
+      "expected_methods": [
+        "get_match_dict",
+        "get_match_dicts",
+        "get_match_player_ids",
+        "scrape_player_league_stats",
+        "scrape_player_details"
+      ],
+      "documented_capabilities": [
+        "match_dict",
+        "match_player_ids",
+        "league_player_stats",
+        "player_details"
+      ],
+      "notes": "Documentation exposes Sofascore match/player APIs, but field coverage for xG, shotmap, and ratings must be live-verified."
+    }
+  ]
+}
