@@ -43,6 +43,11 @@
       "external_repos": []
     },
     {
+      "script": "build_person_profile_datasets.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
       "script": "build_world_cup_model_runtime_datasets.py",
       "self_contained": true,
       "external_repos": []
@@ -156,6 +161,13 @@
       "external_repos": [],
       "self_contained": true,
       "reason": "Derives low-confidence injury/suspension evidence from platform-owned prematch context rows."
+    },
+    {
+      "script": "build_person_profile_datasets.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Publishes person index and coach/player/referee profiles from platform-owned person masters."
     },
     {
       "script": "build_world_cup_coverage.py",

@@ -1,0 +1,6242 @@
+[
+  {
+    "person_id": "algeria:staff:vladimir-petkovic",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Vladimir Petkovic",
+    "name": "Vladimir Petkovic",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "algeria",
+    "team_name": "Algeria",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "algeria:staff:vladimir-petkovic",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Algeria",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "argentina:staff:lionel-scaloni",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Lionel Scaloni",
+    "name": "Lionel Scaloni",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "argentina",
+    "team_name": "Argentina",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "argentina:staff:lionel-scaloni",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Argentina",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/es/articles/seleccion-argentina-mundial-estadisticas-numeros-historia-perfil"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/es/articles/seleccion-argentina-mundial-estadisticas-numeros-historia-perfil"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/es/articles/seleccion-argentina-mundial-estadisticas-numeros-historia-perfil"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/es/articles/seleccion-argentina-mundial-estadisticas-numeros-historia-perfil"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "australia:staff:tony-popovic",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Tony Popovic",
+    "name": "Tony Popovic",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "australia",
+    "team_name": "Australia",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "australia:staff:tony-popovic",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Australia",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/australia-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/australia-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/australia-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/australia-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "austria:staff:ralf-rangnick",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Ralf Rangnick",
+    "name": "Ralf Rangnick",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "austria",
+    "team_name": "Austria",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "austria:staff:ralf-rangnick",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Austria",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/austria-qualify"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/austria-qualify"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/austria-qualify"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/austria-qualify"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "belgium:staff:rudi-garcia",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Rudi Garcia",
+    "name": "Rudi Garcia",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "belgium",
+    "team_name": "Belgium",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "belgium:staff:rudi-garcia",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Belgium",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "bosnia-and-herzegovina:staff:sergej-barbarez",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Sergej Barbarez",
+    "name": "Sergej Barbarez",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "bosnia-and-herzegovina",
+    "team_name": "Bosnia and Herzegovina",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "bosnia-and-herzegovina:staff:sergej-barbarez",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Bosnia and Herzegovina",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "brazil:staff:carlo-ancelotti",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Carlo Ancelotti",
+    "name": "Carlo Ancelotti",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "brazil",
+    "team_name": "Brazil",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "brazil:staff:carlo-ancelotti",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Brazil",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/ancelotti-and-brazil-the-selecaos-first-foreign-boss-prepares-for-a-new"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/ancelotti-and-brazil-the-selecaos-first-foreign-boss-prepares-for-a-new"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/ancelotti-and-brazil-the-selecaos-first-foreign-boss-prepares-for-a-new"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/ancelotti-and-brazil-the-selecaos-first-foreign-boss-prepares-for-a-new"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "cabo-verde:staff:bubista",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Bubista",
+    "name": "Bubista",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "cabo-verde",
+    "team_name": "Cabo Verde",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "cabo-verde:staff:bubista",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Cabo Verde",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/bubista-interview-cabo-verde"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/bubista-interview-cabo-verde"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/bubista-interview-cabo-verde"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/bubista-interview-cabo-verde"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "canada:staff:jesse-marsch",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Jesse Marsch",
+    "name": "Jesse Marsch",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "canada",
+    "team_name": "Canada",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "canada:staff:jesse-marsch",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Canada",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/canada-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/canada-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/canada-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/canada-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "colombia:staff:nestor-lorenzo",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Nestor Lorenzo",
+    "name": "Nestor Lorenzo",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "colombia",
+    "team_name": "Colombia",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "colombia:staff:nestor-lorenzo",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Colombia",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/qualified-teams-nations-march-fixtures-results"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/qualified-teams-nations-march-fixtures-results"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/qualified-teams-nations-march-fixtures-results"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/qualified-teams-nations-march-fixtures-results"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "congo-dr:staff:sebastien-desabre",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Sebastien Desabre",
+    "name": "Sebastien Desabre",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "congo-dr",
+    "team_name": "Congo DR",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "congo-dr:staff:sebastien-desabre",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Congo DR",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/qualifiers/play-off-tournament/articles/sebastien-desabre-congo-dr-interview"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/qualifiers/play-off-tournament/articles/sebastien-desabre-congo-dr-interview"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/qualifiers/play-off-tournament/articles/sebastien-desabre-congo-dr-interview"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/qualifiers/play-off-tournament/articles/sebastien-desabre-congo-dr-interview"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "cote-divoire:staff:emerse-fae",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Emerse Fae",
+    "name": "Emerse Fae",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "cote-divoire",
+    "team_name": "Cote d'Ivoire",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "cote-divoire:staff:emerse-fae",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Cote d'Ivoire",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "croatia:staff:zlatko-dalic",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Zlatko Dalic",
+    "name": "Zlatko Dalic",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "croatia",
+    "team_name": "Croatia",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "croatia:staff:zlatko-dalic",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Croatia",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "curacao:staff:dick-advocaat",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Dick Advocaat",
+    "name": "Dick Advocaat",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "curacao",
+    "team_name": "Curacao",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "curacao:staff:dick-advocaat",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Curacao",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/dick-advocaat-returns-curacao-coach"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/dick-advocaat-returns-curacao-coach"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/dick-advocaat-returns-curacao-coach"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/dick-advocaat-returns-curacao-coach"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "czechia:staff:miroslav-koubek",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Miroslav Koubek",
+    "name": "Miroslav Koubek",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "czechia",
+    "team_name": "Czechia",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "czechia:staff:miroslav-koubek",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Czechia",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/czechia-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/czechia-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/czechia-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/czechia-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "ecuador:staff:sebastian-beccacece",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Sebastian Beccacece",
+    "name": "Sebastian Beccacece",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "ecuador",
+    "team_name": "Ecuador",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "ecuador:staff:sebastian-beccacece",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Ecuador",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "egypt:staff:hossam-hassan",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Hossam Hassan",
+    "name": "Hossam Hassan",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "egypt",
+    "team_name": "Egypt",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "egypt:staff:hossam-hassan",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Egypt",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/hossam-hassan-egypt-coach-interview-qualifiers"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/hossam-hassan-egypt-coach-interview-qualifiers"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/hossam-hassan-egypt-coach-interview-qualifiers"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/hossam-hassan-egypt-coach-interview-qualifiers"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "england:staff:thomas-tuchel",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Thomas Tuchel",
+    "name": "Thomas Tuchel",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "england",
+    "team_name": "England",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "england:staff:thomas-tuchel",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "England",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/thomas-tuchel-appointed-england-coach"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/thomas-tuchel-appointed-england-coach"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/thomas-tuchel-appointed-england-coach"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/thomas-tuchel-appointed-england-coach"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "france:staff:didier-deschamps",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Didier Deschamps",
+    "name": "Didier Deschamps",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "france",
+    "team_name": "France",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "france:staff:didier-deschamps",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "France",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/france-world-cup-squad-named"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/france-world-cup-squad-named"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "germany:staff:julian-nagelsmann",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Julian Nagelsmann",
+    "name": "Julian Nagelsmann",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "germany",
+    "team_name": "Germany",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "germany:staff:julian-nagelsmann",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Germany",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-react-draw"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "ghana:staff:carlos-queiroz",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Carlos Queiroz",
+    "name": "Carlos Queiroz",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "ghana",
+    "team_name": "Ghana",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "ghana:staff:carlos-queiroz",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Ghana",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/carlos-queiroz-ghana"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/carlos-queiroz-ghana"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/carlos-queiroz-ghana"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/carlos-queiroz-ghana"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "haiti:staff:sebastien-migne",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Sebastien Migne",
+    "name": "Sebastien Migne",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "haiti",
+    "team_name": "Haiti",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "haiti:staff:sebastien-migne",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Haiti",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "ir-iran:staff:amir-ghalenoei",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Amir Ghalenoei",
+    "name": "Amir Ghalenoei",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "ir-iran",
+    "team_name": "IR Iran",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "ir-iran:staff:amir-ghalenoei",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "IR Iran",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/articles/amir-ghalenoei-iran-interview"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/amir-ghalenoei-iran-interview"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/articles/amir-ghalenoei-iran-interview"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/amir-ghalenoei-iran-interview"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "iraq:staff:graham-arnold",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Graham Arnold",
+    "name": "Graham Arnold",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "iraq",
+    "team_name": "Iraq",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "iraq:staff:graham-arnold",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Iraq",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/iraq-reaction-graham-arnold-merchas-doski-marko-farji-aimar-sher"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/iraq-reaction-graham-arnold-merchas-doski-marko-farji-aimar-sher"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/iraq-reaction-graham-arnold-merchas-doski-marko-farji-aimar-sher"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/iraq-reaction-graham-arnold-merchas-doski-marko-farji-aimar-sher"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "japan:staff:hajime-moriyasu",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Hajime Moriyasu",
+    "name": "Hajime Moriyasu",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "japan",
+    "team_name": "Japan",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "japan:staff:hajime-moriyasu",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Japan",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/news/articles/japan-squad-announcement"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/news/articles/japan-squad-announcement"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/news/articles/japan-squad-announcement"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/news/articles/japan-squad-announcement"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "jordan:staff:jamal-sellami",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Jamal Sellami",
+    "name": "Jamal Sellami",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "jordan",
+    "team_name": "Jordan",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "jordan:staff:jamal-sellami",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Jordan",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sellami-replaces-ammouta-jordan-head-coach"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sellami-replaces-ammouta-jordan-head-coach"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sellami-replaces-ammouta-jordan-head-coach"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sellami-replaces-ammouta-jordan-head-coach"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "korea-republic:staff:hong-myungbo",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Hong Myungbo",
+    "name": "Hong Myungbo",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "korea-republic",
+    "team_name": "Korea Republic",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "korea-republic:staff:hong-myungbo",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Korea Republic",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "mexico:staff:javier-aguirre",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Javier Aguirre",
+    "name": "Javier Aguirre",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "mexico",
+    "team_name": "Mexico",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "mexico:staff:javier-aguirre",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Mexico",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/mexico-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/mexico-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/mexico-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/mexico-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "morocco:staff:mohamed-ouahbi",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Mohamed Ouahbi",
+    "name": "Mohamed Ouahbi",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "morocco",
+    "team_name": "Morocco",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "morocco:staff:mohamed-ouahbi",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Morocco",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mohamed-ouahbi-replaces-walid-regragui-morocco"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mohamed-ouahbi-replaces-walid-regragui-morocco"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mohamed-ouahbi-replaces-walid-regragui-morocco"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mohamed-ouahbi-replaces-walid-regragui-morocco"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "netherlands:staff:ronald-koeman",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Ronald Koeman",
+    "name": "Ronald Koeman",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "netherlands",
+    "team_name": "Netherlands",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "netherlands:staff:ronald-koeman",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Netherlands",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "new-zealand:staff:darren-bazeley",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Darren Bazeley",
+    "name": "Darren Bazeley",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "new-zealand",
+    "team_name": "New Zealand",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "new-zealand:staff:darren-bazeley",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "New Zealand",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://inside.fifa.com/about-fifa/organisation/news/darren-bazeley-on-new-zealands-world-cup-qualification"
+          ],
+          "source_refs": {
+            "source_url": "https://inside.fifa.com/about-fifa/organisation/news/darren-bazeley-on-new-zealands-world-cup-qualification"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://inside.fifa.com/about-fifa/organisation/news/darren-bazeley-on-new-zealands-world-cup-qualification"
+    ],
+    "source_refs": {
+      "source_url": "https://inside.fifa.com/about-fifa/organisation/news/darren-bazeley-on-new-zealands-world-cup-qualification"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "norway:staff:stale-solbakken",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Stale Solbakken",
+    "name": "Stale Solbakken",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "norway",
+    "team_name": "Norway",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "norway:staff:stale-solbakken",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Norway",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/norway-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/norway-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/norway-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/norway-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "panama:staff:thomas-christiansen",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Thomas Christiansen",
+    "name": "Thomas Christiansen",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "panama",
+    "team_name": "Panama",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "panama:staff:thomas-christiansen",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Panama",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/panama-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/panama-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/panama-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/panama-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "paraguay:staff:gustavo-alfaro",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Gustavo Alfaro",
+    "name": "Gustavo Alfaro",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "paraguay",
+    "team_name": "Paraguay",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "paraguay:staff:gustavo-alfaro",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Paraguay",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/es/es/articles/los-entrenadores-argentinos-una-tendencia-de-la-copa-mundial-2026"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "portugal:staff:roberto-martinez",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Roberto Martinez",
+    "name": "Roberto Martinez",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "portugal",
+    "team_name": "Portugal",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "portugal:staff:roberto-martinez",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Portugal",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "qatar:staff:julen-lopetegui",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Julen Lopetegui",
+    "name": "Julen Lopetegui",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "qatar",
+    "team_name": "Qatar",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "qatar:staff:julen-lopetegui",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Qatar",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/qatar-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/qatar-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/qatar-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/qatar-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "saudi-arabia:staff:herve-renard",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Herve Renard",
+    "name": "Herve Renard",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "saudi-arabia",
+    "team_name": "Saudi Arabia",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "saudi-arabia:staff:herve-renard",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Saudi Arabia",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/returning-coaches"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "scotland:staff:steve-clarke",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Steve Clarke",
+    "name": "Steve Clarke",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "scotland",
+    "team_name": "Scotland",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "scotland:staff:steve-clarke",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Scotland",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/steve-clarke-interview"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/steve-clarke-interview"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/steve-clarke-interview"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/steve-clarke-interview"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "senegal:staff:pape-thiaw",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Pape Thiaw",
+    "name": "Pape Thiaw",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "senegal",
+    "team_name": "Senegal",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "senegal:staff:pape-thiaw",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Senegal",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/senegal-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/senegal-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/senegal-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/senegal-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "south-africa:staff:hugo-broos",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Hugo Broos",
+    "name": "Hugo Broos",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "south-africa",
+    "team_name": "South Africa",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "south-africa:staff:hugo-broos",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "South Africa",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/south-africa-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/south-africa-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/south-africa-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/south-africa-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "spain:staff:luis-de-la-fuente",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Luis de la Fuente",
+    "name": "Luis de la Fuente",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "spain",
+    "team_name": "Spain",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "spain:staff:luis-de-la-fuente",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Spain",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/luis-de-la-fuente-spain-profile"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/luis-de-la-fuente-spain-profile"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/luis-de-la-fuente-spain-profile"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/luis-de-la-fuente-spain-profile"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "sweden:staff:graham-potter",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Graham Potter",
+    "name": "Graham Potter",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "sweden",
+    "team_name": "Sweden",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "sweden:staff:graham-potter",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Sweden",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-squad-announcement-world-cup-graham-potter"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-squad-announcement-world-cup-graham-potter"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-squad-announcement-world-cup-graham-potter"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-squad-announcement-world-cup-graham-potter"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "switzerland:staff:murat-yakin",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Murat Yakin",
+    "name": "Murat Yakin",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "switzerland",
+    "team_name": "Switzerland",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "switzerland:staff:murat-yakin",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Switzerland",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/switzerland-qualify"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/switzerland-qualify"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/switzerland-qualify"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/switzerland-qualify"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "tunisia:staff:sabri-lamouchi",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Sabri Lamouchi",
+    "name": "Sabri Lamouchi",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "tunisia",
+    "team_name": "Tunisia",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "tunisia:staff:sabri-lamouchi",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Tunisia",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "turkiye:staff:vincenzo-montella",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Vincenzo Montella",
+    "name": "Vincenzo Montella",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "turkiye",
+    "team_name": "Turkiye",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "turkiye:staff:vincenzo-montella",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Turkiye",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/turkiye-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/turkiye-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/turkiye-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/turkiye-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "united-states:staff:mauricio-pochettino",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Mauricio Pochettino",
+    "name": "Mauricio Pochettino",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "united-states",
+    "team_name": "United States",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "united-states:staff:mauricio-pochettino",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "United States",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mauricio-pochettino-usa-interview"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mauricio-pochettino-usa-interview"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mauricio-pochettino-usa-interview"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mauricio-pochettino-usa-interview"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "uruguay:staff:marcelo-bielsa",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Marcelo Bielsa",
+    "name": "Marcelo Bielsa",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "uruguay",
+    "team_name": "Uruguay",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "uruguay:staff:marcelo-bielsa",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Uruguay",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/articles/uruguay-team-profile-history"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/articles/uruguay-team-profile-history"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/articles/uruguay-team-profile-history"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/articles/uruguay-team-profile-history"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  },
+  {
+    "person_id": "uzbekistan:staff:fabio-cannavaro",
+    "person_type": "coach",
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "display_name": "Fabio Cannavaro",
+    "name": "Fabio Cannavaro",
+    "name_zh": null,
+    "country_code": null,
+    "country_name": null,
+    "country_name_zh": null,
+    "photo_url": null,
+    "team_id": "uzbekistan",
+    "team_name": "Uzbekistan",
+    "role": "head_coach",
+    "role_zh": "主教练",
+    "direct": {
+      "staff_id": "uzbekistan:staff:fabio-cannavaro",
+      "status": "active",
+      "nationality": null,
+      "date_of_birth": null,
+      "age": null,
+      "appointed_at": null,
+      "contract_until": null
+    },
+    "derived": {
+      "status": "pending_source",
+      "sample_size_matches": 0,
+      "window": null,
+      "competition_scope": null,
+      "metrics": {}
+    },
+    "distilled": {
+      "distillation_status": "insufficient_sample",
+      "sample_size_matches": 0,
+      "style_tags": [],
+      "summary": null
+    },
+    "kpis": [
+      {
+        "key": "role",
+        "label": "direct",
+        "label_zh": "身份",
+        "value": "主教练",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "team",
+        "label": "direct",
+        "label_zh": "球队",
+        "value": "Uzbekistan",
+        "unit": null,
+        "data_tier": "direct",
+        "status": "available"
+      },
+      {
+        "key": "derived_record",
+        "label": "derived",
+        "label_zh": "派生战绩",
+        "value": null,
+        "unit": null,
+        "data_tier": "derived",
+        "status": "pending_source"
+      },
+      {
+        "key": "style_profile",
+        "label": "distilled",
+        "label_zh": "风格画像",
+        "value": "insufficient_sample",
+        "unit": null,
+        "data_tier": "distilled",
+        "status": "insufficient_sample"
+      }
+    ],
+    "sections": [
+      {
+        "type": "identity",
+        "data_tier": "direct",
+        "status": "available",
+        "fields": {
+          "source_status": "official_fifa",
+          "sources": [
+            "official_fifa"
+          ],
+          "source_urls": [
+            "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-who-played-tournament-deschamps-cannavaro-scaloni"
+          ],
+          "source_refs": {
+            "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-who-played-tournament-deschamps-cannavaro-scaloni"
+          },
+          "updated_at": "2026-05-17T00:00:00Z"
+        }
+      },
+      {
+        "type": "career_summary",
+        "data_tier": "derived",
+        "status": "pending_source",
+        "basis": {
+          "sample_size_matches": 0
+        }
+      },
+      {
+        "type": "style_distillation",
+        "data_tier": "distilled",
+        "status": "insufficient_sample",
+        "basis": {
+          "sample_size_matches": 0,
+          "minimum_required": 30
+        }
+      }
+    ],
+    "data_tiers": [
+      "direct",
+      "derived",
+      "distilled"
+    ],
+    "source_status": "official_fifa",
+    "sources": [
+      "official_fifa"
+    ],
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-who-played-tournament-deschamps-cannavaro-scaloni"
+    ],
+    "source_refs": {
+      "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/coaches-who-played-tournament-deschamps-cannavaro-scaloni"
+    },
+    "updated_at": "2026-05-17T00:00:00Z"
+  }
+]

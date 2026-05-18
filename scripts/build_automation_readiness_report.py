@@ -49,6 +49,10 @@ SCRIPT_DEPENDENCIES = {
         "external_repos": [],
         "reason": "Derives low-confidence injury/suspension evidence from platform-owned prematch context rows.",
     },
+    "build_person_profile_datasets.py": {
+        "external_repos": [],
+        "reason": "Publishes person index and coach/player/referee profiles from platform-owned person masters.",
+    },
     "build_world_cup_coverage.py": {
         "external_repos": [],
         "reason": "Builds coverage from platform-owned public and model datasets.",
@@ -102,6 +106,7 @@ WORLD_CUP_PIPELINE = [
     "build_world_cup_standings.py",
     "build_world_cup_detail_datasets.py",
     "build_world_cup_injury_evidence.py",
+    "build_person_profile_datasets.py",
     "build_world_cup_model_runtime_datasets.py",
     "build_world_cup_coverage.py",
     "publish_qualifier_data.py",

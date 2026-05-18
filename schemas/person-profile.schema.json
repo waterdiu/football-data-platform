@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PersonProfile",
+  "type": "object",
+  "required": ["person_id", "person_type", "display_name", "data_tiers", "source_status"],
+  "properties": {
+    "person_id": { "type": "string" },
+    "person_type": { "type": "string", "enum": ["coach", "player", "referee"] },
+    "competition_id": { "type": ["string", "null"] },
+    "season_id": { "type": ["string", "null"] },
+    "display_name": { "type": "string" },
+    "name": { "type": ["string", "null"] },
+    "name_zh": { "type": ["string", "null"] },
+    "country_code": { "type": ["string", "null"] },
+    "country_name": { "type": ["string", "null"] },
+    "country_name_zh": { "type": ["string", "null"] },
+    "photo_url": { "type": ["string", "null"] },
+    "team_id": { "type": ["string", "null"] },
+    "team_name": { "type": ["string", "null"] },
+    "role": { "type": ["string", "null"] },
+    "role_zh": { "type": ["string", "null"] },
+    "direct": { "type": "object" },
+    "derived": { "type": "object" },
+    "distilled": {
+      "type": "object",
+      "properties": {
+        "distillation_status": { "type": "string" },
+        "sample_size_matches": { "type": "number" },
+        "style_tags": { "type": "array", "items": { "type": "string" } },
+        "summary": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "kpis": { "type": "array", "items": { "type": "object" } },
+    "sections": { "type": "array", "items": { "type": "object" } },
+    "source_status": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "source_urls": { "type": "array", "items": { "type": "string" } },
+    "source_refs": { "type": "object" },
+    "updated_at": { "type": ["string", "null"] },
+    "data_tiers": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["direct", "derived", "distilled"] }
+    }
+  },
+  "additionalProperties": true
+}

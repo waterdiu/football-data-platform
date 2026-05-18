@@ -345,6 +345,10 @@ Required datasets:
 - `data/normalized/world_cup_2026_players_master.json`
 - `data/model/players.json`
 - `data/model/rosters.json`
+- `data/public/people-index.json`
+- `data/public/coach-profiles.json`
+- `data/public/player-profiles.json`
+- `data/public/referee-profiles.json`
 
 Fields:
 
@@ -429,6 +433,7 @@ Remaining work:
 - Build Premier League referee samples from football-data.co.uk `Referee` and card fields.
 - Add international referee samples from FIFA/worldfootball/public match records where legally usable.
 - Emit `missing_referee_assignment` when no referee is assigned and `low_referee_sample` when sample size is below 20.
+- Keep `referee-profiles.json` published as an empty direct-first contract until official/referee facts are imported.
 
 Acceptance criteria:
 

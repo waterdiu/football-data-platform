@@ -434,6 +434,10 @@ Public API：
 - `data/public/players.json`
 - `data/public/team-staff.json`
 - `data/public/officials.json`
+- `data/public/people-index.json`
+- `data/public/coach-profiles.json`
+- `data/public/player-profiles.json`
+- `data/public/referee-profiles.json`
 - `data/public/player-ratings.json`
 - `data/public/staff-ratings.json`
 - `data/public/official-ratings.json`
@@ -445,7 +449,32 @@ World Cup API：
 - `api/worldcup/2026/core/rosters.json`
 - `api/worldcup/2026/core/team-staff.json`
 - `api/worldcup/2026/core/officials.json`
+- `api/worldcup/2026/core/people-index.json`
+- `api/worldcup/2026/core/coach-profiles.json`
+- `api/worldcup/2026/core/player-profiles.json`
+- `api/worldcup/2026/core/referee-profiles.json`
 - `api/worldcup/2026/core/person-style-profiles.json`
+
+Phase 1 人物页可渲染 profile 已落地：
+
+- `people-index.json` 是人物搜索/跳转索引，覆盖教练、球员、裁判三类。
+- `coach-profiles.json` 当前由 48 支球队主教练 direct facts 生成。
+- `player-profiles.json` 当前由已导入 FIFA 官方名单球员 direct facts 生成。
+- `referee-profiles.json` 当前随 `person_officials_master` 发布；未导入裁判名单时为空数组。
+
+profile 记录必须包含：
+
+- `person_id`
+- `person_type`
+- `display_name`
+- `data_tiers=["direct","derived","distilled"]`
+- `kpis[]`
+- `sections[]`
+- `source_status`
+- `source_urls[]`
+- `updated_at`
+
+其中 `direct` 是采集事实，`derived` 是可复现计算，`distilled` 是风格蒸馏。世界杯前允许发布 direct-first profile；任何没有样本支撑的派生指标必须标记 `pending_source`，任何风格画像必须标记 `distillation_status=insufficient_sample`。
 
 Predictor API：
 

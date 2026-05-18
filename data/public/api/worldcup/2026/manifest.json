@@ -116,6 +116,26 @@
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/team-staff.json",
         "count": 48
       },
+      "people_index": {
+        "path": "./core/people-index.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/people-index.json",
+        "count": 282
+      },
+      "coach_profiles": {
+        "path": "./core/coach-profiles.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/coach-profiles.json",
+        "count": 48
+      },
+      "player_profiles": {
+        "path": "./core/player-profiles.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/player-profiles.json",
+        "count": 234
+      },
+      "referee_profiles": {
+        "path": "./core/referee-profiles.json",
+        "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/referee-profiles.json",
+        "count": 0
+      },
       "officials": {
         "path": "./core/officials.json",
         "url": "https://waterdiu.github.io/football-data-platform/api/worldcup/2026/core/officials.json",
@@ -186,6 +206,10 @@
       "team_world_cup_history": 48,
       "team_recent_matches": 48,
       "team_staff": 48,
+      "people_index": 282,
+      "coach_profiles": 48,
+      "player_profiles": 234,
+      "referee_profiles": 0,
       "officials": 0,
       "player_ratings": 0,
       "staff_ratings": 0,

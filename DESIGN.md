@@ -478,13 +478,24 @@ football-data-platform/
 - `schemas/player.schema.json`
 - `schemas/roster.schema.json`
 - `schemas/person-id-map.schema.json`
-
-规划新增：
-
+- `schemas/person-profile.schema.json`
 - `schemas/team-staff.schema.json`
 - `schemas/official.schema.json`
 - `schemas/person-rating.schema.json`
 - `schemas/person-style-profile.schema.json`
+
+人物页可渲染 API 已落地为 Phase 1 direct profiles：
+
+- `data/public/people-index.json`
+- `data/public/coach-profiles.json`
+- `data/public/player-profiles.json`
+- `data/public/referee-profiles.json`
+- `api/worldcup/2026/core/people-index.json`
+- `api/worldcup/2026/core/coach-profiles.json`
+- `api/worldcup/2026/core/player-profiles.json`
+- `api/worldcup/2026/core/referee-profiles.json`
+
+这些 profile 以 `direct` / `derived` / `distilled` 三层组织。当前 `direct` 来自官方主教练和已导入官方名单球员；`derived` 与 `distilled` 在样本不足或来源未接入时必须保持 `pending_source` / `insufficient_sample`，不能由前端或模型主观补写。
 
 设计原则：
 

@@ -193,6 +193,10 @@
   - 输出：回写 `data/normalized/world_cup_2026_model_injuries_master.json` 的 `absence_evidence_summary`
   - 并生成：`reports/world_cup_injury_evidence_report.json`
   - 当前定位：从公开新闻页赛前上下文中提取伤停/停赛证据。该脚本只写 evidence，不把新闻推断当作官方伤停结论；没有命中时标记 `no_news_absence_evidence`
+- `build_person_profile_datasets.py`
+  - 输入：`person_team_staff_master.json`、`world_cup_2026_players_master.json`、`person_officials_master.json`
+  - 输出：`people-index.json`、`coach-profiles.json`、`player-profiles.json`、`referee-profiles.json`
+  - 当前定位：人物详情页 Phase 1 direct profile 契约。派生分析保持 `pending_source`，风格蒸馏保持 `insufficient_sample`
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
   - 先发布平台 own 的 `worldcup/2026` 兼容数据镜像
