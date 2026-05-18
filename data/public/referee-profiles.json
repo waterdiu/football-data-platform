@@ -26,6 +26,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -41,7 +43,7 @@
         "sample_size_matches": 5
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 5,
         "yellow_cards": 15,
@@ -158,7 +160,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 5
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -219,7 +223,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 5
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:a-madley",
@@ -248,6 +252,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -263,7 +269,7 @@
         "sample_size_matches": 131
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 131,
         "yellow_cards": 434,
@@ -396,7 +402,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 131
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -467,7 +475,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 131
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:a-marriner",
@@ -496,6 +504,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -511,7 +521,7 @@
         "sample_size_matches": 188
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 188,
         "yellow_cards": 554,
@@ -644,7 +654,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 188
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -715,7 +727,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 188
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:a-moss",
@@ -744,6 +756,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -759,7 +773,7 @@
         "sample_size_matches": 1
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 1,
         "yellow_cards": 4,
@@ -874,7 +888,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 1
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -934,7 +950,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 1
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:a-taylor",
@@ -963,6 +979,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -978,7 +996,7 @@
         "sample_size_matches": 322
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 322,
         "yellow_cards": 1152,
@@ -1117,7 +1135,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 322
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -1191,7 +1211,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 322
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:c-kavanagh",
@@ -1220,6 +1240,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -1235,7 +1257,7 @@
         "sample_size_matches": 189
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 189,
         "yellow_cards": 657,
@@ -1372,7 +1394,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 189
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -1445,7 +1469,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 189
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:c-pawson",
@@ -1474,6 +1498,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -1489,7 +1515,7 @@
         "sample_size_matches": 254
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 254,
         "yellow_cards": 923,
@@ -1628,7 +1654,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 254
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -1702,7 +1730,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 254
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:d-bond",
@@ -1731,6 +1759,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -1746,7 +1776,7 @@
         "sample_size_matches": 23
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 23,
         "yellow_cards": 93,
@@ -1869,7 +1899,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 23
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -1935,7 +1967,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 23
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:d-coote",
@@ -1964,6 +1996,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -1979,7 +2013,7 @@
         "sample_size_matches": 112
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 112,
         "yellow_cards": 432,
@@ -2112,7 +2146,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 112
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -2183,7 +2219,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 112
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:d-england",
@@ -2212,6 +2248,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -2227,7 +2265,7 @@
         "sample_size_matches": 97
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 97,
         "yellow_cards": 386,
@@ -2358,7 +2396,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 97
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -2428,7 +2468,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 97
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:d-webb",
@@ -2457,6 +2497,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -2472,7 +2514,7 @@
         "sample_size_matches": 2
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 2,
         "yellow_cards": 7,
@@ -2587,7 +2629,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 2
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -2647,7 +2691,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 2
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:f-hallam",
@@ -2676,6 +2720,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -2691,7 +2737,7 @@
         "sample_size_matches": 4
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 4,
         "yellow_cards": 12,
@@ -2806,7 +2852,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 4
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -2866,7 +2914,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 4
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:g-scott",
@@ -2895,6 +2943,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -2910,7 +2960,7 @@
         "sample_size_matches": 104
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 104,
         "yellow_cards": 274,
@@ -3049,7 +3099,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 104
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -3123,7 +3175,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 104
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:j-brooks",
@@ -3152,6 +3204,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -3167,7 +3221,7 @@
         "sample_size_matches": 72
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 72,
         "yellow_cards": 314,
@@ -3298,7 +3352,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 72
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -3368,7 +3424,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 72
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:j-gillett",
@@ -3397,6 +3453,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -3412,7 +3470,7 @@
         "sample_size_matches": 82
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 82,
         "yellow_cards": 307,
@@ -3543,7 +3601,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 82
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -3613,7 +3673,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 82
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:j-moss",
@@ -3642,6 +3702,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -3657,7 +3719,7 @@
         "sample_size_matches": 185
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 185,
         "yellow_cards": 599,
@@ -3788,7 +3850,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 185
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -3858,7 +3922,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 185
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:j-smith",
@@ -3887,6 +3951,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -3902,7 +3968,7 @@
         "sample_size_matches": 8
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 8,
         "yellow_cards": 31,
@@ -4021,7 +4087,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 8
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -4083,7 +4151,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 8
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:k-friend",
@@ -4112,6 +4180,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -4127,7 +4197,7 @@
         "sample_size_matches": 156
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 156,
         "yellow_cards": 499,
@@ -4258,7 +4328,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 156
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -4328,7 +4400,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 156
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:k-kavanagh",
@@ -4357,6 +4429,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -4372,7 +4446,7 @@
         "sample_size_matches": 1
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 1,
         "yellow_cards": 3,
@@ -4487,7 +4561,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 1
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -4547,7 +4623,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 1
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:k-stroud",
@@ -4576,6 +4652,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -4591,7 +4669,7 @@
         "sample_size_matches": 2
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 2,
         "yellow_cards": 9,
@@ -4706,7 +4784,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 2
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -4766,7 +4846,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 2
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:l-mason",
@@ -4795,6 +4875,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -4810,7 +4892,7 @@
         "sample_size_matches": 105
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 105,
         "yellow_cards": 309,
@@ -4930,7 +5012,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 105
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -4990,7 +5074,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 105
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:l-probert",
@@ -5019,6 +5103,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -5034,7 +5120,7 @@
         "sample_size_matches": 36
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 36,
         "yellow_cards": 78,
@@ -5161,7 +5247,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 36
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -5229,7 +5317,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 36
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:l-smith",
@@ -5258,6 +5346,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -5273,7 +5363,7 @@
         "sample_size_matches": 10
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 10,
         "yellow_cards": 41,
@@ -5392,7 +5482,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 10
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -5454,7 +5546,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 10
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:m-atkinson",
@@ -5483,6 +5575,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -5498,7 +5592,7 @@
         "sample_size_matches": 197
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 197,
         "yellow_cards": 596,
@@ -5629,7 +5723,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 197
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -5699,7 +5795,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 197
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:m-clattenburg",
@@ -5728,6 +5824,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -5743,7 +5841,7 @@
         "sample_size_matches": 52
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 52,
         "yellow_cards": 167,
@@ -5864,7 +5962,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 52
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -5929,7 +6029,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 52
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:m-dean",
@@ -5958,6 +6058,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -5973,7 +6075,7 @@
         "sample_size_matches": 195
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 195,
         "yellow_cards": 719,
@@ -6108,7 +6210,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 195
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -6180,7 +6284,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 195
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:m-donohue",
@@ -6209,6 +6313,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -6224,7 +6330,7 @@
         "sample_size_matches": 5
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 5,
         "yellow_cards": 28,
@@ -6341,7 +6447,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 5
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -6402,7 +6510,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 5
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:m-jones",
@@ -6431,6 +6539,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -6446,7 +6556,7 @@
         "sample_size_matches": 58
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 58,
         "yellow_cards": 186,
@@ -6569,7 +6679,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 58
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -6635,7 +6747,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 58
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:m-oliver",
@@ -6664,6 +6776,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -6679,7 +6793,7 @@
         "sample_size_matches": 310
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 310,
         "yellow_cards": 1007,
@@ -6818,7 +6932,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 310
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -6892,7 +7008,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 310
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:m-salisbury",
@@ -6921,6 +7037,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -6936,7 +7054,7 @@
         "sample_size_matches": 59
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 59,
         "yellow_cards": 226,
@@ -7067,7 +7185,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 59
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -7137,7 +7257,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 59
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:n-swarbrick",
@@ -7166,6 +7286,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -7181,7 +7303,7 @@
         "sample_size_matches": 62
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 62,
         "yellow_cards": 197,
@@ -7304,7 +7426,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 62
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -7370,7 +7494,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 62
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:o-langford",
@@ -7399,6 +7523,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -7414,7 +7540,7 @@
         "sample_size_matches": 1
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 1,
         "yellow_cards": 1,
@@ -7529,7 +7655,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 1
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -7589,7 +7717,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 1
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:o-oliver",
@@ -7618,6 +7746,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -7633,7 +7763,7 @@
         "sample_size_matches": 1
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 1,
         "yellow_cards": 5,
@@ -7748,7 +7878,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 1
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -7808,7 +7940,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 1
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:p-bankes",
@@ -7837,6 +7969,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -7852,7 +7986,7 @@
         "sample_size_matches": 115
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 115,
         "yellow_cards": 453,
@@ -7983,7 +8117,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 115
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -8053,7 +8189,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 115
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:p-tierney",
@@ -8082,6 +8218,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -8097,7 +8235,7 @@
         "sample_size_matches": 191
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 191,
         "yellow_cards": 650,
@@ -8234,7 +8372,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 191
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -8307,7 +8447,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 191
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:r-east",
@@ -8336,6 +8476,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -8351,7 +8493,7 @@
         "sample_size_matches": 64
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 64,
         "yellow_cards": 206,
@@ -8476,7 +8618,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 64
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -8543,7 +8687,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 64
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:r-jones",
@@ -8572,6 +8716,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -8587,7 +8733,7 @@
         "sample_size_matches": 108
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 108,
         "yellow_cards": 419,
@@ -8718,7 +8864,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 108
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -8788,7 +8936,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 108
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:r-madley",
@@ -8817,6 +8965,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -8832,7 +8982,7 @@
         "sample_size_matches": 76
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 76,
         "yellow_cards": 254,
@@ -8959,7 +9109,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 76
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -9027,7 +9179,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 76
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:r-welch",
@@ -9056,6 +9208,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -9071,7 +9225,7 @@
         "sample_size_matches": 2
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 2,
         "yellow_cards": 8,
@@ -9186,7 +9340,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 2
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -9246,7 +9402,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 2
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:s-allison",
@@ -9275,6 +9431,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -9290,7 +9448,7 @@
         "sample_size_matches": 4
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 4,
         "yellow_cards": 19,
@@ -9407,7 +9565,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 4
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -9468,7 +9628,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 4
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:s-attwell",
@@ -9497,6 +9657,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -9512,7 +9674,7 @@
         "sample_size_matches": 196
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 196,
         "yellow_cards": 734,
@@ -9651,7 +9813,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 196
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -9725,7 +9889,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 196
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:s-barrott",
@@ -9754,6 +9918,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -9769,7 +9935,7 @@
         "sample_size_matches": 59
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 59,
         "yellow_cards": 230,
@@ -9896,7 +10062,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 59
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -9964,7 +10132,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 59
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:s-hooper",
@@ -9993,6 +10161,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -10008,7 +10178,7 @@
         "sample_size_matches": 140
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 140,
         "yellow_cards": 510,
@@ -10145,7 +10315,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 140
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -10218,7 +10390,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 140
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:s-scott",
@@ -10247,6 +10419,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -10262,7 +10436,7 @@
         "sample_size_matches": 1
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 1,
         "yellow_cards": 3,
@@ -10377,7 +10551,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 1
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -10437,7 +10613,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 1
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:s-singh",
@@ -10466,6 +10642,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -10481,7 +10659,7 @@
         "sample_size_matches": 1
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 1,
         "yellow_cards": 5,
@@ -10596,7 +10774,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 1
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -10656,7 +10836,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 1
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:t-bramall",
@@ -10685,6 +10865,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -10700,7 +10882,7 @@
         "sample_size_matches": 50
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 50,
         "yellow_cards": 194,
@@ -10829,7 +11011,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 50
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -10898,7 +11082,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 50
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:t-harrington",
@@ -10927,6 +11111,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -10942,7 +11128,7 @@
         "sample_size_matches": 48
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 48,
         "yellow_cards": 172,
@@ -11069,7 +11255,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 48
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -11137,7 +11325,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 48
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:t-kirk",
@@ -11166,6 +11354,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -11181,7 +11371,7 @@
         "sample_size_matches": 5
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 5,
         "yellow_cards": 15,
@@ -11296,7 +11486,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 5
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -11356,7 +11548,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 5
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:t-robinson",
@@ -11385,6 +11577,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -11400,7 +11594,7 @@
         "sample_size_matches": 49
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 49,
         "yellow_cards": 204,
@@ -11527,7 +11721,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 49
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -11595,7 +11791,7 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 49
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "person_id": "referee:premier-league:l-mason",
@@ -11624,6 +11820,8 @@
       ],
       "role": "referee",
       "role_zh": "裁判",
+      "assigned_matches": [],
+      "assignment_status": "missing_referee_assignment",
       "fifa_listed_since": null,
       "competition_id": "premier_league",
       "season_id": "historical",
@@ -11639,7 +11837,7 @@
         "sample_size_matches": 1
       },
       "source_url": "https://www.football-data.co.uk/",
-      "updated_at": "2026-05-18T11:26:18.439378+00:00",
+      "updated_at": "2026-05-18T11:41:20.104382+00:00",
       "metrics": {
         "matches": 1,
         "yellow_cards": 5,
@@ -11754,7 +11952,9 @@
             "competition_scope": "premier_league",
             "sample_size_matches": 1
           },
-          "updated_at": "2026-05-18T11:26:18.439378+00:00"
+          "updated_at": "2026-05-18T11:41:20.104382+00:00",
+          "assigned_matches": [],
+          "assignment_status": "missing_referee_assignment"
         }
       },
       {
@@ -11814,6 +12014,6 @@
       "competition_scope": "premier_league",
       "sample_size_matches": 1
     },
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   }
 ]

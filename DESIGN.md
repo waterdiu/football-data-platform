@@ -484,7 +484,7 @@ football-data-platform/
 - `schemas/person-rating.schema.json`
 - `schemas/person-style-profile.schema.json`
 
-人物页可渲染 API 已落地为 Phase 1 direct profiles：
+人物页可渲染 API 已落地为 Phase 1.5 renderable profiles：
 
 - `data/public/people-index.json`
 - `data/public/coach-profiles.json`
@@ -496,6 +496,13 @@ football-data-platform/
 - `api/worldcup/2026/core/referee-profiles.json`
 
 这些 profile 以 `direct` / `derived` / `distilled` 三层组织。当前 `direct` 来自官方主教练、已导入官方名单球员，以及英超历史裁判样本中的裁判姓名；`derived` 可由可复现历史样本计算，`distilled` 在样本不足或来源未接入时必须保持 `pending_source` / `insufficient_sample`，不能由前端或模型主观补写。人物 `kpis[]` 中 `label` 保留展示文案，三色数据性质使用 `data_tier` / `data_tier_label` / `status` 表示。
+
+Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
+
+- `coach-profiles.json` 的 48 名主教练都有 `derived.metrics`，来源为 `data/public/team-recent-matches.json` 的国家队近 10 场代理指标；字段包括 `matches_managed_total`、`w_total`、`d_total`、`l_total`、`win_rate_pct`、`goals_for_per_match`、`goals_against_per_match`、`clean_sheet_rate_pct` 和 `recent_10_form`。该指标只用于页面呈现和低样本提示，不等同完整教练职业生涯战绩。
+- `player-profiles.json` 对当前 234 名已导入官方名单球员输出 `field_coverage`、`impact_box` 和 `pending_source` basis。当前官方名单源不含 `club`、`shirt_number`、`date_of_birth`、`caps`、`goals` 等可靠字段，因此这些字段保持 `null`，不得填 0 或推断值。
+- `referee-profiles.json` 发布 50 名英超历史裁判样本，`direct.assigned_matches=[]` 且 `assignment_status=missing_referee_assignment`。这仍不是世界杯裁判名单或单场裁判指派。
+- `sections[]` 支持 `identity`、`data_grid`、`kpi_strip`、`ability_bars`、`impact_box`、`career_summary`、`production_metrics`、`officiating_metrics` 和 `style_distillation`，消费端只负责渲染和隐藏缺失模块。
 
 设计原则：
 

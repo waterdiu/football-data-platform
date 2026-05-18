@@ -433,6 +433,8 @@ Current status:
 - `scripts/build_referee_sample_profiles.py` builds historical Premier League referee samples from `data/predictor-assets/files/processed/premier_league_matches.csv`.
 - Published sample: 50 officials, 50 official ratings, 4,139 matches, 33 ratings with `sample_size >= 20`.
 - Current rows use `source_status=historical_sample_only`. They are model/report style samples only, not FIFA World Cup 2026 referee assignments.
+- Person profile Phase 1.5 is published for page rendering: 48 coach profiles have recent-team derived metrics from `team-recent-matches.json`; 234 player profiles expose direct field coverage and pending impact boxes; 50 referee profiles expose `assigned_matches=[]` and `assignment_status=missing_referee_assignment`.
+- Player `club`, `shirt_number`, `date_of_birth`, caps/goals, minutes and absence impact remain `pending_source` because the current official roster patches do not contain reliable values.
 
 Remaining work:
 
@@ -440,6 +442,7 @@ Remaining work:
 - Add international referee samples from FIFA/worldfootball/public match records where legally usable.
 - Emit `missing_referee_assignment` when no referee is assigned and `low_referee_sample` when sample size is below 20.
 - Keep `runtime-summary.json.referee_profile` as `missing_referee_assignment` until actual World Cup match referee assignments are imported.
+- Import an audited roster source with player club, shirt number, date of birth, caps/goals and minutes before enabling player ability bars or absence impact numbers.
 
 Acceptance criteria:
 

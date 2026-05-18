@@ -8,7 +8,9 @@
     ],
     "distillation_minimum_sample_matches": 30,
     "referee_metric_minimum_sample_matches": 20,
-    "phase": "phase_1_direct_profiles"
+    "phase": "phase_1_5_renderable_profiles",
+    "coach_derived_basis": "team recent-match proxy from data/public/team-recent-matches.json",
+    "player_missing_field_policy": "explicit null plus pending_source; never fill with zero or inferred facts"
   },
   "counts": {
     "people-index.json": 332,

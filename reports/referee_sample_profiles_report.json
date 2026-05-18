@@ -8,7 +8,7 @@
   "distillation_threshold": 30,
   "available_rating_rows": 33,
   "low_sample_rows": 17,
-  "generated_at": "2026-05-18T11:26:18.439378+00:00",
+  "generated_at": "2026-05-18T11:41:20.104382+00:00",
   "outputs": {
     "officials": "data/normalized/person_officials_master.json",
     "official_ratings": "data/normalized/person_official_ratings_master.json"

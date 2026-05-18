@@ -463,12 +463,12 @@ World Cup API：
 - `api/worldcup/2026/core/referee-profiles.json`
 - `api/worldcup/2026/core/person-style-profiles.json`
 
-Phase 1 人物页可渲染 profile 已落地：
+Phase 1.5 人物页可渲染 profile 已落地：
 
 - `people-index.json` 是人物搜索/跳转索引，覆盖教练、球员、裁判三类。
-- `coach-profiles.json` 当前由 48 支球队主教练 direct facts 生成。
-- `player-profiles.json` 当前由已导入 FIFA 官方名单球员 direct facts 生成。
-- `referee-profiles.json` 当前随 `person_officials_master` 发布；未导入裁判名单时为空数组。
+- `coach-profiles.json` 当前由 48 支球队主教练 direct facts 生成，并用 `data/public/team-recent-matches.json` 补充国家队近 10 场代理派生指标。
+- `player-profiles.json` 当前由已导入 FIFA 官方名单球员 direct facts 生成；官方名单未提供的 `club`、`shirt_number`、`date_of_birth`、`caps`、`goals`、`absence_impact_pct` 以 `null` + `pending_source` 明确标记。
+- `referee-profiles.json` 当前由英超历史裁判样本生成 50 条可渲染 profile；`source_status=historical_sample_only`，`assigned_matches=[]`，不代表 2026 世界杯裁判名单或指派。
 
 profile 记录必须包含：
 
@@ -482,7 +482,18 @@ profile 记录必须包含：
 - `source_urls[]`
 - `updated_at`
 
-其中 `direct` 是采集事实，`derived` 是可复现计算，`distilled` 是风格蒸馏。世界杯前允许发布 direct-first profile；任何没有样本支撑的派生指标必须标记 `pending_source`，任何风格画像必须标记 `distillation_status=insufficient_sample`。
+其中 `direct` 是采集事实，`derived` 是可复现计算，`distilled` 是风格蒸馏。世界杯前允许发布 direct-first profile；任何没有样本支撑的派生指标必须标记 `pending_source`，任何风格画像必须标记 `distillation_status=insufficient_sample`。教练近 10 场指标是国家队近期状态代理，不是完整教练职业生涯统计，必须在 `basis.method` 中保留该说明。
+
+Phase 1.5 的可选 section 用于复刻人物页模块：
+
+- `kpi_strip`
+- `data_grid`
+- `ability_bars`
+- `impact_box`
+- `career_summary`
+- `production_metrics`
+- `officiating_metrics`
+- `style_distillation`
 
 Predictor API：
 

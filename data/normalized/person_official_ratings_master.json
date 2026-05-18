@@ -40,7 +40,7 @@
       "sample_size_matches": 5
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:a-madley",
@@ -93,7 +93,7 @@
       "sample_size_matches": 131
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:a-marriner",
@@ -146,7 +146,7 @@
       "sample_size_matches": 188
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:a-moss",
@@ -188,7 +188,7 @@
       "sample_size_matches": 1
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:a-taylor",
@@ -244,7 +244,7 @@
       "sample_size_matches": 322
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:c-kavanagh",
@@ -299,7 +299,7 @@
       "sample_size_matches": 189
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:c-pawson",
@@ -355,7 +355,7 @@
       "sample_size_matches": 254
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:d-bond",
@@ -403,7 +403,7 @@
       "sample_size_matches": 23
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:d-coote",
@@ -456,7 +456,7 @@
       "sample_size_matches": 112
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:d-england",
@@ -508,7 +508,7 @@
       "sample_size_matches": 97
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:d-webb",
@@ -550,7 +550,7 @@
       "sample_size_matches": 2
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:f-hallam",
@@ -592,7 +592,7 @@
       "sample_size_matches": 4
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:g-scott",
@@ -648,7 +648,7 @@
     "style_tags": [
       "low-card"
     ],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:j-brooks",
@@ -700,7 +700,7 @@
     "style_tags": [
       "card-heavy"
     ],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:j-gillett",
@@ -752,7 +752,7 @@
     "style_tags": [
       "high-scoring-sample"
     ],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:j-moss",
@@ -804,7 +804,7 @@
       "sample_size_matches": 185
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:j-smith",
@@ -848,7 +848,7 @@
       "sample_size_matches": 8
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:k-friend",
@@ -900,7 +900,7 @@
       "sample_size_matches": 156
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:k-kavanagh",
@@ -942,7 +942,7 @@
       "sample_size_matches": 1
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:k-stroud",
@@ -984,7 +984,7 @@
       "sample_size_matches": 2
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:l-mason",
@@ -1035,7 +1035,7 @@
       "sample_size_matches": 105
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:l-probert",
@@ -1085,7 +1085,7 @@
     "style_tags": [
       "low-card"
     ],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:l-smith",
@@ -1129,7 +1129,7 @@
       "sample_size_matches": 10
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:m-atkinson",
@@ -1181,7 +1181,7 @@
       "sample_size_matches": 197
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:m-clattenburg",
@@ -1228,7 +1228,7 @@
       "sample_size_matches": 52
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:m-dean",
@@ -1282,7 +1282,7 @@
     "style_tags": [
       "red-card-prone"
     ],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:m-donohue",
@@ -1325,7 +1325,7 @@
       "sample_size_matches": 5
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:m-jones",
@@ -1373,7 +1373,7 @@
       "sample_size_matches": 58
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:m-oliver",
@@ -1429,7 +1429,7 @@
       "sample_size_matches": 310
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:m-salisbury",
@@ -1481,7 +1481,7 @@
     "style_tags": [
       "high-scoring-sample"
     ],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:n-swarbrick",
@@ -1529,7 +1529,7 @@
       "sample_size_matches": 62
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:o-langford",
@@ -1571,7 +1571,7 @@
       "sample_size_matches": 1
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:o-oliver",
@@ -1613,7 +1613,7 @@
       "sample_size_matches": 1
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:p-bankes",
@@ -1665,7 +1665,7 @@
       "sample_size_matches": 115
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:p-tierney",
@@ -1720,7 +1720,7 @@
       "sample_size_matches": 191
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:r-east",
@@ -1769,7 +1769,7 @@
       "sample_size_matches": 64
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:r-jones",
@@ -1821,7 +1821,7 @@
       "sample_size_matches": 108
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:r-madley",
@@ -1871,7 +1871,7 @@
       "sample_size_matches": 76
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:r-welch",
@@ -1913,7 +1913,7 @@
       "sample_size_matches": 2
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:s-allison",
@@ -1956,7 +1956,7 @@
       "sample_size_matches": 4
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:s-attwell",
@@ -2012,7 +2012,7 @@
       "sample_size_matches": 196
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:s-barrott",
@@ -2062,7 +2062,7 @@
     "style_tags": [
       "high-scoring-sample"
     ],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:s-hooper",
@@ -2117,7 +2117,7 @@
       "sample_size_matches": 140
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:s-scott",
@@ -2159,7 +2159,7 @@
       "sample_size_matches": 1
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:s-singh",
@@ -2201,7 +2201,7 @@
       "sample_size_matches": 1
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:t-bramall",
@@ -2252,7 +2252,7 @@
     "style_tags": [
       "draw-leaning"
     ],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:t-harrington",
@@ -2302,7 +2302,7 @@
       "sample_size_matches": 48
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:t-kirk",
@@ -2344,7 +2344,7 @@
       "sample_size_matches": 5
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:t-robinson",
@@ -2394,7 +2394,7 @@
       "sample_size_matches": 49
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   },
   {
     "entity_id": "referee:premier-league:l-mason",
@@ -2436,6 +2436,6 @@
       "sample_size_matches": 1
     },
     "style_tags": [],
-    "updated_at": "2026-05-18T11:26:18.439378+00:00"
+    "updated_at": "2026-05-18T11:41:20.104382+00:00"
   }
 ]
