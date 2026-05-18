@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T13:27:54Z",
+  "generated_at": "2026-05-18T13:38:43Z",
   "status": "requires_source_expansion",
   "purpose": "Read-only readiness report for coach/player/referee profile data sources.",
   "rules": {
@@ -265,6 +265,13 @@
       "repo": "https://github.com/salimt/football-datasets",
       "license": "missing_in_github_metadata",
       "decision": "probe_only",
+      "license_evidence": {
+        "github_repo_license_metadata": null,
+        "license_file_present": false,
+        "license_file_probe": "GET /repos/salimt/football-datasets/contents/LICENSE returned 404 on 2026-05-18.",
+        "recursive_tree_license_paths": [],
+        "readme_license_badge": "README contains a GitHub License badge pointing to /blob/main/LICENSE, but that target file is absent."
+      },
       "useful_files": [
         "datalake/transfermarkt/player_profiles/player_profiles.csv",
         "datalake/transfermarkt/player_national_performances/player_national_performances.csv",

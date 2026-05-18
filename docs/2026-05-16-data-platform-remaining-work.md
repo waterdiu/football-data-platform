@@ -450,7 +450,7 @@ Remaining work:
 - Import audited FA/FIFA/official coach profile sources before filling `appointed_at` and `contract_until`.
 - Cross-check venue capacity/opened-year/surface/home-team fields against FIFA stadium pages or official stadium pages before adding them to `venues.json`.
 - Extend dcaribou Transfermarkt CC0 data beyond `players.csv.gz` / `clubs.csv.gz` into appearances/games/lineups/events before computing true player impact or style.
-- Keep `salimt/football-datasets` as probe-only until license is explicit; useful candidate files are `player_profiles.csv`, `player_national_performances.csv`, and `player_injuries.csv`.
+- Keep `salimt/football-datasets` as probe-only until license is explicit; useful candidate files are `player_profiles.csv`, `player_national_performances.csv`, and `player_injuries.csv`. Current evidence: GitHub repo license metadata is null, no root `LICENSE` exists, `contents/LICENSE` returns 404, and recursive tree inspection finds no license/copying/notice file.
 - Use existing local StatsBomb/FBref/predictor assets only as style-rule samples unless a profile row can be linked to the 2026 roster with sufficient sample and license coverage.
 
 Acceptance criteria:

@@ -219,6 +219,13 @@ def build_report() -> dict[str, Any]:
                 "repo": "https://github.com/salimt/football-datasets",
                 "license": "missing_in_github_metadata",
                 "decision": "probe_only",
+                "license_evidence": {
+                    "github_repo_license_metadata": None,
+                    "license_file_present": False,
+                    "license_file_probe": "GET /repos/salimt/football-datasets/contents/LICENSE returned 404 on 2026-05-18.",
+                    "recursive_tree_license_paths": [],
+                    "readme_license_badge": "README contains a GitHub License badge pointing to /blob/main/LICENSE, but that target file is absent.",
+                },
                 "useful_files": [
                     "datalake/transfermarkt/player_profiles/player_profiles.csv",
                     "datalake/transfermarkt/player_national_performances/player_national_performances.csv",
