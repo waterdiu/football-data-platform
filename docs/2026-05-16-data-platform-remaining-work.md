@@ -448,6 +448,8 @@ Remaining work:
 - Import an audited roster source with player shirt number and minutes before enabling true absence impact percentages.
 - Import audited FA/FIFA/official coach profile sources before filling `appointed_at` and `contract_until`.
 - Cross-check venue capacity/opened-year/surface/home-team fields against FIFA stadium pages or official stadium pages before adding them to `venues.json`.
+- Extend dcaribou Transfermarkt CC0 data beyond `players.csv.gz` / `clubs.csv.gz` into appearances/games/lineups/events before computing true player impact or style.
+- Keep `salimt/football-datasets` as probe-only until license is explicit; useful candidate files are `player_profiles.csv`, `player_national_performances.csv`, and `player_injuries.csv`.
 
 Acceptance criteria:
 

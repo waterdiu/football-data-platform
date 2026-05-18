@@ -14,6 +14,7 @@
 人物档案层专题设计：
 
 - `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-16-football-person-profile-design-cn.md`
+- `/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/docs/2026-05-18-person-data-source-github-probe-cn.md`
 
 国内与第三方数据源评估：
 
@@ -513,6 +514,7 @@ Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
 - `team_staff` 用于球队教练/工作人员档案。当前已补 48 支球队主教练数据，来源为对应 FIFA 官方文章，发布到 `data/public/team-staff.json`、`api/worldcup/2026/core/team-staff.json` 和 predictor API。
 - 教练生日/年龄只有在有可靠来源时才填；当前未审计生日来源的行保留 `date_of_birth=null`、`age=null`，避免伪造事实。
 - `player-external-facts` 与 `staff-external-facts` 是第三方补充事实层，必须通过 `field_sources` 标明来源；消费端展示时应把它们视为补充资料，不应当成 FIFA 官方名单事实。
+- GitHub 人物数据源调研结论：`dcaribou/transfermarkt-datasets` 许可证为 CC0-1.0，可继续作为生产候选扩展；`salimt/football-datasets` 字段有价值但仓库缺少明确 license metadata，只能作为 probe，不得写入 normalized/public；`statsbomb/open-data` 可用于风格规则研究，但不能视为 2026 全量人物覆盖。
 - `officials` / `official-ratings` 当前由 `scripts/build_referee_sample_profiles.py` 从 `data/predictor-assets/files/processed/premier_league_matches.csv` 的 `referee`、红黄牌和赛果字段派生，发布 50 名英超历史裁判样本画像。该数据的 `source_status=historical_sample_only`，只能作为模型解释和裁判风格样本，不能解释为 2026 世界杯裁判名单、裁判国籍或单场裁判指派。
 - 能力评分必须保留 `source`、`sample_size`、`time_window`、`confidence`。
 - 风格画像必须由规则标签和 evidence 生成，不允许仅凭姓名或主观印象生成。
