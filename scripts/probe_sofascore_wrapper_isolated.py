@@ -67,6 +67,11 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Run a Sofascore wrapper probe in an isolated temporary venv.")
     parser.add_argument("--wrapper", required=True, help="wrapper_id from configs/providers/sofascore_wrapper_probe.json")
     parser.add_argument("--install", action="store_true", help="create a temporary venv and install the wrapper package before probing")
+    parser.add_argument(
+        "--allow-insecure-pypi",
+        action="store_true",
+        help="pass trusted-host flags to pip inside the temporary venv when local CA verification blocks package install",
+    )
     parser.add_argument("--keep-venv", action="store_true", help="keep the temporary venv for manual inspection")
     parser.add_argument("--timeout", type=int, default=180, help="timeout per subprocess command in seconds")
     parser.add_argument("--output", default=str(REPORT_PATH), help="isolated probe report output path")
@@ -88,6 +93,7 @@ def main() -> None:
         "public_api_write_allowed": False,
         "wrapper": wrapper,
         "install_requested": bool(args.install),
+        "allow_insecure_pypi": bool(args.allow_insecure_pypi),
         "status": "not_run",
         "commands": [],
         "probe_report": None,
@@ -126,7 +132,10 @@ def main() -> None:
             return
 
         python = venv_python(venv_dir)
-        pip_cmd = [str(python), "-m", "pip", "install", "--disable-pip-version-check", *package_names]
+        pip_cmd = [str(python), "-m", "pip", "install", "--disable-pip-version-check"]
+        if args.allow_insecure_pypi:
+            pip_cmd.extend(["--trusted-host", "pypi.org", "--trusted-host", "files.pythonhosted.org"])
+        pip_cmd.extend(package_names)
         pip_result = run_command(pip_cmd, cwd=ROOT, timeout=args.timeout)
         report["commands"].append(pip_result)
         if pip_result.get("returncode") != 0:

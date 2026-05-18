@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T17:48:58Z",
+  "generated_at": "2026-05-18T18:08:08Z",
   "scope": "sofascore_wrapper_isolated_probe",
   "policy": {
     "classification": "experimental_only",
@@ -21,7 +21,7 @@
       "pysofascore"
     ],
     "module_candidates": [
-      "pysofascore"
+      "sofascore_api"
     ],
     "expected_methods": [
       "get_event_statistics",
@@ -46,6 +46,7 @@
     "notes": "PyPI description says it uses scrapling/curl_cffi impersonation and is educational/research only; not actively maintained."
   },
   "install_requested": false,
+  "allow_insecure_pypi": false,
   "status": "skipped_install_not_requested",
   "commands": [],
   "probe_report": null,

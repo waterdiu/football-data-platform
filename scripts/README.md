@@ -240,7 +240,11 @@
   - 输出：`reports/sofascore_wrapper_isolated_probe.json`
   - 当前定位：为 wrapper 做临时 venv 隔离验证；默认不安装，只写 `skipped_install_not_requested`
   - 可选 `--wrapper pysofascore --install` 或 `--wrapper scraperfc_sofascore --install` 会在临时目录安装 allowlist 中的 PyPI 包并复用 `probe_sofascore_wrappers.py`
+  - 如本机 pip CA 校验失败，可在隔离环境中加 `--allow-insecure-pypi`；该参数只影响临时 venv 的 pip install，不改变项目依赖
   - 禁止把 wrapper 加入项目依赖；禁止写 normalized/model/public API
+- `reports/sofascore_wrapper_live_field_validation.json`
+  - 当前结论：`pysofascore` 已实际验证 statistics、lineups、incidents、shotmap/xG、graph、best players；`ScraperFC` 已实际验证 team/player stats、shots/xG、heatmaps、momentum；`tunjayoff/sofascore_scraper` 已实际验证 basic/statistics/lineups/incidents/h2h
+  - 三者仍全部是 unofficial scraping path，只能 experimental
 - `probe_soccerdata_sofascore.py`
   - 输入：`configs/providers/soccerdata_sofascore_probe.json`
   - 输出：`reports/soccerdata_sofascore_probe.json`

@@ -57,7 +57,7 @@
         "pysofascore"
       ],
       "module_candidates": [
-        "pysofascore"
+        "sofascore_api"
       ],
       "expected_methods": [
         "get_event_statistics",

@@ -1,0 +1,270 @@
+{
+  "generated_at": "2026-05-18T18:08:00Z",
+  "scope": "sofascore_wrapper_live_field_validation",
+  "classification": "experimental_only",
+  "production_write_allowed": false,
+  "normalized_write_allowed": false,
+  "public_api_write_allowed": false,
+  "sample": {
+    "provider": "Sofascore",
+    "event_id": "13981725",
+    "reason": "Public documentation sample event used for low-frequency wrapper validation."
+  },
+  "summary": {
+    "pysofascore": {
+      "status": "usable_experimental",
+      "can_fetch_needed_fields": true,
+      "validated_live": true,
+      "validated_fields": [
+        "match_statistics",
+        "possession",
+        "passes",
+        "pass_accuracy_inputs",
+        "shots",
+        "shots_on_target",
+        "lineups",
+        "incidents",
+        "shotmap",
+        "xg",
+        "player_ratings_or_best_players",
+        "momentum_graph"
+      ],
+      "missing_or_not_direct": [
+        "ppda_direct"
+      ]
+    },
+    "scraperfc_sofascore": {
+      "status": "usable_experimental",
+      "can_fetch_needed_fields": true,
+      "validated_live": true,
+      "validated_fields": [
+        "match_dict",
+        "team_match_stats",
+        "possession",
+        "passes",
+        "shots",
+        "shots_on_target",
+        "shotmap",
+        "xg",
+        "player_match_stats",
+        "player_ratings",
+        "player_heatmaps",
+        "match_momentum"
+      ],
+      "missing_or_not_direct": [
+        "incidents",
+        "ppda_direct"
+      ]
+    },
+    "tunjayoff_sofascore_scraper": {
+      "status": "partial_usable_experimental",
+      "can_fetch_needed_fields": "partial",
+      "validated_live": true,
+      "validated_fields": [
+        "event_basic",
+        "match_statistics",
+        "lineups",
+        "incidents",
+        "h2h"
+      ],
+      "missing_or_not_direct": [
+        "shotmap",
+        "xg",
+        "player_ratings",
+        "ppda_direct"
+      ]
+    }
+  },
+  "evidence": {
+    "pysofascore": {
+      "package": "pysofascore 0.3.0",
+      "module": "sofascore_api",
+      "methods_ok": {
+        "get_event_statistics": {
+          "type": "list",
+          "size": 3,
+          "observed_fields": [
+            "Ball possession",
+            "Expected goals",
+            "Total shots",
+            "Shots on target",
+            "Passes",
+            "Accurate passes",
+            "Interceptions",
+            "Recoveries"
+          ]
+        },
+        "get_event_shotmap": {
+          "type": "list",
+          "size": 23,
+          "observed_keys": [
+            "xg",
+            "xgot",
+            "shotType",
+            "situation",
+            "bodyPart",
+            "playerCoordinates",
+            "goalMouthCoordinates"
+          ]
+        },
+        "get_event_incidents": {
+          "type": "list",
+          "size": 24
+        },
+        "get_event_lineups": {
+          "type": "dict",
+          "keys": [
+            "confirmed",
+            "home",
+            "away",
+            "statisticalVersion"
+          ]
+        },
+        "get_event_graph": {
+          "type": "dict",
+          "keys": [
+            "graphPoints",
+            "periodTime",
+            "overtimeLength",
+            "periodCount"
+          ]
+        },
+        "get_event_best_players": {
+          "type": "dict",
+          "keys": [
+            "bestHomeTeamPlayers",
+            "bestAwayTeamPlayers",
+            "playerOfTheMatch"
+          ]
+        }
+      }
+    },
+    "scraperfc_sofascore": {
+      "package": "ScraperFC 4.5.0",
+      "module": "ScraperFC",
+      "methods_ok": {
+        "get_match_dict": {
+          "type": "dict",
+          "size": 39,
+          "observed_keys": [
+            "venue",
+            "referee",
+            "homeTeam",
+            "awayTeam",
+            "homeScore",
+            "awayScore",
+            "hasXg",
+            "hasEventPlayerStatistics",
+            "hasEventPlayerHeatMap"
+          ]
+        },
+        "scrape_team_match_stats": {
+          "type": "DataFrame",
+          "rows": 126,
+          "observed_columns": [
+            "name",
+            "home",
+            "away",
+            "period",
+            "group",
+            "homeTotal",
+            "awayTotal"
+          ]
+        },
+        "scrape_match_shots": {
+          "type": "DataFrame",
+          "rows": 23,
+          "observed_columns": [
+            "xg",
+            "xgot",
+            "shotType",
+            "situation",
+            "playerCoordinates",
+            "bodyPart",
+            "incidentType"
+          ]
+        },
+        "scrape_player_match_stats": {
+          "type": "DataFrame",
+          "rows": 47,
+          "observed_columns": [
+            "rating",
+            "minutesPlayed",
+            "totalPass",
+            "accuratePass",
+            "expectedGoals",
+            "expectedAssists",
+            "interceptionWon",
+            "totalTackle"
+          ]
+        },
+        "scrape_heatmaps": {
+          "type": "dict",
+          "size": 47
+        },
+        "scrape_match_momentum": {
+          "type": "DataFrame",
+          "rows": 92,
+          "observed_columns": [
+            "minute",
+            "value"
+          ]
+        }
+      }
+    },
+    "tunjayoff_sofascore_scraper": {
+      "source": "Temporary clone of https://github.com/tunjayoff/sofascore_scraper.git",
+      "requirements_installed_in_temp_venv": true,
+      "methods_ok": {
+        "event/{id}": {
+          "type": "dict",
+          "keys": [
+            "event"
+          ]
+        },
+        "event/{id}/statistics": {
+          "type": "dict",
+          "keys": [
+            "statistics"
+          ]
+        },
+        "event/{id}/lineups": {
+          "type": "dict",
+          "keys": [
+            "confirmed",
+            "home",
+            "away",
+            "statisticalVersion"
+          ]
+        },
+        "event/{id}/incidents": {
+          "type": "dict",
+          "keys": [
+            "incidents",
+            "home",
+            "away"
+          ]
+        },
+        "event/{id}/h2h": {
+          "type": "dict",
+          "keys": [
+            "teamDuel",
+            "managerDuel"
+          ]
+        }
+      }
+    }
+  },
+  "decision": {
+    "best_candidate": "pysofascore",
+    "secondary_candidate": "ScraperFC",
+    "not_recommended_as_primary": "tunjayoff_sofascore_scraper",
+    "reason": "pysofascore exposes direct event-level methods for statistics, lineups, incidents, shotmap/xG, graph, and best-player data. ScraperFC is also strong for team/player stats, shots/xG, heatmaps, and momentum, but incidents are not directly exposed in the validated API surface. tunjayoff is an app-style scraper and only validated core details/statistics/lineups/incidents/h2h."
+  },
+  "constraints": [
+    "All three options remain unofficial Sofascore scraping paths.",
+    "Do not write rows to normalized, model, or public API without authorization, field stability review, source terms review, id mapping, and rate-limit rules.",
+    "PPDA is not directly provided; it can only be derived if event-level pass and defensive-action inputs are verified separately.",
+    "This validation used one public documentation sample event and must be repeated on World Cup/international-team events before any broader use."
+  ]
+}
