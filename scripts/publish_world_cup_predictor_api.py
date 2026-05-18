@@ -311,6 +311,7 @@ def main() -> None:
     fixtures = load_json(PUBLIC_DIR / "fixtures.json")
     results = load_json(PUBLIC_DIR / "results.json")
     standings = load_json(PUBLIC_DIR / "standings.json")
+    venues = load_json(PUBLIC_DIR / "venues.json")
     host_city_profiles = load_json(PUBLIC_DIR / "host-city-profiles.json")
     players = load_json(PUBLIC_DIR / "players.json")
     rosters = load_json(PUBLIC_DIR / "rosters.json")
@@ -364,6 +365,7 @@ def main() -> None:
         "fixtures.json": fixtures,
         "results.json": results,
         "standings.json": standings,
+        "venues.json": venues,
         "host-city-profiles.json": host_city_profiles,
         "players.json": players,
         "rosters.json": rosters,
@@ -433,6 +435,7 @@ def main() -> None:
             "fixtures": fixtures,
             "results": results,
             "standings": standings,
+            "venues": venues,
             "host_city_profiles": host_city_profiles,
             "players": players,
             "rosters": rosters,
@@ -472,6 +475,7 @@ def main() -> None:
             "fixtures": payload_size(fixtures),
             "results": payload_size(results),
             "standings": payload_size(standings),
+            "venues": payload_size(venues),
             "host_city_profiles": payload_size(host_city_profiles),
             "players": payload_size(players),
             "rosters": payload_size(rosters),

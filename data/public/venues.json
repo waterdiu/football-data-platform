@@ -1,0 +1,560 @@
+[
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "arrowhead-stadium",
+    "venue_name_en": "Arrowhead Stadium",
+    "venue_name_zh": null,
+    "display_name": "Arrowhead Stadium",
+    "host_city_id": "kansas-city",
+    "site_city_key": "Kansas City",
+    "city_name_en": "Kansas City",
+    "city_name_zh": "堪萨斯城",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/Chicago",
+    "latitude": 39.0489,
+    "longitude": -94.4839,
+    "fixture_count": 6,
+    "fixture_stage_counts": {
+      "group": 4,
+      "round_of_32": 1,
+      "quarterfinal": 1
+    },
+    "fixture_venue_names": [
+      "堪萨斯城球场（Arrowhead Stadium）"
+    ],
+    "aliases": [
+      "Arrowhead Stadium",
+      "堪萨斯城球场（Arrowhead Stadium）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/kansas-city"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "at-and-t-stadium",
+    "venue_name_en": "AT&T Stadium",
+    "venue_name_zh": null,
+    "display_name": "AT&T Stadium",
+    "host_city_id": "dallas",
+    "site_city_key": "Dallas",
+    "city_name_en": "Dallas",
+    "city_name_zh": "达拉斯",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/Chicago",
+    "latitude": 32.7473,
+    "longitude": -97.0945,
+    "fixture_count": 9,
+    "fixture_stage_counts": {
+      "group": 5,
+      "round_of_32": 2,
+      "round_of_16": 1,
+      "semifinal": 1
+    },
+    "fixture_venue_names": [
+      "达拉斯球场（AT&T Stadium）"
+    ],
+    "aliases": [
+      "AT&T Stadium",
+      "达拉斯球场（AT&T Stadium）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/dallas"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "bc-place-vancouver",
+    "venue_name_en": "BC Place",
+    "venue_name_zh": null,
+    "display_name": "BC Place",
+    "host_city_id": "vancouver",
+    "site_city_key": "Vancouver",
+    "city_name_en": "Vancouver",
+    "city_name_zh": "温哥华",
+    "country_en": "Canada",
+    "country_zh": "加拿大",
+    "timezone": "America/Vancouver",
+    "latitude": 49.2768,
+    "longitude": -123.1119,
+    "fixture_count": 7,
+    "fixture_stage_counts": {
+      "group": 5,
+      "round_of_32": 1,
+      "round_of_16": 1
+    },
+    "fixture_venue_names": [
+      "BC Place 温哥华球场"
+    ],
+    "aliases": [
+      "BC Place",
+      "BC Place 温哥华球场"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/vancouver"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "bmo-field",
+    "venue_name_en": "BMO Field",
+    "venue_name_zh": null,
+    "display_name": "BMO Field",
+    "host_city_id": "toronto",
+    "site_city_key": "Toronto",
+    "city_name_en": "Toronto",
+    "city_name_zh": "多伦多",
+    "country_en": "Canada",
+    "country_zh": "加拿大",
+    "timezone": "America/Toronto",
+    "latitude": 43.6332,
+    "longitude": -79.4186,
+    "fixture_count": 6,
+    "fixture_stage_counts": {
+      "group": 5,
+      "round_of_32": 1
+    },
+    "fixture_venue_names": [
+      "多伦多球场（BMO Field）"
+    ],
+    "aliases": [
+      "BMO Field",
+      "多伦多球场（BMO Field）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/toronto"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "estadio-akron",
+    "venue_name_en": "Estadio Akron",
+    "venue_name_zh": null,
+    "display_name": "Estadio Akron",
+    "host_city_id": "guadalajara",
+    "site_city_key": "Guadalajara",
+    "city_name_en": "Guadalajara",
+    "city_name_zh": "瓜达拉哈拉",
+    "country_en": "Mexico",
+    "country_zh": "墨西哥",
+    "timezone": "America/Mexico_City",
+    "latitude": 20.6817,
+    "longitude": -103.4626,
+    "fixture_count": 4,
+    "fixture_stage_counts": {
+      "group": 4
+    },
+    "fixture_venue_names": [
+      "瓜达拉哈拉球场（Estadio Akron）"
+    ],
+    "aliases": [
+      "Estadio Akron",
+      "瓜达拉哈拉球场（Estadio Akron）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/guadalajara"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "estadio-azteca",
+    "venue_name_en": "Estadio Azteca",
+    "venue_name_zh": null,
+    "display_name": "Estadio Azteca",
+    "host_city_id": "mexico-city",
+    "site_city_key": "Mexico City",
+    "city_name_en": "Mexico City",
+    "city_name_zh": "墨西哥城",
+    "country_en": "Mexico",
+    "country_zh": "墨西哥",
+    "timezone": "America/Mexico_City",
+    "latitude": 19.3029,
+    "longitude": -99.1504,
+    "fixture_count": 5,
+    "fixture_stage_counts": {
+      "group": 3,
+      "round_of_32": 1,
+      "round_of_16": 1
+    },
+    "fixture_venue_names": [
+      "墨西哥城球场（Estadio Azteca）"
+    ],
+    "aliases": [
+      "Estadio Azteca",
+      "墨西哥城球场（Estadio Azteca）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/mexico-city"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "estadio-bbva",
+    "venue_name_en": "Estadio BBVA",
+    "venue_name_zh": null,
+    "display_name": "Estadio BBVA",
+    "host_city_id": "monterrey",
+    "site_city_key": "Monterrey",
+    "city_name_en": "Monterrey",
+    "city_name_zh": "蒙特雷",
+    "country_en": "Mexico",
+    "country_zh": "墨西哥",
+    "timezone": "America/Monterrey",
+    "latitude": 25.6682,
+    "longitude": -100.2447,
+    "fixture_count": 4,
+    "fixture_stage_counts": {
+      "group": 3,
+      "round_of_32": 1
+    },
+    "fixture_venue_names": [
+      "蒙特雷球场（Estadio BBVA）"
+    ],
+    "aliases": [
+      "Estadio BBVA",
+      "蒙特雷球场（Estadio BBVA）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/monterrey"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "gillette-stadium",
+    "venue_name_en": "Gillette Stadium",
+    "venue_name_zh": null,
+    "display_name": "Gillette Stadium",
+    "host_city_id": "boston",
+    "site_city_key": "Boston",
+    "city_name_en": "Boston",
+    "city_name_zh": "波士顿",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/New_York",
+    "latitude": 42.0909,
+    "longitude": -71.2643,
+    "fixture_count": 7,
+    "fixture_stage_counts": {
+      "group": 5,
+      "round_of_32": 1,
+      "quarterfinal": 1
+    },
+    "fixture_venue_names": [
+      "波士顿球场（Gillette Stadium）"
+    ],
+    "aliases": [
+      "Gillette Stadium",
+      "波士顿球场（Gillette Stadium）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/boston"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "hard-rock-stadium",
+    "venue_name_en": "Hard Rock Stadium",
+    "venue_name_zh": null,
+    "display_name": "Hard Rock Stadium",
+    "host_city_id": "miami",
+    "site_city_key": "Miami",
+    "city_name_en": "Miami",
+    "city_name_zh": "迈阿密",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/New_York",
+    "latitude": 25.958,
+    "longitude": -80.2389,
+    "fixture_count": 7,
+    "fixture_stage_counts": {
+      "group": 4,
+      "round_of_32": 1,
+      "quarterfinal": 1,
+      "third_place": 1
+    },
+    "fixture_venue_names": [
+      "迈阿密球场（Hard Rock Stadium）"
+    ],
+    "aliases": [
+      "Hard Rock Stadium",
+      "迈阿密球场（Hard Rock Stadium）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/miami"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "levis-stadium",
+    "venue_name_en": "Levi's Stadium",
+    "venue_name_zh": null,
+    "display_name": "Levi's Stadium",
+    "host_city_id": "san-francisco-bay-area",
+    "site_city_key": "San Francisco Bay Area",
+    "city_name_en": "San Francisco Bay Area",
+    "city_name_zh": "旧金山湾区",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/Los_Angeles",
+    "latitude": 37.403,
+    "longitude": -121.97,
+    "fixture_count": 6,
+    "fixture_stage_counts": {
+      "group": 5,
+      "round_of_32": 1
+    },
+    "fixture_venue_names": [
+      "旧金山湾区球场（Levi's Stadium）"
+    ],
+    "aliases": [
+      "Levi's Stadium",
+      "旧金山湾区球场（Levi's Stadium）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/san-francisco-bay-area"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "lincoln-financial-field",
+    "venue_name_en": "Lincoln Financial Field",
+    "venue_name_zh": null,
+    "display_name": "Lincoln Financial Field",
+    "host_city_id": "philadelphia",
+    "site_city_key": "Philadelphia",
+    "city_name_en": "Philadelphia",
+    "city_name_zh": "费城",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/New_York",
+    "latitude": 39.9008,
+    "longitude": -75.1675,
+    "fixture_count": 6,
+    "fixture_stage_counts": {
+      "group": 5,
+      "round_of_16": 1
+    },
+    "fixture_venue_names": [
+      "费城球场（Lincoln Financial Field）"
+    ],
+    "aliases": [
+      "Lincoln Financial Field",
+      "费城球场（Lincoln Financial Field）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/philadelphia"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "lumen-field",
+    "venue_name_en": "Lumen Field",
+    "venue_name_zh": null,
+    "display_name": "Lumen Field",
+    "host_city_id": "seattle",
+    "site_city_key": "Seattle",
+    "city_name_en": "Seattle",
+    "city_name_zh": "西雅图",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/Los_Angeles",
+    "latitude": 47.5952,
+    "longitude": -122.3316,
+    "fixture_count": 6,
+    "fixture_stage_counts": {
+      "group": 4,
+      "round_of_32": 1,
+      "round_of_16": 1
+    },
+    "fixture_venue_names": [
+      "西雅图球场（Lumen Field）"
+    ],
+    "aliases": [
+      "Lumen Field",
+      "西雅图球场（Lumen Field）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/seattle"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "mercedes-benz-stadium",
+    "venue_name_en": "Mercedes-Benz Stadium",
+    "venue_name_zh": null,
+    "display_name": "Mercedes-Benz Stadium",
+    "host_city_id": "atlanta",
+    "site_city_key": "Atlanta",
+    "city_name_en": "Atlanta",
+    "city_name_zh": "亚特兰大",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/New_York",
+    "latitude": 33.7554,
+    "longitude": -84.4008,
+    "fixture_count": 8,
+    "fixture_stage_counts": {
+      "group": 5,
+      "round_of_32": 1,
+      "round_of_16": 1,
+      "semifinal": 1
+    },
+    "fixture_venue_names": [
+      "亚特兰大球场（Mercedes-Benz Stadium）"
+    ],
+    "aliases": [
+      "Mercedes-Benz Stadium",
+      "亚特兰大球场（Mercedes-Benz Stadium）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/atlanta"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "metlife-stadium",
+    "venue_name_en": "MetLife Stadium",
+    "venue_name_zh": null,
+    "display_name": "MetLife Stadium",
+    "host_city_id": "new-york-new-jersey",
+    "site_city_key": "New York New Jersey",
+    "city_name_en": "New York New Jersey",
+    "city_name_zh": "纽约/新泽西",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/New_York",
+    "latitude": 40.8135,
+    "longitude": -74.0745,
+    "fixture_count": 8,
+    "fixture_stage_counts": {
+      "group": 5,
+      "round_of_32": 1,
+      "round_of_16": 1,
+      "final": 1
+    },
+    "fixture_venue_names": [
+      "纽约新泽西球场（MetLife Stadium）"
+    ],
+    "aliases": [
+      "MetLife Stadium",
+      "纽约新泽西球场（MetLife Stadium）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/new-york-new-jersey"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "nrg-stadium",
+    "venue_name_en": "NRG Stadium",
+    "venue_name_zh": null,
+    "display_name": "NRG Stadium",
+    "host_city_id": "houston",
+    "site_city_key": "Houston",
+    "city_name_en": "Houston",
+    "city_name_zh": "休斯敦",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/Chicago",
+    "latitude": 29.6847,
+    "longitude": -95.4107,
+    "fixture_count": 7,
+    "fixture_stage_counts": {
+      "group": 5,
+      "round_of_32": 1,
+      "round_of_16": 1
+    },
+    "fixture_venue_names": [
+      "休斯敦球场（NRG Stadium）"
+    ],
+    "aliases": [
+      "NRG Stadium",
+      "休斯敦球场（NRG Stadium）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/houston"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  },
+  {
+    "competition_id": "fifa_world_cup",
+    "season_id": "2026",
+    "venue_id": "sofi-stadium",
+    "venue_name_en": "SoFi Stadium",
+    "venue_name_zh": null,
+    "display_name": "SoFi Stadium",
+    "host_city_id": "los-angeles",
+    "site_city_key": "Los Angeles",
+    "city_name_en": "Los Angeles",
+    "city_name_zh": "洛杉矶",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "timezone": "America/Los_Angeles",
+    "latitude": 33.9535,
+    "longitude": -118.3392,
+    "fixture_count": 8,
+    "fixture_stage_counts": {
+      "group": 5,
+      "round_of_32": 2,
+      "quarterfinal": 1
+    },
+    "fixture_venue_names": [
+      "洛杉矶球场（SoFi Stadium）"
+    ],
+    "aliases": [
+      "SoFi Stadium",
+      "洛杉矶球场（SoFi Stadium）"
+    ],
+    "source_status": "platform_config_plus_fifa_host_city_patch",
+    "source_urls": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/los-angeles"
+    ],
+    "updated_at": "2026-05-18T00:00:00Z"
+  }
+]

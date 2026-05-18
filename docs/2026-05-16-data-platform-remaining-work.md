@@ -437,6 +437,7 @@ Current status:
 - Player external facts are now partially filled from dcaribou Transfermarkt via Reep `key_transfermarkt`: 197 external-fact rows, 190 with club/caps/goals, 197 with DOB/age, 196 with display `impact_proxy_score`.
 - Staff external facts are now partially filled from Reep coach rows: 44 external-fact rows, 43 with nationality and 44 with DOB/age.
 - Player `shirt_number`, true `absence_impact_pct`, coach `appointed_at`, and coach `contract_until` remain `pending_source` because current official roster/staff patches and audited third-party sources do not contain reliable values.
+- Venue profiles are now published from `configs/venues/world_cup_2026.json`, host-city profiles, and fixtures: 16 venues, 104 linked fixtures, stable `venue_id` / `host_city_id`, and aliases for display-name variants.
 
 Remaining work:
 
@@ -446,6 +447,7 @@ Remaining work:
 - Keep `runtime-summary.json.referee_profile` as `missing_referee_assignment` until actual World Cup match referee assignments are imported.
 - Import an audited roster source with player shirt number and minutes before enabling true absence impact percentages.
 - Import audited FA/FIFA/official coach profile sources before filling `appointed_at` and `contract_until`.
+- Cross-check venue capacity/opened-year/surface/home-team fields against FIFA stadium pages or official stadium pages before adding them to `venues.json`.
 
 Acceptance criteria:
 

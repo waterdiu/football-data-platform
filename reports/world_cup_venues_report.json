@@ -1,0 +1,27 @@
+{
+  "status": "published",
+  "rows": 16,
+  "fixture_count_total": 104,
+  "venue_ids": [
+    "arrowhead-stadium",
+    "at-and-t-stadium",
+    "bc-place-vancouver",
+    "bmo-field",
+    "estadio-akron",
+    "estadio-azteca",
+    "estadio-bbva",
+    "gillette-stadium",
+    "hard-rock-stadium",
+    "levis-stadium",
+    "lincoln-financial-field",
+    "lumen-field",
+    "mercedes-benz-stadium",
+    "metlife-stadium",
+    "nrg-stadium",
+    "sofi-stadium"
+  ],
+  "outputs": {
+    "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_venues_master.json",
+    "public": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/venues.json"
+  }
+}

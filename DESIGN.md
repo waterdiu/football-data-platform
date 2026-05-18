@@ -226,6 +226,7 @@ football-data-platform/
 - `team_world_cup_history`
 - `team_recent_matches`
 - `host_city_profiles`
+- `venues`
 - `model lineups`
 - `model odds_snapshots`
 - `model injuries`
@@ -557,6 +558,7 @@ Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
 - `team_world_cup_history` 当前从 `data/raw/openfootball/worldcup-json/{year}/worldcup.json` 计算 48 队完整已结束世界杯正赛历史，覆盖 1930-2022；2026 已晋级作为 `qualified_not_started` 计入 `summary.appearances`，但不计入总场次、胜平负、进失球。`source_status=available` 表示已有历史参赛记录，`source_status=available_no_prior_appearances` 表示历史无已结束世界杯正赛记录但 2026 已晋级。
 - 历史世界杯战绩来源优先级：openfootball 历史世界杯结果作为当前结构化主源；FIFA 官方历史资料、RSSSF、Kaggle international/world cup results 可作为后续交叉校验；Wikipedia/DBpedia 仅作为人工校验辅助。
 - `host_city_profiles` 当前由 `data/patches/world_cup_2026_host_city_profiles.manual.json` 导入，覆盖 16 个主办城市；字段包含长期 `city_id` slug、与 `worldcup/2026` 现有路由兼容的 `site_city_key`、中英文城市/区域/国家、时区、短标签、气候/足球文化/交通/城市特点摘要、主场馆 ID 和来源 URL。人口字段在未接入审计统计源前保持 `null`。
+- `venues` 当前由 `configs/venues/world_cup_2026.json`、`host-city-profiles.json` 和 `fixtures.json` 合并生成，发布 16 个标准场馆 profile；字段包含稳定 `venue_id`、`host_city_id`、`site_city_key`、坐标、时区、承办比赛数、阶段分布和 `aliases`。Vancouver 统一为 `venue_id=bc-place-vancouver`、`host_city_id=vancouver`，旧展示名 `BC Place 温哥华球场` 保留在 `aliases`。
 - `worldcup/2026` 展示站 P0 不展示赔率，不要求比赛中实时事件；正赛事件、阵容、技术统计按赛后一次性采集和发布设计。
 
 官方名单导入规则：
