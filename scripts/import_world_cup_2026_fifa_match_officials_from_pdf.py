@@ -34,6 +34,52 @@ ROLE_ZH = {
     "assistant_referee": "助理裁判",
     "video_match_official": "视频比赛官员",
 }
+CONFEDERATION_BY_ASSOCIATION = {
+    "ALG": "CAF",
+    "ARG": "CONMEBOL",
+    "AUS": "AFC",
+    "BRA": "CONMEBOL",
+    "CAN": "CONCACAF",
+    "CHI": "CONMEBOL",
+    "CHN": "AFC",
+    "COL": "CONMEBOL",
+    "CRC": "CONCACAF",
+    "EGY": "CAF",
+    "ENG": "UEFA",
+    "ESP": "UEFA",
+    "FRA": "UEFA",
+    "GAB": "CAF",
+    "GER": "UEFA",
+    "HON": "CONCACAF",
+    "ITA": "UEFA",
+    "JAM": "CONCACAF",
+    "JOR": "AFC",
+    "JPN": "AFC",
+    "KSA": "AFC",
+    "MAR": "CAF",
+    "MEX": "CONCACAF",
+    "MTN": "CAF",
+    "NED": "UEFA",
+    "NOR": "UEFA",
+    "NZL": "OFC",
+    "PAR": "CONMEBOL",
+    "PER": "CONMEBOL",
+    "POL": "UEFA",
+    "POR": "UEFA",
+    "QAT": "AFC",
+    "ROU": "UEFA",
+    "RSA": "CAF",
+    "SLV": "CONCACAF",
+    "SOM": "CAF",
+    "SUI": "UEFA",
+    "SVN": "UEFA",
+    "SWE": "UEFA",
+    "UAE": "AFC",
+    "URU": "CONMEBOL",
+    "USA": "CONCACAF",
+    "UZB": "AFC",
+    "VEN": "CONMEBOL",
+}
 EXPECTED_COUNTS = {
     "referee": 52,
     "assistant_referee": 88,
@@ -93,6 +139,7 @@ def normalize_rows(rows: list[dict], *, updated_at: str) -> list[dict]:
         role = str(row["role"])
         name = str(row["name"])
         association_code = str(row["association_code"])
+        confederation = CONFEDERATION_BY_ASSOCIATION.get(association_code)
         official_id = f"official:fifa-world-cup:2026:{role}:{slugify(name)}"
         if official_id in seen_ids:
             raise ValueError(f"Duplicate official_id: {official_id}")
@@ -108,7 +155,7 @@ def normalize_rows(rows: list[dict], *, updated_at: str) -> list[dict]:
                 "country_code": association_code,
                 "nationality": association_code,
                 "association_code": association_code,
-                "confederation": None,
+                "confederation": confederation,
                 "roles": [role],
                 "role": role,
                 "role_zh": ROLE_ZH[role],

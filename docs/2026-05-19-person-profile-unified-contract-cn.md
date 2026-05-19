@@ -304,6 +304,7 @@ flowchart LR
 | 伤停/停赛 | 状态行 + 新闻 evidence | 低到中 | prematch news、API-FOOTBALL Free 受限 | 新闻只做 evidence |
 | 裁判历史画像 | 已有英超样本 | 中 | football-data.co.uk / predictor assets | 不是世界杯单场指派 |
 | 世界杯比赛官员名单 | 已有 | 高 | FIFA 官方 PDF | 170 人，含 52 主裁、88 助理裁判、30 视频比赛官员 |
+| 主裁所属协会/大洲足联 | 已有 | 高 | FIFA 官方 PDF + 平台协会映射 | 52 名 FIFA 主裁 `association_code/confederation` 已齐 |
 | 裁判 DOB/age | 部分已有 | 中 | Wikidata 高置信身份 probe | 52 名 FIFA 主裁中 44 名已补 DOB/age；低置信、无 DOB 或非完整日期候选不发布 |
 | 世界杯单场裁判指派 | 缺 | 待官方 | FIFA match centre/report | 需赛前逐场公布 |
 | 技术统计/xG/评分 | 实验可拿 | 低 | Sofascore wrappers | 不进生产 |
