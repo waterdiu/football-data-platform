@@ -9,6 +9,7 @@
 - `docs/2026-05-19-api-football-pro-usage-runbook-cn.md`
 - `docs/2026-05-19-data-source-validation-and-collection-plan-cn.md`
 - `docs/2026-05-19-data-source-research-status-cn.md`
+- `docs/2026-05-19-world-cup-odds-readiness-runbook-cn.md`
 - `reports/data-quality.json`
 - `reports/world_cup_pre_tournament_readiness.json`
 - `reports/world_cup_daily_action_items.json`

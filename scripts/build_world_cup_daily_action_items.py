@@ -21,7 +21,7 @@ def load_json(path: Path) -> Any:
 
 
 def make_item(check: dict[str, Any]) -> dict[str, Any]:
-    return {
+    item = {
         "id": check.get("id"),
         "title": check.get("title"),
         "phase": check.get("phase"),
@@ -30,6 +30,9 @@ def make_item(check: dict[str, Any]) -> dict[str, Any]:
         "detail": check.get("detail"),
         "next_action": check.get("next_action"),
     }
+    if check.get("id") == "runtime_odds":
+        item["runbook"] = "docs/2026-05-19-world-cup-odds-readiness-runbook-cn.md"
+    return item
 
 
 def bucket_for(check: dict[str, Any]) -> str:

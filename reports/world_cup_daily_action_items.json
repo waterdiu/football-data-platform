@@ -19,7 +19,8 @@
         "severity": "P0",
         "status": "attention",
         "detail": "runtime_odds_rows=0, odds_api_io_world_cup_candidates=0",
-        "next_action": "首场前 5 天重跑 Odds-API.io event scan；API-FOOTBALL Pro odds 只先验证，不直接作为强 Kelly/CLV。"
+        "next_action": "首场前 5 天重跑 Odds-API.io event scan；API-FOOTBALL Pro odds 只先验证，不直接作为强 Kelly/CLV。",
+        "runbook": "docs/2026-05-19-world-cup-odds-readiness-runbook-cn.md"
       }
     ],
     "wait_for_plan": [
@@ -127,6 +128,7 @@
         "status": "attention",
         "detail": "runtime_odds_rows=0, odds_api_io_world_cup_candidates=0",
         "next_action": "首场前 5 天重跑 Odds-API.io event scan；API-FOOTBALL Pro odds 只先验证，不直接作为强 Kelly/CLV。",
+        "runbook": "docs/2026-05-19-world-cup-odds-readiness-runbook-cn.md",
         "handoff_target": "data-platform/odds-source-research"
       }
     ],
@@ -195,7 +197,8 @@
       "severity": "P0",
       "status": "attention",
       "detail": "runtime_odds_rows=0, odds_api_io_world_cup_candidates=0",
-      "next_action": "首场前 5 天重跑 Odds-API.io event scan；API-FOOTBALL Pro odds 只先验证，不直接作为强 Kelly/CLV。"
+      "next_action": "首场前 5 天重跑 Odds-API.io event scan；API-FOOTBALL Pro odds 只先验证，不直接作为强 Kelly/CLV。",
+      "runbook": "docs/2026-05-19-world-cup-odds-readiness-runbook-cn.md"
     }
   ],
   "notes": [

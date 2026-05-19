@@ -75,6 +75,8 @@
 
 ### 4.3 赔率源验证矩阵
 
+赔率专项执行规则见 `docs/2026-05-19-world-cup-odds-readiness-runbook-cn.md`。该 runbook 是 `runtime_odds` daily action 的默认排障入口。
+
 | 源 | 当前状态 | 能拿什么 | 不能确认 / 问题 | 下一步 |
 |---|---|---|---|---|
 | Odds-API.io free | `verified_experimental` | 足球 ML、Spread/AH、Totals/OU；Sbobet + Bet365 | 免费层 2 家书商；World Cup/成年国家队未可见；不能做共识/CLV | 世界杯首场前 5 天重跑 event scan |
