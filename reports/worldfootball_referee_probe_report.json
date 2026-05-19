@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-05-19T12:58:00Z",
+  "status": "probe_only",
+  "source": "worldfootball.net",
+  "source_url": "https://www.worldfootball.net/",
+  "policy": {
+    "production_write_allowed": false,
+    "allowed_outputs": [
+      "reports"
+    ],
+    "promotion_required_checks": [
+      "terms_review",
+      "cloudflare_access_strategy",
+      "stable_id_mapping",
+      "field_stability",
+      "sample_thresholds"
+    ]
+  },
+  "live_probe": {
+    "url": "https://www.worldfootball.net/referee_summary/szymon-marciniak/1/1/",
+    "result": "blocked_by_cloudflare_challenge",
+    "usable_from_current_runtime": false,
+    "notes": "Direct curl access returned a Cloudflare JavaScript challenge page, so this source is not currently automatable from the platform runtime without a compliant access strategy."
+  },
+  "indexed_evidence": {
+    "result": "search_index_confirms_structured_referee_pages",
+    "sample_urls": [
+      "https://www.worldfootball.net/referee_summary/szymon-marciniak/1/1/",
+      "https://www.worldfootball.net/referee_summary/szymon-marciniak/real-madrid/",
+      "https://www.worldfootball.net/referees/champions-league-2021-2022/1/"
+    ],
+    "observed_fields": [
+      "competition",
+      "season",
+      "matches",
+      "yellow_cards",
+      "second_yellow_cards",
+      "red_cards",
+      "referee_date_of_birth",
+      "country"
+    ]
+  },
+  "decision": {
+    "current_status": "research_only",
+    "recommendation": "Do not build a production collector yet. Keep worldfootball.net as a secondary evidence source behind WorldReferee, API-FOOTBALL Pro, and SportMonks unless a compliant, stable access path is confirmed."
+  }
+}

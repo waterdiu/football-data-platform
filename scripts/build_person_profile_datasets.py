@@ -13,7 +13,6 @@ REPORTS_DIR = ROOT / "reports"
 
 DATASETS = {
     "person_team_staff_master.json": "team-staff.json",
-    "person_officials_master.json": "officials.json",
     "person_player_external_facts_master.json": "player-external-facts.json",
     "person_player_dcaribou_activity_master.json": "player-dcaribou-activity.json",
     "person_staff_external_facts_master.json": "staff-external-facts.json",
@@ -27,6 +26,7 @@ TEAM_RECENT_MATCHES_PATH = PUBLIC_DIR / "team-recent-matches.json"
 PLAYER_EXTERNAL_FACTS_PATH = NORMALIZED_DIR / "person_player_external_facts_master.json"
 PLAYER_ACTIVITY_FACTS_PATH = NORMALIZED_DIR / "person_player_dcaribou_activity_master.json"
 STAFF_EXTERNAL_FACTS_PATH = NORMALIZED_DIR / "person_staff_external_facts_master.json"
+WORLD_CUP_OFFICIALS_PATH = NORMALIZED_DIR / "world_cup_2026_match_officials_master.json"
 
 
 def load_json(path: Path) -> object:
@@ -570,6 +570,31 @@ def load_staff_external_facts() -> dict[str, dict]:
     }
 
 
+def load_world_cup_officials() -> list[dict]:
+    if not WORLD_CUP_OFFICIALS_PATH.exists():
+        return []
+    return ensure_list(load_json(WORLD_CUP_OFFICIALS_PATH), "world_cup_2026_match_officials_master.json")
+
+
+def merge_officials(*official_groups: list[dict]) -> list[dict]:
+    merged_by_id: dict[str, dict] = {}
+    for group in official_groups:
+        for row in group:
+            official_id = str(row.get("official_id") or row.get("person_id") or "")
+            if not official_id:
+                continue
+            merged_by_id[official_id] = row
+    return sorted(
+        merged_by_id.values(),
+        key=lambda row: (
+            str(row.get("competition_id") or ""),
+            str(row.get("role") or ""),
+            str(row.get("country_code") or row.get("country") or ""),
+            str(row.get("name") or ""),
+        ),
+    )
+
+
 def index_row(profile: dict) -> dict:
     return {
         "person_id": profile.get("person_id"),
@@ -598,7 +623,9 @@ def main() -> None:
 
     team_staff = ensure_list(load_json(NORMALIZED_DIR / "person_team_staff_master.json"), "person_team_staff_master.json")
     players = ensure_list(load_json(NORMALIZED_DIR / "world_cup_2026_players_master.json"), "world_cup_2026_players_master.json")
-    officials = ensure_list(load_json(NORMALIZED_DIR / "person_officials_master.json"), "person_officials_master.json")
+    historical_officials = ensure_list(load_json(NORMALIZED_DIR / "person_officials_master.json"), "person_officials_master.json")
+    world_cup_officials = load_world_cup_officials()
+    officials = merge_officials(historical_officials, world_cup_officials)
     official_ratings = ensure_list(load_json(NORMALIZED_DIR / "person_official_ratings_master.json"), "person_official_ratings_master.json")
     official_ratings_by_entity = rating_by_entity_id(official_ratings)
     team_recent_by_id = load_team_recent_matches()
@@ -634,6 +661,7 @@ def main() -> None:
         "coach-profiles.json": coach_profiles,
         "player-profiles.json": player_profiles,
         "referee-profiles.json": referee_profiles,
+        "officials.json": officials,
     }
 
     counts: dict[str, int] = {}
@@ -660,6 +688,10 @@ def main() -> None:
             "coach_external_fact_source": "withqwerty/reep coach rows for nationality/date_of_birth/age",
             "player_external_fact_source": "dcaribou/transfermarkt-datasets via Reep key_transfermarkt mapping",
             "player_missing_field_policy": "explicit null plus pending_source; never fill with zero or inferred facts",
+            "official_sources": {
+                "world_cup_2026": "FIFA official match officials list; roster only, not per-match assignments.",
+                "premier_league_historical": "football-data.co.uk referee sample metrics for historical style profiles.",
+            },
         },
         "counts": counts,
         "outputs": outputs,

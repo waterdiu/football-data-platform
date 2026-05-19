@@ -475,6 +475,7 @@ football-data-platform/
 
 - `docs/2026-05-16-football-person-profile-design-cn.md`
 - `docs/2026-05-19-person-profile-unified-contract-cn.md`
+- `docs/2026-05-19-referee-data-source-research-cn.md`
 
 当前已落地：
 
@@ -493,10 +494,12 @@ football-data-platform/
 - `data/public/coach-profiles.json`
 - `data/public/player-profiles.json`
 - `data/public/referee-profiles.json`
+- `data/public/officials.json`
 - `api/worldcup/2026/core/people-index.json`
 - `api/worldcup/2026/core/coach-profiles.json`
 - `api/worldcup/2026/core/player-profiles.json`
 - `api/worldcup/2026/core/referee-profiles.json`
+- `api/worldcup/2026/core/officials.json`
 
 这些 profile 以 `direct` / `derived` / `distilled` 三层组织。当前 `direct` 来自官方主教练、已导入官方名单球员，以及英超历史裁判样本中的裁判姓名；`derived` 可由可复现历史样本计算，`distilled` 在样本不足或来源未接入时必须保持 `pending_source` / `insufficient_sample`，不能由前端或模型主观补写。人物 `kpis[]` 中 `label` 保留展示文案，三色数据性质使用 `data_tier` / `data_tier_label` / `status` 表示。
 
@@ -513,7 +516,8 @@ Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
 - `player-profiles.json` 对当前 234 名已导入官方名单球员输出 `field_coverage`、`impact_box` 和 `pending_source` basis。当前通过 Reep `key_transfermarkt` 映射接入 dcaribou Transfermarkt 离线数据，补充 `player-external-facts.json` 197 条；其中 190 条有俱乐部、caps、goals，197 条有 DOB/age，196 条有展示型 `impact_proxy_score`。`shirt_number` 仍无可靠来源，保持 `null + pending_source`。这些第三方事实只补充 profile，不覆盖官方 roster master。
 - `player-dcaribou-activity.json` 从本地人工下载的 dcaribou DuckDB 窄表导入，当前覆盖 234 名已映射或兜底匹配球员：198 名有 appearance/minutes 汇总，222 名有 historical lineup number candidates，215 名有 events 汇总，175 名有 valuation history。该数据只作为历史补充事实和人物页 activity 模块，不是 FIFA 2026 官方号码、确认首发或真实缺阵影响百分比。
 - `coach-profiles.json` 通过 Reep coach rows 补充 `staff-external-facts.json` 44 条；当前 43 名主教练有 nationality，44 名有 DOB/age。`appointed_at` 与 `contract_until` 仍无可靠结构化来源，保持 `pending_source`。
-- `referee-profiles.json` 发布 50 名英超历史裁判样本，`direct.assigned_matches=[]` 且 `assignment_status=missing_referee_assignment`。这仍不是世界杯裁判名单或单场裁判指派。
+- `officials.json` 合并两类来源：FIFA 官方 2026 世界杯 170 名比赛官员名单，以及英超历史裁判样本。FIFA 名单由 `scripts/import_world_cup_2026_fifa_match_officials_from_pdf.py` 从 `downloaded_files/fifa_world_cup_2026_match_officials.pdf` 导入，计数固定为 52 名主裁判、88 名助理裁判、30 名视频比赛官员。该名单仍不是单场裁判指派。
+- `referee-profiles.json` 当前发布 219 条可渲染官方/裁判 profile：170 条 FIFA 世界杯比赛官员名单 + 49 条英超历史裁判样本唯一人物。历史样本源文件有一条大小写重复的 `L Mason/l Mason`，合并后按唯一 `official_id` 保留 49 条历史人物。`direct.assigned_matches=[]`，世界杯条目 `assignment_status=pending_match_assignment`。
 - `sections[]` 支持 `identity`、`data_grid`、`kpi_strip`、`ability_bars`、`impact_box`、`career_summary`、`production_metrics`、`officiating_metrics` 和 `style_distillation`，消费端只负责渲染和隐藏缺失模块。
 
 设计原则：
@@ -527,7 +531,8 @@ Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
 - GitHub 人物数据源调研结论：`dcaribou/transfermarkt-datasets` 许可证为 CC0-1.0，可继续作为生产候选扩展；`salimt/football-datasets` 字段有价值但仓库缺少明确 license metadata，只能作为 probe，不得写入 normalized/public；`statsbomb/open-data` 可用于风格规则研究，但不能视为 2026 全量人物覆盖。
 - 人物数据源就绪度由 `scripts/build_person_data_source_readiness.py` 生成到 `reports/person_data_source_readiness.json`。截至 2026-05-18，本地已可读取人工下载的 dcaribou DuckDB，包含 `games`、`appearances`、`game_events`、`game_lineups`、`club_games` 等表；因此可生成历史出场、分钟、进球助攻、牌、历史号码候选和身价历史。`shirt_number` 与真实 `absence_impact_pct` 仍不能由该源直接生成：前者缺少 FIFA 官方 2026 号码，后者还需要伤停/可用性 evidence 与球队表现反事实样本。`salimt/football-datasets` 仍是 probe-only：GitHub license metadata 为 null，根目录没有 `LICENSE`，`contents/LICENSE` 返回 404，递归 tree 未发现 license/copying/notice 文件。
 - `scripts/import_dcaribou_person_activity.py` 依赖可选 Python 包 `duckdb`。该脚本不在默认 Pages 发布流水线中运行；需要手动或 CI 提供本地 DuckDB 原始文件后再执行。原始 `.duckdb` 文件不提交 Git。对 Reep 缺少 `key_transfermarkt` 的球员，脚本只允许 dcaribou 本地 DuckDB 的“国家 + 姓名倒序唯一匹配”兜底；歧义或模糊罗马化不会自动写入。该规则为韩国队补齐 22 名 activity 记录；`Kim Taehyeon` 与 `Lee Kihyuk` 已通过 `person_id_map.external_unresolved.json` 的人工证据补入 Transfermarkt provider refs。未自动写入的候选和证据要求写入 `reports/dcaribou_person_activity_unresolved_report.json`，该报告是人工审计输入，不发布为 public API；当前 unresolved count 为 0。
-- `officials` / `official-ratings` 当前由 `scripts/build_referee_sample_profiles.py` 从 `data/predictor-assets/files/processed/premier_league_matches.csv` 的 `referee`、红黄牌和赛果字段派生，发布 50 名英超历史裁判样本画像。该数据的 `source_status=historical_sample_only`，只能作为模型解释和裁判风格样本，不能解释为 2026 世界杯裁判名单、裁判国籍或单场裁判指派。
+- `officials` 当前由两个 master 合并发布：`person_officials_master.json` 保存英超历史裁判样本，`world_cup_2026_match_officials_master.json` 保存 FIFA 官方世界杯比赛官员名单。`official-ratings` 仍只由 `scripts/build_referee_sample_profiles.py` 从 `data/predictor-assets/files/processed/premier_league_matches.csv` 的 `referee`、红黄牌和赛果字段派生。英超样本 `source_status=historical_sample_only`，只能作为模型解释和裁判风格样本；FIFA 名单 `source_status=official_fifa_match_official_list`，只能作为世界杯官员 roster，不能解释为单场指派。
+- `reports/world_cup_referee_profile_gap_report.json` 由 `scripts/build_world_cup_referee_profile_gap_report.py` 生成，用 52 名 FIFA 世界杯主裁和本地 `official-ratings` 做样本覆盖对账。当前只有 Michael Oliver 与 Anthony Taylor 命中本地英超历史样本，且样本数超过 50；其余 50 名主裁仍需 worldfootball.net、WorldReferee 或 API-FOOTBALL Pro 按比赛聚合补国际/洲际执法样本后，才能形成强画像。
 - 能力评分必须保留 `source`、`sample_size`、`time_window`、`confidence`。
 - 风格画像必须由规则标签和 evidence 生成，不允许仅凭姓名或主观印象生成。
 - 教练和裁判画像只描述行为倾向，不做价值判断。
@@ -781,7 +786,7 @@ predictor 兼容数据当前边界：
 - runtime odds、lineups、injuries、weather 和 prematch context 的生产采集责任已迁到平台；模型项目只消费平台输出并按缺失情况降权
 - 最新模型侧回报：`generate_predictions.py` 在严格平台模式下成功生成 104 场世界杯预测并写入平台 inbox
 - 最新模型侧回报：世界杯本地赔率/上下文采集默认停用，返回 `delegated_to_platform`
-- 当前平台 runtime 缺口：`odds_snapshots`、`lineups`、`injuries`、`weather`、`referee_profiles`，以及 `team_advanced_stats` 中的过程型字段。`schedule_load`、`home_away_splits` 与 `team_advanced_stats` 已有基础版：由 `fixtures.json` + `team-recent-matches.json` 生成，覆盖 104 场比赛和 48 支球队；旅行距离仍因上一场比赛经纬度缺失而标记为 `missing_previous_match_coordinates`。
+- 当前平台 runtime 缺口：`odds_snapshots`、`lineups`、`injuries`、`weather`、`match_official_assignments/referee_profile_snapshots`，以及 `team_advanced_stats` 中的过程型字段。`schedule_load`、`home_away_splits` 与 `team_advanced_stats` 已有基础版：由 `fixtures.json` + `team-recent-matches.json` 生成，覆盖 104 场比赛和 48 支球队；旅行距离仍因上一场比赛经纬度缺失而标记为 `missing_previous_match_coordinates`。
 - 模型侧运行期数据需求基线见 `docs/2026-05-17-predictor-runtime-data-requirements-cn.md`，P0 为确认首发、AH/OU 快照、伤停/球员影响力、天气；P1 为控球率/传球成功率/PPDA 等高级技术统计和裁判画像。模型 D2/D3/D6 新增需求的缺口评估见 `docs/2026-05-18-predictor-post-model-data-gap-assessment-cn.md`，其中将数据分为已具备、现有渠道可补、待验证和明确不可作为当前免费/生产源四类。
 - `runtime-summary.json` 是 predictor 运行期优先入口，由 `scripts/publish_world_cup_predictor_api.py` 从 fixtures、lineups、injuries、weather、odds、team context metrics 和 data coverage 聚合生成。即使底层运行期数据为空，也必须对 104 场输出稳定行并标记缺失状态，避免模型层把缺失值当作 0。
 - `schedule-load.json`、`team-home-away-splits.json` 与 `team-advanced-stats.json` 由 `scripts/build_predictor_context_metrics.py` 生成并发布到 predictor API。`schedule-load` 当前提供 `days_since_last_match`、`matches_last_7/14/30_days`、上一场比赛文本地点和 coverage；`team-home-away-splits` 当前提供最近 10/20 场 overall/home/away/neutral split；`team-advanced-stats` 当前只提供最近 10 场基础 form proxy（进失球、胜平负率），控球、传球、PPDA、射门和 xG 等过程型字段必须保持 `null + missing_advanced_fields_reason`。国家队中立场必须保持 neutral，不得强行计入主客场。

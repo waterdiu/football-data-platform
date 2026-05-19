@@ -346,8 +346,8 @@ def build_report() -> dict[str, Any]:
                 "reason": "StatsBomb and FBref samples can validate rules, but 2026 roster coverage is incomplete.",
             },
             "referee_worldcup_assignments": {
-                "status": "pending_official_source",
-                "reason": "Historical EPL referee samples exist, but FIFA World Cup 2026 assignments are not available in platform data.",
+                "status": "partial",
+                "reason": "FIFA World Cup 2026 match officials roster is available in platform data; per-match assignments still require FIFA match centre/report.",
             },
         },
     }

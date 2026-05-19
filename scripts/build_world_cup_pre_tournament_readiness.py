@@ -17,6 +17,11 @@ GENERATED_AT = "2026-05-19T00:00:00Z"
 EXPECTED_FIXTURES = 104
 EXPECTED_TEAMS = 48
 EXPECTED_HOST_CITIES = 16
+EXPECTED_MATCH_OFFICIALS = {
+    "referee": 52,
+    "assistant_referee": 88,
+    "video_match_official": 30,
+}
 
 
 def load_json(path: Path) -> Any:
@@ -52,6 +57,14 @@ def status_counts(items: list[Any], field: str = "source_status") -> dict[str, i
         value = str(item.get(field) or "unknown")
         counts[value] = counts.get(value, 0) + 1
     return dict(sorted(counts.items()))
+
+
+def source_rows(payload: Any, source_status: str) -> list[dict[str, Any]]:
+    return [
+        item
+        for item in rows(payload)
+        if isinstance(item, dict) and item.get("source_status") == source_status
+    ]
 
 
 def nested(payload: Any, *path: str) -> Any:
@@ -99,6 +112,7 @@ def main() -> None:
     player_profiles = load_json(PUBLIC_API_DIR / "core" / "player-profiles.json")
     coach_profiles = load_json(PUBLIC_API_DIR / "core" / "coach-profiles.json")
     referee_profiles = load_json(PUBLIC_API_DIR / "core" / "referee-profiles.json")
+    officials = load_json(PUBLIC_API_DIR / "core" / "officials.json")
     predictions = load_json(PUBLIC_API_DIR / "predictor" / "predictions-source.json")
     runtime_summary = load_json(PUBLIC_API_DIR / "predictor" / "runtime-summary.json")
 
@@ -211,17 +225,24 @@ def main() -> None:
         next_action="appointed_at/contract_until 仍需足协公告、FIFA profile、Wikidata 或 Transfermarkt manager profile 交叉校验。",
     )
 
+    fifa_officials = source_rows(officials, "official_fifa_match_official_list")
+    fifa_official_counts = status_counts(fifa_officials, "role")
     referee_count = row_count(referee_profiles)
+    expected_official_total = sum(EXPECTED_MATCH_OFFICIALS.values())
     report_check(
         checks,
         check_id="world_cup_referee_profiles",
         phase="P1_people",
-        status="pending_window" if referee_count == 0 else "pass",
+        status="pass" if fifa_official_counts == EXPECTED_MATCH_OFFICIALS else "attention",
         severity="P1",
-        title="世界杯裁判名单与画像",
-        detail=f"referee_profiles={referee_count}",
-        evidence={"referee_profiles": referee_count},
-        next_action="等待 FIFA 正式裁判名单/单场指派；样本不足时只展示，不入强模型结论。",
+        title="世界杯比赛官员名单与画像",
+        detail=f"fifa_officials={len(fifa_officials)}/{expected_official_total}, referee_profiles={referee_count}",
+        evidence={
+            "expected_official_counts": EXPECTED_MATCH_OFFICIALS,
+            "actual_official_counts": fifa_official_counts,
+            "referee_profiles": referee_count,
+        },
+        next_action="FIFA 官方 170 名比赛官员名单已导入；单场裁判指派仍需等 FIFA match centre/report 后补。",
     )
 
     if isinstance(api_football_probe, dict):

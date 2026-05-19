@@ -197,6 +197,23 @@
   - 输入：`person_team_staff_master.json`、`world_cup_2026_players_master.json`、`person_officials_master.json`
   - 输出：`people-index.json`、`coach-profiles.json`、`player-profiles.json`、`referee-profiles.json`
   - 当前定位：人物详情页 Phase 1 direct profile 契约。派生分析保持 `pending_source`，风格蒸馏保持 `insufficient_sample`
+
+- `import_world_cup_2026_fifa_match_officials_from_pdf.py`
+  - 输入：`downloaded_files/fifa_world_cup_2026_match_officials.pdf`
+  - 输出：`world_cup_2026_match_officials_master.json`
+  - 用途：导入 FIFA 官方 2026 世界杯 170 名比赛官员名单；这是名单，不是单场裁判指派。
+
+- `build_world_cup_referee_profile_gap_report.py`
+  - 输入：`world_cup_2026_match_officials_master.json`、`person_official_ratings_master.json`
+  - 输出：`reports/world_cup_referee_profile_gap_report.json`
+  - 用途：逐一标记 52 名 FIFA 世界杯主裁的本地历史样本覆盖、样本门槛和推荐补源。
+
+- `probe_worldreferee_referees.py`
+  - 输入：`world_cup_2026_match_officials_master.json`
+  - 输出：`reports/worldreferee_referee_probe_report.json`
+  - 可选输出：`data/raw/experimental/referee_sources/worldreferee/*.html`
+  - 用途：小样本验证 WorldReferee 对 2026 世界杯主裁的页面覆盖、字段稳定性和逐场历史样本。该脚本是 `probe_only`，不得直接写入 `normalized` 或 public API。
+  - 当前定位：免费裁判画像补源验证工具。通过条款、ID 映射、字段稳定性和样本门槛审查前，只允许写 `reports` 或 `data/raw/experimental`。
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
   - 先发布平台 own 的 `worldcup/2026` 兼容数据镜像

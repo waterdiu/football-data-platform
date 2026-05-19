@@ -104,7 +104,7 @@
 | 球员基础事实 | FIFA/足协名单、Transfermarkt dataset、Reep | 9 队已补，第三方字段可用 | 剩余 39 队官方名单 | 等官方名单，第三方只补 DOB/club/height 等 |
 | 球员近期俱乐部表现 | FBref EPL local asset、Sofascore experimental | FBref 31 个候选 | 非英超、xG/xA/评分缺 | 继续找授权/稳定联赛源 |
 | 主教练基础事实 | FIFA/manual/Reep | 已有 48 队 | appointed_at/contract_until | Wikidata/足协公告/Transfermarkt manager profile 交叉验证 |
-| 裁判画像 | football-data.co.uk EPL | 英超样本可用 | 世界杯裁判名单/指派 | 等 FIFA 官方公布后接入 |
+| 裁判/比赛官员 | FIFA 官方 PDF、football-data.co.uk EPL、worldfootball.net/WorldReferee/API-FOOTBALL Pro 待 probe | 170 名世界杯比赛官员名单 + 英超样本可用；52 名主裁仅 2 名有本地强样本 | 世界杯单场指派、50 名主裁国际样本 | 等 FIFA match centre/report 逐场公布；补源必须先过稳定性/条款/ID 映射验证 |
 
 ## 5. 采集频率策略
 

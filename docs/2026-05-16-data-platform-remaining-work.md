@@ -434,7 +434,9 @@ Current status:
 - `scripts/build_referee_sample_profiles.py` builds historical Premier League referee samples from `data/predictor-assets/files/processed/premier_league_matches.csv`.
 - Published sample: 50 officials, 50 official ratings, 4,139 matches, 33 ratings with `sample_size >= 20`.
 - Current rows use `source_status=historical_sample_only`. They are model/report style samples only, not FIFA World Cup 2026 referee assignments.
-- Person profile Phase 1.5 is published for page rendering: 48 coach profiles have recent-team derived metrics from `team-recent-matches.json`; 234 player profiles expose direct field coverage and impact boxes; 50 referee profiles expose `assigned_matches=[]` and `assignment_status=missing_referee_assignment`.
+- FIFA World Cup 2026 match officials roster is imported from `downloaded_files/fifa_world_cup_2026_match_officials.pdf` by `scripts/import_world_cup_2026_fifa_match_officials_from_pdf.py`: 52 referees, 88 assistant referees, and 30 video match officials. This is an official roster only, not per-match assignments.
+- `scripts/build_world_cup_referee_profile_gap_report.py` writes `reports/world_cup_referee_profile_gap_report.json`. Current result: 52 FIFA referees, 2 with local historical samples (`Michael Oliver`, `Anthony Taylor`), 50 needing external profile sources before strong model/report conclusions.
+- Person profile Phase 1.5 is published for page rendering: 48 coach profiles have recent-team derived metrics from `team-recent-matches.json`; 234 player profiles expose direct field coverage and impact boxes; 219 referee/official profiles expose `assigned_matches=[]` and `assignment_status=pending_match_assignment` or `missing_referee_assignment`.
 - Player external facts are now partially filled from dcaribou Transfermarkt via Reep `key_transfermarkt`: 197 external-fact rows, 190 with club/caps/goals, 197 with DOB/age, 196 with display `impact_proxy_score`.
 - Staff external facts are now partially filled from Reep coach rows: 44 external-fact rows, 43 with nationality and 44 with DOB/age.
 - Player `shirt_number`, true `absence_impact_pct`, coach `appointed_at`, and coach `contract_until` remain `pending_source` because current official roster/staff patches and audited third-party sources do not contain reliable values.
@@ -448,7 +450,7 @@ Current status:
 Remaining work:
 
 - Import FIFA World Cup 2026 referee assignments when available.
-- Add international referee samples from FIFA/worldfootball/public match records where legally usable.
+- Add international referee samples from FIFA/worldfootball.net/WorldReferee/API-FOOTBALL Pro fixture aggregation where legally usable and stable.
 - Emit `missing_referee_assignment` when no referee is assigned and `low_referee_sample` when sample size is below 20.
 - Keep `runtime-summary.json.referee_profile` as `missing_referee_assignment` until actual World Cup match referee assignments are imported.
 - Import an audited roster source with player shirt number and minutes before enabling true absence impact percentages.

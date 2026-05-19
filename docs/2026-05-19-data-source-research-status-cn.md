@@ -42,7 +42,7 @@
 | 阵容/首发 | P0 | 状态行已提供 | 稳定契约，事实待赛前 | `predictor/lineups.json` | 现在是 `outside_lineup_window`；确认首发只能赛前 60-90 分钟。 |
 | 伤停/停赛 | P0 | 状态行 + 新闻 evidence | 低到中 | `predictor/injuries.json` | API-FOOTBALL free 对 2026 World Cup 受限；新闻只做 evidence。 |
 | 天气 | P1 | 状态行已提供 | 中 | `predictor/weather.json` | Open-Meteo fallback 已有；进入 16 天预报窗口后才有真实值。 |
-| 裁判画像 | P1 | 英超历史样本已提供 | 中 | `core/referee-profiles.json`、`official-ratings.json` | 不是世界杯裁判指派；世界杯单场裁判需等官方 match centre/report。 |
+| 裁判/比赛官员 | P1 | FIFA 名单已提供，英超历史样本已提供 | 中高 | `core/officials.json`、`core/referee-profiles.json`、`official-ratings.json`、`reports/world_cup_referee_profile_gap_report.json`、`reports/worldreferee_referee_probe_report.json`、`reports/worldfootball_referee_probe_report.json` | 170 名 FIFA 官方比赛官员已导入；52 名主裁中只有 2 名命中本地强样本；WorldReferee 已有全量 52 人 probe，52 页可访问，41 人有概要统计，合计 849 条历史样本，但仍是 experimental；worldfootball.net 有结构化裁判页但当前 runtime 被 Cloudflare challenge 阻断；SportMonks 免费层不覆盖世界杯；数据源调研见 `docs/2026-05-19-referee-data-source-research-cn.md`。 |
 | 赔率 1X2/AH/OU/CLV | P0 for betting model | 缺生产源 | 低 | `predictor/odds-snapshots.json` | 赔率是当前最弱环节，见第 5 节。 |
 | 球员影响力/风格 | P1/P2 | 基础 proxy | 低到中 | `player-profiles.json`、dcaribou activity | 缺真实 xG/xA、评分、伤停影响反事实样本。 |
 
@@ -320,7 +320,7 @@ FBref live 抓取验证结果：
 | 球员 club/shirt_number/DOB/age | 部分已有 | 官方名单 + dcaribou/Reep 补充 | 真实 2026 官方号码需最终名单。 |
 | 球员 caps/goals | 部分已有 | 官方/历史活动补充 | 覆盖不均。 |
 | 球员影响力 | proxy | dcaribou activity、FBref/Sofascore 实验 | 缺真实缺阵反事实、评分/xG/xA 全量覆盖。 |
-| 裁判画像 | 英超样本已有 | football-data.co.uk / predictor assets | 世界杯裁判单场指派需等 FIFA match centre/report。 |
+| 裁判/比赛官员 | FIFA 名单 + 英超样本已有 | FIFA 官方 PDF、football-data.co.uk / predictor assets | 52 名主裁中 50 名缺国际/洲际执法样本；世界杯裁判单场指派需等 FIFA match centre/report。 |
 | 裁判风格 | 部分派生 | 英超历史红黄牌/点球/胜平负 | 不能直接套到世界杯裁判。 |
 
 ## 7. 不能获取或暂不生产化的原因分类

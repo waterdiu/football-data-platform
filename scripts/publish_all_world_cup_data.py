@@ -19,6 +19,7 @@ PIPELINE = [
     "import_world_cup_rosters_from_manual_patch.py",
     "build_world_cup_roster_datasets.py",
     "import_world_cup_team_staff_from_manual_patch.py",
+    "import_world_cup_2026_fifa_match_officials_from_pdf.py",
     "build_team_history_datasets.py",
     "build_person_profile_datasets.py",
     "build_world_cup_injury_evidence.py",

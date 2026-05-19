@@ -120,7 +120,7 @@ flowchart LR
 | `api/worldcup/2026/core/people-index.json` | 已有 | 人物索引、搜索、跳转 |
 | `api/worldcup/2026/core/coach-profiles.json` | 已有 | 主教练详情 |
 | `api/worldcup/2026/core/player-profiles.json` | 已有 | 球员详情 |
-| `api/worldcup/2026/core/referee-profiles.json` | 已有 | 裁判样本详情 |
+| `api/worldcup/2026/core/referee-profiles.json` | 已有 | FIFA 官员名单 + 裁判样本详情 |
 | `api/worldcup/2026/core/player-external-facts.json` | 已有 | 球员第三方补充事实 |
 | `api/worldcup/2026/core/staff-external-facts.json` | 已有 | 教练第三方补充事实 |
 
@@ -302,8 +302,9 @@ flowchart LR
 | 球员真实 absence_impact | 缺 | 低 | 需要伤停/首发/表现反事实样本 | 暂只能 proxy 或模型估算 |
 | 确认首发 | 未到窗口 | 待采 | API-FOOTBALL Pro / FIFA match centre | 赛前 60-90 分钟 |
 | 伤停/停赛 | 状态行 + 新闻 evidence | 低到中 | prematch news、API-FOOTBALL Free 受限 | 新闻只做 evidence |
-| 裁判历史画像 | 已有英超样本 | 中 | football-data.co.uk / predictor assets | 不是世界杯裁判名单 |
-| 世界杯裁判名单/指派 | 缺 | 待官方 | FIFA 官方 | 需赛前公布 |
+| 裁判历史画像 | 已有英超样本 | 中 | football-data.co.uk / predictor assets | 不是世界杯单场指派 |
+| 世界杯比赛官员名单 | 已有 | 高 | FIFA 官方 PDF | 170 人，含 52 主裁、88 助理裁判、30 视频比赛官员 |
+| 世界杯单场裁判指派 | 缺 | 待官方 | FIFA match centre/report | 需赛前逐场公布 |
 | 技术统计/xG/评分 | 实验可拿 | 低 | Sofascore wrappers | 不进生产 |
 | PPDA | 缺 | 低 | 无稳定生产源 | 保持 `null` |
 
@@ -394,7 +395,7 @@ P1：
 
 1. 接入 API-FOOTBALL Pro 可用的首发、伤停、技术统计、球员统计。
 2. 用 dcaribou/FBref 候选生成球员 ability/importance proxy。
-3. 裁判从英超历史样本扩展到世界杯官方裁判名单和指派。
+3. 裁判从 FIFA 官方名单扩展到世界杯单场指派和执法画像。
 4. 教练 `appointed_at / contract_until` 找可靠结构化来源。
 
 P2：
@@ -408,8 +409,7 @@ P2：
 - 不能用 `0` 表示缺失；缺失必须为 `null` 并带 `source_status/status_reason`。
 - `shirt_number` 必须来自 FIFA/足协官方 2026 名单，历史号码只能作为候选。
 - `absence_impact_score` 不能由身价直接硬算成确定值；缺反事实样本时只能是 proxy 或 pending。
-- 裁判英超历史样本不能冒充世界杯裁判名单或单场指派。
+- 裁判英超历史样本不能冒充世界杯单场指派；FIFA 官方名单也只能表示入选名单，不能表示某场比赛的裁判安排。
 - 教练发布会/NLP 只做 evidence、报告解释和 Kelly 降权，不直接改 1X2。
 - Sofascore、FBref live、WhoScored、雷速、Odds-API.io 等未生产化来源只能写 `reports` 或 `data/raw/experimental`。
 - 所有时间字段使用 UTC ISO 8601。
-

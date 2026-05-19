@@ -1,0 +1,4114 @@
+{
+  "generated_at": "2026-05-19T11:45:00.463519+00:00",
+  "status": "requires_source_expansion",
+  "scope": "FIFA World Cup 2026 appointed referees only; assistant referees and video match officials are listed but not profiled here.",
+  "summary": {
+    "fifa_referees": 52,
+    "local_historical_sample_matches": 2,
+    "report_explanation_ready": 2,
+    "style_distillation_ready": 2,
+    "strong_model_signal_ready": 2,
+    "needs_external_profile_source": 50
+  },
+  "source_policy": {
+    "production_now": [
+      "FIFA official match officials list",
+      "football-data.co.uk local historical samples"
+    ],
+    "probe_before_public": [
+      "worldfootball.net referee pages",
+      "WorldReferee",
+      "API-FOOTBALL Pro referee/fixture aggregation"
+    ],
+    "not_allowed": [
+      "unreviewed reverse-engineered pages into normalized/public"
+    ]
+  },
+  "rows": [
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:ghorbal-mustapha",
+      "name": "GHORBAL Mustapha",
+      "display_order_name": "Mustapha Ghorbal",
+      "association_code": "ALG",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+      "name": "FALCON PEREZ Yael",
+      "display_order_name": "Yael Falcon Perez",
+      "association_code": "ARG",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:herrera-dario",
+      "name": "HERRERA Dario",
+      "display_order_name": "Dario Herrera",
+      "association_code": "ARG",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:tello-facundo",
+      "name": "TELLO Facundo",
+      "display_order_name": "Facundo Tello",
+      "association_code": "ARG",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:faghani-alireza",
+      "name": "FAGHANI Alireza",
+      "display_order_name": "Alireza Faghani",
+      "association_code": "AUS",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:claus-raphael",
+      "name": "CLAUS Raphael",
+      "display_order_name": "Raphael Claus",
+      "association_code": "BRA",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
+      "name": "RAMON ABATTI",
+      "display_order_name": "Ramon Abatti",
+      "association_code": "BRA",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
+      "name": "WILTON SAMPAIO",
+      "display_order_name": "Wilton Sampaio",
+      "association_code": "BRA",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:fischer-drew",
+      "name": "FISCHER Drew",
+      "display_order_name": "Drew Fischer",
+      "association_code": "CAN",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:garay-cristian",
+      "name": "GARAY Cristian",
+      "display_order_name": "Cristian Garay",
+      "association_code": "CHI",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+      "name": "MA Ning",
+      "display_order_name": "Ning Ma",
+      "association_code": "CHN",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:rojas-andres",
+      "name": "ROJAS Andres",
+      "display_order_name": "Andres Rojas",
+      "association_code": "COL",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+      "name": "CALDERON Juan",
+      "display_order_name": "Juan Calderon",
+      "association_code": "CRC",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+      "name": "MOHAMED Amin",
+      "display_order_name": "Amin Mohamed",
+      "association_code": "EGY",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:oliver-michael",
+      "name": "OLIVER Michael",
+      "display_order_name": "Michael Oliver",
+      "association_code": "ENG",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "available",
+        "rating_entity_id": "referee:premier-league:m-oliver",
+        "sample_size": 310,
+        "metrics": {
+          "matches": 310,
+          "yellow_cards": 1007,
+          "red_cards": 42,
+          "yellow_cards_per_match": 3.2484,
+          "red_cards_per_match": 0.1355,
+          "fouls_per_match": null,
+          "penalties_per_match": null,
+          "home_win_rate": 0.4129,
+          "away_win_rate": 0.3613,
+          "draw_rate": 0.2258,
+          "avg_goals": 2.9677,
+          "first_match_date": "2015-08-08",
+          "last_match_date": "2026-04-25",
+          "seasons": [
+            "2015-2016",
+            "2016-2017",
+            "2017-2018",
+            "2018-2019",
+            "2019-2020",
+            "2020-2021",
+            "2021-2022",
+            "2022-2023",
+            "2023-2024",
+            "2024-2025",
+            "2025-2026"
+          ]
+        },
+        "dimension_ratings": {
+          "card_strictness": 58.4,
+          "home_away_asymmetry": 10.32,
+          "goal_environment": 84.79
+        },
+        "style_tags": [],
+        "source_scope": "premier_league"
+      },
+      "sample_gate": {
+        "sample_size": 310,
+        "can_explain_report": true,
+        "can_distill_style": true,
+        "can_strong_model_signal": true,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_premier_league_sample",
+          "status": "available_local",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_win_rate",
+            "draw_rate",
+            "avg_goals"
+          ],
+          "limitations": [
+            "club-league sample only",
+            "not World Cup assignment",
+            "limited foul/penalty/VAR fields"
+          ]
+        },
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:taylor-anthony",
+      "name": "TAYLOR Anthony",
+      "display_order_name": "Anthony Taylor",
+      "association_code": "ENG",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "available",
+        "rating_entity_id": "referee:premier-league:a-taylor",
+        "sample_size": 322,
+        "metrics": {
+          "matches": 322,
+          "yellow_cards": 1152,
+          "red_cards": 39,
+          "yellow_cards_per_match": 3.5776,
+          "red_cards_per_match": 0.1211,
+          "fouls_per_match": null,
+          "penalties_per_match": null,
+          "home_win_rate": 0.4317,
+          "away_win_rate": 0.3385,
+          "draw_rate": 0.2298,
+          "avg_goals": 3.0,
+          "first_match_date": "2015-08-09",
+          "last_match_date": "2026-04-25",
+          "seasons": [
+            "2015-2016",
+            "2016-2017",
+            "2017-2018",
+            "2018-2019",
+            "2019-2020",
+            "2020-2021",
+            "2021-2022",
+            "2022-2023",
+            "2023-2024",
+            "2024-2025",
+            "2025-2026"
+          ]
+        },
+        "dimension_ratings": {
+          "card_strictness": 62.31,
+          "home_away_asymmetry": 18.64,
+          "goal_environment": 85.71
+        },
+        "style_tags": [],
+        "source_scope": "premier_league"
+      },
+      "sample_gate": {
+        "sample_size": 322,
+        "can_explain_report": true,
+        "can_distill_style": true,
+        "can_strong_model_signal": true,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_premier_league_sample",
+          "status": "available_local",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_win_rate",
+            "draw_rate",
+            "avg_goals"
+          ],
+          "limitations": [
+            "club-league sample only",
+            "not World Cup assignment",
+            "limited foul/penalty/VAR fields"
+          ]
+        },
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
+      "name": "HERNANDEZ Alejandro",
+      "display_order_name": "Alejandro Hernandez",
+      "association_code": "ESP",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:letexier-francois",
+      "name": "LETEXIER Francois",
+      "display_order_name": "Francois Letexier",
+      "association_code": "FRA",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:turpin-clement",
+      "name": "TURPIN Clement",
+      "display_order_name": "Clement Turpin",
+      "association_code": "FRA",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:atcho-pierre",
+      "name": "ATCHO Pierre",
+      "display_order_name": "Pierre Atcho",
+      "association_code": "GAB",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:zwayer-felix",
+      "name": "ZWAYER Felix",
+      "display_order_name": "Felix Zwayer",
+      "association_code": "GER",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
+      "name": "MARTINEZ Hector Said",
+      "display_order_name": "Hector Said Martinez",
+      "association_code": "HON",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
+      "name": "MARIANI Maurizio",
+      "display_order_name": "Maurizio Mariani",
+      "association_code": "ITA",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:nation-oshane",
+      "name": "NATION Oshane",
+      "display_order_name": "Oshane Nation",
+      "association_code": "JAM",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:makhadmeh-adham",
+      "name": "MAKHADMEH Adham",
+      "display_order_name": "Adham Makhadmeh",
+      "association_code": "JOR",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
+      "name": "ARAKI Yusuke",
+      "display_order_name": "Yusuke Araki",
+      "association_code": "JPN",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+      "name": "AL TURAIS Khalid",
+      "display_order_name": "Khalid Al Turais",
+      "association_code": "KSA",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
+      "name": "JAYED Jalal",
+      "display_order_name": "Jalal Jayed",
+      "association_code": "MAR",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+      "name": "GARCIA Katia",
+      "display_order_name": "Katia Garcia",
+      "association_code": "MEX",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:ramos-cesar",
+      "name": "RAMOS Cesar",
+      "display_order_name": "Cesar Ramos",
+      "association_code": "MEX",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+      "name": "BEIDA Dahane",
+      "display_order_name": "Dahane Beida",
+      "association_code": "MTN",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:makkelie-danny",
+      "name": "MAKKELIE Danny",
+      "display_order_name": "Danny Makkelie",
+      "association_code": "NED",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:eskas-espen",
+      "name": "ESKAS Espen",
+      "display_order_name": "Espen Eskas",
+      "association_code": "NOR",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
+      "name": "KAWANA-WAUGH Campbell-Kirk",
+      "display_order_name": "Campbell-Kirk Kawana-Waugh",
+      "association_code": "NZL",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
+      "name": "BENITEZ Juan Gabriel",
+      "display_order_name": "Juan Gabriel Benitez",
+      "association_code": "PAR",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
+      "name": "ORTEGA Kevin",
+      "display_order_name": "Kevin Ortega",
+      "association_code": "PER",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
+      "name": "MARCINIAK Szymon",
+      "display_order_name": "Szymon Marciniak",
+      "association_code": "POL",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:pinheiro-joao",
+      "name": "PINHEIRO Joao",
+      "display_order_name": "Joao Pinheiro",
+      "association_code": "POR",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+      "name": "AL JASSIM Abdulrahman",
+      "display_order_name": "Abdulrahman Al Jassim",
+      "association_code": "QAT",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:kovacs-istvan",
+      "name": "KOVACS Istvan",
+      "display_order_name": "Istvan Kovacs",
+      "association_code": "ROU",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+      "name": "TOM Abongile",
+      "display_order_name": "Abongile Tom",
+      "association_code": "RSA",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+      "name": "BARTON Ivan",
+      "display_order_name": "Ivan Barton",
+      "association_code": "SLV",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
+      "name": "ARTAN Omar Abdulkadir",
+      "display_order_name": "Omar Abdulkadir Artan",
+      "association_code": "SOM",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
+      "name": "SCHAERER Sandro",
+      "display_order_name": "Sandro Schaerer",
+      "association_code": "SUI",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:vincic-slavko",
+      "name": "VINCIC Slavko",
+      "display_order_name": "Slavko Vincic",
+      "association_code": "SVN",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:nyberg-glenn",
+      "name": "NYBERG Glenn",
+      "display_order_name": "Glenn Nyberg",
+      "association_code": "SWE",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "football-data.co.uk_european_leagues",
+          "status": "candidate_backfill",
+          "fills": [
+            "yellow_cards",
+            "red_cards",
+            "home_away_outcomes",
+            "match_goals"
+          ],
+          "limitations": [
+            "coverage depends on referee appearing in supported European league CSVs"
+          ]
+        },
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:omar-al-ali",
+      "name": "OMAR AL ALI",
+      "display_order_name": "Omar Al Ali",
+      "association_code": "UAE",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:tejera-gustavo",
+      "name": "TEJERA Gustavo",
+      "display_order_name": "Gustavo Tejera",
+      "association_code": "URU",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:elfath-ismail",
+      "name": "ELFATH Ismail",
+      "display_order_name": "Ismail Elfath",
+      "association_code": "USA",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+      "name": "PENSO Tori",
+      "display_order_name": "Tori Penso",
+      "association_code": "USA",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:tantashev-ilgiz",
+      "name": "TANTASHEV Ilgiz",
+      "display_order_name": "Ilgiz Tantashev",
+      "association_code": "UZB",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:valenzuela-jesus",
+      "name": "VALENZUELA Jesus",
+      "display_order_name": "Jesus Valenzuela",
+      "association_code": "VEN",
+      "role": "referee",
+      "source_status": "official_fifa_match_official_list",
+      "local_historical_sample": {
+        "status": "missing",
+        "rating_entity_id": null,
+        "sample_size": 0,
+        "metrics": {},
+        "dimension_ratings": {},
+        "style_tags": [],
+        "source_scope": null
+      },
+      "sample_gate": {
+        "sample_size": 0,
+        "can_explain_report": false,
+        "can_distill_style": false,
+        "can_strong_model_signal": false,
+        "thresholds": {
+          "report_explanation": 20,
+          "style_distillation": 30,
+          "strong_model_signal": 50
+        }
+      },
+      "missing_fields_for_strong_profile": [
+        "international_match_history",
+        "fouls_per_match",
+        "penalties_per_match",
+        "var_intervention_profile",
+        "world_cup_match_assignments"
+      ],
+      "recommended_sources": [
+        {
+          "source": "worldfootball.net_referee_pages",
+          "status": "probe_required",
+          "fills": [
+            "match_history",
+            "cards",
+            "competition_scope"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "WorldReferee",
+          "status": "probe_required",
+          "fills": [
+            "international_match_history",
+            "cards",
+            "tournament_experience"
+          ],
+          "limitations": [
+            "terms/stability/id-mapping must be reviewed before normalized/public use"
+          ]
+        },
+        {
+          "source": "API-FOOTBALL Pro",
+          "status": "pending_plan_upgrade_probe",
+          "fills": [
+            "fixture_referee",
+            "events_cards",
+            "fixture_statistics_if_available"
+          ],
+          "limitations": [
+            "may require fixture-level aggregation; referee search/stat endpoints are not assumed"
+          ]
+        }
+      ]
+    }
+  ]
+}
