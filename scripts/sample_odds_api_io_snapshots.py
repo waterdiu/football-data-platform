@@ -153,7 +153,7 @@ def normalize_odds_rows(event: dict, payload: object, *, captured_at: str) -> li
     return rows
 
 
-def sample_events(*, key: str, bookmaker: str, limit: int) -> tuple[list[dict], dict]:
+def sample_events(*, key: str, bookmaker: str, limit: int, skip: int = 0) -> tuple[list[dict], dict]:
     url = api_url(
         "events",
         {
@@ -162,11 +162,36 @@ def sample_events(*, key: str, bookmaker: str, limit: int) -> tuple[list[dict], 
             "status": "pending,live",
             "bookmaker": bookmaker,
             "limit": limit,
+            "skip": skip,
         },
     )
     status, payload, error = fetch_json(url)
     events = payload if isinstance(payload, list) else []
-    return events[:limit], {"http_status": status, "error": error, "event_count": len(events)}
+    return events[:limit], {"http_status": status, "error": error, "event_count": len(events), "skip": skip, "limit": limit}
+
+
+def scan_event_pages(*, key: str, bookmaker: str, page_size: int, pages: int) -> tuple[list[dict], list[dict]]:
+    events: list[dict] = []
+    probes: list[dict] = []
+    seen_ids: set[str] = set()
+    for page in range(max(0, pages)):
+        skip = page * page_size
+        page_events, probe = sample_events(key=key, bookmaker=bookmaker, limit=page_size, skip=skip)
+        probe["page"] = page
+        probes.append(probe)
+        for event in page_events:
+            if not isinstance(event, dict) or event.get("id") is None:
+                continue
+            event_id = str(event["id"])
+            if event_id in seen_ids:
+                continue
+            seen_ids.add(event_id)
+            events.append(event)
+        if probe.get("http_status") and probe.get("http_status") != 200:
+            break
+        if len(page_events) < page_size:
+            break
+    return events, probes
 
 
 def sample_odds_for_events(*, key: str, events: list[dict], bookmakers: list[str], captured_at: str) -> tuple[list[dict], list[dict]]:
@@ -247,7 +272,16 @@ def build_report(*, captured_at: str, events_probe: dict, raw_events: list[dict]
     }
 
 
-def build_event_scan(events: list[dict], *, captured_at: str, bookmaker: str, requested_limit: int, events_probe: dict) -> dict:
+def build_event_scan(
+    events: list[dict],
+    *,
+    captured_at: str,
+    bookmaker: str,
+    requested_limit: int,
+    events_probe: dict | None = None,
+    events_probes: list[dict] | None = None,
+    pages: int | None = None,
+) -> dict:
     league_counts: dict[str, int] = {}
     status_counts: dict[str, int] = {}
     world_cup_candidates: list[dict] = []
@@ -289,7 +323,9 @@ def build_event_scan(events: list[dict], *, captured_at: str, bookmaker: str, re
         "normalized_write_allowed": False,
         "bookmaker_filter": bookmaker,
         "requested_limit": requested_limit,
+        "requested_pages": pages,
         "events_probe": events_probe,
+        "events_probes": events_probes or [],
         "event_count": len(events),
         "league_counts": league_counts,
         "status_counts": status_counts,
@@ -308,6 +344,8 @@ def build_event_scan(events: list[dict], *, captured_at: str, bookmaker: str, re
 def main() -> None:
     parser = argparse.ArgumentParser(description="Sample Odds-API.io AH/OU odds into raw experimental storage.")
     parser.add_argument("--limit", type=int, default=5, help="Number of football events to sample.")
+    parser.add_argument("--pages", type=int, default=1, help="Number of event pages to scan when --scan-events is enabled.")
+    parser.add_argument("--page-size", type=int, default=None, help="Event page size for --scan-events; defaults to --limit.")
     parser.add_argument("--bookmakers", default="Sbobet,Bet365", help="Comma-separated bookmaker names.")
     parser.add_argument("--scan-events", action="store_true", help="Only scan event coverage; do not fetch event odds.")
     parser.add_argument("--output-report", default=None)
@@ -335,14 +373,17 @@ def main() -> None:
         print(json.dumps({"probe_status": "skipped_missing_key", "report": str(report_path)}, ensure_ascii=False, indent=2))
         return
 
-    events, events_probe = sample_events(key=key, bookmaker=bookmakers[0], limit=args.limit)
     if args.scan_events:
+        page_size = args.page_size or args.limit
+        events, events_probes = scan_event_pages(key=key, bookmaker=bookmakers[0], page_size=page_size, pages=args.pages)
         report = build_event_scan(
             events,
             captured_at=captured_at,
             bookmaker=bookmakers[0],
-            requested_limit=args.limit,
-            events_probe=events_probe,
+            requested_limit=page_size,
+            events_probe=events_probes[0] if events_probes else None,
+            events_probes=events_probes,
+            pages=args.pages,
         )
         write_json(report_path, report)
         print(
@@ -359,6 +400,7 @@ def main() -> None:
             )
         )
         return
+    events, events_probe = sample_events(key=key, bookmaker=bookmakers[0], limit=args.limit)
     raw_events, normalized_rows = sample_odds_for_events(key=key, events=events, bookmakers=bookmakers, captured_at=captured_at)
     stamp = captured_at.replace(":", "").replace("+", "Z")
     write_json(raw_dir / f"odds-api-io-{stamp}.raw.json", {"captured_at": captured_at, "events": raw_events})
