@@ -296,7 +296,7 @@ flowchart LR
 | 教练近 10 场 W-D-L/GF/GA | 已有代理 | 中 | `team-recent-matches` | 不是完整执教生涯 |
 | 9 队官方名单 234 球员 | 已有 | 中 | FIFA/足协官方名单 | 剩余 39 队等官方最终名单 |
 | 球员 position/team/status | 已有 | 中高 | roster/player master | 可用于页面 P0 |
-| 球员 club/DOB/age/caps/goals | 部分已有 | 中 | dcaribou + Reep 映射 | 当前 199/234 有 DOB/age、192/234 有 club；第三方补充事实不覆盖官方 master |
+| 球员 club/DOB/age/caps/goals | 部分已有 | 中 | dcaribou + Reep 映射 + 已审计 activity TM ID | 当前 221/234 有 DOB/age、211/234 有 club；第三方补充事实不覆盖官方 master |
 | 球员 shirt_number | 缺 | 低 | 等 FIFA 官方名单号码 | dcaribou 历史号码不能当 2026 官方号码 |
 | 球员 ability/importance | 只有 proxy | 低到中 | dcaribou activity、FBref candidate | 不能强入模 |
 | 球员真实 absence_impact | 缺 | 低 | 需要伤停/首发/表现反事实样本 | 暂只能 proxy 或模型估算 |

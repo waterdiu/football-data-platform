@@ -9,6 +9,7 @@
     "source_refs": {
       "key_transfermarkt": "381950",
       "reep_id": "reep_pfaf09064",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -35,7 +36,7 @@
       "impact_proxy_score": 13.55,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:amadou-onana",
@@ -47,6 +48,7 @@
     "source_refs": {
       "key_transfermarkt": "485706",
       "reep_id": "reep_p7813ca1f",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -73,7 +75,7 @@
       "impact_proxy_score": 32.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:arthur-theate",
@@ -85,6 +87,7 @@
     "source_refs": {
       "key_transfermarkt": "368891",
       "reep_id": "reep_p7fd33746",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -111,7 +114,7 @@
       "impact_proxy_score": 22.7,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:axel-witsel",
@@ -123,6 +126,7 @@
     "source_refs": {
       "key_transfermarkt": "35047",
       "reep_id": "reep_p131973de",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -149,7 +153,7 @@
       "impact_proxy_score": 29.44,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:brandon-mechele",
@@ -161,6 +165,7 @@
     "source_refs": {
       "key_transfermarkt": "236168",
       "reep_id": "reep_p34d84246",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -187,7 +192,7 @@
       "impact_proxy_score": 3.85,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:charles-de-ketelaere",
@@ -199,6 +204,7 @@
     "source_refs": {
       "key_transfermarkt": "435772",
       "reep_id": "reep_p0209525e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -225,7 +231,7 @@
       "impact_proxy_score": 28.9,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:diego-moreira",
@@ -237,6 +243,7 @@
     "source_refs": {
       "key_transfermarkt": "655006",
       "reep_id": "reep_p51f19892",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -263,7 +270,7 @@
       "impact_proxy_score": 11.3,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:dodi-lukebakio",
@@ -275,6 +282,7 @@
     "source_refs": {
       "key_transfermarkt": "303259",
       "reep_id": "reep_p5e3ef796",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -301,7 +309,7 @@
       "impact_proxy_score": 20.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:hans-vanaken",
@@ -313,6 +321,7 @@
     "source_refs": {
       "key_transfermarkt": "137576",
       "reep_id": "reep_p61c9bc00",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -339,7 +348,7 @@
       "impact_proxy_score": 13.7,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:jeremy-doku",
@@ -351,6 +360,7 @@
     "source_refs": {
       "key_transfermarkt": "486049",
       "reep_id": "reep_p6acb85fd",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -377,7 +387,7 @@
       "impact_proxy_score": 51.35,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:joaquin-seys",
@@ -389,6 +399,7 @@
     "source_refs": {
       "key_transfermarkt": "981196",
       "reep_id": "reep_pec211cd7",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -415,7 +426,7 @@
       "impact_proxy_score": 1.36,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:kevin-de-bruyne",
@@ -427,6 +438,7 @@
     "source_refs": {
       "key_transfermarkt": "88755",
       "reep_id": "reep_p116e0d9d",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -453,7 +465,7 @@
       "impact_proxy_score": 44.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:koni-de-winter",
@@ -465,6 +477,7 @@
     "source_refs": {
       "key_transfermarkt": "490384",
       "reep_id": "reep_p3a2de72b",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -491,7 +504,7 @@
       "impact_proxy_score": 8.95,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:leandro-trossard",
@@ -503,6 +516,7 @@
     "source_refs": {
       "key_transfermarkt": "144028",
       "reep_id": "reep_p1eab9144",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -529,7 +543,7 @@
       "impact_proxy_score": 27.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:matias-fernandez-pardo",
@@ -541,6 +555,7 @@
     "source_refs": {
       "key_transfermarkt": "724129",
       "reep_id": "reep_p0f7597cb",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -567,7 +582,7 @@
       "impact_proxy_score": 1.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:maxim-de-cuyper",
@@ -579,6 +594,7 @@
     "source_refs": {
       "key_transfermarkt": "429915",
       "reep_id": "reep_p56d81ec4",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -605,7 +621,7 @@
       "impact_proxy_score": 18.65,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:mike-penders",
@@ -617,6 +633,7 @@
     "source_refs": {
       "key_transfermarkt": "834397",
       "reep_id": "reep_p90b85b40",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -643,7 +660,7 @@
       "impact_proxy_score": 1.6,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:nathan-ngoy",
@@ -655,6 +672,7 @@
     "source_refs": {
       "key_transfermarkt": "548254",
       "reep_id": "reep_p16c7706e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -681,7 +699,7 @@
       "impact_proxy_score": 2.6,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:nicolas-raskin",
@@ -693,6 +711,7 @@
     "source_refs": {
       "key_transfermarkt": "422763",
       "reep_id": "reep_p0dece94f",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -719,7 +738,7 @@
       "impact_proxy_score": 6.95,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:romelu-lukaku",
@@ -731,6 +750,7 @@
     "source_refs": {
       "key_transfermarkt": "96341",
       "reep_id": "reep_p140f5b33",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -757,7 +777,7 @@
       "impact_proxy_score": 49.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:senne-lammens",
@@ -769,6 +789,7 @@
     "source_refs": {
       "key_transfermarkt": "503883",
       "reep_id": "reep_p0928d9ea",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -795,7 +816,7 @@
       "impact_proxy_score": 15.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:thibaut-courtois",
@@ -807,6 +828,7 @@
     "source_refs": {
       "key_transfermarkt": "108390",
       "reep_id": "reep_p3595b098",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -833,7 +855,7 @@
       "impact_proxy_score": 41.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:thomas-meunier",
@@ -845,6 +867,7 @@
     "source_refs": {
       "key_transfermarkt": "100986",
       "reep_id": "reep_p72f1d154",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -871,7 +894,7 @@
       "impact_proxy_score": 23.58,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:timothy-castagne",
@@ -883,6 +906,7 @@
     "source_refs": {
       "key_transfermarkt": "262226",
       "reep_id": "reep_p7eb9b15b",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -909,7 +933,7 @@
       "impact_proxy_score": 22.1,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:youri-tielemans",
@@ -921,6 +945,7 @@
     "source_refs": {
       "key_transfermarkt": "249565",
       "reep_id": "reep_p2b31811c",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -947,7 +972,7 @@
       "impact_proxy_score": 45.35,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "belgium:player:zeno-debast",
@@ -959,6 +984,7 @@
     "source_refs": {
       "key_transfermarkt": "548193",
       "reep_id": "reep_p57f59cda",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -985,7 +1011,7 @@
       "impact_proxy_score": 24.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:amar-dedic",
@@ -997,6 +1023,7 @@
     "source_refs": {
       "key_transfermarkt": "519184",
       "reep_id": "reep_p833e2afa",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1023,7 +1050,7 @@
       "impact_proxy_score": 6.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:amar-memic",
@@ -1035,6 +1062,7 @@
     "source_refs": {
       "key_transfermarkt": "638990",
       "reep_id": "reep_p578e7f8f",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1061,7 +1089,7 @@
       "impact_proxy_score": 3.05,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:amir-hadziahmetovic",
@@ -1073,6 +1101,7 @@
     "source_refs": {
       "key_transfermarkt": "293213",
       "reep_id": "reep_p2410b1dd",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1099,7 +1128,7 @@
       "impact_proxy_score": 11.02,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:armin-gigovic",
@@ -1111,6 +1140,7 @@
     "source_refs": {
       "key_transfermarkt": "651269",
       "reep_id": "reep_pdb35cfee",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1137,7 +1167,7 @@
       "impact_proxy_score": 6.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:benjamin-tahirovic",
@@ -1149,6 +1179,7 @@
     "source_refs": {
       "key_transfermarkt": "787907",
       "reep_id": "reep_p8ba77803",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1175,7 +1206,7 @@
       "impact_proxy_score": 9.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:dennis-hadzikadunic",
@@ -1187,6 +1218,7 @@
     "source_refs": {
       "key_transfermarkt": "322065",
       "reep_id": "reep_p45f1a47d",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1213,7 +1245,7 @@
       "impact_proxy_score": 9.3,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:dzenis-burnic",
@@ -1225,6 +1257,7 @@
     "source_refs": {
       "key_transfermarkt": "251295",
       "reep_id": "reep_p74cd9df2",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1251,7 +1284,7 @@
       "impact_proxy_score": 4.83,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:edin-dzeko",
@@ -1263,6 +1296,7 @@
     "source_refs": {
       "key_transfermarkt": "28396",
       "reep_id": "reep_pbd9c51ad",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1289,7 +1323,7 @@
       "impact_proxy_score": 41.62,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:ermedin-demirovic",
@@ -1301,6 +1335,7 @@
     "source_refs": {
       "key_transfermarkt": "335457",
       "reep_id": "reep_pe6b3b775",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1327,7 +1362,7 @@
       "impact_proxy_score": 23.9,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:ermin-mahmic",
@@ -1339,6 +1374,7 @@
     "source_refs": {
       "key_transfermarkt": "803049",
       "reep_id": "reep_pc1efa8cf",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1365,7 +1401,7 @@
       "impact_proxy_score": 0.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:esmir-bajraktarevic",
@@ -1377,6 +1413,7 @@
     "source_refs": {
       "key_transfermarkt": "925862",
       "reep_id": "reep_p727e2cf8",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1403,7 +1440,7 @@
       "impact_proxy_score": 6.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:haris-tabakovic",
@@ -1415,6 +1452,7 @@
     "source_refs": {
       "key_transfermarkt": "203123",
       "reep_id": "reep_p5eeff686",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1441,7 +1479,7 @@
       "impact_proxy_score": 5.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:ivan-basic",
@@ -1453,6 +1491,7 @@
     "source_refs": {
       "key_transfermarkt": "620560",
       "reep_id": "reep_pf0a6c377",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1479,7 +1518,7 @@
       "impact_proxy_score": 4.35,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:ivan-sunjic",
@@ -1491,6 +1530,7 @@
     "source_refs": {
       "key_transfermarkt": "226097",
       "reep_id": "reep_p27db7ef7",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1517,7 +1557,7 @@
       "impact_proxy_score": 3.65,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:jovo-lukic",
@@ -1529,6 +1569,7 @@
     "source_refs": {
       "key_transfermarkt": "457738",
       "reep_id": "reep_p04555cc8",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1555,7 +1596,7 @@
       "impact_proxy_score": 0.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:kerim-alajbegovic",
@@ -1567,6 +1608,7 @@
     "source_refs": {
       "key_transfermarkt": "929994",
       "reep_id": "reep_p1ecc5130",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1593,7 +1635,7 @@
       "impact_proxy_score": 7.1,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:martin-zlomislic",
@@ -1605,6 +1647,7 @@
     "source_refs": {
       "key_transfermarkt": "495320",
       "reep_id": "reep_pebdf2796",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1631,7 +1674,7 @@
       "impact_proxy_score": 0.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:nidal-celik",
@@ -1643,6 +1686,7 @@
     "source_refs": {
       "key_transfermarkt": "819566",
       "reep_id": "reep_pb87273f4",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1669,7 +1713,7 @@
       "impact_proxy_score": 0.6,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:nihad-mujakic",
@@ -1681,6 +1725,7 @@
     "source_refs": {
       "key_transfermarkt": "380919",
       "reep_id": "reep_pa62ad2e1",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1707,7 +1752,7 @@
       "impact_proxy_score": 4.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:nikola-katic",
@@ -1719,6 +1764,7 @@
     "source_refs": {
       "key_transfermarkt": "422051",
       "reep_id": "reep_p4e466b7b",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "medium",
       "person_id_map_resolution_method": "name_plus_unique_team_nationality",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1745,7 +1791,7 @@
       "impact_proxy_score": 4.77,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:nikola-vasilj",
@@ -1757,6 +1803,7 @@
     "source_refs": {
       "key_transfermarkt": "248454",
       "reep_id": "reep_p0fadbd39",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1783,7 +1830,7 @@
       "impact_proxy_score": 8.95,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:osman-hadzikic",
@@ -1795,6 +1842,7 @@
     "source_refs": {
       "key_transfermarkt": "188881",
       "reep_id": "reep_p4a6a2c97",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1821,7 +1869,7 @@
       "impact_proxy_score": 0.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:samed-bazdar",
@@ -1833,6 +1881,7 @@
     "source_refs": {
       "key_transfermarkt": "710969",
       "reep_id": "reep_pdb3dd29e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1859,7 +1908,7 @@
       "impact_proxy_score": 3.05,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:sead-kolasinac",
@@ -1871,6 +1920,7 @@
     "source_refs": {
       "key_transfermarkt": "94005",
       "reep_id": "reep_p08c2428f",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1897,7 +1947,7 @@
       "impact_proxy_score": 22.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:stjepan-radeljic",
@@ -1909,6 +1959,7 @@
     "source_refs": {
       "key_transfermarkt": "384568",
       "reep_id": "reep_pfba39fb1",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1935,7 +1986,7 @@
       "impact_proxy_score": 1.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "bosnia-and-herzegovina:player:tarik-muharemovic",
@@ -1947,6 +1998,7 @@
     "source_refs": {
       "key_transfermarkt": "679423",
       "reep_id": "reep_pc8c16853",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -1973,7 +2025,7 @@
       "impact_proxy_score": 4.02,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:alban-lafont",
@@ -1985,6 +2037,7 @@
     "source_refs": {
       "key_transfermarkt": "357117",
       "reep_id": "reep_p94097b7c",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2011,7 +2064,7 @@
       "impact_proxy_score": 2.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:amad-diallo",
@@ -2023,6 +2076,7 @@
     "source_refs": {
       "key_transfermarkt": "536835",
       "reep_id": "reep_p1176a996",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2049,7 +2103,7 @@
       "impact_proxy_score": 36.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:ange-yoan-bonny",
@@ -2061,6 +2115,7 @@
     "source_refs": {
       "key_transfermarkt": "827734",
       "reep_id": "reep_p41a22226",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2087,7 +2142,7 @@
       "impact_proxy_score": 0.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:bazoumana-toure",
@@ -2099,6 +2154,7 @@
     "source_refs": {
       "key_transfermarkt": "1067904",
       "reep_id": "reep_paa7b472e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2125,7 +2181,7 @@
       "impact_proxy_score": 16.85,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:christ-inao-oulai",
@@ -2137,6 +2193,7 @@
     "source_refs": {
       "key_transfermarkt": "1279526",
       "reep_id": "reep_p6434570f",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2163,7 +2220,7 @@
       "impact_proxy_score": 2.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:clement-akpa",
@@ -2175,6 +2232,7 @@
     "source_refs": {
       "key_transfermarkt": "806793",
       "reep_id": "reep_p94f46c49",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2201,7 +2259,7 @@
       "impact_proxy_score": 6.05,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:elye-wahi",
@@ -2213,6 +2271,7 @@
     "source_refs": {
       "key_transfermarkt": "659542",
       "reep_id": "reep_p06524fe9",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2239,7 +2298,7 @@
       "impact_proxy_score": 7.45,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:emmanuel-agbadou",
@@ -2251,6 +2310,7 @@
     "source_refs": {
       "key_transfermarkt": "683895",
       "reep_id": "reep_pd0d38b00",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2277,7 +2337,7 @@
       "impact_proxy_score": 11.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:evan-ndicka",
@@ -2289,6 +2349,7 @@
     "source_refs": {
       "key_transfermarkt": "371149",
       "reep_id": "reep_pf570bc21",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2315,7 +2376,7 @@
       "impact_proxy_score": 24.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:evann-guessand",
@@ -2327,6 +2388,7 @@
     "source_refs": {
       "key_transfermarkt": "500689",
       "reep_id": "reep_p9af5da4c",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2353,7 +2415,7 @@
       "impact_proxy_score": 23.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:franck-kessie",
@@ -2365,6 +2427,7 @@
     "source_refs": {
       "key_transfermarkt": "294808",
       "reep_id": "reep_p70d989c2",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2391,7 +2454,7 @@
       "impact_proxy_score": 40.95,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:ghislain-konan",
@@ -2403,6 +2466,7 @@
     "source_refs": {
       "key_transfermarkt": "422850",
       "reep_id": "reep_pcba2c6ce",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2429,7 +2493,7 @@
       "impact_proxy_score": 16.9,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:guela-doue",
@@ -2441,6 +2505,7 @@
     "source_refs": {
       "key_transfermarkt": "711980",
       "reep_id": "reep_p4ff00441",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2467,7 +2532,7 @@
       "impact_proxy_score": 16.15,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:ibrahim-sangare",
@@ -2479,6 +2544,7 @@
     "source_refs": {
       "key_transfermarkt": "375885",
       "reep_id": "reep_p8b4b21de",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "medium",
       "person_id_map_resolution_method": "name_plus_unique_team_nationality",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2505,7 +2571,7 @@
       "impact_proxy_score": 29.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:jean-michael-seri",
@@ -2517,6 +2583,7 @@
     "source_refs": {
       "key_transfermarkt": "178614",
       "reep_id": "reep_p3410045b",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "alias_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2543,7 +2610,7 @@
       "impact_proxy_score": 17.85,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:mohamed-kone",
@@ -2555,6 +2622,7 @@
     "source_refs": {
       "key_transfermarkt": "911985",
       "reep_id": "reep_p2814b17e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "manual_review",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2581,7 +2649,7 @@
       "impact_proxy_score": 0.48,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:nicolas-pepe",
@@ -2593,6 +2661,7 @@
     "source_refs": {
       "key_transfermarkt": "343052",
       "reep_id": "reep_p58293626",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2619,7 +2688,7 @@
       "impact_proxy_score": 21.7,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:odilon-kossounou",
@@ -2631,6 +2700,7 @@
     "source_refs": {
       "key_transfermarkt": "644771",
       "reep_id": "reep_pb8ddc49e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2657,7 +2727,7 @@
       "impact_proxy_score": 21.95,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:oumar-diakite",
@@ -2669,6 +2739,7 @@
     "source_refs": {
       "key_transfermarkt": "847279",
       "reep_id": "reep_p09b761c5",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2695,7 +2766,7 @@
       "impact_proxy_score": 11.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:ousmane-diomande",
@@ -2707,6 +2778,7 @@
     "source_refs": {
       "key_transfermarkt": "974982",
       "reep_id": "reep_pc2c4cf3e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2733,7 +2805,7 @@
       "impact_proxy_score": 30.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:parfait-guiagon",
@@ -2745,6 +2817,7 @@
     "source_refs": {
       "key_transfermarkt": "624913",
       "reep_id": "reep_p02e07e53",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2771,7 +2844,7 @@
       "impact_proxy_score": 3.65,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:seko-fofana",
@@ -2783,6 +2856,7 @@
     "source_refs": {
       "key_transfermarkt": "182893",
       "reep_id": "reep_pab6466ca",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2809,7 +2883,7 @@
       "impact_proxy_score": 14.65,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:simon-adingra",
@@ -2821,6 +2895,7 @@
     "source_refs": {
       "key_transfermarkt": "658536",
       "reep_id": "reep_pebae6838",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2847,7 +2922,7 @@
       "impact_proxy_score": 21.7,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:wilfried-singo",
@@ -2859,6 +2934,7 @@
     "source_refs": {
       "key_transfermarkt": "648779",
       "reep_id": "reep_p7b2e7719",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2885,7 +2961,7 @@
       "impact_proxy_score": 25.1,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:yahia-fofana",
@@ -2897,6 +2973,7 @@
     "source_refs": {
       "key_transfermarkt": "418651",
       "reep_id": "reep_pb5fe3339",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2923,7 +3000,7 @@
       "impact_proxy_score": 9.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "cote-divoire:player:yan-diomande",
@@ -2935,6 +3012,7 @@
     "source_refs": {
       "key_transfermarkt": "1390649",
       "reep_id": "reep_p2e39dd37",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2961,7 +3039,7 @@
       "impact_proxy_score": 30.15,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:adrien-rabiot",
@@ -2973,6 +3051,7 @@
     "source_refs": {
       "key_transfermarkt": "182913",
       "reep_id": "reep_p26cf30b8",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -2999,7 +3078,7 @@
       "impact_proxy_score": 28.35,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:aurelien-tchouameni",
@@ -3011,6 +3090,7 @@
     "source_refs": {
       "key_transfermarkt": "413112",
       "reep_id": "reep_p7fc85d7e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3037,7 +3117,7 @@
       "impact_proxy_score": 71.9,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:bradley-barcola",
@@ -3049,6 +3129,7 @@
     "source_refs": {
       "key_transfermarkt": "708265",
       "reep_id": "reep_p0f25d2d8",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3075,7 +3156,7 @@
       "impact_proxy_score": 47.4,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:brice-samba",
@@ -3087,6 +3168,7 @@
     "source_refs": {
       "key_transfermarkt": "191056",
       "reep_id": "reep_pea1e0b2e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "medium",
       "person_id_map_resolution_method": "name_plus_unique_team_nationality",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3113,7 +3195,7 @@
       "impact_proxy_score": 7.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:dayot-upamecano",
@@ -3125,6 +3207,7 @@
     "source_refs": {
       "key_transfermarkt": "344695",
       "reep_id": "reep_p4645da39",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3151,7 +3234,7 @@
       "impact_proxy_score": 51.6,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:desire-doue",
@@ -3163,6 +3246,7 @@
     "source_refs": {
       "key_transfermarkt": "914562",
       "reep_id": "reep_p08a6d3aa",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3189,7 +3273,7 @@
       "impact_proxy_score": 56.1,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:ibrahima-konate",
@@ -3201,6 +3285,7 @@
     "source_refs": {
       "key_transfermarkt": "357119",
       "reep_id": "reep_p9870f2cf",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3227,7 +3312,7 @@
       "impact_proxy_score": 33.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:jean-philippe-mateta",
@@ -3239,6 +3324,7 @@
     "source_refs": {
       "key_transfermarkt": "420002",
       "reep_id": "reep_p8b5745c5",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3265,7 +3351,7 @@
       "impact_proxy_score": 25.35,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:jules-kounde",
@@ -3277,6 +3363,7 @@
     "source_refs": {
       "key_transfermarkt": "411975",
       "reep_id": "reep_pd7167feb",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3303,7 +3390,7 @@
       "impact_proxy_score": 38.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:kylian-mbappe",
@@ -3315,6 +3402,7 @@
     "source_refs": {
       "key_transfermarkt": "342229",
       "reep_id": "reep_p4b7614c5",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "medium",
       "person_id_map_resolution_method": "name_plus_unique_team_nationality",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3341,7 +3429,7 @@
       "impact_proxy_score": 99.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:lucas-digne",
@@ -3353,6 +3441,7 @@
     "source_refs": {
       "key_transfermarkt": "126664",
       "reep_id": "reep_p53ba72d3",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3379,7 +3468,7 @@
       "impact_proxy_score": 18.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:lucas-hernandez",
@@ -3391,6 +3480,7 @@
     "source_refs": {
       "key_transfermarkt": "281963",
       "reep_id": "reep_p990970d6",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "medium",
       "person_id_map_resolution_method": "name_plus_unique_team_nationality",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3417,7 +3507,7 @@
       "impact_proxy_score": 22.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:maghnes-akliouche",
@@ -3429,6 +3519,7 @@
     "source_refs": {
       "key_transfermarkt": "745200",
       "reep_id": "reep_p8dfcd29d",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3455,7 +3546,7 @@
       "impact_proxy_score": 29.05,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:malo-gusto",
@@ -3467,6 +3558,7 @@
     "source_refs": {
       "key_transfermarkt": "620322",
       "reep_id": "reep_p122213e3",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3475,7 +3567,7 @@
     "direct": {
       "club": "Chelsea Football Club",
       "date_of_birth": "2003-05-19",
-      "age": 22,
+      "age": 23,
       "country_of_birth": "France",
       "country_of_citizenship": "France",
       "position_transfermarkt": "Defender",
@@ -3493,7 +3585,7 @@
       "impact_proxy_score": 23.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:manu-kone",
@@ -3505,6 +3597,7 @@
     "source_refs": {
       "key_transfermarkt": "624690",
       "reep_id": "reep_p32b54f82",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3531,7 +3624,7 @@
       "impact_proxy_score": 33.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:marcus-thuram",
@@ -3543,6 +3636,7 @@
     "source_refs": {
       "key_transfermarkt": "318528",
       "reep_id": "reep_pcf9d285b",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3569,7 +3663,7 @@
       "impact_proxy_score": 45.15,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:maxence-lacroix",
@@ -3581,6 +3675,7 @@
     "source_refs": {
       "key_transfermarkt": "434224",
       "reep_id": "reep_p68ea4ce2",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3607,7 +3702,7 @@
       "impact_proxy_score": 21.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:michael-olise",
@@ -3619,6 +3714,7 @@
     "source_refs": {
       "key_transfermarkt": "566723",
       "reep_id": "reep_p79c5080c",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3645,7 +3741,7 @@
       "impact_proxy_score": 64.95,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:mike-maignan",
@@ -3657,6 +3753,7 @@
     "source_refs": {
       "key_transfermarkt": "182906",
       "reep_id": "reep_pb33c9950",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3683,7 +3780,7 @@
       "impact_proxy_score": 32.3,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:n-golo-kante",
@@ -3695,6 +3792,7 @@
     "source_refs": {
       "key_transfermarkt": "225083",
       "reep_id": "reep_p2299ee7d",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3721,7 +3819,7 @@
       "impact_proxy_score": 24.55,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:ousmane-dembele",
@@ -3733,6 +3831,7 @@
     "source_refs": {
       "key_transfermarkt": "288230",
       "reep_id": "reep_p612907fc",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3759,7 +3858,7 @@
       "impact_proxy_score": 76.6,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:rayan-cherki",
@@ -3771,6 +3870,7 @@
     "source_refs": {
       "key_transfermarkt": "607223",
       "reep_id": "reep_pfbcc0b90",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3797,7 +3897,7 @@
       "impact_proxy_score": 31.55,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:robin-risser",
@@ -3809,6 +3909,7 @@
     "source_refs": {
       "key_transfermarkt": "743515",
       "reep_id": "reep_pbac95368",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3835,7 +3936,7 @@
       "impact_proxy_score": 7.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:theo-hernandez",
@@ -3847,6 +3948,7 @@
     "source_refs": {
       "key_transfermarkt": "339808",
       "reep_id": "reep_p7426e165",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3873,7 +3975,7 @@
       "impact_proxy_score": 47.1,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:warren-zaire-emery",
@@ -3885,6 +3987,7 @@
     "source_refs": {
       "key_transfermarkt": "810092",
       "reep_id": "reep_p15194947",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3911,7 +4014,7 @@
       "impact_proxy_score": 32.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "france:player:william-saliba",
@@ -3923,6 +4026,7 @@
     "source_refs": {
       "key_transfermarkt": "495666",
       "reep_id": "reep_p5cf1253c",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3949,7 +4053,7 @@
       "impact_proxy_score": 61.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:alexandre-pierre",
@@ -3961,6 +4065,7 @@
     "source_refs": {
       "key_transfermarkt": "838947",
       "reep_id": "reep_pc5c684b1",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -3987,7 +4092,7 @@
       "impact_proxy_score": 0.06,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:carlens-arcus",
@@ -3999,6 +4104,7 @@
     "source_refs": {
       "key_transfermarkt": "371686",
       "reep_id": "reep_p37832425",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4025,7 +4131,7 @@
       "impact_proxy_score": 13.47,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:danley-jean-jacques",
@@ -4037,6 +4143,7 @@
     "source_refs": {
       "key_transfermarkt": "628834",
       "reep_id": "reep_p28ef424e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4063,7 +4170,7 @@
       "impact_proxy_score": 10.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:derrick-etienne-jr",
@@ -4075,6 +4182,7 @@
     "source_refs": {
       "key_transfermarkt": "354763",
       "reep_id": "reep_pe2f3eea2",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4101,7 +4209,7 @@
       "impact_proxy_score": 13.9,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:dominique-simon",
@@ -4113,6 +4221,7 @@
     "source_refs": {
       "key_transfermarkt": "988188",
       "reep_id": "reep_pbb8951e6",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4139,7 +4248,7 @@
       "impact_proxy_score": null,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:duckens-nazon",
@@ -4151,6 +4260,7 @@
     "source_refs": {
       "key_transfermarkt": "345763",
       "reep_id": "reep_p6e59202e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4177,7 +4287,7 @@
       "impact_proxy_score": 32.66,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:frantzdy-pierrot",
@@ -4189,6 +4299,7 @@
     "source_refs": {
       "key_transfermarkt": "492955",
       "reep_id": "reep_pb3ea4000",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4215,7 +4326,7 @@
       "impact_proxy_score": 23.95,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:hannes-delcroix",
@@ -4227,6 +4338,7 @@
     "source_refs": {
       "key_transfermarkt": "338635",
       "reep_id": "reep_p76269eb7",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4253,7 +4365,7 @@
       "impact_proxy_score": 3.65,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:jean-kevin-duverne",
@@ -4265,6 +4377,7 @@
     "source_refs": {
       "key_transfermarkt": "344864",
       "reep_id": "reep_p8e6b19c0",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4291,7 +4404,7 @@
       "impact_proxy_score": 6.15,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:jean-ricner-bellegarde",
@@ -4303,6 +4416,7 @@
     "source_refs": {
       "key_transfermarkt": "450050",
       "reep_id": "reep_p29277eca",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4329,7 +4443,7 @@
       "impact_proxy_score": 11.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:johny-placide",
@@ -4341,6 +4455,7 @@
     "source_refs": {
       "key_transfermarkt": "51035",
       "reep_id": "reep_p235aa6ba",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "medium",
       "person_id_map_resolution_method": "alias_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4367,7 +4482,7 @@
       "impact_proxy_score": 0.15,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:josue-casimir",
@@ -4379,6 +4494,7 @@
     "source_refs": {
       "key_transfermarkt": "763182",
       "reep_id": "reep_pe002e305",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4405,7 +4521,7 @@
       "impact_proxy_score": 3.35,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:lenny-joseph",
@@ -4417,6 +4533,7 @@
     "source_refs": {
       "key_transfermarkt": "815359",
       "reep_id": "reep_p5ff79bd9",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4443,7 +4560,7 @@
       "impact_proxy_score": 0.3,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:louicius-deedson",
@@ -4455,6 +4572,7 @@
     "source_refs": {
       "key_transfermarkt": "646108",
       "reep_id": "reep_p78b50473",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "manual_review",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4481,7 +4599,7 @@
       "impact_proxy_score": 11.22,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:ruben-providence",
@@ -4493,6 +4611,7 @@
     "source_refs": {
       "key_transfermarkt": "536520",
       "reep_id": "reep_p62b12527",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4519,7 +4638,7 @@
       "impact_proxy_score": 3.53,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:wilguens-paugain",
@@ -4531,6 +4650,7 @@
     "source_refs": {
       "key_transfermarkt": "609691",
       "reep_id": "reep_p1e683239",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4557,7 +4677,7 @@
       "impact_proxy_score": 1.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:wilson-isidor",
@@ -4569,6 +4689,7 @@
     "source_refs": {
       "key_transfermarkt": "494237",
       "reep_id": "reep_pfa298ab6",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4595,7 +4716,7 @@
       "impact_proxy_score": 11.6,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "haiti:player:yassin-fortune",
@@ -4607,6 +4728,7 @@
     "source_refs": {
       "key_transfermarkt": "342878",
       "reep_id": "reep_p869fe1ff",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4633,7 +4755,7 @@
       "impact_proxy_score": 0.24,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:ao-tanaka",
@@ -4645,6 +4767,7 @@
     "source_refs": {
       "key_transfermarkt": "489359",
       "reep_id": "reep_pb4da3b62",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4671,7 +4794,7 @@
       "impact_proxy_score": 11.65,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:ayase-ueda",
@@ -4683,6 +4806,7 @@
     "source_refs": {
       "key_transfermarkt": "589128",
       "reep_id": "reep_p193f816c",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4709,7 +4833,7 @@
       "impact_proxy_score": 19.1,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:ayumu-seko",
@@ -4721,6 +4845,7 @@
     "source_refs": {
       "key_transfermarkt": "405389",
       "reep_id": "reep_paf4faf3d",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4747,7 +4872,7 @@
       "impact_proxy_score": 3.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:daichi-kamada",
@@ -4759,6 +4884,7 @@
     "source_refs": {
       "key_transfermarkt": "356141",
       "reep_id": "reep_pbaad7d70",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4785,7 +4911,7 @@
       "impact_proxy_score": 23.05,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:daizen-maeda",
@@ -4797,6 +4923,7 @@
     "source_refs": {
       "key_transfermarkt": "420931",
       "reep_id": "reep_pb187eafe",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4823,7 +4950,7 @@
       "impact_proxy_score": 16.35,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:hiroki-ito",
@@ -4835,6 +4962,7 @@
     "source_refs": {
       "key_transfermarkt": "353892",
       "reep_id": "reep_pb37d26d2",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "manual_review",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4861,7 +4989,7 @@
       "impact_proxy_score": 16.85,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:junnosuke-suzuki",
@@ -4873,6 +5001,7 @@
     "source_refs": {
       "key_transfermarkt": "848856",
       "reep_id": "reep_pd59a9196",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4899,7 +5028,7 @@
       "impact_proxy_score": 1.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:junya-ito",
@@ -4911,6 +5040,7 @@
     "source_refs": {
       "key_transfermarkt": "348791",
       "reep_id": "reep_p020a0898",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "manual_review",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4937,7 +5067,7 @@
       "impact_proxy_score": 23.6,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:kaishu-sano",
@@ -4949,6 +5079,7 @@
     "source_refs": {
       "key_transfermarkt": "643574",
       "reep_id": "reep_pe4f836aa",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -4975,7 +5106,7 @@
       "impact_proxy_score": 18.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:keisuke-goto",
@@ -4987,6 +5118,7 @@
     "source_refs": {
       "key_transfermarkt": "916623",
       "reep_id": "reep_p7140c1e2",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5013,7 +5145,7 @@
       "impact_proxy_score": 0.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:keisuke-osako",
@@ -5025,6 +5157,7 @@
     "source_refs": {
       "key_transfermarkt": "415521",
       "reep_id": "reep_pb4078845",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5051,7 +5184,7 @@
       "impact_proxy_score": 2.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:keito-nakamura",
@@ -5063,6 +5196,7 @@
     "source_refs": {
       "key_transfermarkt": "405397",
       "reep_id": "reep_p6dc612b9",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5089,7 +5223,7 @@
       "impact_proxy_score": 13.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:kento-shiogai",
@@ -5101,6 +5235,7 @@
     "source_refs": {
       "key_transfermarkt": "1144627",
       "reep_id": "reep_p1d5e8a14",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5127,7 +5262,7 @@
       "impact_proxy_score": 1.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:ko-itakura",
@@ -5139,6 +5274,7 @@
     "source_refs": {
       "key_transfermarkt": "355816",
       "reep_id": "reep_p8a7df04a",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5165,7 +5301,7 @@
       "impact_proxy_score": 16.35,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:koki-ogawa",
@@ -5177,6 +5313,7 @@
     "source_refs": {
       "key_transfermarkt": "351567",
       "reep_id": "reep_p82dab983",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5203,7 +5340,7 @@
       "impact_proxy_score": 8.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:ritsu-doan",
@@ -5215,6 +5352,7 @@
     "source_refs": {
       "key_transfermarkt": "358504",
       "reep_id": "reep_pb3e5c061",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5241,7 +5379,7 @@
       "impact_proxy_score": 30.1,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:shogo-taniguchi",
@@ -5253,6 +5391,7 @@
     "source_refs": {
       "key_transfermarkt": "307870",
       "reep_id": "reep_p56823be5",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5279,7 +5418,7 @@
       "impact_proxy_score": 10.03,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:takefusa-kubo",
@@ -5291,6 +5430,7 @@
     "source_refs": {
       "key_transfermarkt": "405398",
       "reep_id": "reep_p14f95755",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5317,7 +5457,7 @@
       "impact_proxy_score": 32.1,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:takehiro-tomiyasu",
@@ -5329,6 +5469,7 @@
     "source_refs": {
       "key_transfermarkt": "331560",
       "reep_id": "reep_p63450570",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5355,7 +5496,7 @@
       "impact_proxy_score": 18.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:tomoki-hayakawa",
@@ -5367,6 +5508,7 @@
     "source_refs": {
       "key_transfermarkt": "683271",
       "reep_id": "reep_p73780c63",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5393,7 +5535,7 @@
       "impact_proxy_score": 0.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:tsuyoshi-watanabe",
@@ -5405,6 +5547,7 @@
     "source_refs": {
       "key_transfermarkt": "598791",
       "reep_id": "reep_pa6d88461",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5431,7 +5574,7 @@
       "impact_proxy_score": 8.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:wataru-endo",
@@ -5443,6 +5586,7 @@
     "source_refs": {
       "key_transfermarkt": "146310",
       "reep_id": "reep_p0994b6b6",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5469,7 +5613,7 @@
       "impact_proxy_score": 22.2,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:yuito-suzuki",
@@ -5481,6 +5625,7 @@
     "source_refs": {
       "key_transfermarkt": "668606",
       "reep_id": "reep_pb7b3e90c",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5507,7 +5652,7 @@
       "impact_proxy_score": 10.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:yukinari-sugawara",
@@ -5519,6 +5664,7 @@
     "source_refs": {
       "key_transfermarkt": "405385",
       "reep_id": "reep_p4ae6a281",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5545,7 +5691,7 @@
       "impact_proxy_score": 10.1,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:yuto-nagatomo",
@@ -5557,6 +5703,7 @@
     "source_refs": {
       "key_transfermarkt": "79522",
       "reep_id": "reep_p97fb302b",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5583,7 +5730,7 @@
       "impact_proxy_score": 26.38,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "japan:player:zion-suzuki",
@@ -5595,6 +5742,7 @@
     "source_refs": {
       "key_transfermarkt": "432298",
       "reep_id": "reep_p817a3fa9",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5621,7 +5769,241 @@
       "impact_proxy_score": 17.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:bae-junho",
+    "team_id": "korea-republic",
+    "name": "Bae Junho",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/jun-ho-bae/profil/spieler/912081",
+    "source_refs": {
+      "key_transfermarkt": "912081",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Stoke City",
+      "date_of_birth": "2003-08-21",
+      "age": 22,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Midfield",
+      "sub_position": "Attacking Midfield",
+      "foot": "right",
+      "height_cm": 180,
+      "contract_expiration_date": "2027-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/912081-1693354959.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 12,
+      "goals": 2,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 3.6,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:cho-guesung",
+    "team_id": "korea-republic",
+    "name": "Cho Guesung",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/gue-sung-cho/profil/spieler/652537",
+    "source_refs": {
+      "key_transfermarkt": "652537",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Fodbold Club Midtjylland",
+      "date_of_birth": "1998-01-25",
+      "age": 28,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Attack",
+      "sub_position": "Centre-Forward",
+      "foot": "right",
+      "height_cm": 188,
+      "contract_expiration_date": "2028-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/652537-1669656974.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 42,
+      "goals": 10,
+      "market_value_eur": 4500000,
+      "highest_market_value_eur": 4500000,
+      "impact_proxy_score": 16.2,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:cho-yumin",
+    "team_id": "korea-republic",
+    "name": "Cho Yumin",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/yu-min-cho/profil/spieler/561212",
+    "source_refs": {
+      "key_transfermarkt": "561212",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": null,
+      "date_of_birth": "1996-11-17",
+      "age": 29,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Defender",
+      "sub_position": "Centre-Back",
+      "foot": "right",
+      "height_cm": 185,
+      "contract_expiration_date": "2026-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/561212-1589996067.JPG?lm=1"
+    },
+    "derived": {
+      "caps": 18,
+      "goals": 0,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 4.5,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:eom-jisung",
+    "team_id": "korea-republic",
+    "name": "Eom Jisung",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/ji-sung-eom/profil/spieler/706968",
+    "source_refs": {
+      "key_transfermarkt": "706968",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Swansea City",
+      "date_of_birth": "2002-05-09",
+      "age": 24,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Attack",
+      "sub_position": "Left Winger",
+      "foot": "right",
+      "height_cm": 176,
+      "contract_expiration_date": "2028-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/706968-1615445061.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 8,
+      "goals": 2,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 2.6,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:hwang-heechan",
+    "team_id": "korea-republic",
+    "name": "Hwang Heechan",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/hee-chan-hwang/profil/spieler/292246",
+    "source_refs": {
+      "key_transfermarkt": "292246",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Wolverhampton Wanderers Football Club",
+      "date_of_birth": "1996-01-26",
+      "age": 30,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Attack",
+      "sub_position": "Centre-Forward",
+      "foot": "right",
+      "height_cm": 177,
+      "contract_expiration_date": "2028-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/292246-1708341416.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 77,
+      "goals": 16,
+      "market_value_eur": 10000000,
+      "highest_market_value_eur": 25000000,
+      "impact_proxy_score": 30.05,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:hwang-inbeom",
+    "team_id": "korea-republic",
+    "name": "Hwang Inbeom",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/in-beom-hwang/profil/spieler/365394",
+    "source_refs": {
+      "key_transfermarkt": "365394",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Feyenoord Rotterdam",
+      "date_of_birth": "1996-09-20",
+      "age": 29,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Midfield",
+      "sub_position": "Defensive Midfield",
+      "foot": "both",
+      "height_cm": 177,
+      "contract_expiration_date": "2028-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/365394-1729850038.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 71,
+      "goals": 6,
+      "market_value_eur": 4500000,
+      "highest_market_value_eur": 4500000,
+      "impact_proxy_score": 22.25,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "korea-republic:player:jens-castrop",
@@ -5633,6 +6015,7 @@
     "source_refs": {
       "key_transfermarkt": "613192",
       "reep_id": "reep_p91cff66a",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5659,7 +6042,163 @@
       "impact_proxy_score": 2.15,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:jo-hyeonwoo",
+    "team_id": "korea-republic",
+    "name": "Jo Hyeonwoo",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/hyeon-woo-jo/profil/spieler/260171",
+    "source_refs": {
+      "key_transfermarkt": "260171",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Ulsan Hyundai Football Club",
+      "date_of_birth": "1991-09-25",
+      "age": 34,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Goalkeeper",
+      "sub_position": "Goalkeeper",
+      "foot": "right",
+      "height_cm": 189,
+      "contract_expiration_date": null,
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/260171-1701827393.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 47,
+      "goals": 0,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 11.75,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:kim-jingyu",
+    "team_id": "korea-republic",
+    "name": "Kim Jingyu",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/jin-gyu-kim/profil/spieler/365377",
+    "source_refs": {
+      "key_transfermarkt": "365377",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Jeonbuk Hyundai Motors",
+      "date_of_birth": "1997-02-24",
+      "age": 29,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Midfield",
+      "sub_position": "Central Midfield",
+      "foot": "right",
+      "height_cm": 177,
+      "contract_expiration_date": "2026-12-31",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/365377-1582743285.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 20,
+      "goals": 3,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 5.9,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:kim-minjae",
+    "team_id": "korea-republic",
+    "name": "Kim Minjae",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/min-jae-kim/profil/spieler/503482",
+    "source_refs": {
+      "key_transfermarkt": "503482",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "FC Bayern München",
+      "date_of_birth": "1996-11-15",
+      "age": 29,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Defender",
+      "sub_position": "Centre-Back",
+      "foot": "right",
+      "height_cm": 190,
+      "contract_expiration_date": "2028-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/503482-1700208062.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 77,
+      "goals": 4,
+      "market_value_eur": 25000000,
+      "highest_market_value_eur": 60000000,
+      "impact_proxy_score": 35.45,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:kim-moonhwan",
+    "team_id": "korea-republic",
+    "name": "Kim Moonhwan",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/moon-hwan-kim/profil/spieler/524592",
+    "source_refs": {
+      "key_transfermarkt": "524592",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Foundation Coorperation Hana Financial Group Inc. Football Club",
+      "date_of_birth": "1995-08-01",
+      "age": 30,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Defender",
+      "sub_position": "Right-Back",
+      "foot": "right",
+      "height_cm": 173,
+      "contract_expiration_date": "2027-12-31",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/524592-1646503630.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 34,
+      "goals": 0,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 8.5,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "korea-republic:player:kim-seung-gyu",
@@ -5671,6 +6210,7 @@
     "source_refs": {
       "key_transfermarkt": "92076",
       "reep_id": "reep_pdb53c1c9",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5697,7 +6237,7 @@
       "impact_proxy_score": 21.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "korea-republic:player:kim-taehyeon",
@@ -5709,6 +6249,7 @@
     "source_refs": {
       "key_transfermarkt": "645847",
       "reep_id": null,
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "medium",
       "person_id_map_resolution_method": "platform_external_refs_no_reep_row",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5735,7 +6276,163 @@
       "impact_proxy_score": 1.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:lee-donggyeong",
+    "team_id": "korea-republic",
+    "name": "Lee Donggyeong",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/dong-gyeong-lee/profil/spieler/558086",
+    "source_refs": {
+      "key_transfermarkt": "558086",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Ulsan Hyundai Football Club",
+      "date_of_birth": "1997-09-20",
+      "age": 28,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Midfield",
+      "sub_position": "Attacking Midfield",
+      "foot": "left",
+      "height_cm": 176,
+      "contract_expiration_date": null,
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/558086-1666196779.png?lm=1"
+    },
+    "derived": {
+      "caps": 16,
+      "goals": 3,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 4.9,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:lee-hanbeom",
+    "team_id": "korea-republic",
+    "name": "Lee Hanbeom",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/han-beom-lee/profil/spieler/706963",
+    "source_refs": {
+      "key_transfermarkt": "706963",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Fodbold Club Midtjylland",
+      "date_of_birth": "2002-06-17",
+      "age": 23,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Defender",
+      "sub_position": "Centre-Back",
+      "foot": "right",
+      "height_cm": 190,
+      "contract_expiration_date": "2027-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/706963-1693308740.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 6,
+      "goals": 0,
+      "market_value_eur": 1800000,
+      "highest_market_value_eur": 1800000,
+      "impact_proxy_score": 2.58,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:lee-jaesung",
+    "team_id": "korea-republic",
+    "name": "Lee Jaesung",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/jae-sung-lee/profil/spieler/314398",
+    "source_refs": {
+      "key_transfermarkt": "314398",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "1. Fußball- und Sportverein Mainz 05",
+      "date_of_birth": "1992-08-10",
+      "age": 33,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Midfield",
+      "sub_position": "Attacking Midfield",
+      "foot": "left",
+      "height_cm": 180,
+      "contract_expiration_date": null,
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/314398-1668504727.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 103,
+      "goals": 15,
+      "market_value_eur": 2000000,
+      "highest_market_value_eur": 4000000,
+      "impact_proxy_score": 30.7,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:lee-kangin",
+    "team_id": "korea-republic",
+    "name": "Lee Kangin",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/kang-in-lee/profil/spieler/557149",
+    "source_refs": {
+      "key_transfermarkt": "557149",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Paris Saint-Germain Football Club",
+      "date_of_birth": "2001-02-19",
+      "age": 25,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Midfield",
+      "sub_position": "Attacking Midfield",
+      "foot": "left",
+      "height_cm": 173,
+      "contract_expiration_date": "2028-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/557149-1703978046.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 46,
+      "goals": 11,
+      "market_value_eur": 25000000,
+      "highest_market_value_eur": 30000000,
+      "impact_proxy_score": 29.8,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "korea-republic:player:lee-kihyuk",
@@ -5747,6 +6444,7 @@
     "source_refs": {
       "key_transfermarkt": "763349",
       "reep_id": null,
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "medium",
       "person_id_map_resolution_method": "platform_external_refs_no_reep_row",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5773,7 +6471,319 @@
       "impact_proxy_score": 0.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:lee-taeseok",
+    "team_id": "korea-republic",
+    "name": "Lee Taeseok",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/tae-seok-lee/profil/spieler/639027",
+    "source_refs": {
+      "key_transfermarkt": "639027",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Fußballklub Austria Wien",
+      "date_of_birth": "2002-07-28",
+      "age": 23,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Defender",
+      "sub_position": "Left-Back",
+      "foot": "left",
+      "height_cm": 174,
+      "contract_expiration_date": "2029-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/639027-1753482832.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 14,
+      "goals": 1,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 3.8,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:oh-hyeongyu",
+    "team_id": "korea-republic",
+    "name": "Oh Hyeongyu",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/hyeon-gyu-oh/profil/spieler/639246",
+    "source_refs": {
+      "key_transfermarkt": "639246",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Beşiktaş Jimnastik Kulübü",
+      "date_of_birth": "2001-04-12",
+      "age": 25,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Attack",
+      "sub_position": "Centre-Forward",
+      "foot": "right",
+      "height_cm": 187,
+      "contract_expiration_date": "2029-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/639246-1770374157.png?lm=1"
+    },
+    "derived": {
+      "caps": 26,
+      "goals": 6,
+      "market_value_eur": 1800000,
+      "highest_market_value_eur": 1800000,
+      "impact_proxy_score": 9.38,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:paik-seungho",
+    "team_id": "korea-republic",
+    "name": "Paik Seungho",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/seung-ho-paik/profil/spieler/282689",
+    "source_refs": {
+      "key_transfermarkt": "282689",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": null,
+      "date_of_birth": "1997-03-17",
+      "age": 29,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Midfield",
+      "sub_position": "Central Midfield",
+      "foot": "right",
+      "height_cm": 182,
+      "contract_expiration_date": "2028-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/282689-1715262077.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 25,
+      "goals": 3,
+      "market_value_eur": 900000,
+      "highest_market_value_eur": 1000000,
+      "impact_proxy_score": 7.69,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:park-jinseob",
+    "team_id": "korea-republic",
+    "name": "Park Jinseob",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/jin-seob-park/profil/spieler/557469",
+    "source_refs": {
+      "key_transfermarkt": "557469",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": null,
+      "date_of_birth": "1995-10-23",
+      "age": 30,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Midfield",
+      "sub_position": "Defensive Midfield",
+      "foot": "right",
+      "height_cm": 186,
+      "contract_expiration_date": null,
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/557469-1765824103.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 12,
+      "goals": 1,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 3.3,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:seol-youngwoo",
+    "team_id": "korea-republic",
+    "name": "Seol Youngwoo",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/young-woo-seol/profil/spieler/639414",
+    "source_refs": {
+      "key_transfermarkt": "639414",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Fudbalski klub Crvena zvezda Beograd",
+      "date_of_birth": "1998-12-05",
+      "age": 27,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Defender",
+      "sub_position": "Right-Back",
+      "foot": "right",
+      "height_cm": 183,
+      "contract_expiration_date": "2027-06-30",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/639414-1725631757.JPG?lm=1"
+    },
+    "derived": {
+      "caps": 32,
+      "goals": 0,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 8.0,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:son-heungmin",
+    "team_id": "korea-republic",
+    "name": "Son Heungmin",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/heung-min-son/profil/spieler/91845",
+    "source_refs": {
+      "key_transfermarkt": "91845",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Los Angeles Football Club",
+      "date_of_birth": "1992-07-08",
+      "age": 33,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Attack",
+      "sub_position": "Left Winger",
+      "foot": "both",
+      "height_cm": 184,
+      "contract_expiration_date": "2027-12-31",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/91845-1771690023.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 143,
+      "goals": 54,
+      "market_value_eur": 17000000,
+      "highest_market_value_eur": 90000000,
+      "impact_proxy_score": 50.2,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:song-bumkeun",
+    "team_id": "korea-republic",
+    "name": "Song Bumkeun",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/bum-keun-song/profil/spieler/508237",
+    "source_refs": {
+      "key_transfermarkt": "508237",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "Jeonbuk Hyundai Motors",
+      "date_of_birth": "1997-10-15",
+      "age": 28,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Goalkeeper",
+      "sub_position": "Goalkeeper",
+      "foot": "right",
+      "height_cm": 194,
+      "contract_expiration_date": null,
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/508237-1584689521.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 2,
+      "goals": 0,
+      "market_value_eur": null,
+      "highest_market_value_eur": null,
+      "impact_proxy_score": 0.5,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
+  },
+  {
+    "player_id": "korea-republic:player:yang-hyunjun",
+    "team_id": "korea-republic",
+    "name": "Yang Hyunjun",
+    "source_status": "third_party_transfermarkt_dataset",
+    "source": "dcaribou/transfermarkt-datasets",
+    "source_url": "https://www.transfermarkt.com/hyun-jun-yang/profil/spieler/853110",
+    "source_refs": {
+      "key_transfermarkt": "853110",
+      "reep_id": null,
+      "identity_ref_source": "dcaribou_activity_ref",
+      "person_id_map_confidence": "medium",
+      "person_id_map_resolution_method": "dcaribou_country_reverse_name_unique",
+      "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
+    },
+    "confidence": "medium",
+    "direct": {
+      "club": "The Celtic Football Club",
+      "date_of_birth": "2002-05-25",
+      "age": 23,
+      "country_of_birth": "Korea, South",
+      "country_of_citizenship": "Korea, South",
+      "position_transfermarkt": "Attack",
+      "sub_position": "Right Winger",
+      "foot": "right",
+      "height_cm": 176,
+      "contract_expiration_date": "2028-05-31",
+      "image_url": "https://img.a.transfermarkt.technology/portrait/header/853110-1696454819.jpg?lm=1"
+    },
+    "derived": {
+      "caps": 8,
+      "goals": 0,
+      "market_value_eur": 2000000,
+      "highest_market_value_eur": 2000000,
+      "impact_proxy_score": 3.2,
+      "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
+    },
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:alexander-bernhardsson",
@@ -5785,6 +6795,7 @@
     "source_refs": {
       "key_transfermarkt": "633454",
       "reep_id": "reep_pf7082d0b",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5811,7 +6822,7 @@
       "impact_proxy_score": 4.05,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:alexander-isak",
@@ -5823,6 +6834,7 @@
     "source_refs": {
       "key_transfermarkt": "349066",
       "reep_id": "reep_p87829862",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5849,7 +6861,7 @@
       "impact_proxy_score": 78.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:anthony-elanga",
@@ -5861,6 +6873,7 @@
     "source_refs": {
       "key_transfermarkt": "583189",
       "reep_id": "reep_pa7e27407",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5887,7 +6900,7 @@
       "impact_proxy_score": 38.8,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:benjamin-nygren",
@@ -5899,6 +6912,7 @@
     "source_refs": {
       "key_transfermarkt": "475949",
       "reep_id": "reep_p283dc072",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5925,7 +6939,7 @@
       "impact_proxy_score": 7.05,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:besfort-zeneli",
@@ -5937,6 +6951,7 @@
     "source_refs": {
       "key_transfermarkt": "715653",
       "reep_id": "reep_pabcd2e02",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -5963,7 +6978,7 @@
       "impact_proxy_score": 1.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:carl-starfelt",
@@ -5975,6 +6990,7 @@
     "source_refs": {
       "key_transfermarkt": "258987",
       "reep_id": "reep_pbe7681cd",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6001,7 +7017,7 @@
       "impact_proxy_score": 7.85,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:daniel-svensson",
@@ -6013,6 +7029,7 @@
     "source_refs": {
       "key_transfermarkt": "579287",
       "reep_id": "reep_p0e48554a",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "manual_review",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6039,7 +7056,7 @@
       "impact_proxy_score": 15.95,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:elliot-stroud",
@@ -6051,6 +7068,7 @@
     "source_refs": {
       "key_transfermarkt": "687622",
       "reep_id": "reep_p781d1cda",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6077,7 +7095,7 @@
       "impact_proxy_score": 0.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:emil-holm",
@@ -6089,6 +7107,7 @@
     "source_refs": {
       "key_transfermarkt": "496745",
       "reep_id": "reep_p13e3cc5d",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6115,7 +7134,7 @@
       "impact_proxy_score": 12.4,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:eric-smith",
@@ -6127,6 +7146,7 @@
     "source_refs": {
       "key_transfermarkt": "292534",
       "reep_id": "reep_p6b60e840",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "medium",
       "person_id_map_resolution_method": "name_plus_unique_team_nationality",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6153,7 +7173,7 @@
       "impact_proxy_score": 3.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:gabriel-gudmundsson",
@@ -6165,6 +7185,7 @@
     "source_refs": {
       "key_transfermarkt": "362108",
       "reep_id": "reep_pc1da9fc8",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6191,7 +7212,7 @@
       "impact_proxy_score": 14.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:gustaf-lagerbielke",
@@ -6203,6 +7224,7 @@
     "source_refs": {
       "key_transfermarkt": "485395",
       "reep_id": "reep_pf414e335",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6229,7 +7251,7 @@
       "impact_proxy_score": 5.85,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:gustaf-nilsson",
@@ -6241,6 +7263,7 @@
     "source_refs": {
       "key_transfermarkt": "320440",
       "reep_id": "reep_p35ce830e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "manual_review",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6267,7 +7290,7 @@
       "impact_proxy_score": 4.4,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:hjalmar-ekdal",
@@ -6279,6 +7302,7 @@
     "source_refs": {
       "key_transfermarkt": "392179",
       "reep_id": "reep_pb080546c",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6305,7 +7329,7 @@
       "impact_proxy_score": 6.35,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:isak-hien",
@@ -6317,6 +7341,7 @@
     "source_refs": {
       "key_transfermarkt": "503075",
       "reep_id": "reep_p16af8ecc",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6343,7 +7368,7 @@
       "impact_proxy_score": 21.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:jacob-zetterstrom",
@@ -6355,6 +7380,7 @@
     "source_refs": {
       "key_transfermarkt": "549440",
       "reep_id": "reep_p65eea51a",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "manual_review",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6381,7 +7407,7 @@
       "impact_proxy_score": 0.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:jesper-karlstrom",
@@ -6393,6 +7419,7 @@
     "source_refs": {
       "key_transfermarkt": "222855",
       "reep_id": "reep_pb28e1483",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6419,7 +7446,7 @@
       "impact_proxy_score": 8.15,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:ken-sema",
@@ -6431,6 +7458,7 @@
     "source_refs": {
       "key_transfermarkt": "252345",
       "reep_id": "reep_p74d003ee",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6457,7 +7485,7 @@
       "impact_proxy_score": 11.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:kristoffer-nordfeldt",
@@ -6469,6 +7497,7 @@
     "source_refs": {
       "key_transfermarkt": "75890",
       "reep_id": "reep_p2e3e530c",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6495,7 +7524,7 @@
       "impact_proxy_score": 5.18,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:lucas-bergvall",
@@ -6507,6 +7536,7 @@
     "source_refs": {
       "key_transfermarkt": "866246",
       "reep_id": "reep_pb74fa577",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6533,7 +7563,7 @@
       "impact_proxy_score": 26.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:mattias-svanberg",
@@ -6545,6 +7575,7 @@
     "source_refs": {
       "key_transfermarkt": "342405",
       "reep_id": "reep_p98ffc93e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6571,7 +7602,7 @@
       "impact_proxy_score": 17.3,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:taha-ali",
@@ -6583,6 +7614,7 @@
     "source_refs": {
       "key_transfermarkt": "731771",
       "reep_id": "reep_pb706a6e1",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6609,7 +7641,7 @@
       "impact_proxy_score": 0.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:victor-lindelof",
@@ -6621,6 +7653,7 @@
     "source_refs": {
       "key_transfermarkt": "184573",
       "reep_id": "reep_p707118f7",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6647,7 +7680,7 @@
       "impact_proxy_score": 28.65,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:viktor-gyokeres",
@@ -6659,6 +7692,7 @@
     "source_refs": {
       "key_transfermarkt": "325443",
       "reep_id": "reep_pa57b5f05",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6685,7 +7719,7 @@
       "impact_proxy_score": 55.7,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:viktor-johansson",
@@ -6697,6 +7731,7 @@
     "source_refs": {
       "key_transfermarkt": "273742",
       "reep_id": "reep_p5fa85e83",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6723,7 +7758,7 @@
       "impact_proxy_score": 3.0,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "sweden:player:yasin-ayari",
@@ -6735,6 +7770,7 @@
     "source_refs": {
       "key_transfermarkt": "667287",
       "reep_id": "reep_pd056cb32",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6761,7 +7797,7 @@
       "impact_proxy_score": 23.65,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:adem-arous",
@@ -6773,6 +7809,7 @@
     "source_refs": {
       "key_transfermarkt": "1071742",
       "reep_id": "reep_p70e1dae6",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6799,7 +7836,7 @@
       "impact_proxy_score": 0.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:ali-abdi",
@@ -6811,6 +7848,7 @@
     "source_refs": {
       "key_transfermarkt": "211474",
       "reep_id": "reep_p9c240863",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6837,7 +7875,7 @@
       "impact_proxy_score": 14.85,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:anis-ben-slimane",
@@ -6849,6 +7887,7 @@
     "source_refs": {
       "key_transfermarkt": "546712",
       "reep_id": "reep_p8618b503",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6875,7 +7914,7 @@
       "impact_proxy_score": 1.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:aymen-dahmene",
@@ -6887,6 +7926,7 @@
     "source_refs": {
       "key_transfermarkt": "569433",
       "reep_id": "reep_pa7e6da93",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "manual_review",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6913,7 +7953,7 @@
       "impact_proxy_score": 9.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:dylan-bronn",
@@ -6925,6 +7965,7 @@
     "source_refs": {
       "key_transfermarkt": "450417",
       "reep_id": "reep_p76431525",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6951,7 +7992,7 @@
       "impact_proxy_score": 14.38,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:elias-achouri",
@@ -6963,6 +8004,7 @@
     "source_refs": {
       "key_transfermarkt": "645589",
       "reep_id": "reep_p0664da62",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -6989,7 +8031,7 @@
       "impact_proxy_score": 10.85,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:elias-saad",
@@ -7001,6 +8043,7 @@
     "source_refs": {
       "key_transfermarkt": "526466",
       "reep_id": "reep_p6025cf8d",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7027,7 +8070,7 @@
       "impact_proxy_score": 3.9,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:ellyes-skhiri",
@@ -7039,6 +8082,7 @@
     "source_refs": {
       "key_transfermarkt": "290587",
       "reep_id": "reep_pa1d2a6f7",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7065,7 +8109,7 @@
       "impact_proxy_score": 25.05,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:hadj-mahmoud",
@@ -7077,6 +8121,7 @@
     "source_refs": {
       "key_transfermarkt": "673513",
       "reep_id": "reep_p5aa06ecd",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "manual_review",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7103,7 +8148,7 @@
       "impact_proxy_score": 1.75,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:hannibal-mejbri",
@@ -7115,6 +8160,7 @@
     "source_refs": {
       "key_transfermarkt": "607224",
       "reep_id": "reep_p5f64c365",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7141,7 +8187,7 @@
       "impact_proxy_score": 16.7,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:hazem-mastouri",
@@ -7153,6 +8199,7 @@
     "source_refs": {
       "key_transfermarkt": "953150",
       "reep_id": "reep_pcce71d6e",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7179,7 +8226,7 @@
       "impact_proxy_score": 5.7,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:ismael-gharbi",
@@ -7191,6 +8238,7 @@
     "source_refs": {
       "key_transfermarkt": "810096",
       "reep_id": "reep_p522f59b7",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7217,7 +8265,7 @@
       "impact_proxy_score": 8.55,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:montassar-talbi",
@@ -7229,6 +8277,7 @@
     "source_refs": {
       "key_transfermarkt": "496706",
       "reep_id": "reep_pe9a2f3ba",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7255,7 +8304,7 @@
       "impact_proxy_score": 20.9,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:mortadha-ben-ouanes",
@@ -7267,6 +8316,7 @@
     "source_refs": {
       "key_transfermarkt": "230921",
       "reep_id": "reep_p6802b421",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7293,7 +8343,7 @@
       "impact_proxy_score": 5.15,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:moutaz-neffati",
@@ -7305,6 +8355,7 @@
     "source_refs": {
       "key_transfermarkt": "1034598",
       "reep_id": "reep_pa4cb610a",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7331,7 +8382,7 @@
       "impact_proxy_score": 1.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:omar-rekik",
@@ -7343,6 +8394,7 @@
     "source_refs": {
       "key_transfermarkt": "578292",
       "reep_id": "reep_paec0babd",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7369,7 +8421,7 @@
       "impact_proxy_score": 0.36,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:rani-khedira",
@@ -7381,6 +8433,7 @@
     "source_refs": {
       "key_transfermarkt": "124410",
       "reep_id": "reep_p82cbb6b5",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7407,7 +8460,7 @@
       "impact_proxy_score": 1.7,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:rayan-elloumi",
@@ -7419,6 +8472,7 @@
     "source_refs": {
       "key_transfermarkt": "1273985",
       "reep_id": "reep_p3792adee",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7445,7 +8499,7 @@
       "impact_proxy_score": 0.5,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:sabri-ben-hassan",
@@ -7457,6 +8511,7 @@
     "source_refs": {
       "key_transfermarkt": "295381",
       "reep_id": "reep_p50d1a909",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "manual_review",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7483,7 +8538,7 @@
       "impact_proxy_score": 0.25,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:sebastian-tounekti",
@@ -7495,6 +8550,7 @@
     "source_refs": {
       "key_transfermarkt": "539677",
       "reep_id": "reep_pa2d971ed",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7521,7 +8577,7 @@
       "impact_proxy_score": 2.98,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   },
   {
     "player_id": "tunisia:player:yan-valery",
@@ -7533,6 +8589,7 @@
     "source_refs": {
       "key_transfermarkt": "406008",
       "reep_id": "reep_p4aafadf2",
+      "identity_ref_source": "person_id_map",
       "person_id_map_confidence": "high",
       "person_id_map_resolution_method": "name_unique",
       "source_file": "data/predictor-assets/files/raw/dcaribou_transfermarkt/players.csv.gz"
@@ -7559,6 +8616,6 @@
       "impact_proxy_score": 6.45,
       "impact_proxy_method": "0-100 display proxy from Transfermarkt market value, international caps, and international goals; not an absence-impact percentage and not a model betting signal."
     },
-    "updated_at": "2026-05-18T14:31:55Z"
+    "updated_at": "2026-05-19T13:48:07Z"
   }
 ]

@@ -25,7 +25,7 @@
     "referee-profiles.json": 219,
     "officials.json": 219,
     "team-staff.json": 48,
-    "player-external-facts.json": 199,
+    "player-external-facts.json": 221,
     "player-dcaribou-activity.json": 234,
     "staff-external-facts.json": 44,
     "player-ratings.json": 0,
@@ -59,16 +59,16 @@
       "total": 234,
       "fields": {
         "date_of_birth": {
-          "available": 199,
-          "missing": 35
+          "available": 221,
+          "missing": 13
         },
         "age": {
-          "available": 199,
-          "missing": 35
+          "available": 221,
+          "missing": 13
         },
         "club": {
-          "available": 192,
-          "missing": 42
+          "available": 211,
+          "missing": 23
         },
         "position": {
           "available": 234,

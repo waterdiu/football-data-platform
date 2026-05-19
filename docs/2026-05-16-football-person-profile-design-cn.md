@@ -470,7 +470,7 @@ Phase 1.5 人物页可渲染 profile 已落地：
 
 - `people-index.json` 是人物搜索/跳转索引，覆盖教练、球员、裁判三类。
 - `coach-profiles.json` 当前由 48 支球队主教练 direct facts 生成，并用 `data/public/team-recent-matches.json` 补充国家队近 10 场代理派生指标；同时通过 Reep coach rows 补充 `staff-external-facts.json` 44 条，覆盖 43 名教练 nationality 和 44 名教练 DOB/age。
-- `player-profiles.json` 当前由已导入 FIFA 官方名单球员 direct facts 生成；通过 Reep `key_transfermarkt` 映射接入 dcaribou Transfermarkt 离线数据后，`player-external-facts.json` 发布 197 条补充事实，覆盖 190 名球员 club/caps/goals、197 名球员 DOB/age、196 名球员展示型 impact proxy。官方名单未提供且当前外部源也不能稳定提供的 `shirt_number`、`absence_impact_pct` 继续以 `null` + `pending_source` 明确标记。
+- `player-profiles.json` 当前由已导入 FIFA 官方名单球员 direct facts 生成；通过 Reep `key_transfermarkt` 与已审计 dcaribou activity Transfermarkt ID 映射接入 dcaribou Transfermarkt 离线数据后，`player-external-facts.json` 发布 221 条补充事实，覆盖 211 名球员 club、221 名球员 DOB/age、220 名球员展示型 impact proxy。官方名单未提供且当前外部源也不能稳定提供的 `shirt_number`、`absence_impact_pct` 继续以 `null` + `pending_source` 明确标记。
 - `referee-profiles.json` 当前合并 FIFA 2026 世界杯 170 名官方比赛官员名单和英超历史裁判样本。FIFA 条目提供 `role=referee|assistant_referee|video_match_official` 与 `association_code`；英超样本继续提供历史尺度画像。两者 `assigned_matches=[]`，不代表单场裁判指派。
 
 profile 记录必须包含：

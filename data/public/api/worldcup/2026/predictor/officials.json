@@ -33,11 +33,21 @@
       "pdf_y": 757.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:zerhouni-abbes-akram",
@@ -73,11 +83,21 @@
       "pdf_y": 851.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:jerson-santos",
@@ -113,11 +133,21 @@
       "pdf_y": 804.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:belatti-juan-pablo",
@@ -153,11 +183,21 @@
       "pdf_y": 442.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:chade-gabriel",
@@ -193,11 +233,21 @@
       "pdf_y": 583.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:del-yesso-maximiliano",
@@ -233,11 +283,21 @@
       "pdf_y": 662.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:navarro-cristian",
@@ -273,11 +333,21 @@
       "pdf_y": 426.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:rodriguez-facundo",
@@ -313,11 +383,21 @@
       "pdf_y": 646.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:lakrindis-george",
@@ -353,11 +433,21 @@
       "pdf_y": 190.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:lindsay-james",
@@ -393,11 +483,21 @@
       "pdf_y": 205.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:bruno-boschilia",
@@ -433,11 +533,21 @@
       "pdf_y": 520.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:bruno-pires",
@@ -473,11 +583,21 @@
       "pdf_y": 536.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:danilo-manis",
@@ -513,11 +633,21 @@
       "pdf_y": 599.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:figueiredo-rodrigo",
@@ -553,11 +683,21 @@
       "pdf_y": 725.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:rafael-alves",
@@ -593,11 +733,21 @@
       "pdf_y": 552.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:arfa-lyes",
@@ -633,11 +783,21 @@
       "pdf_y": 331.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:barwegen-micheal",
@@ -673,11 +833,21 @@
       "pdf_y": 379.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:retamal-jose",
@@ -713,11 +883,21 @@
       "pdf_y": 615.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:rocha-miguel",
@@ -753,11 +933,21 @@
       "pdf_y": 631.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:zhou-fei",
@@ -793,11 +983,21 @@
       "pdf_y": 867.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:noupue-elvis",
@@ -833,11 +1033,21 @@
       "pdf_y": 457.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:guzman-alexander",
@@ -873,11 +1083,21 @@
       "pdf_y": 772.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:mora-juan-carlos",
@@ -913,11 +1133,21 @@
       "pdf_y": 331.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:abouelregal-mahmoud",
@@ -953,11 +1183,21 @@
       "pdf_y": 205.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:hossam-taha-ahmed",
@@ -993,11 +1233,21 @@
       "pdf_y": 788.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:beswick-gary",
@@ -1033,11 +1283,21 @@
       "pdf_y": 457.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:burt-stuart",
@@ -1073,11 +1333,21 @@
       "pdf_y": 552.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:mainwaring-james",
@@ -1113,11 +1383,21 @@
       "pdf_y": 268.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:nunn-adam",
@@ -1153,11 +1433,21 @@
       "pdf_y": 473.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:naranjo-perez-jose-enrique",
@@ -1193,11 +1483,21 @@
       "pdf_y": 410.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:sanchez-diego",
@@ -1233,11 +1533,21 @@
       "pdf_y": 678.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:danos-nicolas",
@@ -1273,11 +1583,21 @@
       "pdf_y": 615.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:mugnier-cyril",
@@ -1313,11 +1633,21 @@
       "pdf_y": 394.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:pages-benjamin",
@@ -1353,11 +1683,21 @@
       "pdf_y": 505.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:rahmouni-mehdi",
@@ -1393,11 +1733,21 @@
       "pdf_y": 568.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:abeigne-amos",
@@ -1433,11 +1783,21 @@
       "pdf_y": 190.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:ditsoga-boris",
@@ -1473,11 +1833,21 @@
       "pdf_y": 694.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:dietz-christian",
@@ -1513,11 +1883,21 @@
       "pdf_y": 678.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:kempter-robert",
@@ -1553,11 +1933,21 @@
       "pdf_y": 835.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:lopez-walter",
@@ -1593,11 +1983,21 @@
       "pdf_y": 237.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:ramirez-christian",
@@ -1633,11 +2033,21 @@
       "pdf_y": 583.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:bindoni-daniele",
@@ -1673,11 +2083,21 @@
       "pdf_y": 473.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:tegoni-alberto",
@@ -1713,11 +2133,21 @@
       "pdf_y": 757.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-kalaf-mohammad",
@@ -1753,11 +2183,21 @@
       "pdf_y": 268.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-roalle-ahmad",
@@ -1793,11 +2233,21 @@
       "pdf_y": 316.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:mihara-jun",
@@ -1833,11 +2283,21 @@
       "pdf_y": 316.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-abakry-mohammed",
@@ -1873,11 +2333,21 @@
       "pdf_y": 237.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:akarkad-mostafa",
@@ -1913,11 +2383,21 @@
       "pdf_y": 221.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:brinsi-zakaria",
@@ -1953,11 +2433,21 @@
       "pdf_y": 505.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:bisguerra-marco",
@@ -1993,11 +2483,21 @@
       "pdf_y": 489.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:morin-alberto",
@@ -2033,11 +2533,21 @@
       "pdf_y": 379.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:ramirez-sandra",
@@ -2073,11 +2583,21 @@
       "pdf_y": 599.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:pupiro-antonio",
@@ -2113,11 +2633,21 @@
       "pdf_y": 536.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:de-vries-jan",
@@ -2153,11 +2683,21 @@
       "pdf_y": 646.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:steegstra-hessel",
@@ -2193,11 +2733,21 @@
       "pdf_y": 725.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:bashevkin-isaak",
@@ -2233,11 +2783,21 @@
       "pdf_y": 394.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:engan-jan-erik",
@@ -2273,11 +2833,21 @@
       "pdf_y": 709.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:trevis-isaac",
@@ -2313,11 +2883,21 @@
       "pdf_y": 772.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:cardozo-eduardo",
@@ -2353,11 +2933,21 @@
       "pdf_y": 568.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:saldivar-milciades",
@@ -2393,11 +2983,21 @@
       "pdf_y": 662.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:orue-michael",
@@ -2433,11 +3033,21 @@
       "pdf_y": 489.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:kupsik-adam",
@@ -2473,11 +3083,21 @@
       "pdf_y": 410.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:listkiewicz-tomasz",
@@ -2513,11 +3133,21 @@
       "pdf_y": 221.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:jesus-bruno",
@@ -2553,11 +3183,21 @@
       "pdf_y": 820.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:maia-luciano",
@@ -2593,11 +3233,21 @@
       "pdf_y": 253.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-maqaleh-saoud",
@@ -2633,11 +3283,21 @@
       "pdf_y": 284.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-marri-taleb",
@@ -2673,11 +3333,21 @@
       "pdf_y": 300.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:marica-mihai",
@@ -2713,11 +3383,21 @@
       "pdf_y": 284.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:tunyogi-ferencz",
@@ -2753,11 +3433,21 @@
       "pdf_y": 804.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:siwela-zakhele",
@@ -2793,11 +3483,21 @@
       "pdf_y": 694.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:moran-david",
@@ -2833,11 +3533,21 @@
       "pdf_y": 347.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:de-almeida-stephane",
@@ -2873,11 +3583,21 @@
       "pdf_y": 631.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:klancnik-tomaz",
@@ -2913,11 +3633,21 @@
       "pdf_y": 851.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:kovacic-andraz",
@@ -2953,11 +3683,21 @@
       "pdf_y": 867.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:beigi-mahbod",
@@ -2993,11 +3733,21 @@
       "pdf_y": 426.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:soderkvist-andreas",
@@ -3033,11 +3783,21 @@
       "pdf_y": 709.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:wales-caleb",
@@ -3073,11 +3833,21 @@
       "pdf_y": 835.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-hammadi-mohamed",
@@ -3113,11 +3883,21 @@
       "pdf_y": 253.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:barreiro-carlos",
@@ -3153,11 +3933,21 @@
       "pdf_y": 363.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:taran-nicolas",
@@ -3193,11 +3983,21 @@
       "pdf_y": 741.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:atkins-kyle",
@@ -3233,11 +4033,21 @@
       "pdf_y": 347.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:mayo-brooke",
@@ -3273,11 +4083,21 @@
       "pdf_y": 300.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:nesbitt-kathryn",
@@ -3313,11 +4133,21 @@
       "pdf_y": 442.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:parker-corey",
@@ -3353,11 +4183,21 @@
       "pdf_y": 520.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:gaynullin-timur",
@@ -3393,11 +4233,21 @@
       "pdf_y": 741.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:tsapenko-andrey",
@@ -3433,11 +4283,21 @@
       "pdf_y": 788.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:moreno-tulio",
@@ -3473,11 +4333,21 @@
       "pdf_y": 363.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:urrego-jorge",
@@ -3513,11 +4383,21 @@
       "pdf_y": 820.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ghorbal-mustapha",
@@ -3553,11 +4433,21 @@
       "pdf_y": 457.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
@@ -3593,11 +4483,21 @@
       "pdf_y": 394.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:herrera-dario",
@@ -3633,11 +4533,21 @@
       "pdf_y": 489.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tello-facundo",
@@ -3673,11 +4583,21 @@
       "pdf_y": 898.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:faghani-alireza",
@@ -3713,11 +4633,21 @@
       "pdf_y": 379.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:claus-raphael",
@@ -3753,11 +4683,21 @@
       "pdf_y": 331.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
@@ -3793,11 +4733,21 @@
       "pdf_y": 788.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
@@ -3833,11 +4783,21 @@
       "pdf_y": 977.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:fischer-drew",
@@ -3873,11 +4833,21 @@
       "pdf_y": 410.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:garay-cristian",
@@ -3913,11 +4883,21 @@
       "pdf_y": 426.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
@@ -3953,11 +4933,21 @@
       "pdf_y": 568.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:rojas-andres",
@@ -3993,11 +4983,21 @@
       "pdf_y": 820.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
@@ -4033,11 +5033,21 @@
       "pdf_y": 316.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
@@ -4073,11 +5083,21 @@
       "pdf_y": 662.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:oliver-michael",
@@ -4113,11 +5133,21 @@
       "pdf_y": 709.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:taylor-anthony",
@@ -4153,11 +5183,21 @@
       "pdf_y": 867.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
@@ -4193,11 +5233,21 @@
       "pdf_y": 473.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:letexier-francois",
@@ -4233,11 +5283,21 @@
       "pdf_y": 552.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:turpin-clement",
@@ -4273,11 +5333,21 @@
       "pdf_y": 930.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:atcho-pierre",
@@ -4313,11 +5383,21 @@
       "pdf_y": 253.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:zwayer-felix",
@@ -4353,11 +5433,21 @@
       "pdf_y": 993.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
@@ -4393,11 +5483,21 @@
       "pdf_y": 646.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
@@ -4433,11 +5533,21 @@
       "pdf_y": 631.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:nation-oshane",
@@ -4473,11 +5583,21 @@
       "pdf_y": 678.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:makhadmeh-adham",
@@ -4513,11 +5633,21 @@
       "pdf_y": 583.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
@@ -4553,11 +5683,21 @@
       "pdf_y": 221.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
@@ -4593,11 +5733,21 @@
       "pdf_y": 205.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
@@ -4633,11 +5783,21 @@
       "pdf_y": 505.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
@@ -4673,11 +5833,21 @@
       "pdf_y": 442.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ramos-cesar",
@@ -4713,11 +5883,21 @@
       "pdf_y": 804.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
@@ -4753,11 +5933,21 @@
       "pdf_y": 284.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:makkelie-danny",
@@ -4793,11 +5983,21 @@
       "pdf_y": 599.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:eskas-espen",
@@ -4833,11 +6033,21 @@
       "pdf_y": 363.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
@@ -4873,11 +6083,21 @@
       "pdf_y": 520.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
@@ -4913,11 +6133,21 @@
       "pdf_y": 300.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
@@ -4953,11 +6183,21 @@
       "pdf_y": 741.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
@@ -4993,11 +6233,21 @@
       "pdf_y": 615.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:pinheiro-joao",
@@ -5033,11 +6283,21 @@
       "pdf_y": 772.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
@@ -5073,11 +6333,21 @@
       "pdf_y": 190.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:kovacs-istvan",
@@ -5113,11 +6383,21 @@
       "pdf_y": 536.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
@@ -5153,11 +6433,21 @@
       "pdf_y": 914.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
@@ -5193,11 +6483,21 @@
       "pdf_y": 268.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
@@ -5233,11 +6533,21 @@
       "pdf_y": 237.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
@@ -5273,11 +6583,21 @@
       "pdf_y": 835.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:vincic-slavko",
@@ -5313,11 +6633,21 @@
       "pdf_y": 961.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:nyberg-glenn",
@@ -5353,11 +6683,21 @@
       "pdf_y": 694.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:omar-al-ali",
@@ -5393,11 +6733,21 @@
       "pdf_y": 725.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tejera-gustavo",
@@ -5433,11 +6783,21 @@
       "pdf_y": 883.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:elfath-ismail",
@@ -5473,11 +6833,21 @@
       "pdf_y": 347.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
@@ -5513,11 +6883,21 @@
       "pdf_y": 757.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tantashev-ilgiz",
@@ -5553,11 +6933,21 @@
       "pdf_y": 851.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:valenzuela-jesus",
@@ -5593,11 +6983,21 @@
       "pdf_y": 946.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:mastrangelo-hernan",
@@ -5633,11 +7033,21 @@
       "pdf_y": 520.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:evans-shaun",
@@ -5673,11 +7083,21 @@
       "pdf_y": 363.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:van-driessche-bram",
@@ -5713,11 +7133,21 @@
       "pdf_y": 631.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:toski-rodolpho",
@@ -5753,11 +7183,21 @@
       "pdf_y": 615.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:lara-juan",
@@ -5793,11 +7233,21 @@
       "pdf_y": 505.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:fu-ming",
@@ -5833,11 +7283,21 @@
       "pdf_y": 379.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:gallo-nicolas",
@@ -5873,11 +7333,21 @@
       "pdf_y": 394.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:bebek-ivan",
@@ -5913,11 +7383,21 @@
       "pdf_y": 237.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:ashour-mahmoud",
@@ -5953,11 +7433,21 @@
       "pdf_y": 221.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:gillett-jarred",
@@ -5993,11 +7483,21 @@
       "pdf_y": 426.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:del-cerro-grande-carlos",
@@ -6033,11 +7533,21 @@
       "pdf_y": 284.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:brisard-jerome",
@@ -6073,11 +7583,21 @@
       "pdf_y": 253.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:dankert-bastian",
@@ -6113,11 +7633,21 @@
       "pdf_y": 268.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:di-bello-marco",
@@ -6153,11 +7683,21 @@
       "pdf_y": 300.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:alshehri-abdullah",
@@ -6193,11 +7733,21 @@
       "pdf_y": 205.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:el-fariq-hamza",
@@ -6233,11 +7783,21 @@
       "pdf_y": 347.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:miranda-erick",
@@ -6273,11 +7833,21 @@
       "pdf_y": 536.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:pacheco-guillermo",
@@ -6313,11 +7883,21 @@
       "pdf_y": 568.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:guzman-tatiana",
@@ -6353,11 +7933,21 @@
       "pdf_y": 457.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:dieperink-rob",
@@ -6393,11 +7983,21 @@
       "pdf_y": 331.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:higler-dennis",
@@ -6433,11 +8033,21 @@
       "pdf_y": 473.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:kwiatkowski-tomasz",
@@ -6473,11 +8083,21 @@
       "pdf_y": 489.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:al-marri-khamis",
@@ -6513,11 +8133,21 @@
       "pdf_y": 190.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:san-fedayi",
@@ -6553,11 +8183,21 @@
       "pdf_y": 583.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:mohammed-obaid-khadim",
@@ -6593,11 +8233,21 @@
       "pdf_y": 552.4
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:garcia-antonio",
@@ -6633,11 +8283,21 @@
       "pdf_y": 410.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:gonzalez-leodan",
@@ -6673,11 +8333,21 @@
       "pdf_y": 442.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:dickerson-joe",
@@ -6713,11 +8383,21 @@
       "pdf_y": 316.1
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:villarreal-armando",
@@ -6753,11 +8433,21 @@
       "pdf_y": 646.9
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:soto-juan",
@@ -6793,11 +8483,21 @@
       "pdf_y": 599.6
     },
     "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
-    "updated_at": "2026-05-19T10:34:27.222006+00:00",
+    "updated_at": "2026-05-19T10:40:12.006825+00:00",
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:a-kitchen",
@@ -6851,7 +8551,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:a-madley",
@@ -6911,7 +8621,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:a-marriner",
@@ -6971,7 +8691,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:a-moss",
@@ -7024,7 +8754,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:a-taylor",
@@ -7087,7 +8827,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:c-kavanagh",
@@ -7149,7 +8899,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:c-pawson",
@@ -7212,7 +8972,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:d-bond",
@@ -7267,7 +9037,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:d-coote",
@@ -7327,7 +9107,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:d-england",
@@ -7386,7 +9176,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:d-webb",
@@ -7439,7 +9239,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:f-hallam",
@@ -7492,7 +9302,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:g-scott",
@@ -7555,7 +9375,17 @@
     "style_tags": [
       "low-card"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:j-brooks",
@@ -7614,7 +9444,17 @@
     "style_tags": [
       "card-heavy"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:j-gillett",
@@ -7673,7 +9513,17 @@
     "style_tags": [
       "high-scoring-sample"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:j-moss",
@@ -7732,7 +9582,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:j-smith",
@@ -7787,7 +9647,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:k-friend",
@@ -7846,7 +9716,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:k-kavanagh",
@@ -7899,7 +9779,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:k-stroud",
@@ -7952,7 +9842,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:l-probert",
@@ -8009,7 +9909,17 @@
     "style_tags": [
       "low-card"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:l-smith",
@@ -8064,7 +9974,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-atkinson",
@@ -8123,7 +10043,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-clattenburg",
@@ -8177,7 +10107,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-dean",
@@ -8238,7 +10178,17 @@
     "style_tags": [
       "red-card-prone"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-donohue",
@@ -8292,7 +10242,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-jones",
@@ -8347,7 +10307,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-oliver",
@@ -8410,7 +10380,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-salisbury",
@@ -8469,7 +10449,17 @@
     "style_tags": [
       "high-scoring-sample"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:n-swarbrick",
@@ -8524,7 +10514,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:o-langford",
@@ -8577,7 +10577,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:o-oliver",
@@ -8630,7 +10640,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:p-bankes",
@@ -8689,7 +10709,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:p-tierney",
@@ -8751,7 +10781,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:r-east",
@@ -8807,7 +10847,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:r-jones",
@@ -8866,7 +10916,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:r-madley",
@@ -8923,7 +10983,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:r-welch",
@@ -8976,7 +11046,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-allison",
@@ -9030,7 +11110,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-attwell",
@@ -9093,7 +11183,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-barrott",
@@ -9150,7 +11250,17 @@
     "style_tags": [
       "high-scoring-sample"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-hooper",
@@ -9212,7 +11322,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-scott",
@@ -9265,7 +11385,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-singh",
@@ -9318,7 +11448,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:t-bramall",
@@ -9376,7 +11516,17 @@
     "style_tags": [
       "draw-leaning"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:t-harrington",
@@ -9433,7 +11583,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:t-kirk",
@@ -9486,7 +11646,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:t-robinson",
@@ -9543,7 +11713,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:l-mason",
@@ -9596,6 +11776,16 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   }
 ]
