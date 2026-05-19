@@ -1,0 +1,114 @@
+{
+  "provider": "api_football",
+  "status": "planned_after_pro_upgrade",
+  "purpose": "Use daily spare API-FOOTBALL Pro requests to maximize historical data collection for model iteration without risking World Cup matchday P0 data.",
+  "quota_policy": {
+    "daily_plan_limit": 7500,
+    "normal_day_safety_floor": 1000,
+    "matchday_safety_floor": 2500,
+    "stop_backfill_when_remaining_below": 1000,
+    "matchday_backfill_allowed_after_p0_complete": true,
+    "max_minute_rate": 120
+  },
+  "competitions": [
+    {
+      "competition_id": "fifa_world_cup",
+      "api_football_league_id": 1,
+      "priority": 1,
+      "seasons": [2026, 2022, 2018, 2014, 2010],
+      "notes": "2026 is runtime + archive priority. Older seasons are model/reference backfill only and must be probed for API coverage before detailed collection."
+    },
+    {
+      "competition_id": "premier_league",
+      "api_football_league_id": 39,
+      "priority": 2,
+      "seasons": [2025, 2024, 2023, 2022, 2021, 2020],
+      "notes": "Split-year seasons use API-FOOTBALL starting year convention, e.g. 2025 means 2025-2026."
+    },
+    {
+      "competition_id": "la_liga",
+      "api_football_league_id": 140,
+      "priority": 3,
+      "seasons": [2025, 2024, 2023, 2022, 2021, 2020]
+    },
+    {
+      "competition_id": "serie_a",
+      "api_football_league_id": 135,
+      "priority": 4,
+      "seasons": [2025, 2024, 2023, 2022, 2021, 2020]
+    },
+    {
+      "competition_id": "bundesliga",
+      "api_football_league_id": 78,
+      "priority": 5,
+      "seasons": [2025, 2024, 2023, 2022, 2021, 2020]
+    },
+    {
+      "competition_id": "ligue_1",
+      "api_football_league_id": 61,
+      "priority": 6,
+      "seasons": [2025, 2024, 2023, 2022, 2021, 2020]
+    }
+  ],
+  "collection_phases": [
+    {
+      "phase": "coverage_and_fixture_index",
+      "priority": 1,
+      "endpoints": ["/leagues", "/fixtures"],
+      "goal": "Verify season coverage and collect fixture ids, scores, dates, teams, venues, referee, and status.",
+      "writes": ["reports", "data/raw/api-football", "data/model"],
+      "promotion_gate": "Can promote fixture index to normalized after ID mapping and season coverage validation."
+    },
+    {
+      "phase": "standings_and_tables",
+      "priority": 2,
+      "endpoints": ["/standings"],
+      "goal": "Collect league tables for model strength priors and season context.",
+      "writes": ["reports", "data/raw/api-football", "data/model"]
+    },
+    {
+      "phase": "match_details_bulk",
+      "priority": 3,
+      "endpoints": ["/fixtures?ids="],
+      "goal": "Batch up to 20 fixture ids per request for final fixture detail snapshots.",
+      "writes": ["data/raw/api-football", "data/model"],
+      "estimated_requests_per_380_match_season": 19
+    },
+    {
+      "phase": "match_stats_events_lineups_players",
+      "priority": 4,
+      "endpoints": ["/fixtures/statistics", "/fixtures/events", "/fixtures/lineups", "/fixtures/players"],
+      "goal": "Collect detailed match stats, events, lineups, and player ratings where coverage supports it.",
+      "writes": ["data/raw/api-football", "data/model"],
+      "estimated_max_requests_per_380_match_season": 1520,
+      "promotion_gate": "Do not promote to normalized/public until field semantics and completeness are validated."
+    },
+    {
+      "phase": "team_and_player_enrichment",
+      "priority": 5,
+      "endpoints": ["/players", "/coachs", "/sidelined"],
+      "goal": "Backfill player season stats, coach details, and injury/sidelined history for model features.",
+      "writes": ["reports", "data/raw/api-football", "data/model"]
+    },
+    {
+      "phase": "h2h_and_prediction_reference",
+      "priority": 6,
+      "endpoints": ["/fixtures/headtohead", "/predictions"],
+      "goal": "Collect report-only H2H and provider prediction reference for calibration research.",
+      "writes": ["reports", "data/model"]
+    }
+  ],
+  "daily_backfill_order": [
+    "complete current World Cup P0/P1 runtime tasks",
+    "consume spare quota on fifa_world_cup historical seasons",
+    "consume spare quota on premier_league",
+    "consume spare quota on la_liga",
+    "consume spare quota on serie_a",
+    "consume spare quota on bundesliga",
+    "consume spare quota on ligue_1",
+    "repeat next incomplete season/phase until safety floor is reached"
+  ],
+  "raw_output_root": "data/raw/api-football",
+  "model_output_root": "data/model/api-football-history",
+  "report_output": "reports/api_football_historical_backfill_report.json"
+}
