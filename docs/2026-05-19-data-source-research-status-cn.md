@@ -197,6 +197,7 @@ FBref live 抓取验证结果：
 - 已新增小型采样脚本 `scripts/sample_odds_api_io_snapshots.py`。它会选取 3-5 场 pending/live 足球比赛，把原始响应写入 `data/raw/experimental/odds-api-io`，把映射结果和字段稳定性摘要写入 `reports/odds_api_io_sampling_report.json`；采样结果不得进入 normalized/model/public。
 - 首次小型采样结果：5 场 pending/live 足球比赛，映射出 163 条候选标准行，其中 1X2 11 条、AH 77 条、OU 75 条。书商样本为 `Bet365`、`Bet365 (no latency)`、`Sbobet`；赛事样本为 U20 国际友谊赛、印度超、中超。该结果证明 AH/OU schema 映射可行，但仍未验证 2026 World Cup / 成年国际赛覆盖。
 - 已新增 event scan 模式，报告为 `reports/odds_api_io_event_scan_report.json`。当前用 `Sbobet` 过滤分页扫描前 3 页、每页 30 条，得到 88 个去重 pending/live football events，没有发现 World Cup 候选，也没有发现成年国家队国际赛候选；可见赛事主要是俱乐部联赛/杯赛、青年国际赛和国际俱乐部杯赛。因此 2026 World Cup 覆盖仍不能确认。
+- 复查规则：在 2026 World Cup 首场比赛前 5 天，必须重跑 Odds-API.io event scan，参数建议 `--scan-events --pages 5 --page-size 30 --bookmakers Sbobet,Bet365`。如果出现 World Cup / FIFA / senior international 候选赛事，再继续做 `eventId -> platform match_id` 映射和 AH/OU 字段复验；如果仍无候选，则维持 `world_cup_2026=unknown_or_not_visible_on_free_tier`。
 - 本次样本为 International Youth / U20 Friendly，不是 2026 World Cup；因此 `world_cup_2026` 仍是 unknown。
 - 免费层只有 2 个 selected bookmakers，当前建议选择 `Sbobet + Bet365`。这能补 AH/OU 缺口，但不足以支撑 market consensus、sharp/soft 分层、closing line value 或强 Kelly 结论。
 
