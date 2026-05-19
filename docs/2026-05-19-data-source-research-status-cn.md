@@ -248,14 +248,14 @@ FBref live 抓取验证结果：
 | 来源 | 当前结论 | 费用判断 | 适合场景 |
 |---|---|---|---|
 | TheOddsAPI | 用户邮件确认免费层只 NBA/MLB；足球需 Business | Business $99/月 | 只有模型正式做 AH/OU/CLV 且确认 World Cup 覆盖后再考虑。 |
-| API-FOOTBALL | 已有 key；Free 对 2026 World Cup injuries 受限 | Pro $19/月起 | 当前最便宜的综合源，先验证 odds/lineups/injuries/stats。 |
+| API-FOOTBALL | 已有 key；World Cup 2026 `league=1,season=2026` 的 fixtures/odds live probe 均返回 plan restricted | Pro $19/月起 | Free 当前不能承担 2026 世界杯 runtime 主源；若升级套餐再重跑 endpoint probe。 |
 | Sportmonks | 有 World Cup 包和 odds add-on | €69/€129+ 级别 | 若需要一体化世界杯数据可评估。 |
 | TheStatsAPI | 待进一步合同确认 | $50/月起公开说法待核 | 可作为 odds/closing odds 候选。 |
 
 性价比判断：
 
 1. 先不买 TheOddsAPI Business。
-2. 优先用现有 API-FOOTBALL key 验证世界杯赔率/阵容/伤停/技术统计覆盖。
+2. API-FOOTBALL 已用现有 key 验证：Free 对 2026 World Cup fixtures/odds 计划受限，拿不到 sample fixture id，因此 lineups/injuries/events/statistics 暂无法验证真实字段覆盖。
 3. 若模型正式启用 AH/OU/CLV，再确认 TheOddsAPI Business 是否覆盖 FIFA World Cup、AH、OU、Pinnacle/锐盘、closing/archive。
 4. 免费/逆向赔率源只能补研究，不能作为正式盘口结论依据。
 
@@ -277,7 +277,7 @@ FBref live 抓取验证结果：
 | 原因 | 具体表现 | 示例 |
 |---|---|---|
 | 官网/服务不支持免费足球 | 免费层没有目标运动或市场 | TheOddsAPI free 只 NBA/MLB；iSportsAPI free 15 天。 |
-| 免费额度/套餐受限 | API 返回 plan restricted | API-FOOTBALL free 对 World Cup 2026 injuries 受限。 |
+| 免费额度/套餐受限 | API 返回 plan restricted | API-FOOTBALL Free 对 World Cup 2026 fixtures/odds 受限；无 fixture id 时 lineups/injuries/events/statistics 也无法验证。 |
 | 赛事未开始或不在时间窗口 | 正赛未开、赛前阵容未发布、天气窗口未到 | lineups、weather、match stats。 |
 | 网站有数据但非官方/逆向 | 可抓但合规/稳定性差 | 雷速、OddsPortal、Sofascore wrapper。 |
 | reader 不存在 | 当前库没有对应 reader | soccerdata FotMob。 |
@@ -289,7 +289,7 @@ FBref live 抓取验证结果：
 
 ### P0
 
-- 用现有 API-FOOTBALL key 验证 World Cup 2026 odds / lineups / injuries / statistics 的真实覆盖。
+- 若升级 API-FOOTBALL 套餐，重跑 World Cup 2026 odds / lineups / injuries / statistics / events 覆盖 probe；当前 Free 已判定计划受限。
 - 等 FIFA/足协最终名单，补剩余 39 队 roster。
 - 赔率源继续 probe：BSD 查真实 World Cup event mapping；用户申请 `ODDS_API_IO_KEY` 后跑 Odds-API.io live probe。
 
@@ -310,6 +310,7 @@ FBref live 抓取验证结果：
 | 类型 | 文件 |
 |---|---|
 | 免费赔率源 probe | `reports/free_odds_source_probe.json` |
+| API-FOOTBALL World Cup runtime probe | `reports/api_football_worldcup_runtime_probe.json` |
 | Sofascore direct endpoint probe | `reports/sofascore_source_probe.json` |
 | Sofascore wrapper live 验证 | `reports/sofascore_wrapper_live_field_validation.json` |
 | soccerdata Sofascore probe | `reports/soccerdata_sofascore_probe.json` |

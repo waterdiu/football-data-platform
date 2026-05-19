@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-05-19T07:07:37.984673+00:00",
+  "provider": "api_football",
+  "provider_url": "https://api-football.com/",
+  "auth_env": "API_FOOTBALL_KEY",
+  "league_id": "1",
+  "season": "2026",
+  "sample_fixture_id": null,
+  "production_write_allowed": false,
+  "public_write_allowed": false,
+  "report_only": true,
+  "endpoints": [
+    {
+      "endpoint": "/fixtures",
+      "params": {
+        "league": "1",
+        "season": "2026"
+      },
+      "checked_at": "2026-05-19T07:07:37.984810+00:00",
+      "http_status": 200,
+      "attempts": 1,
+      "status": "plan_restricted",
+      "status_reason": "Free plans do not have access to this season, try from 2022 to 2024.",
+      "paging": {
+        "current": 1,
+        "total": 1
+      },
+      "results": 0,
+      "response_count": 0,
+      "sample_keys": [],
+      "sample_summary": null,
+      "verdict": "plan_restricted"
+    },
+    {
+      "endpoint": "/odds",
+      "params": {
+        "league": "1",
+        "season": "2026"
+      },
+      "checked_at": "2026-05-19T07:07:39.336433+00:00",
+      "http_status": 200,
+      "attempts": 1,
+      "status": "plan_restricted",
+      "status_reason": "Free plans do not have access to this season, try from 2022 to 2024.",
+      "paging": {
+        "current": 1,
+        "total": 1
+      },
+      "results": 0,
+      "response_count": 0,
+      "sample_keys": [],
+      "sample_summary": null,
+      "verdict": "plan_restricted"
+    },
+    {
+      "endpoint": "/fixtures/events",
+      "params": {
+        "fixture": null
+      },
+      "checked_at": "2026-05-19T07:07:37.984673+00:00",
+      "status": "skipped_no_fixture_id",
+      "status_reason": "Fixture discovery did not return a sample fixture id.",
+      "response_count": 0,
+      "sample_keys": [],
+      "sample_summary": null,
+      "verdict": "blocked_by_fixture_discovery"
+    },
+    {
+      "endpoint": "/fixtures/statistics",
+      "params": {
+        "fixture": null
+      },
+      "checked_at": "2026-05-19T07:07:37.984673+00:00",
+      "status": "skipped_no_fixture_id",
+      "status_reason": "Fixture discovery did not return a sample fixture id.",
+      "response_count": 0,
+      "sample_keys": [],
+      "sample_summary": null,
+      "verdict": "blocked_by_fixture_discovery"
+    },
+    {
+      "endpoint": "/fixtures/lineups",
+      "params": {
+        "fixture": null
+      },
+      "checked_at": "2026-05-19T07:07:37.984673+00:00",
+      "status": "skipped_no_fixture_id",
+      "status_reason": "Fixture discovery did not return a sample fixture id.",
+      "response_count": 0,
+      "sample_keys": [],
+      "sample_summary": null,
+      "verdict": "blocked_by_fixture_discovery"
+    },
+    {
+      "endpoint": "/injuries",
+      "params": {
+        "fixture": null
+      },
+      "checked_at": "2026-05-19T07:07:37.984673+00:00",
+      "status": "skipped_no_fixture_id",
+      "status_reason": "Fixture discovery did not return a sample fixture id.",
+      "response_count": 0,
+      "sample_keys": [],
+      "sample_summary": null,
+      "verdict": "blocked_by_fixture_discovery"
+    }
+  ],
+  "summary": {
+    "endpoint_count": 6,
+    "by_status": {
+      "plan_restricted": 2,
+      "skipped_no_fixture_id": 4
+    },
+    "by_verdict": {
+      "plan_restricted": 2,
+      "blocked_by_fixture_discovery": 4
+    },
+    "has_fixture_discovery": false,
+    "has_odds_rows": false,
+    "has_lineup_rows": false,
+    "has_injury_rows": false,
+    "has_event_rows": false,
+    "has_statistics_rows": false
+  },
+  "next_actions": [
+    "If fixtures is plan_restricted, API-FOOTBALL cannot be the World Cup 2026 runtime source on the current plan.",
+    "If fixtures works but fixture-scoped endpoints are empty, rerun inside lineup/post-match windows before rejecting the source.",
+    "Do not promote this source into normalized/model/public until endpoint status, field coverage, and collection windows are documented."
+  ]
+}

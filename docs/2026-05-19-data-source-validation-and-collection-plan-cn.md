@@ -80,7 +80,7 @@
 | Odds-API.io free | `verified_experimental` | 足球 ML、Spread/AH、Totals/OU；Sbobet + Bet365 | 免费层 2 家书商；World Cup/成年国家队未可见；不能做共识/CLV | 世界杯首场前 5 天重跑 event scan |
 | BSD/Bzzoiro | `verified_experimental` for 1X2/OU | 通用 odds、15 bookmaker、1X2/OU/BTTS/DC/DNB | World Cup `league_id=16&season_id=82` 返回 0；AH 未文档化 | 找真实 World Cup event mapping；若无 AH 则降级 |
 | TheOddsAPI | `blocked_by_plan` | 免费只 NBA/MLB | 足球需 Business $99/月 | 只有正式做 AH/OU/CLV 再评估 |
-| API-FOOTBALL odds | `pending_plan_or_probe` | 理论有 odds/fixtures/stats | Free 对部分 WC 2026 受限 | 系统验证 odds/stats/lineups/injuries 端点 |
+| API-FOOTBALL odds | `blocked_by_plan_current_free_key` | 当前 Free key 对 WC 2026 fixtures/odds 返回 plan restricted | 拿不到 sample fixture id，lineups/injuries/events/statistics 只能等套餐升级或比赛窗口后重验 | 若升级 Pro 或以上，重跑 `scripts/probe_api_football_worldcup_runtime.py` |
 | 雷速类 | `metadata_only` | 旧项目代码有比分/1X2/AH/OU 字段解析 | 未 live 验证；逆向/页面/合规风险 | 仅如必要建立 raw experimental probe |
 
 ### 4.4 高级统计源验证矩阵
@@ -131,12 +131,12 @@
 
 ## 7. 下一步执行顺序
 
-1. 完成 API-FOOTBALL 端点覆盖验证：odds、lineups、injuries、statistics、events。
-2. 完成主办球场增强：capacity、surface、roof_type、altitude、source_urls。
-3. 建立官方名单 source checklist：剩余 39 队官方名单公布后快速导入。
-4. 继续验证 FBref/英超球员候选是否可以成为 `model_only` 数据，不进入 public。
-5. 对 Sofascore wrapper 做世界杯/成年国际赛 event mapping 低频 raw 实验。
-6. 世界杯首场前 5 天重跑 Odds-API.io event scan。
+1. 完成主办球场增强：capacity、surface、roof_type、altitude、source_urls。
+2. 建立官方名单 source checklist：剩余 39 队官方名单公布后快速导入。
+3. 继续验证 FBref/英超球员候选是否可以成为 `model_only` 数据，不进入 public。
+4. 对 Sofascore wrapper 做世界杯/成年国际赛 event mapping 低频 raw 实验。
+5. 世界杯首场前 5 天重跑 Odds-API.io event scan。
+6. 若升级 API-FOOTBALL Pro 或以上，重跑 `scripts/probe_api_football_worldcup_runtime.py` 验证 odds、lineups、injuries、statistics、events。
 7. 如果仍缺生产级赔率，最后再评估付费源。
 
 ## 8. 当前明确不做
