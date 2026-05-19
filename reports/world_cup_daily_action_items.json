@@ -102,12 +102,12 @@
       },
       {
         "id": "world_cup_referee_profiles",
-        "title": "世界杯裁判名单与画像",
+        "title": "世界杯比赛官员名单与画像",
         "phase": "P1_people",
         "severity": "P1",
         "status": "pass",
-        "detail": "referee_profiles=50",
-        "next_action": "等待 FIFA 正式裁判名单/单场指派；样本不足时只展示，不入强模型结论。"
+        "detail": "fifa_officials=170/170, referee_profiles=219",
+        "next_action": "FIFA 官方 170 名比赛官员名单已导入；单场裁判指派仍需等 FIFA match centre/report 后补。"
       },
       {
         "id": "person_profile_snapshot_inputs",

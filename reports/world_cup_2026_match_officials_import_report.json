@@ -1,5 +1,5 @@
 {
-  "status": "published",
+  "status": "reused_existing_output_missing_pdf_parser",
   "source_pdf": "downloaded_files/fifa_world_cup_2026_match_officials.pdf",
   "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-officials-appointed-referees",
   "output": "data/normalized/world_cup_2026_match_officials_master.json",
@@ -14,5 +14,5 @@
     "assistant_referee": 88,
     "video_match_official": 30
   },
-  "generated_at": "2026-05-19T15:15:13.463093+00:00"
+  "generated_at": "2026-05-19T15:48:43.702272+00:00"
 }
