@@ -76,7 +76,7 @@
 |---|---:|---|
 | P0 生产采集 | 0-1,500/day | 当日比赛、赛前窗口、赛后归档 |
 | P1 补强采集 | 0-1,500/day | 球员、教练、伤停、积分榜、榜单、近期数据 |
-| P2 实验/复核 | 0-1,000/day | predictions、H2H、异常复核、字段验证 |
+| P2 历史补强/实验/复核 | 0-1,500/day | 历史赛果、历史交锋、历史球员/球队统计、predictions、异常复核、字段验证 |
 | 安全余量 | >=2,500/day | 防止重跑、失败重试、临时修复 |
 | 绝对停止线 | remaining < 1,000 | 停止 P1/P2，只保留 P0 |
 
@@ -88,7 +88,7 @@
 |---|---|---|
 | P0 | coverage、fixture id map、当日比分/状态、确认阵容、赛后事件/统计/球员评分、赛前关键伤停 | 不可停 |
 | P1 | odds 快照、积分榜、射手榜、球员名单、教练档案 | quota 低时可降频 |
-| P2 | predictions、H2H、历史补采、异常二次校验 | quota 低时停 |
+| P2 | 历史数据补采、predictions、H2H、异常二次校验 | quota 低时停 |
 | P3 | live odds、重复拉取已 confirmed 阵容、已归档比赛重复统计 | 默认停 |
 
 ## 6. 世界杯前使用方案
@@ -212,16 +212,35 @@
 
 ## 9. 空余请求如何分配
 
-空余请求不是每天必须用完。只有在明确能提升数据质量时才用。
+空余请求不是每天必须用完，但可以有计划地用于历史数据补强，服务模型侧迭代。前提是 P0/P1 当日任务已经完成，且必须保留安全余量；历史补采必须有明确窗口、目标字段和停止条件。
 
 | 优先级 | 用途 | 触发条件 |
 |---|---|---|
 | 1 | 缺字段补采 | data-quality 显示 match stats/events/player stats missing |
-| 2 | 球员/教练档案补全 | profiles 缺 DOB、身高体重、照片、career |
-| 3 | 伤停历史 `/sidelined` | 只对核心球员或已伤停球员 |
-| 4 | H2H/近期比赛 | 只对即将比赛的对阵 |
-| 5 | API predictions 对照 | 只作为报告参考，不覆盖自有模型 |
-| 6 | odds 快照加密 | 只在模型确认 AH/OU/CLV 需要时 |
+| 2 | 历史国家队比赛补强 | 48 队近 20/50 场赛果、事件、阵容、统计缺失，用于模型 form/强度迭代 |
+| 3 | 历史球员/球队统计补强 | 已导入 roster 球员的俱乐部/国家队出场、分钟、进球助攻、牌、伤停历史缺失 |
+| 4 | 球员/教练档案补全 | profiles 缺 DOB、身高体重、照片、career |
+| 5 | 伤停历史 `/sidelined` | 只对核心球员或已伤停球员 |
+| 6 | H2H/近期比赛 | 只对即将比赛的对阵 |
+| 7 | API predictions 对照 | 只作为报告参考，不覆盖自有模型 |
+| 8 | odds 快照加密 | 只在模型确认 AH/OU/CLV 需要时 |
+
+历史补强建议顺序：
+
+| 数据集 | 推荐 endpoint | 单日预算 | 进入层级 |
+|---|---|---:|---|
+| 48 队近 20/50 场国家队比赛 | `/fixtures?team=TEAM_ID&last=N` 或按 team/season 查询 | 100-300 | `data/model` 优先，稳定后 normalized |
+| 历史 H2H | `/fixtures/headtohead?h2h=TEAM_A-TEAM_B` | 20-80 | reports/model-only |
+| 球员伤停历史 | `/sidelined?player=PLAYER_ID` | 50-200 | model-only |
+| 球员赛季数据 | `/players?team=TEAM_ID&season=YYYY&page=N` | 100-500 | model-only |
+| 教练历史 | `/coachs?team=TEAM_ID` | 48-100 | normalized/public 补 direct facts |
+
+历史补强停止线：
+
+- `remaining < 2,500`：停止所有历史补强。
+- 比赛日：历史补强默认停，只允许赛后归档缺字段补采。
+- 同一 team/player/window 已成功归档后，7 天内不得重复抓，除非 data-quality 标记冲突或缺字段。
+- 历史补强结果先进入 `reports` 或 `data/model`，不能直接覆盖 public 事实。
 
 禁止：
 
@@ -229,6 +248,7 @@
 - 对所有球员无限制拉 `/sidelined`。
 - 对所有比赛每分钟拉单端点。
 - 在 coverage false 时继续刷对应 endpoint。
+- 无窗口、无队伍清单、无模型字段目标地抓历史。
 
 ## 10. 采集任务设计
 
@@ -311,9 +331,10 @@ data/raw/api-football/worldcup-2026/
 2. 06:00 UTC：injuries league-level。
 3. 12:00 UTC：未来 7 天 odds visibility。
 4. 18:00 UTC：players/coachs 增量，名单窗口期才跑。
-5. 生成 quota/data-quality/source-health 报告。
+5. 20:00 UTC：如果 remaining >= 3,500，运行历史补强队列，默认最多 1,000 请求。
+6. 生成 quota/data-quality/source-health 报告。
 
-目标：<150 requests/day。
+目标：基础任务 <150 requests/day；含历史补强 <1,500 requests/day。
 
 ### 比赛日
 
@@ -322,7 +343,8 @@ data/raw/api-football/worldcup-2026/
 3. 每场 T-90/T-60/T-30/T-15：lineups，confirmed 后停止。
 4. 比赛中：默认 10-15 分钟批量详情；如无 live 需求可降为 15 分钟比分状态。
 5. FT+15m、FT+2h、次日 06:00 UTC：赛后归档。
-6. 生成 quota/data-quality/source-health。
+6. 历史补强默认暂停，除非 remaining >= 5,000 且当日 P0 数据完整。
+7. 生成 quota/data-quality/source-health。
 
 目标：普通比赛日 <1,000 requests/day；高峰日 <1,500 requests/day。
 
