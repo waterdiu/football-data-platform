@@ -474,6 +474,7 @@ football-data-platform/
 人物档案层规划见专题设计文档：
 
 - `docs/2026-05-16-football-person-profile-design-cn.md`
+- `docs/2026-05-19-person-profile-unified-contract-cn.md`
 
 当前已落地：
 
@@ -498,6 +499,13 @@ football-data-platform/
 - `api/worldcup/2026/core/referee-profiles.json`
 
 这些 profile 以 `direct` / `derived` / `distilled` 三层组织。当前 `direct` 来自官方主教练、已导入官方名单球员，以及英超历史裁判样本中的裁判姓名；`derived` 可由可复现历史样本计算，`distilled` 在样本不足或来源未接入时必须保持 `pending_source` / `insufficient_sample`，不能由前端或模型主观补写。人物 `kpis[]` 中 `label` 保留展示文案，三色数据性质使用 `data_tier` / `data_tier_label` / `status` 表示。
+
+统一人物契约明确两个消费方向：
+
+- `worldcup/2026` 按 `person_id` 消费人物页 API，负责渲染 Hero、实时状态、KPI、基础档案、能力条、风格画像和来源说明；前端不计算胜率、能力值、缺阵影响或风格标签。
+- `world-cup-predictor` 按 `match_id / fixture_id` 消费 `person_profile_snapshot`，用于 D5 阵容完整度、D6 广义实力、D8 裁判环境、L2 结构调整、L3 信号共振和 Kelly 降权；模型不直接采集人物数据。
+
+待实现输出包括 `api/worldcup/2026/core/person-realtime-snapshots.json`、`api/worldcup/2026/core/person-model-impact.json`、`api/worldcup/2026/core/match-official-assignments.json` 和 `api/worldcup/2026/predictor/person-profile-snapshots.json`。这些输出必须复用现有 `people-index`、`coach-profiles`、`player-profiles`、`referee-profiles`、`lineups`、`injuries`、`prematch_context` 和裁判样本/官方指派数据，不得复制出第二套人物事实来源。
 
 Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
 
