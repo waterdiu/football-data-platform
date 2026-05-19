@@ -2,6 +2,10 @@
   "status": "published",
   "rows": 16,
   "fixture_count_total": 104,
+  "capacity_rows": 16,
+  "surface_rows": 16,
+  "roof_rows": 16,
+  "altitude_rows": 16,
   "venue_ids": [
     "arrowhead-stadium",
     "at-and-t-stadium",

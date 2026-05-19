@@ -100,14 +100,26 @@ def build_venue_rows(
                 "country_en": host.get("country_en") or country_en,
                 "country_zh": host.get("country_zh") or country_zh,
                 "timezone": host.get("timezone"),
+                "address": venue.get("address"),
                 "latitude": venue.get("latitude"),
                 "longitude": venue.get("longitude"),
+                "altitude_m": venue.get("altitude_m"),
+                "capacity_fifa_2026": venue.get("capacity_fifa_2026"),
+                "roof_type": venue.get("roof_type"),
+                "surface_type_current": venue.get("surface_type_current"),
+                "surface_type_world_cup_expected": venue.get("surface_type_world_cup_expected"),
+                "fifa_venue_name": venue.get("fifa_venue_name"),
                 "fixture_count": fixture_counts.get(venue_id, 0),
                 "fixture_stage_counts": fixture_stage_counts.get(venue_id, {}),
                 "fixture_venue_names": sorted(venue_names_by_id.get(venue_id, set())),
                 "aliases": sorted({str(venue.get("name") or ""), *venue_names_by_id.get(venue_id, set())}),
                 "source_status": "platform_config_plus_fifa_host_city_patch",
-                "source_urls": host.get("source_urls") if isinstance(host.get("source_urls"), list) else [],
+                "source_urls": sorted(
+                    {
+                        *([str(url) for url in venue.get("source_urls", []) if url] if isinstance(venue.get("source_urls"), list) else []),
+                        *([str(url) for url in host.get("source_urls", []) if url] if isinstance(host.get("source_urls"), list) else []),
+                    }
+                ),
                 "updated_at": UPDATED_AT,
             }
         )
@@ -140,6 +152,10 @@ def main() -> None:
         "status": "published",
         "rows": len(rows),
         "fixture_count_total": sum(int(row.get("fixture_count") or 0) for row in rows),
+        "capacity_rows": sum(1 for row in rows if row.get("capacity_fifa_2026") is not None),
+        "surface_rows": sum(1 for row in rows if row.get("surface_type_current")),
+        "roof_rows": sum(1 for row in rows if row.get("roof_type")),
+        "altitude_rows": sum(1 for row in rows if row.get("altitude_m") is not None),
         "venue_ids": [row["venue_id"] for row in rows],
         "outputs": {
             "normalized": str(Path(args.normalized_output)),

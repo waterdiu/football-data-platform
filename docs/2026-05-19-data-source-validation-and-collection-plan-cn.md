@@ -54,7 +54,7 @@
 | 球队世界杯历史 | 已提供 | openfootball、Wikipedia/FIFA 校验 | 44 队有历史，4 队无参赛史 | 静态导入 | 低频 | 年度汇总优先，逐场可后补 |
 | 最近 10 场国家队 | 已提供基础版 | 国际赛历史 CSV、API-FOOTBALL、FIFA | 基础比分已可用，高级统计缺 | 离线导入 + API 补 | 每周/赛前每日 | team name alias -> canonical team_id |
 | 球员名单 | 部分提供 | FIFA/足协官方名单 | 9 队 234 人 | 官方名单导入 | 名单公布期每日 | 只采官方名单；第三方只补事实字段 |
-| 城市/球场 | 已提供基础版 | FIFA、场馆官网、Wikipedia/OpenStreetMap | `venue_id/host_city_id` 已统一 | 静态导入 | 低频 | capacity/surface/roof/altitude/source_urls |
+| 城市/球场 | 已提供增强版 | FIFA 官方票务 FAQ、FIFA host city、场馆官网补源 | 16 个 venue 已有 `venue_id/host_city_id`、地址、坐标、FIFA 2026 容量、屋顶、草皮、海拔、source_urls | 静态导入 | 低频；FIFA 场馆配置变化时更新 | capacity/surface/roof/altitude/source_urls 进入 venue profile |
 | 正赛赛果 | 待比赛 | football-data.org、API-FOOTBALL、FIFA | 正赛未开始 | API + 赛后校验 | 赛后一次；如需要可比赛日轮询 | score/status/period 标准化 |
 | 赛后事件/技术统计 | 待比赛 | API-FOOTBALL、Sofascore experimental、FIFA match report | Sofascore wrapper 可拿事件/统计，但 experimental | 赛后采集 | 赛后一次，复核一次 | 不稳定源只进 raw/report，授权源才进 normalized |
 
@@ -131,13 +131,12 @@
 
 ## 7. 下一步执行顺序
 
-1. 完成主办球场增强：capacity、surface、roof_type、altitude、source_urls。
-2. 建立官方名单 source checklist：剩余 39 队官方名单公布后快速导入。
-3. 继续验证 FBref/英超球员候选是否可以成为 `model_only` 数据，不进入 public。
-4. 对 Sofascore wrapper 做世界杯/成年国际赛 event mapping 低频 raw 实验。
-5. 世界杯首场前 5 天重跑 Odds-API.io event scan。
-6. 若升级 API-FOOTBALL Pro 或以上，重跑 `scripts/probe_api_football_worldcup_runtime.py` 验证 odds、lineups、injuries、statistics、events。
-7. 如果仍缺生产级赔率，最后再评估付费源。
+1. 建立官方名单 source checklist：剩余 39 队官方名单公布后快速导入。
+2. 继续验证 FBref/英超球员候选是否可以成为 `model_only` 数据，不进入 public。
+3. 对 Sofascore wrapper 做世界杯/成年国际赛 event mapping 低频 raw 实验。
+4. 世界杯首场前 5 天重跑 Odds-API.io event scan。
+5. 若升级 API-FOOTBALL Pro 或以上，重跑 `scripts/probe_api_football_worldcup_runtime.py` 验证 odds、lineups、injuries、statistics、events。
+6. 如果仍缺生产级赔率，最后再评估付费源。
 
 ## 8. 当前明确不做
 

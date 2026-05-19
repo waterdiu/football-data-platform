@@ -13,8 +13,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/Chicago",
+    "address": "1 Arrowhead Drive, Kansas City, Missouri 64129, United States",
     "latitude": 39.0489,
     "longitude": -94.4839,
+    "altitude_m": 265,
+    "capacity_fifa_2026": 67513,
+    "roof_type": "open_air",
+    "surface_type_current": "natural_grass",
+    "surface_type_world_cup_expected": "natural_grass",
+    "fifa_venue_name": "Kansas City Stadium",
     "fixture_count": 6,
     "fixture_stage_counts": {
       "group": 4,
@@ -30,6 +37,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/kansas-city"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -48,8 +56,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/Chicago",
+    "address": "1 AT&T Way, Arlington, Texas 76011, United States",
     "latitude": 32.7473,
     "longitude": -97.0945,
+    "altitude_m": 184,
+    "capacity_fifa_2026": 70122,
+    "roof_type": "retractable_roof",
+    "surface_type_current": "artificial_turf",
+    "surface_type_world_cup_expected": "temporary_natural_grass",
+    "fifa_venue_name": "Dallas Stadium",
     "fixture_count": 9,
     "fixture_stage_counts": {
       "group": 5,
@@ -66,6 +81,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/dallas"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -84,8 +100,15 @@
     "country_en": "Canada",
     "country_zh": "加拿大",
     "timezone": "America/Vancouver",
+    "address": "777 Pacific Boulevard, Vancouver, British Columbia V6B 4Y8, Canada",
     "latitude": 49.2768,
     "longitude": -123.1119,
+    "altitude_m": 2,
+    "capacity_fifa_2026": 48821,
+    "roof_type": "retractable_roof",
+    "surface_type_current": "artificial_turf",
+    "surface_type_world_cup_expected": "temporary_natural_grass",
+    "fifa_venue_name": "BC Place Vancouver",
     "fixture_count": 7,
     "fixture_stage_counts": {
       "group": 5,
@@ -101,6 +124,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/vancouver"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -119,8 +143,15 @@
     "country_en": "Canada",
     "country_zh": "加拿大",
     "timezone": "America/Toronto",
+    "address": "170 Princes' Boulevard, Toronto, Ontario M6K 3C3, Canada",
     "latitude": 43.6332,
     "longitude": -79.4186,
+    "altitude_m": 76,
+    "capacity_fifa_2026": 44315,
+    "roof_type": "open_air",
+    "surface_type_current": "natural_grass",
+    "surface_type_world_cup_expected": "natural_grass",
+    "fifa_venue_name": "Toronto Stadium",
     "fixture_count": 6,
     "fixture_stage_counts": {
       "group": 5,
@@ -135,6 +166,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/toronto"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -153,8 +185,15 @@
     "country_en": "Mexico",
     "country_zh": "墨西哥",
     "timezone": "America/Mexico_City",
+    "address": "Circuito JVC 2800, El Bajío, Zapopan, Jalisco 45019, Mexico",
     "latitude": 20.6817,
     "longitude": -103.4626,
+    "altitude_m": 1567,
+    "capacity_fifa_2026": 44330,
+    "roof_type": "open_air",
+    "surface_type_current": "unknown",
+    "surface_type_world_cup_expected": "natural_grass",
+    "fifa_venue_name": "Estadio Guadalajara",
     "fixture_count": 4,
     "fixture_stage_counts": {
       "group": 4
@@ -168,6 +207,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/guadalajara"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -186,8 +226,15 @@
     "country_en": "Mexico",
     "country_zh": "墨西哥",
     "timezone": "America/Mexico_City",
+    "address": "Calzada de Tlalpan 3465, Santa Úrsula Coapa, Coyoacán, 04650 Ciudad de México, Mexico",
     "latitude": 19.3029,
     "longitude": -99.1504,
+    "altitude_m": 2240,
+    "capacity_fifa_2026": 72766,
+    "roof_type": "open_air",
+    "surface_type_current": "natural_grass",
+    "surface_type_world_cup_expected": "natural_grass",
+    "fifa_venue_name": "Estadio Ciudad de México",
     "fixture_count": 5,
     "fixture_stage_counts": {
       "group": 3,
@@ -203,6 +250,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/mexico-city"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -221,8 +269,15 @@
     "country_en": "Mexico",
     "country_zh": "墨西哥",
     "timezone": "America/Monterrey",
+    "address": "Avenida Pablo Livas 2011, La Pastora, Guadalupe, Nuevo León 67140, Mexico",
     "latitude": 25.6682,
     "longitude": -100.2447,
+    "altitude_m": 540,
+    "capacity_fifa_2026": 50113,
+    "roof_type": "open_air",
+    "surface_type_current": "natural_grass",
+    "surface_type_world_cup_expected": "natural_grass",
+    "fifa_venue_name": "Estadio Monterrey",
     "fixture_count": 4,
     "fixture_stage_counts": {
       "group": 3,
@@ -237,6 +292,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/monterrey"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -255,8 +311,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/New_York",
+    "address": "1 Patriot Place, Foxborough, Massachusetts 02035, United States",
     "latitude": 42.0909,
     "longitude": -71.2643,
+    "altitude_m": 88,
+    "capacity_fifa_2026": 63815,
+    "roof_type": "open_air",
+    "surface_type_current": "artificial_turf",
+    "surface_type_world_cup_expected": "temporary_natural_grass",
+    "fifa_venue_name": "Boston Stadium",
     "fixture_count": 7,
     "fixture_stage_counts": {
       "group": 5,
@@ -272,6 +335,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/boston"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -290,8 +354,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/New_York",
+    "address": "347 Don Shula Drive, Miami Gardens, Florida 33056, United States",
     "latitude": 25.958,
     "longitude": -80.2389,
+    "altitude_m": 2,
+    "capacity_fifa_2026": 64091,
+    "roof_type": "open_air_canopy",
+    "surface_type_current": "natural_grass",
+    "surface_type_world_cup_expected": "natural_grass",
+    "fifa_venue_name": "Miami Stadium",
     "fixture_count": 7,
     "fixture_stage_counts": {
       "group": 4,
@@ -308,6 +379,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/miami"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -326,8 +398,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/Los_Angeles",
+    "address": "4900 Marie P. DeBartolo Way, Santa Clara, California 95054, United States",
     "latitude": 37.403,
     "longitude": -121.97,
+    "altitude_m": 2,
+    "capacity_fifa_2026": 69391,
+    "roof_type": "open_air",
+    "surface_type_current": "natural_grass",
+    "surface_type_world_cup_expected": "natural_grass",
+    "fifa_venue_name": "San Francisco Bay Area Stadium",
     "fixture_count": 6,
     "fixture_stage_counts": {
       "group": 5,
@@ -342,6 +421,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/san-francisco-bay-area"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -360,8 +440,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/New_York",
+    "address": "One Lincoln Financial Field Way, Philadelphia, Pennsylvania 19148, United States",
     "latitude": 39.9008,
     "longitude": -75.1675,
+    "altitude_m": 5,
+    "capacity_fifa_2026": 65827,
+    "roof_type": "open_air",
+    "surface_type_current": "hybrid_grass",
+    "surface_type_world_cup_expected": "natural_grass",
+    "fifa_venue_name": "Philadelphia Stadium",
     "fixture_count": 6,
     "fixture_stage_counts": {
       "group": 5,
@@ -376,6 +463,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/philadelphia"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -394,8 +482,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/Los_Angeles",
+    "address": "800 Occidental Avenue South, Seattle, Washington 98134, United States",
     "latitude": 47.5952,
     "longitude": -122.3316,
+    "altitude_m": 53,
+    "capacity_fifa_2026": 65123,
+    "roof_type": "open_air_partial_roof",
+    "surface_type_current": "artificial_turf",
+    "surface_type_world_cup_expected": "temporary_natural_grass",
+    "fifa_venue_name": "Seattle Stadium",
     "fixture_count": 6,
     "fixture_stage_counts": {
       "group": 4,
@@ -411,6 +506,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/seattle"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -429,8 +525,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/New_York",
+    "address": "1 AMB Drive NW, Atlanta, Georgia 30313, United States",
     "latitude": 33.7554,
     "longitude": -84.4008,
+    "altitude_m": 320,
+    "capacity_fifa_2026": 67382,
+    "roof_type": "retractable_roof",
+    "surface_type_current": "artificial_turf",
+    "surface_type_world_cup_expected": "temporary_natural_grass",
+    "fifa_venue_name": "Atlanta Stadium",
     "fixture_count": 8,
     "fixture_stage_counts": {
       "group": 5,
@@ -447,6 +550,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/atlanta"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -465,8 +569,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/New_York",
+    "address": "One MetLife Stadium Drive, East Rutherford, New Jersey 07073, United States",
     "latitude": 40.8135,
     "longitude": -74.0745,
+    "altitude_m": 7,
+    "capacity_fifa_2026": 78576,
+    "roof_type": "open_air",
+    "surface_type_current": "artificial_turf",
+    "surface_type_world_cup_expected": "temporary_natural_grass",
+    "fifa_venue_name": "New York New Jersey Stadium",
     "fixture_count": 8,
     "fixture_stage_counts": {
       "group": 5,
@@ -483,6 +594,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/new-york-new-jersey"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -501,8 +613,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/Chicago",
+    "address": "NRG Parkway, Houston, Texas 77054, United States",
     "latitude": 29.6847,
     "longitude": -95.4107,
+    "altitude_m": 15,
+    "capacity_fifa_2026": 68311,
+    "roof_type": "retractable_roof",
+    "surface_type_current": "artificial_turf",
+    "surface_type_world_cup_expected": "temporary_natural_grass",
+    "fifa_venue_name": "Houston Stadium",
     "fixture_count": 7,
     "fixture_stage_counts": {
       "group": 5,
@@ -518,6 +637,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/houston"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
@@ -536,8 +656,15 @@
     "country_en": "United States",
     "country_zh": "美国",
     "timezone": "America/Los_Angeles",
+    "address": "1001 Stadium Drive, Inglewood, California 90301, United States",
     "latitude": 33.9535,
     "longitude": -118.3392,
+    "altitude_m": 38,
+    "capacity_fifa_2026": 69650,
+    "roof_type": "fixed_roof_open_sides",
+    "surface_type_current": "artificial_turf",
+    "surface_type_world_cup_expected": "temporary_natural_grass",
+    "fifa_venue_name": "Los Angeles Stadium",
     "fixture_count": 8,
     "fixture_stage_counts": {
       "group": 5,
@@ -553,6 +680,7 @@
     ],
     "source_status": "platform_config_plus_fifa_host_city_patch",
     "source_urls": [
+      "https://gpcustomersupportfwc2026.tickets.fifa.com/hc/en-gb/articles/28784010437021-2-What-are-the-official-addresses-of-the-FIFA-World-Cup-26-stadiums",
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/destination/los-angeles"
     ],
     "updated_at": "2026-05-18T00:00:00Z"
