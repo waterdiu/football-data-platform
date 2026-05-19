@@ -1,0 +1,1677 @@
+{
+  "generated_at": "2026-05-19T07:24:54.216440+00:00",
+  "competition_id": "fifa_world_cup",
+  "season_id": "2026",
+  "source_policy": {
+    "final_authority": "fifa",
+    "final_26_expected_date": "2026-06-02",
+    "accepted_source_statuses": [
+      "official_fifa",
+      "official_fa",
+      "official_club_or_league_correction",
+      "manual_official_patch"
+    ],
+    "rejected_as_master_sources": [
+      "media_report",
+      "social_media_without_official_article",
+      "wikipedia",
+      "fan_site"
+    ]
+  },
+  "summary": {
+    "teams": 48,
+    "imported_teams": 9,
+    "pending_teams": 39,
+    "imported_player_rows": 234
+  },
+  "rows": [
+    {
+      "team_id": "algeria",
+      "team_name": "Algeria",
+      "team_name_zh": "阿尔及利亚",
+      "short_name": "ALG",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "argentina",
+      "team_name": "Argentina",
+      "team_name_zh": "阿根廷",
+      "short_name": "ARG",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "australia",
+      "team_name": "Australia",
+      "team_name_zh": "澳大利亚",
+      "short_name": "AUS",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "austria",
+      "team_name": "Austria",
+      "team_name_zh": "奥地利",
+      "short_name": "AUT",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "belgium",
+      "team_name": "Belgium",
+      "team_name_zh": "比利时",
+      "short_name": "BEL",
+      "roster_status": "imported_official_or_audited",
+      "player_count": 26,
+      "current_source_status": "official_fifa",
+      "current_source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+      "published_at": "2026-05-13",
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Review against FIFA final squad list when it is published; update if final squad differs."
+    },
+    {
+      "team_id": "bosnia-and-herzegovina",
+      "team_name": "Bosnia and Herzegovina",
+      "team_name_zh": "波斯尼亚和黑塞哥维那",
+      "short_name": "BIH",
+      "roster_status": "imported_official_or_audited",
+      "player_count": 26,
+      "current_source_status": "official_fifa",
+      "current_source_url": "https://www.fifa.com/en/articles/bosnia-and-herzegovina-sergej-barbarez-names-squad",
+      "published_at": "2026-05-10",
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Review against FIFA final squad list when it is published; update if final squad differs."
+    },
+    {
+      "team_id": "brazil",
+      "team_name": "Brazil",
+      "team_name_zh": "巴西",
+      "short_name": "BRA",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "cabo-verde",
+      "team_name": "Cabo Verde",
+      "team_name_zh": "佛得角",
+      "short_name": "CPV",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "canada",
+      "team_name": "Canada",
+      "team_name_zh": "加拿大",
+      "short_name": "CAN",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "colombia",
+      "team_name": "Colombia",
+      "team_name_zh": "哥伦比亚",
+      "short_name": "COL",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "congo-dr",
+      "team_name": "Congo DR",
+      "team_name_zh": "刚果民主共和国",
+      "short_name": "COD",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "cote-divoire",
+      "team_name": "Cote d'Ivoire",
+      "team_name_zh": "科特迪瓦",
+      "short_name": "CIV",
+      "roster_status": "imported_official_or_audited",
+      "player_count": 26,
+      "current_source_status": "official_fifa",
+      "current_source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae",
+      "published_at": "2026-05-15",
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Review against FIFA final squad list when it is published; update if final squad differs."
+    },
+    {
+      "team_id": "croatia",
+      "team_name": "Croatia",
+      "team_name_zh": "克罗地亚",
+      "short_name": "CRO",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "curacao",
+      "team_name": "Curacao",
+      "team_name_zh": "库拉索",
+      "short_name": "CUW",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "czechia",
+      "team_name": "Czechia",
+      "team_name_zh": "捷克共和国",
+      "short_name": "CZE",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "ecuador",
+      "team_name": "Ecuador",
+      "team_name_zh": "厄瓜多尔",
+      "short_name": "ECU",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "egypt",
+      "team_name": "Egypt",
+      "team_name_zh": "埃及",
+      "short_name": "EGY",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "england",
+      "team_name": "England",
+      "team_name_zh": "英格兰",
+      "short_name": "ENG",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        },
+        {
+          "source_key": "england",
+          "label": "England Football official squad announcement",
+          "url": "https://www.englandfootball.com/articles/2026/May/08/england-mens-world-cup-squad-announcement-date-revealed-20260805",
+          "source_status": "official_fa",
+          "confidence": "high",
+          "notes": "Association announcement page. Import only when it includes the actual squad list."
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "france",
+      "team_name": "France",
+      "team_name_zh": "法国",
+      "short_name": "FRA",
+      "roster_status": "imported_official_or_audited",
+      "player_count": 26,
+      "current_source_status": "official_fifa",
+      "current_source_url": "https://www.fifa.com/en/articles/france-world-cup-squad-named",
+      "published_at": "2026-05-14",
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        },
+        {
+          "source_key": "france",
+          "label": "FIFA France squad news",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/france-world-cup-squad-named",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "notes": "FIFA news page for France squad. Treat as official but still superseded by final FIFA squad-list endpoint/page when published."
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Review against FIFA final squad list when it is published; update if final squad differs."
+    },
+    {
+      "team_id": "germany",
+      "team_name": "Germany",
+      "team_name_zh": "德国",
+      "short_name": "GER",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "ghana",
+      "team_name": "Ghana",
+      "team_name_zh": "加纳",
+      "short_name": "GHA",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "haiti",
+      "team_name": "Haiti",
+      "team_name_zh": "海地",
+      "short_name": "HAI",
+      "roster_status": "imported_official_or_audited",
+      "player_count": 26,
+      "current_source_status": "official_fifa",
+      "current_source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne",
+      "published_at": "2026-05-15",
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Review against FIFA final squad list when it is published; update if final squad differs."
+    },
+    {
+      "team_id": "ir-iran",
+      "team_name": "IR Iran",
+      "team_name_zh": "伊朗",
+      "short_name": "IRN",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "iraq",
+      "team_name": "Iraq",
+      "team_name_zh": "伊拉克",
+      "short_name": "IRQ",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "japan",
+      "team_name": "Japan",
+      "team_name_zh": "日本",
+      "short_name": "JPN",
+      "roster_status": "imported_official_or_audited",
+      "player_count": 26,
+      "current_source_status": "official_fifa",
+      "current_source_url": "https://www.fifa.com/en/news/articles/japan-squad-announcement",
+      "published_at": "2026-05-15",
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Review against FIFA final squad list when it is published; update if final squad differs."
+    },
+    {
+      "team_id": "jordan",
+      "team_name": "Jordan",
+      "team_name_zh": "约旦",
+      "short_name": "JOR",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "korea-republic",
+      "team_name": "Korea Republic",
+      "team_name_zh": "韩国",
+      "short_name": "KOR",
+      "roster_status": "imported_official_or_audited",
+      "player_count": 26,
+      "current_source_status": "official_fifa",
+      "current_source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo",
+      "published_at": "2026-05-16",
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Review against FIFA final squad list when it is published; update if final squad differs."
+    },
+    {
+      "team_id": "mexico",
+      "team_name": "Mexico",
+      "team_name_zh": "墨西哥",
+      "short_name": "MEX",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "morocco",
+      "team_name": "Morocco",
+      "team_name_zh": "摩洛哥",
+      "short_name": "MAR",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "netherlands",
+      "team_name": "Netherlands",
+      "team_name_zh": "荷兰",
+      "short_name": "NED",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "new-zealand",
+      "team_name": "New Zealand",
+      "team_name_zh": "新西兰",
+      "short_name": "NZL",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "norway",
+      "team_name": "Norway",
+      "team_name_zh": "挪威",
+      "short_name": "NOR",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "panama",
+      "team_name": "Panama",
+      "team_name_zh": "巴拿马",
+      "short_name": "PAN",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "paraguay",
+      "team_name": "Paraguay",
+      "team_name_zh": "巴拉圭",
+      "short_name": "PAR",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "portugal",
+      "team_name": "Portugal",
+      "team_name_zh": "葡萄牙",
+      "short_name": "POR",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "qatar",
+      "team_name": "Qatar",
+      "team_name_zh": "卡塔尔",
+      "short_name": "QAT",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "saudi-arabia",
+      "team_name": "Saudi Arabia",
+      "team_name_zh": "沙特阿拉伯",
+      "short_name": "KSA",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "scotland",
+      "team_name": "Scotland",
+      "team_name_zh": "苏格兰",
+      "short_name": "SCO",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "senegal",
+      "team_name": "Senegal",
+      "team_name_zh": "塞内加尔",
+      "short_name": "SEN",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "south-africa",
+      "team_name": "South Africa",
+      "team_name_zh": "南非",
+      "short_name": "RSA",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "spain",
+      "team_name": "Spain",
+      "team_name_zh": "西班牙",
+      "short_name": "ESP",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "sweden",
+      "team_name": "Sweden",
+      "team_name_zh": "瑞典",
+      "short_name": "SWE",
+      "roster_status": "imported_official_or_audited",
+      "player_count": 26,
+      "current_source_status": "official_fifa",
+      "current_source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-squad-announcement-world-cup-graham-potter",
+      "published_at": "2026-05-11",
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Review against FIFA final squad list when it is published; update if final squad differs."
+    },
+    {
+      "team_id": "switzerland",
+      "team_name": "Switzerland",
+      "team_name_zh": "瑞士",
+      "short_name": "SUI",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "tunisia",
+      "team_name": "Tunisia",
+      "team_name_zh": "突尼斯",
+      "short_name": "TUN",
+      "roster_status": "imported_official_or_audited",
+      "player_count": 26,
+      "current_source_status": "official_fifa",
+      "current_source_url": "https://www.fifa.com/en/articles/tunisia-squad-named-sabri-lamouchi",
+      "published_at": "2026-05-15",
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Review against FIFA final squad list when it is published; update if final squad differs."
+    },
+    {
+      "team_id": "turkiye",
+      "team_name": "Turkiye",
+      "team_name_zh": "土耳其",
+      "short_name": "TUR",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "united-states",
+      "team_name": "United States",
+      "team_name_zh": "美国",
+      "short_name": "USA",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "uruguay",
+      "team_name": "Uruguay",
+      "team_name_zh": "乌拉圭",
+      "short_name": "URU",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    },
+    {
+      "team_id": "uzbekistan",
+      "team_name": "Uzbekistan",
+      "team_name_zh": "乌兹别克斯坦",
+      "short_name": "UZB",
+      "roster_status": "pending_official_final_squad",
+      "player_count": 0,
+      "current_source_status": null,
+      "current_source_url": null,
+      "published_at": null,
+      "monitoring_sources": [
+        {
+          "source_key": "fifa_final_squad_lists",
+          "label": "FIFA official squad lists",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/squad-lists-number-date",
+          "source_status": "official_fifa",
+          "confidence": "high",
+          "role": "final_authority"
+        }
+      ],
+      "allowed_master_sources": [
+        "official_fifa",
+        "official_fa",
+        "official_club_or_league_correction",
+        "manual_official_patch"
+      ],
+      "rejected_master_sources": [
+        "media_report",
+        "social_media_without_official_article",
+        "wikipedia",
+        "fan_site"
+      ],
+      "next_action": "Wait for FIFA final squad list or official FA squad announcement, then add audited manual patch."
+    }
+  ]
+}

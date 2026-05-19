@@ -934,6 +934,7 @@ predictor 全量数据资产当前边界：
 - 已增强：天气采集优先使用 OpenWeather；无 key 或 OpenWeather 失败时 fallback 到无 key的 Open-Meteo 16 天预报窗口，直接写 `data/normalized/world_cup_2026_model_weather_master.json`
 - 已增强：运行期采集器支持从未提交的 `.env.local` 读取 provider keys，避免把 `API_FOOTBALL_KEY`、`OPENWEATHER_API_KEY` 等敏感信息写入仓库或命令行日志
 - 已建立：rosters/players 契约、master/public 数据集、官方来源配置、手动 patch 导入脚本、发布脚本和 coverage 字段；真实名单只从官方来源导入
+- 已新增：官方名单来源执行清单脚本 `scripts/build_world_cup_roster_source_checklist.py`，输出 `reports/world_cup_roster_source_checklist.json`。该清单只覆盖 48 支 2026 正赛队伍，过滤淘汰赛占位 `slot-*`；当前状态为 9 队已导入、39 队等待 FIFA final squad list 或足协官方公告。
 - 已补齐：已有官方 26 人名单的 9 支球队 roster / 234 名球员；48 支球队主教练数据，通过 `data/patches/world_cup_2026_team_staff.manual.json` 和 `scripts/import_world_cup_team_staff_from_manual_patch.py` 进入 `person_team_staff_master.json`
 - 已补齐：50 名英超历史裁判样本和 50 条裁判 rating，其中 33 条达到 `sample_size >= 20` 可用于报告解释；来源为 `data/predictor-assets/files/processed/premier_league_matches.csv`，不是世界杯裁判指派。
 - 已建立：team_world_cup_history / team_recent_matches / host_city_profiles 契约、master/public 数据集、发布脚本和 World Cup site/predictor API 输出；近期比赛、历届世界杯战绩和 16 城市资料已有第一版
