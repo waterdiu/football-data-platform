@@ -1,0 +1,297 @@
+# 足球数据源调研与缺口总览
+
+日期：2026-05-19  
+项目：`football-data-platform`  
+消费方：`worldcup/2026`、`world-cup-predictor`  
+主基线文档：`/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/DESIGN.md`
+
+## 1. 目的
+
+这份文档把近期关于世界杯网站、预测模型、赔率源、高级技术统计、人物档案、Sofascore、FBref、WhoScored、雷速、BSD/Bzzoiro、Odds-API.io 等调研集中记录，避免后续重复调查。
+
+本文只定义数据层状态和证据，不改变生产采集策略。所有未授权、逆向、爬虫、免费源 probe 结果默认不得进入 `data/normalized`、`data/model` 或 public API。
+
+## 2. 两个消费项目需要的数据
+
+### 2.1 `worldcup/2026` 展示站
+
+| 数据 | 优先级 | 当前状态 | 稳定性 | 当前路径 / API | 备注 |
+|---|---:|---|---|---|---|
+| 104 场正赛赛程、时间、场馆 | P0 | 已提供 | 稳定 | `api/worldcup/2026/core/fixtures.json`、`predictor/shared-fixtures.json` | `kickoff_at/date_utc` 已补齐 UTC。 |
+| 48 队基础信息 | P0 | 已提供 | 稳定 | `core/teams.json` | canonical team slug 由平台维护。 |
+| 小组、淘汰赛、赛程结构 | P0 | 已提供 | 稳定 | `core/groups.json`、`core/bracket.json` 等 | 供展示站 runtime fetch。 |
+| 主教练 | P0 | 已提供 | 中高 | `core/team-staff.json`、`core/coach-profiles.json` | 48 队主教练已发布；`appointed_at/contract_until` 仍缺可靠结构化来源。 |
+| 球队世界杯历史战绩 | P0 | 已提供 | 中高 | `core/team-world-cup-history.json` | 44 队有历史正赛记录；4 队为无历史参赛而非缺失。 |
+| 最近 10 场国家队比赛 | P0 | 已提供 | 中 | `core/team-recent-matches.json` | 来源为国际赛历史 CSV；高级技术统计不在此数据集中。 |
+| 球员姓名、位置、状态、team_id | P0 | 部分提供 | 中高 | `core/players.json`、`core/player-profiles.json` | 目前覆盖已导入官方名单的 9 队 234 人；其余队等待 FIFA/足协最终名单。 |
+| 城市/球场资料 | P0/P1 | 已提供基础版 | 中高 | `core/host-city-profiles.json`、`core/venues.json` | `venue_id/host_city_id/site_city_key` 已统一；容量、草皮、屋顶、海拔等可继续增强。 |
+| 正赛赛果/赛后技术统计 | P1 | 契约有，正赛未开始 | 待赛后 | `core/finals-results.json`、coverage | 展示站当前不要求比赛中实时更新，赛后一次性补可接受。 |
+| 赔率 | 不展示 | 不需要 | - | - | 展示站明确不展示赔率。 |
+
+### 2.2 `world-cup-predictor` 模型层
+
+| 数据 | 优先级 | 当前状态 | 稳定性 | 当前路径 / API | 备注 |
+|---|---:|---|---|---|---|
+| predictor bundle / fixtures / feature inputs | P0 | 已提供 | 稳定 | `api/worldcup/2026/predictor/*` | 模型严格读平台，`missing_kickoff_count=0`。 |
+| 预测写回入口 | P0 | 已提供 | 稳定 | `data/inbox/predictor/*` -> publish | 模型写 inbox，平台 publish 校验后进入 public/model。 |
+| 主客/中立拆分 | P0/P1 | 已提供基础版 | 中 | `predictor/team-home-away-splits.json` | 国家队中立场保留 neutral，不硬归主客。 |
+| 赛程负荷 | P0/P1 | 已提供基础版 | 中 | `predictor/schedule-load.json` | 休息天数/近 7/14/30 天比赛数已有；旅行距离仍缺坐标映射。 |
+| 球队高级状态代理 | P1 | 已提供基础版 | 中 | `predictor/team-advanced-stats.json` | 当前是最近 10 场基础代理；控球、传球、PPDA、xG 多为 `null`。 |
+| 阵容/首发 | P0 | 状态行已提供 | 稳定契约，事实待赛前 | `predictor/lineups.json` | 现在是 `outside_lineup_window`；确认首发只能赛前 60-90 分钟。 |
+| 伤停/停赛 | P0 | 状态行 + 新闻 evidence | 低到中 | `predictor/injuries.json` | API-FOOTBALL free 对 2026 World Cup 受限；新闻只做 evidence。 |
+| 天气 | P1 | 状态行已提供 | 中 | `predictor/weather.json` | Open-Meteo fallback 已有；进入 16 天预报窗口后才有真实值。 |
+| 裁判画像 | P1 | 英超历史样本已提供 | 中 | `core/referee-profiles.json`、`official-ratings.json` | 不是世界杯裁判指派；世界杯单场裁判需等官方 match centre/report。 |
+| 赔率 1X2/AH/OU/CLV | P0 for betting model | 缺生产源 | 低 | `predictor/odds-snapshots.json` | 赔率是当前最弱环节，见第 5 节。 |
+| 球员影响力/风格 | P1/P2 | 基础 proxy | 低到中 | `player-profiles.json`、dcaribou activity | 缺真实 xG/xA、评分、伤停影响反事实样本。 |
+
+## 3. 已经提供的数据层成果
+
+| 类别 | 已提供内容 | 稳定性 | 说明 |
+|---|---|---|---|
+| World Cup core API | fixtures、teams、groups、bracket、venues、cities、team history、recent matches、staff、players | 稳定到中高 | 主要服务展示站。 |
+| Predictor API | shared fixtures、feature inputs、predictions source、runtime summary、coverage | 稳定 | 主要服务模型。 |
+| Person profile API | people index、coach/player/referee profiles、official ratings | 中 | 直接事实可用；派生/蒸馏仍受样本限制。 |
+| Runtime status rows | lineups、injuries、weather、odds snapshots | 稳定契约 | 即使无事实也输出 `source_status/status_reason`，避免模型误把缺失当 0。 |
+| 数据覆盖/健康 | source-health、data-coverage、data-quality | 稳定 | 用于定位缺口和消费端降级。 |
+
+## 4. 高级技术统计来源调研
+
+### 4.1 Sofascore
+
+当前结论：能补非赔率高级数据，但只能 `experimental_only`。
+
+| 方式 | 是否实际验证 | 能拿到什么 | 缺什么 | 结论 |
+|---|---|---|---|---|
+| 直接 Sofascore web endpoint | 已测 | 无 | HTTP 403 | 当前环境不能作为生产采集器。 |
+| `pysofascore` | 已 live 验证 | statistics、控球、xG、射门、射正、传球、准确传球、lineups、incidents、shotmap、momentum、best players | 直接 PPDA、授权稳定性、世界杯覆盖 | 最强实验候选。 |
+| `ScraperFC` | 已 live 验证 | match dict、team stats、shots/xG、player stats、ratings、heatmaps、momentum | 直接 PPDA、incidents 未在验证 API surface 直接暴露 | 强实验候选。 |
+| `tunjayoff/sofascore_scraper` | 已 live 验证部分 | event basic、statistics、lineups、incidents、h2h | shotmap/xG/player ratings 未验证 | 可用但不如前两个完整。 |
+
+对当前项目的补充：
+
+- 可补世界杯赛后技术统计：控球、射门、射正、传球、xG、事件、阵容。
+- 可补球员影响力 proxy：评分、出场分钟、xG/xA、热区、传球、抢断/拦截。
+- 不能直接补：PPDA、生产级授权数据源、稳定世界杯 event mapping。
+
+当前阻断原因：
+
+- 非官方 endpoint / wrapper，存在授权、字段稳定、ID 映射、反爬风险。
+- 尚未在 2026 世界杯 event 上验证覆盖。
+- 因此只能写 `reports/` 或 `data/raw/experimental/sofascore`，不得写 normalized/public。
+
+### 4.2 `soccerdata` 的 FBref / FotMob / WhoScored
+
+当前结论：FBref 有补充价值，FotMob 在当前 `soccerdata 1.9.0` 走不通，WhoScored 只适合高风险事件实验。
+
+| 来源 | soccerdata reader | 实际验证 | 能获得什么 | 与已有数据关系 | 结论 |
+|---|---|---|---|---|---|
+| FBref | 有 | capability + 缓存 HTML 验证 | EPL 赛程、比分、场馆、裁判、球队主客场战绩、控球、射门、射正、牌、犯规、拦截、playing time、部分 lineup/events 方法 | 与已有赛果/赛程重复；补充控球、射门、犯规/拦截、裁判、主客拆分等 | 英超模型有价值；世界杯国家队不稳定。 |
+| FotMob | 无 | 已确认 reader missing | 无 | 无 | 当前不能通过 soccerdata 获取。 |
+| WhoScored | 有 | capability 验证 | schedule、missing players、events；控球/传球/PPDA 可理论从事件推导 | 与 Sofascore/FBref 部分重叠；可补事件推导 | 高反爬/浏览器风险，只能实验。 |
+
+FBref 已确认的缓存字段示例：
+
+- `schedule_ENG-Premier League_2425.html`：`Wk`、`Day`、`Date`、`Time`、`Home`、`Score`、`Away`、`Attendance`、`Venue`、`Referee`、`Match Report`。
+- `teams_ENG-Premier League_2425_stats.html`：总体 W/D/L/GF/GA、主客场 W/D/L/GF/GA、`Poss`、出场时间、进球助攻、黄红牌、门将、射门、射正、射正率、犯规、被犯规、越位、传中、拦截、抢断成功、点球等。
+- `matchlogs_Arsenal_2425_shooting.html`：逐场日期、赛事、轮次、主客、结果、进失球、对手、射门、射正、射正率、点球、match report。
+
+FBref live 抓取验证结果：
+
+- 显式允许 `--allow-browser-driver` 后，FBref live probe 启动并进入缓存流程，但长时间无输出，被手动停止。
+- 这说明它不适合 production collector；可以低频手动验证或用缓存/离线文件做实验。
+
+### 4.3 PPDA
+
+当前没有稳定生产源。
+
+可选路径：
+
+- WhoScored events 或 StatsBomb event data 理论可推导，但覆盖和授权不足。
+- Sofascore wrapper 没有直接 PPDA。
+- FBref 当前缓存/reader 未直接暴露 PPDA。
+- 商业源 Opta / StatsBomb paid / Wyscout / InStat 更靠谱，但需要付费授权。
+
+处理规则：
+
+- 平台不得把 PPDA 填 0。
+- 未验证时统一为 `null`，并在 coverage 标记 `missing_ppda_source`。
+
+## 5. 赔率源调研
+
+### 5.1 当前赔率缺口
+
+模型正式做 AH/OU/CLV 需要：
+
+- 1X2、Asian Handicap、Over/Under 三类市场。
+- opening、T-24h、T-6h、T-1h、closing 快照。
+- bookmaker 维度明细。
+- 至少 3 家 bookmaker，最好 5 家以上。
+- sharp / soft / exchange 分层。
+- UTC `captured_at`、`kickoff_at` 和 `snapshot_type`。
+
+当前生产缺口：
+
+- 免费源没有确认 2026 世界杯 + AH + OU + bookmaker 明细 + closing。
+- `odds-snapshots.json` 只能保留契约和状态，不能给强赔率结论。
+
+### 5.2 BSD / Bzzoiro
+
+当前结论：有希望补 1X2/OU，但不能解决当前生产赔率主线。
+
+已验证：
+
+- 已 live 获取通用 odds 行。
+- 已获取 15 个 bookmaker。
+- 通用 odds 行中观察到 `1x2`、`btts`、`double_chance`、`draw_no_bet`、`over_under_15`、`over_under_25`、`over_under_35`。
+
+未通过：
+
+- `league_id=16&season_id=82` 的 World Cup events 返回 0。
+- `league_id=16&season_id=82` 的 World Cup odds 返回 0。
+- AH 在 public v2 odds consensus docs 中未见。
+
+原因判断：
+
+- 不是 key 缺失；token live 请求能返回 bookmaker 和通用 odds。
+- 不是接口完全不可用；`/api/v2/odds/` 可返回数据。
+- 阻断点是 World Cup 2026 赛事映射/赛季参数未命中，且 AH 市场未公开文档化。
+
+下一步：
+
+- 可继续用 BSD token 查找真实 World Cup league/season/event 映射。
+- 若找不到 World Cup event 或 AH，BSD 只能作为 1X2/OU 实验补源。
+
+### 5.3 Odds-API.io
+
+当前结论：需要用户申请 key 后才能 live 验证。
+
+需要的 key：
+
+- 平台环境变量名：`ODDS_API_IO_KEY`
+- 当前 probe endpoint：`https://api.odds-api.io/v3/odds?sport=football&apiKey=<key>`
+- 申请入口：`https://odds-api.io/`
+- 文档入口：`https://docs.odds-api.io/`
+
+公开信息：
+
+- 官网 pricing/free 页写明免费层 `free forever`、不需要信用卡、`100 requests/hour`、无试用到期时间。
+- 官网首页价格卡写明免费层为 2 个 bookmaker；付费 Starter 为 5 个 bookmaker、5,000 requests/hour。
+- 官网文档声明 Football、pre-match odds、live odds、ML/Asian Handicap/Over-Under 等市场可用。
+- 这不是 iSportsAPI；iSportsAPI 的 15 天免费试用限制不适用于 Odds-API.io。
+
+必须验证：
+
+- 足球是否可用。
+- 是否有 World Cup / international football。
+- 是否有 AH。
+- 是否有 OU line 和 bookmaker 明细。
+- 免费层能否长期使用、是否只有 2 家 bookmaker。
+
+当前状态：
+
+- 无 key，报告为 `skipped_missing_key`。
+- 在 live probe 前只能保持 `probe_only`。
+
+### 5.4 雷速类
+
+当前结论：代码层确认可解析赔率/比分字段，但不能作为生产源。
+
+已检查 GitHub 项目：
+
+| 项目 | 状态 | 能确认的字段 | 问题 |
+|---|---|---|---|
+| `psnewer/leisu` | Scrapy 旧项目 | `Match`：洲/国家/联赛/赛季/日期/主客队/比分；`Odds`：让球主/盘/客，标准主/平/客，大小球大/盘/小 | 旧 HTML 解析、无 license、非官方、未 live 跑通。 |
+| `guanrongjia/thor` | Selenium 旧项目 | free.leisu.com 页面比赛数据、完赛/进行中比分 | Python 2.7、ChromeDriver 73、2019 代码、页面型爬虫，维护成本高。 |
+
+字段含义：
+
+- `rangzhu/rangpan/rangke`：让球盘三元组，接近 AH。
+- `biaozhu/biaoping/biaoke`：标准胜平负 1X2。
+- `da/dapan/xiao`：大小球三元组。
+
+不进入生产原因：
+
+- 非官方逆向/页面爬虫。
+- 老项目依赖过时 Selenium/Chromedriver/Python 2.7 或旧 Scrapy 页面结构。
+- 合规与稳定性风险高。
+- 未验证 2026 世界杯覆盖。
+
+允许用途：
+
+- 只作为字段理解、实验、离线研究。
+- 如需 live，只能写 `data/raw/experimental/leisu`，不得进入 normalized/public。
+
+### 5.5 TheOddsAPI / API-FOOTBALL / 付费源
+
+| 来源 | 当前结论 | 费用判断 | 适合场景 |
+|---|---|---|---|
+| TheOddsAPI | 用户邮件确认免费层只 NBA/MLB；足球需 Business | Business $99/月 | 只有模型正式做 AH/OU/CLV 且确认 World Cup 覆盖后再考虑。 |
+| API-FOOTBALL | 已有 key；Free 对 2026 World Cup injuries 受限 | Pro $19/月起 | 当前最便宜的综合源，先验证 odds/lineups/injuries/stats。 |
+| Sportmonks | 有 World Cup 包和 odds add-on | €69/€129+ 级别 | 若需要一体化世界杯数据可评估。 |
+| TheStatsAPI | 待进一步合同确认 | $50/月起公开说法待核 | 可作为 odds/closing odds 候选。 |
+
+性价比判断：
+
+1. 先不买 TheOddsAPI Business。
+2. 优先用现有 API-FOOTBALL key 验证世界杯赔率/阵容/伤停/技术统计覆盖。
+3. 若模型正式启用 AH/OU/CLV，再确认 TheOddsAPI Business 是否覆盖 FIFA World Cup、AH、OU、Pinnacle/锐盘、closing/archive。
+4. 免费/逆向赔率源只能补研究，不能作为正式盘口结论依据。
+
+## 6. 人物/球员/教练/裁判数据
+
+| 数据 | 当前状态 | 来源 | 缺口 |
+|---|---|---|---|
+| 主教练姓名/国家队 | 已有 48 队 | FIFA 官方文章 + manual patch | 上任时间、合同到期缺结构化来源。 |
+| 主教练 nationality/DOB/age | 已有补充 | Reep / provider refs /人工审计 | 仍需官方或 Wikidata 交叉验证。 |
+| 球员名单 | 9 队 234 人 | FIFA/足协官方名单 | 剩余 39 队等最终名单。 |
+| 球员 club/shirt_number/DOB/age | 部分已有 | 官方名单 + dcaribou/Reep 补充 | 真实 2026 官方号码需最终名单。 |
+| 球员 caps/goals | 部分已有 | 官方/历史活动补充 | 覆盖不均。 |
+| 球员影响力 | proxy | dcaribou activity、FBref/Sofascore 实验 | 缺真实缺阵反事实、评分/xG/xA 全量覆盖。 |
+| 裁判画像 | 英超样本已有 | football-data.co.uk / predictor assets | 世界杯裁判单场指派需等 FIFA match centre/report。 |
+| 裁判风格 | 部分派生 | 英超历史红黄牌/点球/胜平负 | 不能直接套到世界杯裁判。 |
+
+## 7. 不能获取或暂不生产化的原因分类
+
+| 原因 | 具体表现 | 示例 |
+|---|---|---|
+| 官网/服务不支持免费足球 | 免费层没有目标运动或市场 | TheOddsAPI free 只 NBA/MLB；iSportsAPI free 15 天。 |
+| 免费额度/套餐受限 | API 返回 plan restricted | API-FOOTBALL free 对 World Cup 2026 injuries 受限。 |
+| 赛事未开始或不在时间窗口 | 正赛未开、赛前阵容未发布、天气窗口未到 | lineups、weather、match stats。 |
+| 网站有数据但非官方/逆向 | 可抓但合规/稳定性差 | 雷速、OddsPortal、Sofascore wrapper。 |
+| reader 不存在 | 当前库没有对应 reader | soccerdata FotMob。 |
+| reader 有但 live 风险高 | 需要浏览器/反爬/长时间挂起 | soccerdata FBref/WhoScored。 |
+| 字段没有直接提供 | 需要事件级推导或付费 tracking | PPDA、跑动距离、冲刺。 |
+| ID 映射未打通 | 有数据但无法稳定映射到平台 match/team/player_id | Sofascore World Cup event、BSD World Cup event。 |
+
+## 8. 当前优先级
+
+### P0
+
+- 用现有 API-FOOTBALL key 验证 World Cup 2026 odds / lineups / injuries / statistics 的真实覆盖。
+- 等 FIFA/足协最终名单，补剩余 39 队 roster。
+- 赔率源继续 probe：BSD 查真实 World Cup event mapping；用户申请 `ODDS_API_IO_KEY` 后跑 Odds-API.io live probe。
+
+### P1
+
+- 用 Sofascore wrapper 对 World Cup/国际赛 event 做低频实验验证，只写 raw/report。
+- 用 FBref 缓存/低频实验补英超模型的主客场、射门、控球、犯规/拦截、裁判字段。
+- 增强 venues：capacity、surface、roof_type、altitude、source_urls。
+
+### P2
+
+- WhoScored events 推导 PPDA 的实验研究。
+- 雷速/国内逆向源只保留字段理解和离线实验。
+- 人物风格蒸馏等赛后/长期模块。
+
+## 9. 相关报告和脚本
+
+| 类型 | 文件 |
+|---|---|
+| 免费赔率源 probe | `reports/free_odds_source_probe.json` |
+| Sofascore direct endpoint probe | `reports/sofascore_source_probe.json` |
+| Sofascore wrapper live 验证 | `reports/sofascore_wrapper_live_field_validation.json` |
+| soccerdata Sofascore probe | `reports/soccerdata_sofascore_probe.json` |
+| soccerdata FBref/FotMob/WhoScored probe | `reports/soccerdata_advanced_sources_probe.json` |
+| 模型数据缺口评估 | `docs/2026-05-18-predictor-post-model-data-gap-assessment-cn.md` |
+| 运行期数据需求 | `docs/2026-05-17-predictor-runtime-data-requirements-cn.md` |
+| 国内/第三方源评估 | `docs/2026-05-16-domestic-football-data-sources-evaluation-cn.md` |

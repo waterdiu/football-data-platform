@@ -107,7 +107,7 @@ def probe_odds_api_io(provider: dict, *, live: bool) -> dict:
 
     # Endpoint shape is intentionally isolated in probe code and must be
     # confirmed before any provider adapter is promoted.
-    url = "https://api.odds-api.io/v3/odds?sport=soccer&apiKey=" + key
+    url = "https://api.odds-api.io/v3/odds?sport=football&apiKey=" + key
     status, payload, error = fetch_json(url)
     row["http_status"] = status
     row["error"] = error
