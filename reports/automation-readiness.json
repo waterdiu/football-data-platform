@@ -83,6 +83,11 @@
       "external_repos": []
     },
     {
+      "script": "build_world_cup_pre_tournament_readiness.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
       "script": "build_worldcup_2026_runtime_health.py",
       "self_contained": true,
       "external_repos": []
@@ -203,6 +208,13 @@
       "external_repos": [],
       "self_contained": true,
       "reason": "Summarizes World Cup data quality checks and human runbooks from platform-owned reports."
+    },
+    {
+      "script": "build_world_cup_pre_tournament_readiness.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Builds the pre-tournament readiness checklist status from platform-owned public datasets, model runtime files, and reports."
     },
     {
       "script": "build_worldcup_2026_runtime_health.py",

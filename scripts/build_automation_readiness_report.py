@@ -73,6 +73,10 @@ SCRIPT_DEPENDENCIES = {
         "external_repos": [],
         "reason": "Summarizes World Cup data quality checks and human runbooks from platform-owned reports.",
     },
+    "build_world_cup_pre_tournament_readiness.py": {
+        "external_repos": [],
+        "reason": "Builds the pre-tournament readiness checklist status from platform-owned public datasets, model runtime files, and reports.",
+    },
     "build_worldcup_2026_runtime_health.py": {
         "external_repos": [],
         "reason": "Builds runtime health from platform-owned manifest and source health report.",
@@ -114,6 +118,7 @@ WORLD_CUP_PIPELINE = [
     "publish_world_cup_predictor_api.py",
     "build_source_health_report.py",
     "build_data_quality_report.py",
+    "build_world_cup_pre_tournament_readiness.py",
     "build_worldcup_2026_runtime_health.py",
     "build_world_cup_predictor_runtime_health.py",
 ]

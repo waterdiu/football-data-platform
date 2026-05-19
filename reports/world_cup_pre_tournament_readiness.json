@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-05-19T00:00:00Z",
+  "scope": "worldcup_2026_pre_tournament",
+  "summary": {
+    "checks": 17,
+    "status_counts": {
+      "attention": 2,
+      "pass": 10,
+      "pending_plan": 2,
+      "pending_window": 3
+    },
+    "severity_counts": {
+      "P0": 9,
+      "P1": 8
+    },
+    "phase_counts": {
+      "P0_core": 3,
+      "P0_model": 2,
+      "P0_people": 1,
+      "P0_runtime": 4,
+      "P0_site": 2,
+      "P1_model": 1,
+      "P1_ops": 1,
+      "P1_people": 2,
+      "P1_runtime": 1
+    },
+    "blocking_count": 0,
+    "attention_count": 2,
+    "pending_window_count": 3,
+    "pending_plan_count": 2
+  },
+  "checks": [
+    {
+      "id": "core_fixtures_kickoff",
+      "phase": "P0_core",
+      "status": "pass",
+      "severity": "P0",
+      "title": "104 场赛程与 kickoff_at",
+      "detail": "fixtures=104, missing_kickoff=0",
+      "evidence": {
+        "fixture_count": 104,
+        "missing_kickoff": 0
+      },
+      "next_action": "若失败，先停止所有消费项目发布，重建 canonical fixtures。"
+    },
+    {
+      "id": "core_teams",
+      "phase": "P0_core",
+      "status": "pass",
+      "severity": "P0",
+      "title": "世界杯球队基础信息",
+      "detail": "teams=112",
+      "evidence": {
+        "minimum_expected": 48,
+        "actual": 112
+      },
+      "next_action": "少于 48 队时先修 canonical teams；多于 48 队时确认是否包含历史/候选队伍并保持 source_status。"
+    },
+    {
+      "id": "core_host_city_venues",
+      "phase": "P0_core",
+      "status": "pass",
+      "severity": "P1",
+      "title": "主办城市与球场",
+      "detail": "host_cities=16, venues=16",
+      "evidence": {
+        "host_cities": 16,
+        "venues": 16
+      },
+      "next_action": "复核 venue_id/host_city_id/lat/lon/roof/surface/altitude/source_urls。"
+    },
+    {
+      "id": "team_world_cup_history",
+      "phase": "P0_site",
+      "status": "pass",
+      "severity": "P1",
+      "title": "球队历届世界杯战绩",
+      "detail": "team_history_rows=48",
+      "evidence": {
+        "rows": 48,
+        "source_status_counts": {
+          "available": 44,
+          "available_no_prior_appearances": 4
+        }
+      },
+      "next_action": "如果仍有 pending_source，确认是无参赛史还是缺数据源，并补 source_status。"
+    },
+    {
+      "id": "team_recent_matches",
+      "phase": "P0_site",
+      "status": "pass",
+      "severity": "P1",
+      "title": "48 队最近比赛基础数据",
+      "detail": "team_recent_match_rows=48",
+      "evidence": {
+        "expected": 48,
+        "actual": 48
+      },
+      "next_action": "继续用 API-FOOTBALL Pro 或历史数据补过程字段，基础比分必须保持稳定。"
+    },
+    {
+      "id": "official_roster_import",
+      "phase": "P0_people",
+      "status": "pending_window",
+      "severity": "P0",
+      "title": "官方 26 人名单",
+      "detail": "imported_teams=9, pending_teams=39",
+      "evidence": {
+        "summary": {
+          "teams": 48,
+          "imported_teams": 9,
+          "pending_teams": 39,
+          "imported_player_rows": 234
+        },
+        "player_profile_rows": 234
+      },
+      "next_action": "继续监控 FIFA/足协最终名单；第三方数据只补事实字段，不冒充官方名单。"
+    },
+    {
+      "id": "coach_profiles",
+      "phase": "P1_people",
+      "status": "pass",
+      "severity": "P1",
+      "title": "48 队主教练基础档案",
+      "detail": "coach_profiles=48",
+      "evidence": {
+        "expected": 48,
+        "actual": 48
+      },
+      "next_action": "appointed_at/contract_until 仍需足协公告、FIFA profile、Wikidata 或 Transfermarkt manager profile 交叉校验。"
+    },
+    {
+      "id": "world_cup_referee_profiles",
+      "phase": "P1_people",
+      "status": "pass",
+      "severity": "P1",
+      "title": "世界杯裁判名单与画像",
+      "detail": "referee_profiles=50",
+      "evidence": {
+        "referee_profiles": 50
+      },
+      "next_action": "等待 FIFA 正式裁判名单/单场指派；样本不足时只展示，不入强模型结论。"
+    },
+    {
+      "id": "api_football_pro_coverage",
+      "phase": "P0_runtime",
+      "status": "pending_plan",
+      "severity": "P0",
+      "title": "API-FOOTBALL Pro 覆盖复验",
+      "detail": "probe_status=unknown, plan_restricted=True",
+      "evidence": {
+        "probe_report_exists": true,
+        "overall_status": "unknown",
+        "plan_restricted_observed": true
+      },
+      "next_action": "Pro 开通后立即重跑 scripts/probe_api_football_worldcup_runtime.py。"
+    },
+    {
+      "id": "runtime_injuries",
+      "phase": "P0_runtime",
+      "status": "pending_plan",
+      "severity": "P0",
+      "title": "伤停/停赛运行期数据",
+      "detail": "injury_status_counts={'missing_auth': 104}",
+      "evidence": {
+        "rows": 104,
+        "source_status_counts": {
+          "missing_auth": 104
+        }
+      },
+      "next_action": "Pro 后验证 injuries；官方/新闻 evidence 继续作为低置信补源。"
+    },
+    {
+      "id": "runtime_lineups",
+      "phase": "P0_runtime",
+      "status": "pending_window",
+      "severity": "P0",
+      "title": "确认首发",
+      "detail": "lineup_status_counts={'unavailable': 104}",
+      "evidence": {
+        "rows": 104,
+        "source_status_counts": {
+          "unavailable": 104
+        }
+      },
+      "next_action": "只能在 T-90/T-60/T-30/T-15 窗口采集；confirmed 后只新增快照不覆盖。"
+    },
+    {
+      "id": "runtime_odds",
+      "phase": "P0_runtime",
+      "status": "attention",
+      "severity": "P0",
+      "title": "赔率 1X2/AH/OU",
+      "detail": "runtime_odds_rows=0, odds_api_io_world_cup_candidates=0",
+      "evidence": {
+        "runtime_rows": 0,
+        "odds_api_io_world_cup_candidate_count": 0,
+        "odds_api_io_mapped_rows": 162
+      },
+      "next_action": "首场前 5 天重跑 Odds-API.io event scan；API-FOOTBALL Pro odds 只先验证，不直接作为强 Kelly/CLV。"
+    },
+    {
+      "id": "runtime_weather",
+      "phase": "P1_runtime",
+      "status": "pending_window",
+      "severity": "P1",
+      "title": "天气预报",
+      "detail": "weather_status_counts={'unavailable': 104}",
+      "evidence": {
+        "rows": 104,
+        "source_status_counts": {
+          "unavailable": 104
+        }
+      },
+      "next_action": "进入 Open-Meteo 16 天预报窗口后刷新 T-72/T-24/T-6/T-1 天气。"
+    },
+    {
+      "id": "predictor_runtime_summary",
+      "phase": "P0_model",
+      "status": "pass",
+      "severity": "P0",
+      "title": "模型 runtime summary",
+      "detail": "runtime_summary_rows=104",
+      "evidence": {
+        "expected": 104,
+        "actual": 104
+      },
+      "next_action": "保持 104 场稳定行；缺失运行期数据必须标 source_status，不得填 0。"
+    },
+    {
+      "id": "predictor_predictions_source",
+      "phase": "P0_model",
+      "status": "pass",
+      "severity": "P0",
+      "title": "模型预测源与 kickoff",
+      "detail": "prediction_rows=104, missing_kickoff=0",
+      "evidence": {
+        "prediction_rows": 104,
+        "missing_kickoff": 0
+      },
+      "next_action": "模型重新写回后必须通过 publish 层保留 kickoff/date_utc/venue/stage 字段。"
+    },
+    {
+      "id": "person_profile_snapshot_inputs",
+      "phase": "P1_model",
+      "status": "attention",
+      "severity": "P1",
+      "title": "人物画像快照输入",
+      "detail": "人物档案基础数据存在，但真实能力评分、真实缺阵影响、裁判画像和风格蒸馏仍缺强样本。",
+      "evidence": {
+        "field_readiness": {
+          "coach_appointed_at": {
+            "status": "blocked",
+            "reason": "No reliable structured local source. Requires audited FA/FIFA/Wikidata evidence or manual patch."
+          },
+          "coach_contract_until": {
+            "status": "blocked",
+            "reason": "No reliable structured local source. Requires official contract evidence."
+          },
+          "player_shirt_number": {
+            "status": "blocked",
+            "reason": "Current local roster patches and dcaribou players table do not contain squad shirt numbers."
+          },
+          "true_absence_impact_pct": {
+            "status": "not_production_ready",
+            "reason": "dcaribou minutes/appearances are available as historical activity context, but true absence impact still requires availability evidence and team-performance counterfactual samples."
+          },
+          "player_style_distillation": {
+            "status": "research_ready_not_production_ready",
+            "reason": "StatsBomb and FBref samples can validate rules, but 2026 roster coverage is incomplete."
+          },
+          "referee_worldcup_assignments": {
+            "status": "pending_official_source",
+            "reason": "Historical EPL referee samples exist, but FIFA World Cup 2026 assignments are not available in platform data."
+          }
+        }
+      },
+      "next_action": "先输出 confidence/sample_size/source/evidence；样本不足时只做报告和 Kelly 降权。"
+    },
+    {
+      "id": "health_reports_available",
+      "phase": "P1_ops",
+      "status": "pass",
+      "severity": "P1",
+      "title": "健康报告与质量报告",
+      "detail": "source-health 和 data-quality 是排障入口。",
+      "evidence": {
+        "data_quality_exists": true,
+        "data_quality_status_counts": {
+          "attention": 2,
+          "info": 3,
+          "pass": 5
+        },
+        "source_health_exists": true,
+        "runtime_collection_summary": null
+      },
+      "next_action": "每次全量发布后重建 source-health、data-quality 和本 readiness 报告。"
+    }
+  ],
+  "recommended_next_steps": [
+    "API-FOOTBALL Pro 开通后立即重跑 scripts/probe_api_football_worldcup_runtime.py。",
+    "首场比赛前 5 天重跑 Odds-API.io event scan，确认 World Cup event 可见性。",
+    "继续监控 FIFA/足协官方 26 人名单，禁止第三方名单冒充官方名单。",
+    "进入 T-window 后刷新 lineups、injuries、weather、odds，并重建 runtime_summary。",
+    "每次全量发布后重建 source-health、data-quality 和本 readiness 报告。"
+  ]
+}

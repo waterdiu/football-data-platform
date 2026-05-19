@@ -200,7 +200,7 @@
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
   - 先发布平台 own 的 `worldcup/2026` 兼容数据镜像
-  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`injury evidence`、`model datasets`、`coverage`、`qualifier public datasets`、`runtime APIs`、`source health`、`data quality`、`predictor runtime health`
+  - 默认会重建：`fixtures`、`results`、`standings`、`finals detail datasets`、`injury evidence`、`model datasets`、`coverage`、`qualifier public datasets`、`runtime APIs`、`source health`、`data quality`、`pre-tournament readiness`、`predictor runtime health`
   - 可选 `--capture-context`，先触发预测项目的世界杯 context capture，再继续发布
 - `json_io.py`
   - 提供核心发布脚本使用的 JSON 原子写入工具
@@ -217,6 +217,10 @@
   - 输入：fixtures、coverage、predictions、runtime model datasets、runtime collection report、automation readiness report
   - 输出：`reports/data-quality.json`
   - 当前定位：定时任务失败或运行时数据缺失时的第一排障入口，用 `pass` / `attention` / `blocked` 和 runbook 文本说明人下一步该查什么
+- `build_world_cup_pre_tournament_readiness.py`
+  - 输入：World Cup public API、model runtime files、`data-quality`、`source-health`、roster checklist、API-FOOTBALL probe、Odds-API.io reports、person data readiness
+  - 输出：`reports/world_cup_pre_tournament_readiness.json`
+  - 当前定位：开赛前执行清单的机器版，用 `pass` / `attention` / `pending_window` / `pending_plan` / `blocked` 标记 P0/P1 状态和下一步动作
 - `probe_free_odds_sources.py`
   - 输入：`configs/providers/free_odds_probe.json`
   - 输出：`reports/free_odds_source_probe.json`

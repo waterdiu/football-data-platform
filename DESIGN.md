@@ -839,8 +839,9 @@ predictor 全量数据资产当前边界：
 
 - `scripts/build_source_health_report.py`
 - `scripts/build_data_quality_report.py`
+- `scripts/build_world_cup_pre_tournament_readiness.py`
 
-`source-health` 聚合底层数据源、行数和 provider 状态；`data-quality` 是人工排障入口，把 2026 世界杯 fixture、coverage、predictions、odds、lineups、injuries、weather、prematch context、team advanced stats 和 automation readiness 转成 `pass` / `attention` / `blocked` 检查，并附带对应 runbook。
+`source-health` 聚合底层数据源、行数和 provider 状态；`data-quality` 是人工排障入口，把 2026 世界杯 fixture、coverage、predictions、odds、lineups、injuries、weather、prematch context、team advanced stats 和 automation readiness 转成 `pass` / `attention` / `blocked` 检查，并附带对应 runbook。`world_cup_pre_tournament_readiness` 是开赛前执行清单的机器版，聚合 public API、model runtime、roster checklist、API-FOOTBALL probe、Odds-API.io probe、person data readiness 和健康报告，输出 `pass` / `attention` / `pending_window` / `pending_plan` / `blocked`。
 
 平台还提供一个面向 `worldcup/2026` 的运行时静态接口发布入口：
 
@@ -883,12 +884,14 @@ predictor 全量数据资产当前边界：
 平台会通过：
 
 - `reports/automation-readiness.json`
+- `reports/world_cup_pre_tournament_readiness.json`
 
 明确记录：
 
 - 哪些脚本已 self-contained
 - 哪些脚本仍依赖兄弟仓库
 - 世界杯完整发布流水线距离 fully automated 还差哪些环节
+- 开赛前 P0/P1 数据项哪些已经通过、哪些等待赛前窗口或 API 套餐
 
 当前自动重建入口：
 
