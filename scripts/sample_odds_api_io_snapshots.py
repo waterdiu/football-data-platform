@@ -20,6 +20,7 @@ except ImportError:  # pragma: no cover
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw" / "experimental" / "odds-api-io"
 REPORT_PATH = ROOT / "reports" / "odds_api_io_sampling_report.json"
+SCAN_REPORT_PATH = ROOT / "reports" / "odds_api_io_event_scan_report.json"
 
 
 def utc_now() -> str:
@@ -246,17 +247,76 @@ def build_report(*, captured_at: str, events_probe: dict, raw_events: list[dict]
     }
 
 
+def build_event_scan(events: list[dict], *, captured_at: str, bookmaker: str, requested_limit: int, events_probe: dict) -> dict:
+    league_counts: dict[str, int] = {}
+    status_counts: dict[str, int] = {}
+    world_cup_candidates: list[dict] = []
+    senior_international_candidates: list[dict] = []
+    for event in events:
+        if not isinstance(event, dict):
+            continue
+        summary = event_summary(event)
+        league = str(summary.get("league") or "unknown")
+        league_slug = str(summary.get("league_slug") or "")
+        status = str(summary.get("status") or "unknown")
+        league_counts[league] = league_counts.get(league, 0) + 1
+        status_counts[status] = status_counts.get(status, 0) + 1
+        haystack = " ".join(
+            str(value or "")
+            for value in (
+                summary.get("home"),
+                summary.get("away"),
+                summary.get("league"),
+                summary.get("league_slug"),
+            )
+        ).lower()
+        if "world cup" in haystack or "fifa" in haystack:
+            world_cup_candidates.append(summary)
+        if (
+            "international" in league_slug
+            and "youth" not in league_slug
+            and "clubs" not in league_slug
+            and "u20" not in league_slug
+            and "u21" not in league_slug
+            and "u23" not in league_slug
+        ):
+            senior_international_candidates.append(summary)
+    return {
+        "generated_at": captured_at,
+        "provider": "odds_api_io",
+        "mode": "event_scan_only",
+        "production_write_allowed": False,
+        "normalized_write_allowed": False,
+        "bookmaker_filter": bookmaker,
+        "requested_limit": requested_limit,
+        "events_probe": events_probe,
+        "event_count": len(events),
+        "league_counts": league_counts,
+        "status_counts": status_counts,
+        "has_world_cup_candidate": bool(world_cup_candidates),
+        "world_cup_candidates": world_cup_candidates,
+        "has_senior_international_candidate": bool(senior_international_candidates),
+        "senior_international_candidates": senior_international_candidates,
+        "conclusion": (
+            "world_cup_or_senior_international_observed"
+            if world_cup_candidates or senior_international_candidates
+            else "no_world_cup_or_senior_international_in_current_event_scan"
+        ),
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Sample Odds-API.io AH/OU odds into raw experimental storage.")
     parser.add_argument("--limit", type=int, default=5, help="Number of football events to sample.")
     parser.add_argument("--bookmakers", default="Sbobet,Bet365", help="Comma-separated bookmaker names.")
-    parser.add_argument("--output-report", default=str(REPORT_PATH))
+    parser.add_argument("--scan-events", action="store_true", help="Only scan event coverage; do not fetch event odds.")
+    parser.add_argument("--output-report", default=None)
     parser.add_argument("--raw-dir", default=str(RAW_DIR))
     args = parser.parse_args()
 
     key = load_env_value("ODDS_API_IO_KEY")
     captured_at = utc_now()
-    report_path = Path(args.output_report)
+    report_path = Path(args.output_report) if args.output_report else (SCAN_REPORT_PATH if args.scan_events else REPORT_PATH)
     raw_dir = Path(args.raw_dir)
     bookmakers = [item.strip() for item in args.bookmakers.split(",") if item.strip()]
     if not key:
@@ -276,6 +336,29 @@ def main() -> None:
         return
 
     events, events_probe = sample_events(key=key, bookmaker=bookmakers[0], limit=args.limit)
+    if args.scan_events:
+        report = build_event_scan(
+            events,
+            captured_at=captured_at,
+            bookmaker=bookmakers[0],
+            requested_limit=args.limit,
+            events_probe=events_probe,
+        )
+        write_json(report_path, report)
+        print(
+            json.dumps(
+                {
+                    "probe_status": "event_scan_complete",
+                    "event_count": len(events),
+                    "has_world_cup_candidate": report["has_world_cup_candidate"],
+                    "has_senior_international_candidate": report["has_senior_international_candidate"],
+                    "report": str(report_path),
+                },
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return
     raw_events, normalized_rows = sample_odds_for_events(key=key, events=events, bookmakers=bookmakers, captured_at=captured_at)
     stamp = captured_at.replace(":", "").replace("+", "Z")
     write_json(raw_dir / f"odds-api-io-{stamp}.raw.json", {"captured_at": captured_at, "events": raw_events})

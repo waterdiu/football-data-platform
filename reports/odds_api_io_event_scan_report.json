@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-05-19T05:55:00.370908+00:00",
+  "provider": "odds_api_io",
+  "mode": "event_scan_only",
+  "production_write_allowed": false,
+  "normalized_write_allowed": false,
+  "bookmaker_filter": "Sbobet",
+  "requested_limit": 30,
+  "events_probe": {
+    "http_status": 200,
+    "error": null,
+    "event_count": 30
+  },
+  "event_count": 30,
+  "league_counts": {
+    "International Youth - U20 Friendly Games": 2,
+    "India - Indian Super League": 1,
+    "China - Chinese Super League": 4,
+    "India - I-League": 1,
+    "Armenia - Premier League": 1,
+    "Austria - Bundesliga": 1,
+    "Sweden - Superettan": 1,
+    "Israel - Premier League": 3,
+    "Italy - Serie B": 1,
+    "Belgium - Pro League": 3,
+    "England - Premier League": 2,
+    "France - Ligue 2": 1,
+    "International Clubs - Copa Libertadores": 4,
+    "International Clubs - Copa Sudamericana": 3,
+    "USA - US Open Cup": 2
+  },
+  "status_counts": {
+    "pending": 30
+  },
+  "has_world_cup_candidate": false,
+  "world_cup_candidates": [],
+  "has_senior_international_candidate": false,
+  "senior_international_candidates": [],
+  "conclusion": "no_world_cup_or_senior_international_in_current_event_scan"
+}

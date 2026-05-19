@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T05:47:33.737482+00:00",
+  "generated_at": "2026-05-19T05:55:00.370887+00:00",
   "provider": "odds_api_io",
   "mode": "experimental_sampling_only",
   "production_write_allowed": false,
@@ -14,25 +14,25 @@
     "event_count": 5
   },
   "sampled_event_count": 5,
-  "normalized_row_count": 163,
+  "normalized_row_count": 162,
   "market_row_counts": {
-    "one_x_two": 11,
-    "asian_handicap": 77,
-    "over_under": 75
+    "one_x_two": 10,
+    "asian_handicap": 76,
+    "over_under": 76
   },
   "bookmaker_row_counts": {
     "Bet365": 128,
-    "Bet365 (no latency)": 6,
+    "Bet365 (no latency)": 5,
     "Sbobet": 29
   },
   "league_row_counts": {
     "International Youth - U20 Friendly Games": 38,
-    "India - Indian Super League": 40,
+    "India - Indian Super League": 39,
     "China - Chinese Super League": 85
   },
   "rows_by_event": {
     "71465134": 38,
-    "68746508": 40,
+    "68746508": 39,
     "68995156": 38,
     "68995158": 7,
     "68995160": 40
@@ -80,7 +80,7 @@
       },
       "http_status": 200,
       "error": null,
-      "normalized_rows": 40
+      "normalized_rows": 39
     },
     {
       "event": {
