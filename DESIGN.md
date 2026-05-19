@@ -578,7 +578,7 @@ Phase 1.5 为 `person-profiles.html` 风格页面补齐了可渲染密度：
 - `team_world_cup_history` 当前从 `data/raw/openfootball/worldcup-json/{year}/worldcup.json` 计算 48 队完整已结束世界杯正赛历史，覆盖 1930-2022；2026 已晋级作为 `qualified_not_started` 计入 `summary.appearances`，但不计入总场次、胜平负、进失球。`source_status=available` 表示已有历史参赛记录，`source_status=available_no_prior_appearances` 表示历史无已结束世界杯正赛记录但 2026 已晋级。
 - 历史世界杯战绩来源优先级：openfootball 历史世界杯结果作为当前结构化主源；FIFA 官方历史资料、RSSSF、Kaggle international/world cup results 可作为后续交叉校验；Wikipedia/DBpedia 仅作为人工校验辅助。
 - `host_city_profiles` 当前由 `data/patches/world_cup_2026_host_city_profiles.manual.json` 导入，覆盖 16 个主办城市；字段包含长期 `city_id` slug、与 `worldcup/2026` 现有路由兼容的 `site_city_key`、中英文城市/区域/国家、时区、短标签、气候/足球文化/交通/城市特点摘要、主场馆 ID 和来源 URL。人口字段在未接入审计统计源前保持 `null`。
-- `venues` 当前由 `configs/venues/world_cup_2026.json`、`host-city-profiles.json` 和 `fixtures.json` 合并生成，发布 16 个标准场馆 profile；字段包含稳定 `venue_id`、`host_city_id`、`site_city_key`、地址、坐标、海拔、FIFA 2026 配置容量、屋顶类型、当前草皮/人工草、世界杯预期草皮、时区、承办比赛数、阶段分布和 `aliases`。Vancouver 统一为 `venue_id=bc-place-vancouver`、`host_city_id=vancouver`，旧展示名 `BC Place 温哥华球场` 保留在 `aliases`。
+- `venues` 当前由 `configs/venues/world_cup_2026.json`、`host-city-profiles.json` 和 `fixtures.json` 合并生成，发布 16 个标准场馆 profile；字段包含稳定 `venue_id`、`host_city_id`、`site_city_key`、地址、坐标、海拔、FIFA 2026 配置容量、屋顶类型、当前草皮/人工草、世界杯预期草皮、时区、承办比赛数、阶段分布和 `aliases`。Vancouver 统一为 `venue_id=bc-place-vancouver`、`host_city_id=vancouver`，旧展示名 `BC Place 温哥华球场` 保留在 `aliases`。`reports/world_cup_venues_report.json` 会检查 16 个 venue、104 场 fixture 覆盖、必需字段完整性、别名是否映射到多个 venue，以及是否存在无比赛 venue；当前质量状态为 `pass`。
 - `worldcup/2026` 展示站 P0 不展示赔率，不要求比赛中实时事件；正赛事件、阵容、技术统计按赛后一次性采集和发布设计。
 
 官方名单导入规则：
@@ -967,7 +967,7 @@ predictor 全量数据资产当前边界：
 - 已增强：赛前新闻源列表由 `configs/prematch_news/world_cup_2026.json` 配置，`sources/prematch_news.py` 保留内置 fallback；采集结果和 `reports/world_cup_runtime_collection_report.json` 会记录 source 级 freshness（`last_checked_at`、`status`、`pages_collected`、错误信息）
 - 已增强：`scripts/build_world_cup_injury_evidence.py` 从 `prematch_context` 新闻信号中提取伤停/停赛 evidence，写入 `injuries.absence_evidence_summary`。该 evidence 只作为模型降权和报告提示，不等同于官方伤停名单；没有命中时显式标记 `no_news_absence_evidence`。当前实现采用保守过滤：实体必须匹配平台官方名单球员，关键词必须是独立词，且球员名与关键词必须在近距离窗口内，避免把 squad list、俱乐部名或跨标题文本误报为伤停。
 - 已增强：`scripts/build_world_cup_coverage.py` 输出每场 runtime coverage，包含 `odds`、`asian_handicap`、`over_under`、`injuries`、`lineups`、`weather`、`prematch_context`、`team_advanced_stats`、`technical_stats`、`xg`、`player_ratings` 与 `runtime_summary`；coverage 会优先读取 `data/model/lineups.json` 与 `data/model/injuries.json` 的运行期状态，而不是只看赛后 `finals-lineups.json`。`team_advanced_stats` 在小组赛已知对阵中可标记为 `partial/basic_form_proxy_only`，淘汰赛待定队伍仍会保持缺失或部分覆盖。
-- 已配置：`configs/venues/world_cup_2026.json` 保存 16 个 2026 世界杯球场地址、坐标、海拔、FIFA 2026 配置容量、屋顶类型、当前草皮/人工草、世界杯预期草皮和来源 URL；`scripts/build_world_cup_venues.py` 会发布到 normalized、public、core API 和 predictor API。
+- 已配置：`configs/venues/world_cup_2026.json` 保存 16 个 2026 世界杯球场地址、坐标、海拔、FIFA 2026 配置容量、屋顶类型、当前草皮/人工草、世界杯预期草皮和来源 URL；`scripts/build_world_cup_venues.py` 会发布到 normalized、public、core API 和 predictor API，并在 `reports/world_cup_venues_report.json` 输出字段覆盖、fixture 覆盖和别名冲突复核结果。
 - API-FOOTBALL fixture id map 缓存在 `data/runtime/api_football_fixture_map.json`，该目录不入 Git
 - 无 API key、公开新闻页不可达或无可采集数据时，collector 必须写清楚 `source_status` / `status_reason`。对阵容、伤停、天气这类模型 P0 输入，允许发布 `unavailable` 状态行；但不得用空数组或 0 冒充真实数据，也不得用低置信占位行覆盖已有 `available` 实据行。
 

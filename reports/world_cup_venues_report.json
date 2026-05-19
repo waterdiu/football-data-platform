@@ -24,6 +24,90 @@
     "nrg-stadium",
     "sofi-stadium"
   ],
+  "quality": {
+    "checks": {
+      "venue_count": true,
+      "fixture_count_total": true,
+      "unique_venue_id": true,
+      "required_fields_complete": true,
+      "no_alias_collisions": true,
+      "all_venues_have_fixtures": true
+    },
+    "status": "pass",
+    "expected": {
+      "venues": 16,
+      "fixtures": 104
+    },
+    "missing_required_fields": {},
+    "alias_collisions": {},
+    "multi_alias_venues": {
+      "arrowhead-stadium": [
+        "Arrowhead Stadium",
+        "堪萨斯城球场（Arrowhead Stadium）"
+      ],
+      "at-and-t-stadium": [
+        "AT&T Stadium",
+        "达拉斯球场（AT&T Stadium）"
+      ],
+      "bc-place-vancouver": [
+        "BC Place",
+        "BC Place 温哥华球场"
+      ],
+      "bmo-field": [
+        "BMO Field",
+        "多伦多球场（BMO Field）"
+      ],
+      "estadio-akron": [
+        "Estadio Akron",
+        "瓜达拉哈拉球场（Estadio Akron）"
+      ],
+      "estadio-azteca": [
+        "Estadio Azteca",
+        "墨西哥城球场（Estadio Azteca）"
+      ],
+      "estadio-bbva": [
+        "Estadio BBVA",
+        "蒙特雷球场（Estadio BBVA）"
+      ],
+      "gillette-stadium": [
+        "Gillette Stadium",
+        "波士顿球场（Gillette Stadium）"
+      ],
+      "hard-rock-stadium": [
+        "Hard Rock Stadium",
+        "迈阿密球场（Hard Rock Stadium）"
+      ],
+      "levis-stadium": [
+        "Levi's Stadium",
+        "旧金山湾区球场（Levi's Stadium）"
+      ],
+      "lincoln-financial-field": [
+        "Lincoln Financial Field",
+        "费城球场（Lincoln Financial Field）"
+      ],
+      "lumen-field": [
+        "Lumen Field",
+        "西雅图球场（Lumen Field）"
+      ],
+      "mercedes-benz-stadium": [
+        "Mercedes-Benz Stadium",
+        "亚特兰大球场（Mercedes-Benz Stadium）"
+      ],
+      "metlife-stadium": [
+        "MetLife Stadium",
+        "纽约新泽西球场（MetLife Stadium）"
+      ],
+      "nrg-stadium": [
+        "NRG Stadium",
+        "休斯敦球场（NRG Stadium）"
+      ],
+      "sofi-stadium": [
+        "SoFi Stadium",
+        "洛杉矶球场（SoFi Stadium）"
+      ]
+    },
+    "zero_fixture_venues": []
+  },
   "outputs": {
     "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_venues_master.json",
     "public": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/venues.json"

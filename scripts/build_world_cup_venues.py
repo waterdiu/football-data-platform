@@ -15,6 +15,29 @@ NORMALIZED_OUTPUT = ROOT / "data" / "normalized" / "world_cup_2026_venues_master
 PUBLIC_OUTPUT = ROOT / "data" / "public" / "venues.json"
 REPORT_OUTPUT = ROOT / "reports" / "world_cup_venues_report.json"
 UPDATED_AT = "2026-05-18T00:00:00Z"
+EXPECTED_VENUE_COUNT = 16
+EXPECTED_FIXTURE_COUNT = 104
+
+REQUIRED_VENUE_FIELDS = [
+    "venue_id",
+    "host_city_id",
+    "site_city_key",
+    "venue_name_en",
+    "display_name",
+    "city_name_en",
+    "country_en",
+    "timezone",
+    "address",
+    "latitude",
+    "longitude",
+    "altitude_m",
+    "capacity_fifa_2026",
+    "roof_type",
+    "surface_type_current",
+    "surface_type_world_cup_expected",
+    "fifa_venue_name",
+    "source_urls",
+]
 
 CITY_ID_ALIASES = {
     "Kansas City": "kansas-city",
@@ -126,6 +149,64 @@ def build_venue_rows(
     return rows
 
 
+def build_quality_report(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    fixture_count_total = sum(int(row.get("fixture_count") or 0) for row in rows)
+    missing_required_fields: dict[str, list[str]] = {}
+    for row in rows:
+        missing = [
+            field
+            for field in REQUIRED_VENUE_FIELDS
+            if row.get(field) in (None, "", [])
+        ]
+        if missing:
+            missing_required_fields[str(row.get("venue_id"))] = missing
+
+    alias_to_ids: dict[str, set[str]] = {}
+    for row in rows:
+        venue_id = str(row.get("venue_id") or "")
+        for alias in row.get("aliases") or []:
+            if not alias:
+                continue
+            alias_to_ids.setdefault(str(alias), set()).add(venue_id)
+
+    alias_collisions = {
+        alias: sorted(ids)
+        for alias, ids in sorted(alias_to_ids.items())
+        if len(ids) > 1
+    }
+    multi_alias_venues = {
+        str(row.get("venue_id")): sorted(row.get("aliases") or [])
+        for row in rows
+        if len(row.get("aliases") or []) > 1
+    }
+    zero_fixture_venues = [
+        str(row.get("venue_id"))
+        for row in rows
+        if int(row.get("fixture_count") or 0) == 0
+    ]
+
+    checks = {
+        "venue_count": len(rows) == EXPECTED_VENUE_COUNT,
+        "fixture_count_total": fixture_count_total == EXPECTED_FIXTURE_COUNT,
+        "unique_venue_id": len({row.get("venue_id") for row in rows}) == len(rows),
+        "required_fields_complete": not missing_required_fields,
+        "no_alias_collisions": not alias_collisions,
+        "all_venues_have_fixtures": not zero_fixture_venues,
+    }
+    return {
+        "checks": checks,
+        "status": "pass" if all(checks.values()) else "attention",
+        "expected": {
+            "venues": EXPECTED_VENUE_COUNT,
+            "fixtures": EXPECTED_FIXTURE_COUNT,
+        },
+        "missing_required_fields": missing_required_fields,
+        "alias_collisions": alias_collisions,
+        "multi_alias_venues": multi_alias_venues,
+        "zero_fixture_venues": zero_fixture_venues,
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build World Cup 2026 venue profiles.")
     parser.add_argument("--venue-config", default=str(VENUE_CONFIG_PATH))
@@ -142,12 +223,13 @@ def main() -> None:
     host_cities = [row for row in load_json(Path(args.host_cities)) if isinstance(row, dict)]
     fixtures = [row for row in load_json(Path(args.fixtures)) if isinstance(row, dict)]
     rows = build_venue_rows(venue_config=venue_config, host_cities=host_cities, fixtures=fixtures)
-    if len(rows) != 16:
+    if len(rows) != EXPECTED_VENUE_COUNT:
         raise ValueError(f"expected 16 venue rows, got {len(rows)}")
     if len({row["venue_id"] for row in rows}) != len(rows):
         raise ValueError("duplicate venue_id in venue rows")
     write_json(Path(args.normalized_output), rows)
     write_json(Path(args.public_output), rows)
+    quality = build_quality_report(rows)
     report = {
         "status": "published",
         "rows": len(rows),
@@ -157,6 +239,7 @@ def main() -> None:
         "roof_rows": sum(1 for row in rows if row.get("roof_type")),
         "altitude_rows": sum(1 for row in rows if row.get("altitude_m") is not None),
         "venue_ids": [row["venue_id"] for row in rows],
+        "quality": quality,
         "outputs": {
             "normalized": str(Path(args.normalized_output)),
             "public": str(Path(args.public_output)),
