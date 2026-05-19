@@ -777,6 +777,7 @@ predictor 兼容数据当前边界：
 - 已补 `test_data_platform.py`
 - 平台侧已在接入完成后重新执行 `scripts/sync_predictor_data_assets.py`
 - 第二阶段 inbox 双写也已完成，世界杯预测和英超预测已通过 `data/inbox/predictor/**` 发布到平台
+- `data/inbox/predictor/**` 是受控交付件，不是普通运行时缓存。只有模型侧明确交付、平台 publish 校验通过且当前提交主题是接收/发布模型写回时才允许提交；测试样例覆盖、时间戳/排序变化或非当前任务相关的 inbox 脏文件必须排除。详细规则见 `docs/2026-05-17-coordination-and-github-publish-rules.md` 的 Predictor Inbox 提交规则。
 - runtime odds、lineups、injuries、weather 和 prematch context 的生产采集责任已迁到平台；模型项目只消费平台输出并按缺失情况降权
 - 最新模型侧回报：`generate_predictions.py` 在严格平台模式下成功生成 104 场世界杯预测并写入平台 inbox
 - 最新模型侧回报：世界杯本地赔率/上下文采集默认停用，返回 `delegated_to_platform`

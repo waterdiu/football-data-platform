@@ -330,6 +330,9 @@ football-data-platform/
 - inbox 是唯一允许模型项目写入平台的区域。
 - inbox 内容必须经过 `publish_predictor_inbox.py` 校验和发布。
 - inbox 里的空文件或空数组不能覆盖正式 normalized/model/public 输出。
+- inbox 是受控交付件，不是运行时缓存。只有模型侧明确交付并且平台发布校验通过后，才允许随“接收模型写回/发布 predictor inbox”类提交进入 Git。
+- 本地测试或 smoke run 造成的 inbox 小样例、时间戳变化、路径变化、排序变化不得提交；处理其他任务前必须把无关 inbox 变化排除。
+- `premier-league/odds-snapshots.json` 被测试样例覆盖时应恢复或等待模型侧重新写正式快照；`worldcup-2026/predictions.json` 中可由平台 shared fixtures 回填的 `kickoff_at/date_utc/venue` 字段不需要单独作为 inbox 提交理由。
 
 ### 5.10 `data/predictor-assets`
 

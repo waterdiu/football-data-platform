@@ -67,6 +67,30 @@
 
 模型层不得直接写 `data/public`、`data/model` 或 `data/normalized`。
 
+### 3.1 Predictor Inbox 提交规则
+
+`data/inbox/predictor/**` 是跨项目交付入口，不是普通运行时缓存，也不是数据层脚本的临时输出目录。它允许被 Git 跟踪，但必须按受控交付件处理。
+
+允许提交 inbox 文件的情况：
+
+- 用户明确要求接收并发布模型侧新输出。
+- 模型侧回报中明确列出写回文件、生成命令、行数、验证结果和 data/API contract impact。
+- 数据层已运行 `scripts/publish_predictor_inbox.py` 或对应全量发布脚本，并确认 `reports/predictor_inbox_publish_report.json`、`data/normalized`、`data/model` 或 `data/public` 已同步。
+- 提交说明必须写明“接收模型写回”或“发布 predictor inbox”，不能混在数据源调研、文档或采集脚本提交里。
+
+不得提交 inbox 文件的情况：
+
+- 本地测试、fixture、smoke run 或旧脚本把 inbox 覆盖成小样例。
+- 只有时间戳、路径、排序或格式化变化，没有新的模型交付语义。
+- 文件变化尚未经过 publish 脚本校验。
+- 当前任务不是处理模型写回或 runtime publish。
+
+处理脏文件的默认规则：
+
+- `premier-league/odds-snapshots.json` 如果被小样例覆盖，视为测试污染，应恢复到远端版本或要求模型侧重新写回正式快照。
+- `worldcup-2026/predictions.json` 如果只新增平台可从 shared fixtures 回填的字段，优先通过 publish 脚本在 normalized/public 层补齐；不单独提交 inbox，除非模型侧正式回报为新预测版本。
+- 提交任何非 inbox 改动前，必须用 `git diff --stat -- data/inbox/predictor/**` 检查并排除无关 inbox 变化。
+
 当模型层发现平台数据缺失、字段不够或 contract 不匹配时，应回报给协调入口。协调入口判断：
 
 - 属于数据源、schema、API、coverage、health、publish 的，留在 `football-data-platform` 修
