@@ -1,0 +1,2063 @@
+{
+  "generated_at": "2026-05-19T06:34:56.771956+00:00",
+  "scope": "fbref_worldcup_player_coverage_probe",
+  "mode": "report_only",
+  "production_write_allowed": false,
+  "normalized_write_allowed": false,
+  "inputs": {
+    "worldcup_players": "data/public/api/worldcup/2026/core/players.json",
+    "fbref_player_stats": "data/predictor-assets/files/raw/fbref_premier_league_player_stats.csv"
+  },
+  "worldcup_player_count": 234,
+  "fbref_row_count": 544,
+  "matched_count": 32,
+  "ambiguous_count": 1,
+  "unmatched_count": 201,
+  "matched_rate": 0.1368,
+  "team_counts": {
+    "belgium": {
+      "players": 26,
+      "matched": 7,
+      "ambiguous": 0,
+      "unmatched": 19
+    },
+    "bosnia-and-herzegovina": {
+      "players": 26,
+      "matched": 0,
+      "ambiguous": 0,
+      "unmatched": 26
+    },
+    "cote-divoire": {
+      "players": 26,
+      "matched": 4,
+      "ambiguous": 1,
+      "unmatched": 21
+    },
+    "france": {
+      "players": 26,
+      "matched": 7,
+      "ambiguous": 0,
+      "unmatched": 19
+    },
+    "haiti": {
+      "players": 26,
+      "matched": 2,
+      "ambiguous": 0,
+      "unmatched": 24
+    },
+    "japan": {
+      "players": 26,
+      "matched": 3,
+      "ambiguous": 0,
+      "unmatched": 23
+    },
+    "korea-republic": {
+      "players": 26,
+      "matched": 0,
+      "ambiguous": 0,
+      "unmatched": 26
+    },
+    "sweden": {
+      "players": 26,
+      "matched": 8,
+      "ambiguous": 0,
+      "unmatched": 18
+    },
+    "tunisia": {
+      "players": 26,
+      "matched": 1,
+      "ambiguous": 0,
+      "unmatched": 25
+    }
+  },
+  "matched": [
+    {
+      "player_id": "belgium:player:amadou-onana",
+      "name": "Amadou Onana",
+      "team_id": "belgium",
+      "position": "MF",
+      "fbref": {
+        "player": "Amadou Onana",
+        "squad": "Aston Villa",
+        "position": "MF",
+        "nineties": 19.3,
+        "starts": 21,
+        "goals": 2,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "belgium:player:jeremy-doku",
+      "name": "Jeremy Doku",
+      "team_id": "belgium",
+      "position": "FW",
+      "fbref": {
+        "player": "Jeremy Doku",
+        "squad": "Manchester City",
+        "position": "MF,FW",
+        "nineties": 18.5,
+        "starts": 18,
+        "goals": 5,
+        "assists": 5,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "belgium:player:leandro-trossard",
+      "name": "Leandro Trossard",
+      "team_id": "belgium",
+      "position": "FW",
+      "fbref": {
+        "player": "Leandro Trossard",
+        "squad": "Arsenal",
+        "position": "FW,MF",
+        "nineties": 20.2,
+        "starts": 19,
+        "goals": 5,
+        "assists": 6,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "belgium:player:maxim-de-cuyper",
+      "name": "Maxim De Cuyper",
+      "team_id": "belgium",
+      "position": "DF",
+      "fbref": {
+        "player": "Maxim De Cuyper",
+        "squad": "Brighton",
+        "position": "DF,MF",
+        "nineties": 14.2,
+        "starts": 15,
+        "goals": 2,
+        "assists": 3,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "belgium:player:senne-lammens",
+      "name": "Senne Lammens",
+      "team_id": "belgium",
+      "position": "GK",
+      "fbref": {
+        "player": "Senne Lammens",
+        "squad": "Manchester Utd",
+        "position": "GK",
+        "nineties": 30.0,
+        "starts": 30,
+        "goals": 0,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "belgium:player:timothy-castagne",
+      "name": "Timothy Castagne",
+      "team_id": "belgium",
+      "position": "DF",
+      "fbref": {
+        "player": "Timothy Castagne",
+        "squad": "Fulham",
+        "position": "DF,MF",
+        "nineties": 18.5,
+        "starts": 18,
+        "goals": 0,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "belgium:player:youri-tielemans",
+      "name": "Youri Tielemans",
+      "team_id": "belgium",
+      "position": "MF",
+      "fbref": {
+        "player": "Youri Tielemans",
+        "squad": "Aston Villa",
+        "position": "MF",
+        "nineties": 18.5,
+        "starts": 19,
+        "goals": 0,
+        "assists": 4,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "cote-divoire:player:amad-diallo",
+      "name": "Amad Diallo",
+      "team_id": "cote-divoire",
+      "position": "FW",
+      "fbref": {
+        "player": "Amad Diallo",
+        "squad": "Manchester Utd",
+        "position": "MF",
+        "nineties": 24.0,
+        "starts": 25,
+        "goals": 2,
+        "assists": 2,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "cote-divoire:player:emmanuel-agbadou",
+      "name": "Emmanuel Agbadou",
+      "team_id": "cote-divoire",
+      "position": "DF",
+      "fbref": {
+        "player": "Emmanuel Agbadou",
+        "squad": "Wolves",
+        "position": "DF",
+        "nineties": 12.2,
+        "starts": 12,
+        "goals": 0,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "cote-divoire:player:ibrahim-sangare",
+      "name": "Ibrahim Sangare",
+      "team_id": "cote-divoire",
+      "position": "MF",
+      "fbref": {
+        "player": "Ibrahim Sangaré",
+        "squad": "Nottingham Forest",
+        "position": "MF",
+        "nineties": 22.1,
+        "starts": 24,
+        "goals": 2,
+        "assists": 2,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "cote-divoire:player:simon-adingra",
+      "name": "Simon Adingra",
+      "team_id": "cote-divoire",
+      "position": "FW",
+      "fbref": {
+        "player": "Simon Adingra",
+        "squad": "Sunderland",
+        "position": "MF,FW",
+        "nineties": 7.3,
+        "starts": 9,
+        "goals": 1,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "france:player:ibrahima-konate",
+      "name": "Ibrahima Konate",
+      "team_id": "france",
+      "position": "DF",
+      "fbref": {
+        "player": "Ibrahima Konaté",
+        "squad": "Liverpool",
+        "position": "DF",
+        "nineties": 32.4,
+        "starts": 34,
+        "goals": 1,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "france:player:jean-philippe-mateta",
+      "name": "Jean-Philippe Mateta",
+      "team_id": "france",
+      "position": "FW",
+      "fbref": {
+        "player": "Jean-Philippe Mateta",
+        "squad": "Crystal Palace",
+        "position": "FW",
+        "nineties": 23.2,
+        "starts": 24,
+        "goals": 10,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "france:player:lucas-digne",
+      "name": "Lucas Digne",
+      "team_id": "france",
+      "position": "DF",
+      "fbref": {
+        "player": "Lucas Digne",
+        "squad": "Aston Villa",
+        "position": "DF",
+        "nineties": 19.4,
+        "starts": 20,
+        "goals": 0,
+        "assists": 5,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "france:player:malo-gusto",
+      "name": "Malo Gusto",
+      "team_id": "france",
+      "position": "DF",
+      "fbref": {
+        "player": "Malo Gusto",
+        "squad": "Chelsea",
+        "position": "DF",
+        "nineties": 24.2,
+        "starts": 25,
+        "goals": 2,
+        "assists": 3,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "france:player:maxence-lacroix",
+      "name": "Maxence Lacroix",
+      "team_id": "france",
+      "position": "DF",
+      "fbref": {
+        "player": "Maxence Lacroix",
+        "squad": "Crystal Palace",
+        "position": "DF",
+        "nineties": 31.6,
+        "starts": 32,
+        "goals": 1,
+        "assists": 2,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "france:player:rayan-cherki",
+      "name": "Rayan Cherki",
+      "team_id": "france",
+      "position": "FW",
+      "fbref": {
+        "player": "Rayan Cherki",
+        "squad": "Manchester City",
+        "position": "MF",
+        "nineties": 19.0,
+        "starts": 19,
+        "goals": 4,
+        "assists": 11,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "france:player:william-saliba",
+      "name": "William Saliba",
+      "team_id": "france",
+      "position": "DF",
+      "fbref": {
+        "player": "William Saliba",
+        "squad": "Arsenal",
+        "position": "DF",
+        "nineties": 27.0,
+        "starts": 28,
+        "goals": 1,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "haiti:player:jean-ricner-bellegarde",
+      "name": "Jean-Ricner Bellegarde",
+      "team_id": "haiti",
+      "position": "MF",
+      "fbref": {
+        "player": "Jean-Ricner Bellegarde",
+        "squad": "Wolves",
+        "position": "MF,FW",
+        "nineties": 13.7,
+        "starts": 15,
+        "goals": 1,
+        "assists": 1,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "haiti:player:wilson-isidor",
+      "name": "Wilson Isidor",
+      "team_id": "haiti",
+      "position": "FW",
+      "fbref": {
+        "player": "Wilson Isidor",
+        "squad": "Sunderland",
+        "position": "FW",
+        "nineties": 12.5,
+        "starts": 11,
+        "goals": 5,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "japan:player:ao-tanaka",
+      "name": "Ao Tanaka",
+      "team_id": "japan",
+      "position": "MF",
+      "fbref": {
+        "player": "Ao Tanaka",
+        "squad": "Leeds United",
+        "position": "MF",
+        "nineties": 12.1,
+        "starts": 11,
+        "goals": 2,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "japan:player:daichi-kamada",
+      "name": "Daichi Kamada",
+      "team_id": "japan",
+      "position": "MF",
+      "fbref": {
+        "player": "Daichi Kamada",
+        "squad": "Crystal Palace",
+        "position": "MF",
+        "nineties": 18.5,
+        "starts": 19,
+        "goals": 0,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "japan:player:wataru-endo",
+      "name": "Wataru Endo",
+      "team_id": "japan",
+      "position": "MF",
+      "fbref": {
+        "player": "Wataru Endo",
+        "squad": "Liverpool",
+        "position": "DF",
+        "nineties": 1.9,
+        "starts": 1,
+        "goals": 0,
+        "assists": 1,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "sweden:player:alexander-isak",
+      "name": "Alexander Isak",
+      "team_id": "sweden",
+      "position": "FW",
+      "fbref": {
+        "player": "Alexander Isak",
+        "squad": "Liverpool",
+        "position": "FW",
+        "nineties": 7.8,
+        "starts": 8,
+        "goals": 3,
+        "assists": 1,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "sweden:player:anthony-elanga",
+      "name": "Anthony Elanga",
+      "team_id": "sweden",
+      "position": "FW",
+      "fbref": {
+        "player": "Anthony Elanga",
+        "squad": "Newcastle United",
+        "position": "FW,MF",
+        "nineties": 14.3,
+        "starts": 14,
+        "goals": 0,
+        "assists": 1,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "sweden:player:gabriel-gudmundsson",
+      "name": "Gabriel Gudmundsson",
+      "team_id": "sweden",
+      "position": "DF",
+      "fbref": {
+        "player": "Gabriel Gudmundsson",
+        "squad": "Leeds United",
+        "position": "DF,MF",
+        "nineties": 29.2,
+        "starts": 31,
+        "goals": 0,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "sweden:player:hjalmar-ekdal",
+      "name": "Hjalmar Ekdal",
+      "team_id": "sweden",
+      "position": "DF",
+      "fbref": {
+        "player": "Hjalmar Ekdal",
+        "squad": "Burnley",
+        "position": "DF",
+        "nineties": 17.1,
+        "starts": 17,
+        "goals": 0,
+        "assists": 0,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "sweden:player:lucas-bergvall",
+      "name": "Lucas Bergvall",
+      "team_id": "sweden",
+      "position": "MF",
+      "fbref": {
+        "player": "Lucas Bergvall",
+        "squad": "Tottenham Hotspur",
+        "position": "MF",
+        "nineties": 10.6,
+        "starts": 11,
+        "goals": 1,
+        "assists": 3,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "sweden:player:victor-lindelof",
+      "name": "Victor Lindelof",
+      "team_id": "sweden",
+      "position": "DF",
+      "fbref": {
+        "player": "Victor Lindelöf",
+        "squad": "Aston Villa",
+        "position": "DF",
+        "nineties": 8.4,
+        "starts": 8,
+        "goals": 0,
+        "assists": 1,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "sweden:player:viktor-gyokeres",
+      "name": "Viktor Gyokeres",
+      "team_id": "sweden",
+      "position": "FW",
+      "fbref": {
+        "player": "Viktor Gyökeres",
+        "squad": "Arsenal",
+        "position": "FW",
+        "nineties": 23.4,
+        "starts": 25,
+        "goals": 14,
+        "assists": 1,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "sweden:player:yasin-ayari",
+      "name": "Yasin Ayari",
+      "team_id": "sweden",
+      "position": "MF",
+      "fbref": {
+        "player": "Yasin Ayari",
+        "squad": "Brighton",
+        "position": "MF",
+        "nineties": 21.3,
+        "starts": 20,
+        "goals": 3,
+        "assists": 3,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    },
+    {
+      "player_id": "tunisia:player:hannibal-mejbri",
+      "name": "Hannibal Mejbri",
+      "team_id": "tunisia",
+      "position": "MF",
+      "fbref": {
+        "player": "Hannibal Mejbri",
+        "squad": "Burnley",
+        "position": "MF",
+        "nineties": 11.4,
+        "starts": 12,
+        "goals": 1,
+        "assists": 3,
+        "xg": 0.0,
+        "xag": 0.0,
+        "progressive_passes": 0.0,
+        "tackles": 0.0,
+        "interceptions": 0.0
+      },
+      "match_method": "normalized_exact_name"
+    }
+  ],
+  "ambiguous": [
+    {
+      "player_id": "cote-divoire:player:evann-guessand",
+      "name": "Evann Guessand",
+      "team_id": "cote-divoire",
+      "position": "FW",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player": "Evann Guessand",
+          "squad": "Aston Villa",
+          "position": "MF",
+          "nineties": 6.5,
+          "starts": 6,
+          "goals": 0,
+          "assists": 1,
+          "xg": 0.0,
+          "xag": 0.0,
+          "progressive_passes": 0.0,
+          "tackles": 0.0,
+          "interceptions": 0.0
+        },
+        {
+          "player": "Evann Guessand",
+          "squad": "Crystal Palace",
+          "position": "MF",
+          "nineties": 3.3,
+          "starts": 3,
+          "goals": 1,
+          "assists": 1,
+          "xg": 0.0,
+          "xag": 0.0,
+          "progressive_passes": 0.0,
+          "tackles": 0.0,
+          "interceptions": 0.0
+        }
+      ],
+      "match_method": "normalized_exact_name_multiple_rows"
+    }
+  ],
+  "unmatched": [
+    {
+      "player_id": "belgium:player:alexis-saelemaekers",
+      "name": "Alexis Saelemaekers",
+      "team_id": "belgium",
+      "position": "FW"
+    },
+    {
+      "player_id": "belgium:player:arthur-theate",
+      "name": "Arthur Theate",
+      "team_id": "belgium",
+      "position": "DF"
+    },
+    {
+      "player_id": "belgium:player:axel-witsel",
+      "name": "Axel Witsel",
+      "team_id": "belgium",
+      "position": "MF"
+    },
+    {
+      "player_id": "belgium:player:brandon-mechele",
+      "name": "Brandon Mechele",
+      "team_id": "belgium",
+      "position": "DF"
+    },
+    {
+      "player_id": "belgium:player:charles-de-ketelaere",
+      "name": "Charles De Ketelaere",
+      "team_id": "belgium",
+      "position": "FW"
+    },
+    {
+      "player_id": "belgium:player:diego-moreira",
+      "name": "Diego Moreira",
+      "team_id": "belgium",
+      "position": "FW"
+    },
+    {
+      "player_id": "belgium:player:dodi-lukebakio",
+      "name": "Dodi Lukebakio",
+      "team_id": "belgium",
+      "position": "FW"
+    },
+    {
+      "player_id": "belgium:player:hans-vanaken",
+      "name": "Hans Vanaken",
+      "team_id": "belgium",
+      "position": "MF"
+    },
+    {
+      "player_id": "belgium:player:joaquin-seys",
+      "name": "Joaquin Seys",
+      "team_id": "belgium",
+      "position": "DF"
+    },
+    {
+      "player_id": "belgium:player:kevin-de-bruyne",
+      "name": "Kevin De Bruyne",
+      "team_id": "belgium",
+      "position": "MF"
+    },
+    {
+      "player_id": "belgium:player:koni-de-winter",
+      "name": "Koni De Winter",
+      "team_id": "belgium",
+      "position": "DF"
+    },
+    {
+      "player_id": "belgium:player:matias-fernandez-pardo",
+      "name": "Matias Fernandez-Pardo",
+      "team_id": "belgium",
+      "position": "FW"
+    },
+    {
+      "player_id": "belgium:player:mike-penders",
+      "name": "Mike Penders",
+      "team_id": "belgium",
+      "position": "GK"
+    },
+    {
+      "player_id": "belgium:player:nathan-ngoy",
+      "name": "Nathan Ngoy",
+      "team_id": "belgium",
+      "position": "DF"
+    },
+    {
+      "player_id": "belgium:player:nicolas-raskin",
+      "name": "Nicolas Raskin",
+      "team_id": "belgium",
+      "position": "MF"
+    },
+    {
+      "player_id": "belgium:player:romelu-lukaku",
+      "name": "Romelu Lukaku",
+      "team_id": "belgium",
+      "position": "FW"
+    },
+    {
+      "player_id": "belgium:player:thibaut-courtois",
+      "name": "Thibaut Courtois",
+      "team_id": "belgium",
+      "position": "GK"
+    },
+    {
+      "player_id": "belgium:player:thomas-meunier",
+      "name": "Thomas Meunier",
+      "team_id": "belgium",
+      "position": "DF"
+    },
+    {
+      "player_id": "belgium:player:zeno-debast",
+      "name": "Zeno Debast",
+      "team_id": "belgium",
+      "position": "DF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:amar-dedic",
+      "name": "Amar Dedic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "DF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:amar-memic",
+      "name": "Amar Memic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "MF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:amir-hadziahmetovic",
+      "name": "Amir Hadziahmetovic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "MF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:armin-gigovic",
+      "name": "Armin Gigovic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "MF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:benjamin-tahirovic",
+      "name": "Benjamin Tahirovic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "MF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:dennis-hadzikadunic",
+      "name": "Dennis Hadzikadunic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "DF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:dzenis-burnic",
+      "name": "Dzenis Burnic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "MF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:edin-dzeko",
+      "name": "Edin Dzeko",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "FW"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:ermedin-demirovic",
+      "name": "Ermedin Demirovic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "FW"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:ermin-mahmic",
+      "name": "Ermin Mahmic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "MF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:esmir-bajraktarevic",
+      "name": "Esmir Bajraktarevic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "MF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:haris-tabakovic",
+      "name": "Haris Tabakovic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "FW"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:ivan-basic",
+      "name": "Ivan Basic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "MF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:ivan-sunjic",
+      "name": "Ivan Sunjic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "MF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:jovo-lukic",
+      "name": "Jovo Lukic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "FW"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:kerim-alajbegovic",
+      "name": "Kerim Alajbegovic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "MF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:martin-zlomislic",
+      "name": "Martin Zlomislic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "GK"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:nidal-celik",
+      "name": "Nidal Celik",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "DF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:nihad-mujakic",
+      "name": "Nihad Mujakic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "DF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:nikola-katic",
+      "name": "Nikola Katic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "DF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:nikola-vasilj",
+      "name": "Nikola Vasilj",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "GK"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:osman-hadzikic",
+      "name": "Osman Hadzikic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "GK"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:samed-bazdar",
+      "name": "Samed Bazdar",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "FW"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:sead-kolasinac",
+      "name": "Sead Kolasinac",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "DF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:stjepan-radeljic",
+      "name": "Stjepan Radeljic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "DF"
+    },
+    {
+      "player_id": "bosnia-and-herzegovina:player:tarik-muharemovic",
+      "name": "Tarik Muharemovic",
+      "team_id": "bosnia-and-herzegovina",
+      "position": "DF"
+    },
+    {
+      "player_id": "cote-divoire:player:alban-lafont",
+      "name": "Alban Lafont",
+      "team_id": "cote-divoire",
+      "position": "GK"
+    },
+    {
+      "player_id": "cote-divoire:player:ange-yoan-bonny",
+      "name": "Ange-Yoan Bonny",
+      "team_id": "cote-divoire",
+      "position": "FW"
+    },
+    {
+      "player_id": "cote-divoire:player:bazoumana-toure",
+      "name": "Bazoumana Toure",
+      "team_id": "cote-divoire",
+      "position": "FW"
+    },
+    {
+      "player_id": "cote-divoire:player:christ-inao-oulai",
+      "name": "Christ Inao Oulai",
+      "team_id": "cote-divoire",
+      "position": "MF"
+    },
+    {
+      "player_id": "cote-divoire:player:clement-akpa",
+      "name": "Clement Akpa",
+      "team_id": "cote-divoire",
+      "position": "DF"
+    },
+    {
+      "player_id": "cote-divoire:player:elye-wahi",
+      "name": "Elye Wahi",
+      "team_id": "cote-divoire",
+      "position": "FW"
+    },
+    {
+      "player_id": "cote-divoire:player:evan-ndicka",
+      "name": "Evan Ndicka",
+      "team_id": "cote-divoire",
+      "position": "DF"
+    },
+    {
+      "player_id": "cote-divoire:player:franck-kessie",
+      "name": "Franck Kessie",
+      "team_id": "cote-divoire",
+      "position": "MF"
+    },
+    {
+      "player_id": "cote-divoire:player:ghislain-konan",
+      "name": "Ghislain Konan",
+      "team_id": "cote-divoire",
+      "position": "DF"
+    },
+    {
+      "player_id": "cote-divoire:player:guela-doue",
+      "name": "Guela Doue",
+      "team_id": "cote-divoire",
+      "position": "DF"
+    },
+    {
+      "player_id": "cote-divoire:player:jean-michael-seri",
+      "name": "Jean Michael Seri",
+      "team_id": "cote-divoire",
+      "position": "MF"
+    },
+    {
+      "player_id": "cote-divoire:player:mohamed-kone",
+      "name": "Mohamed Kone",
+      "team_id": "cote-divoire",
+      "position": "GK"
+    },
+    {
+      "player_id": "cote-divoire:player:nicolas-pepe",
+      "name": "Nicolas Pepe",
+      "team_id": "cote-divoire",
+      "position": "FW"
+    },
+    {
+      "player_id": "cote-divoire:player:odilon-kossounou",
+      "name": "Odilon Kossounou",
+      "team_id": "cote-divoire",
+      "position": "DF"
+    },
+    {
+      "player_id": "cote-divoire:player:oumar-diakite",
+      "name": "Oumar Diakite",
+      "team_id": "cote-divoire",
+      "position": "FW"
+    },
+    {
+      "player_id": "cote-divoire:player:ousmane-diomande",
+      "name": "Ousmane Diomande",
+      "team_id": "cote-divoire",
+      "position": "DF"
+    },
+    {
+      "player_id": "cote-divoire:player:parfait-guiagon",
+      "name": "Parfait Guiagon",
+      "team_id": "cote-divoire",
+      "position": "MF"
+    },
+    {
+      "player_id": "cote-divoire:player:seko-fofana",
+      "name": "Seko Fofana",
+      "team_id": "cote-divoire",
+      "position": "MF"
+    },
+    {
+      "player_id": "cote-divoire:player:wilfried-singo",
+      "name": "Wilfried Singo",
+      "team_id": "cote-divoire",
+      "position": "DF"
+    },
+    {
+      "player_id": "cote-divoire:player:yahia-fofana",
+      "name": "Yahia Fofana",
+      "team_id": "cote-divoire",
+      "position": "GK"
+    },
+    {
+      "player_id": "cote-divoire:player:yan-diomande",
+      "name": "Yan Diomande",
+      "team_id": "cote-divoire",
+      "position": "FW"
+    },
+    {
+      "player_id": "france:player:adrien-rabiot",
+      "name": "Adrien Rabiot",
+      "team_id": "france",
+      "position": "MF"
+    },
+    {
+      "player_id": "france:player:aurelien-tchouameni",
+      "name": "Aurelien Tchouameni",
+      "team_id": "france",
+      "position": "MF"
+    },
+    {
+      "player_id": "france:player:bradley-barcola",
+      "name": "Bradley Barcola",
+      "team_id": "france",
+      "position": "FW"
+    },
+    {
+      "player_id": "france:player:brice-samba",
+      "name": "Brice Samba",
+      "team_id": "france",
+      "position": "GK"
+    },
+    {
+      "player_id": "france:player:dayot-upamecano",
+      "name": "Dayot Upamecano",
+      "team_id": "france",
+      "position": "DF"
+    },
+    {
+      "player_id": "france:player:desire-doue",
+      "name": "Desire Doue",
+      "team_id": "france",
+      "position": "FW"
+    },
+    {
+      "player_id": "france:player:jules-kounde",
+      "name": "Jules Kounde",
+      "team_id": "france",
+      "position": "DF"
+    },
+    {
+      "player_id": "france:player:kylian-mbappe",
+      "name": "Kylian Mbappe",
+      "team_id": "france",
+      "position": "FW"
+    },
+    {
+      "player_id": "france:player:lucas-hernandez",
+      "name": "Lucas Hernandez",
+      "team_id": "france",
+      "position": "DF"
+    },
+    {
+      "player_id": "france:player:maghnes-akliouche",
+      "name": "Maghnes Akliouche",
+      "team_id": "france",
+      "position": "FW"
+    },
+    {
+      "player_id": "france:player:manu-kone",
+      "name": "Manu Kone",
+      "team_id": "france",
+      "position": "MF"
+    },
+    {
+      "player_id": "france:player:marcus-thuram",
+      "name": "Marcus Thuram",
+      "team_id": "france",
+      "position": "FW"
+    },
+    {
+      "player_id": "france:player:michael-olise",
+      "name": "Michael Olise",
+      "team_id": "france",
+      "position": "FW"
+    },
+    {
+      "player_id": "france:player:mike-maignan",
+      "name": "Mike Maignan",
+      "team_id": "france",
+      "position": "GK"
+    },
+    {
+      "player_id": "france:player:n-golo-kante",
+      "name": "N'Golo Kante",
+      "team_id": "france",
+      "position": "MF"
+    },
+    {
+      "player_id": "france:player:ousmane-dembele",
+      "name": "Ousmane Dembele",
+      "team_id": "france",
+      "position": "FW"
+    },
+    {
+      "player_id": "france:player:robin-risser",
+      "name": "Robin Risser",
+      "team_id": "france",
+      "position": "GK"
+    },
+    {
+      "player_id": "france:player:theo-hernandez",
+      "name": "Theo Hernandez",
+      "team_id": "france",
+      "position": "DF"
+    },
+    {
+      "player_id": "france:player:warren-zaire-emery",
+      "name": "Warren Zaire-Emery",
+      "team_id": "france",
+      "position": "MF"
+    },
+    {
+      "player_id": "haiti:player:alexandre-pierre",
+      "name": "Alexandre Pierre",
+      "team_id": "haiti",
+      "position": "GK"
+    },
+    {
+      "player_id": "haiti:player:carl-fred-sainte",
+      "name": "Carl Fred Sainte",
+      "team_id": "haiti",
+      "position": "MF"
+    },
+    {
+      "player_id": "haiti:player:carlens-arcus",
+      "name": "Carlens Arcus",
+      "team_id": "haiti",
+      "position": "DF"
+    },
+    {
+      "player_id": "haiti:player:danley-jean-jacques",
+      "name": "Danley Jean Jacques",
+      "team_id": "haiti",
+      "position": "MF"
+    },
+    {
+      "player_id": "haiti:player:derrick-etienne-jr",
+      "name": "Derrick Etienne Jr.",
+      "team_id": "haiti",
+      "position": "FW"
+    },
+    {
+      "player_id": "haiti:player:dominique-simon",
+      "name": "Dominique Simon",
+      "team_id": "haiti",
+      "position": "MF"
+    },
+    {
+      "player_id": "haiti:player:duckens-nazon",
+      "name": "Duckens Nazon",
+      "team_id": "haiti",
+      "position": "FW"
+    },
+    {
+      "player_id": "haiti:player:duke-lacroix",
+      "name": "Duke Lacroix",
+      "team_id": "haiti",
+      "position": "DF"
+    },
+    {
+      "player_id": "haiti:player:frantzdy-pierrot",
+      "name": "Frantzdy Pierrot",
+      "team_id": "haiti",
+      "position": "FW"
+    },
+    {
+      "player_id": "haiti:player:hannes-delcroix",
+      "name": "Hannes Delcroix",
+      "team_id": "haiti",
+      "position": "DF"
+    },
+    {
+      "player_id": "haiti:player:jean-kevin-duverne",
+      "name": "Jean-Kevin Duverne",
+      "team_id": "haiti",
+      "position": "DF"
+    },
+    {
+      "player_id": "haiti:player:johny-placide",
+      "name": "Johny Placide",
+      "team_id": "haiti",
+      "position": "GK"
+    },
+    {
+      "player_id": "haiti:player:josue-casimir",
+      "name": "Josue Casimir",
+      "team_id": "haiti",
+      "position": "FW"
+    },
+    {
+      "player_id": "haiti:player:josue-duverger",
+      "name": "Josue Duverger",
+      "team_id": "haiti",
+      "position": "GK"
+    },
+    {
+      "player_id": "haiti:player:keeto-thermoncy",
+      "name": "Keeto Thermoncy",
+      "team_id": "haiti",
+      "position": "DF"
+    },
+    {
+      "player_id": "haiti:player:lenny-joseph",
+      "name": "Lenny Joseph",
+      "team_id": "haiti",
+      "position": "FW"
+    },
+    {
+      "player_id": "haiti:player:leverton-pierre",
+      "name": "Leverton Pierre",
+      "team_id": "haiti",
+      "position": "MF"
+    },
+    {
+      "player_id": "haiti:player:louicius-deedson",
+      "name": "Louicius Deedson",
+      "team_id": "haiti",
+      "position": "FW"
+    },
+    {
+      "player_id": "haiti:player:martin-experience",
+      "name": "Martin Experience",
+      "team_id": "haiti",
+      "position": "DF"
+    },
+    {
+      "player_id": "haiti:player:ricardo-ade",
+      "name": "Ricardo Ade",
+      "team_id": "haiti",
+      "position": "DF"
+    },
+    {
+      "player_id": "haiti:player:ruben-providence",
+      "name": "Ruben Providence",
+      "team_id": "haiti",
+      "position": "FW"
+    },
+    {
+      "player_id": "haiti:player:wilguens-paugain",
+      "name": "Wilguens Paugain",
+      "team_id": "haiti",
+      "position": "DF"
+    },
+    {
+      "player_id": "haiti:player:woodensky-pierre",
+      "name": "Woodensky Pierre",
+      "team_id": "haiti",
+      "position": "MF"
+    },
+    {
+      "player_id": "haiti:player:yassin-fortune",
+      "name": "Yassin Fortune",
+      "team_id": "haiti",
+      "position": "FW"
+    },
+    {
+      "player_id": "japan:player:ayase-ueda",
+      "name": "Ayase Ueda",
+      "team_id": "japan",
+      "position": "FW"
+    },
+    {
+      "player_id": "japan:player:ayumu-seko",
+      "name": "Ayumu Seko",
+      "team_id": "japan",
+      "position": "DF"
+    },
+    {
+      "player_id": "japan:player:daizen-maeda",
+      "name": "Daizen Maeda",
+      "team_id": "japan",
+      "position": "FW"
+    },
+    {
+      "player_id": "japan:player:hiroki-ito",
+      "name": "Hiroki Ito",
+      "team_id": "japan",
+      "position": "DF"
+    },
+    {
+      "player_id": "japan:player:junnosuke-suzuki",
+      "name": "Junnosuke Suzuki",
+      "team_id": "japan",
+      "position": "DF"
+    },
+    {
+      "player_id": "japan:player:junya-ito",
+      "name": "Junya Ito",
+      "team_id": "japan",
+      "position": "MF"
+    },
+    {
+      "player_id": "japan:player:kaishu-sano",
+      "name": "Kaishu Sano",
+      "team_id": "japan",
+      "position": "MF"
+    },
+    {
+      "player_id": "japan:player:keisuke-goto",
+      "name": "Keisuke Goto",
+      "team_id": "japan",
+      "position": "FW"
+    },
+    {
+      "player_id": "japan:player:keisuke-osako",
+      "name": "Keisuke Osako",
+      "team_id": "japan",
+      "position": "GK"
+    },
+    {
+      "player_id": "japan:player:keito-nakamura",
+      "name": "Keito Nakamura",
+      "team_id": "japan",
+      "position": "MF"
+    },
+    {
+      "player_id": "japan:player:kento-shiogai",
+      "name": "Kento Shiogai",
+      "team_id": "japan",
+      "position": "FW"
+    },
+    {
+      "player_id": "japan:player:ko-itakura",
+      "name": "Ko Itakura",
+      "team_id": "japan",
+      "position": "DF"
+    },
+    {
+      "player_id": "japan:player:koki-ogawa",
+      "name": "Koki Ogawa",
+      "team_id": "japan",
+      "position": "FW"
+    },
+    {
+      "player_id": "japan:player:ritsu-doan",
+      "name": "Ritsu Doan",
+      "team_id": "japan",
+      "position": "MF"
+    },
+    {
+      "player_id": "japan:player:shogo-taniguchi",
+      "name": "Shogo Taniguchi",
+      "team_id": "japan",
+      "position": "DF"
+    },
+    {
+      "player_id": "japan:player:takefusa-kubo",
+      "name": "Takefusa Kubo",
+      "team_id": "japan",
+      "position": "MF"
+    },
+    {
+      "player_id": "japan:player:takehiro-tomiyasu",
+      "name": "Takehiro Tomiyasu",
+      "team_id": "japan",
+      "position": "DF"
+    },
+    {
+      "player_id": "japan:player:tomoki-hayakawa",
+      "name": "Tomoki Hayakawa",
+      "team_id": "japan",
+      "position": "GK"
+    },
+    {
+      "player_id": "japan:player:tsuyoshi-watanabe",
+      "name": "Tsuyoshi Watanabe",
+      "team_id": "japan",
+      "position": "DF"
+    },
+    {
+      "player_id": "japan:player:yuito-suzuki",
+      "name": "Yuito Suzuki",
+      "team_id": "japan",
+      "position": "FW"
+    },
+    {
+      "player_id": "japan:player:yukinari-sugawara",
+      "name": "Yukinari Sugawara",
+      "team_id": "japan",
+      "position": "DF"
+    },
+    {
+      "player_id": "japan:player:yuto-nagatomo",
+      "name": "Yuto Nagatomo",
+      "team_id": "japan",
+      "position": "DF"
+    },
+    {
+      "player_id": "japan:player:zion-suzuki",
+      "name": "Zion Suzuki",
+      "team_id": "japan",
+      "position": "GK"
+    },
+    {
+      "player_id": "korea-republic:player:bae-junho",
+      "name": "Bae Junho",
+      "team_id": "korea-republic",
+      "position": "MF"
+    },
+    {
+      "player_id": "korea-republic:player:cho-guesung",
+      "name": "Cho Guesung",
+      "team_id": "korea-republic",
+      "position": "FW"
+    },
+    {
+      "player_id": "korea-republic:player:cho-yumin",
+      "name": "Cho Yumin",
+      "team_id": "korea-republic",
+      "position": "DF"
+    },
+    {
+      "player_id": "korea-republic:player:eom-jisung",
+      "name": "Eom Jisung",
+      "team_id": "korea-republic",
+      "position": "MF"
+    },
+    {
+      "player_id": "korea-republic:player:hwang-heechan",
+      "name": "Hwang Heechan",
+      "team_id": "korea-republic",
+      "position": "MF"
+    },
+    {
+      "player_id": "korea-republic:player:hwang-inbeom",
+      "name": "Hwang Inbeom",
+      "team_id": "korea-republic",
+      "position": "MF"
+    },
+    {
+      "player_id": "korea-republic:player:jens-castrop",
+      "name": "Jens Castrop",
+      "team_id": "korea-republic",
+      "position": "DF"
+    },
+    {
+      "player_id": "korea-republic:player:jo-hyeonwoo",
+      "name": "Jo Hyeonwoo",
+      "team_id": "korea-republic",
+      "position": "GK"
+    },
+    {
+      "player_id": "korea-republic:player:kim-jingyu",
+      "name": "Kim Jingyu",
+      "team_id": "korea-republic",
+      "position": "MF"
+    },
+    {
+      "player_id": "korea-republic:player:kim-minjae",
+      "name": "Kim Minjae",
+      "team_id": "korea-republic",
+      "position": "DF"
+    },
+    {
+      "player_id": "korea-republic:player:kim-moonhwan",
+      "name": "Kim Moonhwan",
+      "team_id": "korea-republic",
+      "position": "DF"
+    },
+    {
+      "player_id": "korea-republic:player:kim-seung-gyu",
+      "name": "Kim Seung-gyu",
+      "team_id": "korea-republic",
+      "position": "GK"
+    },
+    {
+      "player_id": "korea-republic:player:kim-taehyeon",
+      "name": "Kim Taehyeon",
+      "team_id": "korea-republic",
+      "position": "DF"
+    },
+    {
+      "player_id": "korea-republic:player:lee-donggyeong",
+      "name": "Lee Donggyeong",
+      "team_id": "korea-republic",
+      "position": "MF"
+    },
+    {
+      "player_id": "korea-republic:player:lee-hanbeom",
+      "name": "Lee Hanbeom",
+      "team_id": "korea-republic",
+      "position": "DF"
+    },
+    {
+      "player_id": "korea-republic:player:lee-jaesung",
+      "name": "Lee Jaesung",
+      "team_id": "korea-republic",
+      "position": "MF"
+    },
+    {
+      "player_id": "korea-republic:player:lee-kangin",
+      "name": "Lee Kangin",
+      "team_id": "korea-republic",
+      "position": "MF"
+    },
+    {
+      "player_id": "korea-republic:player:lee-kihyuk",
+      "name": "Lee Kihyuk",
+      "team_id": "korea-republic",
+      "position": "DF"
+    },
+    {
+      "player_id": "korea-republic:player:lee-taeseok",
+      "name": "Lee Taeseok",
+      "team_id": "korea-republic",
+      "position": "DF"
+    },
+    {
+      "player_id": "korea-republic:player:oh-hyeongyu",
+      "name": "Oh Hyeongyu",
+      "team_id": "korea-republic",
+      "position": "FW"
+    },
+    {
+      "player_id": "korea-republic:player:paik-seungho",
+      "name": "Paik Seungho",
+      "team_id": "korea-republic",
+      "position": "MF"
+    },
+    {
+      "player_id": "korea-republic:player:park-jinseob",
+      "name": "Park Jinseob",
+      "team_id": "korea-republic",
+      "position": "DF"
+    },
+    {
+      "player_id": "korea-republic:player:seol-youngwoo",
+      "name": "Seol Youngwoo",
+      "team_id": "korea-republic",
+      "position": "DF"
+    },
+    {
+      "player_id": "korea-republic:player:son-heungmin",
+      "name": "Son Heungmin",
+      "team_id": "korea-republic",
+      "position": "FW"
+    },
+    {
+      "player_id": "korea-republic:player:song-bumkeun",
+      "name": "Song Bumkeun",
+      "team_id": "korea-republic",
+      "position": "GK"
+    },
+    {
+      "player_id": "korea-republic:player:yang-hyunjun",
+      "name": "Yang Hyunjun",
+      "team_id": "korea-republic",
+      "position": "MF"
+    },
+    {
+      "player_id": "sweden:player:alexander-bernhardsson",
+      "name": "Alexander Bernhardsson",
+      "team_id": "sweden",
+      "position": "MF"
+    },
+    {
+      "player_id": "sweden:player:benjamin-nygren",
+      "name": "Benjamin Nygren",
+      "team_id": "sweden",
+      "position": "MF"
+    },
+    {
+      "player_id": "sweden:player:besfort-zeneli",
+      "name": "Besfort Zeneli",
+      "team_id": "sweden",
+      "position": "MF"
+    },
+    {
+      "player_id": "sweden:player:carl-starfelt",
+      "name": "Carl Starfelt",
+      "team_id": "sweden",
+      "position": "DF"
+    },
+    {
+      "player_id": "sweden:player:daniel-svensson",
+      "name": "Daniel Svensson",
+      "team_id": "sweden",
+      "position": "DF"
+    },
+    {
+      "player_id": "sweden:player:elliot-stroud",
+      "name": "Elliot Stroud",
+      "team_id": "sweden",
+      "position": "DF"
+    },
+    {
+      "player_id": "sweden:player:emil-holm",
+      "name": "Emil Holm",
+      "team_id": "sweden",
+      "position": "DF"
+    },
+    {
+      "player_id": "sweden:player:eric-smith",
+      "name": "Eric Smith",
+      "team_id": "sweden",
+      "position": "DF"
+    },
+    {
+      "player_id": "sweden:player:gustaf-lagerbielke",
+      "name": "Gustaf Lagerbielke",
+      "team_id": "sweden",
+      "position": "DF"
+    },
+    {
+      "player_id": "sweden:player:gustaf-nilsson",
+      "name": "Gustaf Nilsson",
+      "team_id": "sweden",
+      "position": "FW"
+    },
+    {
+      "player_id": "sweden:player:isak-hien",
+      "name": "Isak Hien",
+      "team_id": "sweden",
+      "position": "DF"
+    },
+    {
+      "player_id": "sweden:player:jacob-zetterstrom",
+      "name": "Jacob Zetterstrom",
+      "team_id": "sweden",
+      "position": "GK"
+    },
+    {
+      "player_id": "sweden:player:jesper-karlstrom",
+      "name": "Jesper Karlstrom",
+      "team_id": "sweden",
+      "position": "MF"
+    },
+    {
+      "player_id": "sweden:player:ken-sema",
+      "name": "Ken Sema",
+      "team_id": "sweden",
+      "position": "MF"
+    },
+    {
+      "player_id": "sweden:player:kristoffer-nordfeldt",
+      "name": "Kristoffer Nordfeldt",
+      "team_id": "sweden",
+      "position": "GK"
+    },
+    {
+      "player_id": "sweden:player:mattias-svanberg",
+      "name": "Mattias Svanberg",
+      "team_id": "sweden",
+      "position": "MF"
+    },
+    {
+      "player_id": "sweden:player:taha-ali",
+      "name": "Taha Ali",
+      "team_id": "sweden",
+      "position": "MF"
+    },
+    {
+      "player_id": "sweden:player:viktor-johansson",
+      "name": "Viktor Johansson",
+      "team_id": "sweden",
+      "position": "GK"
+    },
+    {
+      "player_id": "tunisia:player:abdelmouhib-chamakh",
+      "name": "Abdelmouhib Chamakh",
+      "team_id": "tunisia",
+      "position": "GK"
+    },
+    {
+      "player_id": "tunisia:player:adem-arous",
+      "name": "Adem Arous",
+      "team_id": "tunisia",
+      "position": "DF"
+    },
+    {
+      "player_id": "tunisia:player:ali-abdi",
+      "name": "Ali Abdi",
+      "team_id": "tunisia",
+      "position": "DF"
+    },
+    {
+      "player_id": "tunisia:player:anis-ben-slimane",
+      "name": "Anis Ben Slimane",
+      "team_id": "tunisia",
+      "position": "MF"
+    },
+    {
+      "player_id": "tunisia:player:aymen-dahmene",
+      "name": "Aymen Dahmene",
+      "team_id": "tunisia",
+      "position": "GK"
+    },
+    {
+      "player_id": "tunisia:player:dylan-bronn",
+      "name": "Dylan Bronn",
+      "team_id": "tunisia",
+      "position": "DF"
+    },
+    {
+      "player_id": "tunisia:player:elias-achouri",
+      "name": "Elias Achouri",
+      "team_id": "tunisia",
+      "position": "FW"
+    },
+    {
+      "player_id": "tunisia:player:elias-saad",
+      "name": "Elias Saad",
+      "team_id": "tunisia",
+      "position": "FW"
+    },
+    {
+      "player_id": "tunisia:player:ellyes-skhiri",
+      "name": "Ellyes Skhiri",
+      "team_id": "tunisia",
+      "position": "MF"
+    },
+    {
+      "player_id": "tunisia:player:firas-chaouat",
+      "name": "Firas Chaouat",
+      "team_id": "tunisia",
+      "position": "FW"
+    },
+    {
+      "player_id": "tunisia:player:hadj-mahmoud",
+      "name": "Hadj Mahmoud",
+      "team_id": "tunisia",
+      "position": "MF"
+    },
+    {
+      "player_id": "tunisia:player:hazem-mastouri",
+      "name": "Hazem Mastouri",
+      "team_id": "tunisia",
+      "position": "FW"
+    },
+    {
+      "player_id": "tunisia:player:ismael-gharbi",
+      "name": "Ismael Gharbi",
+      "team_id": "tunisia",
+      "position": "MF"
+    },
+    {
+      "player_id": "tunisia:player:khalil-ayari",
+      "name": "Khalil Ayari",
+      "team_id": "tunisia",
+      "position": "FW"
+    },
+    {
+      "player_id": "tunisia:player:mohamed-amine-ben-hamida",
+      "name": "Mohamed Amine Ben Hamida",
+      "team_id": "tunisia",
+      "position": "DF"
+    },
+    {
+      "player_id": "tunisia:player:montassar-talbi",
+      "name": "Montassar Talbi",
+      "team_id": "tunisia",
+      "position": "DF"
+    },
+    {
+      "player_id": "tunisia:player:mortadha-ben-ouanes",
+      "name": "Mortadha Ben Ouanes",
+      "team_id": "tunisia",
+      "position": "MF"
+    },
+    {
+      "player_id": "tunisia:player:moutaz-neffati",
+      "name": "Moutaz Neffati",
+      "team_id": "tunisia",
+      "position": "DF"
+    },
+    {
+      "player_id": "tunisia:player:omar-rekik",
+      "name": "Omar Rekik",
+      "team_id": "tunisia",
+      "position": "DF"
+    },
+    {
+      "player_id": "tunisia:player:raed-chikhaoui",
+      "name": "Raed Chikhaoui",
+      "team_id": "tunisia",
+      "position": "DF"
+    },
+    {
+      "player_id": "tunisia:player:rani-khedira",
+      "name": "Rani Khedira",
+      "team_id": "tunisia",
+      "position": "MF"
+    },
+    {
+      "player_id": "tunisia:player:rayan-elloumi",
+      "name": "Rayan Elloumi",
+      "team_id": "tunisia",
+      "position": "FW"
+    },
+    {
+      "player_id": "tunisia:player:sabri-ben-hassan",
+      "name": "Sabri Ben Hassan",
+      "team_id": "tunisia",
+      "position": "GK"
+    },
+    {
+      "player_id": "tunisia:player:sebastian-tounekti",
+      "name": "Sebastian Tounekti",
+      "team_id": "tunisia",
+      "position": "FW"
+    },
+    {
+      "player_id": "tunisia:player:yan-valery",
+      "name": "Yan Valery",
+      "team_id": "tunisia",
+      "position": "DF"
+    }
+  ],
+  "field_coverage": {
+    "90s": {
+      "present_rows": 544,
+      "nonzero_rows": 531,
+      "all_zero_or_missing": false
+    },
+    "Starts": {
+      "present_rows": 544,
+      "nonzero_rows": 476,
+      "all_zero_or_missing": false
+    },
+    "Gls": {
+      "present_rows": 544,
+      "nonzero_rows": 274,
+      "all_zero_or_missing": false
+    },
+    "Ast": {
+      "present_rows": 544,
+      "nonzero_rows": 275,
+      "all_zero_or_missing": false
+    },
+    "xG": {
+      "present_rows": 544,
+      "nonzero_rows": 0,
+      "all_zero_or_missing": true
+    },
+    "xAG": {
+      "present_rows": 544,
+      "nonzero_rows": 0,
+      "all_zero_or_missing": true
+    },
+    "PrgP": {
+      "present_rows": 544,
+      "nonzero_rows": 0,
+      "all_zero_or_missing": true
+    },
+    "Tkl": {
+      "present_rows": 544,
+      "nonzero_rows": 0,
+      "all_zero_or_missing": true
+    },
+    "Int": {
+      "present_rows": 544,
+      "nonzero_rows": 0,
+      "all_zero_or_missing": true
+    }
+  },
+  "usable_fields": [
+    "90s",
+    "Starts",
+    "Gls",
+    "Ast"
+  ],
+  "zero_only_fields": [
+    "xG",
+    "xAG",
+    "PrgP",
+    "Tkl",
+    "Int"
+  ],
+  "conclusion": "fbref_epl_player_stats_can_enrich_world_cup_players_with_current_or_recent_epl_activity",
+  "limits": [
+    "name-only matching is not enough for production writes",
+    "this report uses local predictor-assets FBref CSV, not live FBref scraping",
+    "coverage is limited to Premier League players present in the FBref asset",
+    "columns reported as zero_only_fields must not be treated as real zero performance",
+    "do not write to normalized/public until player_id mapping and license/source policy are approved"
+  ]
+}

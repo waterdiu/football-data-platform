@@ -102,6 +102,15 @@ FBref live 抓取验证结果：
 - 显式允许 `--allow-browser-driver` 后，FBref live probe 启动并进入缓存流程，但长时间无输出，被手动停止。
 - 这说明它不适合 production collector；可以低频手动验证或用缓存/离线文件做实验。
 
+世界杯球员补强验证：
+
+- 新增 report-only 脚本 `scripts/probe_fbref_worldcup_player_coverage.py`，报告为 `reports/fbref_worldcup_player_coverage_report.json`。
+- 使用当前已公布的 234 名世界杯球员和本地 `data/predictor-assets/files/raw/fbref_premier_league_player_stats.csv` 做 normalized exact name 匹配。
+- 结果：32 名球员命中，1 名球员歧义，201 名未命中，命中率 13.68%。命中集中在英超效力球员，例如比利时、法国、瑞典、日本、科特迪瓦、海地、突尼斯部分球员。
+- 这证明 FBref/英超资产对世界杯核心球员模型有补强价值，尤其是英超效力球员的出场时间、首发、进球、助攻、俱乐部位置。
+- 但当前本地 CSV 中 `xG/xAG/PrgP/Tkl/Int` 列全部为 0，不能当作真实高级能力输入；这些字段必须重新获取更完整 FBref 导出或保持 `null/zero_only_field`，不得把 0 解释为真实表现。
+- 当前匹配是 name-only，不能写 normalized/public；必须先完成 player_id 映射、歧义处理和来源策略审查。
+
 ### 4.3 PPDA
 
 当前没有稳定生产源。
@@ -211,6 +220,8 @@ FBref live 抓取验证结果：
 |---|---|---|---|
 | `psnewer/leisu` | Scrapy 旧项目 | `Match`：洲/国家/联赛/赛季/日期/主客队/比分；`Odds`：让球主/盘/客，标准主/平/客，大小球大/盘/小 | 旧 HTML 解析、无 license、非官方、未 live 跑通。 |
 | `guanrongjia/thor` | Selenium 旧项目 | free.leisu.com 页面比赛数据、完赛/进行中比分 | Python 2.7、ChromeDriver 73、2019 代码、页面型爬虫，维护成本高。 |
+
+注意：雷速当前仅完成 GitHub 仓库/代码层静态审查，未完成 live 请求验证。不能表述为“已验证可抓取”，只能表述为“旧项目代码中存在比分、1X2、让球、大小球字段解析逻辑”。后续如果继续验证，必须单独建立 `data/raw/experimental/leisu` probe，且不得进入 normalized/public。
 
 字段含义：
 
