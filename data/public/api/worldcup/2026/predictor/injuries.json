@@ -5,7 +5,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-11T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -27,7 +27,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -41,7 +41,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-12T02:00:00Z",
     "injury_summary": {
       "home": {
@@ -63,7 +63,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -77,7 +77,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-18T16:00:00Z",
     "injury_summary": {
       "home": {
@@ -99,7 +99,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -113,7 +113,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-19T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -135,7 +135,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -149,7 +149,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-25T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -171,7 +171,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -185,7 +185,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-25T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -207,7 +207,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -221,7 +221,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-12T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -243,7 +243,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -257,7 +257,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-13T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -279,7 +279,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -293,7 +293,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-18T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -315,7 +315,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -329,7 +329,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-18T22:00:00Z",
     "injury_summary": {
       "home": {
@@ -351,7 +351,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -365,7 +365,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-24T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -387,7 +387,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -401,7 +401,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-24T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -423,7 +423,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -437,7 +437,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-13T22:00:00Z",
     "injury_summary": {
       "home": {
@@ -459,7 +459,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -473,7 +473,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-14T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -495,7 +495,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -509,7 +509,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-20T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -531,7 +531,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -545,7 +545,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-19T22:00:00Z",
     "injury_summary": {
       "home": {
@@ -567,7 +567,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -581,7 +581,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-24T22:00:00Z",
     "injury_summary": {
       "home": {
@@ -603,7 +603,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -617,7 +617,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-24T22:00:00Z",
     "injury_summary": {
       "home": {
@@ -639,7 +639,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -653,7 +653,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-13T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -675,7 +675,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -689,7 +689,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-14T04:00:00Z",
     "injury_summary": {
       "home": {
@@ -711,7 +711,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -725,7 +725,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-20T04:00:00Z",
     "injury_summary": {
       "home": {
@@ -747,7 +747,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -761,7 +761,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-19T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -783,7 +783,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -797,7 +797,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-26T02:00:00Z",
     "injury_summary": {
       "home": {
@@ -819,7 +819,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -833,7 +833,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-26T02:00:00Z",
     "injury_summary": {
       "home": {
@@ -855,7 +855,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -869,7 +869,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-14T17:00:00Z",
     "injury_summary": {
       "home": {
@@ -891,7 +891,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -905,7 +905,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-14T23:00:00Z",
     "injury_summary": {
       "home": {
@@ -927,7 +927,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -941,7 +941,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-20T20:00:00Z",
     "injury_summary": {
       "home": {
@@ -963,7 +963,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -977,7 +977,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-21T00:00:00Z",
     "injury_summary": {
       "home": {
@@ -999,7 +999,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1013,7 +1013,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-25T20:00:00Z",
     "injury_summary": {
       "home": {
@@ -1035,7 +1035,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1049,7 +1049,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-25T20:00:00Z",
     "injury_summary": {
       "home": {
@@ -1071,7 +1071,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1085,7 +1085,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-14T20:00:00Z",
     "injury_summary": {
       "home": {
@@ -1107,7 +1107,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1121,7 +1121,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-15T02:00:00Z",
     "injury_summary": {
       "home": {
@@ -1143,7 +1143,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1157,7 +1157,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-20T17:00:00Z",
     "injury_summary": {
       "home": {
@@ -1179,7 +1179,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1193,7 +1193,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-21T04:00:00Z",
     "injury_summary": {
       "home": {
@@ -1215,7 +1215,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1229,7 +1229,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-25T23:00:00Z",
     "injury_summary": {
       "home": {
@@ -1251,7 +1251,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1265,7 +1265,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-25T23:00:00Z",
     "injury_summary": {
       "home": {
@@ -1287,7 +1287,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1301,7 +1301,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-15T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -1323,7 +1323,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1337,7 +1337,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-16T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -1359,7 +1359,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1373,7 +1373,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-21T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -1395,7 +1395,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1409,7 +1409,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-22T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -1431,7 +1431,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1445,7 +1445,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-27T03:00:00Z",
     "injury_summary": {
       "home": {
@@ -1467,7 +1467,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1481,7 +1481,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-27T03:00:00Z",
     "injury_summary": {
       "home": {
@@ -1503,7 +1503,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1517,7 +1517,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-15T16:00:00Z",
     "injury_summary": {
       "home": {
@@ -1539,7 +1539,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1553,7 +1553,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-15T22:00:00Z",
     "injury_summary": {
       "home": {
@@ -1575,7 +1575,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1589,7 +1589,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-21T16:00:00Z",
     "injury_summary": {
       "home": {
@@ -1611,7 +1611,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1625,7 +1625,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-21T22:00:00Z",
     "injury_summary": {
       "home": {
@@ -1647,7 +1647,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1661,7 +1661,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-27T00:00:00Z",
     "injury_summary": {
       "home": {
@@ -1683,7 +1683,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1697,7 +1697,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-27T00:00:00Z",
     "injury_summary": {
       "home": {
@@ -1719,7 +1719,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1733,7 +1733,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-04T21:00:00Z",
     "injury_summary": {
       "home": {
@@ -1755,7 +1755,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1769,7 +1769,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-04T17:00:00Z",
     "injury_summary": {
       "home": {
@@ -1791,7 +1791,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1805,7 +1805,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-05T20:00:00Z",
     "injury_summary": {
       "home": {
@@ -1827,7 +1827,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1841,7 +1841,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-06T00:00:00Z",
     "injury_summary": {
       "home": {
@@ -1863,7 +1863,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1877,7 +1877,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-06T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -1899,7 +1899,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1913,7 +1913,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-07T00:00:00Z",
     "injury_summary": {
       "home": {
@@ -1935,7 +1935,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1949,7 +1949,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-07T16:00:00Z",
     "injury_summary": {
       "home": {
@@ -1971,7 +1971,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -1985,7 +1985,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-07T20:00:00Z",
     "injury_summary": {
       "home": {
@@ -2007,7 +2007,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2021,7 +2021,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-09T20:00:00Z",
     "injury_summary": {
       "home": {
@@ -2043,7 +2043,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2057,7 +2057,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-10T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -2079,7 +2079,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2093,7 +2093,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-11T21:00:00Z",
     "injury_summary": {
       "home": {
@@ -2115,7 +2115,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2129,7 +2129,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-12T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -2151,7 +2151,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2165,7 +2165,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-14T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -2187,7 +2187,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2201,7 +2201,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-15T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -2223,7 +2223,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2237,7 +2237,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-18T21:00:00Z",
     "injury_summary": {
       "home": {
@@ -2259,7 +2259,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2273,7 +2273,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-19T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -2295,7 +2295,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2309,7 +2309,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-16T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -2331,7 +2331,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2345,7 +2345,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-16T22:00:00Z",
     "injury_summary": {
       "home": {
@@ -2367,7 +2367,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2381,7 +2381,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-22T21:00:00Z",
     "injury_summary": {
       "home": {
@@ -2403,7 +2403,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2417,7 +2417,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-23T00:00:00Z",
     "injury_summary": {
       "home": {
@@ -2439,7 +2439,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2453,7 +2453,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-26T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -2475,7 +2475,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2489,7 +2489,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-26T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -2511,7 +2511,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2525,7 +2525,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-17T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -2547,7 +2547,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2561,7 +2561,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-17T04:00:00Z",
     "injury_summary": {
       "home": {
@@ -2583,7 +2583,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2597,7 +2597,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-22T17:00:00Z",
     "injury_summary": {
       "home": {
@@ -2619,7 +2619,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2633,7 +2633,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-23T03:00:00Z",
     "injury_summary": {
       "home": {
@@ -2655,7 +2655,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2669,7 +2669,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-28T02:00:00Z",
     "injury_summary": {
       "home": {
@@ -2691,7 +2691,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2705,7 +2705,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-28T02:00:00Z",
     "injury_summary": {
       "home": {
@@ -2727,7 +2727,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2741,7 +2741,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-17T17:00:00Z",
     "injury_summary": {
       "home": {
@@ -2763,7 +2763,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2777,7 +2777,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-18T02:00:00Z",
     "injury_summary": {
       "home": {
@@ -2799,7 +2799,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2813,7 +2813,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-23T17:00:00Z",
     "injury_summary": {
       "home": {
@@ -2835,7 +2835,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2849,7 +2849,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-24T02:00:00Z",
     "injury_summary": {
       "home": {
@@ -2871,7 +2871,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2885,7 +2885,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-27T23:30:00Z",
     "injury_summary": {
       "home": {
@@ -2907,7 +2907,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2921,7 +2921,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-27T23:30:00Z",
     "injury_summary": {
       "home": {
@@ -2943,7 +2943,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2957,7 +2957,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-17T20:00:00Z",
     "injury_summary": {
       "home": {
@@ -2979,7 +2979,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -2993,7 +2993,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-17T23:00:00Z",
     "injury_summary": {
       "home": {
@@ -3015,7 +3015,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3029,7 +3029,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-23T20:00:00Z",
     "injury_summary": {
       "home": {
@@ -3051,7 +3051,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3065,7 +3065,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-23T23:00:00Z",
     "injury_summary": {
       "home": {
@@ -3087,7 +3087,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3101,7 +3101,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-27T21:00:00Z",
     "injury_summary": {
       "home": {
@@ -3123,7 +3123,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3137,7 +3137,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-27T21:00:00Z",
     "injury_summary": {
       "home": {
@@ -3159,7 +3159,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3173,7 +3173,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-29T20:30:00Z",
     "injury_summary": {
       "home": {
@@ -3195,7 +3195,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3209,7 +3209,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-30T21:00:00Z",
     "injury_summary": {
       "home": {
@@ -3231,7 +3231,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3245,7 +3245,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-28T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -3267,7 +3267,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3281,7 +3281,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-30T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -3303,7 +3303,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3317,7 +3317,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-02T23:00:00Z",
     "injury_summary": {
       "home": {
@@ -3339,7 +3339,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3353,7 +3353,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-02T19:00:00Z",
     "injury_summary": {
       "home": {
@@ -3375,7 +3375,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3389,7 +3389,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-02T00:00:00Z",
     "injury_summary": {
       "home": {
@@ -3411,7 +3411,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3425,7 +3425,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-01T20:00:00Z",
     "injury_summary": {
       "home": {
@@ -3447,7 +3447,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3461,7 +3461,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-29T17:00:00Z",
     "injury_summary": {
       "home": {
@@ -3483,7 +3483,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3497,7 +3497,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-06-30T17:00:00Z",
     "injury_summary": {
       "home": {
@@ -3519,7 +3519,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3533,7 +3533,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-01T01:00:00Z",
     "injury_summary": {
       "home": {
@@ -3555,7 +3555,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3569,7 +3569,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-01T16:00:00Z",
     "injury_summary": {
       "home": {
@@ -3591,7 +3591,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3605,7 +3605,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-03T22:00:00Z",
     "injury_summary": {
       "home": {
@@ -3627,7 +3627,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3641,7 +3641,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-03T18:00:00Z",
     "injury_summary": {
       "home": {
@@ -3663,7 +3663,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3677,7 +3677,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-03T03:00:00Z",
     "injury_summary": {
       "home": {
@@ -3699,7 +3699,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
@@ -3713,7 +3713,7 @@
     "confidence": "low",
     "source_status": "missing_auth",
     "status_reason": "missing_auth",
-    "fetched_at": "2026-05-18T19:59:36.939938+00:00",
+    "fetched_at": "2026-05-19T04:32:51.665908+00:00",
     "valid_at": "2026-07-04T01:30:00Z",
     "injury_summary": {
       "home": {
@@ -3735,7 +3735,7 @@
     "absence_evidence_summary": {
       "status": "no_news_absence_evidence",
       "source": "platform_prematch_news",
-      "generated_at": "2026-05-18T19:59:53.460346+00:00",
+      "generated_at": "2026-05-19T04:33:16.212213+00:00",
       "evidence_count": 0,
       "sources": [],
       "source_urls": [],
