@@ -42,7 +42,7 @@
 | 阵容/首发 | P0 | 状态行已提供 | 稳定契约，事实待赛前 | `predictor/lineups.json` | 现在是 `outside_lineup_window`；确认首发只能赛前 60-90 分钟。 |
 | 伤停/停赛 | P0 | 状态行 + 新闻 evidence | 低到中 | `predictor/injuries.json` | API-FOOTBALL free 对 2026 World Cup 受限；新闻只做 evidence。 |
 | 天气 | P1 | 状态行已提供 | 中 | `predictor/weather.json` | Open-Meteo fallback 已有；进入 16 天预报窗口后才有真实值。 |
-| 裁判/比赛官员 | P1 | FIFA 名单已提供，英超历史样本已提供 | 中高 | `core/officials.json`、`core/referee-profiles.json`、`official-ratings.json`、`reports/world_cup_referee_profile_gap_report.json`、`reports/worldreferee_referee_probe_report.json`、`reports/worldfootball_referee_probe_report.json` | 170 名 FIFA 官方比赛官员已导入；52 名主裁中只有 2 名命中本地强样本；WorldReferee 已有全量 52 人 probe，52 页可访问，41 人有概要统计，合计 849 条历史样本，但仍是 experimental；worldfootball.net 有结构化裁判页但当前 runtime 被 Cloudflare challenge 阻断；SportMonks 免费层不覆盖世界杯；数据源调研见 `docs/2026-05-19-referee-data-source-research-cn.md`。 |
+| 裁判/比赛官员 | P1 | FIFA 名单已提供，英超历史样本已提供 | 中高 | `core/officials.json`、`core/referee-profiles.json`、`official-ratings.json`、`reports/world_cup_referee_profile_gap_report.json`、`reports/worldreferee_referee_probe_report.json`、`reports/worldfootball_referee_probe_report.json` | 170 名 FIFA 官方比赛官员已导入；52 名主裁中只有 2 名命中本地强样本；WorldReferee 已有全量 52 人 probe，52 页可访问，41 人有概要统计，合计 849 条历史样本；gap report 已把 WorldReferee 标成 `experimental_report_only` 候选，其中 30 名达报告解释样本门槛、26 名达风格蒸馏样本门槛、19 名达强模型信号样本门槛，但仍不能进 normalized/public；worldfootball.net 有结构化裁判页但当前 runtime 被 Cloudflare challenge 阻断；SportMonks 免费层不覆盖世界杯；数据源调研见 `docs/2026-05-19-referee-data-source-research-cn.md`。 |
 | 赔率 1X2/AH/OU/CLV | P0 for betting model | 缺生产源 | 低 | `predictor/odds-snapshots.json` | 赔率是当前最弱环节，见第 5 节。 |
 | 球员影响力/风格 | P1/P2 | 基础 proxy | 低到中 | `player-profiles.json`、dcaribou activity | 缺真实 xG/xA、评分、伤停影响反事实样本。 |
 

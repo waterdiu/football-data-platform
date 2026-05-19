@@ -15,6 +15,7 @@ REPORTS_DIR = ROOT / "reports"
 FIFA_OFFICIALS_PATH = NORMALIZED_DIR / "world_cup_2026_match_officials_master.json"
 OFFICIAL_RATINGS_PATH = NORMALIZED_DIR / "person_official_ratings_master.json"
 OUTPUT_PATH = REPORTS_DIR / "world_cup_referee_profile_gap_report.json"
+WORLDREFEREE_PROBE_PATH = REPORTS_DIR / "worldreferee_referee_probe_report.json"
 
 MIN_EXPLANATION_SAMPLE = 20
 MIN_DISTILLATION_SAMPLE = 30
@@ -204,10 +205,67 @@ def sample_gate(sample_size: int) -> dict[str, Any]:
     }
 
 
+def load_worldreferee_probe() -> dict[str, dict[str, Any]]:
+    if not WORLDREFEREE_PROBE_PATH.exists():
+        return {}
+    payload = load_json(WORLDREFEREE_PROBE_PATH)
+    rows = ensure_list(payload.get("rows") or [], "worldreferee_referee_probe_report.json.rows")
+    by_official_id: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        official_id = row.get("official_id")
+        if isinstance(official_id, str) and official_id:
+            by_official_id[official_id] = row
+    return by_official_id
+
+
+def build_worldreferee_candidate(row: dict[str, Any] | None) -> dict[str, Any]:
+    if not row:
+        return {
+            "status": "missing_probe",
+            "policy": "WorldReferee is experimental/probe-only and must not be published to normalized/public without legal/stability review.",
+        }
+
+    parsed = row.get("parsed") if isinstance(row.get("parsed"), dict) else {}
+    stats = parsed.get("stats") if isinstance(parsed.get("stats"), dict) else {}
+    matches_sample = parsed.get("matches_sample") if isinstance(parsed.get("matches_sample"), list) else []
+    sample_size = int(stats.get("matches") or 0)
+    metrics = {
+        "matches": sample_size,
+        "competitions": stats.get("competitions"),
+        "yellow_cards": stats.get("yellow_cards"),
+        "yellow_cards_per_match": stats.get("yellow_cards_per_match"),
+        "red_cards": stats.get("red_cards"),
+        "red_cards_per_match": stats.get("red_cards_per_match"),
+        "penalties": stats.get("penalties"),
+        "penalties_per_match": stats.get("penalties_per_match"),
+        "fouls": stats.get("fouls"),
+        "active_years": stats.get("active_years"),
+        "match_history_rows_sampled": len(matches_sample),
+    }
+    available_metrics = [key for key, value in metrics.items() if value not in (None, "", [])]
+    return {
+        "status": "available_experimental" if sample_size else "available_no_stats",
+        "source": "WorldReferee",
+        "url": row.get("url"),
+        "candidate_slug": row.get("candidate_slug"),
+        "sample_size": sample_size,
+        "metrics": metrics,
+        "sample_gate": sample_gate(sample_size),
+        "available_metric_count": len(available_metrics),
+        "missing_metrics": [
+            key
+            for key, value in metrics.items()
+            if value in (None, "", []) and key not in {"match_history_rows_sampled"}
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved.",
+    }
+
+
 def build_report() -> dict[str, Any]:
     officials = ensure_list(load_json(FIFA_OFFICIALS_PATH), "world_cup_2026_match_officials_master.json")
     ratings = ensure_list(load_json(OFFICIAL_RATINGS_PATH), "person_official_ratings_master.json")
     rating_index = build_rating_index(ratings)
+    worldreferee_index = load_worldreferee_probe()
 
     referee_rows = [row for row in officials if row.get("role") == "referee"]
     rows: list[dict[str, Any]] = []
@@ -215,6 +273,10 @@ def build_report() -> dict[str, Any]:
     explain_ready_rows = 0
     distill_ready_rows = 0
     strong_model_rows = 0
+    worldreferee_available_rows = 0
+    worldreferee_explain_ready_rows = 0
+    worldreferee_distill_ready_rows = 0
+    worldreferee_strong_model_rows = 0
 
     for referee in referee_rows:
         parsed = parse_fifa_name(str(referee.get("name") or ""))
@@ -226,6 +288,12 @@ def build_report() -> dict[str, Any]:
         explain_ready_rows += 1 if sample_size >= MIN_EXPLANATION_SAMPLE else 0
         distill_ready_rows += 1 if sample_size >= MIN_DISTILLATION_SAMPLE else 0
         strong_model_rows += 1 if sample_size >= MIN_STRONG_MODEL_SAMPLE else 0
+        worldreferee_candidate = build_worldreferee_candidate(worldreferee_index.get(str(referee.get("official_id") or "")))
+        worldreferee_sample_size = int(worldreferee_candidate.get("sample_size") or 0)
+        worldreferee_available_rows += 1 if worldreferee_sample_size > 0 else 0
+        worldreferee_explain_ready_rows += 1 if worldreferee_sample_size >= MIN_EXPLANATION_SAMPLE else 0
+        worldreferee_distill_ready_rows += 1 if worldreferee_sample_size >= MIN_DISTILLATION_SAMPLE else 0
+        worldreferee_strong_model_rows += 1 if worldreferee_sample_size >= MIN_STRONG_MODEL_SAMPLE else 0
         rows.append(
             {
                 "official_id": referee.get("official_id"),
@@ -244,6 +312,7 @@ def build_report() -> dict[str, Any]:
                     "source_scope": rating.get("competition_scope") if rating else None,
                 },
                 "sample_gate": sample_gate(sample_size),
+                "worldreferee_experimental_sample": worldreferee_candidate,
                 "missing_fields_for_strong_profile": [
                     field
                     for field, value in {
@@ -270,6 +339,14 @@ def build_report() -> dict[str, Any]:
             "style_distillation_ready": distill_ready_rows,
             "strong_model_signal_ready": strong_model_rows,
             "needs_external_profile_source": len(referee_rows) - matched_rows,
+        },
+        "worldreferee_experimental_summary": {
+            "source_status": "probe_only_not_public",
+            "available_with_stats": worldreferee_available_rows,
+            "report_explanation_candidate": worldreferee_explain_ready_rows,
+            "style_distillation_candidate": worldreferee_distill_ready_rows,
+            "strong_model_signal_candidate": worldreferee_strong_model_rows,
+            "policy": "These rows can guide manual/source review only. They are not production referee profiles until source policy, ID matching, and repeatability are approved.",
         },
         "source_policy": {
             "production_now": ["FIFA official match officials list", "football-data.co.uk local historical samples"],

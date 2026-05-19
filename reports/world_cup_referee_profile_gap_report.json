@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T11:45:00.463519+00:00",
+  "generated_at": "2026-05-19T15:21:52.765497+00:00",
   "status": "requires_source_expansion",
   "scope": "FIFA World Cup 2026 appointed referees only; assistant referees and video match officials are listed but not profiled here.",
   "summary": {
@@ -9,6 +9,14 @@
     "style_distillation_ready": 2,
     "strong_model_signal_ready": 2,
     "needs_external_profile_source": 50
+  },
+  "worldreferee_experimental_summary": {
+    "source_status": "probe_only_not_public",
+    "available_with_stats": 41,
+    "report_explanation_candidate": 30,
+    "style_distillation_candidate": 26,
+    "strong_model_signal_candidate": 19,
+    "policy": "These rows can guide manual/source review only. They are not production referee profiles until source policy, ID matching, and repeatability are approved."
   },
   "source_policy": {
     "production_now": [
@@ -51,6 +59,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/mustapha_ghorbal",
+        "candidate_slug": "mustapha_ghorbal",
+        "sample_size": 44,
+        "metrics": {
+          "matches": 44,
+          "competitions": 20,
+          "yellow_cards": 166,
+          "yellow_cards_per_match": 3.77,
+          "red_cards": 2,
+          "red_cards_per_match": 0.045,
+          "penalties": 17,
+          "penalties_per_match": 0.386,
+          "fouls": 282,
+          "active_years": "2014–2022",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 44,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -125,6 +167,50 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/yael_falcon_perez",
+        "candidate_slug": "yael_falcon_perez",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -197,6 +283,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/dario_herrera",
+        "candidate_slug": "dario_herrera",
+        "sample_size": 26,
+        "metrics": {
+          "matches": 26,
+          "competitions": 12,
+          "yellow_cards": 107,
+          "yellow_cards_per_match": 4.12,
+          "red_cards": 9,
+          "red_cards_per_match": 0.346,
+          "penalties": 9,
+          "penalties_per_match": 0.346,
+          "fouls": 55,
+          "active_years": "2015–2019",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 26,
+          "can_explain_report": true,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -271,6 +391,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/facundo_tello",
+        "candidate_slug": "facundo_tello",
+        "sample_size": 14,
+        "metrics": {
+          "matches": 14,
+          "competitions": 7,
+          "yellow_cards": 40,
+          "yellow_cards_per_match": 2.86,
+          "red_cards": 4,
+          "red_cards_per_match": 0.286,
+          "penalties": 1,
+          "penalties_per_match": 0.071,
+          "fouls": 91,
+          "active_years": "2017–2024",
+          "match_history_rows_sampled": 14
+        },
+        "sample_gate": {
+          "sample_size": 14,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -343,6 +497,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/alireza_faghani",
+        "candidate_slug": "alireza_faghani",
+        "sample_size": 132,
+        "metrics": {
+          "matches": 132,
+          "competitions": 40,
+          "yellow_cards": 562,
+          "yellow_cards_per_match": 4.26,
+          "red_cards": 27,
+          "red_cards_per_match": 0.205,
+          "penalties": 38,
+          "penalties_per_match": 0.288,
+          "fouls": 116,
+          "active_years": "2009–2022",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 132,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -417,6 +605,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/raphael_claus",
+        "candidate_slug": "raphael_claus",
+        "sample_size": 44,
+        "metrics": {
+          "matches": 44,
+          "competitions": 17,
+          "yellow_cards": 163,
+          "yellow_cards_per_match": 3.7,
+          "red_cards": 6,
+          "red_cards_per_match": 0.136,
+          "penalties": 15,
+          "penalties_per_match": 0.341,
+          "fouls": 234,
+          "active_years": "2015–2022",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 44,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -489,6 +711,44 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/ramon_abatti",
+        "candidate_slug": "ramon_abatti",
+        "sample_size": 884,
+        "metrics": {
+          "matches": 884,
+          "competitions": 44,
+          "yellow_cards": 591,
+          "yellow_cards_per_match": 0.67,
+          "red_cards": 36,
+          "red_cards_per_match": 0.041,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": "?–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 884,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 8,
+        "missing_metrics": [
+          "penalties",
+          "penalties_per_match",
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -563,6 +823,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/wilton_sampaio",
+        "candidate_slug": "wilton_sampaio",
+        "sample_size": 57,
+        "metrics": {
+          "matches": 57,
+          "competitions": 24,
+          "yellow_cards": 263,
+          "yellow_cards_per_match": 4.61,
+          "red_cards": 12,
+          "red_cards_per_match": 0.211,
+          "penalties": 19,
+          "penalties_per_match": 0.333,
+          "fouls": 202,
+          "active_years": "2013–2022",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 57,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -635,6 +929,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/drew_fischer",
+        "candidate_slug": "drew_fischer",
+        "sample_size": 19,
+        "metrics": {
+          "matches": 19,
+          "competitions": 12,
+          "yellow_cards": 52,
+          "yellow_cards_per_match": 2.74,
+          "red_cards": 2,
+          "red_cards_per_match": 0.105,
+          "penalties": 3,
+          "penalties_per_match": 0.158,
+          "fouls": 26,
+          "active_years": "2015–2019",
+          "match_history_rows_sampled": 19
+        },
+        "sample_gate": {
+          "sample_size": 19,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -709,6 +1037,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/cristian_garay",
+        "candidate_slug": "cristian_garay",
+        "sample_size": 7,
+        "metrics": {
+          "matches": 7,
+          "competitions": 3,
+          "yellow_cards": 29,
+          "yellow_cards_per_match": 4.14,
+          "red_cards": 0,
+          "red_cards_per_match": 0.0,
+          "penalties": 1,
+          "penalties_per_match": 0.143,
+          "fouls": 54,
+          "active_years": "2019–2020",
+          "match_history_rows_sampled": 7
+        },
+        "sample_gate": {
+          "sample_size": 7,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -781,6 +1143,50 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/ning_ma",
+        "candidate_slug": "ning_ma",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -855,6 +1261,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/andres_rojas",
+        "candidate_slug": "andres_rojas",
+        "sample_size": 25,
+        "metrics": {
+          "matches": 25,
+          "competitions": 9,
+          "yellow_cards": 124,
+          "yellow_cards_per_match": 4.96,
+          "red_cards": 5,
+          "red_cards_per_match": 0.2,
+          "penalties": 6,
+          "penalties_per_match": 0.24,
+          "fouls": 147,
+          "active_years": "2017–2020",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 25,
+          "can_explain_report": true,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -928,6 +1368,50 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/juan_calderon",
+        "candidate_slug": "juan_calderon",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -1000,6 +1484,50 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/amin_mohamed",
+        "candidate_slug": "amin_mohamed",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -1104,6 +1632,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/michael_oliver",
+        "candidate_slug": "michael_oliver",
+        "sample_size": 170,
+        "metrics": {
+          "matches": 170,
+          "competitions": 41,
+          "yellow_cards": 519,
+          "yellow_cards_per_match": 3.05,
+          "red_cards": 25,
+          "red_cards_per_match": 0.147,
+          "penalties": 26,
+          "penalties_per_match": 0.153,
+          "fouls": 292,
+          "active_years": "2012–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 170,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -1238,6 +1800,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/anthony_taylor",
+        "candidate_slug": "anthony_taylor",
+        "sample_size": 161,
+        "metrics": {
+          "matches": 161,
+          "competitions": 37,
+          "yellow_cards": 533,
+          "yellow_cards_per_match": 3.31,
+          "red_cards": 25,
+          "red_cards_per_match": 0.155,
+          "penalties": 24,
+          "penalties_per_match": 0.149,
+          "fouls": 380,
+          "active_years": "2013–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 161,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -1340,6 +1936,46 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/alejandro_hernandez",
+        "candidate_slug": "alejandro_hernandez",
+        "sample_size": 1,
+        "metrics": {
+          "matches": 1,
+          "competitions": 1,
+          "yellow_cards": 3,
+          "yellow_cards_per_match": null,
+          "red_cards": 0,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": "2023–2023",
+          "match_history_rows_sampled": 1
+        },
+        "sample_gate": {
+          "sample_size": 1,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 6,
+        "missing_metrics": [
+          "yellow_cards_per_match",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -1425,6 +2061,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/francois_letexier",
+        "candidate_slug": "francois_letexier",
+        "sample_size": 59,
+        "metrics": {
+          "matches": 59,
+          "competitions": 22,
+          "yellow_cards": 78,
+          "yellow_cards_per_match": 1.32,
+          "red_cards": 5,
+          "red_cards_per_match": 0.085,
+          "penalties": 2,
+          "penalties_per_match": 0.034,
+          "fouls": 136,
+          "active_years": "2017–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 59,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -1512,6 +2182,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/clement_turpin",
+        "candidate_slug": "clement_turpin",
+        "sample_size": 141,
+        "metrics": {
+          "matches": 141,
+          "competitions": 50,
+          "yellow_cards": 358,
+          "yellow_cards_per_match": 2.54,
+          "red_cards": 26,
+          "red_cards_per_match": 0.184,
+          "penalties": 36,
+          "penalties_per_match": 0.255,
+          "fouls": 232,
+          "active_years": "2010–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 141,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -1598,6 +2302,42 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/pierre_atcho",
+        "candidate_slug": "pierre_atcho",
+        "sample_size": 5,
+        "metrics": {
+          "matches": 5,
+          "competitions": 5,
+          "yellow_cards": 22,
+          "yellow_cards_per_match": 4.4,
+          "red_cards": 0,
+          "red_cards_per_match": 0.0,
+          "penalties": 1,
+          "penalties_per_match": 0.2,
+          "fouls": null,
+          "active_years": "2018–2019",
+          "match_history_rows_sampled": 5
+        },
+        "sample_gate": {
+          "sample_size": 5,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 10,
+        "missing_metrics": [
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -1670,6 +2410,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/felix_zwayer",
+        "candidate_slug": "felix_zwayer",
+        "sample_size": 146,
+        "metrics": {
+          "matches": 146,
+          "competitions": 41,
+          "yellow_cards": 472,
+          "yellow_cards_per_match": 3.23,
+          "red_cards": 21,
+          "red_cards_per_match": 0.144,
+          "penalties": 31,
+          "penalties_per_match": 0.212,
+          "fouls": 225,
+          "active_years": "2012–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 146,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -1757,6 +2531,44 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/hector_said_martinez",
+        "candidate_slug": "hector_said_martinez",
+        "sample_size": 884,
+        "metrics": {
+          "matches": 884,
+          "competitions": 44,
+          "yellow_cards": 591,
+          "yellow_cards_per_match": 0.67,
+          "red_cards": 36,
+          "red_cards_per_match": 0.041,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": "?–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 884,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 8,
+        "missing_metrics": [
+          "penalties",
+          "penalties_per_match",
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -1829,6 +2641,43 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/maurizio_mariani",
+        "candidate_slug": "maurizio_mariani",
+        "sample_size": 60,
+        "metrics": {
+          "matches": 60,
+          "competitions": 13,
+          "yellow_cards": 31,
+          "yellow_cards_per_match": 0.52,
+          "red_cards": 5,
+          "red_cards_per_match": 0.083,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": 38,
+          "active_years": "2019–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 60,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 9,
+        "missing_metrics": [
+          "penalties",
+          "penalties_per_match"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -1916,6 +2765,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/oshane_nation",
+        "candidate_slug": "oshane_nation",
+        "sample_size": 17,
+        "metrics": {
+          "matches": 17,
+          "competitions": 10,
+          "yellow_cards": 72,
+          "yellow_cards_per_match": 4.24,
+          "red_cards": 1,
+          "red_cards_per_match": 0.059,
+          "penalties": 2,
+          "penalties_per_match": 0.118,
+          "fouls": 151,
+          "active_years": "2018–2019",
+          "match_history_rows_sampled": 17
+        },
+        "sample_gate": {
+          "sample_size": 17,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -1988,6 +2871,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/adham_makhadmeh",
+        "candidate_slug": "adham_makhadmeh",
+        "sample_size": 64,
+        "metrics": {
+          "matches": 64,
+          "competitions": 23,
+          "yellow_cards": 203,
+          "yellow_cards_per_match": 3.17,
+          "red_cards": 12,
+          "red_cards_per_match": 0.188,
+          "penalties": 10,
+          "penalties_per_match": 0.156,
+          "fouls": 117,
+          "active_years": "2013–2019",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 64,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -2062,6 +2979,42 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/yusuke_araki",
+        "candidate_slug": "yusuke_araki",
+        "sample_size": 14,
+        "metrics": {
+          "matches": 14,
+          "competitions": 6,
+          "yellow_cards": 31,
+          "yellow_cards_per_match": 2.21,
+          "red_cards": 1,
+          "red_cards_per_match": 0.071,
+          "penalties": 5,
+          "penalties_per_match": 0.357,
+          "fouls": null,
+          "active_years": "2017–2019",
+          "match_history_rows_sampled": 14
+        },
+        "sample_gate": {
+          "sample_size": 14,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 10,
+        "missing_metrics": [
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -2134,6 +3087,50 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/khalid_al_turais",
+        "candidate_slug": "khalid_al_turais",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -2208,6 +3205,45 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/jalal_jayed",
+        "candidate_slug": "jalal_jayed",
+        "sample_size": 1,
+        "metrics": {
+          "matches": 1,
+          "competitions": 1,
+          "yellow_cards": 0,
+          "yellow_cards_per_match": null,
+          "red_cards": 0,
+          "red_cards_per_match": null,
+          "penalties": 1,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": "2019–2019",
+          "match_history_rows_sampled": 1
+        },
+        "sample_gate": {
+          "sample_size": 1,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 7,
+        "missing_metrics": [
+          "yellow_cards_per_match",
+          "red_cards_per_match",
+          "penalties_per_match",
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -2280,6 +3316,50 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/katia_garcia",
+        "candidate_slug": "katia_garcia",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -2354,6 +3434,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/cesar_ramos",
+        "candidate_slug": "cesar_ramos",
+        "sample_size": 40,
+        "metrics": {
+          "matches": 40,
+          "competitions": 21,
+          "yellow_cards": 106,
+          "yellow_cards_per_match": 2.65,
+          "red_cards": 5,
+          "red_cards_per_match": 0.125,
+          "penalties": 7,
+          "penalties_per_match": 0.175,
+          "fouls": 55,
+          "active_years": "2014–2019",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 40,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -2427,6 +3541,50 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/dahane_beida",
+        "candidate_slug": "dahane_beida",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -2499,6 +3657,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/danny_makkelie",
+        "candidate_slug": "danny_makkelie",
+        "sample_size": 115,
+        "metrics": {
+          "matches": 115,
+          "competitions": 40,
+          "yellow_cards": 295,
+          "yellow_cards_per_match": 2.57,
+          "red_cards": 23,
+          "red_cards_per_match": 0.2,
+          "penalties": 22,
+          "penalties_per_match": 0.191,
+          "fouls": 286,
+          "active_years": "2011–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 115,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -2586,6 +3778,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/espen_eskas",
+        "candidate_slug": "espen_eskas",
+        "sample_size": 46,
+        "metrics": {
+          "matches": 46,
+          "competitions": 21,
+          "yellow_cards": 83,
+          "yellow_cards_per_match": 1.8,
+          "red_cards": 4,
+          "red_cards_per_match": 0.087,
+          "penalties": 8,
+          "penalties_per_match": 0.174,
+          "fouls": 278,
+          "active_years": "2017–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 46,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -2672,6 +3898,44 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh",
+        "candidate_slug": "campbellkirk_kawanawaugh",
+        "sample_size": 884,
+        "metrics": {
+          "matches": 884,
+          "competitions": 44,
+          "yellow_cards": 591,
+          "yellow_cards_per_match": 0.67,
+          "red_cards": 36,
+          "red_cards_per_match": 0.041,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": "?–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 884,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 8,
+        "missing_metrics": [
+          "penalties",
+          "penalties_per_match",
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -2744,6 +4008,44 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/juan_gabriel_benitez",
+        "candidate_slug": "juan_gabriel_benitez",
+        "sample_size": 884,
+        "metrics": {
+          "matches": 884,
+          "competitions": 44,
+          "yellow_cards": 591,
+          "yellow_cards_per_match": 0.67,
+          "red_cards": 36,
+          "red_cards_per_match": 0.041,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": "?–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 884,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 8,
+        "missing_metrics": [
+          "penalties",
+          "penalties_per_match",
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -2818,6 +4120,46 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/kevin_ortega",
+        "candidate_slug": "kevin_ortega",
+        "sample_size": 4,
+        "metrics": {
+          "matches": 4,
+          "competitions": 2,
+          "yellow_cards": 7,
+          "yellow_cards_per_match": null,
+          "red_cards": 0,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": "2019–2019",
+          "match_history_rows_sampled": 4
+        },
+        "sample_gate": {
+          "sample_size": 4,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 6,
+        "missing_metrics": [
+          "yellow_cards_per_match",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -2890,6 +4232,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/szymon_marciniak",
+        "candidate_slug": "szymon_marciniak",
+        "sample_size": 134,
+        "metrics": {
+          "matches": 134,
+          "competitions": 38,
+          "yellow_cards": 411,
+          "yellow_cards_per_match": 3.07,
+          "red_cards": 25,
+          "red_cards_per_match": 0.187,
+          "penalties": 43,
+          "penalties_per_match": 0.321,
+          "fouls": 341,
+          "active_years": "2011–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 134,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -2977,6 +4353,44 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/joao_pinheiro",
+        "candidate_slug": "joao_pinheiro",
+        "sample_size": 24,
+        "metrics": {
+          "matches": 24,
+          "competitions": 8,
+          "yellow_cards": 0,
+          "yellow_cards_per_match": 0.0,
+          "red_cards": 0,
+          "red_cards_per_match": 0.0,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": "2022–2025",
+          "match_history_rows_sampled": 24
+        },
+        "sample_gate": {
+          "sample_size": 24,
+          "can_explain_report": true,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 8,
+        "missing_metrics": [
+          "penalties",
+          "penalties_per_match",
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -3063,6 +4477,50 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/abdulrahman_al_jassim",
+        "candidate_slug": "abdulrahman_al_jassim",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -3135,6 +4593,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/istvan_kovacs",
+        "candidate_slug": "istvan_kovacs",
+        "sample_size": 100,
+        "metrics": {
+          "matches": 100,
+          "competitions": 41,
+          "yellow_cards": 300,
+          "yellow_cards_per_match": 3.0,
+          "red_cards": 20,
+          "red_cards_per_match": 0.2,
+          "penalties": 23,
+          "penalties_per_match": 0.23,
+          "fouls": 212,
+          "active_years": "2010–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 100,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -3222,6 +4714,50 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/abongile_tom",
+        "candidate_slug": "abongile_tom",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -3294,6 +4830,50 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/ivan_barton",
+        "candidate_slug": "ivan_barton",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -3368,6 +4948,44 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/omar_abdulkadir_artan",
+        "candidate_slug": "omar_abdulkadir_artan",
+        "sample_size": 884,
+        "metrics": {
+          "matches": 884,
+          "competitions": 44,
+          "yellow_cards": 591,
+          "yellow_cards_per_match": 0.67,
+          "red_cards": 36,
+          "red_cards_per_match": 0.041,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": "?–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 884,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 8,
+        "missing_metrics": [
+          "penalties",
+          "penalties_per_match",
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -3440,6 +5058,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/sandro_schaerer",
+        "candidate_slug": "sandro_schaerer",
+        "sample_size": 44,
+        "metrics": {
+          "matches": 44,
+          "competitions": 20,
+          "yellow_cards": 166,
+          "yellow_cards_per_match": 3.77,
+          "red_cards": 10,
+          "red_cards_per_match": 0.227,
+          "penalties": 17,
+          "penalties_per_match": 0.386,
+          "fouls": 167,
+          "active_years": "2015–2019",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 44,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -3527,6 +5179,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/slavko_vincic",
+        "candidate_slug": "slavko_vincic",
+        "sample_size": 113,
+        "metrics": {
+          "matches": 113,
+          "competitions": 39,
+          "yellow_cards": 316,
+          "yellow_cards_per_match": 2.8,
+          "red_cards": 9,
+          "red_cards_per_match": 0.08,
+          "penalties": 14,
+          "penalties_per_match": 0.124,
+          "fouls": 257,
+          "active_years": "2010–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 113,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -3612,6 +5298,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/glenn_nyberg",
+        "candidate_slug": "glenn_nyberg",
+        "sample_size": 54,
+        "metrics": {
+          "matches": 54,
+          "competitions": 26,
+          "yellow_cards": 73,
+          "yellow_cards_per_match": 1.35,
+          "red_cards": 2,
+          "red_cards_per_match": 0.037,
+          "penalties": 4,
+          "penalties_per_match": 0.074,
+          "fouls": 118,
+          "active_years": "2016–2025",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 54,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": true,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -3699,6 +5419,42 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/omar_al_ali",
+        "candidate_slug": "omar_al_ali",
+        "sample_size": 14,
+        "metrics": {
+          "matches": 14,
+          "competitions": 7,
+          "yellow_cards": 28,
+          "yellow_cards_per_match": 2.0,
+          "red_cards": 2,
+          "red_cards_per_match": 0.143,
+          "penalties": 7,
+          "penalties_per_match": 0.5,
+          "fouls": null,
+          "active_years": "2015–2019",
+          "match_history_rows_sampled": 14
+        },
+        "sample_gate": {
+          "sample_size": 14,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 10,
+        "missing_metrics": [
+          "fouls"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -3771,6 +5527,44 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/gustavo_tejera",
+        "candidate_slug": "gustavo_tejera",
+        "sample_size": 4,
+        "metrics": {
+          "matches": 4,
+          "competitions": 3,
+          "yellow_cards": 19,
+          "yellow_cards_per_match": null,
+          "red_cards": 0,
+          "red_cards_per_match": null,
+          "penalties": 1,
+          "penalties_per_match": null,
+          "fouls": 31,
+          "active_years": "2018–2020",
+          "match_history_rows_sampled": 4
+        },
+        "sample_gate": {
+          "sample_size": 4,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 8,
+        "missing_metrics": [
+          "yellow_cards_per_match",
+          "red_cards_per_match",
+          "penalties_per_match"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -3845,6 +5639,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/ismail_elfath",
+        "candidate_slug": "ismail_elfath",
+        "sample_size": 28,
+        "metrics": {
+          "matches": 28,
+          "competitions": 14,
+          "yellow_cards": 105,
+          "yellow_cards_per_match": 3.75,
+          "red_cards": 5,
+          "red_cards_per_match": 0.179,
+          "penalties": 8,
+          "penalties_per_match": 0.286,
+          "fouls": 203,
+          "active_years": "2016–2022",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 28,
+          "can_explain_report": true,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -3917,6 +5745,50 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_no_stats",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/tori_penso",
+        "candidate_slug": "tori_penso",
+        "sample_size": 0,
+        "metrics": {
+          "matches": 0,
+          "competitions": null,
+          "yellow_cards": null,
+          "yellow_cards_per_match": null,
+          "red_cards": null,
+          "red_cards_per_match": null,
+          "penalties": null,
+          "penalties_per_match": null,
+          "fouls": null,
+          "active_years": null,
+          "match_history_rows_sampled": 0
+        },
+        "sample_gate": {
+          "sample_size": 0,
+          "can_explain_report": false,
+          "can_distill_style": false,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 2,
+        "missing_metrics": [
+          "competitions",
+          "yellow_cards",
+          "yellow_cards_per_match",
+          "red_cards",
+          "red_cards_per_match",
+          "penalties",
+          "penalties_per_match",
+          "fouls",
+          "active_years"
+        ],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
@@ -3991,6 +5863,40 @@
           "strong_model_signal": 50
         }
       },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/ilgiz_tantashev",
+        "candidate_slug": "ilgiz_tantashev",
+        "sample_size": 38,
+        "metrics": {
+          "matches": 38,
+          "competitions": 20,
+          "yellow_cards": 121,
+          "yellow_cards_per_match": 3.18,
+          "red_cards": 6,
+          "red_cards_per_match": 0.158,
+          "penalties": 8,
+          "penalties_per_match": 0.211,
+          "fouls": 25,
+          "active_years": "2014–2019",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 38,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
+      },
       "missing_fields_for_strong_profile": [
         "international_match_history",
         "fouls_per_match",
@@ -4063,6 +5969,40 @@
           "style_distillation": 30,
           "strong_model_signal": 50
         }
+      },
+      "worldreferee_experimental_sample": {
+        "status": "available_experimental",
+        "source": "WorldReferee",
+        "url": "https://worldreferee.com/referee/jesus_valenzuela",
+        "candidate_slug": "jesus_valenzuela",
+        "sample_size": 40,
+        "metrics": {
+          "matches": 40,
+          "competitions": 17,
+          "yellow_cards": 160,
+          "yellow_cards_per_match": 4.0,
+          "red_cards": 14,
+          "red_cards_per_match": 0.35,
+          "penalties": 10,
+          "penalties_per_match": 0.25,
+          "fouls": 63,
+          "active_years": "2013–2022",
+          "match_history_rows_sampled": 25
+        },
+        "sample_gate": {
+          "sample_size": 40,
+          "can_explain_report": true,
+          "can_distill_style": true,
+          "can_strong_model_signal": false,
+          "thresholds": {
+            "report_explanation": 20,
+            "style_distillation": 30,
+            "strong_model_signal": 50
+          }
+        },
+        "available_metric_count": 11,
+        "missing_metrics": [],
+        "policy": "experimental_report_only; do not publish to normalized/public or use as strong model signal until source policy is approved."
       },
       "missing_fields_for_strong_profile": [
         "international_match_history",
