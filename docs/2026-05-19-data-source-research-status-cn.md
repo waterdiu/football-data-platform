@@ -107,6 +107,7 @@ FBref live 抓取验证结果：
 - 新增 report-only 脚本 `scripts/probe_fbref_worldcup_player_coverage.py`，报告为 `reports/fbref_worldcup_player_coverage_report.json`。
 - 使用当前已公布的 234 名世界杯球员和本地 `data/predictor-assets/files/raw/fbref_premier_league_player_stats.csv` 做 normalized exact name 匹配。
 - 结果：32 名球员命中，1 名球员歧义，201 名未命中，命中率 13.68%。命中集中在英超效力球员，例如比利时、法国、瑞典、日本、科特迪瓦、海地、突尼斯部分球员。
+- 32 名命中球员中，31 名同时具备高置信 Transfermarkt/Reep 外部 ID，可进入下一步人工/规则审查；但当前仍没有 FBref 原生 player id 映射，因此不能自动写入生产画像或模型特征。
 - 这证明 FBref/英超资产对世界杯核心球员模型有补强价值，尤其是英超效力球员的出场时间、首发、进球、助攻、俱乐部位置。
 - 但当前本地 CSV 中 `xG/xAG/PrgP/Tkl/Int` 列全部为 0，不能当作真实高级能力输入；这些字段必须重新获取更完整 FBref 导出或保持 `null/zero_only_field`，不得把 0 解释为真实表现。
 - 当前匹配是 name-only，不能写 normalized/public；必须先完成 player_id 映射、歧义处理和来源策略审查。

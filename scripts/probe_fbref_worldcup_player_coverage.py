@@ -12,6 +12,7 @@ from json_io import write_json
 ROOT = Path(__file__).resolve().parents[1]
 PLAYERS_PATH = ROOT / "data" / "public" / "api" / "worldcup" / "2026" / "core" / "players.json"
 FBREF_PLAYER_STATS_PATH = ROOT / "data" / "predictor-assets" / "files" / "raw" / "fbref_premier_league_player_stats.csv"
+PLAYER_PROFILES_PATH = ROOT / "data" / "public" / "api" / "worldcup" / "2026" / "core" / "player-profiles.json"
 REPORT_PATH = ROOT / "reports" / "fbref_worldcup_player_coverage_report.json"
 
 
@@ -68,7 +69,23 @@ def fbref_stat_row(row: dict[str, str]) -> dict[str, object]:
     }
 
 
-def build_report(players: list[dict], fbref_rows: list[dict[str, str]]) -> dict:
+def profile_refs(profile: dict | None) -> dict[str, object]:
+    if not isinstance(profile, dict):
+        return {}
+    direct = profile.get("direct") if isinstance(profile.get("direct"), dict) else {}
+    external_fact = direct.get("external_fact") if isinstance(direct.get("external_fact"), dict) else {}
+    refs = external_fact.get("source_refs") if isinstance(external_fact.get("source_refs"), dict) else {}
+    return {
+        "key_transfermarkt": refs.get("key_transfermarkt"),
+        "reep_id": refs.get("reep_id"),
+        "person_id_map_confidence": refs.get("person_id_map_confidence"),
+        "person_id_map_resolution_method": refs.get("person_id_map_resolution_method"),
+        "external_fact_confidence": external_fact.get("confidence"),
+        "external_fact_source": external_fact.get("source"),
+    }
+
+
+def build_report(players: list[dict], fbref_rows: list[dict[str, str]], profiles: list[dict]) -> dict:
     fbref_by_name: dict[str, list[dict[str, str]]] = {}
     for row in fbref_rows:
         key = normalize_name(row.get("Player"))
@@ -79,6 +96,7 @@ def build_report(players: list[dict], fbref_rows: list[dict[str, str]]) -> dict:
     unmatched: list[dict[str, object]] = []
     ambiguous: list[dict[str, object]] = []
     team_counts: dict[str, dict[str, int]] = {}
+    profiles_by_id = {profile.get("person_id"): profile for profile in profiles if isinstance(profile, dict)}
 
     for player in players:
         name = player.get("display_name") or player.get("name")
@@ -92,6 +110,7 @@ def build_report(players: list[dict], fbref_rows: list[dict[str, str]]) -> dict:
             "name": name,
             "team_id": team_id,
             "position": player.get("position"),
+            "profile_refs": profile_refs(profiles_by_id.get(player.get("player_id"))),
         }
         if len(rows) == 1:
             team_counts[team_id]["matched"] += 1
@@ -137,6 +156,12 @@ def build_report(players: list[dict], fbref_rows: list[dict[str, str]]) -> dict:
         for column in numeric_columns
         if field_coverage[column]["all_zero_or_missing"]
     ]
+    matched_with_high_confidence_external_id = sum(
+        1
+        for row in matched
+        if (row.get("profile_refs") or {}).get("person_id_map_confidence") == "high"
+        and (row.get("profile_refs") or {}).get("key_transfermarkt")
+    )
 
     return {
         "generated_at": utc_now(),
@@ -151,6 +176,7 @@ def build_report(players: list[dict], fbref_rows: list[dict[str, str]]) -> dict:
         "worldcup_player_count": len(players),
         "fbref_row_count": len(fbref_rows),
         "matched_count": len(matched),
+        "matched_with_high_confidence_external_id": matched_with_high_confidence_external_id,
         "ambiguous_count": len(ambiguous),
         "unmatched_count": len(unmatched),
         "matched_rate": round(len(matched) / len(players), 4) if players else 0,
@@ -168,6 +194,7 @@ def build_report(players: list[dict], fbref_rows: list[dict[str, str]]) -> dict:
         ),
         "limits": [
             "name-only matching is not enough for production writes",
+            "high-confidence external ids in this report are Transfermarkt/Reep refs, not FBref ids",
             "this report uses local predictor-assets FBref CSV, not live FBref scraping",
             "coverage is limited to Premier League players present in the FBref asset",
             "columns reported as zero_only_fields must not be treated as real zero performance",
@@ -180,6 +207,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Probe whether local FBref EPL player stats can enrich World Cup roster players.")
     parser.add_argument("--players", default=str(PLAYERS_PATH))
     parser.add_argument("--fbref", default=str(FBREF_PLAYER_STATS_PATH))
+    parser.add_argument("--profiles", default=str(PLAYER_PROFILES_PATH))
     parser.add_argument("--output", default=str(REPORT_PATH))
     args = parser.parse_args()
 
@@ -187,7 +215,10 @@ def main() -> None:
     if not isinstance(players_payload, list):
         raise TypeError("players payload must be a list")
     fbref_rows = load_csv(Path(args.fbref))
-    report = build_report(players_payload, fbref_rows)
+    profiles_payload = load_json(Path(args.profiles))
+    if not isinstance(profiles_payload, list):
+        raise TypeError("profiles payload must be a list")
+    report = build_report(players_payload, fbref_rows, profiles_payload)
     write_json(Path(args.output), report)
     print(
         json.dumps(

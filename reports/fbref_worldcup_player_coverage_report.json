@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T06:34:56.771956+00:00",
+  "generated_at": "2026-05-19T06:42:37.923464+00:00",
   "scope": "fbref_worldcup_player_coverage_probe",
   "mode": "report_only",
   "production_write_allowed": false,
@@ -11,6 +11,7 @@
   "worldcup_player_count": 234,
   "fbref_row_count": 544,
   "matched_count": 32,
+  "matched_with_high_confidence_external_id": 31,
   "ambiguous_count": 1,
   "unmatched_count": 201,
   "matched_rate": 0.1368,
@@ -76,6 +77,14 @@
       "name": "Amadou Onana",
       "team_id": "belgium",
       "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "485706",
+        "reep_id": "reep_p7813ca1f",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Amadou Onana",
         "squad": "Aston Villa",
@@ -97,6 +106,14 @@
       "name": "Jeremy Doku",
       "team_id": "belgium",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "486049",
+        "reep_id": "reep_p6acb85fd",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Jeremy Doku",
         "squad": "Manchester City",
@@ -118,6 +135,14 @@
       "name": "Leandro Trossard",
       "team_id": "belgium",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "144028",
+        "reep_id": "reep_p1eab9144",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Leandro Trossard",
         "squad": "Arsenal",
@@ -139,6 +164,14 @@
       "name": "Maxim De Cuyper",
       "team_id": "belgium",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "429915",
+        "reep_id": "reep_p56d81ec4",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Maxim De Cuyper",
         "squad": "Brighton",
@@ -160,6 +193,14 @@
       "name": "Senne Lammens",
       "team_id": "belgium",
       "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "503883",
+        "reep_id": "reep_p0928d9ea",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Senne Lammens",
         "squad": "Manchester Utd",
@@ -181,6 +222,14 @@
       "name": "Timothy Castagne",
       "team_id": "belgium",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "262226",
+        "reep_id": "reep_p7eb9b15b",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Timothy Castagne",
         "squad": "Fulham",
@@ -202,6 +251,14 @@
       "name": "Youri Tielemans",
       "team_id": "belgium",
       "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "249565",
+        "reep_id": "reep_p2b31811c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Youri Tielemans",
         "squad": "Aston Villa",
@@ -223,6 +280,14 @@
       "name": "Amad Diallo",
       "team_id": "cote-divoire",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "536835",
+        "reep_id": "reep_p1176a996",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Amad Diallo",
         "squad": "Manchester Utd",
@@ -244,6 +309,14 @@
       "name": "Emmanuel Agbadou",
       "team_id": "cote-divoire",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "683895",
+        "reep_id": "reep_pd0d38b00",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Emmanuel Agbadou",
         "squad": "Wolves",
@@ -265,6 +338,14 @@
       "name": "Ibrahim Sangare",
       "team_id": "cote-divoire",
       "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "375885",
+        "reep_id": "reep_p8b4b21de",
+        "person_id_map_confidence": "medium",
+        "person_id_map_resolution_method": "name_plus_unique_team_nationality",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Ibrahim Sangaré",
         "squad": "Nottingham Forest",
@@ -286,6 +367,14 @@
       "name": "Simon Adingra",
       "team_id": "cote-divoire",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "658536",
+        "reep_id": "reep_pebae6838",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Simon Adingra",
         "squad": "Sunderland",
@@ -307,6 +396,14 @@
       "name": "Ibrahima Konate",
       "team_id": "france",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "357119",
+        "reep_id": "reep_p9870f2cf",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Ibrahima Konaté",
         "squad": "Liverpool",
@@ -328,6 +425,14 @@
       "name": "Jean-Philippe Mateta",
       "team_id": "france",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "420002",
+        "reep_id": "reep_p8b5745c5",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Jean-Philippe Mateta",
         "squad": "Crystal Palace",
@@ -349,6 +454,14 @@
       "name": "Lucas Digne",
       "team_id": "france",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "126664",
+        "reep_id": "reep_p53ba72d3",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Lucas Digne",
         "squad": "Aston Villa",
@@ -370,6 +483,14 @@
       "name": "Malo Gusto",
       "team_id": "france",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "620322",
+        "reep_id": "reep_p122213e3",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Malo Gusto",
         "squad": "Chelsea",
@@ -391,6 +512,14 @@
       "name": "Maxence Lacroix",
       "team_id": "france",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "434224",
+        "reep_id": "reep_p68ea4ce2",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Maxence Lacroix",
         "squad": "Crystal Palace",
@@ -412,6 +541,14 @@
       "name": "Rayan Cherki",
       "team_id": "france",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "607223",
+        "reep_id": "reep_pfbcc0b90",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Rayan Cherki",
         "squad": "Manchester City",
@@ -433,6 +570,14 @@
       "name": "William Saliba",
       "team_id": "france",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "495666",
+        "reep_id": "reep_p5cf1253c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "William Saliba",
         "squad": "Arsenal",
@@ -454,6 +599,14 @@
       "name": "Jean-Ricner Bellegarde",
       "team_id": "haiti",
       "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "450050",
+        "reep_id": "reep_p29277eca",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Jean-Ricner Bellegarde",
         "squad": "Wolves",
@@ -475,6 +628,14 @@
       "name": "Wilson Isidor",
       "team_id": "haiti",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "494237",
+        "reep_id": "reep_pfa298ab6",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Wilson Isidor",
         "squad": "Sunderland",
@@ -496,6 +657,14 @@
       "name": "Ao Tanaka",
       "team_id": "japan",
       "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "489359",
+        "reep_id": "reep_pb4da3b62",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Ao Tanaka",
         "squad": "Leeds United",
@@ -517,6 +686,14 @@
       "name": "Daichi Kamada",
       "team_id": "japan",
       "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "356141",
+        "reep_id": "reep_pbaad7d70",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Daichi Kamada",
         "squad": "Crystal Palace",
@@ -538,6 +715,14 @@
       "name": "Wataru Endo",
       "team_id": "japan",
       "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "146310",
+        "reep_id": "reep_p0994b6b6",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Wataru Endo",
         "squad": "Liverpool",
@@ -559,6 +744,14 @@
       "name": "Alexander Isak",
       "team_id": "sweden",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "349066",
+        "reep_id": "reep_p87829862",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Alexander Isak",
         "squad": "Liverpool",
@@ -580,6 +773,14 @@
       "name": "Anthony Elanga",
       "team_id": "sweden",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "583189",
+        "reep_id": "reep_pa7e27407",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Anthony Elanga",
         "squad": "Newcastle United",
@@ -601,6 +802,14 @@
       "name": "Gabriel Gudmundsson",
       "team_id": "sweden",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "362108",
+        "reep_id": "reep_pc1da9fc8",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Gabriel Gudmundsson",
         "squad": "Leeds United",
@@ -622,6 +831,14 @@
       "name": "Hjalmar Ekdal",
       "team_id": "sweden",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "392179",
+        "reep_id": "reep_pb080546c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Hjalmar Ekdal",
         "squad": "Burnley",
@@ -643,6 +860,14 @@
       "name": "Lucas Bergvall",
       "team_id": "sweden",
       "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "866246",
+        "reep_id": "reep_pb74fa577",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Lucas Bergvall",
         "squad": "Tottenham Hotspur",
@@ -664,6 +889,14 @@
       "name": "Victor Lindelof",
       "team_id": "sweden",
       "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "184573",
+        "reep_id": "reep_p707118f7",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Victor Lindelöf",
         "squad": "Aston Villa",
@@ -685,6 +918,14 @@
       "name": "Viktor Gyokeres",
       "team_id": "sweden",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "325443",
+        "reep_id": "reep_pa57b5f05",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Viktor Gyökeres",
         "squad": "Arsenal",
@@ -706,6 +947,14 @@
       "name": "Yasin Ayari",
       "team_id": "sweden",
       "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "667287",
+        "reep_id": "reep_pd056cb32",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Yasin Ayari",
         "squad": "Brighton",
@@ -727,6 +976,14 @@
       "name": "Hannibal Mejbri",
       "team_id": "tunisia",
       "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "607224",
+        "reep_id": "reep_p5f64c365",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "fbref": {
         "player": "Hannibal Mejbri",
         "squad": "Burnley",
@@ -750,6 +1007,14 @@
       "name": "Evann Guessand",
       "team_id": "cote-divoire",
       "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "500689",
+        "reep_id": "reep_p9af5da4c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      },
       "candidate_count": 2,
       "candidates": [
         {
@@ -789,1207 +1054,2815 @@
       "player_id": "belgium:player:alexis-saelemaekers",
       "name": "Alexis Saelemaekers",
       "team_id": "belgium",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "381950",
+        "reep_id": "reep_pfaf09064",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:arthur-theate",
       "name": "Arthur Theate",
       "team_id": "belgium",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "368891",
+        "reep_id": "reep_p7fd33746",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:axel-witsel",
       "name": "Axel Witsel",
       "team_id": "belgium",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "35047",
+        "reep_id": "reep_p131973de",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:brandon-mechele",
       "name": "Brandon Mechele",
       "team_id": "belgium",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "236168",
+        "reep_id": "reep_p34d84246",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:charles-de-ketelaere",
       "name": "Charles De Ketelaere",
       "team_id": "belgium",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "435772",
+        "reep_id": "reep_p0209525e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:diego-moreira",
       "name": "Diego Moreira",
       "team_id": "belgium",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "655006",
+        "reep_id": "reep_p51f19892",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:dodi-lukebakio",
       "name": "Dodi Lukebakio",
       "team_id": "belgium",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "303259",
+        "reep_id": "reep_p5e3ef796",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:hans-vanaken",
       "name": "Hans Vanaken",
       "team_id": "belgium",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "137576",
+        "reep_id": "reep_p61c9bc00",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:joaquin-seys",
       "name": "Joaquin Seys",
       "team_id": "belgium",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "981196",
+        "reep_id": "reep_pec211cd7",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:kevin-de-bruyne",
       "name": "Kevin De Bruyne",
       "team_id": "belgium",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "88755",
+        "reep_id": "reep_p116e0d9d",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:koni-de-winter",
       "name": "Koni De Winter",
       "team_id": "belgium",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "490384",
+        "reep_id": "reep_p3a2de72b",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:matias-fernandez-pardo",
       "name": "Matias Fernandez-Pardo",
       "team_id": "belgium",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "724129",
+        "reep_id": "reep_p0f7597cb",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:mike-penders",
       "name": "Mike Penders",
       "team_id": "belgium",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "834397",
+        "reep_id": "reep_p90b85b40",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:nathan-ngoy",
       "name": "Nathan Ngoy",
       "team_id": "belgium",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "548254",
+        "reep_id": "reep_p16c7706e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:nicolas-raskin",
       "name": "Nicolas Raskin",
       "team_id": "belgium",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "422763",
+        "reep_id": "reep_p0dece94f",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:romelu-lukaku",
       "name": "Romelu Lukaku",
       "team_id": "belgium",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "96341",
+        "reep_id": "reep_p140f5b33",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:thibaut-courtois",
       "name": "Thibaut Courtois",
       "team_id": "belgium",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "108390",
+        "reep_id": "reep_p3595b098",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:thomas-meunier",
       "name": "Thomas Meunier",
       "team_id": "belgium",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "100986",
+        "reep_id": "reep_p72f1d154",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "belgium:player:zeno-debast",
       "name": "Zeno Debast",
       "team_id": "belgium",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "548193",
+        "reep_id": "reep_p57f59cda",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:amar-dedic",
       "name": "Amar Dedic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "519184",
+        "reep_id": "reep_p833e2afa",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:amar-memic",
       "name": "Amar Memic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "638990",
+        "reep_id": "reep_p578e7f8f",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:amir-hadziahmetovic",
       "name": "Amir Hadziahmetovic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "293213",
+        "reep_id": "reep_p2410b1dd",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:armin-gigovic",
       "name": "Armin Gigovic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "651269",
+        "reep_id": "reep_pdb35cfee",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:benjamin-tahirovic",
       "name": "Benjamin Tahirovic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "787907",
+        "reep_id": "reep_p8ba77803",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:dennis-hadzikadunic",
       "name": "Dennis Hadzikadunic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "322065",
+        "reep_id": "reep_p45f1a47d",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:dzenis-burnic",
       "name": "Dzenis Burnic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "251295",
+        "reep_id": "reep_p74cd9df2",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:edin-dzeko",
       "name": "Edin Dzeko",
       "team_id": "bosnia-and-herzegovina",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "28396",
+        "reep_id": "reep_pbd9c51ad",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:ermedin-demirovic",
       "name": "Ermedin Demirovic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "335457",
+        "reep_id": "reep_pe6b3b775",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:ermin-mahmic",
       "name": "Ermin Mahmic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "803049",
+        "reep_id": "reep_pc1efa8cf",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:esmir-bajraktarevic",
       "name": "Esmir Bajraktarevic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "925862",
+        "reep_id": "reep_p727e2cf8",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:haris-tabakovic",
       "name": "Haris Tabakovic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "203123",
+        "reep_id": "reep_p5eeff686",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:ivan-basic",
       "name": "Ivan Basic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "620560",
+        "reep_id": "reep_pf0a6c377",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:ivan-sunjic",
       "name": "Ivan Sunjic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "226097",
+        "reep_id": "reep_p27db7ef7",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:jovo-lukic",
       "name": "Jovo Lukic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "457738",
+        "reep_id": "reep_p04555cc8",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:kerim-alajbegovic",
       "name": "Kerim Alajbegovic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "929994",
+        "reep_id": "reep_p1ecc5130",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:martin-zlomislic",
       "name": "Martin Zlomislic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "495320",
+        "reep_id": "reep_pebdf2796",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:nidal-celik",
       "name": "Nidal Celik",
       "team_id": "bosnia-and-herzegovina",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "819566",
+        "reep_id": "reep_pb87273f4",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:nihad-mujakic",
       "name": "Nihad Mujakic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "380919",
+        "reep_id": "reep_pa62ad2e1",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:nikola-katic",
       "name": "Nikola Katic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "422051",
+        "reep_id": "reep_p4e466b7b",
+        "person_id_map_confidence": "medium",
+        "person_id_map_resolution_method": "name_plus_unique_team_nationality",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:nikola-vasilj",
       "name": "Nikola Vasilj",
       "team_id": "bosnia-and-herzegovina",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "248454",
+        "reep_id": "reep_p0fadbd39",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:osman-hadzikic",
       "name": "Osman Hadzikic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "188881",
+        "reep_id": "reep_p4a6a2c97",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:samed-bazdar",
       "name": "Samed Bazdar",
       "team_id": "bosnia-and-herzegovina",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "710969",
+        "reep_id": "reep_pdb3dd29e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:sead-kolasinac",
       "name": "Sead Kolasinac",
       "team_id": "bosnia-and-herzegovina",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "94005",
+        "reep_id": "reep_p08c2428f",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:stjepan-radeljic",
       "name": "Stjepan Radeljic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "384568",
+        "reep_id": "reep_pfba39fb1",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "bosnia-and-herzegovina:player:tarik-muharemovic",
       "name": "Tarik Muharemovic",
       "team_id": "bosnia-and-herzegovina",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "679423",
+        "reep_id": "reep_pc8c16853",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:alban-lafont",
       "name": "Alban Lafont",
       "team_id": "cote-divoire",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "357117",
+        "reep_id": "reep_p94097b7c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:ange-yoan-bonny",
       "name": "Ange-Yoan Bonny",
       "team_id": "cote-divoire",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "827734",
+        "reep_id": "reep_p41a22226",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:bazoumana-toure",
       "name": "Bazoumana Toure",
       "team_id": "cote-divoire",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "1067904",
+        "reep_id": "reep_paa7b472e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:christ-inao-oulai",
       "name": "Christ Inao Oulai",
       "team_id": "cote-divoire",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "1279526",
+        "reep_id": "reep_p6434570f",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:clement-akpa",
       "name": "Clement Akpa",
       "team_id": "cote-divoire",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "806793",
+        "reep_id": "reep_p94f46c49",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:elye-wahi",
       "name": "Elye Wahi",
       "team_id": "cote-divoire",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "659542",
+        "reep_id": "reep_p06524fe9",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:evan-ndicka",
       "name": "Evan Ndicka",
       "team_id": "cote-divoire",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "371149",
+        "reep_id": "reep_pf570bc21",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:franck-kessie",
       "name": "Franck Kessie",
       "team_id": "cote-divoire",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "294808",
+        "reep_id": "reep_p70d989c2",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:ghislain-konan",
       "name": "Ghislain Konan",
       "team_id": "cote-divoire",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "422850",
+        "reep_id": "reep_pcba2c6ce",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:guela-doue",
       "name": "Guela Doue",
       "team_id": "cote-divoire",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "711980",
+        "reep_id": "reep_p4ff00441",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:jean-michael-seri",
       "name": "Jean Michael Seri",
       "team_id": "cote-divoire",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "178614",
+        "reep_id": "reep_p3410045b",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "alias_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:mohamed-kone",
       "name": "Mohamed Kone",
       "team_id": "cote-divoire",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "911985",
+        "reep_id": "reep_p2814b17e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "manual_review",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:nicolas-pepe",
       "name": "Nicolas Pepe",
       "team_id": "cote-divoire",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "343052",
+        "reep_id": "reep_p58293626",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:odilon-kossounou",
       "name": "Odilon Kossounou",
       "team_id": "cote-divoire",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "644771",
+        "reep_id": "reep_pb8ddc49e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:oumar-diakite",
       "name": "Oumar Diakite",
       "team_id": "cote-divoire",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "847279",
+        "reep_id": "reep_p09b761c5",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:ousmane-diomande",
       "name": "Ousmane Diomande",
       "team_id": "cote-divoire",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "974982",
+        "reep_id": "reep_pc2c4cf3e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:parfait-guiagon",
       "name": "Parfait Guiagon",
       "team_id": "cote-divoire",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "624913",
+        "reep_id": "reep_p02e07e53",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:seko-fofana",
       "name": "Seko Fofana",
       "team_id": "cote-divoire",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "182893",
+        "reep_id": "reep_pab6466ca",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:wilfried-singo",
       "name": "Wilfried Singo",
       "team_id": "cote-divoire",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "648779",
+        "reep_id": "reep_p7b2e7719",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:yahia-fofana",
       "name": "Yahia Fofana",
       "team_id": "cote-divoire",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "418651",
+        "reep_id": "reep_pb5fe3339",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "cote-divoire:player:yan-diomande",
       "name": "Yan Diomande",
       "team_id": "cote-divoire",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "1390649",
+        "reep_id": "reep_p2e39dd37",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:adrien-rabiot",
       "name": "Adrien Rabiot",
       "team_id": "france",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "182913",
+        "reep_id": "reep_p26cf30b8",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:aurelien-tchouameni",
       "name": "Aurelien Tchouameni",
       "team_id": "france",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "413112",
+        "reep_id": "reep_p7fc85d7e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:bradley-barcola",
       "name": "Bradley Barcola",
       "team_id": "france",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "708265",
+        "reep_id": "reep_p0f25d2d8",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:brice-samba",
       "name": "Brice Samba",
       "team_id": "france",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "191056",
+        "reep_id": "reep_pea1e0b2e",
+        "person_id_map_confidence": "medium",
+        "person_id_map_resolution_method": "name_plus_unique_team_nationality",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:dayot-upamecano",
       "name": "Dayot Upamecano",
       "team_id": "france",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "344695",
+        "reep_id": "reep_p4645da39",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:desire-doue",
       "name": "Desire Doue",
       "team_id": "france",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "914562",
+        "reep_id": "reep_p08a6d3aa",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:jules-kounde",
       "name": "Jules Kounde",
       "team_id": "france",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "411975",
+        "reep_id": "reep_pd7167feb",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:kylian-mbappe",
       "name": "Kylian Mbappe",
       "team_id": "france",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "342229",
+        "reep_id": "reep_p4b7614c5",
+        "person_id_map_confidence": "medium",
+        "person_id_map_resolution_method": "name_plus_unique_team_nationality",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:lucas-hernandez",
       "name": "Lucas Hernandez",
       "team_id": "france",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "281963",
+        "reep_id": "reep_p990970d6",
+        "person_id_map_confidence": "medium",
+        "person_id_map_resolution_method": "name_plus_unique_team_nationality",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:maghnes-akliouche",
       "name": "Maghnes Akliouche",
       "team_id": "france",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "745200",
+        "reep_id": "reep_p8dfcd29d",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:manu-kone",
       "name": "Manu Kone",
       "team_id": "france",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "624690",
+        "reep_id": "reep_p32b54f82",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:marcus-thuram",
       "name": "Marcus Thuram",
       "team_id": "france",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "318528",
+        "reep_id": "reep_pcf9d285b",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:michael-olise",
       "name": "Michael Olise",
       "team_id": "france",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "566723",
+        "reep_id": "reep_p79c5080c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:mike-maignan",
       "name": "Mike Maignan",
       "team_id": "france",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "182906",
+        "reep_id": "reep_pb33c9950",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:n-golo-kante",
       "name": "N'Golo Kante",
       "team_id": "france",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "225083",
+        "reep_id": "reep_p2299ee7d",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:ousmane-dembele",
       "name": "Ousmane Dembele",
       "team_id": "france",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "288230",
+        "reep_id": "reep_p612907fc",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:robin-risser",
       "name": "Robin Risser",
       "team_id": "france",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "743515",
+        "reep_id": "reep_pbac95368",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:theo-hernandez",
       "name": "Theo Hernandez",
       "team_id": "france",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "339808",
+        "reep_id": "reep_p7426e165",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "france:player:warren-zaire-emery",
       "name": "Warren Zaire-Emery",
       "team_id": "france",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "810092",
+        "reep_id": "reep_p15194947",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:alexandre-pierre",
       "name": "Alexandre Pierre",
       "team_id": "haiti",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "838947",
+        "reep_id": "reep_pc5c684b1",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:carl-fred-sainte",
       "name": "Carl Fred Sainte",
       "team_id": "haiti",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "haiti:player:carlens-arcus",
       "name": "Carlens Arcus",
       "team_id": "haiti",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "371686",
+        "reep_id": "reep_p37832425",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:danley-jean-jacques",
       "name": "Danley Jean Jacques",
       "team_id": "haiti",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "628834",
+        "reep_id": "reep_p28ef424e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:derrick-etienne-jr",
       "name": "Derrick Etienne Jr.",
       "team_id": "haiti",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "354763",
+        "reep_id": "reep_pe2f3eea2",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:dominique-simon",
       "name": "Dominique Simon",
       "team_id": "haiti",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "988188",
+        "reep_id": "reep_pbb8951e6",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:duckens-nazon",
       "name": "Duckens Nazon",
       "team_id": "haiti",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "345763",
+        "reep_id": "reep_p6e59202e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:duke-lacroix",
       "name": "Duke Lacroix",
       "team_id": "haiti",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "haiti:player:frantzdy-pierrot",
       "name": "Frantzdy Pierrot",
       "team_id": "haiti",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "492955",
+        "reep_id": "reep_pb3ea4000",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:hannes-delcroix",
       "name": "Hannes Delcroix",
       "team_id": "haiti",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "338635",
+        "reep_id": "reep_p76269eb7",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:jean-kevin-duverne",
       "name": "Jean-Kevin Duverne",
       "team_id": "haiti",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "344864",
+        "reep_id": "reep_p8e6b19c0",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:johny-placide",
       "name": "Johny Placide",
       "team_id": "haiti",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "51035",
+        "reep_id": "reep_p235aa6ba",
+        "person_id_map_confidence": "medium",
+        "person_id_map_resolution_method": "alias_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:josue-casimir",
       "name": "Josue Casimir",
       "team_id": "haiti",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "763182",
+        "reep_id": "reep_pe002e305",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:josue-duverger",
       "name": "Josue Duverger",
       "team_id": "haiti",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "haiti:player:keeto-thermoncy",
       "name": "Keeto Thermoncy",
       "team_id": "haiti",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "haiti:player:lenny-joseph",
       "name": "Lenny Joseph",
       "team_id": "haiti",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "815359",
+        "reep_id": "reep_p5ff79bd9",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:leverton-pierre",
       "name": "Leverton Pierre",
       "team_id": "haiti",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "haiti:player:louicius-deedson",
       "name": "Louicius Deedson",
       "team_id": "haiti",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "646108",
+        "reep_id": "reep_p78b50473",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "manual_review",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:martin-experience",
       "name": "Martin Experience",
       "team_id": "haiti",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "haiti:player:ricardo-ade",
       "name": "Ricardo Ade",
       "team_id": "haiti",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "haiti:player:ruben-providence",
       "name": "Ruben Providence",
       "team_id": "haiti",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "536520",
+        "reep_id": "reep_p62b12527",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:wilguens-paugain",
       "name": "Wilguens Paugain",
       "team_id": "haiti",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "609691",
+        "reep_id": "reep_p1e683239",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "haiti:player:woodensky-pierre",
       "name": "Woodensky Pierre",
       "team_id": "haiti",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "haiti:player:yassin-fortune",
       "name": "Yassin Fortune",
       "team_id": "haiti",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "342878",
+        "reep_id": "reep_p869fe1ff",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:ayase-ueda",
       "name": "Ayase Ueda",
       "team_id": "japan",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "589128",
+        "reep_id": "reep_p193f816c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:ayumu-seko",
       "name": "Ayumu Seko",
       "team_id": "japan",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "405389",
+        "reep_id": "reep_paf4faf3d",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:daizen-maeda",
       "name": "Daizen Maeda",
       "team_id": "japan",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "420931",
+        "reep_id": "reep_pb187eafe",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:hiroki-ito",
       "name": "Hiroki Ito",
       "team_id": "japan",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "353892",
+        "reep_id": "reep_pb37d26d2",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "manual_review",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:junnosuke-suzuki",
       "name": "Junnosuke Suzuki",
       "team_id": "japan",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "848856",
+        "reep_id": "reep_pd59a9196",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:junya-ito",
       "name": "Junya Ito",
       "team_id": "japan",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "348791",
+        "reep_id": "reep_p020a0898",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "manual_review",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:kaishu-sano",
       "name": "Kaishu Sano",
       "team_id": "japan",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "643574",
+        "reep_id": "reep_pe4f836aa",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:keisuke-goto",
       "name": "Keisuke Goto",
       "team_id": "japan",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "916623",
+        "reep_id": "reep_p7140c1e2",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:keisuke-osako",
       "name": "Keisuke Osako",
       "team_id": "japan",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "415521",
+        "reep_id": "reep_pb4078845",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:keito-nakamura",
       "name": "Keito Nakamura",
       "team_id": "japan",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "405397",
+        "reep_id": "reep_p6dc612b9",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:kento-shiogai",
       "name": "Kento Shiogai",
       "team_id": "japan",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "1144627",
+        "reep_id": "reep_p1d5e8a14",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:ko-itakura",
       "name": "Ko Itakura",
       "team_id": "japan",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "355816",
+        "reep_id": "reep_p8a7df04a",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:koki-ogawa",
       "name": "Koki Ogawa",
       "team_id": "japan",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "351567",
+        "reep_id": "reep_p82dab983",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:ritsu-doan",
       "name": "Ritsu Doan",
       "team_id": "japan",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "358504",
+        "reep_id": "reep_pb3e5c061",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:shogo-taniguchi",
       "name": "Shogo Taniguchi",
       "team_id": "japan",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "307870",
+        "reep_id": "reep_p56823be5",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:takefusa-kubo",
       "name": "Takefusa Kubo",
       "team_id": "japan",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "405398",
+        "reep_id": "reep_p14f95755",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:takehiro-tomiyasu",
       "name": "Takehiro Tomiyasu",
       "team_id": "japan",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "331560",
+        "reep_id": "reep_p63450570",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:tomoki-hayakawa",
       "name": "Tomoki Hayakawa",
       "team_id": "japan",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "683271",
+        "reep_id": "reep_p73780c63",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:tsuyoshi-watanabe",
       "name": "Tsuyoshi Watanabe",
       "team_id": "japan",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "598791",
+        "reep_id": "reep_pa6d88461",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:yuito-suzuki",
       "name": "Yuito Suzuki",
       "team_id": "japan",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "668606",
+        "reep_id": "reep_pb7b3e90c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:yukinari-sugawara",
       "name": "Yukinari Sugawara",
       "team_id": "japan",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "405385",
+        "reep_id": "reep_p4ae6a281",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:yuto-nagatomo",
       "name": "Yuto Nagatomo",
       "team_id": "japan",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "79522",
+        "reep_id": "reep_p97fb302b",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "japan:player:zion-suzuki",
       "name": "Zion Suzuki",
       "team_id": "japan",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "432298",
+        "reep_id": "reep_p817a3fa9",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "korea-republic:player:bae-junho",
       "name": "Bae Junho",
       "team_id": "korea-republic",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:cho-guesung",
       "name": "Cho Guesung",
       "team_id": "korea-republic",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:cho-yumin",
       "name": "Cho Yumin",
       "team_id": "korea-republic",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:eom-jisung",
       "name": "Eom Jisung",
       "team_id": "korea-republic",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:hwang-heechan",
       "name": "Hwang Heechan",
       "team_id": "korea-republic",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:hwang-inbeom",
       "name": "Hwang Inbeom",
       "team_id": "korea-republic",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:jens-castrop",
       "name": "Jens Castrop",
       "team_id": "korea-republic",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "613192",
+        "reep_id": "reep_p91cff66a",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "korea-republic:player:jo-hyeonwoo",
       "name": "Jo Hyeonwoo",
       "team_id": "korea-republic",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:kim-jingyu",
       "name": "Kim Jingyu",
       "team_id": "korea-republic",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:kim-minjae",
       "name": "Kim Minjae",
       "team_id": "korea-republic",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:kim-moonhwan",
       "name": "Kim Moonhwan",
       "team_id": "korea-republic",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:kim-seung-gyu",
       "name": "Kim Seung-gyu",
       "team_id": "korea-republic",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "92076",
+        "reep_id": "reep_pdb53c1c9",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "korea-republic:player:kim-taehyeon",
       "name": "Kim Taehyeon",
       "team_id": "korea-republic",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "645847",
+        "reep_id": null,
+        "person_id_map_confidence": "medium",
+        "person_id_map_resolution_method": "platform_external_refs_no_reep_row",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "korea-republic:player:lee-donggyeong",
       "name": "Lee Donggyeong",
       "team_id": "korea-republic",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:lee-hanbeom",
       "name": "Lee Hanbeom",
       "team_id": "korea-republic",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:lee-jaesung",
       "name": "Lee Jaesung",
       "team_id": "korea-republic",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:lee-kangin",
       "name": "Lee Kangin",
       "team_id": "korea-republic",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:lee-kihyuk",
       "name": "Lee Kihyuk",
       "team_id": "korea-republic",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "763349",
+        "reep_id": null,
+        "person_id_map_confidence": "medium",
+        "person_id_map_resolution_method": "platform_external_refs_no_reep_row",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "korea-republic:player:lee-taeseok",
       "name": "Lee Taeseok",
       "team_id": "korea-republic",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:oh-hyeongyu",
       "name": "Oh Hyeongyu",
       "team_id": "korea-republic",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:paik-seungho",
       "name": "Paik Seungho",
       "team_id": "korea-republic",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:park-jinseob",
       "name": "Park Jinseob",
       "team_id": "korea-republic",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:seol-youngwoo",
       "name": "Seol Youngwoo",
       "team_id": "korea-republic",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:son-heungmin",
       "name": "Son Heungmin",
       "team_id": "korea-republic",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:song-bumkeun",
       "name": "Song Bumkeun",
       "team_id": "korea-republic",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "korea-republic:player:yang-hyunjun",
       "name": "Yang Hyunjun",
       "team_id": "korea-republic",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "sweden:player:alexander-bernhardsson",
       "name": "Alexander Bernhardsson",
       "team_id": "sweden",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "633454",
+        "reep_id": "reep_pf7082d0b",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:benjamin-nygren",
       "name": "Benjamin Nygren",
       "team_id": "sweden",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "475949",
+        "reep_id": "reep_p283dc072",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:besfort-zeneli",
       "name": "Besfort Zeneli",
       "team_id": "sweden",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "715653",
+        "reep_id": "reep_pabcd2e02",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:carl-starfelt",
       "name": "Carl Starfelt",
       "team_id": "sweden",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "258987",
+        "reep_id": "reep_pbe7681cd",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:daniel-svensson",
       "name": "Daniel Svensson",
       "team_id": "sweden",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "579287",
+        "reep_id": "reep_p0e48554a",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "manual_review",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:elliot-stroud",
       "name": "Elliot Stroud",
       "team_id": "sweden",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "687622",
+        "reep_id": "reep_p781d1cda",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:emil-holm",
       "name": "Emil Holm",
       "team_id": "sweden",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "496745",
+        "reep_id": "reep_p13e3cc5d",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:eric-smith",
       "name": "Eric Smith",
       "team_id": "sweden",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "292534",
+        "reep_id": "reep_p6b60e840",
+        "person_id_map_confidence": "medium",
+        "person_id_map_resolution_method": "name_plus_unique_team_nationality",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:gustaf-lagerbielke",
       "name": "Gustaf Lagerbielke",
       "team_id": "sweden",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "485395",
+        "reep_id": "reep_pf414e335",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:gustaf-nilsson",
       "name": "Gustaf Nilsson",
       "team_id": "sweden",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "320440",
+        "reep_id": "reep_p35ce830e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "manual_review",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:isak-hien",
       "name": "Isak Hien",
       "team_id": "sweden",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "503075",
+        "reep_id": "reep_p16af8ecc",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:jacob-zetterstrom",
       "name": "Jacob Zetterstrom",
       "team_id": "sweden",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "549440",
+        "reep_id": "reep_p65eea51a",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "manual_review",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:jesper-karlstrom",
       "name": "Jesper Karlstrom",
       "team_id": "sweden",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "222855",
+        "reep_id": "reep_pb28e1483",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:ken-sema",
       "name": "Ken Sema",
       "team_id": "sweden",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "252345",
+        "reep_id": "reep_p74d003ee",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:kristoffer-nordfeldt",
       "name": "Kristoffer Nordfeldt",
       "team_id": "sweden",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "75890",
+        "reep_id": "reep_p2e3e530c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:mattias-svanberg",
       "name": "Mattias Svanberg",
       "team_id": "sweden",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "342405",
+        "reep_id": "reep_p98ffc93e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:taha-ali",
       "name": "Taha Ali",
       "team_id": "sweden",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "731771",
+        "reep_id": "reep_pb706a6e1",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "sweden:player:viktor-johansson",
       "name": "Viktor Johansson",
       "team_id": "sweden",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "273742",
+        "reep_id": "reep_p5fa85e83",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:abdelmouhib-chamakh",
       "name": "Abdelmouhib Chamakh",
       "team_id": "tunisia",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "tunisia:player:adem-arous",
       "name": "Adem Arous",
       "team_id": "tunisia",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "1071742",
+        "reep_id": "reep_p70e1dae6",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:ali-abdi",
       "name": "Ali Abdi",
       "team_id": "tunisia",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "211474",
+        "reep_id": "reep_p9c240863",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:anis-ben-slimane",
       "name": "Anis Ben Slimane",
       "team_id": "tunisia",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "546712",
+        "reep_id": "reep_p8618b503",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:aymen-dahmene",
       "name": "Aymen Dahmene",
       "team_id": "tunisia",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "569433",
+        "reep_id": "reep_pa7e6da93",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "manual_review",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:dylan-bronn",
       "name": "Dylan Bronn",
       "team_id": "tunisia",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "450417",
+        "reep_id": "reep_p76431525",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:elias-achouri",
       "name": "Elias Achouri",
       "team_id": "tunisia",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "645589",
+        "reep_id": "reep_p0664da62",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:elias-saad",
       "name": "Elias Saad",
       "team_id": "tunisia",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "526466",
+        "reep_id": "reep_p6025cf8d",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:ellyes-skhiri",
       "name": "Ellyes Skhiri",
       "team_id": "tunisia",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "290587",
+        "reep_id": "reep_pa1d2a6f7",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:firas-chaouat",
       "name": "Firas Chaouat",
       "team_id": "tunisia",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "tunisia:player:hadj-mahmoud",
       "name": "Hadj Mahmoud",
       "team_id": "tunisia",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "673513",
+        "reep_id": "reep_p5aa06ecd",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "manual_review",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:hazem-mastouri",
       "name": "Hazem Mastouri",
       "team_id": "tunisia",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "953150",
+        "reep_id": "reep_pcce71d6e",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:ismael-gharbi",
       "name": "Ismael Gharbi",
       "team_id": "tunisia",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "810096",
+        "reep_id": "reep_p522f59b7",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:khalil-ayari",
       "name": "Khalil Ayari",
       "team_id": "tunisia",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "tunisia:player:mohamed-amine-ben-hamida",
       "name": "Mohamed Amine Ben Hamida",
       "team_id": "tunisia",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "tunisia:player:montassar-talbi",
       "name": "Montassar Talbi",
       "team_id": "tunisia",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "496706",
+        "reep_id": "reep_pe9a2f3ba",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:mortadha-ben-ouanes",
       "name": "Mortadha Ben Ouanes",
       "team_id": "tunisia",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "230921",
+        "reep_id": "reep_p6802b421",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:moutaz-neffati",
       "name": "Moutaz Neffati",
       "team_id": "tunisia",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "1034598",
+        "reep_id": "reep_pa4cb610a",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:omar-rekik",
       "name": "Omar Rekik",
       "team_id": "tunisia",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "578292",
+        "reep_id": "reep_paec0babd",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:raed-chikhaoui",
       "name": "Raed Chikhaoui",
       "team_id": "tunisia",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": null,
+        "reep_id": null,
+        "person_id_map_confidence": null,
+        "person_id_map_resolution_method": null,
+        "external_fact_confidence": null,
+        "external_fact_source": null
+      }
     },
     {
       "player_id": "tunisia:player:rani-khedira",
       "name": "Rani Khedira",
       "team_id": "tunisia",
-      "position": "MF"
+      "position": "MF",
+      "profile_refs": {
+        "key_transfermarkt": "124410",
+        "reep_id": "reep_p82cbb6b5",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:rayan-elloumi",
       "name": "Rayan Elloumi",
       "team_id": "tunisia",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "1273985",
+        "reep_id": "reep_p3792adee",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:sabri-ben-hassan",
       "name": "Sabri Ben Hassan",
       "team_id": "tunisia",
-      "position": "GK"
+      "position": "GK",
+      "profile_refs": {
+        "key_transfermarkt": "295381",
+        "reep_id": "reep_p50d1a909",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "manual_review",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:sebastian-tounekti",
       "name": "Sebastian Tounekti",
       "team_id": "tunisia",
-      "position": "FW"
+      "position": "FW",
+      "profile_refs": {
+        "key_transfermarkt": "539677",
+        "reep_id": "reep_pa2d971ed",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     },
     {
       "player_id": "tunisia:player:yan-valery",
       "name": "Yan Valery",
       "team_id": "tunisia",
-      "position": "DF"
+      "position": "DF",
+      "profile_refs": {
+        "key_transfermarkt": "406008",
+        "reep_id": "reep_p4aafadf2",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique",
+        "external_fact_confidence": "medium",
+        "external_fact_source": "dcaribou/transfermarkt-datasets"
+      }
     }
   ],
   "field_coverage": {
@@ -2055,6 +3928,7 @@
   "conclusion": "fbref_epl_player_stats_can_enrich_world_cup_players_with_current_or_recent_epl_activity",
   "limits": [
     "name-only matching is not enough for production writes",
+    "high-confidence external ids in this report are Transfermarkt/Reep refs, not FBref ids",
     "this report uses local predictor-assets FBref CSV, not live FBref scraping",
     "coverage is limited to Premier League players present in the FBref asset",
     "columns reported as zero_only_fields must not be treated as real zero performance",
