@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T12:59:28Z",
+  "generated_at": "2026-05-19T13:12:20Z",
   "status": "probe_only",
   "source": "WorldReferee",
   "source_url": "https://worldreferee.com/",
@@ -24,6 +24,7 @@
   "summary": {
     "available": 52,
     "unavailable": 0,
+    "match_rate": 1.0,
     "field_coverage": {
       "matches": 41,
       "competitions": 41,
@@ -33,7 +34,2078 @@
       "fouls": 29,
       "active_years": 41
     },
+    "field_coverage_rate": {
+      "matches": 0.7885,
+      "competitions": 0.7885,
+      "yellow_cards": 0.7885,
+      "red_cards": 0.7885,
+      "penalties": 0.6154,
+      "fouls": 0.5577,
+      "active_years": 0.7885
+    },
     "match_history_rows_total": 849
+  },
+  "gap_summary": {
+    "matched_pages": 52,
+    "matched_with_stats": 41,
+    "matched_without_stats": [
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+        "fifa_name": "FALCON PEREZ Yael",
+        "association_code": "ARG",
+        "candidate_slug": "yael_falcon_perez",
+        "url": "https://worldreferee.com/referee/yael_falcon_perez"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+        "fifa_name": "MA Ning",
+        "association_code": "CHN",
+        "candidate_slug": "ning_ma",
+        "url": "https://worldreferee.com/referee/ning_ma"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+        "fifa_name": "CALDERON Juan",
+        "association_code": "CRC",
+        "candidate_slug": "juan_calderon",
+        "url": "https://worldreferee.com/referee/juan_calderon"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+        "fifa_name": "MOHAMED Amin",
+        "association_code": "EGY",
+        "candidate_slug": "amin_mohamed",
+        "url": "https://worldreferee.com/referee/amin_mohamed"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+        "fifa_name": "AL TURAIS Khalid",
+        "association_code": "KSA",
+        "candidate_slug": "khalid_al_turais",
+        "url": "https://worldreferee.com/referee/khalid_al_turais"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+        "fifa_name": "GARCIA Katia",
+        "association_code": "MEX",
+        "candidate_slug": "katia_garcia",
+        "url": "https://worldreferee.com/referee/katia_garcia"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+        "fifa_name": "BEIDA Dahane",
+        "association_code": "MTN",
+        "candidate_slug": "dahane_beida",
+        "url": "https://worldreferee.com/referee/dahane_beida"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+        "fifa_name": "AL JASSIM Abdulrahman",
+        "association_code": "QAT",
+        "candidate_slug": "abdulrahman_al_jassim",
+        "url": "https://worldreferee.com/referee/abdulrahman_al_jassim"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+        "fifa_name": "TOM Abongile",
+        "association_code": "RSA",
+        "candidate_slug": "abongile_tom",
+        "url": "https://worldreferee.com/referee/abongile_tom"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+        "fifa_name": "BARTON Ivan",
+        "association_code": "SLV",
+        "candidate_slug": "ivan_barton",
+        "url": "https://worldreferee.com/referee/ivan_barton"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+        "fifa_name": "PENSO Tori",
+        "association_code": "USA",
+        "candidate_slug": "tori_penso",
+        "url": "https://worldreferee.com/referee/tori_penso"
+      }
+    ],
+    "missing_by_field": {
+      "matches": [
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+          "fifa_name": "FALCON PEREZ Yael",
+          "association_code": "ARG",
+          "candidate_slug": "yael_falcon_perez",
+          "url": "https://worldreferee.com/referee/yael_falcon_perez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+          "fifa_name": "MA Ning",
+          "association_code": "CHN",
+          "candidate_slug": "ning_ma",
+          "url": "https://worldreferee.com/referee/ning_ma"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+          "fifa_name": "CALDERON Juan",
+          "association_code": "CRC",
+          "candidate_slug": "juan_calderon",
+          "url": "https://worldreferee.com/referee/juan_calderon"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+          "fifa_name": "MOHAMED Amin",
+          "association_code": "EGY",
+          "candidate_slug": "amin_mohamed",
+          "url": "https://worldreferee.com/referee/amin_mohamed"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+          "fifa_name": "AL TURAIS Khalid",
+          "association_code": "KSA",
+          "candidate_slug": "khalid_al_turais",
+          "url": "https://worldreferee.com/referee/khalid_al_turais"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+          "fifa_name": "GARCIA Katia",
+          "association_code": "MEX",
+          "candidate_slug": "katia_garcia",
+          "url": "https://worldreferee.com/referee/katia_garcia"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+          "fifa_name": "BEIDA Dahane",
+          "association_code": "MTN",
+          "candidate_slug": "dahane_beida",
+          "url": "https://worldreferee.com/referee/dahane_beida"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+          "fifa_name": "AL JASSIM Abdulrahman",
+          "association_code": "QAT",
+          "candidate_slug": "abdulrahman_al_jassim",
+          "url": "https://worldreferee.com/referee/abdulrahman_al_jassim"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+          "fifa_name": "TOM Abongile",
+          "association_code": "RSA",
+          "candidate_slug": "abongile_tom",
+          "url": "https://worldreferee.com/referee/abongile_tom"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+          "fifa_name": "BARTON Ivan",
+          "association_code": "SLV",
+          "candidate_slug": "ivan_barton",
+          "url": "https://worldreferee.com/referee/ivan_barton"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+          "fifa_name": "PENSO Tori",
+          "association_code": "USA",
+          "candidate_slug": "tori_penso",
+          "url": "https://worldreferee.com/referee/tori_penso"
+        }
+      ],
+      "competitions": [
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+          "fifa_name": "FALCON PEREZ Yael",
+          "association_code": "ARG",
+          "candidate_slug": "yael_falcon_perez",
+          "url": "https://worldreferee.com/referee/yael_falcon_perez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+          "fifa_name": "MA Ning",
+          "association_code": "CHN",
+          "candidate_slug": "ning_ma",
+          "url": "https://worldreferee.com/referee/ning_ma"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+          "fifa_name": "CALDERON Juan",
+          "association_code": "CRC",
+          "candidate_slug": "juan_calderon",
+          "url": "https://worldreferee.com/referee/juan_calderon"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+          "fifa_name": "MOHAMED Amin",
+          "association_code": "EGY",
+          "candidate_slug": "amin_mohamed",
+          "url": "https://worldreferee.com/referee/amin_mohamed"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+          "fifa_name": "AL TURAIS Khalid",
+          "association_code": "KSA",
+          "candidate_slug": "khalid_al_turais",
+          "url": "https://worldreferee.com/referee/khalid_al_turais"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+          "fifa_name": "GARCIA Katia",
+          "association_code": "MEX",
+          "candidate_slug": "katia_garcia",
+          "url": "https://worldreferee.com/referee/katia_garcia"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+          "fifa_name": "BEIDA Dahane",
+          "association_code": "MTN",
+          "candidate_slug": "dahane_beida",
+          "url": "https://worldreferee.com/referee/dahane_beida"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+          "fifa_name": "AL JASSIM Abdulrahman",
+          "association_code": "QAT",
+          "candidate_slug": "abdulrahman_al_jassim",
+          "url": "https://worldreferee.com/referee/abdulrahman_al_jassim"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+          "fifa_name": "TOM Abongile",
+          "association_code": "RSA",
+          "candidate_slug": "abongile_tom",
+          "url": "https://worldreferee.com/referee/abongile_tom"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+          "fifa_name": "BARTON Ivan",
+          "association_code": "SLV",
+          "candidate_slug": "ivan_barton",
+          "url": "https://worldreferee.com/referee/ivan_barton"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+          "fifa_name": "PENSO Tori",
+          "association_code": "USA",
+          "candidate_slug": "tori_penso",
+          "url": "https://worldreferee.com/referee/tori_penso"
+        }
+      ],
+      "yellow_cards": [
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+          "fifa_name": "FALCON PEREZ Yael",
+          "association_code": "ARG",
+          "candidate_slug": "yael_falcon_perez",
+          "url": "https://worldreferee.com/referee/yael_falcon_perez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+          "fifa_name": "MA Ning",
+          "association_code": "CHN",
+          "candidate_slug": "ning_ma",
+          "url": "https://worldreferee.com/referee/ning_ma"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+          "fifa_name": "CALDERON Juan",
+          "association_code": "CRC",
+          "candidate_slug": "juan_calderon",
+          "url": "https://worldreferee.com/referee/juan_calderon"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+          "fifa_name": "MOHAMED Amin",
+          "association_code": "EGY",
+          "candidate_slug": "amin_mohamed",
+          "url": "https://worldreferee.com/referee/amin_mohamed"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+          "fifa_name": "AL TURAIS Khalid",
+          "association_code": "KSA",
+          "candidate_slug": "khalid_al_turais",
+          "url": "https://worldreferee.com/referee/khalid_al_turais"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+          "fifa_name": "GARCIA Katia",
+          "association_code": "MEX",
+          "candidate_slug": "katia_garcia",
+          "url": "https://worldreferee.com/referee/katia_garcia"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+          "fifa_name": "BEIDA Dahane",
+          "association_code": "MTN",
+          "candidate_slug": "dahane_beida",
+          "url": "https://worldreferee.com/referee/dahane_beida"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+          "fifa_name": "AL JASSIM Abdulrahman",
+          "association_code": "QAT",
+          "candidate_slug": "abdulrahman_al_jassim",
+          "url": "https://worldreferee.com/referee/abdulrahman_al_jassim"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+          "fifa_name": "TOM Abongile",
+          "association_code": "RSA",
+          "candidate_slug": "abongile_tom",
+          "url": "https://worldreferee.com/referee/abongile_tom"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+          "fifa_name": "BARTON Ivan",
+          "association_code": "SLV",
+          "candidate_slug": "ivan_barton",
+          "url": "https://worldreferee.com/referee/ivan_barton"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+          "fifa_name": "PENSO Tori",
+          "association_code": "USA",
+          "candidate_slug": "tori_penso",
+          "url": "https://worldreferee.com/referee/tori_penso"
+        }
+      ],
+      "red_cards": [
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+          "fifa_name": "FALCON PEREZ Yael",
+          "association_code": "ARG",
+          "candidate_slug": "yael_falcon_perez",
+          "url": "https://worldreferee.com/referee/yael_falcon_perez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+          "fifa_name": "MA Ning",
+          "association_code": "CHN",
+          "candidate_slug": "ning_ma",
+          "url": "https://worldreferee.com/referee/ning_ma"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+          "fifa_name": "CALDERON Juan",
+          "association_code": "CRC",
+          "candidate_slug": "juan_calderon",
+          "url": "https://worldreferee.com/referee/juan_calderon"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+          "fifa_name": "MOHAMED Amin",
+          "association_code": "EGY",
+          "candidate_slug": "amin_mohamed",
+          "url": "https://worldreferee.com/referee/amin_mohamed"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+          "fifa_name": "AL TURAIS Khalid",
+          "association_code": "KSA",
+          "candidate_slug": "khalid_al_turais",
+          "url": "https://worldreferee.com/referee/khalid_al_turais"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+          "fifa_name": "GARCIA Katia",
+          "association_code": "MEX",
+          "candidate_slug": "katia_garcia",
+          "url": "https://worldreferee.com/referee/katia_garcia"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+          "fifa_name": "BEIDA Dahane",
+          "association_code": "MTN",
+          "candidate_slug": "dahane_beida",
+          "url": "https://worldreferee.com/referee/dahane_beida"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+          "fifa_name": "AL JASSIM Abdulrahman",
+          "association_code": "QAT",
+          "candidate_slug": "abdulrahman_al_jassim",
+          "url": "https://worldreferee.com/referee/abdulrahman_al_jassim"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+          "fifa_name": "TOM Abongile",
+          "association_code": "RSA",
+          "candidate_slug": "abongile_tom",
+          "url": "https://worldreferee.com/referee/abongile_tom"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+          "fifa_name": "BARTON Ivan",
+          "association_code": "SLV",
+          "candidate_slug": "ivan_barton",
+          "url": "https://worldreferee.com/referee/ivan_barton"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+          "fifa_name": "PENSO Tori",
+          "association_code": "USA",
+          "candidate_slug": "tori_penso",
+          "url": "https://worldreferee.com/referee/tori_penso"
+        }
+      ],
+      "penalties": [
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+          "fifa_name": "FALCON PEREZ Yael",
+          "association_code": "ARG",
+          "candidate_slug": "yael_falcon_perez",
+          "url": "https://worldreferee.com/referee/yael_falcon_perez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
+          "fifa_name": "RAMON ABATTI",
+          "association_code": "BRA",
+          "candidate_slug": "ramon_abatti",
+          "url": "https://worldreferee.com/referee/ramon_abatti"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+          "fifa_name": "MA Ning",
+          "association_code": "CHN",
+          "candidate_slug": "ning_ma",
+          "url": "https://worldreferee.com/referee/ning_ma"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+          "fifa_name": "CALDERON Juan",
+          "association_code": "CRC",
+          "candidate_slug": "juan_calderon",
+          "url": "https://worldreferee.com/referee/juan_calderon"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+          "fifa_name": "MOHAMED Amin",
+          "association_code": "EGY",
+          "candidate_slug": "amin_mohamed",
+          "url": "https://worldreferee.com/referee/amin_mohamed"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
+          "fifa_name": "HERNANDEZ Alejandro",
+          "association_code": "ESP",
+          "candidate_slug": "alejandro_hernandez",
+          "url": "https://worldreferee.com/referee/alejandro_hernandez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
+          "fifa_name": "MARTINEZ Hector Said",
+          "association_code": "HON",
+          "candidate_slug": "hector_said_martinez",
+          "url": "https://worldreferee.com/referee/hector_said_martinez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
+          "fifa_name": "MARIANI Maurizio",
+          "association_code": "ITA",
+          "candidate_slug": "maurizio_mariani",
+          "url": "https://worldreferee.com/referee/maurizio_mariani"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+          "fifa_name": "AL TURAIS Khalid",
+          "association_code": "KSA",
+          "candidate_slug": "khalid_al_turais",
+          "url": "https://worldreferee.com/referee/khalid_al_turais"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+          "fifa_name": "GARCIA Katia",
+          "association_code": "MEX",
+          "candidate_slug": "katia_garcia",
+          "url": "https://worldreferee.com/referee/katia_garcia"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+          "fifa_name": "BEIDA Dahane",
+          "association_code": "MTN",
+          "candidate_slug": "dahane_beida",
+          "url": "https://worldreferee.com/referee/dahane_beida"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
+          "fifa_name": "KAWANA-WAUGH Campbell-Kirk",
+          "association_code": "NZL",
+          "candidate_slug": "campbellkirk_kawanawaugh",
+          "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
+          "fifa_name": "BENITEZ Juan Gabriel",
+          "association_code": "PAR",
+          "candidate_slug": "juan_gabriel_benitez",
+          "url": "https://worldreferee.com/referee/juan_gabriel_benitez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
+          "fifa_name": "ORTEGA Kevin",
+          "association_code": "PER",
+          "candidate_slug": "kevin_ortega",
+          "url": "https://worldreferee.com/referee/kevin_ortega"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:pinheiro-joao",
+          "fifa_name": "PINHEIRO Joao",
+          "association_code": "POR",
+          "candidate_slug": "joao_pinheiro",
+          "url": "https://worldreferee.com/referee/joao_pinheiro"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+          "fifa_name": "AL JASSIM Abdulrahman",
+          "association_code": "QAT",
+          "candidate_slug": "abdulrahman_al_jassim",
+          "url": "https://worldreferee.com/referee/abdulrahman_al_jassim"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+          "fifa_name": "TOM Abongile",
+          "association_code": "RSA",
+          "candidate_slug": "abongile_tom",
+          "url": "https://worldreferee.com/referee/abongile_tom"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+          "fifa_name": "BARTON Ivan",
+          "association_code": "SLV",
+          "candidate_slug": "ivan_barton",
+          "url": "https://worldreferee.com/referee/ivan_barton"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
+          "fifa_name": "ARTAN Omar Abdulkadir",
+          "association_code": "SOM",
+          "candidate_slug": "omar_abdulkadir_artan",
+          "url": "https://worldreferee.com/referee/omar_abdulkadir_artan"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+          "fifa_name": "PENSO Tori",
+          "association_code": "USA",
+          "candidate_slug": "tori_penso",
+          "url": "https://worldreferee.com/referee/tori_penso"
+        }
+      ],
+      "fouls": [
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+          "fifa_name": "FALCON PEREZ Yael",
+          "association_code": "ARG",
+          "candidate_slug": "yael_falcon_perez",
+          "url": "https://worldreferee.com/referee/yael_falcon_perez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
+          "fifa_name": "RAMON ABATTI",
+          "association_code": "BRA",
+          "candidate_slug": "ramon_abatti",
+          "url": "https://worldreferee.com/referee/ramon_abatti"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+          "fifa_name": "MA Ning",
+          "association_code": "CHN",
+          "candidate_slug": "ning_ma",
+          "url": "https://worldreferee.com/referee/ning_ma"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+          "fifa_name": "CALDERON Juan",
+          "association_code": "CRC",
+          "candidate_slug": "juan_calderon",
+          "url": "https://worldreferee.com/referee/juan_calderon"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+          "fifa_name": "MOHAMED Amin",
+          "association_code": "EGY",
+          "candidate_slug": "amin_mohamed",
+          "url": "https://worldreferee.com/referee/amin_mohamed"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
+          "fifa_name": "HERNANDEZ Alejandro",
+          "association_code": "ESP",
+          "candidate_slug": "alejandro_hernandez",
+          "url": "https://worldreferee.com/referee/alejandro_hernandez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:atcho-pierre",
+          "fifa_name": "ATCHO Pierre",
+          "association_code": "GAB",
+          "candidate_slug": "pierre_atcho",
+          "url": "https://worldreferee.com/referee/pierre_atcho"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
+          "fifa_name": "MARTINEZ Hector Said",
+          "association_code": "HON",
+          "candidate_slug": "hector_said_martinez",
+          "url": "https://worldreferee.com/referee/hector_said_martinez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
+          "fifa_name": "ARAKI Yusuke",
+          "association_code": "JPN",
+          "candidate_slug": "yusuke_araki",
+          "url": "https://worldreferee.com/referee/yusuke_araki"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+          "fifa_name": "AL TURAIS Khalid",
+          "association_code": "KSA",
+          "candidate_slug": "khalid_al_turais",
+          "url": "https://worldreferee.com/referee/khalid_al_turais"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
+          "fifa_name": "JAYED Jalal",
+          "association_code": "MAR",
+          "candidate_slug": "jalal_jayed",
+          "url": "https://worldreferee.com/referee/jalal_jayed"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+          "fifa_name": "GARCIA Katia",
+          "association_code": "MEX",
+          "candidate_slug": "katia_garcia",
+          "url": "https://worldreferee.com/referee/katia_garcia"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+          "fifa_name": "BEIDA Dahane",
+          "association_code": "MTN",
+          "candidate_slug": "dahane_beida",
+          "url": "https://worldreferee.com/referee/dahane_beida"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
+          "fifa_name": "KAWANA-WAUGH Campbell-Kirk",
+          "association_code": "NZL",
+          "candidate_slug": "campbellkirk_kawanawaugh",
+          "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
+          "fifa_name": "BENITEZ Juan Gabriel",
+          "association_code": "PAR",
+          "candidate_slug": "juan_gabriel_benitez",
+          "url": "https://worldreferee.com/referee/juan_gabriel_benitez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
+          "fifa_name": "ORTEGA Kevin",
+          "association_code": "PER",
+          "candidate_slug": "kevin_ortega",
+          "url": "https://worldreferee.com/referee/kevin_ortega"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:pinheiro-joao",
+          "fifa_name": "PINHEIRO Joao",
+          "association_code": "POR",
+          "candidate_slug": "joao_pinheiro",
+          "url": "https://worldreferee.com/referee/joao_pinheiro"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+          "fifa_name": "AL JASSIM Abdulrahman",
+          "association_code": "QAT",
+          "candidate_slug": "abdulrahman_al_jassim",
+          "url": "https://worldreferee.com/referee/abdulrahman_al_jassim"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+          "fifa_name": "TOM Abongile",
+          "association_code": "RSA",
+          "candidate_slug": "abongile_tom",
+          "url": "https://worldreferee.com/referee/abongile_tom"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+          "fifa_name": "BARTON Ivan",
+          "association_code": "SLV",
+          "candidate_slug": "ivan_barton",
+          "url": "https://worldreferee.com/referee/ivan_barton"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
+          "fifa_name": "ARTAN Omar Abdulkadir",
+          "association_code": "SOM",
+          "candidate_slug": "omar_abdulkadir_artan",
+          "url": "https://worldreferee.com/referee/omar_abdulkadir_artan"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:omar-al-ali",
+          "fifa_name": "OMAR AL ALI",
+          "association_code": "UAE",
+          "candidate_slug": "omar_al_ali",
+          "url": "https://worldreferee.com/referee/omar_al_ali"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+          "fifa_name": "PENSO Tori",
+          "association_code": "USA",
+          "candidate_slug": "tori_penso",
+          "url": "https://worldreferee.com/referee/tori_penso"
+        }
+      ],
+      "active_years": [
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+          "fifa_name": "FALCON PEREZ Yael",
+          "association_code": "ARG",
+          "candidate_slug": "yael_falcon_perez",
+          "url": "https://worldreferee.com/referee/yael_falcon_perez"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+          "fifa_name": "MA Ning",
+          "association_code": "CHN",
+          "candidate_slug": "ning_ma",
+          "url": "https://worldreferee.com/referee/ning_ma"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+          "fifa_name": "CALDERON Juan",
+          "association_code": "CRC",
+          "candidate_slug": "juan_calderon",
+          "url": "https://worldreferee.com/referee/juan_calderon"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+          "fifa_name": "MOHAMED Amin",
+          "association_code": "EGY",
+          "candidate_slug": "amin_mohamed",
+          "url": "https://worldreferee.com/referee/amin_mohamed"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+          "fifa_name": "AL TURAIS Khalid",
+          "association_code": "KSA",
+          "candidate_slug": "khalid_al_turais",
+          "url": "https://worldreferee.com/referee/khalid_al_turais"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+          "fifa_name": "GARCIA Katia",
+          "association_code": "MEX",
+          "candidate_slug": "katia_garcia",
+          "url": "https://worldreferee.com/referee/katia_garcia"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+          "fifa_name": "BEIDA Dahane",
+          "association_code": "MTN",
+          "candidate_slug": "dahane_beida",
+          "url": "https://worldreferee.com/referee/dahane_beida"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+          "fifa_name": "AL JASSIM Abdulrahman",
+          "association_code": "QAT",
+          "candidate_slug": "abdulrahman_al_jassim",
+          "url": "https://worldreferee.com/referee/abdulrahman_al_jassim"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+          "fifa_name": "TOM Abongile",
+          "association_code": "RSA",
+          "candidate_slug": "abongile_tom",
+          "url": "https://worldreferee.com/referee/abongile_tom"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+          "fifa_name": "BARTON Ivan",
+          "association_code": "SLV",
+          "candidate_slug": "ivan_barton",
+          "url": "https://worldreferee.com/referee/ivan_barton"
+        },
+        {
+          "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+          "fifa_name": "PENSO Tori",
+          "association_code": "USA",
+          "candidate_slug": "tori_penso",
+          "url": "https://worldreferee.com/referee/tori_penso"
+        }
+      ]
+    },
+    "sample_readiness": {
+      "sample_ge_20_report_explanation": {
+        "threshold_matches": 20,
+        "ready_count": 30,
+        "missing_count": 22,
+        "ready": [
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ghorbal-mustapha",
+            "fifa_name": "GHORBAL Mustapha",
+            "association_code": "ALG",
+            "candidate_slug": "mustapha_ghorbal",
+            "url": "https://worldreferee.com/referee/mustapha_ghorbal",
+            "sample_size_matches": 44
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:herrera-dario",
+            "fifa_name": "HERRERA Dario",
+            "association_code": "ARG",
+            "candidate_slug": "dario_herrera",
+            "url": "https://worldreferee.com/referee/dario_herrera",
+            "sample_size_matches": 26
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:faghani-alireza",
+            "fifa_name": "FAGHANI Alireza",
+            "association_code": "AUS",
+            "candidate_slug": "alireza_faghani",
+            "url": "https://worldreferee.com/referee/alireza_faghani",
+            "sample_size_matches": 132
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:claus-raphael",
+            "fifa_name": "CLAUS Raphael",
+            "association_code": "BRA",
+            "candidate_slug": "raphael_claus",
+            "url": "https://worldreferee.com/referee/raphael_claus",
+            "sample_size_matches": 44
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
+            "fifa_name": "RAMON ABATTI",
+            "association_code": "BRA",
+            "candidate_slug": "ramon_abatti",
+            "url": "https://worldreferee.com/referee/ramon_abatti",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
+            "fifa_name": "WILTON SAMPAIO",
+            "association_code": "BRA",
+            "candidate_slug": "wilton_sampaio",
+            "url": "https://worldreferee.com/referee/wilton_sampaio",
+            "sample_size_matches": 57
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:rojas-andres",
+            "fifa_name": "ROJAS Andres",
+            "association_code": "COL",
+            "candidate_slug": "andres_rojas",
+            "url": "https://worldreferee.com/referee/andres_rojas",
+            "sample_size_matches": 25
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:oliver-michael",
+            "fifa_name": "OLIVER Michael",
+            "association_code": "ENG",
+            "candidate_slug": "michael_oliver",
+            "url": "https://worldreferee.com/referee/michael_oliver",
+            "sample_size_matches": 170
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:taylor-anthony",
+            "fifa_name": "TAYLOR Anthony",
+            "association_code": "ENG",
+            "candidate_slug": "anthony_taylor",
+            "url": "https://worldreferee.com/referee/anthony_taylor",
+            "sample_size_matches": 161
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:letexier-francois",
+            "fifa_name": "LETEXIER Francois",
+            "association_code": "FRA",
+            "candidate_slug": "francois_letexier",
+            "url": "https://worldreferee.com/referee/francois_letexier",
+            "sample_size_matches": 59
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:turpin-clement",
+            "fifa_name": "TURPIN Clement",
+            "association_code": "FRA",
+            "candidate_slug": "clement_turpin",
+            "url": "https://worldreferee.com/referee/clement_turpin",
+            "sample_size_matches": 141
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:zwayer-felix",
+            "fifa_name": "ZWAYER Felix",
+            "association_code": "GER",
+            "candidate_slug": "felix_zwayer",
+            "url": "https://worldreferee.com/referee/felix_zwayer",
+            "sample_size_matches": 146
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
+            "fifa_name": "MARTINEZ Hector Said",
+            "association_code": "HON",
+            "candidate_slug": "hector_said_martinez",
+            "url": "https://worldreferee.com/referee/hector_said_martinez",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
+            "fifa_name": "MARIANI Maurizio",
+            "association_code": "ITA",
+            "candidate_slug": "maurizio_mariani",
+            "url": "https://worldreferee.com/referee/maurizio_mariani",
+            "sample_size_matches": 60
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:makhadmeh-adham",
+            "fifa_name": "MAKHADMEH Adham",
+            "association_code": "JOR",
+            "candidate_slug": "adham_makhadmeh",
+            "url": "https://worldreferee.com/referee/adham_makhadmeh",
+            "sample_size_matches": 64
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ramos-cesar",
+            "fifa_name": "RAMOS Cesar",
+            "association_code": "MEX",
+            "candidate_slug": "cesar_ramos",
+            "url": "https://worldreferee.com/referee/cesar_ramos",
+            "sample_size_matches": 40
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:makkelie-danny",
+            "fifa_name": "MAKKELIE Danny",
+            "association_code": "NED",
+            "candidate_slug": "danny_makkelie",
+            "url": "https://worldreferee.com/referee/danny_makkelie",
+            "sample_size_matches": 115
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:eskas-espen",
+            "fifa_name": "ESKAS Espen",
+            "association_code": "NOR",
+            "candidate_slug": "espen_eskas",
+            "url": "https://worldreferee.com/referee/espen_eskas",
+            "sample_size_matches": 46
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
+            "fifa_name": "KAWANA-WAUGH Campbell-Kirk",
+            "association_code": "NZL",
+            "candidate_slug": "campbellkirk_kawanawaugh",
+            "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
+            "fifa_name": "BENITEZ Juan Gabriel",
+            "association_code": "PAR",
+            "candidate_slug": "juan_gabriel_benitez",
+            "url": "https://worldreferee.com/referee/juan_gabriel_benitez",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
+            "fifa_name": "MARCINIAK Szymon",
+            "association_code": "POL",
+            "candidate_slug": "szymon_marciniak",
+            "url": "https://worldreferee.com/referee/szymon_marciniak",
+            "sample_size_matches": 134
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:pinheiro-joao",
+            "fifa_name": "PINHEIRO Joao",
+            "association_code": "POR",
+            "candidate_slug": "joao_pinheiro",
+            "url": "https://worldreferee.com/referee/joao_pinheiro",
+            "sample_size_matches": 24
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:kovacs-istvan",
+            "fifa_name": "KOVACS Istvan",
+            "association_code": "ROU",
+            "candidate_slug": "istvan_kovacs",
+            "url": "https://worldreferee.com/referee/istvan_kovacs",
+            "sample_size_matches": 100
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
+            "fifa_name": "ARTAN Omar Abdulkadir",
+            "association_code": "SOM",
+            "candidate_slug": "omar_abdulkadir_artan",
+            "url": "https://worldreferee.com/referee/omar_abdulkadir_artan",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
+            "fifa_name": "SCHAERER Sandro",
+            "association_code": "SUI",
+            "candidate_slug": "sandro_schaerer",
+            "url": "https://worldreferee.com/referee/sandro_schaerer",
+            "sample_size_matches": 44
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:vincic-slavko",
+            "fifa_name": "VINCIC Slavko",
+            "association_code": "SVN",
+            "candidate_slug": "slavko_vincic",
+            "url": "https://worldreferee.com/referee/slavko_vincic",
+            "sample_size_matches": 113
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:nyberg-glenn",
+            "fifa_name": "NYBERG Glenn",
+            "association_code": "SWE",
+            "candidate_slug": "glenn_nyberg",
+            "url": "https://worldreferee.com/referee/glenn_nyberg",
+            "sample_size_matches": 54
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:elfath-ismail",
+            "fifa_name": "ELFATH Ismail",
+            "association_code": "USA",
+            "candidate_slug": "ismail_elfath",
+            "url": "https://worldreferee.com/referee/ismail_elfath",
+            "sample_size_matches": 28
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tantashev-ilgiz",
+            "fifa_name": "TANTASHEV Ilgiz",
+            "association_code": "UZB",
+            "candidate_slug": "ilgiz_tantashev",
+            "url": "https://worldreferee.com/referee/ilgiz_tantashev",
+            "sample_size_matches": 38
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:valenzuela-jesus",
+            "fifa_name": "VALENZUELA Jesus",
+            "association_code": "VEN",
+            "candidate_slug": "jesus_valenzuela",
+            "url": "https://worldreferee.com/referee/jesus_valenzuela",
+            "sample_size_matches": 40
+          }
+        ],
+        "missing": [
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+            "fifa_name": "FALCON PEREZ Yael",
+            "association_code": "ARG",
+            "candidate_slug": "yael_falcon_perez",
+            "url": "https://worldreferee.com/referee/yael_falcon_perez",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tello-facundo",
+            "fifa_name": "TELLO Facundo",
+            "association_code": "ARG",
+            "candidate_slug": "facundo_tello",
+            "url": "https://worldreferee.com/referee/facundo_tello",
+            "sample_size_matches": 14
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:fischer-drew",
+            "fifa_name": "FISCHER Drew",
+            "association_code": "CAN",
+            "candidate_slug": "drew_fischer",
+            "url": "https://worldreferee.com/referee/drew_fischer",
+            "sample_size_matches": 19
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:garay-cristian",
+            "fifa_name": "GARAY Cristian",
+            "association_code": "CHI",
+            "candidate_slug": "cristian_garay",
+            "url": "https://worldreferee.com/referee/cristian_garay",
+            "sample_size_matches": 7
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+            "fifa_name": "MA Ning",
+            "association_code": "CHN",
+            "candidate_slug": "ning_ma",
+            "url": "https://worldreferee.com/referee/ning_ma",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+            "fifa_name": "CALDERON Juan",
+            "association_code": "CRC",
+            "candidate_slug": "juan_calderon",
+            "url": "https://worldreferee.com/referee/juan_calderon",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+            "fifa_name": "MOHAMED Amin",
+            "association_code": "EGY",
+            "candidate_slug": "amin_mohamed",
+            "url": "https://worldreferee.com/referee/amin_mohamed",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
+            "fifa_name": "HERNANDEZ Alejandro",
+            "association_code": "ESP",
+            "candidate_slug": "alejandro_hernandez",
+            "url": "https://worldreferee.com/referee/alejandro_hernandez",
+            "sample_size_matches": 1
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:atcho-pierre",
+            "fifa_name": "ATCHO Pierre",
+            "association_code": "GAB",
+            "candidate_slug": "pierre_atcho",
+            "url": "https://worldreferee.com/referee/pierre_atcho",
+            "sample_size_matches": 5
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:nation-oshane",
+            "fifa_name": "NATION Oshane",
+            "association_code": "JAM",
+            "candidate_slug": "oshane_nation",
+            "url": "https://worldreferee.com/referee/oshane_nation",
+            "sample_size_matches": 17
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
+            "fifa_name": "ARAKI Yusuke",
+            "association_code": "JPN",
+            "candidate_slug": "yusuke_araki",
+            "url": "https://worldreferee.com/referee/yusuke_araki",
+            "sample_size_matches": 14
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+            "fifa_name": "AL TURAIS Khalid",
+            "association_code": "KSA",
+            "candidate_slug": "khalid_al_turais",
+            "url": "https://worldreferee.com/referee/khalid_al_turais",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
+            "fifa_name": "JAYED Jalal",
+            "association_code": "MAR",
+            "candidate_slug": "jalal_jayed",
+            "url": "https://worldreferee.com/referee/jalal_jayed",
+            "sample_size_matches": 1
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+            "fifa_name": "GARCIA Katia",
+            "association_code": "MEX",
+            "candidate_slug": "katia_garcia",
+            "url": "https://worldreferee.com/referee/katia_garcia",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+            "fifa_name": "BEIDA Dahane",
+            "association_code": "MTN",
+            "candidate_slug": "dahane_beida",
+            "url": "https://worldreferee.com/referee/dahane_beida",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
+            "fifa_name": "ORTEGA Kevin",
+            "association_code": "PER",
+            "candidate_slug": "kevin_ortega",
+            "url": "https://worldreferee.com/referee/kevin_ortega",
+            "sample_size_matches": 4
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+            "fifa_name": "AL JASSIM Abdulrahman",
+            "association_code": "QAT",
+            "candidate_slug": "abdulrahman_al_jassim",
+            "url": "https://worldreferee.com/referee/abdulrahman_al_jassim",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+            "fifa_name": "TOM Abongile",
+            "association_code": "RSA",
+            "candidate_slug": "abongile_tom",
+            "url": "https://worldreferee.com/referee/abongile_tom",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+            "fifa_name": "BARTON Ivan",
+            "association_code": "SLV",
+            "candidate_slug": "ivan_barton",
+            "url": "https://worldreferee.com/referee/ivan_barton",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:omar-al-ali",
+            "fifa_name": "OMAR AL ALI",
+            "association_code": "UAE",
+            "candidate_slug": "omar_al_ali",
+            "url": "https://worldreferee.com/referee/omar_al_ali",
+            "sample_size_matches": 14
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tejera-gustavo",
+            "fifa_name": "TEJERA Gustavo",
+            "association_code": "URU",
+            "candidate_slug": "gustavo_tejera",
+            "url": "https://worldreferee.com/referee/gustavo_tejera",
+            "sample_size_matches": 4
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+            "fifa_name": "PENSO Tori",
+            "association_code": "USA",
+            "candidate_slug": "tori_penso",
+            "url": "https://worldreferee.com/referee/tori_penso",
+            "sample_size_matches": 0
+          }
+        ]
+      },
+      "sample_ge_30_style_distillation": {
+        "threshold_matches": 30,
+        "ready_count": 26,
+        "missing_count": 26,
+        "ready": [
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ghorbal-mustapha",
+            "fifa_name": "GHORBAL Mustapha",
+            "association_code": "ALG",
+            "candidate_slug": "mustapha_ghorbal",
+            "url": "https://worldreferee.com/referee/mustapha_ghorbal",
+            "sample_size_matches": 44
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:faghani-alireza",
+            "fifa_name": "FAGHANI Alireza",
+            "association_code": "AUS",
+            "candidate_slug": "alireza_faghani",
+            "url": "https://worldreferee.com/referee/alireza_faghani",
+            "sample_size_matches": 132
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:claus-raphael",
+            "fifa_name": "CLAUS Raphael",
+            "association_code": "BRA",
+            "candidate_slug": "raphael_claus",
+            "url": "https://worldreferee.com/referee/raphael_claus",
+            "sample_size_matches": 44
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
+            "fifa_name": "RAMON ABATTI",
+            "association_code": "BRA",
+            "candidate_slug": "ramon_abatti",
+            "url": "https://worldreferee.com/referee/ramon_abatti",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
+            "fifa_name": "WILTON SAMPAIO",
+            "association_code": "BRA",
+            "candidate_slug": "wilton_sampaio",
+            "url": "https://worldreferee.com/referee/wilton_sampaio",
+            "sample_size_matches": 57
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:oliver-michael",
+            "fifa_name": "OLIVER Michael",
+            "association_code": "ENG",
+            "candidate_slug": "michael_oliver",
+            "url": "https://worldreferee.com/referee/michael_oliver",
+            "sample_size_matches": 170
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:taylor-anthony",
+            "fifa_name": "TAYLOR Anthony",
+            "association_code": "ENG",
+            "candidate_slug": "anthony_taylor",
+            "url": "https://worldreferee.com/referee/anthony_taylor",
+            "sample_size_matches": 161
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:letexier-francois",
+            "fifa_name": "LETEXIER Francois",
+            "association_code": "FRA",
+            "candidate_slug": "francois_letexier",
+            "url": "https://worldreferee.com/referee/francois_letexier",
+            "sample_size_matches": 59
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:turpin-clement",
+            "fifa_name": "TURPIN Clement",
+            "association_code": "FRA",
+            "candidate_slug": "clement_turpin",
+            "url": "https://worldreferee.com/referee/clement_turpin",
+            "sample_size_matches": 141
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:zwayer-felix",
+            "fifa_name": "ZWAYER Felix",
+            "association_code": "GER",
+            "candidate_slug": "felix_zwayer",
+            "url": "https://worldreferee.com/referee/felix_zwayer",
+            "sample_size_matches": 146
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
+            "fifa_name": "MARTINEZ Hector Said",
+            "association_code": "HON",
+            "candidate_slug": "hector_said_martinez",
+            "url": "https://worldreferee.com/referee/hector_said_martinez",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
+            "fifa_name": "MARIANI Maurizio",
+            "association_code": "ITA",
+            "candidate_slug": "maurizio_mariani",
+            "url": "https://worldreferee.com/referee/maurizio_mariani",
+            "sample_size_matches": 60
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:makhadmeh-adham",
+            "fifa_name": "MAKHADMEH Adham",
+            "association_code": "JOR",
+            "candidate_slug": "adham_makhadmeh",
+            "url": "https://worldreferee.com/referee/adham_makhadmeh",
+            "sample_size_matches": 64
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ramos-cesar",
+            "fifa_name": "RAMOS Cesar",
+            "association_code": "MEX",
+            "candidate_slug": "cesar_ramos",
+            "url": "https://worldreferee.com/referee/cesar_ramos",
+            "sample_size_matches": 40
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:makkelie-danny",
+            "fifa_name": "MAKKELIE Danny",
+            "association_code": "NED",
+            "candidate_slug": "danny_makkelie",
+            "url": "https://worldreferee.com/referee/danny_makkelie",
+            "sample_size_matches": 115
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:eskas-espen",
+            "fifa_name": "ESKAS Espen",
+            "association_code": "NOR",
+            "candidate_slug": "espen_eskas",
+            "url": "https://worldreferee.com/referee/espen_eskas",
+            "sample_size_matches": 46
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
+            "fifa_name": "KAWANA-WAUGH Campbell-Kirk",
+            "association_code": "NZL",
+            "candidate_slug": "campbellkirk_kawanawaugh",
+            "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
+            "fifa_name": "BENITEZ Juan Gabriel",
+            "association_code": "PAR",
+            "candidate_slug": "juan_gabriel_benitez",
+            "url": "https://worldreferee.com/referee/juan_gabriel_benitez",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
+            "fifa_name": "MARCINIAK Szymon",
+            "association_code": "POL",
+            "candidate_slug": "szymon_marciniak",
+            "url": "https://worldreferee.com/referee/szymon_marciniak",
+            "sample_size_matches": 134
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:kovacs-istvan",
+            "fifa_name": "KOVACS Istvan",
+            "association_code": "ROU",
+            "candidate_slug": "istvan_kovacs",
+            "url": "https://worldreferee.com/referee/istvan_kovacs",
+            "sample_size_matches": 100
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
+            "fifa_name": "ARTAN Omar Abdulkadir",
+            "association_code": "SOM",
+            "candidate_slug": "omar_abdulkadir_artan",
+            "url": "https://worldreferee.com/referee/omar_abdulkadir_artan",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
+            "fifa_name": "SCHAERER Sandro",
+            "association_code": "SUI",
+            "candidate_slug": "sandro_schaerer",
+            "url": "https://worldreferee.com/referee/sandro_schaerer",
+            "sample_size_matches": 44
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:vincic-slavko",
+            "fifa_name": "VINCIC Slavko",
+            "association_code": "SVN",
+            "candidate_slug": "slavko_vincic",
+            "url": "https://worldreferee.com/referee/slavko_vincic",
+            "sample_size_matches": 113
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:nyberg-glenn",
+            "fifa_name": "NYBERG Glenn",
+            "association_code": "SWE",
+            "candidate_slug": "glenn_nyberg",
+            "url": "https://worldreferee.com/referee/glenn_nyberg",
+            "sample_size_matches": 54
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tantashev-ilgiz",
+            "fifa_name": "TANTASHEV Ilgiz",
+            "association_code": "UZB",
+            "candidate_slug": "ilgiz_tantashev",
+            "url": "https://worldreferee.com/referee/ilgiz_tantashev",
+            "sample_size_matches": 38
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:valenzuela-jesus",
+            "fifa_name": "VALENZUELA Jesus",
+            "association_code": "VEN",
+            "candidate_slug": "jesus_valenzuela",
+            "url": "https://worldreferee.com/referee/jesus_valenzuela",
+            "sample_size_matches": 40
+          }
+        ],
+        "missing": [
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+            "fifa_name": "FALCON PEREZ Yael",
+            "association_code": "ARG",
+            "candidate_slug": "yael_falcon_perez",
+            "url": "https://worldreferee.com/referee/yael_falcon_perez",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:herrera-dario",
+            "fifa_name": "HERRERA Dario",
+            "association_code": "ARG",
+            "candidate_slug": "dario_herrera",
+            "url": "https://worldreferee.com/referee/dario_herrera",
+            "sample_size_matches": 26
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tello-facundo",
+            "fifa_name": "TELLO Facundo",
+            "association_code": "ARG",
+            "candidate_slug": "facundo_tello",
+            "url": "https://worldreferee.com/referee/facundo_tello",
+            "sample_size_matches": 14
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:fischer-drew",
+            "fifa_name": "FISCHER Drew",
+            "association_code": "CAN",
+            "candidate_slug": "drew_fischer",
+            "url": "https://worldreferee.com/referee/drew_fischer",
+            "sample_size_matches": 19
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:garay-cristian",
+            "fifa_name": "GARAY Cristian",
+            "association_code": "CHI",
+            "candidate_slug": "cristian_garay",
+            "url": "https://worldreferee.com/referee/cristian_garay",
+            "sample_size_matches": 7
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+            "fifa_name": "MA Ning",
+            "association_code": "CHN",
+            "candidate_slug": "ning_ma",
+            "url": "https://worldreferee.com/referee/ning_ma",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:rojas-andres",
+            "fifa_name": "ROJAS Andres",
+            "association_code": "COL",
+            "candidate_slug": "andres_rojas",
+            "url": "https://worldreferee.com/referee/andres_rojas",
+            "sample_size_matches": 25
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+            "fifa_name": "CALDERON Juan",
+            "association_code": "CRC",
+            "candidate_slug": "juan_calderon",
+            "url": "https://worldreferee.com/referee/juan_calderon",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+            "fifa_name": "MOHAMED Amin",
+            "association_code": "EGY",
+            "candidate_slug": "amin_mohamed",
+            "url": "https://worldreferee.com/referee/amin_mohamed",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
+            "fifa_name": "HERNANDEZ Alejandro",
+            "association_code": "ESP",
+            "candidate_slug": "alejandro_hernandez",
+            "url": "https://worldreferee.com/referee/alejandro_hernandez",
+            "sample_size_matches": 1
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:atcho-pierre",
+            "fifa_name": "ATCHO Pierre",
+            "association_code": "GAB",
+            "candidate_slug": "pierre_atcho",
+            "url": "https://worldreferee.com/referee/pierre_atcho",
+            "sample_size_matches": 5
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:nation-oshane",
+            "fifa_name": "NATION Oshane",
+            "association_code": "JAM",
+            "candidate_slug": "oshane_nation",
+            "url": "https://worldreferee.com/referee/oshane_nation",
+            "sample_size_matches": 17
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
+            "fifa_name": "ARAKI Yusuke",
+            "association_code": "JPN",
+            "candidate_slug": "yusuke_araki",
+            "url": "https://worldreferee.com/referee/yusuke_araki",
+            "sample_size_matches": 14
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+            "fifa_name": "AL TURAIS Khalid",
+            "association_code": "KSA",
+            "candidate_slug": "khalid_al_turais",
+            "url": "https://worldreferee.com/referee/khalid_al_turais",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
+            "fifa_name": "JAYED Jalal",
+            "association_code": "MAR",
+            "candidate_slug": "jalal_jayed",
+            "url": "https://worldreferee.com/referee/jalal_jayed",
+            "sample_size_matches": 1
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+            "fifa_name": "GARCIA Katia",
+            "association_code": "MEX",
+            "candidate_slug": "katia_garcia",
+            "url": "https://worldreferee.com/referee/katia_garcia",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+            "fifa_name": "BEIDA Dahane",
+            "association_code": "MTN",
+            "candidate_slug": "dahane_beida",
+            "url": "https://worldreferee.com/referee/dahane_beida",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
+            "fifa_name": "ORTEGA Kevin",
+            "association_code": "PER",
+            "candidate_slug": "kevin_ortega",
+            "url": "https://worldreferee.com/referee/kevin_ortega",
+            "sample_size_matches": 4
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:pinheiro-joao",
+            "fifa_name": "PINHEIRO Joao",
+            "association_code": "POR",
+            "candidate_slug": "joao_pinheiro",
+            "url": "https://worldreferee.com/referee/joao_pinheiro",
+            "sample_size_matches": 24
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+            "fifa_name": "AL JASSIM Abdulrahman",
+            "association_code": "QAT",
+            "candidate_slug": "abdulrahman_al_jassim",
+            "url": "https://worldreferee.com/referee/abdulrahman_al_jassim",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+            "fifa_name": "TOM Abongile",
+            "association_code": "RSA",
+            "candidate_slug": "abongile_tom",
+            "url": "https://worldreferee.com/referee/abongile_tom",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+            "fifa_name": "BARTON Ivan",
+            "association_code": "SLV",
+            "candidate_slug": "ivan_barton",
+            "url": "https://worldreferee.com/referee/ivan_barton",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:omar-al-ali",
+            "fifa_name": "OMAR AL ALI",
+            "association_code": "UAE",
+            "candidate_slug": "omar_al_ali",
+            "url": "https://worldreferee.com/referee/omar_al_ali",
+            "sample_size_matches": 14
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tejera-gustavo",
+            "fifa_name": "TEJERA Gustavo",
+            "association_code": "URU",
+            "candidate_slug": "gustavo_tejera",
+            "url": "https://worldreferee.com/referee/gustavo_tejera",
+            "sample_size_matches": 4
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:elfath-ismail",
+            "fifa_name": "ELFATH Ismail",
+            "association_code": "USA",
+            "candidate_slug": "ismail_elfath",
+            "url": "https://worldreferee.com/referee/ismail_elfath",
+            "sample_size_matches": 28
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+            "fifa_name": "PENSO Tori",
+            "association_code": "USA",
+            "candidate_slug": "tori_penso",
+            "url": "https://worldreferee.com/referee/tori_penso",
+            "sample_size_matches": 0
+          }
+        ]
+      },
+      "sample_ge_50_strong_model_signal": {
+        "threshold_matches": 50,
+        "ready_count": 19,
+        "missing_count": 33,
+        "ready": [
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:faghani-alireza",
+            "fifa_name": "FAGHANI Alireza",
+            "association_code": "AUS",
+            "candidate_slug": "alireza_faghani",
+            "url": "https://worldreferee.com/referee/alireza_faghani",
+            "sample_size_matches": 132
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
+            "fifa_name": "RAMON ABATTI",
+            "association_code": "BRA",
+            "candidate_slug": "ramon_abatti",
+            "url": "https://worldreferee.com/referee/ramon_abatti",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
+            "fifa_name": "WILTON SAMPAIO",
+            "association_code": "BRA",
+            "candidate_slug": "wilton_sampaio",
+            "url": "https://worldreferee.com/referee/wilton_sampaio",
+            "sample_size_matches": 57
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:oliver-michael",
+            "fifa_name": "OLIVER Michael",
+            "association_code": "ENG",
+            "candidate_slug": "michael_oliver",
+            "url": "https://worldreferee.com/referee/michael_oliver",
+            "sample_size_matches": 170
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:taylor-anthony",
+            "fifa_name": "TAYLOR Anthony",
+            "association_code": "ENG",
+            "candidate_slug": "anthony_taylor",
+            "url": "https://worldreferee.com/referee/anthony_taylor",
+            "sample_size_matches": 161
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:letexier-francois",
+            "fifa_name": "LETEXIER Francois",
+            "association_code": "FRA",
+            "candidate_slug": "francois_letexier",
+            "url": "https://worldreferee.com/referee/francois_letexier",
+            "sample_size_matches": 59
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:turpin-clement",
+            "fifa_name": "TURPIN Clement",
+            "association_code": "FRA",
+            "candidate_slug": "clement_turpin",
+            "url": "https://worldreferee.com/referee/clement_turpin",
+            "sample_size_matches": 141
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:zwayer-felix",
+            "fifa_name": "ZWAYER Felix",
+            "association_code": "GER",
+            "candidate_slug": "felix_zwayer",
+            "url": "https://worldreferee.com/referee/felix_zwayer",
+            "sample_size_matches": 146
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
+            "fifa_name": "MARTINEZ Hector Said",
+            "association_code": "HON",
+            "candidate_slug": "hector_said_martinez",
+            "url": "https://worldreferee.com/referee/hector_said_martinez",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
+            "fifa_name": "MARIANI Maurizio",
+            "association_code": "ITA",
+            "candidate_slug": "maurizio_mariani",
+            "url": "https://worldreferee.com/referee/maurizio_mariani",
+            "sample_size_matches": 60
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:makhadmeh-adham",
+            "fifa_name": "MAKHADMEH Adham",
+            "association_code": "JOR",
+            "candidate_slug": "adham_makhadmeh",
+            "url": "https://worldreferee.com/referee/adham_makhadmeh",
+            "sample_size_matches": 64
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:makkelie-danny",
+            "fifa_name": "MAKKELIE Danny",
+            "association_code": "NED",
+            "candidate_slug": "danny_makkelie",
+            "url": "https://worldreferee.com/referee/danny_makkelie",
+            "sample_size_matches": 115
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
+            "fifa_name": "KAWANA-WAUGH Campbell-Kirk",
+            "association_code": "NZL",
+            "candidate_slug": "campbellkirk_kawanawaugh",
+            "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
+            "fifa_name": "BENITEZ Juan Gabriel",
+            "association_code": "PAR",
+            "candidate_slug": "juan_gabriel_benitez",
+            "url": "https://worldreferee.com/referee/juan_gabriel_benitez",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
+            "fifa_name": "MARCINIAK Szymon",
+            "association_code": "POL",
+            "candidate_slug": "szymon_marciniak",
+            "url": "https://worldreferee.com/referee/szymon_marciniak",
+            "sample_size_matches": 134
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:kovacs-istvan",
+            "fifa_name": "KOVACS Istvan",
+            "association_code": "ROU",
+            "candidate_slug": "istvan_kovacs",
+            "url": "https://worldreferee.com/referee/istvan_kovacs",
+            "sample_size_matches": 100
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
+            "fifa_name": "ARTAN Omar Abdulkadir",
+            "association_code": "SOM",
+            "candidate_slug": "omar_abdulkadir_artan",
+            "url": "https://worldreferee.com/referee/omar_abdulkadir_artan",
+            "sample_size_matches": 884
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:vincic-slavko",
+            "fifa_name": "VINCIC Slavko",
+            "association_code": "SVN",
+            "candidate_slug": "slavko_vincic",
+            "url": "https://worldreferee.com/referee/slavko_vincic",
+            "sample_size_matches": 113
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:nyberg-glenn",
+            "fifa_name": "NYBERG Glenn",
+            "association_code": "SWE",
+            "candidate_slug": "glenn_nyberg",
+            "url": "https://worldreferee.com/referee/glenn_nyberg",
+            "sample_size_matches": 54
+          }
+        ],
+        "missing": [
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ghorbal-mustapha",
+            "fifa_name": "GHORBAL Mustapha",
+            "association_code": "ALG",
+            "candidate_slug": "mustapha_ghorbal",
+            "url": "https://worldreferee.com/referee/mustapha_ghorbal",
+            "sample_size_matches": 44
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
+            "fifa_name": "FALCON PEREZ Yael",
+            "association_code": "ARG",
+            "candidate_slug": "yael_falcon_perez",
+            "url": "https://worldreferee.com/referee/yael_falcon_perez",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:herrera-dario",
+            "fifa_name": "HERRERA Dario",
+            "association_code": "ARG",
+            "candidate_slug": "dario_herrera",
+            "url": "https://worldreferee.com/referee/dario_herrera",
+            "sample_size_matches": 26
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tello-facundo",
+            "fifa_name": "TELLO Facundo",
+            "association_code": "ARG",
+            "candidate_slug": "facundo_tello",
+            "url": "https://worldreferee.com/referee/facundo_tello",
+            "sample_size_matches": 14
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:claus-raphael",
+            "fifa_name": "CLAUS Raphael",
+            "association_code": "BRA",
+            "candidate_slug": "raphael_claus",
+            "url": "https://worldreferee.com/referee/raphael_claus",
+            "sample_size_matches": 44
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:fischer-drew",
+            "fifa_name": "FISCHER Drew",
+            "association_code": "CAN",
+            "candidate_slug": "drew_fischer",
+            "url": "https://worldreferee.com/referee/drew_fischer",
+            "sample_size_matches": 19
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:garay-cristian",
+            "fifa_name": "GARAY Cristian",
+            "association_code": "CHI",
+            "candidate_slug": "cristian_garay",
+            "url": "https://worldreferee.com/referee/cristian_garay",
+            "sample_size_matches": 7
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+            "fifa_name": "MA Ning",
+            "association_code": "CHN",
+            "candidate_slug": "ning_ma",
+            "url": "https://worldreferee.com/referee/ning_ma",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:rojas-andres",
+            "fifa_name": "ROJAS Andres",
+            "association_code": "COL",
+            "candidate_slug": "andres_rojas",
+            "url": "https://worldreferee.com/referee/andres_rojas",
+            "sample_size_matches": 25
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+            "fifa_name": "CALDERON Juan",
+            "association_code": "CRC",
+            "candidate_slug": "juan_calderon",
+            "url": "https://worldreferee.com/referee/juan_calderon",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+            "fifa_name": "MOHAMED Amin",
+            "association_code": "EGY",
+            "candidate_slug": "amin_mohamed",
+            "url": "https://worldreferee.com/referee/amin_mohamed",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
+            "fifa_name": "HERNANDEZ Alejandro",
+            "association_code": "ESP",
+            "candidate_slug": "alejandro_hernandez",
+            "url": "https://worldreferee.com/referee/alejandro_hernandez",
+            "sample_size_matches": 1
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:atcho-pierre",
+            "fifa_name": "ATCHO Pierre",
+            "association_code": "GAB",
+            "candidate_slug": "pierre_atcho",
+            "url": "https://worldreferee.com/referee/pierre_atcho",
+            "sample_size_matches": 5
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:nation-oshane",
+            "fifa_name": "NATION Oshane",
+            "association_code": "JAM",
+            "candidate_slug": "oshane_nation",
+            "url": "https://worldreferee.com/referee/oshane_nation",
+            "sample_size_matches": 17
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
+            "fifa_name": "ARAKI Yusuke",
+            "association_code": "JPN",
+            "candidate_slug": "yusuke_araki",
+            "url": "https://worldreferee.com/referee/yusuke_araki",
+            "sample_size_matches": 14
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+            "fifa_name": "AL TURAIS Khalid",
+            "association_code": "KSA",
+            "candidate_slug": "khalid_al_turais",
+            "url": "https://worldreferee.com/referee/khalid_al_turais",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
+            "fifa_name": "JAYED Jalal",
+            "association_code": "MAR",
+            "candidate_slug": "jalal_jayed",
+            "url": "https://worldreferee.com/referee/jalal_jayed",
+            "sample_size_matches": 1
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+            "fifa_name": "GARCIA Katia",
+            "association_code": "MEX",
+            "candidate_slug": "katia_garcia",
+            "url": "https://worldreferee.com/referee/katia_garcia",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ramos-cesar",
+            "fifa_name": "RAMOS Cesar",
+            "association_code": "MEX",
+            "candidate_slug": "cesar_ramos",
+            "url": "https://worldreferee.com/referee/cesar_ramos",
+            "sample_size_matches": 40
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+            "fifa_name": "BEIDA Dahane",
+            "association_code": "MTN",
+            "candidate_slug": "dahane_beida",
+            "url": "https://worldreferee.com/referee/dahane_beida",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:eskas-espen",
+            "fifa_name": "ESKAS Espen",
+            "association_code": "NOR",
+            "candidate_slug": "espen_eskas",
+            "url": "https://worldreferee.com/referee/espen_eskas",
+            "sample_size_matches": 46
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
+            "fifa_name": "ORTEGA Kevin",
+            "association_code": "PER",
+            "candidate_slug": "kevin_ortega",
+            "url": "https://worldreferee.com/referee/kevin_ortega",
+            "sample_size_matches": 4
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:pinheiro-joao",
+            "fifa_name": "PINHEIRO Joao",
+            "association_code": "POR",
+            "candidate_slug": "joao_pinheiro",
+            "url": "https://worldreferee.com/referee/joao_pinheiro",
+            "sample_size_matches": 24
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
+            "fifa_name": "AL JASSIM Abdulrahman",
+            "association_code": "QAT",
+            "candidate_slug": "abdulrahman_al_jassim",
+            "url": "https://worldreferee.com/referee/abdulrahman_al_jassim",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
+            "fifa_name": "TOM Abongile",
+            "association_code": "RSA",
+            "candidate_slug": "abongile_tom",
+            "url": "https://worldreferee.com/referee/abongile_tom",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
+            "fifa_name": "BARTON Ivan",
+            "association_code": "SLV",
+            "candidate_slug": "ivan_barton",
+            "url": "https://worldreferee.com/referee/ivan_barton",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
+            "fifa_name": "SCHAERER Sandro",
+            "association_code": "SUI",
+            "candidate_slug": "sandro_schaerer",
+            "url": "https://worldreferee.com/referee/sandro_schaerer",
+            "sample_size_matches": 44
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:omar-al-ali",
+            "fifa_name": "OMAR AL ALI",
+            "association_code": "UAE",
+            "candidate_slug": "omar_al_ali",
+            "url": "https://worldreferee.com/referee/omar_al_ali",
+            "sample_size_matches": 14
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tejera-gustavo",
+            "fifa_name": "TEJERA Gustavo",
+            "association_code": "URU",
+            "candidate_slug": "gustavo_tejera",
+            "url": "https://worldreferee.com/referee/gustavo_tejera",
+            "sample_size_matches": 4
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:elfath-ismail",
+            "fifa_name": "ELFATH Ismail",
+            "association_code": "USA",
+            "candidate_slug": "ismail_elfath",
+            "url": "https://worldreferee.com/referee/ismail_elfath",
+            "sample_size_matches": 28
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+            "fifa_name": "PENSO Tori",
+            "association_code": "USA",
+            "candidate_slug": "tori_penso",
+            "url": "https://worldreferee.com/referee/tori_penso",
+            "sample_size_matches": 0
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:tantashev-ilgiz",
+            "fifa_name": "TANTASHEV Ilgiz",
+            "association_code": "UZB",
+            "candidate_slug": "ilgiz_tantashev",
+            "url": "https://worldreferee.com/referee/ilgiz_tantashev",
+            "sample_size_matches": 38
+          },
+          {
+            "official_id": "official:fifa-world-cup:2026:referee:valenzuela-jesus",
+            "fifa_name": "VALENZUELA Jesus",
+            "association_code": "VEN",
+            "candidate_slug": "jesus_valenzuela",
+            "url": "https://worldreferee.com/referee/jesus_valenzuela",
+            "sample_size_matches": 40
+          }
+        ]
+      }
+    }
   },
   "rows": [
     {
@@ -1672,9 +3744,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 6",
-            "home": "Rangers",
-            "away": "Tottenham",
-            "result": "1-1 (0-0)",
+            "home": "IF Elfsborg",
+            "away": "Qarabag",
+            "result": "1-0 (0-0)",
             "date": "2024-12-12",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -1683,9 +3755,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 6",
-            "home": "IF Elfsborg",
-            "away": "Qarabag",
-            "result": "1-0 (0-0)",
+            "home": "Rangers",
+            "away": "Tottenham",
+            "result": "1-1 (0-0)",
             "date": "2024-12-12",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -1837,9 +3909,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
-            "home": "Petrocub",
-            "away": "The New Saints",
-            "result": "1-0 (1-0)",
+            "home": "Panevėžys",
+            "away": "Maccabi Tel Aviv",
+            "result": "1-2 (0-2)",
             "date": "2024-08-06",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -1848,9 +3920,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
-            "home": "Panevėžys",
-            "away": "Maccabi Tel Aviv",
-            "result": "1-2 (0-2)",
+            "home": "Petrocub",
+            "away": "The New Saints",
+            "result": "1-0 (1-0)",
             "date": "2024-08-06",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -4835,17 +6907,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 7",
-            "home": "Ludogorets",
-            "away": "FC Midtjylland",
-            "result": "0-2 (0-1)",
-            "date": "2025-01-23",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 7",
             "home": "Plzen",
             "away": "Anderlecht",
             "result": "2-0 (2-0)",
@@ -4860,6 +6921,17 @@
             "home": "Bodo/Glimt",
             "away": "Maccabi Tel Aviv",
             "result": "3-1 (1-1)",
+            "date": "2025-01-23",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 7",
+            "home": "Ludogorets",
+            "away": "FC Midtjylland",
+            "result": "0-2 (0-1)",
             "date": "2025-01-23",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -4890,17 +6962,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 5",
-            "home": "Ferencvarosi TC",
-            "away": "Malmo FF",
-            "result": "4-1 (2-1)",
-            "date": "2024-11-28",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 5",
             "home": "Nice",
             "away": "Rangers",
             "result": "1-4 (0-3)",
@@ -4915,6 +6976,17 @@
             "home": "Dynamo Kyiv",
             "away": "Plzen",
             "result": "1-2 (0-0)",
+            "date": "2024-11-28",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 5",
+            "home": "Ferencvarosi TC",
+            "away": "Malmo FF",
+            "result": "4-1 (2-1)",
             "date": "2024-11-28",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -5000,17 +7072,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
-            "home": "FK Partizan",
-            "away": "FC Lugano",
-            "result": "0-1 (0-0)",
-            "date": "2024-08-08",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "3rd Qualifying Round",
             "home": "Molde",
             "away": "Cercle Brugge",
             "result": "3-0 (3-0)",
@@ -5025,6 +7086,17 @@
             "home": "UE Santa Coloma",
             "away": "Rīgas FS",
             "result": "0-2 (0-2)",
+            "date": "2024-08-08",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "3rd Qualifying Round",
+            "home": "FK Partizan",
+            "away": "FC Lugano",
+            "result": "0-1 (0-0)",
             "date": "2024-08-08",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -7339,17 +9411,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 7",
-            "home": "Bodo/Glimt",
-            "away": "Maccabi Tel Aviv",
-            "result": "3-1 (1-1)",
-            "date": "2025-01-23",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 7",
             "home": "Ludogorets",
             "away": "FC Midtjylland",
             "result": "0-2 (0-1)",
@@ -7364,6 +9425,17 @@
             "home": "Plzen",
             "away": "Anderlecht",
             "result": "2-0 (2-0)",
+            "date": "2025-01-23",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 7",
+            "home": "Bodo/Glimt",
+            "away": "Maccabi Tel Aviv",
+            "result": "3-1 (1-1)",
             "date": "2025-01-23",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -7394,17 +9466,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 5",
-            "home": "Dynamo Kyiv",
-            "away": "Plzen",
-            "result": "1-2 (0-0)",
-            "date": "2024-11-28",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 5",
             "home": "Ferencvarosi TC",
             "away": "Malmo FF",
             "result": "4-1 (2-1)",
@@ -7419,6 +9480,17 @@
             "home": "Nice",
             "away": "Rangers",
             "result": "1-4 (0-3)",
+            "date": "2024-11-28",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 5",
+            "home": "Dynamo Kyiv",
+            "away": "Plzen",
+            "result": "1-2 (0-0)",
             "date": "2024-11-28",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -7504,17 +9576,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
-            "home": "UE Santa Coloma",
-            "away": "Rīgas FS",
-            "result": "0-2 (0-2)",
-            "date": "2024-08-08",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "3rd Qualifying Round",
             "home": "FK Partizan",
             "away": "FC Lugano",
             "result": "0-1 (0-0)",
@@ -7529,6 +9590,17 @@
             "home": "Molde",
             "away": "Cercle Brugge",
             "result": "3-0 (3-0)",
+            "date": "2024-08-08",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "3rd Qualifying Round",
+            "home": "UE Santa Coloma",
+            "away": "Rīgas FS",
+            "result": "0-2 (0-2)",
             "date": "2024-08-08",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -7656,6 +9728,17 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 7",
+            "home": "Ludogorets",
+            "away": "FC Midtjylland",
+            "result": "0-2 (0-1)",
+            "date": "2025-01-23",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 7",
             "home": "Plzen",
             "away": "Anderlecht",
             "result": "2-0 (2-0)",
@@ -7670,17 +9753,6 @@
             "home": "Bodo/Glimt",
             "away": "Maccabi Tel Aviv",
             "result": "3-1 (1-1)",
-            "date": "2025-01-23",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 7",
-            "home": "Ludogorets",
-            "away": "FC Midtjylland",
-            "result": "0-2 (0-1)",
             "date": "2025-01-23",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -7711,6 +9783,17 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 5",
+            "home": "Ferencvarosi TC",
+            "away": "Malmo FF",
+            "result": "4-1 (2-1)",
+            "date": "2024-11-28",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 5",
             "home": "Nice",
             "away": "Rangers",
             "result": "1-4 (0-3)",
@@ -7732,11 +9815,11 @@
           },
           {
             "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 5",
-            "home": "Ferencvarosi TC",
-            "away": "Malmo FF",
-            "result": "4-1 (2-1)",
-            "date": "2024-11-28",
+            "stage": "League Stage - 4",
+            "home": "Bodo/Glimt",
+            "away": "Qarabag",
+            "result": "1-2 (1-1)",
+            "date": "2024-11-07",
             "cards_text": "",
             "yellow_cards_visible": 0,
             "red_cards_visible": 0
@@ -7747,17 +9830,6 @@
             "home": "Dynamo Kyiv",
             "away": "Ferencvarosi TC",
             "result": "0-4 (0-0)",
-            "date": "2024-11-07",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 4",
-            "home": "Bodo/Glimt",
-            "away": "Qarabag",
-            "result": "1-2 (1-1)",
             "date": "2024-11-07",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -7777,9 +9849,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 1",
-            "home": "Malmo FF",
-            "away": "Rangers",
-            "result": "0-2 (0-1)",
+            "home": "FCSB",
+            "away": "Rīgas FS",
+            "result": "4-1 (2-1)",
             "date": "2024-09-26",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -7788,9 +9860,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 1",
-            "home": "FCSB",
-            "away": "Rīgas FS",
-            "result": "4-1 (2-1)",
+            "home": "Malmo FF",
+            "away": "Rangers",
+            "result": "0-2 (0-1)",
             "date": "2024-09-26",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -7821,17 +9893,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
-            "home": "Molde",
-            "away": "Cercle Brugge",
-            "result": "3-0 (3-0)",
-            "date": "2024-08-08",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "3rd Qualifying Round",
             "home": "UE Santa Coloma",
             "away": "Rīgas FS",
             "result": "0-2 (0-2)",
@@ -7854,10 +9915,10 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
-            "home": "Petrocub",
-            "away": "The New Saints",
-            "result": "1-0 (1-0)",
-            "date": "2024-08-06",
+            "home": "Molde",
+            "away": "Cercle Brugge",
+            "result": "3-0 (3-0)",
+            "date": "2024-08-08",
             "cards_text": "",
             "yellow_cards_visible": 0,
             "red_cards_visible": 0
@@ -7868,6 +9929,17 @@
             "home": "Panevėžys",
             "away": "Maccabi Tel Aviv",
             "result": "1-2 (0-2)",
+            "date": "2024-08-06",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "3rd Qualifying Round",
+            "home": "Petrocub",
+            "away": "The New Saints",
+            "result": "1-0 (1-0)",
             "date": "2024-08-06",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -8116,28 +10188,6 @@
             "red_cards_visible": 0
           },
           {
-            "competition": "Comp 2018 2024",
-            "stage": "LAST_16",
-            "home": "Switzerland",
-            "away": "Italy",
-            "result": "2-0 (1-0)",
-            "date": "2024-06-29",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "Comp 2018 2024",
-            "stage": "GROUP_STAGE",
-            "home": "Belgium",
-            "away": "Romania",
-            "result": "2-0 (1-0)",
-            "date": "2024-06-22",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
             "competition": "UEFA Euro Championship 2024",
             "stage": "Round of 16",
             "home": "Switzerland",
@@ -8151,6 +10201,28 @@
           {
             "competition": "UEFA Euro Championship 2024",
             "stage": "Group E - 2",
+            "home": "Belgium",
+            "away": "Romania",
+            "result": "2-0 (1-0)",
+            "date": "2024-06-22",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "LAST_16",
+            "home": "Switzerland",
+            "away": "Italy",
+            "result": "2-0 (1-0)",
+            "date": "2024-06-29",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "GROUP_STAGE",
             "home": "Belgium",
             "away": "Romania",
             "result": "2-0 (1-0)",
@@ -9140,17 +11212,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 6",
-            "home": "Rangers",
-            "away": "Tottenham",
-            "result": "1-1 (0-0)",
-            "date": "2024-12-12",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 6",
             "home": "IF Elfsborg",
             "away": "Qarabag",
             "result": "1-0 (0-0)",
@@ -9161,11 +11222,11 @@
           },
           {
             "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 5",
-            "home": "Ferencvarosi TC",
-            "away": "Malmo FF",
-            "result": "4-1 (2-1)",
-            "date": "2024-11-28",
+            "stage": "League Stage - 6",
+            "home": "Rangers",
+            "away": "Tottenham",
+            "result": "1-1 (0-0)",
+            "date": "2024-12-12",
             "cards_text": "",
             "yellow_cards_visible": 0,
             "red_cards_visible": 0
@@ -9194,11 +11255,11 @@
           },
           {
             "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 4",
-            "home": "Bodo/Glimt",
-            "away": "Qarabag",
-            "result": "1-2 (1-1)",
-            "date": "2024-11-07",
+            "stage": "League Stage - 5",
+            "home": "Ferencvarosi TC",
+            "away": "Malmo FF",
+            "result": "4-1 (2-1)",
+            "date": "2024-11-28",
             "cards_text": "",
             "yellow_cards_visible": 0,
             "red_cards_visible": 0
@@ -9209,6 +11270,17 @@
             "home": "Dynamo Kyiv",
             "away": "Ferencvarosi TC",
             "result": "0-4 (0-0)",
+            "date": "2024-11-07",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 4",
+            "home": "Bodo/Glimt",
+            "away": "Qarabag",
+            "result": "1-2 (1-1)",
             "date": "2024-11-07",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -9272,17 +11344,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
-            "home": "UE Santa Coloma",
-            "away": "Rīgas FS",
-            "result": "0-2 (0-2)",
-            "date": "2024-08-08",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "3rd Qualifying Round",
             "home": "FK Partizan",
             "away": "FC Lugano",
             "result": "0-1 (0-0)",
@@ -9297,6 +11358,17 @@
             "home": "Molde",
             "away": "Cercle Brugge",
             "result": "3-0 (3-0)",
+            "date": "2024-08-08",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "3rd Qualifying Round",
+            "home": "UE Santa Coloma",
+            "away": "Rīgas FS",
+            "result": "0-2 (0-2)",
             "date": "2024-08-08",
             "cards_text": "",
             "yellow_cards_visible": 0,

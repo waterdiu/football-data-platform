@@ -212,7 +212,7 @@
   - 输入：`world_cup_2026_match_officials_master.json`
   - 输出：`reports/worldreferee_referee_probe_report.json`
   - 可选输出：`data/raw/experimental/referee_sources/worldreferee/*.html`
-  - 用途：小样本验证 WorldReferee 对 2026 世界杯主裁的页面覆盖、字段稳定性和逐场历史样本。该脚本是 `probe_only`，不得直接写入 `normalized` 或 public API。
+  - 用途：验证 WorldReferee 对 2026 世界杯主裁的页面覆盖、字段稳定性、逐场历史样本、字段缺口和 20/30/50 场样本门槛。该脚本是 `probe_only`，不得直接写入 `normalized` 或 public API。
   - 当前定位：免费裁判画像补源验证工具。通过条款、ID 映射、字段稳定性和样本门槛审查前，只允许写 `reports` 或 `data/raw/experimental`。
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线

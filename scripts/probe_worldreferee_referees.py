@@ -204,6 +204,69 @@ def probe_referee(referee: dict, *, write_raw: bool) -> dict:
     return row
 
 
+def row_label(row: dict) -> dict[str, object]:
+    return {
+        "official_id": row.get("official_id"),
+        "fifa_name": row.get("fifa_name"),
+        "association_code": row.get("association_code"),
+        "candidate_slug": row.get("candidate_slug"),
+        "url": row.get("url"),
+    }
+
+
+def stats_for(row: dict) -> dict[str, object]:
+    parsed = row.get("parsed") or {}
+    stats = parsed.get("stats") or {}
+    return stats if isinstance(stats, dict) else {}
+
+
+def coverage_for(row: dict) -> dict[str, object]:
+    parsed = row.get("parsed") or {}
+    coverage = parsed.get("field_coverage") or {}
+    return coverage if isinstance(coverage, dict) else {}
+
+
+def sample_size_for(row: dict) -> int:
+    value = stats_for(row).get("matches")
+    return int(value) if isinstance(value, int | float) else 0
+
+
+def build_gap_summary(rows: list[dict], coverage_keys: tuple[str, ...]) -> dict[str, object]:
+    available_rows = [row for row in rows if row.get("probe_status") == "available"]
+    by_field = {}
+    for key in coverage_keys:
+        by_field[key] = [
+            row_label(row)
+            for row in available_rows
+            if not coverage_for(row).get(key)
+        ]
+
+    sample_thresholds = {
+        "sample_ge_20_report_explanation": 20,
+        "sample_ge_30_style_distillation": 30,
+        "sample_ge_50_strong_model_signal": 50,
+    }
+    sample_readiness = {}
+    for label, threshold in sample_thresholds.items():
+        ready = [row for row in available_rows if sample_size_for(row) >= threshold]
+        sample_readiness[label] = {
+            "threshold_matches": threshold,
+            "ready_count": len(ready),
+            "missing_count": len(available_rows) - len(ready),
+            "ready": [row_label(row) | {"sample_size_matches": sample_size_for(row)} for row in ready],
+            "missing": [row_label(row) | {"sample_size_matches": sample_size_for(row)} for row in available_rows if sample_size_for(row) < threshold],
+        }
+
+    matched_with_stats = [row for row in available_rows if coverage_for(row).get("matches")]
+    return {
+        "matched_pages": len(available_rows),
+        "matched_with_stats": len(matched_with_stats),
+        "matched_without_stats": [row_label(row) for row in available_rows if not coverage_for(row).get("matches")],
+        "missing_by_field": by_field,
+        "sample_readiness": sample_readiness,
+    }
+
+
 def build_report(*, limit: int | None, sleep_seconds: float, write_raw: bool) -> dict:
     generated_at = utc_now()
     rows = []
@@ -231,8 +294,19 @@ def build_report(*, limit: int | None, sleep_seconds: float, write_raw: bool) ->
         "summary": {
             "available": len(available_rows),
             "unavailable": len(rows) - len(available_rows),
+            "match_rate": round(len(available_rows) / len(rows), 4) if rows else 0,
             "field_coverage": {
                 key: sum(1 for row in available_rows if (row.get("parsed") or {}).get("field_coverage", {}).get(key))
+                for key in coverage_keys
+            },
+            "field_coverage_rate": {
+                key: round(
+                    sum(1 for row in available_rows if (row.get("parsed") or {}).get("field_coverage", {}).get(key))
+                    / len(available_rows),
+                    4,
+                )
+                if available_rows
+                else 0
                 for key in coverage_keys
             },
             "match_history_rows_total": sum(
@@ -240,6 +314,7 @@ def build_report(*, limit: int | None, sleep_seconds: float, write_raw: bool) ->
                 for row in available_rows
             ),
         },
+        "gap_summary": build_gap_summary(rows, coverage_keys),
         "rows": rows,
     }
 

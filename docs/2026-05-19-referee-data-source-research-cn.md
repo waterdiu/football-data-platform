@@ -89,6 +89,8 @@ WorldReferee 小样本验证结果：
 - 32 个页面有点球字段，29 个页面有犯规字段。
 - 52 人合计抽取到 849 条逐场历史样本。
 - 11 个页面可访问但概要统计和逐场样本为空：`Yael Falcon Perez`、`Ma Ning`、`Juan Calderon`、`Amin Mohamed`、`Khalid Al Turais`、`Katia Garcia`、`Dahane Beida`、`Abdulrahman Al Jassim`、`Abongile Tom`、`Ivan Barton`、`Tori Penso`。
+- 报告新增机器可读 `gap_summary`：按字段列出缺口名单，并按样本门槛输出 `sample_ge_20_report_explanation`、`sample_ge_30_style_distillation`、`sample_ge_50_strong_model_signal`。
+- 按 WorldReferee 概要 `matches` 样本数粗算：30 人达到报告解释门槛，26 人达到风格蒸馏候选门槛，19 人达到强模型信号候选门槛。
 - `Szymon Marciniak` 页面可访问，概要包含 134 场、38 项赛事、黄牌/红牌/点球/犯规、活跃年份和逐场比赛历史。
 - `Facundo Tello` 页面可访问，概要包含 14 场、7 项赛事、黄牌/红牌/点球/犯规、2022 World Cup 逐场记录。
 - `Mustapha Ghorbal` 页面可访问，概要包含 44 场、20 项赛事、黄牌/红牌/点球/犯规、CAF 和 World Cup 记录。
