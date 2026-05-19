@@ -215,7 +215,13 @@ FBref live 抓取验证结果：
 
 ### 5.4 雷速类
 
-当前结论：代码层确认可解析赔率/比分字段，但不能作为生产源。
+当前结论：旧代码层确认可解析赔率/比分字段，但没有找到可直接复用的当前维护项目，不能作为生产源。
+
+2026-05-19 复查：
+
+- GitHub repository search：`leisu football odds`、`雷速 足球 赔率`、`data.leisu.com odds`、`odds-3 leisu` 均未找到维护良好、能直接用于当前项目的 GitHub 源。
+- GitHub code search 对 `data.leisu.com odds`、`odds-3 leisu` 未返回可采信项目；部分搜索结果为无关博彩/赔率项目。
+- 因此不能把雷速描述为“已验证可抓取”。当前只能描述为“旧项目代码存在字段解析逻辑，但未完成 live 验证”。
 
 已检查 GitHub 项目：
 
@@ -244,7 +250,45 @@ FBref live 抓取验证结果：
 - 只作为字段理解、实验、离线研究。
 - 如需 live，只能写 `data/raw/experimental/leisu`，不得进入 normalized/public。
 
-### 5.5 TheOddsAPI / API-FOOTBALL / 付费源
+### 5.5 HKJC
+
+当前结论：HKJC 是有价值的赔率候选，但当前只能列为 `experimental_blocked_live`，不能进入生产。
+
+已验证：
+
+- GitHub 候选：`Bobosky2005/hkjc-api`。
+- 仓库许可：MIT。
+- 最近更新时间：2026-05-17。
+- README 声明支持 football matches、match details、running/live match data、historic match results、football odds。
+- 支持的足球赔率类型包括 `HAD` 主客和、`HHA/HDC` 让球、`HIL` 大小、`FHA/FHL` 半场市场、`CRS/FCS` 波胆、`TTG` 总进球、`HFT` 半全场等。
+- 源码确认默认 GraphQL endpoint 为 `https://info.cld.hkjc.com/graphql/base/`。
+- 本机最小 GraphQL 查询 `timeOffset { fb }` 返回正常，说明 endpoint 可达。
+
+未通过：
+
+- 本机直接查询 `matches`（含 `HAD/HHA/HIL` 或 `HAD/HDC/HIL/CRS`）返回 `WHITELIST_ERROR`。
+- 本机直接查询 `matchResult` 历史赛果同样返回 `WHITELIST_ERROR`。
+- 加 `origin: https://football.hkjc.com`、`referer`、`user-agent` 后仍返回 `WHITELIST_ERROR`。
+
+原因判断：
+
+- 不是网络完全不可达，因为 `timeOffset` 查询成功。
+- 阻断点是 HKJC football `matches/matchResult` 下游白名单或访问策略。
+- `hkjc-api` 是非官方 wrapper，不等于 HKJC 授权开放 API。
+
+可获取字段，如果白名单问题解决：
+
+- 比赛 ID、前端 ID、日期、开球时间、状态、主客队、赛事、场地、TV、running score、角球。
+- 赔率池 `foPools`，含 `oddsType`、状态、更新时间、盘口线、选项、currentOdds。
+- 历史赛果与 result-only payout pools。
+
+当前处理：
+
+- 不写 `normalized`、`model` 或 public API。
+- 不作为 World Cup AH/OU 主线。
+- 若继续验证，只能新增 `data/raw/experimental/hkjc` probe，先解决 `WHITELIST_ERROR`、条款审查和 match_id 映射，再考虑模型低置信补源。
+
+### 5.6 TheOddsAPI / API-FOOTBALL / 付费源
 
 | 来源 | 当前结论 | 费用判断 | 适合场景 |
 |---|---|---|---|

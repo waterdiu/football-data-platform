@@ -338,7 +338,7 @@ data/raw/experimental/
 当前日期：2026-05-16；世界杯开赛：2026-06-11。
 
 - 本周：用 `scripts/validate_reep_worldcup_coverage.py` 验证 Reep 对已导入世界杯官方名单的覆盖率，决定是否继续推进 Reep 作为世界杯 ID 映射候选。
-- 本周：对 HKJC 做“条款与合规可用性”优先验证，结论写入本文件并同步更新 `reports/third_party_source_evaluation.json`。
+- 本周：对 HKJC 做“条款与合规可用性”优先验证。2026-05-19 初步验证结论：`Bobosky2005/hkjc-api` 为 MIT 非官方 wrapper，支持 football matches、running score、historic results 与 `HAD/HHA/HDC/HIL/CRS` 等赔率类型；HKJC GraphQL 基础端点可达，但本机直接查询 football `matches` / `matchResult` 返回 `WHITELIST_ERROR`。因此 HKJC 暂定 `experimental_blocked_live`，不得进入 production，除非后续解决白名单/条款问题并完成字段采样。
 - 下周：接入 `dcaribou/transfermarkt-datasets` 的离线导入流程，用于补齐人物基础事实字段（不影响世界杯前主链路）。
 - 5 月底前：随着 FIFA/足协名单逐步公布，持续用 manual patch 流水线导入世界杯 rosters（见 roster 专题文档与脚本）。
 

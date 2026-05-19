@@ -66,7 +66,7 @@
 | 主客/中立拆分 | 已提供基础版 | fixtures + venues | 中立场已保留 | 派生 | 每次 fixture 更新 | 不强行把国家队中立赛归主客 |
 | 赛程负荷 | 已提供基础版 | fixtures/recent matches | 休息天数可用，旅行距离缺 | 派生 | 每次赛程更新 | 需要 venue/team coordinates |
 | 球队高级状态 | 部分提供 | FBref、Sofascore、API-FOOTBALL、StatsBomb/WhoScored | 当前多为基础 proxy；Sofascore experimental 可取控球/射门/xG | 先 report/raw，再 model-only | 每周/赛前 | 缺字段为 null，不填 0 |
-| 赔率 1X2/AH/OU | 缺生产源 | Odds-API.io、BSD/Bzzoiro、TheOddsAPI Business、雷速 experimental | Odds-API.io 可取足球 AH/OU；World Cup 未验证；BSD 无 AH/World Cup 映射 | experimental sampling | 比赛前 5 天复查；若可见再 T-24/T-6/T-1/closing | `market/bookmaker/line/odds/captured_at/snapshot_type` |
+| 赔率 1X2/AH/OU | 缺生产源 | Odds-API.io、BSD/Bzzoiro、TheOddsAPI Business、HKJC experimental、雷速 experimental | Odds-API.io 可取足球 AH/OU；World Cup 未验证；BSD 无 AH/World Cup 映射；HKJC GraphQL 基础端点可达但足球 match/odds 查询当前返回 `WHITELIST_ERROR` | experimental sampling | 比赛前 5 天复查；若可见再 T-24/T-6/T-1/closing | `market/bookmaker/line/odds/captured_at/snapshot_type` |
 | 确认首发 | 待窗口 | FIFA match centre、API-FOOTBALL、Sofascore experimental | 只能赛前 60-90 分钟 | API/官方页 | T-90/T-60/T-30/T-15 | `confirmed` 后不可覆盖，只新增快照 |
 | 伤停/停赛 | 部分 evidence | FIFA/足协/新闻、API-FOOTBALL、Transfermarkt | API-FOOTBALL free 对 WC 2026 restricted；新闻只做 evidence | 官方/新闻抽取 | 赛前 7 天每日，赛前 48h 加密 | status/confidence/evidence_url，不把无命中当无伤停 |
 | 天气 | 状态行已提供 | Open-Meteo、OpenWeather | Open-Meteo 可 fallback，赛前 16 天窗口 | API | T-72/T-24/T-6/T-1 | venue lat/lon -> forecast |
@@ -81,7 +81,8 @@
 | BSD/Bzzoiro | `verified_experimental` for 1X2/OU | 通用 odds、15 bookmaker、1X2/OU/BTTS/DC/DNB | World Cup `league_id=16&season_id=82` 返回 0；AH 未文档化 | 找真实 World Cup event mapping；若无 AH 则降级 |
 | TheOddsAPI | `blocked_by_plan` | 免费只 NBA/MLB | 足球需 Business $99/月 | 只有正式做 AH/OU/CLV 再评估 |
 | API-FOOTBALL odds | `blocked_by_plan_current_free_key` | 当前 Free key 对 WC 2026 fixtures/odds 返回 plan restricted | 拿不到 sample fixture id，lineups/injuries/events/statistics 只能等套餐升级或比赛窗口后重验 | 若升级 Pro 或以上，重跑 `scripts/probe_api_football_worldcup_runtime.py` |
-| 雷速类 | `metadata_only` | 旧项目代码有比分/1X2/AH/OU 字段解析 | 未 live 验证；逆向/页面/合规风险 | 仅如必要建立 raw experimental probe |
+| HKJC GraphQL / `hkjc-api` | `verified_experimental_blocked_live` | `Bobosky2005/hkjc-api` 为 MIT，README 与 GraphQL query 支持 `HAD`、`HHA/HDC`、`HIL`、`CRS`、running score、historic results | 直接 live 请求 `matches` / `matchResult` 当前返回 `WHITELIST_ERROR`；非官方 wrapper，合规条款仍需审查 | 暂不接生产；若继续只能建 `data/raw/experimental/hkjc` probe，并先解决白名单/条款问题 |
+| 雷速类 | `metadata_only_no_current_repo` | 旧项目代码有比分/1X2/AH/OU 字段解析；本次 GitHub exact search 未找到维护良好的当前项目 | 未 live 验证；逆向/页面/合规风险；无可靠维护源 | 仅如必要建立 raw experimental probe |
 
 ### 4.4 高级统计源验证矩阵
 
@@ -134,7 +135,7 @@
 1. 继续验证 FBref/英超球员候选是否可以成为 `model_only` 数据，不进入 public。
 2. 世界杯首场前 5 天重跑 Odds-API.io event scan。
 3. 若升级 API-FOOTBALL Pro 或以上，重跑 `scripts/probe_api_football_worldcup_runtime.py` 验证 odds、lineups、injuries、statistics、events。
-4. 如果仍缺生产级赔率，最后再评估付费源。
+4. 如果仍缺生产级赔率，最后再评估付费源；HKJC 只有在 `WHITELIST_ERROR` 和条款审查通过后才继续做字段采样。
 
 ## 8. 当前明确不做
 
