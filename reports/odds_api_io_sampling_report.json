@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-05-19T05:47:33.737482+00:00",
+  "provider": "odds_api_io",
+  "mode": "experimental_sampling_only",
+  "production_write_allowed": false,
+  "normalized_write_allowed": false,
+  "selected_bookmakers": [
+    "Sbobet",
+    "Bet365"
+  ],
+  "events_probe": {
+    "http_status": 200,
+    "error": null,
+    "event_count": 5
+  },
+  "sampled_event_count": 5,
+  "normalized_row_count": 163,
+  "market_row_counts": {
+    "one_x_two": 11,
+    "asian_handicap": 77,
+    "over_under": 75
+  },
+  "bookmaker_row_counts": {
+    "Bet365": 128,
+    "Bet365 (no latency)": 6,
+    "Sbobet": 29
+  },
+  "league_row_counts": {
+    "International Youth - U20 Friendly Games": 38,
+    "India - Indian Super League": 40,
+    "China - Chinese Super League": 85
+  },
+  "rows_by_event": {
+    "71465134": 38,
+    "68746508": 40,
+    "68995156": 38,
+    "68995158": 7,
+    "68995160": 40
+  },
+  "schema_mapping": {
+    "ML": "one_x_two",
+    "Spread": "asian_handicap",
+    "Alternative Asian Handicap": "asian_handicap",
+    "Totals": "over_under",
+    "Goals Over/Under": "over_under",
+    "Alternative Goal Line": "over_under"
+  },
+  "remaining_gates": [
+    "verify_world_cup_2026_or_senior_international_coverage",
+    "run_repeated_sampling_to_confirm_field_stability",
+    "confirm_free_tier_selected_bookmaker_persistence",
+    "do_not_use_for_market_consensus_or_clv_with_only_two_bookmakers"
+  ],
+  "events": [
+    {
+      "event": {
+        "event_id": 71465134,
+        "home": "Turkmenistan",
+        "away": "Uzbekistan",
+        "kickoff_at": "2026-05-19T07:30:00Z",
+        "status": "pending",
+        "sport": "football",
+        "league": "International Youth - U20 Friendly Games",
+        "league_slug": "international-youth-u20-friendly-games"
+      },
+      "http_status": 200,
+      "error": null,
+      "normalized_rows": 38
+    },
+    {
+      "event": {
+        "event_id": 68746508,
+        "home": "Northeast United FC",
+        "away": "Mohammedan SC",
+        "kickoff_at": "2026-05-19T11:30:00Z",
+        "status": "pending",
+        "sport": "football",
+        "league": "India - Indian Super League",
+        "league_slug": "india-indian-super-league"
+      },
+      "http_status": 200,
+      "error": null,
+      "normalized_rows": 40
+    },
+    {
+      "event": {
+        "event_id": 68995156,
+        "home": "Tianjin Jinmen Tiger",
+        "away": "Henan",
+        "kickoff_at": "2026-05-19T11:35:00Z",
+        "status": "pending",
+        "sport": "football",
+        "league": "China - Chinese Super League",
+        "league_slug": "china-chinese-super-league"
+      },
+      "http_status": 200,
+      "error": null,
+      "normalized_rows": 38
+    },
+    {
+      "event": {
+        "event_id": 68995158,
+        "home": "Shenzhen Peng City",
+        "away": "Dalian Yingbo FC",
+        "kickoff_at": "2026-05-19T11:35:00Z",
+        "status": "pending",
+        "sport": "football",
+        "league": "China - Chinese Super League",
+        "league_slug": "china-chinese-super-league"
+      },
+      "http_status": 200,
+      "error": null,
+      "normalized_rows": 7
+    },
+    {
+      "event": {
+        "event_id": 68995160,
+        "home": "Qingdao West Coast FC",
+        "away": "Beijing Guoan",
+        "kickoff_at": "2026-05-19T12:00:00Z",
+        "status": "pending",
+        "sport": "football",
+        "league": "China - Chinese Super League",
+        "league_slug": "china-chinese-super-league"
+      },
+      "http_status": 200,
+      "error": null,
+      "normalized_rows": 40
+    }
+  ]
+}

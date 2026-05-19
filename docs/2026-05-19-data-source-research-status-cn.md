@@ -11,6 +11,8 @@
 
 本文只定义数据层状态和证据，不改变生产采集策略。所有未授权、逆向、爬虫、免费源 probe 结果默认不得进入 `data/normalized`、`data/model` 或 public API。
 
+后续同类调研必须自动落档归并：新增数据源、GitHub 项目、API key probe、字段覆盖验证、失败原因、费用规则或生产化判断时，必须优先更新本文；如果新增脚本、配置、报告或输出契约，还必须同步更新主基线 `DESIGN.md`。调研记录必须包含：来源、访问方式、能获取字段、不能获取字段、限制原因、是否允许进入 normalized/public、下一步验证条件。
+
 ## 2. 两个消费项目需要的数据
 
 ### 2.1 `worldcup/2026` 展示站
@@ -192,6 +194,8 @@ FBref live 抓取验证结果：
 - 正确流程是先 `GET /v3/events?sport=football&status=pending,live&bookmaker=Sbobet` 获取 `eventId`，再 `GET /v3/odds?eventId=<id>&bookmakers=Sbobet,Bet365`。
 - 已验证一个待赛足球 event 返回 `ML`、`Spread`、`Totals`、`Alternative Asian Handicap`、`Alternative Goal Line`、`Goals Over/Under` 等 market。
 - `Spread` / `Alternative Asian Handicap` 可映射为 AH，`Totals` / `Goals Over/Under` 可映射为 OU。
+- 已新增小型采样脚本 `scripts/sample_odds_api_io_snapshots.py`。它会选取 3-5 场 pending/live 足球比赛，把原始响应写入 `data/raw/experimental/odds-api-io`，把映射结果和字段稳定性摘要写入 `reports/odds_api_io_sampling_report.json`；采样结果不得进入 normalized/model/public。
+- 首次小型采样结果：5 场 pending/live 足球比赛，映射出 163 条候选标准行，其中 1X2 11 条、AH 77 条、OU 75 条。书商样本为 `Bet365`、`Bet365 (no latency)`、`Sbobet`；赛事样本为 U20 国际友谊赛、印度超、中超。该结果证明 AH/OU schema 映射可行，但仍未验证 2026 World Cup / 成年国际赛覆盖。
 - 本次样本为 International Youth / U20 Friendly，不是 2026 World Cup；因此 `world_cup_2026` 仍是 unknown。
 - 免费层只有 2 个 selected bookmakers，当前建议选择 `Sbobet + Bet365`。这能补 AH/OU 缺口，但不足以支撑 market consensus、sharp/soft 分层、closing line value 或强 Kelly 结论。
 
