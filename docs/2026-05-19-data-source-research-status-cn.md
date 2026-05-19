@@ -174,9 +174,10 @@ FBref live 抓取验证结果：
 
 公开信息：
 
-- 官网 pricing/free 页写明免费层 `free forever`、不需要信用卡、`100 requests/hour`、无试用到期时间。
-- 官网首页价格卡写明免费层为 2 个 bookmaker；付费 Starter 为 5 个 bookmaker、5,000 requests/hour。
-- 官网文档声明 Football、pre-match odds、live odds、ML/Asian Handicap/Over-Under 等市场可用。
+- 官网 pricing/free 页写明 REST 免费层 `free forever`、不需要信用卡、`100 requests/hour`、无试用到期时间。
+- 官网首页价格卡写明免费层为 2 个 bookmaker、REST API access；付费 Starter 为 5 个 bookmaker、5,000 requests/hour。
+- WebSocket 不是 REST 免费层的一部分。官网定价页把 WebSocket 标为 premium add-on，价格为对应 REST plan 的 2 倍；docs 也写明 WebSocket 是 add-on feature，需要账号启用。用户看到的 `Try WebSocket free for 3 days` 应理解为 WebSocket 实时推送试用，不是 REST free key 的 3 天有效期。
+- 官网文档声明 Football、pre-match odds、live odds、ML/Asian Handicap/Over-Under 等市场可用；但免费层只有 2 个 selected bookmakers，会限制模型对 market consensus、sharp/soft 分层和 CLV 的可靠性。
 - 这不是 iSportsAPI；iSportsAPI 的 15 天免费试用限制不适用于 Odds-API.io。
 
 必须验证：
@@ -185,7 +186,9 @@ FBref live 抓取验证结果：
 - 是否有 World Cup / international football。
 - 是否有 AH。
 - 是否有 OU line 和 bookmaker 明细。
-- 免费层能否长期使用、是否只有 2 家 bookmaker。
+- 免费层具体可选哪 2 家 bookmaker，是否能选 Pinnacle/Bet365/Betfair 等关键书商。
+- 免费层是否能访问 World Cup / international football、AH 和 OU 的完整 line。
+- WebSocket 3 天试用是否只对 WebSocket add-on 生效，以及试用结束后 REST key 是否保持可用。
 
 当前状态：
 

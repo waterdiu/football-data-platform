@@ -15,7 +15,7 @@
       "homepage": "https://odds-api.io/",
       "docs_url": "https://docs.odds-api.io/",
       "auth_env": "ODDS_API_IO_KEY",
-      "free_tier": "free forever, no credit card, 100 requests/hour, 2 bookmakers according to public pricing page",
+      "free_tier": "REST free forever, no credit card, 100 requests/hour, 2 bookmakers according to public pricing page; WebSocket is a paid add-on and may have a separate 3-day free trial",
       "soccer_coverage_claim": "football/soccer listed publicly; World Cup 2026 coverage must be verified",
       "markets_claimed": ["1x2", "over_under", "asian_handicap"],
       "markets_unknown": ["world_cup_2026"],
