@@ -30,6 +30,7 @@ PIPELINE = [
     "build_source_health_report.py",
     "build_data_quality_report.py",
     "build_world_cup_pre_tournament_readiness.py",
+    "build_world_cup_daily_action_items.py",
     "build_worldcup_2026_runtime_health.py",
     "build_world_cup_predictor_runtime_health.py",
     "build_migration_status.py",

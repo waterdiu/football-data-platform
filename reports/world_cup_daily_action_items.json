@@ -1,0 +1,207 @@
+{
+  "generated_at": "2026-05-19T00:00:00Z",
+  "source_report": "reports/world_cup_pre_tournament_readiness.json",
+  "scope": "worldcup_2026_daily_actions",
+  "summary": {
+    "do_now": 1,
+    "wait_for_plan": 2,
+    "wait_for_window": 3,
+    "monitor": 5,
+    "handoff": 1,
+    "no_action": 6
+  },
+  "actions": {
+    "do_now": [
+      {
+        "id": "runtime_odds",
+        "title": "赔率 1X2/AH/OU",
+        "phase": "P0_runtime",
+        "severity": "P0",
+        "status": "attention",
+        "detail": "runtime_odds_rows=0, odds_api_io_world_cup_candidates=0",
+        "next_action": "首场前 5 天重跑 Odds-API.io event scan；API-FOOTBALL Pro odds 只先验证，不直接作为强 Kelly/CLV。"
+      }
+    ],
+    "wait_for_plan": [
+      {
+        "id": "api_football_pro_coverage",
+        "title": "API-FOOTBALL Pro 覆盖复验",
+        "phase": "P0_runtime",
+        "severity": "P0",
+        "status": "pending_plan",
+        "detail": "probe_status=unknown, plan_restricted=True",
+        "next_action": "Pro 开通后立即重跑 scripts/probe_api_football_worldcup_runtime.py。"
+      },
+      {
+        "id": "runtime_injuries",
+        "title": "伤停/停赛运行期数据",
+        "phase": "P0_runtime",
+        "severity": "P0",
+        "status": "pending_plan",
+        "detail": "injury_status_counts={'missing_auth': 104}",
+        "next_action": "Pro 后验证 injuries；官方/新闻 evidence 继续作为低置信补源。"
+      }
+    ],
+    "wait_for_window": [
+      {
+        "id": "official_roster_import",
+        "title": "官方 26 人名单",
+        "phase": "P0_people",
+        "severity": "P0",
+        "status": "pending_window",
+        "detail": "imported_teams=9, pending_teams=39",
+        "next_action": "继续监控 FIFA/足协最终名单；第三方数据只补事实字段，不冒充官方名单。"
+      },
+      {
+        "id": "runtime_lineups",
+        "title": "确认首发",
+        "phase": "P0_runtime",
+        "severity": "P0",
+        "status": "pending_window",
+        "detail": "lineup_status_counts={'unavailable': 104}",
+        "next_action": "只能在 T-90/T-60/T-30/T-15 窗口采集；confirmed 后只新增快照不覆盖。"
+      },
+      {
+        "id": "runtime_weather",
+        "title": "天气预报",
+        "phase": "P1_runtime",
+        "severity": "P1",
+        "status": "pending_window",
+        "detail": "weather_status_counts={'unavailable': 104}",
+        "next_action": "进入 Open-Meteo 16 天预报窗口后刷新 T-72/T-24/T-6/T-1 天气。"
+      }
+    ],
+    "monitor": [
+      {
+        "id": "core_host_city_venues",
+        "title": "主办城市与球场",
+        "phase": "P0_core",
+        "severity": "P1",
+        "status": "pass",
+        "detail": "host_cities=16, venues=16",
+        "next_action": "复核 venue_id/host_city_id/lat/lon/roof/surface/altitude/source_urls。"
+      },
+      {
+        "id": "team_recent_matches",
+        "title": "48 队最近比赛基础数据",
+        "phase": "P0_site",
+        "severity": "P1",
+        "status": "pass",
+        "detail": "team_recent_match_rows=48",
+        "next_action": "继续用 API-FOOTBALL Pro 或历史数据补过程字段，基础比分必须保持稳定。"
+      },
+      {
+        "id": "coach_profiles",
+        "title": "48 队主教练基础档案",
+        "phase": "P1_people",
+        "severity": "P1",
+        "status": "pass",
+        "detail": "coach_profiles=48",
+        "next_action": "appointed_at/contract_until 仍需足协公告、FIFA profile、Wikidata 或 Transfermarkt manager profile 交叉校验。"
+      },
+      {
+        "id": "world_cup_referee_profiles",
+        "title": "世界杯裁判名单与画像",
+        "phase": "P1_people",
+        "severity": "P1",
+        "status": "pass",
+        "detail": "referee_profiles=50",
+        "next_action": "等待 FIFA 正式裁判名单/单场指派；样本不足时只展示，不入强模型结论。"
+      },
+      {
+        "id": "person_profile_snapshot_inputs",
+        "title": "人物画像快照输入",
+        "phase": "P1_model",
+        "severity": "P1",
+        "status": "attention",
+        "detail": "人物档案基础数据存在，但真实能力评分、真实缺阵影响、裁判画像和风格蒸馏仍缺强样本。",
+        "next_action": "先输出 confidence/sample_size/source/evidence；样本不足时只做报告和 Kelly 降权。"
+      }
+    ],
+    "handoff": [
+      {
+        "id": "runtime_odds",
+        "title": "赔率 1X2/AH/OU",
+        "phase": "P0_runtime",
+        "severity": "P0",
+        "status": "attention",
+        "detail": "runtime_odds_rows=0, odds_api_io_world_cup_candidates=0",
+        "next_action": "首场前 5 天重跑 Odds-API.io event scan；API-FOOTBALL Pro odds 只先验证，不直接作为强 Kelly/CLV。",
+        "handoff_target": "data-platform/odds-source-research"
+      }
+    ],
+    "no_action": [
+      {
+        "id": "core_fixtures_kickoff",
+        "title": "104 场赛程与 kickoff_at",
+        "phase": "P0_core",
+        "severity": "P0",
+        "status": "pass",
+        "detail": "fixtures=104, missing_kickoff=0",
+        "next_action": "若失败，先停止所有消费项目发布，重建 canonical fixtures。"
+      },
+      {
+        "id": "core_teams",
+        "title": "世界杯球队基础信息",
+        "phase": "P0_core",
+        "severity": "P0",
+        "status": "pass",
+        "detail": "teams=112",
+        "next_action": "少于 48 队时先修 canonical teams；多于 48 队时确认是否包含历史/候选队伍并保持 source_status。"
+      },
+      {
+        "id": "team_world_cup_history",
+        "title": "球队历届世界杯战绩",
+        "phase": "P0_site",
+        "severity": "P1",
+        "status": "pass",
+        "detail": "team_history_rows=48",
+        "next_action": "如果仍有 pending_source，确认是无参赛史还是缺数据源，并补 source_status。"
+      },
+      {
+        "id": "predictor_runtime_summary",
+        "title": "模型 runtime summary",
+        "phase": "P0_model",
+        "severity": "P0",
+        "status": "pass",
+        "detail": "runtime_summary_rows=104",
+        "next_action": "保持 104 场稳定行；缺失运行期数据必须标 source_status，不得填 0。"
+      },
+      {
+        "id": "predictor_predictions_source",
+        "title": "模型预测源与 kickoff",
+        "phase": "P0_model",
+        "severity": "P0",
+        "status": "pass",
+        "detail": "prediction_rows=104, missing_kickoff=0",
+        "next_action": "模型重新写回后必须通过 publish 层保留 kickoff/date_utc/venue/stage 字段。"
+      },
+      {
+        "id": "health_reports_available",
+        "title": "健康报告与质量报告",
+        "phase": "P1_ops",
+        "severity": "P1",
+        "status": "pass",
+        "detail": "source-health 和 data-quality 是排障入口。",
+        "next_action": "每次全量发布后重建 source-health、data-quality 和本 readiness 报告。"
+      }
+    ]
+  },
+  "recommended_today": [
+    {
+      "id": "runtime_odds",
+      "title": "赔率 1X2/AH/OU",
+      "phase": "P0_runtime",
+      "severity": "P0",
+      "status": "attention",
+      "detail": "runtime_odds_rows=0, odds_api_io_world_cup_candidates=0",
+      "next_action": "首场前 5 天重跑 Odds-API.io event scan；API-FOOTBALL Pro odds 只先验证，不直接作为强 Kelly/CLV。"
+    }
+  ],
+  "notes": [
+    "pending_plan 项等待 API 套餐或 key，不应反复调用受限接口。",
+    "pending_window 项等待官方名单、赛前首发、天气预报窗口或比赛窗口。",
+    "pass 但仍在 monitor 的项表示基础可用，但仍有增强字段或人工复核任务。",
+    "handoff 只列需要跨模型/赔率研究边界沟通的事项，不代表本脚本会修改其他项目。"
+  ]
+}

@@ -11,6 +11,7 @@
 - `docs/2026-05-19-data-source-research-status-cn.md`
 - `reports/data-quality.json`
 - `reports/world_cup_pre_tournament_readiness.json`
+- `reports/world_cup_daily_action_items.json`
 
 ## 1. 目标
 
@@ -30,7 +31,9 @@
 - 脚本：`scripts/build_world_cup_pre_tournament_readiness.py`
 - 输出：`reports/world_cup_pre_tournament_readiness.json`
 - 状态枚举：`pass`、`attention`、`pending_window`、`pending_plan`、`blocked`
-- 默认全量发布：`scripts/publish_all_world_cup_data.py` 会在 `source-health` 和 `data-quality` 后刷新该报告
+- 每日行动脚本：`scripts/build_world_cup_daily_action_items.py`
+- 每日行动输出：`reports/world_cup_daily_action_items.json`
+- 默认全量发布：`scripts/publish_all_world_cup_data.py` 会在 `source-health` 和 `data-quality` 后刷新 readiness 报告，再刷新 daily action items
 
 | 数据域 | 当前状态 | 判断 |
 |---|---|---|

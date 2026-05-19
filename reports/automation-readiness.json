@@ -88,6 +88,11 @@
       "external_repos": []
     },
     {
+      "script": "build_world_cup_daily_action_items.py",
+      "self_contained": true,
+      "external_repos": []
+    },
+    {
       "script": "build_worldcup_2026_runtime_health.py",
       "self_contained": true,
       "external_repos": []
@@ -215,6 +220,13 @@
       "external_repos": [],
       "self_contained": true,
       "reason": "Builds the pre-tournament readiness checklist status from platform-owned public datasets, model runtime files, and reports."
+    },
+    {
+      "script": "build_world_cup_daily_action_items.py",
+      "exists": true,
+      "external_repos": [],
+      "self_contained": true,
+      "reason": "Builds daily action buckets from the pre-tournament readiness report."
     },
     {
       "script": "build_worldcup_2026_runtime_health.py",
