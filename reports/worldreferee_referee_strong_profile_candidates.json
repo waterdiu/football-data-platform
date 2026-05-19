@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T15:41:16Z",
+  "generated_at": "2026-05-19T15:47:29Z",
   "status": "experimental_report_only",
   "source": "WorldReferee",
   "source_report": "reports/worldreferee_referee_probe_report.json",
@@ -71,6 +71,24 @@
         "label": "medium_candidate",
         "sample_score": 0.88,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 60.57,
+        "card_strictness": 50.57,
+        "red_card_risk": 7.58,
+        "penalty_tendency": 84.0,
+        "foul_involvement": 77.27,
+        "experience": 44.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 6.4091,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.285,
+        "red_card_risk": -0.417,
+        "penalty_risk": 0.93,
+        "ou_modifier_candidate": 0.025,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_medium",
@@ -403,6 +421,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -452,6 +488,24 @@
         "label": "low_report_candidate",
         "sample_score": 0.52,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 62.55,
+        "card_strictness": 60.57,
+        "red_card_risk": 98.79,
+        "penalty_tendency": 74.0,
+        "foul_involvement": 15.93,
+        "experience": 26.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 2.1154,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.46,
+        "red_card_risk": 1.0,
+        "penalty_risk": 0.73,
+        "ou_modifier_candidate": 0.059,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
@@ -779,6 +833,24 @@
         "sample_score": 0.28,
         "field_coverage": 1.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 50.5,
+        "card_strictness": 24.57,
+        "red_card_risk": 80.61,
+        "penalty_tendency": 5.25,
+        "foul_involvement": 78.57,
+        "experience": 14.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 6.5,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.17,
+        "red_card_risk": 0.922,
+        "penalty_risk": -0.645,
+        "ou_modifier_candidate": 0.002,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -983,6 +1055,24 @@
         "label": "high_candidate",
         "sample_score": 1.0,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 63.35,
+        "card_strictness": 64.57,
+        "red_card_risk": 56.06,
+        "penalty_tendency": 59.5,
+        "foul_involvement": 0.0,
+        "experience": 100.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 0.8788,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.53,
+        "red_card_risk": 0.472,
+        "penalty_risk": 0.44,
+        "ou_modifier_candidate": 0.032,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_medium",
@@ -1315,6 +1405,24 @@
         "sample_score": 0.88,
         "field_coverage": 1.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 60.36,
+        "card_strictness": 48.57,
+        "red_card_risk": 35.15,
+        "penalty_tendency": 72.75,
+        "foul_involvement": 61.69,
+        "experience": 44.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 5.3182,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.25,
+        "red_card_risk": 0.089,
+        "penalty_risk": 0.705,
+        "ou_modifier_candidate": 0.031,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [
         "yellow_card_medium",
         "red_card_medium",
@@ -1645,6 +1753,24 @@
         "label": "high_candidate",
         "sample_score": 1.0,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 66.09,
+        "card_strictness": 74.57,
+        "red_card_risk": 57.88,
+        "penalty_tendency": 70.75,
+        "foul_involvement": 36.34,
+        "experience": 57.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 3.5439,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.705,
+        "red_card_risk": 0.506,
+        "penalty_risk": 0.665,
+        "ou_modifier_candidate": 0.042,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_high",
@@ -1977,6 +2103,24 @@
         "sample_score": 0.38,
         "field_coverage": 1.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 33.03,
+        "card_strictness": 21.14,
+        "red_card_risk": 25.76,
+        "penalty_tendency": 27.0,
+        "foul_involvement": 5.26,
+        "experience": 19.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 1.3684,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.23,
+        "red_card_risk": -0.083,
+        "penalty_risk": -0.21,
+        "ou_modifier_candidate": -0.011,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -2237,6 +2381,24 @@
         "sample_score": 0.14,
         "field_coverage": 1.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 47.88,
+        "card_strictness": 61.14,
+        "red_card_risk": 0.0,
+        "penalty_tendency": 23.25,
+        "foul_involvement": 95.92,
+        "experience": 7.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 7.7143,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.47,
+        "red_card_risk": -0.667,
+        "penalty_risk": -0.285,
+        "ou_modifier_candidate": -0.031,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -2365,6 +2527,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -2414,6 +2594,24 @@
         "label": "low_report_candidate",
         "sample_score": 0.5,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 63.55,
+        "card_strictness": 84.57,
+        "red_card_risk": 54.55,
+        "penalty_tendency": 47.5,
+        "foul_involvement": 69.71,
+        "experience": 25.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 5.88,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.88,
+        "red_card_risk": 0.444,
+        "penalty_risk": 0.2,
+        "ou_modifier_candidate": 0.021,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
@@ -2741,6 +2939,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -2791,6 +3007,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -2840,6 +3074,24 @@
         "label": "high_candidate",
         "sample_score": 1.0,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 50.75,
+        "card_strictness": 30.0,
+        "red_card_risk": 38.48,
+        "penalty_tendency": 25.75,
+        "foul_involvement": 10.25,
+        "experience": 100.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 1.7176,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.075,
+        "red_card_risk": 0.15,
+        "penalty_risk": -0.235,
+        "ou_modifier_candidate": -0.005,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_medium",
@@ -3172,6 +3424,24 @@
         "sample_score": 1.0,
         "field_coverage": 1.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 53.75,
+        "card_strictness": 37.43,
+        "red_card_risk": 40.91,
+        "penalty_tendency": 24.75,
+        "foul_involvement": 19.43,
+        "experience": 100.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 2.3602,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.055,
+        "red_card_risk": 0.194,
+        "penalty_risk": -0.255,
+        "ou_modifier_candidate": -0.004,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [
         "yellow_card_medium",
         "red_card_medium",
@@ -3503,6 +3773,24 @@
         "sample_score": 0.02,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.5,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 1.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -3564,6 +3852,24 @@
         "label": "high_candidate",
         "sample_score": 1.0,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 32.89,
+        "card_strictness": 0.0,
+        "red_card_risk": 19.7,
+        "penalty_tendency": 0.0,
+        "foul_involvement": 18.64,
+        "experience": 59.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 2.3051,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.94,
+        "red_card_risk": -0.194,
+        "penalty_risk": -0.83,
+        "ou_modifier_candidate": -0.039,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_low",
@@ -3896,6 +4202,24 @@
         "sample_score": 1.0,
         "field_coverage": 1.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 54.27,
+        "card_strictness": 15.43,
+        "red_card_risk": 49.7,
+        "penalty_tendency": 51.25,
+        "foul_involvement": 9.22,
+        "experience": 100.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 1.6454,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.33,
+        "red_card_risk": 0.356,
+        "penalty_risk": 0.275,
+        "ou_modifier_candidate": 0.022,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [
         "yellow_card_low",
         "red_card_medium",
@@ -4227,6 +4551,24 @@
         "sample_score": 0.1,
         "field_coverage": 0.75
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 37.21,
+        "card_strictness": 68.57,
+        "red_card_risk": 0.0,
+        "penalty_tendency": 37.5,
+        "foul_involvement": null,
+        "experience": 5.0,
+        "field_coverage": 75.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.6,
+        "red_card_risk": -0.667,
+        "penalty_risk": 0.0,
+        "ou_modifier_candidate": -0.02,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -4332,6 +4674,24 @@
         "label": "high_candidate",
         "sample_score": 1.0,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 53.49,
+        "card_strictness": 35.14,
+        "red_card_risk": 37.58,
+        "penalty_tendency": 40.5,
+        "foul_involvement": 7.73,
+        "experience": 100.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 1.5411,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.015,
+        "red_card_risk": 0.133,
+        "penalty_risk": 0.06,
+        "ou_modifier_candidate": 0.006,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_medium",
@@ -4664,6 +5024,24 @@
         "sample_score": 1.0,
         "field_coverage": 0.75
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 30.82,
+        "card_strictness": 0.0,
+        "red_card_risk": 19.09,
+        "penalty_tendency": null,
+        "foul_involvement": 0.0,
+        "experience": 60.0,
+        "field_coverage": 75.0,
+        "raw_fouls_per_match": 0.6333,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -1.0,
+        "red_card_risk": -0.206,
+        "penalty_risk": null,
+        "ou_modifier_candidate": -0.006,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [
         "yellow_card_low",
         "red_card_medium",
@@ -4994,6 +5372,24 @@
         "sample_score": 0.34,
         "field_coverage": 1.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 51.64,
+        "card_strictness": 64.0,
+        "red_card_risk": 11.82,
+        "penalty_tendency": 17.0,
+        "foul_involvement": 100.0,
+        "experience": 17.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 8.8824,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.52,
+        "red_card_risk": -0.339,
+        "penalty_risk": -0.41,
+        "ou_modifier_candidate": -0.027,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -5231,6 +5627,24 @@
         "label": "high_candidate",
         "sample_score": 1.0,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 47.78,
+        "card_strictness": 33.43,
+        "red_card_risk": 50.91,
+        "penalty_tendency": 26.5,
+        "foul_involvement": 11.83,
+        "experience": 64.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 1.8281,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.015,
+        "red_card_risk": 0.378,
+        "penalty_risk": -0.22,
+        "ou_modifier_candidate": 0.003,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_medium",
@@ -5563,6 +5977,24 @@
         "sample_score": 0.28,
         "field_coverage": 0.75
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 37.44,
+        "card_strictness": 6.0,
+        "red_card_risk": 15.45,
+        "penalty_tendency": 76.75,
+        "foul_involvement": null,
+        "experience": 14.0,
+        "field_coverage": 75.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.495,
+        "red_card_risk": -0.272,
+        "penalty_risk": 0.785,
+        "ou_modifier_candidate": 0.023,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -5768,6 +6200,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -5817,6 +6267,24 @@
         "label": "insufficient_sample",
         "sample_score": 0.02,
         "field_coverage": 0.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.5,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 1.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
@@ -5880,6 +6348,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -5929,6 +6415,24 @@
         "label": "medium_candidate",
         "sample_score": 0.8,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 37.83,
+        "card_strictness": 18.57,
+        "red_card_risk": 31.82,
+        "penalty_tendency": 31.25,
+        "foul_involvement": 5.36,
+        "experience": 40.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 1.375,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.275,
+        "red_card_risk": 0.028,
+        "penalty_risk": -0.125,
+        "ou_modifier_candidate": -0.004,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_low",
@@ -6261,6 +6765,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -6310,6 +6832,24 @@
         "label": "high_candidate",
         "sample_score": 1.0,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 54.55,
+        "card_strictness": 16.29,
+        "red_card_risk": 54.55,
+        "penalty_tendency": 35.25,
+        "foul_involvement": 21.24,
+        "experience": 100.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 2.487,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.315,
+        "red_card_risk": 0.444,
+        "penalty_risk": -0.045,
+        "ou_modifier_candidate": 0.012,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_low",
@@ -6642,6 +7182,24 @@
         "sample_score": 0.92,
         "field_coverage": 1.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 44.89,
+        "card_strictness": 0.0,
+        "red_card_risk": 20.3,
+        "penalty_tendency": 31.0,
+        "foul_involvement": 72.05,
+        "experience": 46.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 6.0435,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.7,
+        "red_card_risk": -0.183,
+        "penalty_risk": -0.13,
+        "ou_modifier_candidate": -0.011,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [
         "yellow_card_low",
         "red_card_medium",
@@ -6973,6 +7531,24 @@
         "sample_score": 0.08,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 2.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 4.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -7067,6 +7643,24 @@
         "label": "high_candidate",
         "sample_score": 1.0,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 61.83,
+        "card_strictness": 30.57,
+        "red_card_risk": 50.61,
+        "penalty_tendency": 67.75,
+        "foul_involvement": 22.07,
+        "experience": 100.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 2.5448,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.065,
+        "red_card_risk": 0.372,
+        "penalty_risk": 0.605,
+        "ou_modifier_candidate": 0.035,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_medium",
@@ -7399,6 +7993,24 @@
         "sample_score": 0.48,
         "field_coverage": 0.5
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 18.5,
+        "card_strictness": 0.0,
+        "red_card_risk": 0.0,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 24.0,
+        "field_coverage": 50.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -1.0,
+        "red_card_risk": -0.667,
+        "penalty_risk": null,
+        "ou_modifier_candidate": -0.02,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -7714,6 +8326,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -7763,6 +8393,24 @@
         "label": "high_candidate",
         "sample_score": 1.0,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 57.35,
+        "card_strictness": 28.57,
+        "red_card_risk": 54.55,
+        "penalty_tendency": 45.0,
+        "foul_involvement": 16.0,
+        "experience": 100.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 2.12,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.1,
+        "red_card_risk": 0.444,
+        "penalty_risk": 0.15,
+        "ou_modifier_candidate": 0.019,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_low",
@@ -8095,6 +8743,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -8145,6 +8811,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -8194,6 +8878,24 @@
         "label": "medium_candidate",
         "sample_score": 0.88,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 63.54,
+        "card_strictness": 50.57,
+        "red_card_risk": 62.73,
+        "penalty_tendency": 84.0,
+        "foul_involvement": 39.94,
+        "experience": 44.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 3.7955,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.285,
+        "red_card_risk": 0.594,
+        "penalty_risk": 0.93,
+        "ou_modifier_candidate": 0.055,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_medium",
@@ -8526,6 +9228,24 @@
         "sample_score": 1.0,
         "field_coverage": 1.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 46.29,
+        "card_strictness": 22.86,
+        "red_card_risk": 18.18,
+        "penalty_tendency": 18.5,
+        "foul_involvement": 18.2,
+        "experience": 100.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 2.2743,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.2,
+        "red_card_risk": -0.222,
+        "penalty_risk": -0.38,
+        "ou_modifier_candidate": -0.022,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [
         "yellow_card_low",
         "red_card_low",
@@ -8856,6 +9576,24 @@
         "label": "high_candidate",
         "sample_score": 1.0,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 30.35,
+        "card_strictness": 0.0,
+        "red_card_risk": 5.15,
+        "penalty_tendency": 6.0,
+        "foul_involvement": 16.93,
+        "experience": 54.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 2.1852,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.925,
+        "red_card_risk": -0.461,
+        "penalty_risk": -0.63,
+        "ou_modifier_candidate": -0.039,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_low",
@@ -9188,6 +9926,24 @@
         "sample_score": 0.28,
         "field_coverage": 0.75
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 45.25,
+        "card_strictness": 0.0,
+        "red_card_risk": 37.27,
+        "penalty_tendency": 100.0,
+        "foul_involvement": null,
+        "experience": 14.0,
+        "field_coverage": 75.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.6,
+        "red_card_risk": 0.128,
+        "penalty_risk": 1.0,
+        "ou_modifier_candidate": 0.044,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -9393,6 +10149,24 @@
         "sample_score": 0.08,
         "field_coverage": 0.25
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 41.81,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": 96.43,
+        "experience": 4.0,
+        "field_coverage": 25.0,
+        "raw_fouls_per_match": 7.75,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -9487,6 +10261,24 @@
         "label": "low_report_candidate",
         "sample_score": 0.56,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 62.41,
+        "card_strictness": 50.0,
+        "red_card_risk": 48.18,
+        "penalty_tendency": 59.0,
+        "foul_involvement": 89.29,
+        "experience": 28.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 7.25,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.275,
+        "red_card_risk": 0.328,
+        "penalty_risk": 0.43,
+        "ou_modifier_candidate": 0.027,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
@@ -9814,6 +10606,24 @@
         "sample_score": 0.0,
         "field_coverage": 0.0
       },
+      "dimension_ratings": {
+        "overall_experimental_rating": 0.0,
+        "card_strictness": null,
+        "red_card_risk": null,
+        "penalty_tendency": null,
+        "foul_involvement": null,
+        "experience": 0.0,
+        "field_coverage": 0.0,
+        "raw_fouls_per_match": null,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": null,
+        "red_card_risk": null,
+        "penalty_risk": null,
+        "ou_modifier_candidate": null,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
+      },
       "style_tags": [],
       "distillation_status": "insufficient_sample",
       "model_signal_status": "insufficient_sample",
@@ -9863,6 +10673,24 @@
         "label": "medium_candidate",
         "sample_score": 0.76,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 42.3,
+        "card_strictness": 33.71,
+        "red_card_risk": 41.82,
+        "penalty_tendency": 40.25,
+        "foul_involvement": 0.0,
+        "experience": 38.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 0.6579,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": -0.01,
+        "red_card_risk": 0.211,
+        "penalty_risk": 0.055,
+        "ou_modifier_candidate": 0.009,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_medium",
@@ -10194,6 +11022,24 @@
         "label": "medium_candidate",
         "sample_score": 0.8,
         "field_coverage": 1.0
+      },
+      "dimension_ratings": {
+        "overall_experimental_rating": 59.23,
+        "card_strictness": 57.14,
+        "red_card_risk": 100.0,
+        "penalty_tendency": 50.0,
+        "foul_involvement": 8.21,
+        "experience": 40.0,
+        "field_coverage": 100.0,
+        "raw_fouls_per_match": 1.575,
+        "rating_policy": "experimental_only_not_model_input"
+      },
+      "risk_modifiers": {
+        "card_risk": 0.4,
+        "red_card_risk": 1.0,
+        "penalty_risk": 0.25,
+        "ou_modifier_candidate": 0.04,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest."
       },
       "style_tags": [
         "yellow_card_medium",

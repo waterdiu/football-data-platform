@@ -113,6 +113,76 @@ def build_style_tags(metrics: dict[str, Any]) -> list[str]:
     return tags
 
 
+def clamp(value: float, low: float = 0.0, high: float = 100.0) -> float:
+    return max(low, min(high, value))
+
+
+def scale_rate(value: float | None, *, low: float, high: float) -> float | None:
+    if value is None:
+        return None
+    if high <= low:
+        return None
+    return round(clamp(((value - low) / (high - low)) * 100.0), 2)
+
+
+def build_dimension_ratings(metrics: dict[str, Any], confidence: dict[str, Any]) -> dict[str, Any]:
+    matches = int(number(metrics.get("matches")) or 0)
+    yellow = number(metrics.get("yellow_cards_per_match"))
+    red = number(metrics.get("red_cards_per_match"))
+    penalties = number(metrics.get("penalties_per_match"))
+    fouls_total = number(metrics.get("fouls"))
+    fouls_per_match = round(fouls_total / matches, 4) if fouls_total is not None and matches > 0 else None
+
+    card_strictness = scale_rate(yellow, low=2.0, high=5.5)
+    red_card_risk = scale_rate(red, low=0.02, high=0.35)
+    penalty_tendency = scale_rate(penalties, low=0.05, high=0.45)
+    foul_involvement = scale_rate(fouls_per_match, low=1.0, high=8.0)
+    experience = round(clamp((matches / 100.0) * 100.0), 2)
+    field_coverage = round(float(confidence.get("field_coverage") or 0.0) * 100.0, 2)
+
+    available = [
+        value
+        for value in [card_strictness, red_card_risk, penalty_tendency, foul_involvement, experience, field_coverage]
+        if value is not None
+    ]
+    overall = round(sum(available) / len(available), 2) if available else None
+    return {
+        "overall_experimental_rating": overall,
+        "card_strictness": card_strictness,
+        "red_card_risk": red_card_risk,
+        "penalty_tendency": penalty_tendency,
+        "foul_involvement": foul_involvement,
+        "experience": experience,
+        "field_coverage": field_coverage,
+        "raw_fouls_per_match": fouls_per_match,
+        "rating_policy": "experimental_only_not_model_input",
+    }
+
+
+def build_risk_modifiers(metrics: dict[str, Any]) -> dict[str, Any]:
+    yellow = number(metrics.get("yellow_cards_per_match"))
+    red = number(metrics.get("red_cards_per_match"))
+    penalties = number(metrics.get("penalties_per_match"))
+
+    # These are bounded report candidates only. They must be re-estimated and
+    # backtested before model use.
+    card_risk = None if yellow is None else round(clamp((yellow - 3.2) / 2.0, -1.0, 1.0), 3)
+    red_card_risk = None if red is None else round(clamp((red - 0.12) / 0.18, -1.0, 1.0), 3)
+    penalty_risk = None if penalties is None else round(clamp((penalties - 0.20) / 0.20, -1.0, 1.0), 3)
+    ou_modifier = None
+    if red_card_risk is not None or penalty_risk is not None:
+        red_component = red_card_risk or 0.0
+        penalty_component = penalty_risk or 0.0
+        ou_modifier = round(clamp((red_component * 0.03) + (penalty_component * 0.04), -0.08, 0.08), 3)
+    return {
+        "card_risk": card_risk,
+        "red_card_risk": red_card_risk,
+        "penalty_risk": penalty_risk,
+        "ou_modifier_candidate": ou_modifier,
+        "policy": "report_candidate_only; not consumed by predictor until source approval and backtest.",
+    }
+
+
 def build_candidate(row: dict[str, Any]) -> dict[str, Any]:
     parsed = row.get("parsed") if isinstance(row.get("parsed"), dict) else {}
     stats = parsed.get("stats") if isinstance(parsed.get("stats"), dict) else {}
@@ -134,6 +204,8 @@ def build_candidate(row: dict[str, Any]) -> dict[str, Any]:
     }
     confidence = confidence_for(sample_size, metrics)
     gate = sample_gate(sample_size)
+    dimension_ratings = build_dimension_ratings(metrics, confidence)
+    risk_modifiers = build_risk_modifiers(metrics)
     return {
         "official_id": row.get("official_id"),
         "fifa_name": row.get("fifa_name"),
@@ -146,6 +218,8 @@ def build_candidate(row: dict[str, Any]) -> dict[str, Any]:
         "metrics": metrics,
         "sample_gate": gate,
         "confidence": confidence,
+        "dimension_ratings": dimension_ratings,
+        "risk_modifiers": risk_modifiers,
         "style_tags": build_style_tags(metrics) if gate["can_distill_style"] else [],
         "distillation_status": "candidate" if gate["can_distill_style"] else "insufficient_sample",
         "model_signal_status": "candidate" if gate["can_strong_model_signal"] else "insufficient_sample",

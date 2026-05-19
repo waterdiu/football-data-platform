@@ -92,7 +92,7 @@ WorldReferee 小样本验证结果：
 - 11 个页面可访问但概要统计和逐场样本为空：`Yael Falcon Perez`、`Ma Ning`、`Juan Calderon`、`Amin Mohamed`、`Khalid Al Turais`、`Katia Garcia`、`Dahane Beida`、`Abdulrahman Al Jassim`、`Abongile Tom`、`Ivan Barton`、`Tori Penso`。
 - 报告新增机器可读 `gap_summary`：按字段列出缺口名单，并按样本门槛输出 `sample_ge_20_report_explanation`、`sample_ge_30_style_distillation`、`sample_ge_50_strong_model_signal`。
 - 按 WorldReferee 概要 `matches` 样本数粗算：25 人达到报告解释门槛，21 人达到风格蒸馏候选门槛，14 人达到强模型信号候选门槛。
-- 平台新增 `scripts/build_worldreferee_strong_profile_candidates.py`，输出 `reports/worldreferee_referee_strong_profile_candidates.json`。该报告把 WorldReferee 概要统计转成实验性强画像候选，包括 `metrics`、`sample_gate`、`confidence`、`style_tags`、`distillation_status` 和 `model_signal_status`。当前 14 名为 `high_candidate`，但仍是 `experimental_report_only`，不进入 `normalized/public`。
+- 平台新增 `scripts/build_worldreferee_strong_profile_candidates.py`，输出 `reports/worldreferee_referee_strong_profile_candidates.json`。该报告把 WorldReferee 概要统计转成实验性强画像候选，包括 `metrics`、`sample_gate`、`confidence`、`dimension_ratings`、`risk_modifiers`、`style_tags`、`distillation_status` 和 `model_signal_status`。当前 14 名为 `high_candidate`，但仍是 `experimental_report_only`，不进入 `normalized/public`。`dimension_ratings` 只用于人工审核，包含牌尺度、红牌风险、点球倾向、犯规参与、经验和字段覆盖；`risk_modifiers` 是报告候选，不允许被 predictor 消费，除非完成来源审批和回测。
 - `Szymon Marciniak` 页面可访问，概要包含 134 场、38 项赛事、黄牌/红牌/点球/犯规、活跃年份和逐场比赛历史。
 - `Facundo Tello` 页面可访问，概要包含 14 场、7 项赛事、黄牌/红牌/点球/犯规、2022 World Cup 逐场记录。
 - `Mustapha Ghorbal` 页面可访问，概要包含 44 场、20 项赛事、黄牌/红牌/点球/犯规、CAF 和 World Cup 记录。

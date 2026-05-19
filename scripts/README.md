@@ -217,7 +217,7 @@
 - `build_worldreferee_strong_profile_candidates.py`
   - 输入：`reports/worldreferee_referee_probe_report.json`
   - 输出：`reports/worldreferee_referee_strong_profile_candidates.json`
-  - 用途：把 WorldReferee probe 的概要统计转成实验性主裁强画像候选，包含 `metrics`、`sample_gate`、`confidence`、`style_tags` 和模型/蒸馏门槛状态。
+  - 用途：把 WorldReferee probe 的概要统计转成实验性主裁强画像候选，包含 `metrics`、`sample_gate`、`confidence`、`dimension_ratings`、`risk_modifiers`、`style_tags` 和模型/蒸馏门槛状态。
   - 边界：输出仍是 `experimental_report_only`；不得写入 `normalized`、public API 或 predictor bundle。
 - `publish_all_world_cup_data.py`
   - 按顺序执行世界杯公共数据发布流水线
