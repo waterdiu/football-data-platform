@@ -87,7 +87,7 @@
 
 | 源 | 当前状态 | 能拿什么 | 不能确认 / 问题 | 下一步 |
 |---|---|---|---|---|
-| Sofascore wrappers | `verified_experimental` | 控球、射门、射正、传球、xG、shotmap、阵容、事件、评分等 | 非官方；World Cup event mapping 未验证；PPDA 无直接字段 | 只对国际赛/世界杯 event 做低频 raw 实验 |
+| Sofascore wrappers/direct API | `verified_experimental_wrapper_only` | wrapper 曾验证控球、射门、射正、传球、xG、shotmap、阵容、事件、评分等 | 直接 `api.sofascore.com` 在当前环境对 player/event endpoints 返回 403；World Cup event mapping 未验证；PPDA 无直接字段 | 只保留 wrapper 隔离实验；直接 API 不进入采集主线 |
 | soccerdata FBref | `verified_experimental` | EPL team/player stats、赛程、场馆、裁判、部分 lineup/events | live 会挂/反爬；世界杯国家队不稳定 | 用本地/缓存补 EPL 球员和球队 proxy |
 | FBref local player asset | `verified_model_candidate` | 31 个世界杯球员候选的 90s/Starts/Gls/Ast | xG/xAG/PrgP/Tkl/Int 全为 zero-only；无 FBref native id | 只给模型评估，不写 public |
 | soccerdata FotMob | `blocked` | 无 | 本机 soccerdata 1.9.0 无 FotMob reader | 暂停，除非单独找 FotMob 包 |
@@ -132,10 +132,9 @@
 ## 7. 下一步执行顺序
 
 1. 继续验证 FBref/英超球员候选是否可以成为 `model_only` 数据，不进入 public。
-2. 对 Sofascore wrapper 做世界杯/成年国际赛 event mapping 低频 raw 实验。
-3. 世界杯首场前 5 天重跑 Odds-API.io event scan。
-4. 若升级 API-FOOTBALL Pro 或以上，重跑 `scripts/probe_api_football_worldcup_runtime.py` 验证 odds、lineups、injuries、statistics、events。
-5. 如果仍缺生产级赔率，最后再评估付费源。
+2. 世界杯首场前 5 天重跑 Odds-API.io event scan。
+3. 若升级 API-FOOTBALL Pro 或以上，重跑 `scripts/probe_api_football_worldcup_runtime.py` 验证 odds、lineups、injuries、statistics、events。
+4. 如果仍缺生产级赔率，最后再评估付费源。
 
 ## 8. 当前明确不做
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T07:29:07Z",
+  "generated_at": "2026-05-19T07:30:03Z",
   "scope": "sofascore_experimental_probe",
   "provider": {
     "provider": "sofascore",
@@ -39,8 +39,8 @@
     "public_api_write_allowed": false,
     "team_probe_count": 0,
     "player_probe_count": 3,
-    "event_probe_count": 0,
-    "endpoint_probe_count": 6,
+    "event_probe_count": 1,
+    "endpoint_probe_count": 11,
     "observed_field_endpoint_counts": {
       "possession": 0,
       "shots": 0,
@@ -214,8 +214,8 @@
         {
           "endpoint": "player_events_last",
           "url": "https://api.sofascore.com/api/v1/player/2018330/events/last/0",
-          "http_status": 403,
-          "error": "HTTP Error 403: Forbidden",
+          "http_status": null,
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>",
           "row_count_or_key_count": 0,
           "top_level_type": null,
           "keys_sample": [],
@@ -243,7 +243,153 @@
       "event_ids_sample": []
     }
   ],
-  "event_probes": [],
+  "event_probes": [
+    {
+      "event_id": "13981725",
+      "endpoints": [
+        {
+          "endpoint": "event_statistics",
+          "url": "https://api.sofascore.com/api/v1/event/13981725/statistics",
+          "http_status": 403,
+          "error": "HTTP Error 403: Forbidden",
+          "row_count_or_key_count": 0,
+          "top_level_type": null,
+          "keys_sample": [],
+          "field_coverage_inferred": {
+            "possession": false,
+            "shots": false,
+            "shots_on_target": false,
+            "passes": false,
+            "pass_accuracy": false,
+            "lineups": false,
+            "player_ratings": false,
+            "xg_or_shot_quality": false,
+            "ppda_direct": false,
+            "ppda_inputs_possible": false,
+            "target_groups": [
+              "match_statistics",
+              "lineups",
+              "player_statistics",
+              "shotmap",
+              "ppda"
+            ]
+          }
+        },
+        {
+          "endpoint": "event_lineups",
+          "url": "https://api.sofascore.com/api/v1/event/13981725/lineups",
+          "http_status": 403,
+          "error": "HTTP Error 403: Forbidden",
+          "row_count_or_key_count": 0,
+          "top_level_type": null,
+          "keys_sample": [],
+          "field_coverage_inferred": {
+            "possession": false,
+            "shots": false,
+            "shots_on_target": false,
+            "passes": false,
+            "pass_accuracy": false,
+            "lineups": false,
+            "player_ratings": false,
+            "xg_or_shot_quality": false,
+            "ppda_direct": false,
+            "ppda_inputs_possible": false,
+            "target_groups": [
+              "match_statistics",
+              "lineups",
+              "player_statistics",
+              "shotmap",
+              "ppda"
+            ]
+          }
+        },
+        {
+          "endpoint": "event_incidents",
+          "url": "https://api.sofascore.com/api/v1/event/13981725/incidents",
+          "http_status": 403,
+          "error": "HTTP Error 403: Forbidden",
+          "row_count_or_key_count": 0,
+          "top_level_type": null,
+          "keys_sample": [],
+          "field_coverage_inferred": {
+            "possession": false,
+            "shots": false,
+            "shots_on_target": false,
+            "passes": false,
+            "pass_accuracy": false,
+            "lineups": false,
+            "player_ratings": false,
+            "xg_or_shot_quality": false,
+            "ppda_direct": false,
+            "ppda_inputs_possible": false,
+            "target_groups": [
+              "match_statistics",
+              "lineups",
+              "player_statistics",
+              "shotmap",
+              "ppda"
+            ]
+          }
+        },
+        {
+          "endpoint": "event_shotmap",
+          "url": "https://api.sofascore.com/api/v1/event/13981725/shotmap",
+          "http_status": 403,
+          "error": "HTTP Error 403: Forbidden",
+          "row_count_or_key_count": 0,
+          "top_level_type": null,
+          "keys_sample": [],
+          "field_coverage_inferred": {
+            "possession": false,
+            "shots": false,
+            "shots_on_target": false,
+            "passes": false,
+            "pass_accuracy": false,
+            "lineups": false,
+            "player_ratings": false,
+            "xg_or_shot_quality": false,
+            "ppda_direct": false,
+            "ppda_inputs_possible": false,
+            "target_groups": [
+              "match_statistics",
+              "lineups",
+              "player_statistics",
+              "shotmap",
+              "ppda"
+            ]
+          }
+        },
+        {
+          "endpoint": "event_graph",
+          "url": "https://api.sofascore.com/api/v1/event/13981725/graph",
+          "http_status": 403,
+          "error": "HTTP Error 403: Forbidden",
+          "row_count_or_key_count": 0,
+          "top_level_type": null,
+          "keys_sample": [],
+          "field_coverage_inferred": {
+            "possession": false,
+            "shots": false,
+            "shots_on_target": false,
+            "passes": false,
+            "pass_accuracy": false,
+            "lineups": false,
+            "player_ratings": false,
+            "xg_or_shot_quality": false,
+            "ppda_direct": false,
+            "ppda_inputs_possible": false,
+            "target_groups": [
+              "match_statistics",
+              "lineups",
+              "player_statistics",
+              "shotmap",
+              "ppda"
+            ]
+          }
+        }
+      ]
+    }
+  ],
   "github_projects_to_review": [
     {
       "repo": "probberechts/soccerdata",

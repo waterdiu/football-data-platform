@@ -64,8 +64,8 @@
 
 | 方式 | 是否实际验证 | 能拿到什么 | 缺什么 | 结论 |
 |---|---|---|---|---|
-| 直接 Sofascore web endpoint | 已测 | 无 | HTTP 403 | 当前环境不能作为生产采集器。 |
-| `pysofascore` | 已 live 验证 | statistics、控球、xG、射门、射正、传球、准确传球、lineups、incidents、shotmap、momentum、best players | 直接 PPDA、授权稳定性、世界杯覆盖 | 最强实验候选。 |
+| 直接 Sofascore web endpoint | 已测 | 无 | HTTP 403；sample event `13981725` 的 statistics/lineups/incidents/shotmap/graph 也被拒绝 | 当前环境不能作为生产采集器，也不能作为直接采集主线。 |
+| `pysofascore` | 已 live 验证 | statistics、控球、xG、射门、射正、传球、准确传球、lineups、incidents、shotmap、momentum、best players | 直接 PPDA、授权稳定性、世界杯覆盖 | 最强实验候选，仅限 wrapper 隔离实验。 |
 | `ScraperFC` | 已 live 验证 | match dict、team stats、shots/xG、player stats、ratings、heatmaps、momentum | 直接 PPDA、incidents 未在验证 API surface 直接暴露 | 强实验候选。 |
 | `tunjayoff/sofascore_scraper` | 已 live 验证部分 | event basic、statistics、lineups、incidents、h2h | shotmap/xG/player ratings 未验证 | 可用但不如前两个完整。 |
 
@@ -78,6 +78,7 @@
 当前阻断原因：
 
 - 非官方 endpoint / wrapper，存在授权、字段稳定、ID 映射、反爬风险。
+- 当前 direct API live probe 对 player endpoints 和 sample event endpoints 返回 403/网络错误；后续只能走 wrapper 隔离验证，不能把 direct API 作为采集路径。
 - 尚未在 2026 世界杯 event 上验证覆盖。
 - 因此只能写 `reports/` 或 `data/raw/experimental/sofascore`，不得写 normalized/public。
 
@@ -312,6 +313,7 @@ FBref live 抓取验证结果：
 | 免费赔率源 probe | `reports/free_odds_source_probe.json` |
 | API-FOOTBALL World Cup runtime probe | `reports/api_football_worldcup_runtime_probe.json` |
 | Sofascore direct endpoint probe | `reports/sofascore_source_probe.json` |
+| Sofascore sample event direct endpoint probe | `reports/sofascore_event_sample_probe.json` |
 | Sofascore wrapper live 验证 | `reports/sofascore_wrapper_live_field_validation.json` |
 | soccerdata Sofascore probe | `reports/soccerdata_sofascore_probe.json` |
 | soccerdata FBref/FotMob/WhoScored probe | `reports/soccerdata_advanced_sources_probe.json` |
