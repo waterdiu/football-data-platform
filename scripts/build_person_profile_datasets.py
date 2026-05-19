@@ -191,6 +191,31 @@ def build_direct_field_coverage(fields: dict) -> dict:
     return {key: field_status(value) for key, value in fields.items()}
 
 
+def available_count(rows: list[dict], key: str) -> int:
+    count = 0
+    for row in rows:
+        value = row.get(key)
+        if value in (None, "", []) and isinstance(row.get("direct"), dict):
+            value = row["direct"].get(key)
+        if value not in (None, "", []):
+            count += 1
+    return count
+
+
+def profile_identity_coverage(rows: list[dict], fields: list[str]) -> dict:
+    total = len(rows)
+    return {
+        "total": total,
+        "fields": {
+            field: {
+                "available": available_count(rows, field),
+                "missing": total - available_count(rows, field),
+            }
+            for field in fields
+        },
+    }
+
+
 def source_compact_from_external_fact(fact: dict | None) -> dict:
     if not isinstance(fact, dict):
         return {}
@@ -246,8 +271,10 @@ def build_coach_profile(staff: dict, team_recent: dict | None = None, external_f
         "name": staff.get("name"),
         "name_zh": staff.get("name_zh"),
         "country_code": None,
-        "country_name": staff.get("nationality"),
+        "country_name": nationality,
         "country_name_zh": None,
+        "date_of_birth": date_of_birth,
+        "age": age,
         "photo_url": None,
         "team_id": staff.get("team_id"),
         "team_name": staff.get("team_name"),
@@ -387,6 +414,8 @@ def build_player_profile(player: dict, external_fact: dict | None = None, activi
         "country_code": None,
         "country_name": player.get("nationality"),
         "country_name_zh": None,
+        "date_of_birth": date_of_birth,
+        "age": age,
         "photo_url": None,
         "team_id": player.get("team_id"),
         "team_name": player.get("nationality"),
@@ -476,6 +505,45 @@ def build_referee_profile(official: dict, rating: dict | None = None) -> dict:
     style_tags = rating.get("style_tags") if isinstance(rating.get("style_tags"), list) else official.get("style_tags") or []
     derived_status = rating.get("status") or "pending_source"
     assigned_matches = official.get("assigned_matches") if isinstance(official.get("assigned_matches"), list) else []
+    date_of_birth = official.get("date_of_birth")
+    age = official.get("age")
+    direct_fields = {
+        "official_id": official.get("official_id") or official.get("person_id"),
+        "person_id": official.get("person_id") or official.get("official_id"),
+        "name": official.get("name"),
+        "display_name": official.get("display_name") or official.get("name"),
+        "name_zh": official.get("name_zh"),
+        "country": official.get("country"),
+        "country_code": official.get("country_code"),
+        "nationality": official.get("nationality"),
+        "association_code": official.get("association_code"),
+        "confederation": official.get("confederation"),
+        "date_of_birth": date_of_birth,
+        "age": age,
+        "roles": official.get("roles") if isinstance(official.get("roles"), list) else [],
+        "role": official.get("role") or "referee",
+        "role_zh": official.get("role_zh") or "裁判",
+        "assigned_matches": assigned_matches,
+        "assignment_status": official.get("assignment_status") or "missing_referee_assignment",
+        "fifa_listed_since": official.get("fifa_listed_since"),
+        "competition_id": official.get("competition_id") or "fifa_world_cup",
+        "season_id": official.get("season_id") or "2026",
+        "competition_scope": official.get("competition_scope"),
+        "source_status": official.get("source_status"),
+        "sources": official.get("sources") if isinstance(official.get("sources"), list) else [],
+        "source_refs": official.get("source_refs") if isinstance(official.get("source_refs"), dict) else {},
+        "source_url": official.get("source_url"),
+        "updated_at": official.get("updated_at"),
+    }
+    direct_coverage = build_direct_field_coverage(direct_fields)
+    source_status = official.get("source_status") or "unknown"
+    field_sources = {
+        key: source_status if direct_coverage.get(key) == "available" else "pending_source"
+        for key in direct_fields
+    }
+    for key in ("date_of_birth", "age", "fifa_listed_since"):
+        if direct_coverage.get(key) != "available":
+            field_sources[key] = "pending_identity_source"
     profile = {
         "person_id": official.get("official_id") or official.get("person_id"),
         "person_type": "referee",
@@ -487,13 +555,15 @@ def build_referee_profile(official: dict, rating: dict | None = None) -> dict:
         "country_code": official.get("country_code"),
         "country_name": official.get("nationality"),
         "country_name_zh": None,
+        "date_of_birth": date_of_birth,
+        "age": age,
         "photo_url": None,
         "role": official.get("role") or "referee",
         "role_zh": official.get("role_zh") or "裁判",
         "direct": {
-            **official,
-            "assigned_matches": assigned_matches,
-            "assignment_status": official.get("assignment_status") or "missing_referee_assignment",
+            **direct_fields,
+            "field_coverage": direct_coverage,
+            "field_sources": field_sources,
         },
         "derived": {
             "status": derived_status,
@@ -516,7 +586,8 @@ def build_referee_profile(official: dict, rating: dict | None = None) -> dict:
             {"key": "style_profile", "label": "Style profile", "label_zh": "风格画像", "value": " / ".join(style_tags) if style_tags else "insufficient_sample", "unit": None, **data_badge("distilled", "distilled", "available" if style_tags else "insufficient_sample")},
         ],
         "sections": [
-            {"type": "identity", "data_tier": "direct", "status": official.get("source_status") or "pending_source", "fields": {**compact_sources(official), "assigned_matches": assigned_matches, "assignment_status": official.get("assignment_status") or "missing_referee_assignment"}},
+            {"type": "identity", "data_tier": "direct", "status": official.get("source_status") or "pending_source", "fields": {**direct_fields, **compact_sources(official)}, "field_coverage": direct_coverage, "field_sources": field_sources},
+            {"type": "data_grid", "data_tier": "direct", "status": "partial", "fields": direct_fields, "field_coverage": direct_coverage, "field_sources": field_sources},
             {"type": "officiating_metrics", "data_tier": "derived", "status": derived_status, "basis": {"sample_size_matches": sample_size, "minimum_required": 20}, "metrics": raw_metrics, "dimension_ratings": dimension_ratings},
             {"type": "style_distillation", "data_tier": "distilled", "status": "available" if style_tags else "insufficient_sample", "basis": {"sample_size_matches": sample_size, "minimum_required": 30}, "style_tags": style_tags},
         ],
@@ -583,7 +654,30 @@ def merge_officials(*official_groups: list[dict]) -> list[dict]:
             official_id = str(row.get("official_id") or row.get("person_id") or "")
             if not official_id:
                 continue
-            merged_by_id[official_id] = row
+            normalized = dict(row)
+            normalized.setdefault("date_of_birth", None)
+            normalized.setdefault("age", None)
+            normalized.setdefault("identity_field_coverage", {})
+            if isinstance(normalized["identity_field_coverage"], dict):
+                normalized["identity_field_coverage"].update(
+                    {
+                        "date_of_birth": field_status(normalized.get("date_of_birth")),
+                        "age": field_status(normalized.get("age")),
+                    }
+                )
+            normalized.setdefault("identity_field_sources", {})
+            if isinstance(normalized["identity_field_sources"], dict):
+                normalized["identity_field_sources"].update(
+                    {
+                        "date_of_birth": "pending_identity_source"
+                        if normalized.get("date_of_birth") in (None, "")
+                        else normalized.get("source_status") or "unknown",
+                        "age": "pending_identity_source"
+                        if normalized.get("age") in (None, "")
+                        else normalized.get("source_status") or "unknown",
+                    }
+                )
+            merged_by_id[official_id] = normalized
     return sorted(
         merged_by_id.values(),
         key=lambda row: (
@@ -607,6 +701,8 @@ def index_row(profile: dict) -> dict:
         "role": profile.get("role"),
         "role_zh": profile.get("role_zh"),
         "country_name": profile.get("country_name"),
+        "date_of_birth": profile.get("date_of_birth"),
+        "age": profile.get("age"),
         "source_status": profile.get("source_status"),
         "updated_at": profile.get("updated_at"),
     }
@@ -677,6 +773,36 @@ def main() -> None:
         counts[public_filename] = len(rows)
         outputs[public_filename] = str(PUBLIC_DIR / public_filename)
 
+    identity_coverage = {
+        "coach_profiles": profile_identity_coverage(
+            coach_profiles,
+            ["date_of_birth", "age", "nationality", "country_name"],
+        ),
+        "player_profiles": profile_identity_coverage(
+            player_profiles,
+            ["date_of_birth", "age", "club", "position", "shirt_number"],
+        ),
+        "referee_profiles": profile_identity_coverage(
+            referee_profiles,
+            ["date_of_birth", "age", "country_code", "country_name", "role", "source_status"],
+        ),
+        "officials": {
+            "total": len(officials),
+            "fields": {
+                "date_of_birth": {
+                    "available": available_count(officials, "date_of_birth"),
+                    "missing": len(officials) - available_count(officials, "date_of_birth"),
+                    "source": "pending_identity_source",
+                },
+                "age": {
+                    "available": available_count(officials, "age"),
+                    "missing": len(officials) - available_count(officials, "age"),
+                    "source": "pending_identity_source",
+                },
+            },
+        },
+    }
+
     report = {
         "status": "published",
         "profile_contract": {
@@ -694,6 +820,7 @@ def main() -> None:
             },
         },
         "counts": counts,
+        "identity_coverage": identity_coverage,
         "outputs": outputs,
     }
     write_json(Path(args.report_output), report)

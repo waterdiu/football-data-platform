@@ -136,6 +136,7 @@ GitHub 上 `referee football` 搜索结果大量是：
 |---|---|---|---|---|---|
 | 裁判姓名 | 有 | 有 | 有/fixture 中有 | 有 | 有 |
 | 国籍/协会 | 弱 | 可能有 | 不确定 | 通常有 | 有 |
+| DOB/age | 无 | 待试用验证 | 不确定 | WorldReferee 概要未稳定验证 | FIFA 官员名单 PDF 无 |
 | 单场指派 | 历史欧洲联赛 | 有 | 有 | 有历史 | 世界杯官方 |
 | 黄牌/红牌 | 有 | 有 | events 可聚合 | 可能有 | match report 可能有 |
 | 犯规 | 部分联赛有 | 明确有 referee statistics type | statistics/events 取决覆盖 | WorldReferee 概要有 fouls | match report 取决公开程度 |
@@ -151,6 +152,7 @@ GitHub 上 `referee football` 搜索结果大量是：
 1. 保持 FIFA 170 名比赛官员名单为官方身份源。
 2. 用 `reports/world_cup_referee_profile_gap_report.json` 跟踪 52 名主裁缺口。
 3. 用 football-data.co.uk 继续扩展欧洲主裁样本，不要只限英超。
+4. DOB/age 不从历史比赛样本推断；只有 Wikidata、SportMonks、API-FOOTBALL 或官方协会资料验证后才能补入 `officials/referee-profiles`。
 
 ### P1：API-FOOTBALL Pro 到位后
 

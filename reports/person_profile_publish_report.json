@@ -33,6 +33,98 @@
     "official-ratings.json": 50,
     "person-style-profiles.json": 0
   },
+  "identity_coverage": {
+    "coach_profiles": {
+      "total": 48,
+      "fields": {
+        "date_of_birth": {
+          "available": 44,
+          "missing": 4
+        },
+        "age": {
+          "available": 44,
+          "missing": 4
+        },
+        "nationality": {
+          "available": 43,
+          "missing": 5
+        },
+        "country_name": {
+          "available": 43,
+          "missing": 5
+        }
+      }
+    },
+    "player_profiles": {
+      "total": 234,
+      "fields": {
+        "date_of_birth": {
+          "available": 199,
+          "missing": 35
+        },
+        "age": {
+          "available": 199,
+          "missing": 35
+        },
+        "club": {
+          "available": 192,
+          "missing": 42
+        },
+        "position": {
+          "available": 234,
+          "missing": 0
+        },
+        "shirt_number": {
+          "available": 0,
+          "missing": 234
+        }
+      }
+    },
+    "referee_profiles": {
+      "total": 219,
+      "fields": {
+        "date_of_birth": {
+          "available": 0,
+          "missing": 219
+        },
+        "age": {
+          "available": 0,
+          "missing": 219
+        },
+        "country_code": {
+          "available": 170,
+          "missing": 49
+        },
+        "country_name": {
+          "available": 170,
+          "missing": 49
+        },
+        "role": {
+          "available": 219,
+          "missing": 0
+        },
+        "source_status": {
+          "available": 219,
+          "missing": 0
+        }
+      }
+    },
+    "officials": {
+      "total": 219,
+      "fields": {
+        "date_of_birth": {
+          "available": 0,
+          "missing": 219,
+          "source": "pending_identity_source"
+        },
+        "age": {
+          "available": 0,
+          "missing": 219,
+          "source": "pending_identity_source"
+        }
+      }
+    }
+  },
   "outputs": {
     "people-index.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/people-index.json",
     "coach-profiles.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/coach-profiles.json",

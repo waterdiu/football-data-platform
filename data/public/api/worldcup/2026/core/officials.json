@@ -37,7 +37,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:zerhouni-abbes-akram",
@@ -77,7 +87,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:jerson-santos",
@@ -117,7 +137,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:belatti-juan-pablo",
@@ -157,7 +187,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:chade-gabriel",
@@ -197,7 +237,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:del-yesso-maximiliano",
@@ -237,7 +287,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:navarro-cristian",
@@ -277,7 +337,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:rodriguez-facundo",
@@ -317,7 +387,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:lakrindis-george",
@@ -357,7 +437,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:lindsay-james",
@@ -397,7 +487,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:bruno-boschilia",
@@ -437,7 +537,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:bruno-pires",
@@ -477,7 +587,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:danilo-manis",
@@ -517,7 +637,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:figueiredo-rodrigo",
@@ -557,7 +687,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:rafael-alves",
@@ -597,7 +737,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:arfa-lyes",
@@ -637,7 +787,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:barwegen-micheal",
@@ -677,7 +837,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:retamal-jose",
@@ -717,7 +887,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:rocha-miguel",
@@ -757,7 +937,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:zhou-fei",
@@ -797,7 +987,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:noupue-elvis",
@@ -837,7 +1037,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:guzman-alexander",
@@ -877,7 +1087,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:mora-juan-carlos",
@@ -917,7 +1137,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:abouelregal-mahmoud",
@@ -957,7 +1187,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:hossam-taha-ahmed",
@@ -997,7 +1237,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:beswick-gary",
@@ -1037,7 +1287,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:burt-stuart",
@@ -1077,7 +1337,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:mainwaring-james",
@@ -1117,7 +1387,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:nunn-adam",
@@ -1157,7 +1437,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:naranjo-perez-jose-enrique",
@@ -1197,7 +1487,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:sanchez-diego",
@@ -1237,7 +1537,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:danos-nicolas",
@@ -1277,7 +1587,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:mugnier-cyril",
@@ -1317,7 +1637,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:pages-benjamin",
@@ -1357,7 +1687,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:rahmouni-mehdi",
@@ -1397,7 +1737,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:abeigne-amos",
@@ -1437,7 +1787,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:ditsoga-boris",
@@ -1477,7 +1837,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:dietz-christian",
@@ -1517,7 +1887,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:kempter-robert",
@@ -1557,7 +1937,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:lopez-walter",
@@ -1597,7 +1987,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:ramirez-christian",
@@ -1637,7 +2037,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:bindoni-daniele",
@@ -1677,7 +2087,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:tegoni-alberto",
@@ -1717,7 +2137,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-kalaf-mohammad",
@@ -1757,7 +2187,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-roalle-ahmad",
@@ -1797,7 +2237,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:mihara-jun",
@@ -1837,7 +2287,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-abakry-mohammed",
@@ -1877,7 +2337,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:akarkad-mostafa",
@@ -1917,7 +2387,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:brinsi-zakaria",
@@ -1957,7 +2437,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:bisguerra-marco",
@@ -1997,7 +2487,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:morin-alberto",
@@ -2037,7 +2537,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:ramirez-sandra",
@@ -2077,7 +2587,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:pupiro-antonio",
@@ -2117,7 +2637,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:de-vries-jan",
@@ -2157,7 +2687,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:steegstra-hessel",
@@ -2197,7 +2737,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:bashevkin-isaak",
@@ -2237,7 +2787,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:engan-jan-erik",
@@ -2277,7 +2837,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:trevis-isaac",
@@ -2317,7 +2887,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:cardozo-eduardo",
@@ -2357,7 +2937,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:saldivar-milciades",
@@ -2397,7 +2987,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:orue-michael",
@@ -2437,7 +3037,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:kupsik-adam",
@@ -2477,7 +3087,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:listkiewicz-tomasz",
@@ -2517,7 +3137,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:jesus-bruno",
@@ -2557,7 +3187,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:maia-luciano",
@@ -2597,7 +3237,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-maqaleh-saoud",
@@ -2637,7 +3287,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-marri-taleb",
@@ -2677,7 +3337,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:marica-mihai",
@@ -2717,7 +3387,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:tunyogi-ferencz",
@@ -2757,7 +3437,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:siwela-zakhele",
@@ -2797,7 +3487,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:moran-david",
@@ -2837,7 +3537,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:de-almeida-stephane",
@@ -2877,7 +3587,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:klancnik-tomaz",
@@ -2917,7 +3637,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:kovacic-andraz",
@@ -2957,7 +3687,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:beigi-mahbod",
@@ -2997,7 +3737,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:soderkvist-andreas",
@@ -3037,7 +3787,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:wales-caleb",
@@ -3077,7 +3837,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:al-hammadi-mohamed",
@@ -3117,7 +3887,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:barreiro-carlos",
@@ -3157,7 +3937,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:taran-nicolas",
@@ -3197,7 +3987,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:atkins-kyle",
@@ -3237,7 +4037,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:mayo-brooke",
@@ -3277,7 +4087,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:nesbitt-kathryn",
@@ -3317,7 +4137,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:parker-corey",
@@ -3357,7 +4187,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:gaynullin-timur",
@@ -3397,7 +4237,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:tsapenko-andrey",
@@ -3437,7 +4287,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:moreno-tulio",
@@ -3477,7 +4337,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:assistant_referee:urrego-jorge",
@@ -3517,7 +4387,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ghorbal-mustapha",
@@ -3557,7 +4437,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
@@ -3597,7 +4487,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:herrera-dario",
@@ -3637,7 +4537,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tello-facundo",
@@ -3677,7 +4587,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:faghani-alireza",
@@ -3717,7 +4637,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:claus-raphael",
@@ -3757,7 +4687,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
@@ -3797,7 +4737,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
@@ -3837,7 +4787,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:fischer-drew",
@@ -3877,7 +4837,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:garay-cristian",
@@ -3917,7 +4887,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
@@ -3957,7 +4937,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:rojas-andres",
@@ -3997,7 +4987,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
@@ -4037,7 +5037,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
@@ -4077,7 +5087,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:oliver-michael",
@@ -4117,7 +5137,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:taylor-anthony",
@@ -4157,7 +5187,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
@@ -4197,7 +5237,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:letexier-francois",
@@ -4237,7 +5287,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:turpin-clement",
@@ -4277,7 +5337,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:atcho-pierre",
@@ -4317,7 +5387,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:zwayer-felix",
@@ -4357,7 +5437,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
@@ -4397,7 +5487,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
@@ -4437,7 +5537,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:nation-oshane",
@@ -4477,7 +5587,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:makhadmeh-adham",
@@ -4517,7 +5637,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
@@ -4557,7 +5687,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
@@ -4597,7 +5737,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
@@ -4637,7 +5787,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
@@ -4677,7 +5837,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ramos-cesar",
@@ -4717,7 +5887,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
@@ -4757,7 +5937,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:makkelie-danny",
@@ -4797,7 +5987,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:eskas-espen",
@@ -4837,7 +6037,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
@@ -4877,7 +6087,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
@@ -4917,7 +6137,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
@@ -4957,7 +6187,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
@@ -4997,7 +6237,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:pinheiro-joao",
@@ -5037,7 +6287,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
@@ -5077,7 +6337,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:kovacs-istvan",
@@ -5117,7 +6387,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
@@ -5157,7 +6437,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
@@ -5197,7 +6487,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
@@ -5237,7 +6537,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
@@ -5277,7 +6587,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:vincic-slavko",
@@ -5317,7 +6637,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:nyberg-glenn",
@@ -5357,7 +6687,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:omar-al-ali",
@@ -5397,7 +6737,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tejera-gustavo",
@@ -5437,7 +6787,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:elfath-ismail",
@@ -5477,7 +6837,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
@@ -5517,7 +6887,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tantashev-ilgiz",
@@ -5557,7 +6937,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:valenzuela-jesus",
@@ -5597,7 +6987,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:mastrangelo-hernan",
@@ -5637,7 +7037,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:evans-shaun",
@@ -5677,7 +7087,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:van-driessche-bram",
@@ -5717,7 +7137,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:toski-rodolpho",
@@ -5757,7 +7187,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:lara-juan",
@@ -5797,7 +7237,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:fu-ming",
@@ -5837,7 +7287,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:gallo-nicolas",
@@ -5877,7 +7337,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:bebek-ivan",
@@ -5917,7 +7387,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:ashour-mahmoud",
@@ -5957,7 +7437,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:gillett-jarred",
@@ -5997,7 +7487,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:del-cerro-grande-carlos",
@@ -6037,7 +7537,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:brisard-jerome",
@@ -6077,7 +7587,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:dankert-bastian",
@@ -6117,7 +7637,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:di-bello-marco",
@@ -6157,7 +7687,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:alshehri-abdullah",
@@ -6197,7 +7737,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:el-fariq-hamza",
@@ -6237,7 +7787,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:miranda-erick",
@@ -6277,7 +7837,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:pacheco-guillermo",
@@ -6317,7 +7887,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:guzman-tatiana",
@@ -6357,7 +7937,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:dieperink-rob",
@@ -6397,7 +7987,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:higler-dennis",
@@ -6437,7 +8037,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:kwiatkowski-tomasz",
@@ -6477,7 +8087,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:al-marri-khamis",
@@ -6517,7 +8137,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:san-fedayi",
@@ -6557,7 +8187,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:mohammed-obaid-khadim",
@@ -6597,7 +8237,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:garcia-antonio",
@@ -6637,7 +8287,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:gonzalez-leodan",
@@ -6677,7 +8337,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:dickerson-joe",
@@ -6717,7 +8387,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:villarreal-armando",
@@ -6757,7 +8437,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:soto-juan",
@@ -6797,7 +8487,17 @@
     "metrics": {},
     "sample_status": "pending_match_assignment",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:a-kitchen",
@@ -6851,7 +8551,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:a-madley",
@@ -6911,7 +8621,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:a-marriner",
@@ -6971,7 +8691,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:a-moss",
@@ -7024,7 +8754,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:a-taylor",
@@ -7087,7 +8827,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:c-kavanagh",
@@ -7149,7 +8899,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:c-pawson",
@@ -7212,7 +8972,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:d-bond",
@@ -7267,7 +9037,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:d-coote",
@@ -7327,7 +9107,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:d-england",
@@ -7386,7 +9176,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:d-webb",
@@ -7439,7 +9239,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:f-hallam",
@@ -7492,7 +9302,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:g-scott",
@@ -7555,7 +9375,17 @@
     "style_tags": [
       "low-card"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:j-brooks",
@@ -7614,7 +9444,17 @@
     "style_tags": [
       "card-heavy"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:j-gillett",
@@ -7673,7 +9513,17 @@
     "style_tags": [
       "high-scoring-sample"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:j-moss",
@@ -7732,7 +9582,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:j-smith",
@@ -7787,7 +9647,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:k-friend",
@@ -7846,7 +9716,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:k-kavanagh",
@@ -7899,7 +9779,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:k-stroud",
@@ -7952,7 +9842,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:l-probert",
@@ -8009,7 +9909,17 @@
     "style_tags": [
       "low-card"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:l-smith",
@@ -8064,7 +9974,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-atkinson",
@@ -8123,7 +10043,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-clattenburg",
@@ -8177,7 +10107,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-dean",
@@ -8238,7 +10178,17 @@
     "style_tags": [
       "red-card-prone"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-donohue",
@@ -8292,7 +10242,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-jones",
@@ -8347,7 +10307,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-oliver",
@@ -8410,7 +10380,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:m-salisbury",
@@ -8469,7 +10449,17 @@
     "style_tags": [
       "high-scoring-sample"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:n-swarbrick",
@@ -8524,7 +10514,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:o-langford",
@@ -8577,7 +10577,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:o-oliver",
@@ -8630,7 +10640,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:p-bankes",
@@ -8689,7 +10709,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:p-tierney",
@@ -8751,7 +10781,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:r-east",
@@ -8807,7 +10847,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:r-jones",
@@ -8866,7 +10916,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:r-madley",
@@ -8923,7 +10983,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:r-welch",
@@ -8976,7 +11046,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-allison",
@@ -9030,7 +11110,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-attwell",
@@ -9093,7 +11183,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-barrott",
@@ -9150,7 +11250,17 @@
     "style_tags": [
       "high-scoring-sample"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-hooper",
@@ -9212,7 +11322,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-scott",
@@ -9265,7 +11385,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:s-singh",
@@ -9318,7 +11448,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:t-bramall",
@@ -9376,7 +11516,17 @@
     "style_tags": [
       "draw-leaning"
     ],
-    "distillation_status": "available"
+    "distillation_status": "available",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:t-harrington",
@@ -9433,7 +11583,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:t-kirk",
@@ -9486,7 +11646,17 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:t-robinson",
@@ -9543,7 +11713,17 @@
     },
     "sample_status": "available",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   },
   {
     "official_id": "referee:premier-league:l-mason",
@@ -9596,6 +11776,16 @@
     },
     "sample_status": "low_referee_sample",
     "style_tags": [],
-    "distillation_status": "insufficient_sample"
+    "distillation_status": "insufficient_sample",
+    "date_of_birth": null,
+    "age": null,
+    "identity_field_coverage": {
+      "date_of_birth": "pending_source",
+      "age": "pending_source"
+    },
+    "identity_field_sources": {
+      "date_of_birth": "pending_identity_source",
+      "age": "pending_identity_source"
+    }
   }
 ]
