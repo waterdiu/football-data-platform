@@ -1,0 +1,1394 @@
+{
+  "generated_at": "2026-05-19T14:52:12Z",
+  "status": "report_only",
+  "source": "wikidata",
+  "source_url": "https://www.wikidata.org/",
+  "policy": "Identity probe only. Do not write DOB/age to normalized/public until high-confidence candidate review passes.",
+  "scope": {
+    "officials": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_match_officials_master.json",
+    "role": "referee",
+    "offset": 10,
+    "limit": 10,
+    "insecure_tls": false
+  },
+  "summary": {
+    "officials_considered": 10,
+    "matched": 10,
+    "dob_available": 9,
+    "high_confidence": 7,
+    "medium_confidence": 0,
+    "low_confidence": 3,
+    "none_confidence": 0,
+    "error_rows": 0
+  },
+  "rows": [
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+      "name": "MA Ning",
+      "display_name": "MA Ning",
+      "role": "referee",
+      "country": "CHN",
+      "country_code": "CHN",
+      "association_code": "CHN",
+      "probe_status": "matched",
+      "confidence": "low",
+      "best_candidate": {
+        "qid": "Q115740477",
+        "label": "Ning Ma",
+        "description": "Chinese arachnologist",
+        "url": "https://www.wikidata.org/wiki/Q115740477",
+        "date_of_birth": null,
+        "occupation_qids": [
+          "Q17344952"
+        ],
+        "occupation_labels": [
+          "arachnologist"
+        ],
+        "country_qids": [
+          "Q148"
+        ],
+        "country_labels": [
+          "People's Republic of China"
+        ],
+        "score": 60,
+        "score_reasons": [
+          "name_match",
+          "country_context"
+        ],
+        "query": "Ning Ma"
+      },
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "qid": "Q115740477",
+          "label": "Ning Ma",
+          "description": "Chinese arachnologist",
+          "url": "https://www.wikidata.org/wiki/Q115740477",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q17344952"
+          ],
+          "occupation_labels": [
+            "arachnologist"
+          ],
+          "country_qids": [
+            "Q148"
+          ],
+          "country_labels": [
+            "People's Republic of China"
+          ],
+          "score": 60,
+          "score_reasons": [
+            "name_match",
+            "country_context"
+          ],
+          "query": "Ning Ma"
+        },
+        {
+          "qid": "Q102974793",
+          "label": "Ning Ma",
+          "description": "researcher ORCID 0000-0002-9065-6796",
+          "url": "https://www.wikidata.org/wiki/Q102974793",
+          "date_of_birth": null,
+          "occupation_qids": [],
+          "occupation_labels": [],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Ning Ma"
+        },
+        {
+          "qid": "Q104799183",
+          "label": "Ning Ma",
+          "description": "researcher ORCID 0000-0002-7566-486X",
+          "url": "https://www.wikidata.org/wiki/Q104799183",
+          "date_of_birth": null,
+          "occupation_qids": [],
+          "occupation_labels": [],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Ning Ma"
+        },
+        {
+          "qid": "Q130810217",
+          "label": "Ning Ma",
+          "description": "researcher (ORCID 0009-0007-7199-7759)",
+          "url": "https://www.wikidata.org/wiki/Q130810217",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q1650915"
+          ],
+          "occupation_labels": [
+            "researcher"
+          ],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Ning Ma"
+        },
+        {
+          "qid": "Q116858260",
+          "label": "Ning Ma",
+          "description": "Founding Partner, Lingfeng Capital",
+          "url": "https://www.wikidata.org/wiki/Q116858260",
+          "date_of_birth": null,
+          "occupation_qids": [],
+          "occupation_labels": [],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Ning Ma"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:rojas-andres",
+      "name": "ROJAS Andres",
+      "display_name": "ROJAS Andres",
+      "role": "referee",
+      "country": "COL",
+      "country_code": "COL",
+      "association_code": "COL",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q65028736",
+        "label": "Andrés Rojas",
+        "description": "Colombian soccer referee",
+        "url": "https://www.wikidata.org/wiki/Q65028736",
+        "date_of_birth": "1984-01-01",
+        "occupation_qids": [
+          "Q202648",
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "referee",
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q739"
+        ],
+        "country_labels": [
+          "Colombia"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Andres Rojas"
+      },
+      "candidate_count": 6,
+      "candidates": [
+        {
+          "qid": "Q65028736",
+          "label": "Andrés Rojas",
+          "description": "Colombian soccer referee",
+          "url": "https://www.wikidata.org/wiki/Q65028736",
+          "date_of_birth": "1984-01-01",
+          "occupation_qids": [
+            "Q202648",
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "referee",
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q739"
+          ],
+          "country_labels": [
+            "Colombia"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Andres Rojas"
+        },
+        {
+          "qid": "Q28517217",
+          "label": "Andrés Rojas",
+          "description": "Colombian soldier and politician",
+          "url": "https://www.wikidata.org/wiki/Q28517217",
+          "date_of_birth": "1776-01-01",
+          "occupation_qids": [
+            "Q47064"
+          ],
+          "occupation_labels": [
+            "military personnel"
+          ],
+          "country_qids": [
+            "Q739"
+          ],
+          "country_labels": [
+            "Colombia"
+          ],
+          "score": 65,
+          "score_reasons": [
+            "name_match",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Andres Rojas"
+        },
+        {
+          "qid": "Q137258875",
+          "label": "Andrés Felipe Rojas",
+          "description": "Colombian actor",
+          "url": "https://www.wikidata.org/wiki/Q137258875",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q33999"
+          ],
+          "occupation_labels": [
+            "actor"
+          ],
+          "country_qids": [
+            "Q739"
+          ],
+          "country_labels": [
+            "Colombia"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "alias_match",
+            "country_context"
+          ],
+          "query": "Andres Rojas"
+        },
+        {
+          "qid": "Q17478252",
+          "label": "Andrés Rojas",
+          "description": "Bolivian journalist",
+          "url": "https://www.wikidata.org/wiki/Q17478252",
+          "date_of_birth": "1966-08-05",
+          "occupation_qids": [
+            "Q1930187",
+            "Q947873"
+          ],
+          "occupation_labels": [
+            "journalist",
+            "television presenter"
+          ],
+          "country_qids": [
+            "Q750"
+          ],
+          "country_labels": [
+            "Bolivia"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Andres Rojas"
+        },
+        {
+          "qid": "Q49851576",
+          "label": "Andrés Rojas",
+          "description": null,
+          "url": "https://www.wikidata.org/wiki/Q49851576",
+          "date_of_birth": null,
+          "occupation_qids": [],
+          "occupation_labels": [],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Andres Rojas"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+      "name": "CALDERON Juan",
+      "display_name": "CALDERON Juan",
+      "role": "referee",
+      "country": "CRC",
+      "country_code": "CRC",
+      "association_code": "CRC",
+      "probe_status": "matched",
+      "confidence": "low",
+      "best_candidate": {
+        "qid": "Q124902054",
+        "label": "Juan Calderón",
+        "description": "Mexican architect, painter and Graphiker, active in Mexico City",
+        "url": "https://www.wikidata.org/wiki/Q124902054",
+        "date_of_birth": "1938-04-21",
+        "occupation_qids": [
+          "Q42973",
+          "Q1028181",
+          "Q627325"
+        ],
+        "occupation_labels": [
+          "architect",
+          "painter",
+          "graphic designer"
+        ],
+        "country_qids": [
+          "Q96"
+        ],
+        "country_labels": [
+          "Mexico"
+        ],
+        "score": 50,
+        "score_reasons": [
+          "name_match",
+          "has_dob"
+        ],
+        "query": "Juan Calderon"
+      },
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "qid": "Q124902054",
+          "label": "Juan Calderón",
+          "description": "Mexican architect, painter and Graphiker, active in Mexico City",
+          "url": "https://www.wikidata.org/wiki/Q124902054",
+          "date_of_birth": "1938-04-21",
+          "occupation_qids": [
+            "Q42973",
+            "Q1028181",
+            "Q627325"
+          ],
+          "occupation_labels": [
+            "architect",
+            "painter",
+            "graphic designer"
+          ],
+          "country_qids": [
+            "Q96"
+          ],
+          "country_labels": [
+            "Mexico"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Juan Calderon"
+        },
+        {
+          "qid": "Q5948061",
+          "label": "Juan Calderón",
+          "description": "Spanish writer and university teacher (1791-1854)",
+          "url": "https://www.wikidata.org/wiki/Q5948061",
+          "date_of_birth": "1791-04-19",
+          "occupation_qids": [
+            "Q36180",
+            "Q1622272",
+            "Q2504617"
+          ],
+          "occupation_labels": [
+            "writer",
+            "university teacher",
+            "romanist"
+          ],
+          "country_qids": [
+            "Q29"
+          ],
+          "country_labels": [
+            "Spain"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Juan Calderon"
+        },
+        {
+          "qid": "Q6299114",
+          "label": "Juan Calderón",
+          "description": "Olympic field hockey player",
+          "url": "https://www.wikidata.org/wiki/Q6299114",
+          "date_of_birth": "1947-10-05",
+          "occupation_qids": [
+            "Q10843263"
+          ],
+          "occupation_labels": [
+            "field hockey player"
+          ],
+          "country_qids": [
+            "Q96"
+          ],
+          "country_labels": [
+            "Mexico"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Juan Calderon"
+        },
+        {
+          "qid": "Q104431183",
+          "label": "Juan Calderon",
+          "description": "Peruvian artist (active 1660)",
+          "url": "https://www.wikidata.org/wiki/Q104431183",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q483501"
+          ],
+          "occupation_labels": [
+            "artist"
+          ],
+          "country_qids": [
+            "Q419"
+          ],
+          "country_labels": [
+            "Peru"
+          ],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Juan Calderon"
+        },
+        {
+          "qid": "Q58362687",
+          "label": "Juan Calderon",
+          "description": "researcher, ORCID id # 0000-0003-2072-704X",
+          "url": "https://www.wikidata.org/wiki/Q58362687",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q1650915"
+          ],
+          "occupation_labels": [
+            "researcher"
+          ],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Juan Calderon"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
+      "name": "MOHAMED Amin",
+      "display_name": "MOHAMED Amin",
+      "role": "referee",
+      "country": "EGY",
+      "country_code": "EGY",
+      "association_code": "EGY",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q29045189",
+        "label": "Amin Omar",
+        "description": "Egyptian football referee",
+        "url": "https://www.wikidata.org/wiki/Q29045189",
+        "date_of_birth": "1985-09-25",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q79"
+        ],
+        "country_labels": [
+          "Egypt"
+        ],
+        "score": 90,
+        "score_reasons": [
+          "alias_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Amin Mohamed"
+      },
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "qid": "Q29045189",
+          "label": "Amin Omar",
+          "description": "Egyptian football referee",
+          "url": "https://www.wikidata.org/wiki/Q29045189",
+          "date_of_birth": "1985-09-25",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q79"
+          ],
+          "country_labels": [
+            "Egypt"
+          ],
+          "score": 90,
+          "score_reasons": [
+            "alias_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Amin Mohamed"
+        },
+        {
+          "qid": "Q4695055",
+          "label": "Aheen El Hady",
+          "description": "Olympic judoka",
+          "url": "https://www.wikidata.org/wiki/Q4695055",
+          "date_of_birth": "1983-04-13",
+          "occupation_qids": [
+            "Q6665249"
+          ],
+          "occupation_labels": [
+            "judoka"
+          ],
+          "country_qids": [
+            "Q79"
+          ],
+          "country_labels": [
+            "Egypt"
+          ],
+          "score": 55,
+          "score_reasons": [
+            "alias_match",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Amin Mohamed"
+        },
+        {
+          "qid": "Q117441498",
+          "label": "Amin Mohamed Zaki",
+          "description": "Sudanese association football player",
+          "url": "https://www.wikidata.org/wiki/Q117441498",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q937857"
+          ],
+          "occupation_labels": [
+            "association football player"
+          ],
+          "country_qids": [
+            "Q1049"
+          ],
+          "country_labels": [
+            "Sudan"
+          ],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Amin Mohamed"
+        },
+        {
+          "qid": "Q47067253",
+          "label": "Chunkz",
+          "description": "British YouTuber",
+          "url": "https://www.wikidata.org/wiki/Q47067253",
+          "date_of_birth": "1996-02-21",
+          "occupation_qids": [
+            "Q639669",
+            "Q937857",
+            "Q17125263",
+            "Q2252262",
+            "Q2045208",
+            "Q13590141",
+            "Q33999",
+            "Q10800557"
+          ],
+          "occupation_labels": [
+            "musician",
+            "association football player",
+            "YouTuber",
+            "rapper",
+            "Internet celebrity",
+            "presenter",
+            "actor",
+            "film actor"
+          ],
+          "country_qids": [
+            "Q145",
+            "Q1045"
+          ],
+          "country_labels": [
+            "United Kingdom",
+            "Somalia"
+          ],
+          "score": 40,
+          "score_reasons": [
+            "alias_match",
+            "has_dob"
+          ],
+          "query": "Amin Mohamed"
+        },
+        {
+          "qid": "Q61105572",
+          "label": "Amin R Mohamed",
+          "description": "researcher ORCID ID = 0000-0001-8535-7444",
+          "url": "https://www.wikidata.org/wiki/Q61105572",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q1650915"
+          ],
+          "occupation_labels": [
+            "researcher"
+          ],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 35,
+          "score_reasons": [
+            "alias_match"
+          ],
+          "query": "Amin Mohamed"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:oliver-michael",
+      "name": "OLIVER Michael",
+      "display_name": "OLIVER Michael",
+      "role": "referee",
+      "country": "ENG",
+      "country_code": "ENG",
+      "association_code": "ENG",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q4333767",
+        "label": "Michael Oliver",
+        "description": "English football referee",
+        "url": "https://www.wikidata.org/wiki/Q4333767",
+        "date_of_birth": "1985-02-20",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q145"
+        ],
+        "country_labels": [
+          "United Kingdom"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Michael Oliver"
+      },
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "qid": "Q4333767",
+          "label": "Michael Oliver",
+          "description": "English football referee",
+          "url": "https://www.wikidata.org/wiki/Q4333767",
+          "date_of_birth": "1985-02-20",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q145"
+          ],
+          "country_labels": [
+            "United Kingdom"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Michael Oliver"
+        },
+        {
+          "qid": "Q2720825",
+          "label": "Michael Oliver",
+          "description": "American actor",
+          "url": "https://www.wikidata.org/wiki/Q2720825",
+          "date_of_birth": "1981-10-10",
+          "occupation_qids": [
+            "Q33999",
+            "Q10798782",
+            "Q10800557"
+          ],
+          "occupation_labels": [
+            "actor",
+            "television actor",
+            "film actor"
+          ],
+          "country_qids": [
+            "Q30"
+          ],
+          "country_labels": [
+            "United States"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Michael Oliver"
+        },
+        {
+          "qid": "Q119889891",
+          "label": "Michael Oliver",
+          "description": "German racing driver",
+          "url": "https://www.wikidata.org/wiki/Q119889891",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q378622"
+          ],
+          "occupation_labels": [
+            "racing driver"
+          ],
+          "country_qids": [
+            "Q183"
+          ],
+          "country_labels": [
+            "Germany"
+          ],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Michael Oliver"
+        },
+        {
+          "qid": "Q6848268",
+          "label": "Mike Oliver",
+          "description": "British academic and activist",
+          "url": "https://www.wikidata.org/wiki/Q6848268",
+          "date_of_birth": "1945-02-03",
+          "occupation_qids": [
+            "Q1476215",
+            "Q2306091",
+            "Q482980"
+          ],
+          "occupation_labels": [
+            "human rights defender",
+            "sociologist",
+            "author"
+          ],
+          "country_qids": [
+            "Q28"
+          ],
+          "country_labels": [
+            "Hungary"
+          ],
+          "score": 40,
+          "score_reasons": [
+            "alias_match",
+            "has_dob"
+          ],
+          "query": "Michael Oliver"
+        },
+        {
+          "qid": "Q59685809",
+          "label": "Michael D Oliver",
+          "description": "researcher ORCID ID = 0000-0002-1768-4993",
+          "url": "https://www.wikidata.org/wiki/Q59685809",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q1650915"
+          ],
+          "occupation_labels": [
+            "researcher"
+          ],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 35,
+          "score_reasons": [
+            "alias_match"
+          ],
+          "query": "Michael Oliver"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:taylor-anthony",
+      "name": "TAYLOR Anthony",
+      "display_name": "TAYLOR Anthony",
+      "role": "referee",
+      "country": "ENG",
+      "country_code": "ENG",
+      "association_code": "ENG",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q4453759",
+        "label": "Anthony Taylor",
+        "description": "English football referee",
+        "url": "https://www.wikidata.org/wiki/Q4453759",
+        "date_of_birth": "1978-10-20",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q145"
+        ],
+        "country_labels": [
+          "United Kingdom"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Anthony Taylor"
+      },
+      "candidate_count": 6,
+      "candidates": [
+        {
+          "qid": "Q4453759",
+          "label": "Anthony Taylor",
+          "description": "English football referee",
+          "url": "https://www.wikidata.org/wiki/Q4453759",
+          "date_of_birth": "1978-10-20",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q145"
+          ],
+          "country_labels": [
+            "United Kingdom"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Anthony Taylor"
+        },
+        {
+          "qid": "Q126958516",
+          "label": "Anthony Taylor",
+          "description": "American football player",
+          "url": "https://www.wikidata.org/wiki/Q126958516",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q19204627"
+          ],
+          "occupation_labels": [
+            "American football player"
+          ],
+          "country_qids": [
+            "Q30"
+          ],
+          "country_labels": [
+            "United States"
+          ],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Anthony Taylor"
+        },
+        {
+          "qid": "Q123859772",
+          "label": "Anthony Taylor",
+          "description": "1773 - 1837",
+          "url": "https://www.wikidata.org/wiki/Q123859772",
+          "date_of_birth": null,
+          "occupation_qids": [],
+          "occupation_labels": [],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Anthony Taylor"
+        },
+        {
+          "qid": "Q125268872",
+          "label": "Anthony Taylor",
+          "description": "American architect, active in Nashville",
+          "url": "https://www.wikidata.org/wiki/Q125268872",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q42973"
+          ],
+          "occupation_labels": [
+            "architect"
+          ],
+          "country_qids": [
+            "Q30"
+          ],
+          "country_labels": [
+            "United States"
+          ],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Anthony Taylor"
+        },
+        {
+          "qid": "Q100986378",
+          "label": "Anthony Taylor",
+          "description": "college basketball player (2012–2013) Longwood",
+          "url": "https://www.wikidata.org/wiki/Q100986378",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q3665646"
+          ],
+          "occupation_labels": [
+            "basketball player"
+          ],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Anthony Taylor"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
+      "name": "HERNANDEZ Alejandro",
+      "display_name": "HERNANDEZ Alejandro",
+      "role": "referee",
+      "country": "ESP",
+      "country_code": "ESP",
+      "association_code": "ESP",
+      "probe_status": "matched",
+      "confidence": "low",
+      "best_candidate": {
+        "qid": "Q4714571",
+        "label": "Alejandro Hernández",
+        "description": "Venezuelan film director",
+        "url": "https://www.wikidata.org/wiki/Q4714571",
+        "date_of_birth": "1990-11-28",
+        "occupation_qids": [
+          "Q177220",
+          "Q2526255",
+          "Q2059704",
+          "Q7042855",
+          "Q28389",
+          "Q1415090",
+          "Q488205",
+          "Q578109"
+        ],
+        "occupation_labels": [
+          "singer",
+          "film director",
+          "television director",
+          "film editor",
+          "screenwriter",
+          "film score composer",
+          "singer-songwriter",
+          "television producer"
+        ],
+        "country_qids": [
+          "Q717"
+        ],
+        "country_labels": [
+          "Venezuela"
+        ],
+        "score": 50,
+        "score_reasons": [
+          "name_match",
+          "has_dob"
+        ],
+        "query": "Alejandro Hernandez"
+      },
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "qid": "Q4714571",
+          "label": "Alejandro Hernández",
+          "description": "Venezuelan film director",
+          "url": "https://www.wikidata.org/wiki/Q4714571",
+          "date_of_birth": "1990-11-28",
+          "occupation_qids": [
+            "Q177220",
+            "Q2526255",
+            "Q2059704",
+            "Q7042855",
+            "Q28389",
+            "Q1415090",
+            "Q488205",
+            "Q578109"
+          ],
+          "occupation_labels": [
+            "singer",
+            "film director",
+            "television director",
+            "film editor",
+            "screenwriter",
+            "film score composer",
+            "singer-songwriter",
+            "television producer"
+          ],
+          "country_qids": [
+            "Q717"
+          ],
+          "country_labels": [
+            "Venezuela"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Alejandro Hernandez"
+        },
+        {
+          "qid": "Q4714572",
+          "label": "Alejandro Hernández Julia",
+          "description": "Mexican tennis player",
+          "url": "https://www.wikidata.org/wiki/Q4714572",
+          "date_of_birth": "1977-10-01",
+          "occupation_qids": [
+            "Q10833314"
+          ],
+          "occupation_labels": [
+            "tennis player"
+          ],
+          "country_qids": [
+            "Q96"
+          ],
+          "country_labels": [
+            "Mexico"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Alejandro Hernandez"
+        },
+        {
+          "qid": "Q102185166",
+          "label": "Alejandro Hernandez",
+          "description": "Ph.D. University of California, Berkeley 1992",
+          "url": "https://www.wikidata.org/wiki/Q102185166",
+          "date_of_birth": null,
+          "occupation_qids": [],
+          "occupation_labels": [],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Alejandro Hernandez"
+        },
+        {
+          "qid": "Q122413483",
+          "label": "Alejandro Hernandez",
+          "description": "American actor",
+          "url": "https://www.wikidata.org/wiki/Q122413483",
+          "date_of_birth": null,
+          "occupation_qids": [],
+          "occupation_labels": [],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Alejandro Hernandez"
+        },
+        {
+          "qid": "Q43260129",
+          "label": "Alejandro Hernández",
+          "description": "researcher",
+          "url": "https://www.wikidata.org/wiki/Q43260129",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q1650915"
+          ],
+          "occupation_labels": [
+            "researcher"
+          ],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Alejandro Hernandez"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:letexier-francois",
+      "name": "LETEXIER Francois",
+      "display_name": "LETEXIER Francois",
+      "role": "referee",
+      "country": "FRA",
+      "country_code": "FRA",
+      "association_code": "FRA",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q47463621",
+        "label": "François Letexier",
+        "description": "French football referee",
+        "url": "https://www.wikidata.org/wiki/Q47463621",
+        "date_of_birth": "1989-04-23",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q142"
+        ],
+        "country_labels": [
+          "France"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Francois Letexier"
+      },
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "qid": "Q47463621",
+          "label": "François Letexier",
+          "description": "French football referee",
+          "url": "https://www.wikidata.org/wiki/Q47463621",
+          "date_of_birth": "1989-04-23",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q142"
+          ],
+          "country_labels": [
+            "France"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Francois Letexier"
+        },
+        {
+          "qid": "Q127428847",
+          "label": "Francois Letexier sędzią głównym finału Euro 2024",
+          "description": "Wikinews article",
+          "url": "https://www.wikidata.org/wiki/Q127428847",
+          "date_of_birth": null,
+          "occupation_qids": [],
+          "occupation_labels": [],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Francois Letexier"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:turpin-clement",
+      "name": "TURPIN Clement",
+      "display_name": "TURPIN Clement",
+      "role": "referee",
+      "country": "FRA",
+      "country_code": "FRA",
+      "association_code": "FRA",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q1103944",
+        "label": "Clément Turpin",
+        "description": "French football referee",
+        "url": "https://www.wikidata.org/wiki/Q1103944",
+        "date_of_birth": "1982-05-16",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q142"
+        ],
+        "country_labels": [
+          "France"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Clement Turpin"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q1103944",
+          "label": "Clément Turpin",
+          "description": "French football referee",
+          "url": "https://www.wikidata.org/wiki/Q1103944",
+          "date_of_birth": "1982-05-16",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q142"
+          ],
+          "country_labels": [
+            "France"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Clement Turpin"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:atcho-pierre",
+      "name": "ATCHO Pierre",
+      "display_name": "ATCHO Pierre",
+      "role": "referee",
+      "country": "GAB",
+      "country_code": "GAB",
+      "association_code": "GAB",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q123663249",
+        "label": "Pierre Atcho",
+        "description": "Gabonese association football referee",
+        "url": "https://www.wikidata.org/wiki/Q123663249",
+        "date_of_birth": "1992-10-10",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q1000"
+        ],
+        "country_labels": [
+          "Gabon"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Pierre Atcho"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q123663249",
+          "label": "Pierre Atcho",
+          "description": "Gabonese association football referee",
+          "url": "https://www.wikidata.org/wiki/Q123663249",
+          "date_of_birth": "1992-10-10",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q1000"
+          ],
+          "country_labels": [
+            "Gabon"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Pierre Atcho"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,901 @@
+{
+  "generated_at": "2026-05-19T14:51:58Z",
+  "status": "report_only",
+  "source": "wikidata",
+  "source_url": "https://www.wikidata.org/",
+  "policy": "Identity probe only. Do not write DOB/age to normalized/public until high-confidence candidate review passes.",
+  "scope": {
+    "officials": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_match_officials_master.json",
+    "role": "referee",
+    "offset": 20,
+    "limit": 10,
+    "insecure_tls": false
+  },
+  "summary": {
+    "officials_considered": 10,
+    "matched": 10,
+    "dob_available": 9,
+    "high_confidence": 10,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "none_confidence": 0,
+    "error_rows": 0
+  },
+  "rows": [
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:zwayer-felix",
+      "name": "ZWAYER Felix",
+      "display_name": "ZWAYER Felix",
+      "role": "referee",
+      "country": "GER",
+      "country_code": "GER",
+      "association_code": "GER",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q1403916",
+        "label": "Felix Zwayer",
+        "description": "German football referee",
+        "url": "https://www.wikidata.org/wiki/Q1403916",
+        "date_of_birth": "1981-05-19",
+        "occupation_qids": [
+          "Q859528",
+          "Q223291"
+        ],
+        "occupation_labels": [
+          "association football referee",
+          "association football assistant referee"
+        ],
+        "country_qids": [
+          "Q183"
+        ],
+        "country_labels": [
+          "Germany"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Felix Zwayer"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q1403916",
+          "label": "Felix Zwayer",
+          "description": "German football referee",
+          "url": "https://www.wikidata.org/wiki/Q1403916",
+          "date_of_birth": "1981-05-19",
+          "occupation_qids": [
+            "Q859528",
+            "Q223291"
+          ],
+          "occupation_labels": [
+            "association football referee",
+            "association football assistant referee"
+          ],
+          "country_qids": [
+            "Q183"
+          ],
+          "country_labels": [
+            "Germany"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Felix Zwayer"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
+      "name": "MARTINEZ Hector Said",
+      "display_name": "MARTINEZ Hector Said",
+      "role": "referee",
+      "country": "HON",
+      "country_code": "HON",
+      "association_code": "HON",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q64211023",
+        "label": "Héctor Said Martínez",
+        "description": "Honduran football referee",
+        "url": "https://www.wikidata.org/wiki/Q64211023",
+        "date_of_birth": "1991-08-07",
+        "occupation_qids": [
+          "Q202648",
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "referee",
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q783"
+        ],
+        "country_labels": [
+          "Honduras"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Hector Said Martinez"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q64211023",
+          "label": "Héctor Said Martínez",
+          "description": "Honduran football referee",
+          "url": "https://www.wikidata.org/wiki/Q64211023",
+          "date_of_birth": "1991-08-07",
+          "occupation_qids": [
+            "Q202648",
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "referee",
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q783"
+          ],
+          "country_labels": [
+            "Honduras"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Hector Said Martinez"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
+      "name": "MARIANI Maurizio",
+      "display_name": "MARIANI Maurizio",
+      "role": "referee",
+      "country": "ITA",
+      "country_code": "ITA",
+      "association_code": "ITA",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q16577239",
+        "label": "Maurizio Mariani",
+        "description": "Italian association football referee",
+        "url": "https://www.wikidata.org/wiki/Q16577239",
+        "date_of_birth": "1982-02-25",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q38"
+        ],
+        "country_labels": [
+          "Italy"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Maurizio Mariani"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q16577239",
+          "label": "Maurizio Mariani",
+          "description": "Italian association football referee",
+          "url": "https://www.wikidata.org/wiki/Q16577239",
+          "date_of_birth": "1982-02-25",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q38"
+          ],
+          "country_labels": [
+            "Italy"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Maurizio Mariani"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:nation-oshane",
+      "name": "NATION Oshane",
+      "display_name": "NATION Oshane",
+      "role": "referee",
+      "country": "JAM",
+      "country_code": "JAM",
+      "association_code": "JAM",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q120123118",
+        "label": "Oshane Nation",
+        "description": "Referee",
+        "url": "https://www.wikidata.org/wiki/Q120123118",
+        "date_of_birth": "1991-01-10",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [],
+        "country_labels": [],
+        "score": 85,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "has_dob"
+        ],
+        "query": "Oshane Nation"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q120123118",
+          "label": "Oshane Nation",
+          "description": "Referee",
+          "url": "https://www.wikidata.org/wiki/Q120123118",
+          "date_of_birth": "1991-01-10",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "query": "Oshane Nation"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:makhadmeh-adham",
+      "name": "MAKHADMEH Adham",
+      "display_name": "MAKHADMEH Adham",
+      "role": "referee",
+      "country": "JOR",
+      "country_code": "JOR",
+      "association_code": "JOR",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q47163044",
+        "label": "Adham Makhadmeh",
+        "description": "association football referee",
+        "url": "https://www.wikidata.org/wiki/Q47163044",
+        "date_of_birth": "1987-02-13",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q222"
+        ],
+        "country_labels": [
+          "Albania"
+        ],
+        "score": 85,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "has_dob"
+        ],
+        "query": "Adham Makhadmeh"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q47163044",
+          "label": "Adham Makhadmeh",
+          "description": "association football referee",
+          "url": "https://www.wikidata.org/wiki/Q47163044",
+          "date_of_birth": "1987-02-13",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q222"
+          ],
+          "country_labels": [
+            "Albania"
+          ],
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "query": "Adham Makhadmeh"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
+      "name": "ARAKI Yusuke",
+      "display_name": "ARAKI Yusuke",
+      "role": "referee",
+      "country": "JPN",
+      "country_code": "JPN",
+      "association_code": "JPN",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q60990160",
+        "label": "Yusuke Araki",
+        "description": "Japanese association football referee (1986-)",
+        "url": "https://www.wikidata.org/wiki/Q60990160",
+        "date_of_birth": "1986-05-02",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q17"
+        ],
+        "country_labels": [
+          "Japan"
+        ],
+        "score": 85,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "has_dob"
+        ],
+        "query": "Yusuke Araki"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q60990160",
+          "label": "Yusuke Araki",
+          "description": "Japanese association football referee (1986-)",
+          "url": "https://www.wikidata.org/wiki/Q60990160",
+          "date_of_birth": "1986-05-02",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q17"
+          ],
+          "country_labels": [
+            "Japan"
+          ],
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "query": "Yusuke Araki"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
+      "name": "AL TURAIS Khalid",
+      "display_name": "AL TURAIS Khalid",
+      "role": "referee",
+      "country": "KSA",
+      "country_code": "KSA",
+      "association_code": "KSA",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q124008212",
+        "label": "Khalid al-Turais",
+        "description": "Saudi association football referee",
+        "url": "https://www.wikidata.org/wiki/Q124008212",
+        "date_of_birth": "1987-04-30",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q851"
+        ],
+        "country_labels": [
+          "Saudi Arabia"
+        ],
+        "score": 85,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "has_dob"
+        ],
+        "query": "Khalid Al Turais"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q124008212",
+          "label": "Khalid al-Turais",
+          "description": "Saudi association football referee",
+          "url": "https://www.wikidata.org/wiki/Q124008212",
+          "date_of_birth": "1987-04-30",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q851"
+          ],
+          "country_labels": [
+            "Saudi Arabia"
+          ],
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "query": "Khalid Al Turais"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
+      "name": "JAYED Jalal",
+      "display_name": "JAYED Jalal",
+      "role": "referee",
+      "country": "MAR",
+      "country_code": "MAR",
+      "association_code": "MAR",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q130369661",
+        "label": "Jalal Jayed",
+        "description": null,
+        "url": "https://www.wikidata.org/wiki/Q130369661",
+        "date_of_birth": null,
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [],
+        "country_labels": [],
+        "score": 80,
+        "score_reasons": [
+          "name_match",
+          "referee_context"
+        ],
+        "query": "Jalal Jayed"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q130369661",
+          "label": "Jalal Jayed",
+          "description": null,
+          "url": "https://www.wikidata.org/wiki/Q130369661",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 80,
+          "score_reasons": [
+            "name_match",
+            "referee_context"
+          ],
+          "query": "Jalal Jayed"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
+      "name": "GARCIA Katia",
+      "display_name": "GARCIA Katia",
+      "role": "referee",
+      "country": "MEX",
+      "country_code": "MEX",
+      "association_code": "MEX",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q128210224",
+        "label": "Katia García Mendoza",
+        "description": "association football referee",
+        "url": "https://www.wikidata.org/wiki/Q128210224",
+        "date_of_birth": "1992-09-01",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q96"
+        ],
+        "country_labels": [
+          "Mexico"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Katia Garcia"
+      },
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "qid": "Q128210224",
+          "label": "Katia García Mendoza",
+          "description": "association football referee",
+          "url": "https://www.wikidata.org/wiki/Q128210224",
+          "date_of_birth": "1992-09-01",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q96"
+          ],
+          "country_labels": [
+            "Mexico"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Katia Garcia"
+        },
+        {
+          "qid": "Q116304020",
+          "label": "Katia Itzel García",
+          "description": "Referee",
+          "url": "https://www.wikidata.org/wiki/Q116304020",
+          "date_of_birth": "1992-09-01",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q96"
+          ],
+          "country_labels": [
+            "Mexico"
+          ],
+          "score": 90,
+          "score_reasons": [
+            "alias_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Katia Garcia"
+        },
+        {
+          "qid": "Q133882113",
+          "label": "Katia García",
+          "description": "Peruvian volleyball player",
+          "url": "https://www.wikidata.org/wiki/Q133882113",
+          "date_of_birth": "1995-02-09",
+          "occupation_qids": [
+            "Q15117302",
+            "Q17361156"
+          ],
+          "occupation_labels": [
+            "volleyball player",
+            "beach volleyball player"
+          ],
+          "country_qids": [
+            "Q419"
+          ],
+          "country_labels": [
+            "Peru"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Katia Garcia"
+        },
+        {
+          "qid": "Q10314898",
+          "label": "Kátia Garcia Oliveira",
+          "description": "Brazilian singer",
+          "url": "https://www.wikidata.org/wiki/Q10314898",
+          "date_of_birth": "1962-03-26",
+          "occupation_qids": [
+            "Q2643890"
+          ],
+          "occupation_labels": [
+            "vocalist"
+          ],
+          "country_qids": [
+            "Q155"
+          ],
+          "country_labels": [
+            "Brazil"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Katia Garcia"
+        },
+        {
+          "qid": "Q119981998",
+          "label": "Katia Garcia Fayai",
+          "description": "artist",
+          "url": "https://www.wikidata.org/wiki/Q119981998",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q483501"
+          ],
+          "occupation_labels": [
+            "artist"
+          ],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Katia Garcia"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:ramos-cesar",
+      "name": "RAMOS Cesar",
+      "display_name": "RAMOS Cesar",
+      "role": "referee",
+      "country": "MEX",
+      "country_code": "MEX",
+      "association_code": "MEX",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q20641378",
+        "label": "César Ramos",
+        "description": "Mexican association football referee",
+        "url": "https://www.wikidata.org/wiki/Q20641378",
+        "date_of_birth": "1983-12-15",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q96"
+        ],
+        "country_labels": [
+          "Mexico"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Cesar Ramos"
+      },
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "qid": "Q20641378",
+          "label": "César Ramos",
+          "description": "Mexican association football referee",
+          "url": "https://www.wikidata.org/wiki/Q20641378",
+          "date_of_birth": "1983-12-15",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q96"
+          ],
+          "country_labels": [
+            "Mexico"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Cesar Ramos"
+        },
+        {
+          "qid": "Q136734553",
+          "label": "César Ramos",
+          "description": null,
+          "url": "https://www.wikidata.org/wiki/Q136734553",
+          "date_of_birth": "2000-06-14",
+          "occupation_qids": [
+            "Q937857"
+          ],
+          "occupation_labels": [
+            "association football player"
+          ],
+          "country_qids": [
+            "Q96"
+          ],
+          "country_labels": [
+            "Mexico"
+          ],
+          "score": 65,
+          "score_reasons": [
+            "name_match",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Cesar Ramos"
+        },
+        {
+          "qid": "Q19848909",
+          "label": "César Ramos",
+          "description": "Mexican actor",
+          "url": "https://www.wikidata.org/wiki/Q19848909",
+          "date_of_birth": "1987-10-06",
+          "occupation_qids": [
+            "Q33999",
+            "Q10800557"
+          ],
+          "occupation_labels": [
+            "actor",
+            "film actor"
+          ],
+          "country_qids": [
+            "Q96"
+          ],
+          "country_labels": [
+            "Mexico"
+          ],
+          "score": 65,
+          "score_reasons": [
+            "name_match",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Cesar Ramos"
+        },
+        {
+          "qid": "Q998472",
+          "label": "César Ramos",
+          "description": "Brazilian racing driver",
+          "url": "https://www.wikidata.org/wiki/Q998472",
+          "date_of_birth": "1989-07-25",
+          "occupation_qids": [
+            "Q378622",
+            "Q10349745"
+          ],
+          "occupation_labels": [
+            "racing driver",
+            "racing automobile driver"
+          ],
+          "country_qids": [
+            "Q155"
+          ],
+          "country_labels": [
+            "Brazil"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Cesar Ramos"
+        },
+        {
+          "qid": "Q26162484",
+          "label": "César Ramos Esteban",
+          "description": "Spanish politician",
+          "url": "https://www.wikidata.org/wiki/Q26162484",
+          "date_of_birth": "1975-03-01",
+          "occupation_qids": [
+            "Q82955"
+          ],
+          "occupation_labels": [
+            "politician"
+          ],
+          "country_qids": [
+            "Q29"
+          ],
+          "country_labels": [
+            "Spain"
+          ],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Cesar Ramos"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

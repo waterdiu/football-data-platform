@@ -33,6 +33,7 @@ CORE_DATASETS = {
     "player_dcaribou_activity": "player-dcaribou-activity.json",
     "referee_profiles": "referee-profiles.json",
     "officials": "officials.json",
+    "official_external_facts": "official-external-facts.json",
     "player_ratings": "player-ratings.json",
     "staff_ratings": "staff-ratings.json",
     "official_ratings": "official-ratings.json",

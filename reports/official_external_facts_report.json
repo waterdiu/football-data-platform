@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-05-19T15:01:23Z",
+  "status": "published",
+  "source": "wikidata",
+  "policy": "Only high-confidence Wikidata referee identity matches with DOB are published. Low/medium/no-candidate rows stay in report-only review.",
+  "counts": {
+    "probe_rows": 52,
+    "facts_written": 44,
+    "skipped": 8,
+    "skipped_rows": [
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
+        "name": "BEIDA Dahane",
+        "reason": "not_high_confidence_or_missing_or_partial_dob",
+        "confidence": "medium",
+        "candidate_label": "Beida Dahane",
+        "candidate_url": "https://www.wikidata.org/wiki/Q110564195",
+        "date_of_birth": "1991-12-31"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
+        "name": "CALDERON Juan",
+        "reason": "not_high_confidence_or_missing_or_partial_dob",
+        "confidence": "low",
+        "candidate_label": "Juan Calderón",
+        "candidate_url": "https://www.wikidata.org/wiki/Q124902054",
+        "date_of_birth": "1938-04-21"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
+        "name": "HERNANDEZ Alejandro",
+        "reason": "not_high_confidence_or_missing_or_partial_dob",
+        "confidence": "low",
+        "candidate_label": "Alejandro Hernández",
+        "candidate_url": "https://www.wikidata.org/wiki/Q4714571",
+        "date_of_birth": "1990-11-28"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
+        "name": "JAYED Jalal",
+        "reason": "not_high_confidence_or_missing_or_partial_dob",
+        "confidence": "high",
+        "candidate_label": "Jalal Jayed",
+        "candidate_url": "https://www.wikidata.org/wiki/Q130369661",
+        "date_of_birth": null
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
+        "name": "KAWANA-WAUGH Campbell-Kirk",
+        "reason": "not_high_confidence_or_missing_or_partial_dob",
+        "confidence": "high",
+        "candidate_label": "Campbell-Kirk Kawana-Waugh",
+        "candidate_url": "https://www.wikidata.org/wiki/Q118945814",
+        "date_of_birth": null
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
+        "name": "MA Ning",
+        "reason": "not_high_confidence_or_missing_or_partial_dob",
+        "confidence": "low",
+        "candidate_label": "Ning Ma",
+        "candidate_url": "https://www.wikidata.org/wiki/Q115740477",
+        "date_of_birth": null
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
+        "name": "PENSO Tori",
+        "reason": "not_high_confidence_or_missing_or_partial_dob",
+        "confidence": "high",
+        "candidate_label": "Tori Penso",
+        "candidate_url": "https://www.wikidata.org/wiki/Q99677651",
+        "date_of_birth": "1985-00-00"
+      },
+      {
+        "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
+        "name": "SCHAERER Sandro",
+        "reason": "not_high_confidence_or_missing_or_partial_dob",
+        "confidence": "none",
+        "candidate_label": null,
+        "candidate_url": null,
+        "date_of_birth": null
+      }
+    ]
+  },
+  "outputs": {
+    "normalized": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/person_official_external_facts_master.json"
+  }
+}

@@ -16,6 +16,7 @@ DATASETS = {
     "person_player_external_facts_master.json": "player-external-facts.json",
     "person_player_dcaribou_activity_master.json": "player-dcaribou-activity.json",
     "person_staff_external_facts_master.json": "staff-external-facts.json",
+    "person_official_external_facts_master.json": "official-external-facts.json",
     "person_player_ratings_master.json": "player-ratings.json",
     "person_staff_ratings_master.json": "staff-ratings.json",
     "person_official_ratings_master.json": "official-ratings.json",
@@ -26,6 +27,7 @@ TEAM_RECENT_MATCHES_PATH = PUBLIC_DIR / "team-recent-matches.json"
 PLAYER_EXTERNAL_FACTS_PATH = NORMALIZED_DIR / "person_player_external_facts_master.json"
 PLAYER_ACTIVITY_FACTS_PATH = NORMALIZED_DIR / "person_player_dcaribou_activity_master.json"
 STAFF_EXTERNAL_FACTS_PATH = NORMALIZED_DIR / "person_staff_external_facts_master.json"
+OFFICIAL_EXTERNAL_FACTS_PATH = NORMALIZED_DIR / "person_official_external_facts_master.json"
 WORLD_CUP_OFFICIALS_PATH = NORMALIZED_DIR / "world_cup_2026_match_officials_master.json"
 
 
@@ -532,6 +534,7 @@ def build_referee_profile(official: dict, rating: dict | None = None) -> dict:
         "source_status": official.get("source_status"),
         "sources": official.get("sources") if isinstance(official.get("sources"), list) else [],
         "source_refs": official.get("source_refs") if isinstance(official.get("source_refs"), dict) else {},
+        "external_identity_facts": official.get("external_identity_facts") if isinstance(official.get("external_identity_facts"), list) else [],
         "source_url": official.get("source_url"),
         "updated_at": official.get("updated_at"),
     }
@@ -541,6 +544,15 @@ def build_referee_profile(official: dict, rating: dict | None = None) -> dict:
         key: source_status if direct_coverage.get(key) == "available" else "pending_source"
         for key in direct_fields
     }
+    existing_field_sources = official.get("identity_field_sources")
+    if isinstance(existing_field_sources, dict):
+        field_sources.update(
+            {
+                key: value
+                for key, value in existing_field_sources.items()
+                if key in direct_fields and value
+            }
+        )
     for key in ("date_of_birth", "age", "fifa_listed_since"):
         if direct_coverage.get(key) != "available":
             field_sources[key] = "pending_identity_source"
@@ -641,10 +653,57 @@ def load_staff_external_facts() -> dict[str, dict]:
     }
 
 
+def load_official_external_facts() -> dict[str, dict]:
+    if not OFFICIAL_EXTERNAL_FACTS_PATH.exists():
+        return {}
+    rows = ensure_list(load_json(OFFICIAL_EXTERNAL_FACTS_PATH), "person_official_external_facts_master.json")
+    return {
+        str(row.get("official_id") or row.get("person_id")): row
+        for row in rows
+        if row.get("official_id") or row.get("person_id")
+    }
+
+
 def load_world_cup_officials() -> list[dict]:
     if not WORLD_CUP_OFFICIALS_PATH.exists():
         return []
     return ensure_list(load_json(WORLD_CUP_OFFICIALS_PATH), "world_cup_2026_match_officials_master.json")
+
+
+def apply_official_external_facts(officials: list[dict], external_facts_by_id: dict[str, dict]) -> list[dict]:
+    merged: list[dict] = []
+    for row in officials:
+        official_id = str(row.get("official_id") or row.get("person_id") or "")
+        fact = external_facts_by_id.get(official_id)
+        if not isinstance(fact, dict):
+            merged.append(row)
+            continue
+        direct = fact.get("direct") if isinstance(fact.get("direct"), dict) else {}
+        enriched = dict(row)
+        if direct.get("date_of_birth"):
+            enriched["date_of_birth"] = direct.get("date_of_birth")
+        if direct.get("age") is not None:
+            enriched["age"] = direct.get("age")
+        enriched.setdefault("external_identity_facts", [])
+        if isinstance(enriched["external_identity_facts"], list):
+            enriched["external_identity_facts"].append(
+                {
+                    "source_status": fact.get("source_status"),
+                    "source": fact.get("source"),
+                    "source_url": fact.get("source_url"),
+                    "source_refs": fact.get("source_refs"),
+                    "confidence": fact.get("confidence"),
+                    "updated_at": fact.get("updated_at"),
+                }
+            )
+        enriched.setdefault("identity_field_sources", {})
+        if isinstance(enriched["identity_field_sources"], dict):
+            if direct.get("date_of_birth"):
+                enriched["identity_field_sources"]["date_of_birth"] = fact.get("source_status") or "third_party_identity"
+            if direct.get("age") is not None:
+                enriched["identity_field_sources"]["age"] = fact.get("source_status") or "third_party_identity"
+        merged.append(enriched)
+    return merged
 
 
 def merge_officials(*official_groups: list[dict]) -> list[dict]:
@@ -728,6 +787,8 @@ def main() -> None:
     player_external_facts_by_id = load_player_external_facts()
     player_activity_facts_by_id = load_player_activity_facts()
     staff_external_facts_by_id = load_staff_external_facts()
+    official_external_facts_by_id = load_official_external_facts()
+    officials = apply_official_external_facts(officials, official_external_facts_by_id)
 
     coach_profiles = [
         build_coach_profile(
@@ -792,12 +853,12 @@ def main() -> None:
                 "date_of_birth": {
                     "available": available_count(officials, "date_of_birth"),
                     "missing": len(officials) - available_count(officials, "date_of_birth"),
-                    "source": "pending_identity_source",
+                    "source": "third_party_wikidata_identity when available; otherwise pending_identity_source",
                 },
                 "age": {
                     "available": available_count(officials, "age"),
                     "missing": len(officials) - available_count(officials, "age"),
-                    "source": "pending_identity_source",
+                    "source": "third_party_wikidata_identity when available; otherwise pending_identity_source",
                 },
             },
         },

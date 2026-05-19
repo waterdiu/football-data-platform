@@ -355,6 +355,7 @@ def main() -> None:
     team_staff = load_json(PUBLIC_DIR / "team-staff.json")
     staff_external_facts = load_json(PUBLIC_DIR / "staff-external-facts.json")
     officials = load_json(PUBLIC_DIR / "officials.json")
+    official_external_facts = load_json(PUBLIC_DIR / "official-external-facts.json")
     player_external_facts = load_json(PUBLIC_DIR / "player-external-facts.json")
     player_ratings = load_json(PUBLIC_DIR / "player-ratings.json")
     staff_ratings = load_json(PUBLIC_DIR / "staff-ratings.json")
@@ -415,6 +416,7 @@ def main() -> None:
         "team-staff.json": team_staff,
         "staff-external-facts.json": staff_external_facts,
         "officials.json": officials,
+        "official-external-facts.json": official_external_facts,
         "player-external-facts.json": player_external_facts,
         "player-ratings.json": player_ratings,
         "staff-ratings.json": staff_ratings,

@@ -28,6 +28,7 @@
     "player-external-facts.json": 221,
     "player-dcaribou-activity.json": 234,
     "staff-external-facts.json": 44,
+    "official-external-facts.json": 44,
     "player-ratings.json": 0,
     "staff-ratings.json": 0,
     "official-ratings.json": 50,
@@ -84,12 +85,12 @@
       "total": 219,
       "fields": {
         "date_of_birth": {
-          "available": 0,
-          "missing": 219
+          "available": 44,
+          "missing": 175
         },
         "age": {
-          "available": 0,
-          "missing": 219
+          "available": 44,
+          "missing": 175
         },
         "country_code": {
           "available": 170,
@@ -113,14 +114,14 @@
       "total": 219,
       "fields": {
         "date_of_birth": {
-          "available": 0,
-          "missing": 219,
-          "source": "pending_identity_source"
+          "available": 44,
+          "missing": 175,
+          "source": "third_party_wikidata_identity when available; otherwise pending_identity_source"
         },
         "age": {
-          "available": 0,
-          "missing": 219,
-          "source": "pending_identity_source"
+          "available": 44,
+          "missing": 175,
+          "source": "third_party_wikidata_identity when available; otherwise pending_identity_source"
         }
       }
     }
@@ -135,6 +136,7 @@
     "player-external-facts.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/player-external-facts.json",
     "player-dcaribou-activity.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/player-dcaribou-activity.json",
     "staff-external-facts.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/staff-external-facts.json",
+    "official-external-facts.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/official-external-facts.json",
     "player-ratings.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/player-ratings.json",
     "staff-ratings.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/staff-ratings.json",
     "official-ratings.json": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/public/official-ratings.json",

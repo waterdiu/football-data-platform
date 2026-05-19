@@ -154,6 +154,31 @@ GitHub 上 `referee football` 搜索结果大量是：
 3. 用 football-data.co.uk 继续扩展欧洲主裁样本，不要只限英超。
 4. DOB/age 不从历史比赛样本推断；只有 Wikidata、SportMonks、API-FOOTBALL 或官方协会资料验证后才能补入 `officials/referee-profiles`。
 
+### Wikidata 身份 probe 结果
+
+- 脚本：`scripts/probe_wikidata_official_identity.py`
+- 批次合并：`scripts/merge_wikidata_official_identity_probe_reports.py`
+- 外部事实生成：`scripts/build_official_external_facts.py`
+- 报告：`reports/wikidata_official_identity_probe_report.json`
+
+当前 52 名 FIFA 世界杯主裁 probe 结果：
+
+- matched：51
+- DOB available：48
+- high confidence：47
+- 可发布 DOB/age：44
+
+只发布同时满足 `confidence=high` 且 `date_of_birth` 是完整 ISO 日期的行。以下行不进入 normalized/public，需要人工复核或第二来源：
+
+- `BEIDA Dahane`：medium confidence
+- `CALDERON Juan`：low confidence，同名风险
+- `HERNANDEZ Alejandro`：low confidence，同名风险
+- `JAYED Jalal`：high confidence，但 Wikidata 无 DOB
+- `KAWANA-WAUGH Campbell-Kirk`：high confidence，但 Wikidata 无 DOB
+- `MA Ning`：low confidence，且无 DOB
+- `PENSO Tori`：high confidence，但只有年份精度 `1985-00-00`
+- `SCHAERER Sandro`：未匹配
+
 ### P1：API-FOOTBALL Pro 到位后
 
 1. 先验证 `/fixtures` 是否能按裁判名或 fixture 返回 `referee`。

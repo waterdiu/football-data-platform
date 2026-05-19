@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-05-19T14:52:58Z",
+  "status": "report_only",
+  "source": "wikidata",
+  "source_url": "https://www.wikidata.org/",
+  "policy": "Identity probe only. Do not write DOB/age to normalized/public until high-confidence candidate review passes.",
+  "scope": {
+    "officials": "/Users/chamcham/Documents/AI/CODEX/soccer/football-data-platform/data/normalized/world_cup_2026_match_officials_master.json",
+    "role": "referee",
+    "offset": 50,
+    "limit": 10,
+    "insecure_tls": false
+  },
+  "summary": {
+    "officials_considered": 2,
+    "matched": 2,
+    "dob_available": 2,
+    "high_confidence": 2,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "none_confidence": 0,
+    "error_rows": 0
+  },
+  "rows": [
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:tantashev-ilgiz",
+      "name": "TANTASHEV Ilgiz",
+      "display_name": "TANTASHEV Ilgiz",
+      "role": "referee",
+      "country": "UZB",
+      "country_code": "UZB",
+      "association_code": "UZB",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q20641545",
+        "label": "Ilgiz Tantashev",
+        "description": "Uzbek football referee",
+        "url": "https://www.wikidata.org/wiki/Q20641545",
+        "date_of_birth": "1984-04-05",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q265"
+        ],
+        "country_labels": [
+          "Uzbekistan"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Ilgiz Tantashev"
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "qid": "Q20641545",
+          "label": "Ilgiz Tantashev",
+          "description": "Uzbek football referee",
+          "url": "https://www.wikidata.org/wiki/Q20641545",
+          "date_of_birth": "1984-04-05",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q265"
+          ],
+          "country_labels": [
+            "Uzbekistan"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Ilgiz Tantashev"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "official_id": "official:fifa-world-cup:2026:referee:valenzuela-jesus",
+      "name": "VALENZUELA Jesus",
+      "display_name": "VALENZUELA Jesus",
+      "role": "referee",
+      "country": "VEN",
+      "country_code": "VEN",
+      "association_code": "VEN",
+      "probe_status": "matched",
+      "confidence": "high",
+      "best_candidate": {
+        "qid": "Q65085830",
+        "label": "Jesús Valenzuela",
+        "description": "Venezuelan football referee (born 1983)",
+        "url": "https://www.wikidata.org/wiki/Q65085830",
+        "date_of_birth": "1983-11-24",
+        "occupation_qids": [
+          "Q859528"
+        ],
+        "occupation_labels": [
+          "association football referee"
+        ],
+        "country_qids": [
+          "Q717"
+        ],
+        "country_labels": [
+          "Venezuela"
+        ],
+        "score": 100,
+        "score_reasons": [
+          "name_match",
+          "referee_context",
+          "country_context",
+          "has_dob"
+        ],
+        "query": "Jesus Valenzuela"
+      },
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "qid": "Q65085830",
+          "label": "Jesús Valenzuela",
+          "description": "Venezuelan football referee (born 1983)",
+          "url": "https://www.wikidata.org/wiki/Q65085830",
+          "date_of_birth": "1983-11-24",
+          "occupation_qids": [
+            "Q859528"
+          ],
+          "occupation_labels": [
+            "association football referee"
+          ],
+          "country_qids": [
+            "Q717"
+          ],
+          "country_labels": [
+            "Venezuela"
+          ],
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "query": "Jesus Valenzuela"
+        },
+        {
+          "qid": "Q60677355",
+          "label": "Jesus Valenzuela",
+          "description": null,
+          "url": "https://www.wikidata.org/wiki/Q60677355",
+          "date_of_birth": "1835-00-00",
+          "occupation_qids": [],
+          "occupation_labels": [],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 50,
+          "score_reasons": [
+            "name_match",
+            "has_dob"
+          ],
+          "query": "Jesus Valenzuela"
+        },
+        {
+          "qid": "Q102262431",
+          "label": "Jesús Valenzuela Muñoz",
+          "description": "Ph.D. Universidad de Sevilla 2003",
+          "url": "https://www.wikidata.org/wiki/Q102262431",
+          "date_of_birth": null,
+          "occupation_qids": [],
+          "occupation_labels": [],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 45,
+          "score_reasons": [
+            "name_match"
+          ],
+          "query": "Jesus Valenzuela"
+        },
+        {
+          "qid": "Q56775666",
+          "label": "Jesus G Valenzuela",
+          "description": "researcher",
+          "url": "https://www.wikidata.org/wiki/Q56775666",
+          "date_of_birth": null,
+          "occupation_qids": [
+            "Q1650915"
+          ],
+          "occupation_labels": [
+            "researcher"
+          ],
+          "country_qids": [],
+          "country_labels": [],
+          "score": 35,
+          "score_reasons": [
+            "alias_match"
+          ],
+          "query": "Jesus Valenzuela"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

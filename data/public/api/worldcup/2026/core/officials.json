@@ -4438,16 +4438,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1985-08-19",
+    "age": 40,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q64027388",
+        "source_refs": {
+          "wikidata_qid": "Q64027388",
+          "wikidata_label": "Mustapha Ghorbal",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
@@ -4488,16 +4510,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1988-05-04",
+    "age": 38,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q111424865",
+        "source_refs": {
+          "wikidata_qid": "Q111424865",
+          "wikidata_label": "Yael Falcón",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:herrera-dario",
@@ -4538,16 +4582,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1985-02-24",
+    "age": 41,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q19900151",
+        "source_refs": {
+          "wikidata_qid": "Q19900151",
+          "wikidata_label": "Darío Humberto Herrera",
+          "probe_confidence": "high",
+          "score": 90,
+          "score_reasons": [
+            "alias_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tello-facundo",
@@ -4588,16 +4654,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1982-05-04",
+    "age": 44,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q56241359",
+        "source_refs": {
+          "wikidata_qid": "Q56241359",
+          "wikidata_label": "Facundo Tello",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:faghani-alireza",
@@ -4638,16 +4726,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1978-03-21",
+    "age": 48,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q650372",
+        "source_refs": {
+          "wikidata_qid": "Q650372",
+          "wikidata_label": "Alireza Faghani",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:claus-raphael",
@@ -4688,16 +4798,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1979-09-06",
+    "age": 46,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q21290419",
+        "source_refs": {
+          "wikidata_qid": "Q21290419",
+          "wikidata_label": "Raphael Claus",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
@@ -4738,16 +4870,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1989-09-18",
+    "age": 36,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q133462452",
+        "source_refs": {
+          "wikidata_qid": "Q133462452",
+          "wikidata_label": "Ramon Abatti Abel",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
@@ -4788,16 +4942,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1981-12-28",
+    "age": 44,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q16941092",
+        "source_refs": {
+          "wikidata_qid": "Q16941092",
+          "wikidata_label": "Wilton Pereira Sampaio",
+          "probe_confidence": "high",
+          "score": 90,
+          "score_reasons": [
+            "alias_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:fischer-drew",
@@ -4838,16 +5014,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1980-07-10",
+    "age": 45,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q19877945",
+        "source_refs": {
+          "wikidata_qid": "Q19877945",
+          "wikidata_label": "Drew Fischer",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:garay-cristian",
@@ -4888,16 +5086,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1989-04-08",
+    "age": 37,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q117813943",
+        "source_refs": {
+          "wikidata_qid": "Q117813943",
+          "wikidata_label": "Cristián Garay",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
@@ -4988,16 +5208,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1984-01-01",
+    "age": 42,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q65028736",
+        "source_refs": {
+          "wikidata_qid": "Q65028736",
+          "wikidata_label": "Andrés Rojas",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
@@ -5088,16 +5330,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1985-09-25",
+    "age": 40,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q29045189",
+        "source_refs": {
+          "wikidata_qid": "Q29045189",
+          "wikidata_label": "Amin Omar",
+          "probe_confidence": "high",
+          "score": 90,
+          "score_reasons": [
+            "alias_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:oliver-michael",
@@ -5138,16 +5402,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1985-02-20",
+    "age": 41,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q4333767",
+        "source_refs": {
+          "wikidata_qid": "Q4333767",
+          "wikidata_label": "Michael Oliver",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:taylor-anthony",
@@ -5188,16 +5474,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1978-10-20",
+    "age": 47,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q4453759",
+        "source_refs": {
+          "wikidata_qid": "Q4453759",
+          "wikidata_label": "Anthony Taylor",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
@@ -5288,16 +5596,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1989-04-23",
+    "age": 37,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q47463621",
+        "source_refs": {
+          "wikidata_qid": "Q47463621",
+          "wikidata_label": "François Letexier",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:turpin-clement",
@@ -5338,16 +5668,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1982-05-16",
+    "age": 44,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q1103944",
+        "source_refs": {
+          "wikidata_qid": "Q1103944",
+          "wikidata_label": "Clément Turpin",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:atcho-pierre",
@@ -5388,16 +5740,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1992-10-10",
+    "age": 33,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q123663249",
+        "source_refs": {
+          "wikidata_qid": "Q123663249",
+          "wikidata_label": "Pierre Atcho",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:zwayer-felix",
@@ -5438,16 +5812,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1981-05-19",
+    "age": 45,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q1403916",
+        "source_refs": {
+          "wikidata_qid": "Q1403916",
+          "wikidata_label": "Felix Zwayer",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
@@ -5488,16 +5884,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1991-08-07",
+    "age": 34,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q64211023",
+        "source_refs": {
+          "wikidata_qid": "Q64211023",
+          "wikidata_label": "Héctor Said Martínez",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
@@ -5538,16 +5956,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1982-02-25",
+    "age": 44,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q16577239",
+        "source_refs": {
+          "wikidata_qid": "Q16577239",
+          "wikidata_label": "Maurizio Mariani",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:nation-oshane",
@@ -5588,16 +6028,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1991-01-10",
+    "age": 35,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q120123118",
+        "source_refs": {
+          "wikidata_qid": "Q120123118",
+          "wikidata_label": "Oshane Nation",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:makhadmeh-adham",
@@ -5638,16 +6099,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1987-02-13",
+    "age": 39,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q47163044",
+        "source_refs": {
+          "wikidata_qid": "Q47163044",
+          "wikidata_label": "Adham Makhadmeh",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
@@ -5688,16 +6170,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1986-05-02",
+    "age": 40,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q60990160",
+        "source_refs": {
+          "wikidata_qid": "Q60990160",
+          "wikidata_label": "Yusuke Araki",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
@@ -5738,16 +6241,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1987-04-30",
+    "age": 39,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q124008212",
+        "source_refs": {
+          "wikidata_qid": "Q124008212",
+          "wikidata_label": "Khalid al-Turais",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
@@ -5838,16 +6362,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1992-09-01",
+    "age": 33,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q128210224",
+        "source_refs": {
+          "wikidata_qid": "Q128210224",
+          "wikidata_label": "Katia García Mendoza",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ramos-cesar",
@@ -5888,16 +6434,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1983-12-15",
+    "age": 42,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q20641378",
+        "source_refs": {
+          "wikidata_qid": "Q20641378",
+          "wikidata_label": "César Ramos",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
@@ -5988,16 +6556,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1983-01-28",
+    "age": 43,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q13511583",
+        "source_refs": {
+          "wikidata_qid": "Q13511583",
+          "wikidata_label": "Danny Makkelie",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:eskas-espen",
@@ -6038,16 +6627,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1988-06-24",
+    "age": 37,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q10822753",
+        "source_refs": {
+          "wikidata_qid": "Q10822753",
+          "wikidata_label": "Espen Eskås",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
@@ -6138,16 +6749,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1982-01-01",
+    "age": 44,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q126953051",
+        "source_refs": {
+          "wikidata_qid": "Q126953051",
+          "wikidata_label": "Juan Benítez",
+          "probe_confidence": "high",
+          "score": 90,
+          "score_reasons": [
+            "alias_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
@@ -6188,16 +6821,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1992-03-26",
+    "age": 34,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q102419943",
+        "source_refs": {
+          "wikidata_qid": "Q102419943",
+          "wikidata_label": "Kevin Ortega",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
@@ -6238,16 +6893,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1981-01-07",
+    "age": 45,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q7665089",
+        "source_refs": {
+          "wikidata_qid": "Q7665089",
+          "wikidata_label": "Szymon Marciniak",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:pinheiro-joao",
@@ -6288,16 +6965,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1988-01-04",
+    "age": 38,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q79035126",
+        "source_refs": {
+          "wikidata_qid": "Q79035126",
+          "wikidata_label": "João Pinheiro",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
@@ -6338,16 +7037,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1987-10-14",
+    "age": 38,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q30043901",
+        "source_refs": {
+          "wikidata_qid": "Q30043901",
+          "wikidata_label": "Abdulrahman Al-Jassim",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:kovacs-istvan",
@@ -6388,16 +7109,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1984-09-16",
+    "age": 41,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q12731153",
+        "source_refs": {
+          "wikidata_qid": "Q12731153",
+          "wikidata_label": "István Kovács",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
@@ -6438,16 +7180,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1991-12-16",
+    "age": 34,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q124316815",
+        "source_refs": {
+          "wikidata_qid": "Q124316815",
+          "wikidata_label": "Abongile Tom",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
@@ -6488,16 +7251,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1991-01-27",
+    "age": 35,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q76824190",
+        "source_refs": {
+          "wikidata_qid": "Q76824190",
+          "wikidata_label": "Iván Barton",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
@@ -6538,16 +7322,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1992-01-01",
+    "age": 34,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q124171816",
+        "source_refs": {
+          "wikidata_qid": "Q124171816",
+          "wikidata_label": "Omar Artan",
+          "probe_confidence": "high",
+          "score": 90,
+          "score_reasons": [
+            "alias_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
@@ -6638,16 +7444,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1979-11-25",
+    "age": 46,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q18015244",
+        "source_refs": {
+          "wikidata_qid": "Q18015244",
+          "wikidata_label": "Slavko Vinčić",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:nyberg-glenn",
@@ -6688,16 +7515,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1988-10-12",
+    "age": 37,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q51154224",
+        "source_refs": {
+          "wikidata_qid": "Q51154224",
+          "wikidata_label": "Glenn Nyberg",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:omar-al-ali",
@@ -6738,16 +7587,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1988-02-16",
+    "age": 38,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q123476717",
+        "source_refs": {
+          "wikidata_qid": "Q123476717",
+          "wikidata_label": "Omar al-Ali",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:tejera-gustavo",
@@ -6788,16 +7658,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1988-01-20",
+    "age": 38,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q123570423",
+        "source_refs": {
+          "wikidata_qid": "Q123570423",
+          "wikidata_label": "Gustavo Tejera",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:elfath-ismail",
@@ -6838,16 +7730,37 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1982-03-03",
+    "age": 44,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q64211020",
+        "source_refs": {
+          "wikidata_qid": "Q64211020",
+          "wikidata_label": "Ismail Elfath",
+          "probe_confidence": "high",
+          "score": 85,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
@@ -6938,16 +7851,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1984-04-05",
+    "age": 42,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q20641545",
+        "source_refs": {
+          "wikidata_qid": "Q20641545",
+          "wikidata_label": "Ilgiz Tantashev",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:referee:valenzuela-jesus",
@@ -6988,16 +7923,38 @@
     "sample_status": "pending_match_assignment",
     "style_tags": [],
     "distillation_status": "insufficient_sample",
-    "date_of_birth": null,
-    "age": null,
+    "date_of_birth": "1983-11-24",
+    "age": 42,
     "identity_field_coverage": {
       "date_of_birth": "pending_source",
       "age": "pending_source"
     },
     "identity_field_sources": {
-      "date_of_birth": "pending_identity_source",
-      "age": "pending_identity_source"
-    }
+      "date_of_birth": "third_party_wikidata_identity",
+      "age": "third_party_wikidata_identity"
+    },
+    "external_identity_facts": [
+      {
+        "source_status": "third_party_wikidata_identity",
+        "source": "wikidata",
+        "source_url": "https://www.wikidata.org/wiki/Q65085830",
+        "source_refs": {
+          "wikidata_qid": "Q65085830",
+          "wikidata_label": "Jesús Valenzuela",
+          "probe_confidence": "high",
+          "score": 100,
+          "score_reasons": [
+            "name_match",
+            "referee_context",
+            "country_context",
+            "has_dob"
+          ],
+          "probe_report": "reports/wikidata_official_identity_probe_report.json"
+        },
+        "confidence": "high",
+        "updated_at": "2026-05-19T15:01:23Z"
+      }
+    ]
   },
   {
     "official_id": "official:fifa-world-cup:2026:video_match_official:mastrangelo-hernan",
