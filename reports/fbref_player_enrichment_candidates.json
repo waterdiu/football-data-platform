@@ -1,0 +1,1105 @@
+{
+  "generated_at": "2026-05-19T06:55:21.710858+00:00",
+  "scope": "fbref_player_enrichment_candidates",
+  "mode": "model_evaluation_candidates_only",
+  "production_write_allowed": false,
+  "normalized_write_allowed": false,
+  "public_write_allowed": false,
+  "source_report": "reports/fbref_worldcup_player_coverage_report.json",
+  "candidate_count": 31,
+  "excluded_count": 1,
+  "team_counts": {
+    "belgium": 7,
+    "cote-divoire": 3,
+    "france": 7,
+    "haiti": 2,
+    "japan": 3,
+    "sweden": 8,
+    "tunisia": 1
+  },
+  "usable_fields": [
+    "nineties",
+    "starts",
+    "goals",
+    "assists"
+  ],
+  "blocked_fields": [
+    "xg",
+    "xag",
+    "progressive_passes",
+    "tackles",
+    "interceptions"
+  ],
+  "promotion_gates": [
+    "manual_review_or_rule_review_of_name_match",
+    "confirm_source_policy_for_model_internal_use",
+    "decide whether candidates remain report-only or become model-only asset",
+    "do not publish to public API"
+  ],
+  "candidates": [
+    {
+      "player_id": "belgium:player:amadou-onana",
+      "team_id": "belgium",
+      "name": "Amadou Onana",
+      "position": "MF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "485706",
+        "reep_id": "reep_p7813ca1f",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Amadou Onana",
+        "squad": "Aston Villa",
+        "position": "MF",
+        "nineties": 19.3,
+        "starts": 21,
+        "goals": 2,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "belgium:player:jeremy-doku",
+      "team_id": "belgium",
+      "name": "Jeremy Doku",
+      "position": "FW",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "486049",
+        "reep_id": "reep_p6acb85fd",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Jeremy Doku",
+        "squad": "Manchester City",
+        "position": "MF,FW",
+        "nineties": 18.5,
+        "starts": 18,
+        "goals": 5,
+        "assists": 5
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "belgium:player:leandro-trossard",
+      "team_id": "belgium",
+      "name": "Leandro Trossard",
+      "position": "FW",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "144028",
+        "reep_id": "reep_p1eab9144",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Leandro Trossard",
+        "squad": "Arsenal",
+        "position": "FW,MF",
+        "nineties": 20.2,
+        "starts": 19,
+        "goals": 5,
+        "assists": 6
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "belgium:player:maxim-de-cuyper",
+      "team_id": "belgium",
+      "name": "Maxim De Cuyper",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "429915",
+        "reep_id": "reep_p56d81ec4",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Maxim De Cuyper",
+        "squad": "Brighton",
+        "position": "DF,MF",
+        "nineties": 14.2,
+        "starts": 15,
+        "goals": 2,
+        "assists": 3
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "belgium:player:senne-lammens",
+      "team_id": "belgium",
+      "name": "Senne Lammens",
+      "position": "GK",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "503883",
+        "reep_id": "reep_p0928d9ea",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Senne Lammens",
+        "squad": "Manchester Utd",
+        "position": "GK",
+        "nineties": 30.0,
+        "starts": 30,
+        "goals": 0,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "belgium:player:timothy-castagne",
+      "team_id": "belgium",
+      "name": "Timothy Castagne",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "262226",
+        "reep_id": "reep_p7eb9b15b",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Timothy Castagne",
+        "squad": "Fulham",
+        "position": "DF,MF",
+        "nineties": 18.5,
+        "starts": 18,
+        "goals": 0,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "belgium:player:youri-tielemans",
+      "team_id": "belgium",
+      "name": "Youri Tielemans",
+      "position": "MF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "249565",
+        "reep_id": "reep_p2b31811c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Youri Tielemans",
+        "squad": "Aston Villa",
+        "position": "MF",
+        "nineties": 18.5,
+        "starts": 19,
+        "goals": 0,
+        "assists": 4
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "cote-divoire:player:amad-diallo",
+      "team_id": "cote-divoire",
+      "name": "Amad Diallo",
+      "position": "FW",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "536835",
+        "reep_id": "reep_p1176a996",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Amad Diallo",
+        "squad": "Manchester Utd",
+        "position": "MF",
+        "nineties": 24.0,
+        "starts": 25,
+        "goals": 2,
+        "assists": 2
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "cote-divoire:player:emmanuel-agbadou",
+      "team_id": "cote-divoire",
+      "name": "Emmanuel Agbadou",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "683895",
+        "reep_id": "reep_pd0d38b00",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Emmanuel Agbadou",
+        "squad": "Wolves",
+        "position": "DF",
+        "nineties": 12.2,
+        "starts": 12,
+        "goals": 0,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "cote-divoire:player:simon-adingra",
+      "team_id": "cote-divoire",
+      "name": "Simon Adingra",
+      "position": "FW",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "658536",
+        "reep_id": "reep_pebae6838",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Simon Adingra",
+        "squad": "Sunderland",
+        "position": "MF,FW",
+        "nineties": 7.3,
+        "starts": 9,
+        "goals": 1,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "france:player:ibrahima-konate",
+      "team_id": "france",
+      "name": "Ibrahima Konate",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "357119",
+        "reep_id": "reep_p9870f2cf",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Ibrahima Konaté",
+        "squad": "Liverpool",
+        "position": "DF",
+        "nineties": 32.4,
+        "starts": 34,
+        "goals": 1,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "france:player:jean-philippe-mateta",
+      "team_id": "france",
+      "name": "Jean-Philippe Mateta",
+      "position": "FW",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "420002",
+        "reep_id": "reep_p8b5745c5",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Jean-Philippe Mateta",
+        "squad": "Crystal Palace",
+        "position": "FW",
+        "nineties": 23.2,
+        "starts": 24,
+        "goals": 10,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "france:player:lucas-digne",
+      "team_id": "france",
+      "name": "Lucas Digne",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "126664",
+        "reep_id": "reep_p53ba72d3",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Lucas Digne",
+        "squad": "Aston Villa",
+        "position": "DF",
+        "nineties": 19.4,
+        "starts": 20,
+        "goals": 0,
+        "assists": 5
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "france:player:malo-gusto",
+      "team_id": "france",
+      "name": "Malo Gusto",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "620322",
+        "reep_id": "reep_p122213e3",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Malo Gusto",
+        "squad": "Chelsea",
+        "position": "DF",
+        "nineties": 24.2,
+        "starts": 25,
+        "goals": 2,
+        "assists": 3
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "france:player:maxence-lacroix",
+      "team_id": "france",
+      "name": "Maxence Lacroix",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "434224",
+        "reep_id": "reep_p68ea4ce2",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Maxence Lacroix",
+        "squad": "Crystal Palace",
+        "position": "DF",
+        "nineties": 31.6,
+        "starts": 32,
+        "goals": 1,
+        "assists": 2
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "france:player:rayan-cherki",
+      "team_id": "france",
+      "name": "Rayan Cherki",
+      "position": "FW",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "607223",
+        "reep_id": "reep_pfbcc0b90",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Rayan Cherki",
+        "squad": "Manchester City",
+        "position": "MF",
+        "nineties": 19.0,
+        "starts": 19,
+        "goals": 4,
+        "assists": 11
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "france:player:william-saliba",
+      "team_id": "france",
+      "name": "William Saliba",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "495666",
+        "reep_id": "reep_p5cf1253c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "William Saliba",
+        "squad": "Arsenal",
+        "position": "DF",
+        "nineties": 27.0,
+        "starts": 28,
+        "goals": 1,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "haiti:player:jean-ricner-bellegarde",
+      "team_id": "haiti",
+      "name": "Jean-Ricner Bellegarde",
+      "position": "MF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "450050",
+        "reep_id": "reep_p29277eca",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Jean-Ricner Bellegarde",
+        "squad": "Wolves",
+        "position": "MF,FW",
+        "nineties": 13.7,
+        "starts": 15,
+        "goals": 1,
+        "assists": 1
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "haiti:player:wilson-isidor",
+      "team_id": "haiti",
+      "name": "Wilson Isidor",
+      "position": "FW",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "494237",
+        "reep_id": "reep_pfa298ab6",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Wilson Isidor",
+        "squad": "Sunderland",
+        "position": "FW",
+        "nineties": 12.5,
+        "starts": 11,
+        "goals": 5,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "japan:player:ao-tanaka",
+      "team_id": "japan",
+      "name": "Ao Tanaka",
+      "position": "MF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "489359",
+        "reep_id": "reep_pb4da3b62",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Ao Tanaka",
+        "squad": "Leeds United",
+        "position": "MF",
+        "nineties": 12.1,
+        "starts": 11,
+        "goals": 2,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "japan:player:daichi-kamada",
+      "team_id": "japan",
+      "name": "Daichi Kamada",
+      "position": "MF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "356141",
+        "reep_id": "reep_pbaad7d70",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Daichi Kamada",
+        "squad": "Crystal Palace",
+        "position": "MF",
+        "nineties": 18.5,
+        "starts": 19,
+        "goals": 0,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "japan:player:wataru-endo",
+      "team_id": "japan",
+      "name": "Wataru Endo",
+      "position": "MF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "146310",
+        "reep_id": "reep_p0994b6b6",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Wataru Endo",
+        "squad": "Liverpool",
+        "position": "DF",
+        "nineties": 1.9,
+        "starts": 1,
+        "goals": 0,
+        "assists": 1
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "sweden:player:alexander-isak",
+      "team_id": "sweden",
+      "name": "Alexander Isak",
+      "position": "FW",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "349066",
+        "reep_id": "reep_p87829862",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Alexander Isak",
+        "squad": "Liverpool",
+        "position": "FW",
+        "nineties": 7.8,
+        "starts": 8,
+        "goals": 3,
+        "assists": 1
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "sweden:player:anthony-elanga",
+      "team_id": "sweden",
+      "name": "Anthony Elanga",
+      "position": "FW",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "583189",
+        "reep_id": "reep_pa7e27407",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Anthony Elanga",
+        "squad": "Newcastle United",
+        "position": "FW,MF",
+        "nineties": 14.3,
+        "starts": 14,
+        "goals": 0,
+        "assists": 1
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "sweden:player:gabriel-gudmundsson",
+      "team_id": "sweden",
+      "name": "Gabriel Gudmundsson",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "362108",
+        "reep_id": "reep_pc1da9fc8",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Gabriel Gudmundsson",
+        "squad": "Leeds United",
+        "position": "DF,MF",
+        "nineties": 29.2,
+        "starts": 31,
+        "goals": 0,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "sweden:player:hjalmar-ekdal",
+      "team_id": "sweden",
+      "name": "Hjalmar Ekdal",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "392179",
+        "reep_id": "reep_pb080546c",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Hjalmar Ekdal",
+        "squad": "Burnley",
+        "position": "DF",
+        "nineties": 17.1,
+        "starts": 17,
+        "goals": 0,
+        "assists": 0
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "sweden:player:lucas-bergvall",
+      "team_id": "sweden",
+      "name": "Lucas Bergvall",
+      "position": "MF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "866246",
+        "reep_id": "reep_pb74fa577",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Lucas Bergvall",
+        "squad": "Tottenham Hotspur",
+        "position": "MF",
+        "nineties": 10.6,
+        "starts": 11,
+        "goals": 1,
+        "assists": 3
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "sweden:player:victor-lindelof",
+      "team_id": "sweden",
+      "name": "Victor Lindelof",
+      "position": "DF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "184573",
+        "reep_id": "reep_p707118f7",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Victor Lindelöf",
+        "squad": "Aston Villa",
+        "position": "DF",
+        "nineties": 8.4,
+        "starts": 8,
+        "goals": 0,
+        "assists": 1
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "sweden:player:viktor-gyokeres",
+      "team_id": "sweden",
+      "name": "Viktor Gyokeres",
+      "position": "FW",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "325443",
+        "reep_id": "reep_pa57b5f05",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Viktor Gyökeres",
+        "squad": "Arsenal",
+        "position": "FW",
+        "nineties": 23.4,
+        "starts": 25,
+        "goals": 14,
+        "assists": 1
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "sweden:player:yasin-ayari",
+      "team_id": "sweden",
+      "name": "Yasin Ayari",
+      "position": "MF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "667287",
+        "reep_id": "reep_pd056cb32",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Yasin Ayari",
+        "squad": "Brighton",
+        "position": "MF",
+        "nineties": 21.3,
+        "starts": 20,
+        "goals": 3,
+        "assists": 3
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    },
+    {
+      "player_id": "tunisia:player:hannibal-mejbri",
+      "team_id": "tunisia",
+      "name": "Hannibal Mejbri",
+      "position": "MF",
+      "source": "fbref_premier_league_player_stats_local_asset",
+      "source_status": "experimental_candidate",
+      "candidate_confidence": "review_ready",
+      "production_write_allowed": false,
+      "normalized_write_allowed": false,
+      "match_method": "normalized_exact_name",
+      "external_refs": {
+        "key_transfermarkt": "607224",
+        "reep_id": "reep_p5f64c365",
+        "person_id_map_confidence": "high",
+        "person_id_map_resolution_method": "name_unique"
+      },
+      "fbref": {
+        "player": "Hannibal Mejbri",
+        "squad": "Burnley",
+        "position": "MF",
+        "nineties": 11.4,
+        "starts": 12,
+        "goals": 1,
+        "assists": 3
+      },
+      "excluded_fields": {
+        "xg": "zero_only_in_current_asset",
+        "xag": "zero_only_in_current_asset",
+        "progressive_passes": "zero_only_in_current_asset",
+        "tackles": "zero_only_in_current_asset",
+        "interceptions": "zero_only_in_current_asset"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "player_id": "cote-divoire:player:ibrahim-sangare",
+      "name": "Ibrahim Sangare",
+      "team_id": "cote-divoire",
+      "reasons": [
+        "person_id_map_not_high_confidence"
+      ]
+    }
+  ]
+}

@@ -111,6 +111,7 @@ FBref live 抓取验证结果：
 - 这证明 FBref/英超资产对世界杯核心球员模型有补强价值，尤其是英超效力球员的出场时间、首发、进球、助攻、俱乐部位置。
 - 但当前本地 CSV 中 `xG/xAG/PrgP/Tkl/Int` 列全部为 0，不能当作真实高级能力输入；这些字段必须重新获取更完整 FBref 导出或保持 `null/zero_only_field`，不得把 0 解释为真实表现。
 - 当前匹配是 name-only，不能写 normalized/public；必须先完成 player_id 映射、歧义处理和来源策略审查。
+- 已新增候选集脚本 `scripts/build_fbref_player_enrichment_candidates.py`，输出 `reports/fbref_player_enrichment_candidates.json`。候选集只保留高置信 Transfermarkt/Reep 外部 ID、非歧义、且 `90s/Starts/Gls/Ast` 至少一项非零的球员；它只供模型侧评估是否值得接入，不进入 public API。
 
 ### 4.3 PPDA
 
