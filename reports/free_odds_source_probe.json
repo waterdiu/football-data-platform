@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T09:48:36.707650+00:00",
+  "generated_at": "2026-05-19T05:35:19.033119+00:00",
   "scope": "free_or_open_football_odds_sources",
   "live": true,
   "policy": {
@@ -29,25 +29,117 @@
       "homepage": "https://odds-api.io/",
       "docs_url": "https://docs.odds-api.io/",
       "auth_env": "ODDS_API_IO_KEY",
-      "free_tier": "100 requests/hour, 2 bookmakers according to public pricing page",
-      "soccer_coverage_claim": "football/soccer listed publicly; World Cup 2026 and Asian handicap coverage must be verified",
+      "free_tier": "REST free forever, no credit card, 100 requests/hour, 2 bookmakers according to public pricing page; WebSocket is a paid add-on and may have a separate 3-day free trial",
+      "soccer_coverage_claim": "football/soccer listed publicly; World Cup 2026 coverage must be verified",
       "markets_claimed": [
         "1x2",
-        "over_under"
+        "over_under",
+        "asian_handicap"
       ],
       "markets_unknown": [
-        "asian_handicap",
         "world_cup_2026"
       ],
       "production_gate": "Do not enter normalized until a live probe confirms World Cup or international football events plus bookmaker-level 1X2/OU/AH rows.",
-      "probe_status": "skipped_missing_key",
-      "live_probe_enabled": false,
+      "probe_status": "live_checked",
+      "live_probe_enabled": true,
       "production_classification": "probe_only",
       "market_verdict": {
-        "one_x_two": "claimed_or_unknown",
-        "over_under": "claimed_or_unknown",
-        "asian_handicap": "unknown",
+        "one_x_two": "observed",
+        "over_under": "observed",
+        "asian_handicap": "observed",
         "world_cup_2026": "unknown"
+      },
+      "events_probe": {
+        "http_status": 200,
+        "error": null,
+        "observed": {
+          "event_count": 10,
+          "bookmaker_count": 0,
+          "bookmakers_sample": [],
+          "market_keys": [],
+          "has_1x2": false,
+          "has_over_under": false,
+          "has_asian_handicap": false
+        }
+      },
+      "selected_event": {
+        "id": 71465134,
+        "home": "Turkmenistan",
+        "away": "Uzbekistan",
+        "date": "2026-05-19T07:30:00Z",
+        "status": "pending",
+        "sport": {
+          "name": "Football",
+          "slug": "football"
+        },
+        "league": {
+          "name": "International Youth - U20 Friendly Games",
+          "slug": "international-youth-u20-friendly-games"
+        }
+      },
+      "probe_bookmakers": [
+        "Sbobet",
+        "Bet365"
+      ],
+      "odds_probe": {
+        "http_status": 200,
+        "error": null,
+        "observed": {
+          "event_seen": true,
+          "event_id": 71465134,
+          "home": "Turkmenistan",
+          "away": "Uzbekistan",
+          "date": "2026-05-19T07:30:00Z",
+          "status": "pending",
+          "sport": {
+            "name": "Football",
+            "slug": "football"
+          },
+          "league": {
+            "name": "International Youth - U20 Friendly Games",
+            "slug": "international-youth-u20-friendly-games"
+          },
+          "bookmaker_count": 3,
+          "bookmakers_sample": [
+            "Bet365",
+            "Bet365 (no latency)",
+            "Sbobet"
+          ],
+          "market_names": [
+            "1st Half Handicap",
+            "Alternative Asian Handicap",
+            "Alternative Corners",
+            "Alternative Goal Line",
+            "Alternative Total Goals",
+            "Both Teams To Score",
+            "Both Teams To Score 2H",
+            "Both Teams To Score HT",
+            "Corners",
+            "Corners 2-Way",
+            "Corners Totals",
+            "Corners Totals HT",
+            "Correct Score",
+            "Double Chance",
+            "Draw No Bet",
+            "European Handicap",
+            "Exact Total Goals",
+            "Goals Over/Under",
+            "Half Time Result",
+            "ML",
+            "Number of Goals In Match",
+            "Specials",
+            "Spread",
+            "Spread HT",
+            "Team Total Goals Away",
+            "Team Total Goals Home",
+            "Total Corners",
+            "Totals",
+            "Totals HT"
+          ],
+          "has_1x2": true,
+          "has_over_under": true,
+          "has_asian_handicap": true
+        }
       }
     },
     {

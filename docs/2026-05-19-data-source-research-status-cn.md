@@ -163,7 +163,7 @@ FBref live 抓取验证结果：
 
 ### 5.3 Odds-API.io
 
-当前结论：需要用户申请 key 后才能 live 验证。
+当前结论：可作为 AH/OU 实验补源或低置信度补源；不能作为生产级赔率主源。
 
 需要的 key：
 
@@ -182,18 +182,18 @@ FBref live 抓取验证结果：
 
 必须验证：
 
-- 足球是否可用。
-- 是否有 World Cup / international football。
-- 是否有 AH。
-- 是否有 OU line 和 bookmaker 明细。
+- World Cup / international football 成年赛事是否可用。
 - 免费层具体可选哪 2 家 bookmaker，是否能选 Pinnacle/Bet365/Betfair 等关键书商。
-- 免费层是否能访问 World Cup / international football、AH 和 OU 的完整 line。
 - WebSocket 3 天试用是否只对 WebSocket add-on 生效，以及试用结束后 REST key 是否保持可用。
 
 当前状态：
 
-- 无 key，报告为 `skipped_missing_key`。
-- 在 live probe 前只能保持 `probe_only`。
+- 已用用户提供的 key live 验证 REST API。
+- 正确流程是先 `GET /v3/events?sport=football&status=pending,live&bookmaker=Sbobet` 获取 `eventId`，再 `GET /v3/odds?eventId=<id>&bookmakers=Sbobet,Bet365`。
+- 已验证一个待赛足球 event 返回 `ML`、`Spread`、`Totals`、`Alternative Asian Handicap`、`Alternative Goal Line`、`Goals Over/Under` 等 market。
+- `Spread` / `Alternative Asian Handicap` 可映射为 AH，`Totals` / `Goals Over/Under` 可映射为 OU。
+- 本次样本为 International Youth / U20 Friendly，不是 2026 World Cup；因此 `world_cup_2026` 仍是 unknown。
+- 免费层只有 2 个 selected bookmakers，当前建议选择 `Sbobet + Bet365`。这能补 AH/OU 缺口，但不足以支撑 market consensus、sharp/soft 分层、closing line value 或强 Kelly 结论。
 
 ### 5.4 雷速类
 

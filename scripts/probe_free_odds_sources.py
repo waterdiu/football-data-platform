@@ -90,6 +90,37 @@ def market_coverage_from_events(payload: object) -> dict[str, object]:
     }
 
 
+def summarize_odds_api_io_event(payload: object) -> dict[str, object]:
+    if not isinstance(payload, dict):
+        return {"event_seen": False}
+    bookmakers = payload.get("bookmakers") if isinstance(payload.get("bookmakers"), dict) else {}
+    bookmaker_names = sorted(str(name) for name in bookmakers.keys())
+    market_names: set[str] = set()
+    for markets in bookmakers.values():
+        if not isinstance(markets, list):
+            continue
+        for market in markets:
+            if isinstance(market, dict) and market.get("name"):
+                market_names.add(str(market["name"]))
+    normalized_market_names = {name.lower().replace(" ", "_").replace("-", "_") for name in market_names}
+    return {
+        "event_seen": True,
+        "event_id": payload.get("id"),
+        "home": payload.get("home"),
+        "away": payload.get("away"),
+        "date": payload.get("date"),
+        "status": payload.get("status"),
+        "sport": payload.get("sport"),
+        "league": payload.get("league"),
+        "bookmaker_count": len(bookmaker_names),
+        "bookmakers_sample": bookmaker_names[:10],
+        "market_names": sorted(market_names),
+        "has_1x2": any(name in normalized_market_names for name in ("ml", "moneyline", "match_winner")),
+        "has_over_under": any(name in normalized_market_names for name in ("over/under", "over_under", "totals")),
+        "has_asian_handicap": any(name in normalized_market_names for name in ("asian_handicap", "spread", "spreads")),
+    }
+
+
 def probe_odds_api_io(provider: dict, *, live: bool) -> dict:
     key = load_env_value(str(provider.get("auth_env") or ""))
     row = base_probe_row(provider, live=live)
@@ -105,13 +136,69 @@ def probe_odds_api_io(provider: dict, *, live: bool) -> dict:
     if not live or not key:
         return row
 
-    # Endpoint shape is intentionally isolated in probe code and must be
-    # confirmed before any provider adapter is promoted.
-    url = "https://api.odds-api.io/v3/odds?sport=football&apiKey=" + key
-    status, payload, error = fetch_json(url)
-    row["http_status"] = status
-    row["error"] = error
-    row["observed"] = market_coverage_from_events(payload)
+    bookmakers = provider.get("probe_bookmakers") or ["Sbobet", "Bet365"]
+    event_url = (
+        "https://api.odds-api.io/v3/events?apiKey="
+        + key
+        + "&sport=football&status=pending,live&bookmaker="
+        + str(bookmakers[0])
+        + "&limit=10"
+    )
+    status, payload, error = fetch_json(event_url)
+    row["events_probe"] = {
+        "http_status": status,
+        "error": error,
+        "observed": market_coverage_from_events(payload),
+    }
+    events = payload if isinstance(payload, list) else []
+    event = next(
+        (
+            item
+            for item in events
+            if isinstance(item, dict)
+            and item.get("id") is not None
+            and str(item.get("status") or "").lower() not in {"cancelled", "canceled", "finished", "ended"}
+        ),
+        None,
+    )
+    if event is None:
+        event = next((item for item in events if isinstance(item, dict) and item.get("id") is not None), None)
+    event_id = str(event["id"]) if isinstance(event, dict) and event.get("id") is not None else None
+    row["selected_event"] = {
+        key: event.get(key)
+        for key in ("id", "home", "away", "date", "status", "sport", "league")
+    } if isinstance(event, dict) else None
+    row["probe_bookmakers"] = bookmakers
+    if not event_id:
+        row["probe_status"] = "live_checked_no_events" if status and 200 <= status < 300 else "provider_error"
+        row["market_verdict"] = {
+            "one_x_two": "not_observed",
+            "over_under": "not_observed",
+            "asian_handicap": "not_observed",
+            "world_cup_2026": "unknown",
+        }
+        return row
+    odds_url = (
+        "https://api.odds-api.io/v3/odds?apiKey="
+        + key
+        + "&eventId="
+        + event_id
+        + "&bookmakers="
+        + ",".join(str(bookmaker) for bookmaker in bookmakers)
+    )
+    status, payload, error = fetch_json(odds_url)
+    row["odds_probe"] = {
+        "http_status": status,
+        "error": error,
+        "observed": summarize_odds_api_io_event(payload),
+    }
+    observed = row["odds_probe"]["observed"]
+    row["market_verdict"] = {
+        "one_x_two": "observed" if observed.get("has_1x2") else "not_observed",
+        "over_under": "observed" if observed.get("has_over_under") else "not_observed",
+        "asian_handicap": "observed" if observed.get("has_asian_handicap") else "not_observed",
+        "world_cup_2026": "unknown",
+    }
     row["probe_status"] = "live_checked" if status and 200 <= status < 300 else "provider_error"
     return row
 
