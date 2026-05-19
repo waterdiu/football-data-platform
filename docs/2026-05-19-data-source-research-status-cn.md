@@ -215,13 +215,18 @@ FBref live 抓取验证结果：
 
 ### 5.4 雷速类
 
-当前结论：旧代码层确认可解析赔率/比分字段，但没有找到可直接复用的当前维护项目，不能作为生产源。
+当前结论：雷速首页可匿名返回比赛列表和 match id；单场详情、数据页、情报页、赔率域 live 请求被 WAF / UA ACL 阻断，不能作为生产源。
 
 2026-05-19 复查：
 
 - GitHub repository search：`leisu football odds`、`雷速 足球 赔率`、`data.leisu.com odds`、`odds-3 leisu` 均未找到维护良好、能直接用于当前项目的 GitHub 源。
 - GitHub code search 对 `data.leisu.com odds`、`odds-3 leisu` 未返回可采信项目；部分搜索结果为无关博彩/赔率项目。
-- 因此不能把雷速描述为“已验证可抓取”。当前只能描述为“旧项目代码存在字段解析逻辑，但未完成 live 验证”。
+- live 验证：`https://www.leisu.com/` 返回 200，HTML 内可见足球比赛列表、比赛链接、球队图片、`live.leisu.com/detail-<match_id>`、`guide/swot-<match_id>`、`shujufenxi-<match_id>` 等字段，因此公开首页可作为 match discovery 的实验线索。
+- live 验证：`https://data.leisu.com/` 跳转到 `https://www.leisu.com/data` 后被阿里云 WAF 405 阻断。
+- live 验证：`https://odds.leisu.com/` 返回阿里云 WAF 405 阻断页。
+- live 验证：`https://live.leisu.com/detail-4498954` 和 `https://live.leisu.com/shujufenxi-4498954` 默认 curl 返回 `denied by UA ACL = not in whitelist` 并跳转 `h5.leisu.com/403`；模拟浏览器 UA 后返回阿里云 WAF JavaScript challenge，而不是实际比赛 JSON/HTML。
+- live 验证：`https://www.leisu.com/data/zuqiu/comp-542` 与 `https://www.leisu.com/guide/swot-4498954` 返回 WAF 405 或 challenge。
+- 因此雷速不能表述为“已验证可抓取赔率”。当前只能表述为“首页可发现比赛，详情/赔率/数据接口被 WAF 阻断，旧代码字段解析逻辑仅供理解”。
 
 已检查 GitHub 项目：
 
@@ -230,7 +235,7 @@ FBref live 抓取验证结果：
 | `psnewer/leisu` | Scrapy 旧项目 | `Match`：洲/国家/联赛/赛季/日期/主客队/比分；`Odds`：让球主/盘/客，标准主/平/客，大小球大/盘/小 | 旧 HTML 解析、无 license、非官方、未 live 跑通。 |
 | `guanrongjia/thor` | Selenium 旧项目 | free.leisu.com 页面比赛数据、完赛/进行中比分 | Python 2.7、ChromeDriver 73、2019 代码、页面型爬虫，维护成本高。 |
 
-注意：雷速当前仅完成 GitHub 仓库/代码层静态审查，未完成 live 请求验证。不能表述为“已验证可抓取”，只能表述为“旧项目代码中存在比分、1X2、让球、大小球字段解析逻辑”。后续如果继续验证，必须单独建立 `data/raw/experimental/leisu` probe，且不得进入 normalized/public。
+注意：雷速当前已经完成最小 live 请求验证，但验证结果是“首页可发现比赛，单场详情/赔率/数据接口被 WAF 阻断”。不能表述为“已验证可抓取赔率”，只能表述为“旧项目代码中存在比分、1X2、让球、大小球字段解析逻辑，且官网首页可提供 match discovery 线索”。后续如果继续验证，必须单独建立 `data/raw/experimental/leisu` probe，且不得进入 normalized/public。
 
 字段含义：
 
@@ -244,6 +249,7 @@ FBref live 抓取验证结果：
 - 老项目依赖过时 Selenium/Chromedriver/Python 2.7 或旧 Scrapy 页面结构。
 - 合规与稳定性风险高。
 - 未验证 2026 世界杯覆盖。
+- 真实单场数据/赔率 live 请求被 WAF/UA ACL 阻断，需要浏览器挑战 cookie 或逆向，不适合数据层生产采集。
 
 允许用途：
 

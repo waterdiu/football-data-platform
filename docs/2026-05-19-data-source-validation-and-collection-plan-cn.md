@@ -82,7 +82,7 @@
 | TheOddsAPI | `blocked_by_plan` | 免费只 NBA/MLB | 足球需 Business $99/月 | 只有正式做 AH/OU/CLV 再评估 |
 | API-FOOTBALL odds | `blocked_by_plan_current_free_key` | 当前 Free key 对 WC 2026 fixtures/odds 返回 plan restricted | 拿不到 sample fixture id，lineups/injuries/events/statistics 只能等套餐升级或比赛窗口后重验 | 若升级 Pro 或以上，重跑 `scripts/probe_api_football_worldcup_runtime.py` |
 | HKJC GraphQL / `hkjc-api` | `verified_experimental_blocked_live` | `Bobosky2005/hkjc-api` 为 MIT，README 与 GraphQL query 支持 `HAD`、`HHA/HDC`、`HIL`、`CRS`、running score、historic results | 直接 live 请求 `matches` / `matchResult` 当前返回 `WHITELIST_ERROR`；非官方 wrapper，合规条款仍需审查 | 暂不接生产；若继续只能建 `data/raw/experimental/hkjc` probe，并先解决白名单/条款问题 |
-| 雷速类 | `metadata_only_no_current_repo` | 旧项目代码有比分/1X2/AH/OU 字段解析；本次 GitHub exact search 未找到维护良好的当前项目 | 未 live 验证；逆向/页面/合规风险；无可靠维护源 | 仅如必要建立 raw experimental probe |
+| 雷速类 | `homepage_match_discovery_only` / `live_blocked_by_waf` | 官网首页可匿名返回足球比赛列表和 match id；旧项目代码有比分/1X2/AH/OU 字段解析 | 单场详情、数据页、情报页、赔率域 live 请求被 WAF / UA ACL 阻断；无可靠维护源；逆向/页面/合规风险 | 不接生产；仅如必要建立 raw experimental probe |
 
 ### 4.4 高级统计源验证矩阵
 
