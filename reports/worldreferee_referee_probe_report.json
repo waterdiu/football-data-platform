@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T13:12:20Z",
+  "generated_at": "2026-05-19T15:38:45Z",
   "status": "probe_only",
   "source": "WorldReferee",
   "source_url": "https://worldreferee.com/",
@@ -19,35 +19,35 @@
   "scope": {
     "requested_referees": 52,
     "limit": null,
-    "write_raw": false
+    "write_raw": true
   },
   "summary": {
-    "available": 52,
-    "unavailable": 0,
-    "match_rate": 1.0,
+    "available": 47,
+    "unavailable": 5,
+    "match_rate": 0.9038,
     "field_coverage": {
-      "matches": 41,
-      "competitions": 41,
-      "yellow_cards": 41,
-      "red_cards": 41,
+      "matches": 36,
+      "competitions": 36,
+      "yellow_cards": 36,
+      "red_cards": 36,
       "penalties": 32,
       "fouls": 29,
-      "active_years": 41
+      "active_years": 36
     },
     "field_coverage_rate": {
-      "matches": 0.7885,
-      "competitions": 0.7885,
-      "yellow_cards": 0.7885,
-      "red_cards": 0.7885,
-      "penalties": 0.6154,
-      "fouls": 0.5577,
-      "active_years": 0.7885
+      "matches": 0.766,
+      "competitions": 0.766,
+      "yellow_cards": 0.766,
+      "red_cards": 0.766,
+      "penalties": 0.6809,
+      "fouls": 0.617,
+      "active_years": 0.766
     },
-    "match_history_rows_total": 849
+    "match_history_rows_total": 724
   },
   "gap_summary": {
-    "matched_pages": 52,
-    "matched_with_stats": 41,
+    "matched_pages": 47,
+    "matched_with_stats": 36,
     "matched_without_stats": [
       {
         "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
@@ -453,13 +453,6 @@
           "url": "https://worldreferee.com/referee/yael_falcon_perez"
         },
         {
-          "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
-          "fifa_name": "RAMON ABATTI",
-          "association_code": "BRA",
-          "candidate_slug": "ramon_abatti",
-          "url": "https://worldreferee.com/referee/ramon_abatti"
-        },
-        {
           "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
           "fifa_name": "MA Ning",
           "association_code": "CHN",
@@ -488,13 +481,6 @@
           "url": "https://worldreferee.com/referee/alejandro_hernandez"
         },
         {
-          "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
-          "fifa_name": "MARTINEZ Hector Said",
-          "association_code": "HON",
-          "candidate_slug": "hector_said_martinez",
-          "url": "https://worldreferee.com/referee/hector_said_martinez"
-        },
-        {
           "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
           "fifa_name": "MARIANI Maurizio",
           "association_code": "ITA",
@@ -521,20 +507,6 @@
           "association_code": "MTN",
           "candidate_slug": "dahane_beida",
           "url": "https://worldreferee.com/referee/dahane_beida"
-        },
-        {
-          "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
-          "fifa_name": "KAWANA-WAUGH Campbell-Kirk",
-          "association_code": "NZL",
-          "candidate_slug": "campbellkirk_kawanawaugh",
-          "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh"
-        },
-        {
-          "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
-          "fifa_name": "BENITEZ Juan Gabriel",
-          "association_code": "PAR",
-          "candidate_slug": "juan_gabriel_benitez",
-          "url": "https://worldreferee.com/referee/juan_gabriel_benitez"
         },
         {
           "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
@@ -572,13 +544,6 @@
           "url": "https://worldreferee.com/referee/ivan_barton"
         },
         {
-          "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
-          "fifa_name": "ARTAN Omar Abdulkadir",
-          "association_code": "SOM",
-          "candidate_slug": "omar_abdulkadir_artan",
-          "url": "https://worldreferee.com/referee/omar_abdulkadir_artan"
-        },
-        {
           "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
           "fifa_name": "PENSO Tori",
           "association_code": "USA",
@@ -593,13 +558,6 @@
           "association_code": "ARG",
           "candidate_slug": "yael_falcon_perez",
           "url": "https://worldreferee.com/referee/yael_falcon_perez"
-        },
-        {
-          "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
-          "fifa_name": "RAMON ABATTI",
-          "association_code": "BRA",
-          "candidate_slug": "ramon_abatti",
-          "url": "https://worldreferee.com/referee/ramon_abatti"
         },
         {
           "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
@@ -637,13 +595,6 @@
           "url": "https://worldreferee.com/referee/pierre_atcho"
         },
         {
-          "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
-          "fifa_name": "MARTINEZ Hector Said",
-          "association_code": "HON",
-          "candidate_slug": "hector_said_martinez",
-          "url": "https://worldreferee.com/referee/hector_said_martinez"
-        },
-        {
           "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
           "fifa_name": "ARAKI Yusuke",
           "association_code": "JPN",
@@ -679,20 +630,6 @@
           "url": "https://worldreferee.com/referee/dahane_beida"
         },
         {
-          "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
-          "fifa_name": "KAWANA-WAUGH Campbell-Kirk",
-          "association_code": "NZL",
-          "candidate_slug": "campbellkirk_kawanawaugh",
-          "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh"
-        },
-        {
-          "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
-          "fifa_name": "BENITEZ Juan Gabriel",
-          "association_code": "PAR",
-          "candidate_slug": "juan_gabriel_benitez",
-          "url": "https://worldreferee.com/referee/juan_gabriel_benitez"
-        },
-        {
           "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
           "fifa_name": "ORTEGA Kevin",
           "association_code": "PER",
@@ -726,13 +663,6 @@
           "association_code": "SLV",
           "candidate_slug": "ivan_barton",
           "url": "https://worldreferee.com/referee/ivan_barton"
-        },
-        {
-          "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
-          "fifa_name": "ARTAN Omar Abdulkadir",
-          "association_code": "SOM",
-          "candidate_slug": "omar_abdulkadir_artan",
-          "url": "https://worldreferee.com/referee/omar_abdulkadir_artan"
         },
         {
           "official_id": "official:fifa-world-cup:2026:referee:omar-al-ali",
@@ -832,7 +762,7 @@
     "sample_readiness": {
       "sample_ge_20_report_explanation": {
         "threshold_matches": 20,
-        "ready_count": 30,
+        "ready_count": 25,
         "missing_count": 22,
         "ready": [
           {
@@ -866,14 +796,6 @@
             "candidate_slug": "raphael_claus",
             "url": "https://worldreferee.com/referee/raphael_claus",
             "sample_size_matches": 44
-          },
-          {
-            "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
-            "fifa_name": "RAMON ABATTI",
-            "association_code": "BRA",
-            "candidate_slug": "ramon_abatti",
-            "url": "https://worldreferee.com/referee/ramon_abatti",
-            "sample_size_matches": 884
           },
           {
             "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
@@ -932,14 +854,6 @@
             "sample_size_matches": 146
           },
           {
-            "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
-            "fifa_name": "MARTINEZ Hector Said",
-            "association_code": "HON",
-            "candidate_slug": "hector_said_martinez",
-            "url": "https://worldreferee.com/referee/hector_said_martinez",
-            "sample_size_matches": 884
-          },
-          {
             "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
             "fifa_name": "MARIANI Maurizio",
             "association_code": "ITA",
@@ -980,22 +894,6 @@
             "sample_size_matches": 46
           },
           {
-            "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
-            "fifa_name": "KAWANA-WAUGH Campbell-Kirk",
-            "association_code": "NZL",
-            "candidate_slug": "campbellkirk_kawanawaugh",
-            "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh",
-            "sample_size_matches": 884
-          },
-          {
-            "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
-            "fifa_name": "BENITEZ Juan Gabriel",
-            "association_code": "PAR",
-            "candidate_slug": "juan_gabriel_benitez",
-            "url": "https://worldreferee.com/referee/juan_gabriel_benitez",
-            "sample_size_matches": 884
-          },
-          {
             "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
             "fifa_name": "MARCINIAK Szymon",
             "association_code": "POL",
@@ -1018,14 +916,6 @@
             "candidate_slug": "istvan_kovacs",
             "url": "https://worldreferee.com/referee/istvan_kovacs",
             "sample_size_matches": 100
-          },
-          {
-            "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
-            "fifa_name": "ARTAN Omar Abdulkadir",
-            "association_code": "SOM",
-            "candidate_slug": "omar_abdulkadir_artan",
-            "url": "https://worldreferee.com/referee/omar_abdulkadir_artan",
-            "sample_size_matches": 884
           },
           {
             "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
@@ -1257,7 +1147,7 @@
       },
       "sample_ge_30_style_distillation": {
         "threshold_matches": 30,
-        "ready_count": 26,
+        "ready_count": 21,
         "missing_count": 26,
         "ready": [
           {
@@ -1283,14 +1173,6 @@
             "candidate_slug": "raphael_claus",
             "url": "https://worldreferee.com/referee/raphael_claus",
             "sample_size_matches": 44
-          },
-          {
-            "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
-            "fifa_name": "RAMON ABATTI",
-            "association_code": "BRA",
-            "candidate_slug": "ramon_abatti",
-            "url": "https://worldreferee.com/referee/ramon_abatti",
-            "sample_size_matches": 884
           },
           {
             "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
@@ -1341,14 +1223,6 @@
             "sample_size_matches": 146
           },
           {
-            "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
-            "fifa_name": "MARTINEZ Hector Said",
-            "association_code": "HON",
-            "candidate_slug": "hector_said_martinez",
-            "url": "https://worldreferee.com/referee/hector_said_martinez",
-            "sample_size_matches": 884
-          },
-          {
             "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
             "fifa_name": "MARIANI Maurizio",
             "association_code": "ITA",
@@ -1389,22 +1263,6 @@
             "sample_size_matches": 46
           },
           {
-            "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
-            "fifa_name": "KAWANA-WAUGH Campbell-Kirk",
-            "association_code": "NZL",
-            "candidate_slug": "campbellkirk_kawanawaugh",
-            "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh",
-            "sample_size_matches": 884
-          },
-          {
-            "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
-            "fifa_name": "BENITEZ Juan Gabriel",
-            "association_code": "PAR",
-            "candidate_slug": "juan_gabriel_benitez",
-            "url": "https://worldreferee.com/referee/juan_gabriel_benitez",
-            "sample_size_matches": 884
-          },
-          {
             "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
             "fifa_name": "MARCINIAK Szymon",
             "association_code": "POL",
@@ -1419,14 +1277,6 @@
             "candidate_slug": "istvan_kovacs",
             "url": "https://worldreferee.com/referee/istvan_kovacs",
             "sample_size_matches": 100
-          },
-          {
-            "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
-            "fifa_name": "ARTAN Omar Abdulkadir",
-            "association_code": "SOM",
-            "candidate_slug": "omar_abdulkadir_artan",
-            "url": "https://worldreferee.com/referee/omar_abdulkadir_artan",
-            "sample_size_matches": 884
           },
           {
             "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
@@ -1682,7 +1532,7 @@
       },
       "sample_ge_50_strong_model_signal": {
         "threshold_matches": 50,
-        "ready_count": 19,
+        "ready_count": 14,
         "missing_count": 33,
         "ready": [
           {
@@ -1692,14 +1542,6 @@
             "candidate_slug": "alireza_faghani",
             "url": "https://worldreferee.com/referee/alireza_faghani",
             "sample_size_matches": 132
-          },
-          {
-            "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
-            "fifa_name": "RAMON ABATTI",
-            "association_code": "BRA",
-            "candidate_slug": "ramon_abatti",
-            "url": "https://worldreferee.com/referee/ramon_abatti",
-            "sample_size_matches": 884
           },
           {
             "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
@@ -1750,14 +1592,6 @@
             "sample_size_matches": 146
           },
           {
-            "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
-            "fifa_name": "MARTINEZ Hector Said",
-            "association_code": "HON",
-            "candidate_slug": "hector_said_martinez",
-            "url": "https://worldreferee.com/referee/hector_said_martinez",
-            "sample_size_matches": 884
-          },
-          {
             "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
             "fifa_name": "MARIANI Maurizio",
             "association_code": "ITA",
@@ -1782,22 +1616,6 @@
             "sample_size_matches": 115
           },
           {
-            "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
-            "fifa_name": "KAWANA-WAUGH Campbell-Kirk",
-            "association_code": "NZL",
-            "candidate_slug": "campbellkirk_kawanawaugh",
-            "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh",
-            "sample_size_matches": 884
-          },
-          {
-            "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
-            "fifa_name": "BENITEZ Juan Gabriel",
-            "association_code": "PAR",
-            "candidate_slug": "juan_gabriel_benitez",
-            "url": "https://worldreferee.com/referee/juan_gabriel_benitez",
-            "sample_size_matches": 884
-          },
-          {
             "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
             "fifa_name": "MARCINIAK Szymon",
             "association_code": "POL",
@@ -1812,14 +1630,6 @@
             "candidate_slug": "istvan_kovacs",
             "url": "https://worldreferee.com/referee/istvan_kovacs",
             "sample_size_matches": 100
-          },
-          {
-            "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
-            "fifa_name": "ARTAN Omar Abdulkadir",
-            "association_code": "SOM",
-            "candidate_slug": "omar_abdulkadir_artan",
-            "url": "https://worldreferee.com/referee/omar_abdulkadir_artan",
-            "sample_size_matches": 884
           },
           {
             "official_id": "official:fifa-world-cup:2026:referee:vincic-slavko",
@@ -2427,7 +2237,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/mustapha_ghorbal.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:falcon-perez-yael",
@@ -2460,7 +2270,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/yael_falcon_perez.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:herrera-dario",
@@ -2781,7 +2591,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/dario_herrera.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:tello-facundo",
@@ -2981,7 +2791,7 @@
           "match_history_rows": 14
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/facundo_tello.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:faghani-alireza",
@@ -3302,7 +3112,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/alireza_faghani.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:claus-raphael",
@@ -3623,7 +3433,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/raphael_claus.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:ramon-abatti",
@@ -3632,7 +3442,7 @@
       "candidate_slug": "ramon_abatti",
       "url": "https://worldreferee.com/referee/ramon_abatti",
       "http_status": 200,
-      "probe_status": "available",
+      "probe_status": "invalid_candidate",
       "error": null,
       "parsed": {
         "page_title": "",
@@ -3689,9 +3499,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 8",
-            "home": "FC Midtjylland",
-            "away": "Fenerbahçe",
-            "result": "2-2 (1-1)",
+            "home": "Ajax",
+            "away": "Galatasaray",
+            "result": "2-1 (1-0)",
             "date": "2025-01-30",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -3700,9 +3510,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 8",
-            "home": "Ajax",
-            "away": "Galatasaray",
-            "result": "2-1 (1-0)",
+            "home": "FC Midtjylland",
+            "away": "Fenerbahçe",
+            "result": "2-2 (1-1)",
             "date": "2025-01-30",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -3744,9 +3554,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 6",
-            "home": "IF Elfsborg",
-            "away": "Qarabag",
-            "result": "1-0 (0-0)",
+            "home": "Rangers",
+            "away": "Tottenham",
+            "result": "1-1 (0-0)",
             "date": "2024-12-12",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -3755,9 +3565,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 6",
-            "home": "Rangers",
-            "away": "Tottenham",
-            "result": "1-1 (0-0)",
+            "home": "IF Elfsborg",
+            "away": "Qarabag",
+            "result": "1-0 (0-0)",
             "date": "2024-12-12",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -3909,9 +3719,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
-            "home": "Panevėžys",
-            "away": "Maccabi Tel Aviv",
-            "result": "1-2 (0-2)",
+            "home": "Petrocub",
+            "away": "The New Saints",
+            "result": "1-0 (1-0)",
             "date": "2024-08-06",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -3920,9 +3730,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
-            "home": "Petrocub",
-            "away": "The New Saints",
-            "result": "1-0 (1-0)",
+            "home": "Panevėžys",
+            "away": "Maccabi Tel Aviv",
+            "result": "1-2 (0-2)",
             "date": "2024-08-06",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -3940,7 +3750,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/ramon_abatti.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:wilton-sampaio",
@@ -4262,7 +4072,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/wilton_sampaio.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:fischer-drew",
@@ -4517,7 +4327,7 @@
           "match_history_rows": 19
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/drew_fischer.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:garay-cristian",
@@ -4640,7 +4450,7 @@
           "match_history_rows": 7
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/cristian_garay.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:ma-ning",
@@ -4673,7 +4483,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/ning_ma.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:rojas-andres",
@@ -4995,7 +4805,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/andres_rojas.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:calderon-juan",
@@ -5028,7 +4838,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/juan_calderon.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:mohamed-amin",
@@ -5061,7 +4871,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/amin_mohamed.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:oliver-michael",
@@ -5383,7 +5193,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/michael_oliver.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:taylor-anthony",
@@ -5704,7 +5514,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/anthony_taylor.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:hernandez-alejandro",
@@ -5754,7 +5564,7 @@
           "match_history_rows": 1
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/alejandro_hernandez.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:letexier-francois",
@@ -5888,50 +5698,6 @@
             "red_cards_visible": 0
           },
           {
-            "competition": "Comp 2018 2024",
-            "stage": "FINAL",
-            "home": "Spain",
-            "away": "England",
-            "result": "2-1 (0-0)",
-            "date": "2024-07-14",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "Comp 2018 2024",
-            "stage": "LAST_16",
-            "home": "Spain",
-            "away": "Georgia",
-            "result": "4-1 (1-1)",
-            "date": "2024-06-30",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "Comp 2018 2024",
-            "stage": "GROUP_STAGE",
-            "home": "Denmark",
-            "away": "Serbia",
-            "result": "0-0 (0-0)",
-            "date": "2024-06-25",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "Comp 2018 2024",
-            "stage": "GROUP_STAGE",
-            "home": "Croatia",
-            "away": "Albania",
-            "result": "2-2 (0-1)",
-            "date": "2024-06-19",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
             "competition": "UEFA Euro Championship 2024",
             "stage": "Final",
             "home": "Spain",
@@ -5967,6 +5733,50 @@
           {
             "competition": "UEFA Euro Championship 2024",
             "stage": "Group B - 2",
+            "home": "Croatia",
+            "away": "Albania",
+            "result": "2-2 (0-1)",
+            "date": "2024-06-19",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "FINAL",
+            "home": "Spain",
+            "away": "England",
+            "result": "2-1 (0-0)",
+            "date": "2024-07-14",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "LAST_16",
+            "home": "Spain",
+            "away": "Georgia",
+            "result": "4-1 (1-1)",
+            "date": "2024-06-30",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "GROUP_STAGE",
+            "home": "Denmark",
+            "away": "Serbia",
+            "result": "0-0 (0-0)",
+            "date": "2024-06-25",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "GROUP_STAGE",
             "home": "Croatia",
             "away": "Albania",
             "result": "2-2 (0-1)",
@@ -6075,7 +5885,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/francois_letexier.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:turpin-clement",
@@ -6397,7 +6207,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/clement_turpin.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:atcho-pierre",
@@ -6497,7 +6307,7 @@
           "match_history_rows": 5
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/pierre_atcho.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:zwayer-felix",
@@ -6819,7 +6629,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/felix_zwayer.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:martinez-hector-said",
@@ -6828,7 +6638,7 @@
       "candidate_slug": "hector_said_martinez",
       "url": "https://worldreferee.com/referee/hector_said_martinez",
       "http_status": 200,
-      "probe_status": "available",
+      "probe_status": "invalid_candidate",
       "error": null,
       "parsed": {
         "page_title": "",
@@ -6907,6 +6717,17 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 7",
+            "home": "Ludogorets",
+            "away": "FC Midtjylland",
+            "result": "0-2 (0-1)",
+            "date": "2025-01-23",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 7",
             "home": "Plzen",
             "away": "Anderlecht",
             "result": "2-0 (2-0)",
@@ -6921,17 +6742,6 @@
             "home": "Bodo/Glimt",
             "away": "Maccabi Tel Aviv",
             "result": "3-1 (1-1)",
-            "date": "2025-01-23",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 7",
-            "home": "Ludogorets",
-            "away": "FC Midtjylland",
-            "result": "0-2 (0-1)",
             "date": "2025-01-23",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -7072,6 +6882,17 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
+            "home": "FK Partizan",
+            "away": "FC Lugano",
+            "result": "0-1 (0-0)",
+            "date": "2024-08-08",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "3rd Qualifying Round",
             "home": "Molde",
             "away": "Cercle Brugge",
             "result": "3-0 (3-0)",
@@ -7086,17 +6907,6 @@
             "home": "UE Santa Coloma",
             "away": "Rīgas FS",
             "result": "0-2 (0-2)",
-            "date": "2024-08-08",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "3rd Qualifying Round",
-            "home": "FK Partizan",
-            "away": "FC Lugano",
-            "result": "0-1 (0-0)",
             "date": "2024-08-08",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -7136,7 +6946,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/hector_said_martinez.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:mariani-maurizio",
@@ -7455,7 +7265,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/maurizio_mariani.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:nation-oshane",
@@ -7688,7 +7498,7 @@
           "match_history_rows": 17
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/oshane_nation.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:makhadmeh-adham",
@@ -8010,7 +7820,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/adham_makhadmeh.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:araki-yusuke",
@@ -8209,7 +8019,7 @@
           "match_history_rows": 14
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/yusuke_araki.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:al-turais-khalid",
@@ -8242,7 +8052,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/khalid_al_turais.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:jayed-jalal",
@@ -8294,7 +8104,7 @@
           "match_history_rows": 1
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/jalal_jayed.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:garcia-katia",
@@ -8327,7 +8137,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/katia_garcia.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:ramos-cesar",
@@ -8648,7 +8458,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/cesar_ramos.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:beida-dahane",
@@ -8681,7 +8491,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/dahane_beida.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:makkelie-danny",
@@ -8782,28 +8592,6 @@
             "red_cards_visible": 0
           },
           {
-            "competition": "Comp 2018 2024",
-            "stage": "GROUP_STAGE",
-            "home": "Croatia",
-            "away": "Italy",
-            "result": "1-1 (0-0)",
-            "date": "2024-06-24",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "Comp 2018 2024",
-            "stage": "GROUP_STAGE",
-            "home": "Germany",
-            "away": "Hungary",
-            "result": "2-0 (1-0)",
-            "date": "2024-06-19",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
             "competition": "UEFA Euro Championship 2024",
             "stage": "Group B - 3",
             "home": "Croatia",
@@ -8817,6 +8605,28 @@
           {
             "competition": "UEFA Euro Championship 2024",
             "stage": "Group A - 2",
+            "home": "Germany",
+            "away": "Hungary",
+            "result": "2-0 (1-0)",
+            "date": "2024-06-19",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "GROUP_STAGE",
+            "home": "Croatia",
+            "away": "Italy",
+            "result": "1-1 (0-0)",
+            "date": "2024-06-24",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "GROUP_STAGE",
             "home": "Germany",
             "away": "Hungary",
             "result": "2-0 (1-0)",
@@ -9002,7 +8812,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/danny_makkelie.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:eskas-espen",
@@ -9323,7 +9133,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/espen_eskas.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:kawana-waugh-campbell-kirk",
@@ -9332,7 +9142,7 @@
       "candidate_slug": "campbellkirk_kawanawaugh",
       "url": "https://worldreferee.com/referee/campbellkirk_kawanawaugh",
       "http_status": 200,
-      "probe_status": "available",
+      "probe_status": "invalid_candidate",
       "error": null,
       "parsed": {
         "page_title": "",
@@ -9411,17 +9221,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 7",
-            "home": "Ludogorets",
-            "away": "FC Midtjylland",
-            "result": "0-2 (0-1)",
-            "date": "2025-01-23",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 7",
             "home": "Plzen",
             "away": "Anderlecht",
             "result": "2-0 (2-0)",
@@ -9436,6 +9235,17 @@
             "home": "Bodo/Glimt",
             "away": "Maccabi Tel Aviv",
             "result": "3-1 (1-1)",
+            "date": "2025-01-23",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 7",
+            "home": "Ludogorets",
+            "away": "FC Midtjylland",
+            "result": "0-2 (0-1)",
             "date": "2025-01-23",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -9466,17 +9276,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 5",
-            "home": "Ferencvarosi TC",
-            "away": "Malmo FF",
-            "result": "4-1 (2-1)",
-            "date": "2024-11-28",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 5",
             "home": "Nice",
             "away": "Rangers",
             "result": "1-4 (0-3)",
@@ -9491,6 +9290,17 @@
             "home": "Dynamo Kyiv",
             "away": "Plzen",
             "result": "1-2 (0-0)",
+            "date": "2024-11-28",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 5",
+            "home": "Ferencvarosi TC",
+            "away": "Malmo FF",
+            "result": "4-1 (2-1)",
             "date": "2024-11-28",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -9576,17 +9386,6 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
-            "home": "FK Partizan",
-            "away": "FC Lugano",
-            "result": "0-1 (0-0)",
-            "date": "2024-08-08",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "3rd Qualifying Round",
             "home": "Molde",
             "away": "Cercle Brugge",
             "result": "3-0 (3-0)",
@@ -9601,6 +9400,17 @@
             "home": "UE Santa Coloma",
             "away": "Rīgas FS",
             "result": "0-2 (0-2)",
+            "date": "2024-08-08",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "3rd Qualifying Round",
+            "home": "FK Partizan",
+            "away": "FC Lugano",
+            "result": "0-1 (0-0)",
             "date": "2024-08-08",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -9640,7 +9450,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/campbellkirk_kawanawaugh.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:benitez-juan-gabriel",
@@ -9649,7 +9459,7 @@
       "candidate_slug": "juan_gabriel_benitez",
       "url": "https://worldreferee.com/referee/juan_gabriel_benitez",
       "http_status": 200,
-      "probe_status": "available",
+      "probe_status": "invalid_candidate",
       "error": null,
       "parsed": {
         "page_title": "",
@@ -9816,9 +9626,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 4",
-            "home": "Bodo/Glimt",
-            "away": "Qarabag",
-            "result": "1-2 (1-1)",
+            "home": "Dynamo Kyiv",
+            "away": "Ferencvarosi TC",
+            "result": "0-4 (0-0)",
             "date": "2024-11-07",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -9827,9 +9637,9 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 4",
-            "home": "Dynamo Kyiv",
-            "away": "Ferencvarosi TC",
-            "result": "0-4 (0-0)",
+            "home": "Bodo/Glimt",
+            "away": "Qarabag",
+            "result": "1-2 (1-1)",
             "date": "2024-11-07",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -9957,7 +9767,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/juan_gabriel_benitez.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:ortega-kevin",
@@ -10041,7 +9851,7 @@
           "match_history_rows": 4
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/kevin_ortega.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:marciniak-szymon",
@@ -10188,28 +9998,6 @@
             "red_cards_visible": 0
           },
           {
-            "competition": "UEFA Euro Championship 2024",
-            "stage": "Round of 16",
-            "home": "Switzerland",
-            "away": "Italy",
-            "result": "2-0 (1-0)",
-            "date": "2024-06-29",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Euro Championship 2024",
-            "stage": "Group E - 2",
-            "home": "Belgium",
-            "away": "Romania",
-            "result": "2-0 (1-0)",
-            "date": "2024-06-22",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
             "competition": "Comp 2018 2024",
             "stage": "LAST_16",
             "home": "Switzerland",
@@ -10223,6 +10011,28 @@
           {
             "competition": "Comp 2018 2024",
             "stage": "GROUP_STAGE",
+            "home": "Belgium",
+            "away": "Romania",
+            "result": "2-0 (1-0)",
+            "date": "2024-06-22",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Euro Championship 2024",
+            "stage": "Round of 16",
+            "home": "Switzerland",
+            "away": "Italy",
+            "result": "2-0 (1-0)",
+            "date": "2024-06-29",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Euro Championship 2024",
+            "stage": "Group E - 2",
             "home": "Belgium",
             "away": "Romania",
             "result": "2-0 (1-0)",
@@ -10364,7 +10174,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/szymon_marciniak.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:pinheiro-joao",
@@ -10670,7 +10480,7 @@
           "match_history_rows": 24
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/joao_pinheiro.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:al-jassim-abdulrahman",
@@ -10703,7 +10513,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/abdulrahman_al_jassim.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:kovacs-istvan",
@@ -11025,7 +10835,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/istvan_kovacs.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:tom-abongile",
@@ -11058,7 +10868,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/abongile_tom.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:barton-ivan",
@@ -11091,7 +10901,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/ivan_barton.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:artan-omar-abdulkadir",
@@ -11100,7 +10910,7 @@
       "candidate_slug": "omar_abdulkadir_artan",
       "url": "https://worldreferee.com/referee/omar_abdulkadir_artan",
       "http_status": 200,
-      "probe_status": "available",
+      "probe_status": "invalid_candidate",
       "error": null,
       "parsed": {
         "page_title": "",
@@ -11212,6 +11022,17 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "League Stage - 6",
+            "home": "Rangers",
+            "away": "Tottenham",
+            "result": "1-1 (0-0)",
+            "date": "2024-12-12",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "League Stage - 6",
             "home": "IF Elfsborg",
             "away": "Qarabag",
             "result": "1-0 (0-0)",
@@ -11222,11 +11043,11 @@
           },
           {
             "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 6",
-            "home": "Rangers",
-            "away": "Tottenham",
-            "result": "1-1 (0-0)",
-            "date": "2024-12-12",
+            "stage": "League Stage - 5",
+            "home": "Ferencvarosi TC",
+            "away": "Malmo FF",
+            "result": "4-1 (2-1)",
+            "date": "2024-11-28",
             "cards_text": "",
             "yellow_cards_visible": 0,
             "red_cards_visible": 0
@@ -11255,11 +11076,11 @@
           },
           {
             "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 5",
-            "home": "Ferencvarosi TC",
-            "away": "Malmo FF",
-            "result": "4-1 (2-1)",
-            "date": "2024-11-28",
+            "stage": "League Stage - 4",
+            "home": "Bodo/Glimt",
+            "away": "Qarabag",
+            "result": "1-2 (1-1)",
+            "date": "2024-11-07",
             "cards_text": "",
             "yellow_cards_visible": 0,
             "red_cards_visible": 0
@@ -11270,17 +11091,6 @@
             "home": "Dynamo Kyiv",
             "away": "Ferencvarosi TC",
             "result": "0-4 (0-0)",
-            "date": "2024-11-07",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "League Stage - 4",
-            "home": "Bodo/Glimt",
-            "away": "Qarabag",
-            "result": "1-2 (1-1)",
             "date": "2024-11-07",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -11344,6 +11154,17 @@
           {
             "competition": "UEFA Europa League 2024",
             "stage": "3rd Qualifying Round",
+            "home": "UE Santa Coloma",
+            "away": "Rīgas FS",
+            "result": "0-2 (0-2)",
+            "date": "2024-08-08",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "UEFA Europa League 2024",
+            "stage": "3rd Qualifying Round",
             "home": "FK Partizan",
             "away": "FC Lugano",
             "result": "0-1 (0-0)",
@@ -11358,17 +11179,6 @@
             "home": "Molde",
             "away": "Cercle Brugge",
             "result": "3-0 (3-0)",
-            "date": "2024-08-08",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "UEFA Europa League 2024",
-            "stage": "3rd Qualifying Round",
-            "home": "UE Santa Coloma",
-            "away": "Rīgas FS",
-            "result": "0-2 (0-2)",
             "date": "2024-08-08",
             "cards_text": "",
             "yellow_cards_visible": 0,
@@ -11408,7 +11218,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/omar_abdulkadir_artan.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:schaerer-sandro",
@@ -11729,7 +11539,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/sandro_schaerer.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:vincic-slavko",
@@ -11885,39 +11695,6 @@
             "red_cards_visible": 0
           },
           {
-            "competition": "Comp 2018 2024",
-            "stage": "SEMI_FINALS",
-            "home": "Spain",
-            "away": "France",
-            "result": "2-1 (2-1)",
-            "date": "2024-07-09",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "Comp 2018 2024",
-            "stage": "GROUP_STAGE",
-            "home": "Spain",
-            "away": "Italy",
-            "result": "1-0 (0-0)",
-            "date": "2024-06-20",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "Comp 2018 2024",
-            "stage": "GROUP_STAGE",
-            "home": "Hungary",
-            "away": "Switzerland",
-            "result": "1-3 (0-2)",
-            "date": "2024-06-15",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
             "competition": "UEFA Euro Championship 2024",
             "stage": "Semi-finals",
             "home": "Spain",
@@ -11942,6 +11719,39 @@
           {
             "competition": "UEFA Euro Championship 2024",
             "stage": "Group A - 1",
+            "home": "Hungary",
+            "away": "Switzerland",
+            "result": "1-3 (0-2)",
+            "date": "2024-06-15",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "SEMI_FINALS",
+            "home": "Spain",
+            "away": "France",
+            "result": "2-1 (2-1)",
+            "date": "2024-07-09",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "GROUP_STAGE",
+            "home": "Spain",
+            "away": "Italy",
+            "result": "1-0 (0-0)",
+            "date": "2024-06-20",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "GROUP_STAGE",
             "home": "Hungary",
             "away": "Switzerland",
             "result": "1-3 (0-2)",
@@ -12050,7 +11860,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/slavko_vincic.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:nyberg-glenn",
@@ -12184,39 +11994,6 @@
             "red_cards_visible": 0
           },
           {
-            "competition": "Comp 2018 2024",
-            "stage": "LAST_16",
-            "home": "France",
-            "away": "Belgium",
-            "result": "1-0 (0-0)",
-            "date": "2024-07-01",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "Comp 2018 2024",
-            "stage": "GROUP_STAGE",
-            "home": "Albania",
-            "away": "Spain",
-            "result": "0-1 (0-1)",
-            "date": "2024-06-24",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
-            "competition": "Comp 2018 2024",
-            "stage": "GROUP_STAGE",
-            "home": "Romania",
-            "away": "Ukraine",
-            "result": "3-0 (1-0)",
-            "date": "2024-06-17",
-            "cards_text": "",
-            "yellow_cards_visible": 0,
-            "red_cards_visible": 0
-          },
-          {
             "competition": "UEFA Euro Championship 2024",
             "stage": "Round of 16",
             "home": "France",
@@ -12241,6 +12018,39 @@
           {
             "competition": "UEFA Euro Championship 2024",
             "stage": "Group E - 1",
+            "home": "Romania",
+            "away": "Ukraine",
+            "result": "3-0 (1-0)",
+            "date": "2024-06-17",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "LAST_16",
+            "home": "France",
+            "away": "Belgium",
+            "result": "1-0 (0-0)",
+            "date": "2024-07-01",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "GROUP_STAGE",
+            "home": "Albania",
+            "away": "Spain",
+            "result": "0-1 (0-1)",
+            "date": "2024-06-24",
+            "cards_text": "",
+            "yellow_cards_visible": 0,
+            "red_cards_visible": 0
+          },
+          {
+            "competition": "Comp 2018 2024",
+            "stage": "GROUP_STAGE",
             "home": "Romania",
             "away": "Ukraine",
             "result": "3-0 (1-0)",
@@ -12371,7 +12181,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/glenn_nyberg.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:omar-al-ali",
@@ -12569,7 +12379,7 @@
           "match_history_rows": 14
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/omar_al_ali.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:tejera-gustavo",
@@ -12656,7 +12466,7 @@
           "match_history_rows": 4
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/gustavo_tejera.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:elfath-ismail",
@@ -12978,7 +12788,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/ismail_elfath.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:penso-tori",
@@ -13011,7 +12821,7 @@
           "match_history_rows": 0
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/tori_penso.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:tantashev-ilgiz",
@@ -13332,7 +13142,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/ilgiz_tantashev.html"
     },
     {
       "official_id": "official:fifa-world-cup:2026:referee:valenzuela-jesus",
@@ -13653,7 +13463,7 @@
           "match_history_rows": 25
         }
       },
-      "raw_html_path": null
+      "raw_html_path": "data/raw/experimental/referee_sources/worldreferee/jesus_valenzuela.html"
     }
   ]
 }

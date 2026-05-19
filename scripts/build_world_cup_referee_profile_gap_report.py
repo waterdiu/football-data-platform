@@ -224,6 +224,30 @@ def build_worldreferee_candidate(row: dict[str, Any] | None) -> dict[str, Any]:
             "status": "missing_probe",
             "policy": "WorldReferee is experimental/probe-only and must not be published to normalized/public without legal/stability review.",
         }
+    if row.get("probe_status") != "available":
+        return {
+            "status": row.get("probe_status") or "unavailable",
+            "source": "WorldReferee",
+            "url": row.get("url"),
+            "candidate_slug": row.get("candidate_slug"),
+            "sample_size": 0,
+            "metrics": {},
+            "sample_gate": sample_gate(0),
+            "available_metric_count": 0,
+            "missing_metrics": [
+                "matches",
+                "competitions",
+                "yellow_cards",
+                "yellow_cards_per_match",
+                "red_cards",
+                "red_cards_per_match",
+                "penalties",
+                "penalties_per_match",
+                "fouls",
+                "active_years",
+            ],
+            "policy": "experimental_report_only; invalid or unavailable WorldReferee candidate pages must not be promoted.",
+        }
 
     parsed = row.get("parsed") if isinstance(row.get("parsed"), dict) else {}
     stats = parsed.get("stats") if isinstance(parsed.get("stats"), dict) else {}

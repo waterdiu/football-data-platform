@@ -170,6 +170,16 @@ def parse_page(html: str) -> dict[str, object]:
     }
 
 
+def is_valid_referee_page(parsed: dict[str, object]) -> bool:
+    title = str(parsed.get("page_title") or "").strip()
+    canonical = str(parsed.get("canonical_url") or "").rstrip("/")
+    if not title:
+        return False
+    if canonical == BASE_URL:
+        return False
+    return True
+
+
 def source_rows(limit: int | None) -> list[dict]:
     officials = ensure_list(load_json(OFFICIALS_PATH), "world_cup_2026_match_officials_master.json")
     referees = [row for row in officials if row.get("role") == "referee"]
@@ -196,6 +206,8 @@ def probe_referee(referee: dict, *, write_raw: bool) -> dict:
         return row
     parsed = parse_page(html)
     row["parsed"] = parsed
+    if not is_valid_referee_page(parsed):
+        row["probe_status"] = "invalid_candidate"
     if write_raw:
         RAW_DIR.mkdir(parents=True, exist_ok=True)
         raw_path = RAW_DIR / f"{slug}.html"
